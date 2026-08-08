@@ -14,5 +14,13 @@ output/
 *.pdf
 *.png
 !assets/templates/**/preview.png
+!assets/templates/**/*.pptx
+!assets/templates/**/*.png
+!examples/sci02jitc/SCI02JITC.pdf
+!examples/sci02jitc/assets/**/*.png
+!examples/sci02jitc/output/*.pptx
+!examples/sci02jitc/output/*.pdf
+!examples/sci02jitc/output/*.png
+!evals/previews/**/*.pptx
+!evals/previews/**/*.png
 .env
-
