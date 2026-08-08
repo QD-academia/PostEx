@@ -32,9 +32,9 @@ dev = ["pytest>=8.2", "pytest-cov>=5.0", "ruff>=0.6", "mypy>=1.11"]
 postex = "postex.cli:main"
 
 [project.urls]
-Documentation = "https://github.com/postex-project/postex/tree/main/docs"
-Issues = "https://github.com/postex-project/postex/issues"
-Source = "https://github.com/postex-project/postex"
+Documentation = "https://github.com/QD-academia/PostEx/tree/main/docs"
+Issues = "https://github.com/QD-academia/PostEx/issues"
+Source = "https://github.com/QD-academia/PostEx"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/postex"]
