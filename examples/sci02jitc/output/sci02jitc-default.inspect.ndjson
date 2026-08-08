@@ -1,0 +1,89 @@
+{"kind":"slide","id":"sl/vyje6q","slide":1,"title":"A signature for pan-cancer prognosis","textShapes":57}
+{"kind":"shape","id":"sh/p4fy1g7u","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/2hofql8j","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/32xgzqp4","slide":1,"name":"poster-title","text":"A signature for pan-cancer prognosis\nbased on neutrophil extracellular traps","textPreview":"A signature for pan-cancer prognosis | based on neutrophil extracellular traps","textChars":76,"textLines":2,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/c7qxwvql","slide":1,"name":"authors","text":"Yi Zhang, Liping Guo, Qichen Dai, Bingqing Shang, Ting Xiao, Xuebing Di, Kaitai Zhang, Lin Feng, Jianzhong Shou & Yipeng Wang","textPreview":"Yi Zhang, Liping Guo, Qichen Dai, Bingqing Shang, Ting Xiao, Xuebing Di, Kaitai Zhang, Lin Feng, Jianzhong Shou & Yipeng Wang","textChars":125,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/d8zy5076","slide":1,"name":"affiliations","text":"National Cancer Center / Cancer Hospital, CAMS & PUMC · Peking University People's Hospital · collaborating centers","textPreview":"National Cancer Center / Cancer Hospital, CAMS & PUMC · Peking University People's Hospital · collaborating centers","textChars":115,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/q5oful8f","slide":1,"name":"citation","text":"J Immunother Cancer 2022 · DOI 10.1136/jitc-2021-004210","textPreview":"J Immunother Cancer 2022 · DOI 10.1136/jitc-2021-004210","textChars":55,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/b6xg3qp0","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/0bqh0fqh","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/lczy9072","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/lkr2loja","slide":1,"name":"header-metric-1-value","text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/0zilcjip","slide":1,"name":"header-metric-1-label","text":"genes in the NETs signature","textPreview":"genes in the NETs signature","textChars":27,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/zy9kje14","slide":1,"name":"header-metric-2-value","text":"8,739","textPreview":"8,739","textChars":5,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/yxg3at0j","slide":1,"name":"header-metric-2-label","text":"TCGA pan-cancer cases","textPreview":"TCGA pan-cancer cases","textChars":21,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/9or2p8j6","slide":1,"name":"header-metric-3-value","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/8nilg3il","slide":1,"name":"header-metric-3-label","text":"IHC validation cohorts","textPreview":"IHC validation cohorts","textChars":22,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/nm9kny10","slide":1,"name":"question-title","text":"Why NETs?","textPreview":"Why NETs?","textChars":9,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/ml03et0v","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/ps72d4j2","slide":1,"name":"research-question","text":"Neutrophil extracellular traps (NETs) can support tumor progression and dissemination. The study asked whether transcriptomic NETs-formation potential could stratify prognosis across cancer types.","textPreview":"Neutrophil extracellular traps (NETs) can support tumor progression and dissemination. The study asked whether transcriptomic NETs-format...","textChars":196,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/oryl4zih","slide":1,"name":"question-evidence","text":"Evidence: Abstract and Introduction, pp. 1-2","textPreview":"Evidence: Abstract and Introduction, pp. 1-2","textChars":44,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/gb2l0zad","slide":1,"name":"pipeline-title","text":"Model construction","textPreview":"Model construction","textChars":18,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/hcb2t4ry","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/u903y9s7","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/fa9kre9s","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/4z2l4jq9","slide":1,"name":"pipeline-1-text","text":"69 initial NETs biomarkers","textPreview":"69 initial NETs biomarkers","textChars":26,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/p0bmxoru","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/2dk329s3","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/3etkve9o","slide":1,"name":"pipeline-2-text","text":"LASSO retained 24 genes","textPreview":"LASSO retained 24 genes","textChars":23,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/c3ml8jql","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/d4vm1or6","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/7ahwnmxk","slide":1,"name":"pipeline-3-text","text":"Correlation pruning removed 5 genes","textPreview":"Correlation pruning removed 5 genes","textChars":35,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/m98fehgz","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/9czepwfa","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/8bqxgrep","slide":1,"name":"pipeline-4-text","text":"19-gene Cox-derived NETs score","textPreview":"19-gene Cox-derived NETs score","textChars":30,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/z6xwjmx8","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/y5ofahgn","slide":1,"name":"dataset-kicker","text":"DATA FOUNDATION","textPreview":"DATA FOUNDATION","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/l8zelcfe","slide":1,"name":"datasets","text":"TCGA: n=8,739, 32 tumor types\nTraining: n=6,117 · Test: n=2,622\nCGGA: n=651 · METABRIC: n=1,868 · GEO: n=2,459\nIHC: LUAD n=58 · COAD n=93 · KIRC n=90 · TNBC n=80","textPreview":"TCGA: n=8,739, 32 tumor types | Training: n=6,117 · Test: n=2,622 | CGGA: n=651 · METABRIC: n=1,868 · GEO: n=2,459 | IHC: LUAD n=58 · COA...","textChars":161,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/k76xc7yt","slide":1,"name":"dataset-evidence","text":"Evidence: Methods, pp. 2-3","textPreview":"Evidence: Methods, pp. 2-3","textChars":26,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/j21gf6xc","slide":1,"name":"figure-one-heading-title","text":"From biomarkers to signature","textPreview":"From biomarkers to signature","textChars":28,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/i1sfm1w7","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/qp8ja5cb","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"textbox","id":"sh/srq1cfuh","slide":1,"name":"figure-one-caption","text":"Figure 1 · Construction of the pan-cancer NETs signature","textPreview":"Figure 1 · Construction of the pan-cancer NETs signature","textChars":56,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/dszil0b2","slide":1,"name":"figure-one-source","text":"Source paper, p. 4 · original colors locked","textPreview":"Source paper, p. 4 · original colors locked","textChars":43,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/iloj6lcf","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/3mh0fqtk","slide":1,"name":"central-takeaway-title","text":"Higher NETs score identified patients with poorer survival","textPreview":"Higher NETs score identified patients with poorer survival","textChars":58,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/4nq18vu5","slide":1,"name":"central-takeaway-subtitle","text":"Worse DSS, OS and PFI across most cancer types","textPreview":"Worse DSS, OS and PFI across most cancer types","textChars":46,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/5ozih0bq","slide":1,"name":"takeaway-evidence","text":"Evidence: Results, p. 4; Figure 2","textPreview":"Evidence: Results, p. 4; Figure 2","textChars":33,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/2hsjipcj","slide":1,"name":"figure-two-heading-title","text":"Pan-cancer prognostic performance","textPreview":"Pan-cancer prognostic performance","textChars":33,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/ni10rut4","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/xc3mhov6","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"textbox","id":"sh/bal4fed0","slide":1,"name":"figure-two-caption","text":"Figure 2 · NETs score distribution and survival performance","textPreview":"Figure 2 · NETs score distribution and survival performance","textChars":59,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/a9c369wf","slide":1,"name":"figure-two-source","text":"Source paper, p. 5 · original colors locked","textPreview":"Source paper, p. 5 · original colors locked","textChars":43,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/p83md4va","slide":1,"name":"validation-heading-title","text":"Independent and external validation","textPreview":"Independent and external validation","textChars":35,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/o7ul4zep","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/nmlkbed4","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/2lc329wj","slide":1,"name":"validation","text":"• TCGA test cohort: OS HR=1.22, p=0.0070 after adjustment for cancer type.\n• External cohorts supported prognostic value in glioma and LUAD.\n• Results were not consistent in breast cancer (7/8 cohorts non-significant) or LUSC.\n• Tumor-type context remains essential for interpretation.","textPreview":"• TCGA test cohort: OS HR=1.22, p=0.0070 after adjustment for cancer type. | • External cohorts supported prognostic value in glioma and ...","textChars":285,"textLines":4,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/947mp8ve","slide":1,"name":"validation-evidence","text":"Evidence: Results, pp. 4-6","textPreview":"Evidence: Results, pp. 4-6","textChars":26,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/83elg3ut","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/snm5c725","slide":1,"name":"performance-strip-text","text":"Nomogram AUC improved: 0.700→0.726 (train) · 0.661→0.718 (test)","textPreview":"Nomogram AUC improved: 0.700→0.726 (train) · 0.661→0.718 (test)","textChars":63,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/tof6lc3q","slide":1,"name":"biology-heading-title","text":"Malignant biology","textPreview":"Malignant biology","textChars":17,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/6l4naxkz","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/rmdoj2lk","slide":1,"name":"biology-1-value","text":"R=0.7444","textPreview":"R=0.7444","textChars":8,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/4jm5872t","slide":1,"name":"biology-1-label","text":"Epithelial-mesenchymal transition","textPreview":"Epithelial-mesenchymal transition","textChars":33,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/5kv6hc3e","slide":1,"name":"biology-2-value","text":"R=0.5369","textPreview":"R=0.5369","textChars":8,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/ih4n6xk3","slide":1,"name":"biology-2-label","text":"Angiogenesis","textPreview":"Angiogenesis","textChars":12,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/jidof2l8","slide":1,"name":"biology-3-value","text":"R=0.3835","textPreview":"R=0.3835","textChars":8,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/wf254n2x","slide":1,"name":"biology-3-label","text":"Cell cycle","textPreview":"Cell cycle","textChars":10,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/hgb6ds3i","slide":1,"name":"biology-evidence","text":"All correlations p<0.0001 · Results, p. 6","textPreview":"All correlations p<0.0001 · Results, p. 6","textChars":41,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/zqtoni54","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"textbox","id":"sh/lcb6psna","slide":1,"name":"figure-three-caption","text":"Figure 5 · NETs activity aligns with aggressive tumor programs","textPreview":"Figure 5 · NETs activity aligns with aggressive tumor programs","textChars":62,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/0r2pwn6p","slide":1,"name":"figure-three-source","text":"Source paper, p. 8 · original colors locked","textPreview":"Source paper, p. 8 · original colors locked","textChars":43,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/netor25g","slide":1,"name":"validation-visual-heading-title","text":"Clinical IHC validation","textPreview":"Clinical IHC validation","textChars":23,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/mdk7yxov","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/9gb6tsn6","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"textbox","id":"sh/vidov25c","slide":1,"name":"figure-four-caption","text":"Figure 6 · MPO stratified outcomes in COAD, KIRC and LUAD, not TNBC","textPreview":"Figure 6 · MPO stratified outcomes in COAD, KIRC and LUAD, not TNBC","textChars":67,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/uh472xor","slide":1,"name":"figure-four-source","text":"Source paper, p. 9 · original colors locked","textPreview":"Source paper, p. 9 · original colors locked","textChars":43,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/ipkbq1kb","slide":1,"name":"conclusion-heading-title","text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/3qtsj61g","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/4r2tsb21","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/5sbalwjm","slide":1,"name":"conclusion","text":"A 19-gene transcriptomic signature captured clinically relevant NETs-formation potential, prognosis and malignant biology across cancers.\n\nLimitations: few NETs markers, limited cancer-specific IHC cohorts and insufficient H3Cit positivity; broader multi-marker validation is required.","textPreview":"A 19-gene transcriptomic signature captured clinically relevant NETs-formation potential, prognosis and malignant biology across cancers....","textChars":285,"textLines":3,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/qtkbu1k7","slide":1,"name":"conclusion-evidence","text":"Evidence: Discussion and Conclusions, p. 10","textPreview":"Evidence: Discussion and Conclusions, p. 10","textChars":43,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/rutsn61s","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/sv2twb2d","slide":1,"name":"footer-source","text":"Zhang et al. J Immunother Cancer. 2022;10:e004210 · CC BY-NC · traceable paraphrase","textPreview":"Zhang et al. J Immunother Cancer. 2022;10:e004210 · CC BY-NC · traceable paraphrase","textChars":83,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/dwvapgjy","slide":1,"name":"footer-status","text":"Approvals current · scientific figure colors locked","textPreview":"Approvals current · scientific figure colors locked","textChars":51,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"image","id":"im/4nit0bul","slide":1,"name":"","alt":"Figure 1: LASSO and Cox construction of the 19-gene NETs signature","bbox":[160,1935,1180,942]}
+{"kind":"image","id":"im/j2l8v29g","slide":1,"name":"","alt":"Figure 2: prognostic performance of the 19-gene NETs score","bbox":[1440,1015,1395,1237]}
+{"kind":"image","id":"im/5cb2x0nq","slide":1,"name":"","alt":"Figure 5: correlations between NETs score and malignant tumor features","bbox":[2935,985,1399,622]}
+{"kind":"image","id":"im/7edkza5w","slide":1,"name":"","alt":"Figure 6: immunohistochemical validation of MPO across four cohorts","bbox":[2935,1845,1399,652]}
+{"kind":"notes","id":"nt/vyje6q","slide":1,"text":"[Sources]\n- /Users/qichen_dai/Documents/Codex/2026-08-06/referenced-chatgpt-conversation-this-is-an/outputs/postex-v0.1/examples/sci02jitc/SCI02JITC.pdf\n- 10.1136/jitc-2021-004210\n- palette approval sha256:1046a396ac28389a2a39c7e93d6002ca6ac6a0ed54ef043f014da5e74439d63a\n- deletion approval sha256:3f7de758a1ffc62f53bc50fab271cc5b41c4fc956f05dcfbf25609acd0309c88\n[/Sources]"}

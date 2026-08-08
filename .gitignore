@@ -10,6 +10,7 @@ build/
 *.egg-info/
 .DS_Store
 output/
+!examples/sci02jitc/output/
 *.pptx
 *.pdf
 *.png
