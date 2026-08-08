@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "source": "AURORA-12-synthetic-manuscript.pdf",
+  "source_doi": "",
+  "source_id": "POSTEX-SYNTH-2026-001",
+  "records": [
+    {"evidence_id": "p1-disclaimer", "claim_id": "claim:synthetic-boundary", "page": 1, "section": "Rights-safe fixture", "relation": "direct"},
+    {"evidence_id": "p1-abstract", "claim_id": "claim:benchmark-purpose", "page": 1, "section": "Abstract", "relation": "paraphrase"},
+    {"evidence_id": "p1-methods", "claim_id": "claim:cohort-design", "page": 1, "section": "Abstract - Methods", "relation": "direct"},
+    {"evidence_id": "p1-results", "claim_id": "claim:external-discrimination", "page": 1, "section": "Abstract - Results", "relation": "direct"},
+    {"evidence_id": "p1-conclusion", "claim_id": "claim:fixture-conclusion", "page": 1, "section": "Abstract - Conclusion", "relation": "direct"},
+    {"evidence_id": "p2-objective", "claim_id": "claim:benchmark-purpose", "page": 2, "section": "Introduction", "relation": "paraphrase"},
+    {"evidence_id": "p2-methods", "claim_id": "claim:cohort-design", "page": 2, "section": "Methods", "relation": "direct"},
+    {"evidence_id": "p3-results", "claim_id": "claim:external-discrimination", "page": 3, "section": "Results", "relation": "direct"},
+    {"evidence_id": "p4-stability", "claim_id": "claim:calibration-stability", "page": 4, "section": "Stability and calibration", "relation": "direct"},
+    {"evidence_id": "p4-stress", "claim_id": "claim:stress-boundary", "page": 4, "section": "Stress-test boundary", "relation": "direct"},
+    {"evidence_id": "p5-limitations", "claim_id": "claim:synthetic-boundary", "page": 5, "section": "Discussion", "relation": "direct"},
+    {"evidence_id": "p5-conclusion", "claim_id": "claim:fixture-conclusion", "page": 5, "section": "Conclusion", "relation": "direct"},
+    {"evidence_id": "fig1", "claim_id": "claim:cohort-design", "page": 2, "figure": "Figure 1", "relation": "direct"},
+    {"evidence_id": "fig2", "claim_id": "claim:external-discrimination", "page": 3, "figure": "Figure 2", "relation": "direct"},
+    {"evidence_id": "fig3", "claim_id": "claim:calibration-stability", "page": 4, "figure": "Figure 3", "relation": "direct"},
+    {"evidence_id": "fig4", "claim_id": "claim:stress-boundary", "page": 4, "figure": "Figure 4", "relation": "direct"}
+  ]
+}

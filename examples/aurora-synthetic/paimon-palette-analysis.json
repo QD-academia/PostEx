@@ -1,0 +1,486 @@
+{
+  "schema_version": "0.1",
+  "method": "Deterministic CIELAB k-means over manually declared semantic regions",
+  "selected_palette": {
+    "roles": {
+      "text": "#293F55",
+      "primary": "#3E5C78",
+      "secondary": "#487AA1",
+      "highlight": "#E5BC6C",
+      "canvas": "#F6F2EE",
+      "accent": "#AE7F70",
+      "neutral": "#DDE5E7"
+    },
+    "gradient_stops": [
+      "#293F55",
+      "#3E5C78",
+      "#487AA1",
+      "#89B8C9"
+    ],
+    "selection_logic": {
+      "cape_gradient": "Four ordered blue clusters from the two hue-filtered star-ribbon regions",
+      "canvas": "Dominant near-white clothing cluster from the upper-left outfit region",
+      "highlight": "Champagne-gold cluster from the upper-left outfit region",
+      "accent": "Peach-rose cluster from the upper-left outfit region",
+      "text": "Dark blue cluster from the right star-ribbon region, retained for distance contrast"
+    }
+  },
+  "references": [
+    {
+      "id": "outfit-reference",
+      "page_url": "https://genshin.hoyoverse.com/zh-tw/news/detail/122545",
+      "image_url": "https://fastcdn.hoyoverse.com/content-v2/hk4e/122545/a6e15ea612f41ec8f3a046e26ffb8dd8_5374481433348332940.png",
+      "sha256": "5d5ab0d0dad088e69d6c52823745de7ac19c2e751062f93170ebb1c3f87d9ed3",
+      "redistributed": false,
+      "regions": [
+        {
+          "id": "upper-left-outfit",
+          "box": [
+            20,
+            0,
+            335,
+            250
+          ],
+          "purpose": "white clothing, dark collar, peach-gold sleeves",
+          "clusters": [
+            {
+              "hex": "#F6F2EE",
+              "share": 0.4445,
+              "lab": [
+                95.78,
+                0.3,
+                2.49
+              ],
+              "chroma": 2.5
+            },
+            {
+              "hex": "#834E3E",
+              "share": 0.1886,
+              "lab": [
+                38.91,
+                20.67,
+                18.74
+              ],
+              "chroma": 27.9
+            },
+            {
+              "hex": "#F9DFC1",
+              "share": 0.1331,
+              "lab": [
+                90.24,
+                4.28,
+                18.13
+              ],
+              "chroma": 18.63
+            },
+            {
+              "hex": "#DFB67F",
+              "share": 0.09,
+              "lab": [
+                76.46,
+                7.92,
+                33.39
+              ],
+              "chroma": 34.32
+            },
+            {
+              "hex": "#AE7F70",
+              "share": 0.059,
+              "lab": [
+                57.4,
+                16.36,
+                15.39
+              ],
+              "chroma": 22.46
+            },
+            {
+              "hex": "#35414E",
+              "share": 0.0458,
+              "lab": [
+                27.24,
+                -1.05,
+                -9.33
+              ],
+              "chroma": 9.39
+            },
+            {
+              "hex": "#C8AFA7",
+              "share": 0.0327,
+              "lab": [
+                73.33,
+                7.72,
+                7.37
+              ],
+              "chroma": 10.68
+            },
+            {
+              "hex": "#E5BC6C",
+              "share": 0.0063,
+              "lab": [
+                78.29,
+                5.44,
+                45.83
+              ],
+              "chroma": 46.15
+            }
+          ]
+        },
+        {
+          "id": "lower-right-outfit",
+          "box": [
+            810,
+            305,
+            1180,
+            675
+          ],
+          "purpose": "white clothing, dark collar, peach-gold sleeves",
+          "clusters": [
+            {
+              "hex": "#F5F1EA",
+              "share": 0.4085,
+              "lab": [
+                95.23,
+                0.59,
+                3.59
+              ],
+              "chroma": 3.64
+            },
+            {
+              "hex": "#F5DBB7",
+              "share": 0.3187,
+              "lab": [
+                88.69,
+                3.94,
+                21.21
+              ],
+              "chroma": 21.57
+            },
+            {
+              "hex": "#804533",
+              "share": 0.1482,
+              "lab": [
+                36.07,
+                23.44,
+                21.82
+              ],
+              "chroma": 32.02
+            },
+            {
+              "hex": "#B78E78",
+              "share": 0.083,
+              "lab": [
+                62.41,
+                12.51,
+                18.12
+              ],
+              "chroma": 22.02
+            },
+            {
+              "hex": "#314150",
+              "share": 0.0288,
+              "lab": [
+                26.59,
+                -1.82,
+                -11.06
+              ],
+              "chroma": 11.21
+            },
+            {
+              "hex": "#3E2B2C",
+              "share": 0.0077,
+              "lab": [
+                19.72,
+                8.82,
+                3.22
+              ],
+              "chroma": 9.39
+            },
+            {
+              "hex": "#688235",
+              "share": 0.0043,
+              "lab": [
+                50.89,
+                -21.89,
+                37.73
+              ],
+              "chroma": 43.62
+            },
+            {
+              "hex": "#3B4718",
+              "share": 0.0008,
+              "lab": [
+                28.15,
+                -13.15,
+                25.29
+              ],
+              "chroma": 28.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starlight-cape-reference",
+      "page_url": "https://genshin.hoyoverse.com/zh-tw/news/detail/119430",
+      "image_url": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119430/c9607204d197f71997ff3e629ede9668_7643729868683306260.png",
+      "sha256": "9f9c344c999b19e85f48897946272af9f3ac240abfb4ee9164c04a526e1ec1a6",
+      "redistributed": false,
+      "regions": [
+        {
+          "id": "star-ribbon-left",
+          "box": [
+            775,
+            325,
+            1025,
+            490
+          ],
+          "purpose": "dark-to-azure starry cape analogue",
+          "selector": {
+            "hue_degrees": [
+              170,
+              260
+            ],
+            "saturation_min": 0.12,
+            "value_max": 0.9
+          },
+          "cluster_count": 6,
+          "clusters": [
+            {
+              "hex": "#3E5C78",
+              "share": 0.3989,
+              "lab": [
+                37.89,
+                -2.57,
+                -19.38
+              ],
+              "chroma": 19.55
+            },
+            {
+              "hex": "#4B6D8B",
+              "share": 0.2282,
+              "lab": [
+                44.73,
+                -3.83,
+                -19.96
+              ],
+              "chroma": 20.33
+            },
+            {
+              "hex": "#2F4158",
+              "share": 0.1992,
+              "lab": [
+                26.89,
+                0.34,
+                -15.89
+              ],
+              "chroma": 15.9
+            },
+            {
+              "hex": "#0A1017",
+              "share": 0.0902,
+              "lab": [
+                5.4,
+                -0.19,
+                -5.07
+              ],
+              "chroma": 5.07
+            },
+            {
+              "hex": "#467CA6",
+              "share": 0.0678,
+              "lab": [
+                50.11,
+                -5.08,
+                -27.82
+              ],
+              "chroma": 28.28
+            },
+            {
+              "hex": "#8DBDD0",
+              "share": 0.0157,
+              "lab": [
+                73.98,
+                -10.96,
+                -14.77
+              ],
+              "chroma": 18.39
+            }
+          ]
+        },
+        {
+          "id": "star-ribbon-right",
+          "box": [
+            995,
+            325,
+            1225,
+            510
+          ],
+          "purpose": "dark-to-azure starry cape analogue",
+          "selector": {
+            "hue_degrees": [
+              170,
+              260
+            ],
+            "saturation_min": 0.12,
+            "value_max": 0.9
+          },
+          "cluster_count": 6,
+          "clusters": [
+            {
+              "hex": "#42617E",
+              "share": 0.648,
+              "lab": [
+                39.99,
+                -3.04,
+                -19.74
+              ],
+              "chroma": 19.97
+            },
+            {
+              "hex": "#293F55",
+              "share": 0.1488,
+              "lab": [
+                25.64,
+                -1.43,
+                -16.09
+              ],
+              "chroma": 16.16
+            },
+            {
+              "hex": "#487AA1",
+              "share": 0.1146,
+              "lab": [
+                49.24,
+                -4.89,
+                -26.08
+              ],
+              "chroma": 26.53
+            },
+            {
+              "hex": "#090F16",
+              "share": 0.0626,
+              "lab": [
+                5.09,
+                -0.48,
+                -4.56
+              ],
+              "chroma": 4.58
+            },
+            {
+              "hex": "#89B8C9",
+              "share": 0.0207,
+              "lab": [
+                72.06,
+                -10.93,
+                -13.78
+              ],
+              "chroma": 17.58
+            },
+            {
+              "hex": "#657C8C",
+              "share": 0.0053,
+              "lab": [
+                50.86,
+                -4.07,
+                -10.95
+              ],
+              "chroma": 11.68
+            }
+          ]
+        },
+        {
+          "id": "seated-outfit",
+          "box": [
+            845,
+            75,
+            1165,
+            405
+          ],
+          "purpose": "white, ink-blue, champagne and peach outfit roles",
+          "clusters": [
+            {
+              "hex": "#F1EADD",
+              "share": 0.5464,
+              "lab": [
+                92.84,
+                0.37,
+                6.93
+              ],
+              "chroma": 6.94
+            },
+            {
+              "hex": "#E3BF96",
+              "share": 0.1179,
+              "lab": [
+                79.36,
+                7.36,
+                25.28
+              ],
+              "chroma": 26.33
+            },
+            {
+              "hex": "#69574E",
+              "share": 0.0993,
+              "lab": [
+                38.34,
+                5.87,
+                8.02
+              ],
+              "chroma": 9.94
+            },
+            {
+              "hex": "#A3988B",
+              "share": 0.0819,
+              "lab": [
+                63.33,
+                2.19,
+                8.17
+              ],
+              "chroma": 8.46
+            },
+            {
+              "hex": "#1F1B1C",
+              "share": 0.0547,
+              "lab": [
+                11.14,
+                2.48,
+                0.44
+              ],
+              "chroma": 2.52
+            },
+            {
+              "hex": "#AF6C51",
+              "share": 0.0545,
+              "lab": [
+                52.47,
+                23.66,
+                26.26
+              ],
+              "chroma": 35.35
+            },
+            {
+              "hex": "#415772",
+              "share": 0.0416,
+              "lab": [
+                36.29,
+                -0.4,
+                -17.51
+              ],
+              "chroma": 17.52
+            },
+            {
+              "hex": "#F8CC4D",
+              "share": 0.0038,
+              "lab": [
+                83.74,
+                2.92,
+                65.82
+              ],
+              "chroma": 65.88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

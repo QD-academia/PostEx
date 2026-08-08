@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Synthetic C-index comparison across four cohorts">
+  <rect width="1200" height="720" rx="30" fill="#F6F2EE"/>
+  <text x="62" y="72" font-family="Arial" font-size="34" font-weight="700" fill="#293F55">Authored discrimination benchmark</text>
+  <text x="62" y="110" font-family="Arial" font-size="19" fill="#53697C">Concordance index - synthetic values only</text>
+  <g transform="translate(130 164)" font-family="Arial">
+    <g stroke="#DDE5E7" stroke-width="2"><path d="M120 0V430"/><path d="M120 430H980"/><path d="M120 344H980"/><path d="M120 258H980"/><path d="M120 172H980"/><path d="M120 86H980"/></g>
+    <g fill="#53697C" font-size="16" text-anchor="end"><text x="104" y="436">0.50</text><text x="104" y="350">0.56</text><text x="104" y="264">0.62</text><text x="104" y="178">0.68</text><text x="104" y="92">0.74</text><text x="104" y="8">0.80</text></g>
+    <g>
+      <rect x="174" y="29" width="74" height="401" rx="10" fill="#3E5C78"/><rect x="256" y="172" width="74" height="258" rx="10" fill="#C5D1DE"/>
+      <rect x="386" y="57" width="74" height="373" rx="10" fill="#3E5C78"/><rect x="468" y="186" width="74" height="244" rx="10" fill="#C5D1DE"/>
+      <rect x="598" y="72" width="74" height="358" rx="10" fill="#487AA1"/><rect x="680" y="201" width="74" height="229" rx="10" fill="#C5D1DE"/>
+      <rect x="810" y="86" width="74" height="344" rx="10" fill="#487AA1"/><rect x="892" y="215" width="74" height="215" rx="10" fill="#C5D1DE"/>
+    </g>
+    <g fill="#293F55" font-size="18" font-weight="700" text-anchor="middle"><text x="211" y="20">0.78</text><text x="293" y="163">0.68</text><text x="423" y="48">0.76</text><text x="505" y="177">0.67</text><text x="635" y="63">0.75</text><text x="717" y="192">0.66</text><text x="847" y="77">0.74</text><text x="929" y="206">0.65</text></g>
+    <g fill="#293F55" font-size="17" text-anchor="middle"><text x="252" y="469">Discovery</text><text x="464" y="469">Internal</text><text x="676" y="469">External A</text><text x="888" y="469">External B</text></g>
+  </g>
+  <g transform="translate(400 655)" font-family="Arial" font-size="17"><rect width="28" height="16" rx="4" fill="#3E5C78"/><text x="40" y="14" fill="#293F55">AURORA-12</text><rect x="185" width="28" height="16" rx="4" fill="#C5D1DE"/><text x="225" y="14" fill="#293F55">Five-feature baseline</text></g>
+</svg>

@@ -84,6 +84,26 @@ function createHelpers(slide, canvas) {
   return { rect, text, image, px, py, pw, ph, font };
 }
 
+function mixHex(left, right, fraction) {
+  const parse = (value) => [1, 3, 5].map((index) => Number.parseInt(value.slice(index, index + 2), 16));
+  const a = parse(left);
+  const b = parse(right);
+  return `#${a.map((value, index) => Math.round(value + (b[index] - value) * fraction).toString(16).padStart(2, "0")).join("")}`;
+}
+
+function gradientBand(h, stops, x, y, width, height, name) {
+  if (!Array.isArray(stops) || stops.length < 2) return;
+  const count = 32;
+  const segmentCount = stops.length - 1;
+  const sliceWidth = width / count + 1;
+  for (let index = 0; index < count; index += 1) {
+    const position = (index / (count - 1)) * segmentCount;
+    const segment = Math.min(segmentCount - 1, Math.floor(position));
+    const color = mixHex(stops[segment], stops[segment + 1], position - segment);
+    h.rect(x + index * (width / count), y, sliceWidth, height, color, `${name}-${index + 1}`, "none", 0, "rounded-none");
+  }
+}
+
 function sectionTitle(h, theme, title, x, y, width, name) {
   h.text(
     title,
@@ -205,7 +225,12 @@ async function build(spec, outputPath) {
   const h = createHelpers(slide, canvas);
 
   h.rect(0, 0, BASE_WIDTH, 520, theme.primary, "header-band", "none", 0, "rounded-none");
-  h.rect(0, 0, BASE_WIDTH, 30, theme.accent, "top-accent", "none", 0, "rounded-none");
+  if ((theme.gradient_stops ?? []).length > 1) {
+    gradientBand(h, theme.gradient_stops, 0, 0, BASE_WIDTH, 30, "top-cape-gradient");
+    gradientBand(h, theme.gradient_stops, 0, 490, BASE_WIDTH, 30, "header-cape-gradient");
+  } else {
+    h.rect(0, 0, BASE_WIDTH, 30, theme.accent, "top-accent", "none", 0, "rounded-none");
+  }
   h.text(content.title, 140, 62, 3120, 230, { fontSize: 98, minimumFontSize: 72, bold: true, color: "#FFFFFF" }, "poster-title");
   h.text(content.authors, 145, 306, 3090, 66, { fontSize: 37, minimumFontSize: 30, bold: true, color: "#FFFFFF" }, "authors");
   h.text(content.affiliations, 145, 382, 3090, 52, { fontSize: 29, minimumFontSize: 24, color: theme.canvas }, "affiliations");
@@ -241,6 +266,9 @@ async function build(spec, outputPath) {
   const x2 = 1420;
   const w2 = 1435;
   h.rect(x2, 590, w2, 265, theme.accent, "central-takeaway", "none", 0, "rounded-2xl");
+  if ((theme.gradient_stops ?? []).length > 1) {
+    gradientBand(h, theme.gradient_stops, x2, 590, w2, 20, "takeaway-cape-gradient");
+  }
   h.text(content.takeaway, x2 + 44, 625, w2 - 88, 100, { fontSize: 55, minimumFontSize: 42, bold: true, color: theme.ink, alignment: "center" }, "central-takeaway-title");
   h.text(content.takeaway_subtitle, x2 + 70, 754, w2 - 140, 48, { fontSize: 32, minimumFontSize: 26, bold: true, color: theme.ink, alignment: "center" }, "central-takeaway-subtitle");
   evidence(h, theme, content.takeaway_evidence, x2 + 46, 810, w2 - 92, "takeaway-evidence");

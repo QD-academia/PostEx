@@ -1,93 +1,93 @@
-{"kind":"slide","id":"sl/h4ztga","slide":1,"title":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interact...","textShapes":61}
-{"kind":"shape","id":"sh/ofqdo76h","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
-{"kind":"shape","id":"sh/nehcv25w","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
-{"kind":"textbox","id":"sh/2t8vmxob","slide":1,"name":"poster-title","text":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation","textPreview":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation","textChars":98,"textLines":1,"bbox":[140,62,3120,230]}
-{"kind":"textbox","id":"sh/1szutsn6","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
-{"kind":"textbox","id":"sh/0rqtkn6l","slide":1,"name":"affiliations","text":"Bioinformatics profile · CC BY 4.0","textPreview":"Bioinformatics profile · CC BY 4.0","textChars":34,"textLines":1,"bbox":[145,382,3090,52]}
-{"kind":"textbox","id":"sh/fqhcri50","slide":1,"name":"citation","text":"DOI 10.1186/s12859-019-3251-8","textPreview":"DOI 10.1186/s12859-019-3251-8","textChars":29,"textLines":1,"bbox":[145,445,2550,42]}
-{"kind":"shape","id":"sh/epobidof","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
-{"kind":"textbox","id":"sh/loju5wna","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
-{"kind":"shape","id":"sh/knadwrmp","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
-{"kind":"textbox","id":"sh/2honqxc7","slide":1,"name":"header-metric-1-value","text":"GSE48403","textPreview":"GSE48403","textChars":8,"textLines":1,"bbox":[3440,240,260,78]}
-{"kind":"textbox","id":"sh/3ix4z2ts","slide":1,"name":"header-metric-1-label","text":"demo dataset","textPreview":"demo dataset","textChars":12,"textLines":1,"bbox":[3440,322,260,88]}
-{"kind":"textbox","id":"sh/oj65snud","slide":1,"name":"header-metric-2-value","text":"HISAT2","textPreview":"HISAT2","textChars":6,"textLines":1,"bbox":[3740,240,260,78]}
-{"kind":"textbox","id":"sh/pkfm1sby","slide":1,"name":"header-metric-2-label","text":"aligner","textPreview":"aligner","textChars":7,"textLines":1,"bbox":[3740,322,260,88]}
-{"kind":"textbox","id":"sh/et43mdcv","slide":1,"name":"header-metric-3-value","text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
-{"kind":"textbox","id":"sh/fud4vitg","slide":1,"name":"header-metric-3-label","text":"report","textPreview":"report","textChars":6,"textLines":1,"bbox":[4040,322,260,88]}
-{"kind":"textbox","id":"sh/gv65onu1","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
-{"kind":"shape","id":"sh/1wfmxsbm","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
-{"kind":"textbox","id":"sh/yp8nyhcf","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
-{"kind":"textbox","id":"sh/zqh47mt0","slide":1,"name":"question-evidence","text":"Evidence fixture: 10.1186/s12859-019-3251-8","textPreview":"Evidence fixture: 10.1186/s12859-019-3251-8","textChars":43,"textLines":1,"bbox":[140,912,1220,38]}
-{"kind":"textbox","id":"sh/vu9kze9c","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
-{"kind":"shape","id":"sh/ut0jq9sr","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
-{"kind":"shape","id":"sh/hwb214ri","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
-{"kind":"textbox","id":"sh/wvi1sjax","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
-{"kind":"textbox","id":"sh/jytk3e98","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
-{"kind":"shape","id":"sh/ixkju9sn","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
-{"kind":"textbox","id":"sh/50b25ore","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
-{"kind":"textbox","id":"sh/4z21wjat","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
-{"kind":"shape","id":"sh/r2tk7y9k","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
-{"kind":"textbox","id":"sh/61kjytsz","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
-{"kind":"textbox","id":"sh/orm1o3qx","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
-{"kind":"shape","id":"sh/psvix87i","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
-{"kind":"textbox","id":"sh/2p4jmt87","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
-{"kind":"textbox","id":"sh/3qd0vyps","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
-{"kind":"shape","id":"sh/g3m1kjq1","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
-{"kind":"textbox","id":"sh/14vito7m","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
-{"kind":"textbox","id":"sh/e1kji98v","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC BY 4.0\nProfile: bioinformatics\nClaims checked: 3","textPreview":"Input: full paper | License: CC BY 4.0 | Profile: bioinformatics | Claims checked: 3","textChars":78,"textLines":4,"bbox":[168,1495,1164,230]}
-{"kind":"textbox","id":"sh/f2t0repg","slide":1,"name":"dataset-evidence","text":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/","textPreview":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/","textChars":49,"textLines":1,"bbox":[168,1723,1164,38]}
-{"kind":"textbox","id":"sh/sz2hgjq5","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
-{"kind":"shape","id":"sh/t0bipo7a","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
-{"kind":"shape","id":"sh/h4ryhkn2","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
-{"kind":"shape","id":"sh/w3yxof6x","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
-{"kind":"textbox","id":"sh/v2pgfa5c","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
-{"kind":"textbox","id":"sh/a1gfm5or","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
-{"kind":"textbox","id":"sh/58rylkne","slide":1,"name":"figure-one-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[164,2916,1172,38]}
-{"kind":"shape","id":"sh/47ixsf6t","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
-{"kind":"textbox","id":"sh/j69gja58","slide":1,"name":"central-takeaway-title","text":"GSE48403","textPreview":"GSE48403","textChars":8,"textLines":1,"bbox":[1464,625,1347,100]}
-{"kind":"textbox","id":"sh/i50fqpon","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
-{"kind":"textbox","id":"sh/lc7e90nu","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: 10.1186/s12859-019-3251-8","textPreview":"Evidence fixture: 10.1186/s12859-019-3251-8","textChars":43,"textLines":1,"bbox":[1466,810,1343,38]}
-{"kind":"textbox","id":"sh/0bexgv6p","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
-{"kind":"shape","id":"sh/qhcvq147","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
-{"kind":"shape","id":"sh/bilcj6ls","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
-{"kind":"shape","id":"sh/cjudsrmd","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
-{"kind":"textbox","id":"sh/dknulw3y","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
-{"kind":"textbox","id":"sh/y5wvu14j","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
-{"kind":"textbox","id":"sh/z65cn6l4","slide":1,"name":"figure-two-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[1444,2291,1387,38]}
-{"kind":"textbox","id":"sh/07edwbmp","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
-{"kind":"shape","id":"sh/l8nepg3u","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
-{"kind":"shape","id":"sh/epsbih4z","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
-{"kind":"textbox","id":"sh/fa1cb2lk","slide":1,"name":"validation","text":"• demo dataset: GSE48403\n• aligner: HISAT2\n• report: R Shiny","textPreview":"• demo dataset: GSE48403 | • aligner: HISAT2 | • report: R Shiny","textChars":60,"textLines":3,"bbox":[1456,2503,1363,310]}
-{"kind":"textbox","id":"sh/jix03exg","slide":1,"name":"validation-evidence","text":"Ground-truth case: bisr-rnaseq-workflow","textPreview":"Ground-truth case: bisr-rnaseq-workflow","textChars":39,"textLines":1,"bbox":[1456,2847,1363,38]}
-{"kind":"shape","id":"sh/ihoju9gv","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
-{"kind":"textbox","id":"sh/5kfi5of6","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
-{"kind":"textbox","id":"sh/kj61wjyl","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
-{"kind":"shape","id":"sh/ved0zex4","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
-{"kind":"textbox","id":"sh/ad4jq9gj","slide":1,"name":"biology-1-value","text":"GSE48403","textPreview":"GSE48403","textChars":8,"textLines":1,"bbox":[2915,690,420,78]}
-{"kind":"textbox","id":"sh/xgfi14fa","slide":1,"name":"biology-1-label","text":"demo dataset","textPreview":"demo dataset","textChars":12,"textLines":1,"bbox":[2915,772,420,88]}
-{"kind":"textbox","id":"sh/wfm1szyp","slide":1,"name":"biology-2-value","text":"HISAT2","textPreview":"HISAT2","textChars":6,"textLines":1,"bbox":[3390,690,420,78]}
-{"kind":"textbox","id":"sh/fahkbyx8","slide":1,"name":"biology-2-label","text":"aligner","textPreview":"aligner","textChars":7,"textLines":1,"bbox":[3390,772,420,88]}
-{"kind":"textbox","id":"sh/u98j2tg3","slide":1,"name":"biology-3-value","text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[3865,690,420,78]}
-{"kind":"textbox","id":"sh/cfixwvel","slide":1,"name":"biology-3-label","text":"report","textPreview":"report","textChars":6,"textLines":1,"bbox":[3865,772,420,88]}
-{"kind":"textbox","id":"sh/dgry50vq","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
-{"kind":"shape","id":"sh/qt0fulwf","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
-{"kind":"shape","id":"sh/ru9g3qd0","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
-{"kind":"textbox","id":"sh/0j2x0feh","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
-{"kind":"textbox","id":"sh/1kby90v2","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
-{"kind":"textbox","id":"sh/ehkfy5wb","slide":1,"name":"figure-three-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[2939,1646,1391,38]}
-{"kind":"textbox","id":"sh/zitg7adw","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
-{"kind":"shape","id":"sh/on2h4fed","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
-{"kind":"shape","id":"sh/9obydkvy","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
-{"kind":"shape","id":"sh/x8jal4jq","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
-{"kind":"textbox","id":"sh/w7atsz25","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
-{"kind":"textbox","id":"sh/b6hsju1k","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
-{"kind":"textbox","id":"sh/a58bq9kf","slide":1,"name":"figure-four-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[2939,2536,1391,38]}
-{"kind":"textbox","id":"sh/94zah4ju","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
-{"kind":"shape","id":"sh/ojqtoz29","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
-{"kind":"shape","id":"sh/nihsfu1o","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
-{"kind":"textbox","id":"sh/mh8bmpk3","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
-{"kind":"textbox","id":"sh/1gzadkji","slide":1,"name":"conclusion-evidence","text":"Source and license: 10.1186/s12859-019-3251-8 · CC BY 4.0","textPreview":"Source and license: 10.1186/s12859-019-3251-8 · CC BY 4.0","textChars":57,"textLines":1,"bbox":[2949,2992,1371,38]}
-{"kind":"shape","id":"sh/0fqtkf2x","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
-{"kind":"textbox","id":"sh/ql47el0v","slide":1,"name":"footer-source","text":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation · CC BY 4.0","textPreview":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation · CC BY 4.0","textChars":110,"textLines":1,"bbox":[140,3107,3000,42]}
-{"kind":"textbox","id":"sh/rmd8nqhg","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
-{"kind":"notes","id":"nt/h4ztga","slide":1,"text":"[Sources]\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/\n- License: CC BY 4.0\n[/Sources]"}
+{"kind":"slide","id":"sl/es6wjo","slide":1,"title":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interact...","textShapes":61}
+{"kind":"shape","id":"sh/65gzqtg3","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/t87i18fe","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/s7yhs3y9","slide":1,"name":"poster-title","text":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation","textPreview":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation","textChars":98,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/j250vehc","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/i1wzm9gr","slide":1,"name":"affiliations","text":"Bioinformatics profile · CC BY 4.0","textPreview":"Bioinformatics profile · CC BY 4.0","textChars":34,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/547ixozi","slide":1,"name":"citation","text":"DOI 10.1186/s12859-019-3251-8","textPreview":"DOI 10.1186/s12859-019-3251-8","textChars":29,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/43ehojyx","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/ve5grehg","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/udwzi9gv","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/cby9sn29","slide":1,"name":"header-metric-1-value","text":"GSE48403","textPreview":"GSE48403","textChars":8,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/dc7qls3u","slide":1,"name":"header-metric-1-label","text":"demo dataset","textPreview":"demo dataset","textChars":12,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/q9grqxkj","slide":1,"name":"header-metric-2-value","text":"HISAT2","textPreview":"HISAT2","textChars":6,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/bap8j2lo","slide":1,"name":"header-metric-2-label","text":"aligner","textPreview":"aligner","textChars":7,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/one9on2d","slide":1,"name":"header-metric-3-value","text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/p87qhs3y","slide":1,"name":"header-metric-3-label","text":"report","textPreview":"report","textChars":6,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/2lw7mdk7","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/3m58fils","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/83i9072h","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/94rqtc32","slide":1,"name":"question-evidence","text":"Evidence fixture: 10.1186/s12859-019-3251-8","textPreview":"Evidence fixture: 10.1186/s12859-019-3251-8","textChars":43,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/xonixsru","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/wnuhonqp","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/vml0vi94","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/alczmd8j","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/9k3yt8ry","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/8juhk3qd","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/nilgry9s","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/mhczit87","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/lwjyp8rm","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/0vahg3qh","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/q18fq9oz","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/b2hwzupk","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/cnqxsz65","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/doze147q","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/2xovmpo3","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/3yhwvupo","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/4zqxoz69","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC BY 4.0\nProfile: bioinformatics\nClaims checked: 3","textPreview":"Input: full paper | License: CC BY 4.0 | Profile: bioinformatics | Claims checked: 3","textChars":78,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/p0zex47e","slide":1,"name":"dataset-evidence","text":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/","textPreview":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/","textChars":49,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/utovipor","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/fuxwrapc","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/7mhsnqt8","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/6l8bulsn","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/tozap0be","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/8nqtwvat","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/jixsj6tc","slide":1,"name":"figure-one-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/yhobq1sr","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/lkzalgb2","slide":1,"name":"central-takeaway-title","text":"GSE48403","textPreview":"GSE48403","textChars":8,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/kjqtsbah","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/bexsf6t0","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: 10.1186/s12859-019-3251-8","textPreview":"Evidence fixture: 10.1186/s12859-019-3251-8","textChars":43,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/atorm1sf","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/0z2pw7qd","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/1kvqpcry","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/exk7ux87","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/zyt8n29s","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/onmp07q9","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/9ovqtcru","slide":1,"name":"figure-two-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/ml47yh8j","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/nmd8r294","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/4riponq5","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/psrqhsrq","slide":1,"name":"validation","text":"• demo dataset: GSE48403\n• aligner: HISAT2\n• report: R Shiny","textPreview":"• demo dataset: GSE48403 | • aligner: HISAT2 | • report: R Shiny","textChars":60,"textLines":3,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/lcje5kf2","slide":1,"name":"validation-evidence","text":"Ground-truth case: bisr-rnaseq-workflow","textPreview":"Ground-truth case: bisr-rnaseq-workflow","textChars":39,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/kbaxwfex","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/jahw3axc","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/y98fu5wr","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/tgje9kfe","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/8fax0fet","slide":1,"name":"biology-1-value","text":"GSE48403","textPreview":"GSE48403","textChars":8,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/7e1w7ux8","slide":1,"name":"biology-1-label","text":"demo dataset","textPreview":"demo dataset","textChars":12,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/6dsfypwn","slide":1,"name":"biology-2-value","text":"HISAT2","textPreview":"HISAT2","textChars":6,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/h43ed4fa","slide":1,"name":"biology-2-label","text":"aligner","textPreview":"aligner","textChars":7,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/g3ux4zep","slide":1,"name":"biology-3-value","text":"R","textPreview":"R","textChars":1,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/ep4by1c7","slide":1,"name":"biology-3-label","text":"report","textPreview":"report","textChars":6,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/zqdc76ds","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/0rmt0bud","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/1sfu9wvy","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/mdob21cj","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/nexcb6d4","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/of6t4bup","slide":1,"name":"figure-three-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/9gfudgvu","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/ahob6lcf","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/bixcfqd0","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/vad8vihg","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/u9472dgv","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/hcvqxszm","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/gbmp4ny1","slide":1,"name":"figure-four-source","text":"Source: 10.1186/s12859-019-3251-8","textPreview":"Source: 10.1186/s12859-019-3251-8","textChars":33,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/3ex8z2hs","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/id476xg7","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/50fq1szi","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/4f6987yx","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/r2x832ho","slide":1,"name":"conclusion-evidence","text":"Source and license: 10.1186/s12859-019-3251-8 · CC BY 4.0","textPreview":"Source and license: 10.1186/s12859-019-3251-8 · CC BY 4.0","textChars":57,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/q1oraxg3","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/o7qp07eh","slide":1,"name":"footer-source","text":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation · CC BY 4.0","textPreview":"BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation · CC BY 4.0","textChars":110,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/p8zqtcvm","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"notes","id":"nt/es6wjo","slide":1,"text":"[Sources]\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/\n- License: CC BY 4.0\n[/Sources]"}

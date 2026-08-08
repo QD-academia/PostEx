@@ -1,96 +1,96 @@
-{"kind":"deck","id":"pr/8od95l","name":"Deck"}
-{"kind":"layout","layoutId":"439a4587-2039-4219-93ee-9ec5fbce79a4","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"e41f873a-04b8-4c54-8ce3-895431b749d1","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/2jw1q9","slide":1,"title":"A Comparative Study of Techniques for Differential Expression Analysis on RNA...","textShapes":61}
-{"kind":"shape","id":"sh/grm90fi1","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
-{"kind":"shape","id":"sh/fqd8ra1g","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
-{"kind":"textbox","id":"sh/ep4ry5kv","slide":1,"name":"poster-title","text":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data","textPreview":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data","textChars":86,"textLines":1,"bbox":[140,62,3120,230]}
-{"kind":"textbox","id":"sh/pwfqxkji","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
-{"kind":"textbox","id":"sh/ov694zix","slide":1,"name":"affiliations","text":"Bioinformatics profile · CC BY 4.0","textPreview":"Bioinformatics profile · CC BY 4.0","textChars":34,"textLines":1,"bbox":[145,382,3090,52]}
-{"kind":"textbox","id":"sh/3ud8vu1c","slide":1,"name":"citation","text":"DOI 10.1371/journal.pone.0103207","textPreview":"DOI 10.1371/journal.pone.0103207","textChars":32,"textLines":1,"bbox":[145,445,2550,42]}
-{"kind":"shape","id":"sh/2t4r2p07","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
-{"kind":"textbox","id":"sh/dkfa14ju","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
-{"kind":"shape","id":"sh/cj698zi9","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
-{"kind":"textbox","id":"sh/qtgba1kv","slide":1,"name":"header-metric-1-value","text":"Cuffdiff2","textPreview":"Cuffdiff2","textChars":9,"textLines":1,"bbox":[3440,240,260,78]}
-{"kind":"textbox","id":"sh/bupcj61g","slide":1,"name":"header-metric-1-label","text":"tools","textPreview":"tools","textChars":5,"textLines":1,"bbox":[3440,322,260,88]}
-{"kind":"textbox","id":"sh/cvytcb21","slide":1,"name":"header-metric-2-value","text":"edgeR","textPreview":"edgeR","textChars":5,"textLines":1,"bbox":[3740,240,260,78]}
-{"kind":"textbox","id":"sh/dw7ulgj6","slide":1,"name":"header-metric-2-label","text":"true positive resu","textPreview":"true positive resu","textChars":18,"textLines":1,"bbox":[3740,322,260,88]}
-{"kind":"textbox","id":"sh/yx0belkr","slide":1,"name":"header-metric-3-value","text":"DESeq","textPreview":"DESeq","textChars":5,"textLines":1,"bbox":[4040,240,260,78]}
-{"kind":"textbox","id":"sh/zy9cnq1c","slide":1,"name":"header-metric-3-label","text":"false positive cau","textPreview":"false positive cau","textChars":18,"textLines":1,"bbox":[4040,322,260,88]}
-{"kind":"textbox","id":"sh/kzitgbix","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
-{"kind":"shape","id":"sh/lkru9gji","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
-{"kind":"textbox","id":"sh/e1wb2hkn","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
-{"kind":"textbox","id":"sh/f25sbm18","slide":1,"name":"question-evidence","text":"Evidence fixture: 10.1371/journal.pone.0103207","textPreview":"Evidence fixture: 10.1371/journal.pone.0103207","textChars":46,"textLines":1,"bbox":[140,912,1220,38]}
-{"kind":"textbox","id":"sh/ju10nydo","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
-{"kind":"shape","id":"sh/itszutw3","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
-{"kind":"shape","id":"sh/5wjipovu","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
-{"kind":"textbox","id":"sh/kvahwje9","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
-{"kind":"textbox","id":"sh/vqh0jeds","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
-{"kind":"shape","id":"sh/ap8zq9w7","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
-{"kind":"textbox","id":"sh/xszilovi","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
-{"kind":"textbox","id":"sh/wrqhsjed","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
-{"kind":"shape","id":"sh/fml0vidw","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
-{"kind":"textbox","id":"sh/ulcz2dcb","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
-{"kind":"textbox","id":"sh/c7mxgvut","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
-{"kind":"shape","id":"sh/d8vep0be","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
-{"kind":"textbox","id":"sh/q54fe5cn","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
-{"kind":"textbox","id":"sh/r6dwnat8","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
-{"kind":"shape","id":"sh/0v6xkfu5","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
-{"kind":"textbox","id":"sh/lwfetkba","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
-{"kind":"textbox","id":"sh/y9ofi5cz","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC BY 4.0\nProfile: bioinformatics\nClaims checked: 3","textPreview":"Input: full paper | License: CC BY 4.0 | Profile: bioinformatics | Claims checked: 3","textChars":78,"textLines":4,"bbox":[168,1495,1164,230]}
-{"kind":"textbox","id":"sh/zuxwratk","slide":1,"name":"dataset-evidence","text":"https://doi.org/10.1371/journal.pone.0103207","textPreview":"https://doi.org/10.1371/journal.pone.0103207","textChars":44,"textLines":1,"bbox":[168,1723,1164,38]}
-{"kind":"textbox","id":"sh/8z6xofu1","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
-{"kind":"shape","id":"sh/90fyxkbm","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
-{"kind":"shape","id":"sh/t87ydkfm","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
-{"kind":"shape","id":"sh/87yx4fy1","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
-{"kind":"textbox","id":"sh/76pwbaxw","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
-{"kind":"textbox","id":"sh/65gf25gb","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
-{"kind":"textbox","id":"sh/l47e90fq","slide":1,"name":"figure-one-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[164,2916,1172,38]}
-{"kind":"shape","id":"sh/k3ex0vy5","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
-{"kind":"textbox","id":"sh/j25w7axk","slide":1,"name":"central-takeaway-title","text":"Cuffdiff2, DESeq and edgeR","textPreview":"Cuffdiff2, DESeq and edgeR","textChars":26,"textLines":1,"bbox":[1464,625,1347,100]}
-{"kind":"textbox","id":"sh/y1wfy5gz","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
-{"kind":"textbox","id":"sh/50ryl4fu","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: 10.1371/journal.pone.0103207","textPreview":"Evidence fixture: 10.1371/journal.pone.0103207","textChars":46,"textLines":1,"bbox":[1466,810,1343,38]}
-{"kind":"textbox","id":"sh/4zixczy9","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
-{"kind":"shape","id":"sh/29s3qxsf","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
-{"kind":"shape","id":"sh/3a14j290","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
-{"kind":"shape","id":"sh/obals7al","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
-{"kind":"textbox","id":"sh/pwjmlcr6","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
-{"kind":"textbox","id":"sh/e583mxsj","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
-{"kind":"textbox","id":"sh/f6hkf294","slide":1,"name":"figure-two-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[1444,2291,1387,38]}
-{"kind":"textbox","id":"sh/g7alonap","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
-{"kind":"shape","id":"sh/18jmhsra","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
-{"kind":"shape","id":"sh/y1c3yhsn","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
-{"kind":"textbox","id":"sh/z2l4rm98","slide":1,"name":"validation","text":"• tools: Cuffdiff2, DESeq and edgeR\n• true positive result: edgeR performs slightly better\n• false positive caution: DESeq or taking the intersection","textPreview":"• tools: Cuffdiff2, DESeq and edgeR | • true positive result: edgeR performs slightly better | • false positive caution: DESeq or taking ...","textChars":149,"textLines":3,"bbox":[1456,2503,1363,310]}
-{"kind":"textbox","id":"sh/v6d0jepk","slide":1,"name":"validation-evidence","text":"Ground-truth case: plos-rnaseq-tool-comparison","textPreview":"Ground-truth case: plos-rnaseq-tool-comparison","textChars":46,"textLines":1,"bbox":[1456,2847,1363,38]}
-{"kind":"shape","id":"sh/ul4jq98f","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
-{"kind":"textbox","id":"sh/h8filo7q","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
-{"kind":"textbox","id":"sh/w7m1sjq5","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
-{"kind":"shape","id":"sh/jax0nypw","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
-{"kind":"textbox","id":"sh/i9ojut8b","slide":1,"name":"biology-1-value","text":"Cuffdiff2","textPreview":"Cuffdiff2","textChars":9,"textLines":1,"bbox":[2915,690,420,78]}
-{"kind":"textbox","id":"sh/5cfipo72","slide":1,"name":"biology-1-label","text":"tools","textPreview":"tools","textChars":5,"textLines":1,"bbox":[2915,772,420,88]}
-{"kind":"textbox","id":"sh/4b61w3qh","slide":1,"name":"biology-2-value","text":"edgeR","textPreview":"edgeR","textChars":5,"textLines":1,"bbox":[3390,690,420,78]}
-{"kind":"textbox","id":"sh/rex0ryps","slide":1,"name":"biology-2-label","text":"true positive resu","textPreview":"true positive resu","textChars":18,"textLines":1,"bbox":[3390,772,420,88]}
-{"kind":"textbox","id":"sh/6dojyt87","slide":1,"name":"biology-3-value","text":"DESeq","textPreview":"DESeq","textChars":5,"textLines":1,"bbox":[3865,690,420,78]}
-{"kind":"textbox","id":"sh/ojqh83ml","slide":1,"name":"biology-3-label","text":"false positive cau","textPreview":"false positive cau","textChars":18,"textLines":1,"bbox":[3865,772,420,88]}
-{"kind":"textbox","id":"sh/p4zih8n6","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
-{"kind":"shape","id":"sh/2h8z6t4f","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
-{"kind":"shape","id":"sh/3ih0fy50","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
-{"kind":"textbox","id":"sh/gfqh43mp","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
-{"kind":"textbox","id":"sh/1gzid8nu","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
-{"kind":"textbox","id":"sh/edoz2toj","slide":1,"name":"figure-three-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[2939,1646,1391,38]}
-{"kind":"textbox","id":"sh/fex0by54","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
-{"kind":"shape","id":"sh/sb6h0j6d","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
-{"kind":"shape","id":"sh/tcfy9ony","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
-{"kind":"shape","id":"sh/loj6dgnm","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
-{"kind":"textbox","id":"sh/knapkb61","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
-{"kind":"textbox","id":"sh/zm1ob65g","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
-{"kind":"textbox","id":"sh/yl87i1ov","slide":1,"name":"figure-four-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[2939,2536,1391,38]}
-{"kind":"textbox","id":"sh/tcjqhgni","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
-{"kind":"shape","id":"sh/8bapov6x","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
-{"kind":"shape","id":"sh/7a1ofq5s","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
-{"kind":"textbox","id":"sh/69s7mlo7","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
-{"kind":"textbox","id":"sh/hg3ql0nu","slide":1,"name":"conclusion-evidence","text":"Source and license: 10.1371/journal.pone.0103207 · CC BY 4.0","textPreview":"Source and license: 10.1371/journal.pone.0103207 · CC BY 4.0","textChars":60,"textLines":1,"bbox":[2949,2992,1371,38]}
-{"kind":"shape","id":"sh/gfupsv69","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
-{"kind":"textbox","id":"sh/el43mx4r","slide":1,"name":"footer-source","text":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data · CC BY 4.0","textPreview":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data · CC BY 4.0","textChars":98,"textLines":1,"bbox":[140,3107,3000,42]}
-{"kind":"textbox","id":"sh/fmx4f25c","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
-{"kind":"notes","id":"nt/2jw1q9","slide":1,"text":"[Sources]\n- https://doi.org/10.1371/journal.pone.0103207\n- License: CC BY 4.0\n[/Sources]"}
+{"kind":"deck","id":"pr/8w5frs","name":"Deck"}
+{"kind":"layout","layoutId":"15b363c0-d85d-4ff7-95a7-7831b9cec062","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"2d6b90c4-a0e8-4220-9b09-cfd04b33189a","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/qnq5c7","slide":1,"title":"A Comparative Study of Techniques for Differential Expression Analysis on RNA...","textShapes":61}
+{"kind":"shape","id":"sh/fqpofi1w","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/grypon2h","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/1sr6hsjm","slide":1,"name":"poster-title","text":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data","textPreview":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data","textChars":86,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/2t07qxk7","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/3u9oj21s","slide":1,"name":"affiliations","text":"Bioinformatics profile · CC BY 4.0","textPreview":"Bioinformatics profile · CC BY 4.0","textChars":34,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/ofips72d","slide":1,"name":"citation","text":"DOI 10.1371/journal.pone.0103207","textPreview":"DOI 10.1371/journal.pone.0103207","textChars":32,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/pgrqlsjy","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/ixw7etk3","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/jy5o7y1o","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/bixkny1s","slide":1,"name":"header-metric-1-value","text":"Cuffdiff2","textPreview":"Cuffdiff2","textChars":9,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/aho3et0n","slide":1,"name":"header-metric-1-label","text":"tools","textPreview":"tools","textChars":5,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/xkf2pojy","slide":1,"name":"header-metric-2-value","text":"edgeR","textPreview":"edgeR","textChars":5,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/wj6lg3id","slide":1,"name":"header-metric-2-label","text":"true positive resu","textPreview":"true positive resu","textChars":18,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/nedkje1w","slide":1,"name":"header-metric-3-value","text":"DESeq","textPreview":"DESeq","textChars":5,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/md4jq9kb","slide":1,"name":"header-metric-3-label","text":"false positive cau","textPreview":"false positive cau","textChars":18,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/9gf2loj2","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/ofmlsjih","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/zqdkfe10","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/ep4jm9kf","slide":1,"name":"question-evidence","text":"Evidence fixture: 10.1371/journal.pone.0103207","textPreview":"Evidence fixture: 10.1371/journal.pone.0103207","textChars":46,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/2lk3y947","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/3mt4ruls","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/4n2l0zmd","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/pobmt43y","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/qp432943","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/rqd4velo","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/cbml4jm9","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/dcvmxo3u","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/ed436t4f","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/zed4zel0","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/9kzelcre","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/8jqxc7at","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/nihwj298","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/mh8fahsn","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/hojypwra","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/wnaxgrap","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/vm1gnm94","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC BY 4.0\nProfile: bioinformatics\nClaims checked: 3","textPreview":"Input: full paper | License: CC BY 4.0 | Profile: bioinformatics | Claims checked: 3","textChars":78,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/ul8fehsz","slide":1,"name":"dataset-evidence","text":"https://doi.org/10.1371/journal.pone.0103207","textPreview":"https://doi.org/10.1371/journal.pone.0103207","textChars":44,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/5cjytwrm","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/4raxkra1","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/g7ehcvu9","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/18nil0bu","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/elwzalc3","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/f650jqto","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/sjuh8vux","slide":1,"name":"figure-one-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/tk3ih0bi","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/6hcz6lc7","slide":1,"name":"central-takeaway-title","text":"Cuffdiff2, DESeq and edgeR","textPreview":"Cuffdiff2, DESeq and edgeR","textChars":26,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/ril0fqtc","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/cfy1kfuh","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: 10.1371/journal.pone.0103207","textPreview":"Evidence fixture: 10.1371/journal.pone.0103207","textChars":46,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/dg7itkb2","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/na9kjed4","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/m903q9wj","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/9wbmlova","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/8bilsjep","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/vyt4nyd0","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/axk3utwf","slide":1,"name":"figure-two-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/x0bmp8v6","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/wz2lw3el","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/b2pkbudw","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/q1g3ipwb","slide":1,"name":"validation","text":"• tools: Cuffdiff2, DESeq and edgeR\n• true positive result: edgeR performs slightly better\n• false positive caution: DESeq or taking the intersection","textPreview":"• tools: Cuffdiff2, DESeq and edgeR | • true positive result: edgeR performs slightly better | • false positive caution: DESeq or taking ...","textChars":149,"textLines":3,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/exonqxgz","slide":1,"name":"validation-evidence","text":"Ground-truth case: plos-rnaseq-tool-comparison","textPreview":"Ground-truth case: plos-rnaseq-tool-comparison","textChars":46,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/fyxoj2xk","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/gz6ps7y5","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/10f6lcfa","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/6t4nmxgn","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/rudof2x8","slide":1,"name":"biology-1-value","text":"Cuffdiff2","textPreview":"Cuffdiff2","textChars":9,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/sv65o7yt","slide":1,"name":"biology-1-label","text":"tools","textPreview":"tools","textChars":5,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/twf6hsfe","slide":1,"name":"biology-2-value","text":"edgeR","textPreview":"edgeR","textChars":5,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/i54nidgr","slide":1,"name":"biology-2-label","text":"true positive resu","textPreview":"true positive resu","textChars":18,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/jqdobixc","slide":1,"name":"biology-3-value","text":"DESeq","textPreview":"DESeq","textChars":5,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/lw3idk36","slide":1,"name":"biology-3-label","text":"false positive cau","textPreview":"false positive cau","textChars":18,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/kvuh4fml","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/zul0bal0","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/ytcz254f","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/xs3i903u","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/cruh0fm9","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/b6107alo","slide":1,"name":"figure-three-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/a5szy54j","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/p4ji503y","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/o3ahwvmd","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/gr2ds7u9","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/1sbe1cbu","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/e5kvqxc3","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/fqtwz2to","slide":1,"name":"figure-four-source","text":"Source: 10.1371/journal.pone.0103207","textPreview":"Source: 10.1371/journal.pone.0103207","textChars":36,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/ov2dwral","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/pwve5wbq","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/2tkvuhsf","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/3utw3mt0","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/czmx0rah","slide":1,"name":"conclusion-evidence","text":"Source and license: 10.1371/journal.pone.0103207 · CC BY 4.0","textPreview":"Source and license: 10.1371/journal.pone.0103207 · CC BY 4.0","textChars":60,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/x0ve9wb2","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/76h8fuhg","slide":1,"name":"footer-source","text":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data · CC BY 4.0","textPreview":"A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data · CC BY 4.0","textChars":98,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/6587mp0v","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"notes","id":"nt/qnq5c7","slide":1,"text":"[Sources]\n- https://doi.org/10.1371/journal.pone.0103207\n- License: CC BY 4.0\n[/Sources]"}

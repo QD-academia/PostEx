@@ -1,93 +1,93 @@
-{"kind":"slide","id":"sl/4bvtwx","slide":1,"title":"Prevalent cases in observational studies of cancer survival: do they bias haz...","textShapes":61}
-{"kind":"shape","id":"sh/3y1cfmpg","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
-{"kind":"shape","id":"sh/ozadorq1","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
-{"kind":"textbox","id":"sh/p0jehw76","slide":1,"name":"poster-title","text":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates?","textPreview":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates?","textChars":97,"textLines":1,"bbox":[140,62,3120,230]}
-{"kind":"textbox","id":"sh/q1svq18r","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
-{"kind":"textbox","id":"sh/b21wj6pc","slide":1,"name":"affiliations","text":"Observational profile · CC BY-NC-SA 3.0","textPreview":"Observational profile · CC BY-NC-SA 3.0","textChars":39,"textLines":1,"bbox":[145,382,3090,52]}
-{"kind":"textbox","id":"sh/c3adsrqx","slide":1,"name":"citation","text":"DOI 10.1038/sj.bjc.6605062","textPreview":"DOI 10.1038/sj.bjc.6605062","textChars":26,"textLines":1,"bbox":[145,445,2550,42]}
-{"kind":"shape","id":"sh/do3elw7i","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
-{"kind":"textbox","id":"sh/658vex8n","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
-{"kind":"shape","id":"sh/r6hc72p8","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
-{"kind":"textbox","id":"sh/jmdcvixw","slide":1,"name":"header-metric-1-value","text":"4470","textPreview":"4470","textChars":4,"textLines":1,"bbox":[3440,240,260,78]}
-{"kind":"textbox","id":"sh/il4bmdgr","slide":1,"name":"header-metric-1-label","text":"total sample","textPreview":"total sample","textChars":12,"textLines":1,"bbox":[3440,322,260,88]}
-{"kind":"textbox","id":"sh/5ovuxsf2","slide":1,"name":"header-metric-2-value","text":"1231","textPreview":"1231","textChars":4,"textLines":1,"bbox":[3740,240,260,78]}
-{"kind":"textbox","id":"sh/4nmtonyh","slide":1,"name":"header-metric-2-label","text":"incident cases","textPreview":"incident cases","textChars":14,"textLines":1,"bbox":[3740,322,260,88]}
-{"kind":"textbox","id":"sh/vydcryx0","slide":1,"name":"header-metric-3-value","text":"3239","textPreview":"3239","textChars":4,"textLines":1,"bbox":[4040,240,260,78]}
-{"kind":"textbox","id":"sh/uxkbitgf","slide":1,"name":"header-metric-3-label","text":"prevalent cases","textPreview":"prevalent cases","textChars":15,"textLines":1,"bbox":[4040,322,260,88]}
-{"kind":"textbox","id":"sh/hkvut8f6","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
-{"kind":"shape","id":"sh/wzmtk3yl","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
-{"kind":"textbox","id":"sh/7utsnyx4","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
-{"kind":"textbox","id":"sh/mtkbetgj","slide":1,"name":"question-evidence","text":"Evidence fixture: 10.1038/sj.bjc.6605062","textPreview":"Evidence fixture: 10.1038/sj.bjc.6605062","textChars":40,"textLines":1,"bbox":[140,912,1220,38]}
-{"kind":"textbox","id":"sh/ap0vqt0b","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
-{"kind":"shape","id":"sh/bq9czy1w","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
-{"kind":"shape","id":"sh/cr2dsjih","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
-{"kind":"textbox","id":"sh/xsbu1oj2","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
-{"kind":"textbox","id":"sh/ytkvut07","slide":1,"name":"pipeline-1-text","text":"Background","textPreview":"Background","textChars":10,"textLines":1,"bbox":[222,1068,1138,58]}
-{"kind":"shape","id":"sh/zutc3y1s","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
-{"kind":"textbox","id":"sh/kv2dw3id","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
-{"kind":"textbox","id":"sh/lwbu58jy","slide":1,"name":"pipeline-2-text","text":"Cohort Construction","textPreview":"Cohort Construction","textChars":19,"textLines":1,"bbox":[222,1148,1138,58]}
-{"kind":"shape","id":"sh/mxkvyd0j","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
-{"kind":"textbox","id":"sh/7idc7ih4","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
-{"kind":"textbox","id":"sh/hcfyxc36","slide":1,"name":"pipeline-3-text","text":"Baseline Characteristics","textPreview":"Baseline Characteristics","textChars":24,"textLines":1,"bbox":[222,1228,1138,58]}
-{"kind":"shape","id":"sh/wr6xo72l","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
-{"kind":"textbox","id":"sh/vqxgv2l0","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
-{"kind":"textbox","id":"sh/up4fmxkf","slide":1,"name":"pipeline-4-text","text":"Statistical Model","textPreview":"Statistical Model","textChars":17,"textLines":1,"bbox":[222,1308,1138,58]}
-{"kind":"shape","id":"sh/5gfy1cj2","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
-{"kind":"textbox","id":"sh/4f6xs72x","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
-{"kind":"textbox","id":"sh/jexgzmlc","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC BY-NC-SA 3.0\nProfile: observational\nClaims checked: 4","textPreview":"Input: full paper | License: CC BY-NC-SA 3.0 | Profile: observational | Claims checked: 4","textChars":83,"textLines":4,"bbox":[168,1495,1164,230]}
-{"kind":"textbox","id":"sh/idofqhkr","slide":1,"name":"dataset-evidence","text":"https://www.nature.com/articles/6605062","textPreview":"https://www.nature.com/articles/6605062","textChars":39,"textLines":1,"bbox":[168,1723,1164,38]}
-{"kind":"textbox","id":"sh/tkzy5wje","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
-{"kind":"shape","id":"sh/sjqxwr2t","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
-{"kind":"shape","id":"sh/ofa14vm1","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
-{"kind":"shape","id":"sh/pgjix03m","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
-{"kind":"textbox","id":"sh/2dsj2l4v","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
-{"kind":"textbox","id":"sh/3e10vqlg","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
-{"kind":"textbox","id":"sh/gbah0bm5","slide":1,"name":"figure-one-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[164,2916,1172,38]}
-{"kind":"shape","id":"sh/1cjitgna","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
-{"kind":"textbox","id":"sh/e9szyl4z","slide":1,"name":"central-takeaway-title","text":"4470","textPreview":"4470","textChars":4,"textLines":1,"bbox":[1464,625,1347,100]}
-{"kind":"textbox","id":"sh/fa10r65k","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
-{"kind":"textbox","id":"sh/07u1cfm9","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: 10.1038/sj.bjc.6605062","textPreview":"Evidence fixture: 10.1038/sj.bjc.6605062","textChars":40,"textLines":1,"bbox":[1466,810,1343,38]}
-{"kind":"textbox","id":"sh/l8ni5k3u","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
-{"kind":"shape","id":"sh/ve9cry98","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
-{"kind":"shape","id":"sh/ud0vidsn","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
-{"kind":"shape","id":"sh/hgrut8re","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
-{"kind":"textbox","id":"sh/gfidk3at","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
-{"kind":"textbox","id":"sh/3i9cvi94","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
-{"kind":"textbox","id":"sh/ih0vmdsj","slide":1,"name":"figure-two-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[1444,2291,1387,38]}
-{"kind":"textbox","id":"sh/54ruxsra","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
-{"kind":"shape","id":"sh/43idonap","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
-{"kind":"shape","id":"sh/jmpcjet0","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
-{"kind":"textbox","id":"sh/ylwbatsf","slide":1,"name":"validation","text":"• total sample: 4470\n• incident cases: 1231\n• prevalent cases: 3239\n• stage comparison p: P=0.90","textPreview":"• total sample: 4470 | • incident cases: 1231 | • prevalent cases: 3239 | • stage comparison p: P=0.90","textChars":96,"textLines":4,"bbox":[1456,2503,1363,310]}
-{"kind":"textbox","id":"sh/214fihc3","slide":1,"name":"validation-evidence","text":"Ground-truth case: prevalent-cases-survival-bias","textPreview":"Ground-truth case: prevalent-cases-survival-bias","textChars":48,"textLines":1,"bbox":[1456,2847,1363,38]}
-{"kind":"shape","id":"sh/n2dgrmto","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
-{"kind":"textbox","id":"sh/o3mxkru9","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
-{"kind":"textbox","id":"sh/p4fytwbe","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
-{"kind":"shape","id":"sh/ex4fehcr","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
-{"kind":"textbox","id":"sh/fydwnmtc","slide":1,"name":"biology-1-value","text":"4470","textPreview":"4470","textChars":4,"textLines":1,"bbox":[2915,690,420,78]}
-{"kind":"textbox","id":"sh/0zmxgrux","slide":1,"name":"biology-1-label","text":"total sample","textPreview":"total sample","textChars":12,"textLines":1,"bbox":[2915,772,420,88]}
-{"kind":"textbox","id":"sh/10vypwbi","slide":1,"name":"biology-2-value","text":"1231","textPreview":"1231","textChars":4,"textLines":1,"bbox":[3390,690,420,78]}
-{"kind":"textbox","id":"sh/q9kfaxcv","slide":1,"name":"biology-2-label","text":"incident cases","textPreview":"incident cases","textChars":14,"textLines":1,"bbox":[3390,772,420,88]}
-{"kind":"textbox","id":"sh/ratwj2tg","slide":1,"name":"biology-3-value","text":"3239","textPreview":"3239","textChars":4,"textLines":1,"bbox":[3865,690,420,78]}
-{"kind":"textbox","id":"sh/tojipkvy","slide":1,"name":"biology-3-label","text":"prevalent cases","textPreview":"prevalent cases","textChars":15,"textLines":1,"bbox":[3865,772,420,88]}
-{"kind":"textbox","id":"sh/8na1gfed","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
-{"kind":"shape","id":"sh/7mh0nads","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
-{"kind":"shape","id":"sh/618ze5w7","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
-{"kind":"textbox","id":"sh/l0zil0vm","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
-{"kind":"textbox","id":"sh/kzqhcveh","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
-{"kind":"textbox","id":"sh/zyh0jqdw","slide":1,"name":"figure-three-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[2939,1646,1391,38]}
-{"kind":"textbox","id":"sh/yx8zalwb","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
-{"kind":"shape","id":"sh/xwzih0vq","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
-{"kind":"shape","id":"sh/cv6h8ve5","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
-{"kind":"shape","id":"sh/obi50rqd","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
-{"kind":"textbox","id":"sh/9cr6tw7y","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
-{"kind":"textbox","id":"sh/m90ny187","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
-{"kind":"textbox","id":"sh/na94rmps","slide":1,"name":"figure-four-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[2939,2536,1391,38]}
-{"kind":"textbox","id":"sh/wz254bqp","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
-{"kind":"shape","id":"sh/x0b6xg7u","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
-{"kind":"shape","id":"sh/ax0n218j","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
-{"kind":"textbox","id":"sh/bytov6p4","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
-{"kind":"textbox","id":"sh/k3258bql","slide":1,"name":"conclusion-evidence","text":"Source and license: 10.1038/sj.bjc.6605062 · CC BY-NC-SA 3.0","textPreview":"Source and license: 10.1038/sj.bjc.6605062 · CC BY-NC-SA 3.0","textChars":60,"textLines":1,"bbox":[2949,2992,1371,38]}
-{"kind":"shape","id":"sh/l4b61g76","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
-{"kind":"textbox","id":"sh/vyx87a98","slide":1,"name":"footer-source","text":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates? · CC BY-NC-SA 3.0","textPreview":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates? · CC BY-NC-SA 3.0","textChars":115,"textLines":1,"bbox":[140,3107,3000,42]}
-{"kind":"textbox","id":"sh/uxo7ypsn","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
-{"kind":"notes","id":"nt/4bvtwx","slide":1,"text":"[Sources]\n- https://www.nature.com/articles/6605062\n- License: CC BY-NC-SA 3.0\n[/Sources]"}
+{"kind":"slide","id":"sl/oh6xpb","slide":1,"title":"Prevalent cases in observational studies of cancer survival: do they bias haz...","textShapes":61}
+{"kind":"shape","id":"sh/fex8vmh8","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/0f6p4rit","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/1gfqxwze","slide":1,"name":"poster-title","text":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates?","textPreview":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates?","textChars":97,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/q947yh0r","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/rad8rmhw","slide":1,"name":"affiliations","text":"Observational profile · CC BY-NC-SA 3.0","textPreview":"Observational profile · CC BY-NC-SA 3.0","textChars":39,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/sbmp0rih","slide":1,"name":"citation","text":"DOI 10.1038/sj.bjc.6605062","textPreview":"DOI 10.1038/sj.bjc.6605062","textChars":26,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/dcfqtwz2","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/a58ralgv","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/b6h836hg","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/fedsvq5w","slide":1,"name":"header-metric-1-value","text":"4470","textPreview":"4470","textChars":4,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/ud4bml4b","slide":1,"name":"header-metric-1-label","text":"total sample","textPreview":"total sample","textChars":12,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/hgvaxgn2","slide":1,"name":"header-metric-2-value","text":"1231","textPreview":"1231","textChars":4,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/gfmtobmh","slide":1,"name":"header-metric-2-label","text":"incident cases","textPreview":"incident cases","textChars":14,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/3ixszq58","slide":1,"name":"header-metric-3-value","text":"3239","textPreview":"3239","textChars":4,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/2h4bql4n","slide":1,"name":"header-metric-3-label","text":"prevalent cases","textPreview":"prevalent cases","textChars":15,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/pkfa10ny","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/4j6tsvmd","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/bmxs3a54","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/qlobu54j","slide":1,"name":"question-evidence","text":"Evidence fixture: 10.1038/sj.bjc.6605062","textPreview":"Evidence fixture: 10.1038/sj.bjc.6605062","textChars":40,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/m1sv29or","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/n21wvupc","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/83ad4z6x","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/94jex47i","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/yd8vypov","slide":1,"name":"pipeline-1-text","text":"Background","textPreview":"Background","textChars":10,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/zehcrupg","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/0fqd0z6l","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/lgzet476","slide":1,"name":"pipeline-2-text","text":"Cohort Construction","textPreview":"Cohort Construction","textChars":19,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/i9cvatoz","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/jalw3epk","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/t4nytsrm","slide":1,"name":"pipeline-3-text","text":"Baseline Characteristics","textPreview":"Baseline Characteristics","textChars":24,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/s3eh0nq1","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/725gri9g","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/61wfyd8b","slide":1,"name":"pipeline-4-text","text":"Statistical Model","textPreview":"Statistical Model","textChars":17,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/503yp8rq","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/kzuxw3q5","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/jylgny9k","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC BY-NC-SA 3.0\nProfile: observational\nClaims checked: 4","textPreview":"Input: full paper | License: CC BY-NC-SA 3.0 | Profile: observational | Claims checked: 4","textChars":83,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/ixcfut8z","slide":1,"name":"dataset-evidence","text":"https://www.nature.com/articles/6605062","textPreview":"https://www.nature.com/articles/6605062","textChars":39,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/pw7y1cru","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/4vyh87q9","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/wzmps7q5","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/x0v61crq","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/ad47qx8z","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/bydoz29k","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/k3mpw7q1","slide":1,"name":"figure-one-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/l4f65crm","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/y147uh8v","slide":1,"name":"central-takeaway-title","text":"4470","textPreview":"4470","textChars":4,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/j2do329g","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/876p0rqd","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: 10.1038/sj.bjc.6605062","textPreview":"Evidence fixture: 10.1038/sj.bjc.6605062","textChars":40,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/t8fq9w7y","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/32hszqt0","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/i18rqlsf","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/5oja10r6","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/43a9sval","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/vyhsv6to","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/ux8rm1s3","slide":1,"name":"figure-two-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/h0zaxgbu","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/gzq9oba9","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/zuls7a98","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/etsby5sn","slide":1,"name":"validation","text":"• total sample: 4470\n• incident cases: 1231\n• prevalent cases: 3239\n• stage comparison p: P=0.90","textPreview":"• total sample: 4470 | • incident cases: 1231 | • prevalent cases: 3239 | • stage comparison p: P=0.90","textChars":96,"textLines":4,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/apwv69cv","slide":1,"name":"validation-evidence","text":"Ground-truth case: prevalent-cases-survival-bias","textPreview":"Ground-truth case: prevalent-cases-survival-bias","textChars":48,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/bq5czetg","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/wred8ju1","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/xsnu1ob6","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/ytwva9cr","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/jepc3etc","slide":1,"name":"biology-1-value","text":"4470","textPreview":"4470","textChars":4,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/kfydcjux","slide":1,"name":"biology-1-label","text":"total sample","textPreview":"total sample","textChars":12,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/lg7e5obi","slide":1,"name":"biology-2-value","text":"1231","textPreview":"1231","textChars":4,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/excbypcn","slide":1,"name":"biology-2-label","text":"incident cases","textPreview":"incident cases","textChars":14,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/zilcrud8","slide":1,"name":"biology-3-value","text":"3239","textPreview":"3239","textChars":4,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/hcryxsvq","slide":1,"name":"biology-3-label","text":"prevalent cases","textPreview":"prevalent cases","textChars":15,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/gbix4ne5","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/va9gvidk","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/u90f2dwz","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/5gby1svm","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/4f2x87e1","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/3etgz2dw","slide":1,"name":"figure-three-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/idkf6xwb","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/lk7ep8fi","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/kjyxw3ex","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/c3e1wrmt","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/d4n2pwny","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/qhwju14n","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/bi5knm58","slide":1,"name":"figure-four-source","text":"Source: 10.1038/sj.bjc.6605062","textPreview":"Source: 10.1038/sj.bjc.6605062","textChars":30,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/ofe1srmh","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/pgn2lwn2","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/2dcjqh4b","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/3elkjm5w","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/8byl4bml","slide":1,"name":"conclusion-evidence","text":"Source and license: 10.1038/sj.bjc.6605062 · CC BY-NC-SA 3.0","textPreview":"Source and license: 10.1038/sj.bjc.6605062 · CC BY-NC-SA 3.0","textChars":60,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/9c72xgn6","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/j6t43apo","slide":1,"name":"footer-source","text":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates? · CC BY-NC-SA 3.0","textPreview":"Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates? · CC BY-NC-SA 3.0","textChars":115,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/i50nu5o3","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"notes","id":"nt/oh6xpb","slide":1,"text":"[Sources]\n- https://www.nature.com/articles/6605062\n- License: CC BY-NC-SA 3.0\n[/Sources]"}

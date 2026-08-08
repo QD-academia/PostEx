@@ -1,0 +1,118 @@
+schema_version: "1.0"
+paper_id: POSTEX-SYNTH-2026-001
+title: "AURORA-12: a fully synthetic multi-cohort benchmark for transcriptomic relapse-risk modelling"
+running_title: "AURORA-12 synthetic benchmark"
+authors: "PostEx Synthetic Research Collective"
+affiliation: "Fictional Methods Laboratory, Example Research Campus"
+license: "CC0-1.0"
+status: "Synthetic demonstration manuscript - not submitted, peer reviewed, or clinically validated"
+disclaimer: >-
+  Every author, institution, cohort, feature, endpoint and numerical result in this document is fictional.
+  No real participant, patient, specimen, institution, registry or external dataset was used.
+  Values were authored solely to test evidence-linked academic-poster generation.
+abstract:
+  background: >-
+    Academic-poster systems need realistic scientific structure without requiring redistribution of a real paper.
+    We designed AURORA-12 as a fully synthetic transcriptomic relapse-risk benchmark for testing claim extraction,
+    evidence binding, content compression and visual rendering.
+  methods: >-
+    A deterministic generator created 1,240 synthetic profiles across four simulated cohorts from 480 anonymous
+    transcript-like features. A 12-feature elastic-net survival score was fitted in a 620-profile discovery cohort,
+    tuned in a 310-profile internal cohort and stress-tested in two shifted external simulations of 186 and 124 profiles.
+  results: >-
+    The synthetic AURORA-12 score reached C-indices of 0.78, 0.76, 0.75 and 0.74 across the four cohorts, compared
+    with 0.68, 0.67, 0.66 and 0.65 for a five-feature baseline. Feature-sign stability was 92% across 500 resamples.
+    External calibration slopes were 0.97 and 0.95, with absolute calibration errors of 0.031 and 0.038.
+  conclusion: >-
+    AURORA-12 is a reproducible synthetic fixture for testing scientific communication software. It provides no
+    evidence about real biology, prognosis, treatment or clinical utility.
+keywords:
+  - synthetic benchmark
+  - bioinformatics
+  - survival modelling
+  - academic poster
+  - evidence traceability
+cohorts:
+  - [Discovery, 620, 0.78, 0.68, 0.99, 0.021]
+  - [Internal validation, 310, 0.76, 0.67, 0.98, 0.026]
+  - [External simulation A, 186, 0.75, 0.66, 0.97, 0.031]
+  - [External simulation B, 124, 0.74, 0.65, 0.95, 0.038]
+sections:
+  - heading: "1. Introduction"
+    paragraphs:
+      - >-
+        Real-paper examples are valuable for evaluating scientific communication tools, but they introduce copyright,
+        privacy, attribution and long-term redistribution constraints. A synthetic manuscript can exercise the same
+        structural requirements while keeping every claim and asset under project control.
+      - >-
+        We therefore created AURORA-12, a deliberately realistic but entirely fictional benchmark. The communication
+        objective is narrow: determine whether a compact risk model can remain stable when cohort size, censoring and
+        latent expression structure are shifted in deterministic simulations. The benchmark is not intended to model a
+        particular disease or establish a biological mechanism.
+  - heading: "2. Methods"
+    paragraphs:
+      - >-
+        Synthetic cohort generation. A fixed seed of 20260808 generated 1,240 profiles with 480 anonymous features.
+        Three latent modules represented generic proliferative, stromal and immune-like variation without mapping to
+        human genes. Discovery, internal-validation and two external-simulation cohorts contained 620, 310, 186 and 124
+        profiles, respectively. Event fractions ranged from 0.54 to 0.62 and censoring was independent by construction.
+      - >-
+        Model construction. Features were standardized inside each training fold. Elastic-net survival regression reduced
+        480 candidates to 12 anonymous variables, named SYN-F001 through SYN-F012. Hyperparameters were selected using
+        nested five-fold cross-validation in the discovery cohort. A five-feature unpenalized baseline was evaluated with
+        the same resampling splits.
+      - >-
+        Evaluation. Discrimination was summarized with the concordance index. Calibration was assessed with slope and
+        absolute error at a synthetic 24-month horizon. Feature-sign stability was calculated across 500 bootstrap
+        resamples. Stress tests increased batch shift, censoring and latent-module imbalance independently.
+  - heading: "3. Results"
+    paragraphs:
+      - >-
+        Cohort performance. AURORA-12 achieved C-indices of 0.78 in discovery, 0.76 in internal validation, 0.75 in
+        external simulation A and 0.74 in external simulation B. The corresponding baseline values were 0.68, 0.67,
+        0.66 and 0.65. Because all cohorts were simulated, these differences demonstrate fixture behaviour rather than
+        superiority in a clinical population.
+      - >-
+        Stability and calibration. Eleven of 12 selected features retained the same coefficient direction in at least
+        85% of bootstrap resamples; aggregate sign stability was 92%. Calibration slopes were 0.99, 0.98, 0.97 and
+        0.95, while absolute calibration errors were 0.021, 0.026, 0.031 and 0.038.
+      - >-
+        Stress-test boundary. Under the most severe pre-specified combination of batch shift and module imbalance,
+        AURORA-12 C-index decreased by 0.04 from the matched reference simulation. The result supports using the fixture
+        to test whether a poster preserves uncertainty and limitations; it does not support biological transportability.
+  - heading: "4. Discussion"
+    paragraphs:
+      - >-
+        AURORA-12 supplies coherent methods, numerical anchors, multiple validation settings and explicit interpretation
+        boundaries in a rights-safe package. The benchmark is useful for testing whether a poster system retains cohort
+        sizes, model dimensionality, discrimination, calibration and uncertainty during compression.
+      - >-
+        The principal limitation is also the design goal: every observation is synthetic. The latent modules are not
+        mapped to known pathways, the endpoint is not a real clinical outcome and no external biological validity should
+        be inferred. Performance values must never be compared with clinical models or presented as evidence for care.
+  - heading: "5. Conclusion"
+    paragraphs:
+      - >-
+        A 12-feature synthetic score remained numerically stable across four deterministic cohort simulations, but the
+        only supported conclusion is methodological: AURORA-12 is a controlled evaluation fixture for evidence-linked
+        scientific communication and poster rendering.
+statements:
+  ethics: "Not applicable. No humans, animals, specimens or identifiable records were used."
+  data_availability: >-
+    All authored values, figure source files, poster inputs and evidence records are included with this repository example.
+    No external download, accession number or restricted dataset exists.
+  code_availability: >-
+    The PDF and poster are generated by repository scripts and the shared PostEx core. The fixed fixture values are stored
+    in manuscript.yaml; they are not claimed to arise from a biomedical simulation package.
+  competing_interests: "None. This is a fictional software-evaluation artifact."
+  acknowledgements: "No real funder, institution or contributor is represented."
+references_note: "No external references were used. This document is an original synthetic evaluation fixture."
+figures:
+  - path: assets/figures/figure-1-synthetic-pipeline.svg
+    caption: "Figure 1. Deterministic generation, feature selection and cohort-shift evaluation workflow."
+  - path: assets/figures/figure-2-performance.svg
+    caption: "Figure 2. Authored concordance-index values for AURORA-12 and the synthetic baseline."
+  - path: assets/figures/figure-3-calibration.svg
+    caption: "Figure 3. Authored calibration and bootstrap stability summaries."
+  - path: assets/figures/figure-4-stress-test.svg
+    caption: "Figure 4. Pre-specified stress-test boundary under increasing synthetic shift."

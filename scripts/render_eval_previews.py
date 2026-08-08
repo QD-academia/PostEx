@@ -139,7 +139,7 @@ def main() -> int:
     rendered = 0
     for path in sorted(CASES.glob("*.json")):
         case = load(path)
-        if case.get("fictional", False):
+        if case.get("fictional", False) and not case.get("render_preview", False):
             continue
         target = OUTPUT / case["case_id"]
         target.mkdir(parents=True, exist_ok=True)
@@ -169,7 +169,7 @@ def main() -> int:
             )
         rendered += 1
         print(f"rendered {case['case_id']}")
-    print(f"rendered_real_paper_previews={rendered}")
+    print(f"rendered_evaluation_previews={rendered}")
     return 0
 
 

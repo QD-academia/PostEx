@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "proposal_id": "paimon-no-green-figures-v1",
+  "status": "approved",
+  "digest": "sha256:3f39322830d64035ab1c02216a1d307e9a8fed9b535a88e2a92b6fef4fb91f0a",
+  "scope": "Paimon poster variant only; original manuscript and default/gate figure assets remain unchanged",
+  "reason": "The user requires the Paimon design to contain no green or green-leaning teal",
+  "semantic_review": {
+    "effect_direction": "not encoded by the affected colors",
+    "risk_level": "not encoded by the affected colors",
+    "significance": "not encoded by the affected colors",
+    "series_identity": "preserved through ordered blue lightness and labels"
+  },
+  "mapping": {
+    "#102A43": "#293F55",
+    "#0F5F73": "#3E5C78",
+    "#2C8C99": "#487AA1",
+    "#486581": "#53697C",
+    "#9FB3C8": "#89B8C9",
+    "#D9E2EC": "#DDE5E7",
+    "#EAF4F5": "#EEF3F5",
+    "#E8B44C": "#E5BC6C",
+    "#F7FAFC": "#F6F2EE"
+  },
+  "locks": [
+    "Do not change any number, label, axis, curve geometry or panel composition",
+    "Do not recolor the default or campus-gate variants",
+    "Do not introduce green gradient stops, fills, strokes or text"
+  ]
+}

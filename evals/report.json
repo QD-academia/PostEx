@@ -1,10 +1,17 @@
 {
   "schema_version": "0.1",
   "passed": true,
-  "real_paper_cases": 6,
+  "real_paper_cases": 5,
   "total_cases": 7,
   "errors": [],
   "results": [
+    {
+      "case_id": "aurora-synthetic-benchmark",
+      "research_type": "bioinformatics",
+      "license": "CC0-1.0",
+      "candidate_status": "passed",
+      "human_review_status": "passed"
+    },
     {
       "case_id": "bisr-rnaseq-workflow",
       "research_type": "bioinformatics",
@@ -38,13 +45,6 @@
       "research_type": "observational",
       "license": "CC BY-NC-SA 3.0",
       "candidate_status": "fixture-only",
-      "human_review_status": "passed"
-    },
-    {
-      "case_id": "sci02jitc-pan-cancer-nets",
-      "research_type": "bioinformatics",
-      "license": "CC BY-NC 4.0",
-      "candidate_status": "passed",
       "human_review_status": "passed"
     },
     {

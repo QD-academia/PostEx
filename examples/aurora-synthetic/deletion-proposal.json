@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1",
+  "proposal_id": "aurora-poster-content-v1",
+  "status": "approved",
+  "digest": "sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b",
+  "items": [
+    {
+      "source_id": "p2-feature-identifiers",
+      "reason": "Distance readability",
+      "impact": "Retain 480-to-12 selection and anonymous-feature status; omit the twelve fixture identifiers."
+    },
+    {
+      "source_id": "p2-hyperparameter-detail",
+      "reason": "Poster space",
+      "impact": "Retain nested five-fold tuning; omit coefficient and penalty grids."
+    },
+    {
+      "source_id": "p2-event-fractions",
+      "reason": "Secondary methodological detail",
+      "impact": "Retain cohort sizes and independent censoring; omit the 0.54-to-0.62 range."
+    },
+    {
+      "source_id": "p5-full-declarations",
+      "reason": "Poster space",
+      "impact": "Retain the synthetic-data, ethics, no-DOI and CC0 boundary in concise footer and conclusion copy."
+    },
+    {
+      "source_id": "p5-references-note",
+      "reason": "No external references exist",
+      "impact": "State 'no external sources' once in the provenance record rather than as a poster section."
+    }
+  ],
+  "figure_plan": [
+    {
+      "figure_id": "figure-1-synthetic-pipeline",
+      "action": "recompose",
+      "change": "Use the full authored SVG inside the method frame; preserve all labels and interpretation boundary."
+    },
+    {
+      "figure_id": "figure-2-performance",
+      "action": "crop_whitespace",
+      "change": "Trim only external margins; preserve bars, cohort labels and all authored values."
+    },
+    {
+      "figure_id": "figure-3-calibration",
+      "action": "crop_whitespace",
+      "change": "Preserve both calibration and stability panels as a single evidence unit."
+    },
+    {
+      "figure_id": "figure-4-stress-test",
+      "action": "recompose",
+      "change": "Keep the interpretation warning attached to the curve."
+    }
+  ]
+}

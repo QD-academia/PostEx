@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.2",
+  "proposal_id": "aurora-hero-v1",
+  "status": "approved",
+  "digest": "sha256:608415cb928b623aae323ee86f83f8fc055e668ee7dd3e82359983b3cb444540",
+  "hero_claim_id": "claim:external-discrimination",
+  "headline": "AURORA-12 retained a C-index of 0.74-0.75 in two shifted external simulations",
+  "supporting_text": "The synthetic baseline reached 0.65-0.66; every value is an authored software-evaluation fixture.",
+  "evidence_ids": ["p1-results", "p3-results", "fig2"],
+  "guardrail": "Do not imply clinical validation, biological transportability or superiority in real data."
+}

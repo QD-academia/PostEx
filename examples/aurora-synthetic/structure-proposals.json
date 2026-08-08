@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2",
+  "status": "approved",
+  "digest": "sha256:0b56088a8e9db9a0c43b30980553a7303035a06300714e22f7231ace6d15d3ed",
+  "recommended": "visual-journey",
+  "candidates": [
+    {
+      "structure_id": "hero-result",
+      "name": "Hero Result",
+      "hierarchy": "Large external-simulation comparison, compact methods rail, explicit synthetic warning",
+      "flow": "center-out",
+      "spacing": "high contrast between hero and supporting blocks"
+    },
+    {
+      "structure_id": "visual-journey",
+      "name": "Visual Journey",
+      "hierarchy": "Generation pipeline -> performance -> calibration -> stress boundary",
+      "flow": "left-to-right then top-to-bottom",
+      "spacing": "balanced narrative rhythm",
+      "recommendation_reason": "Best matches the paper's deterministic workflow and makes the interpretation boundary cumulative."
+    },
+    {
+      "structure_id": "editorial-story",
+      "name": "Editorial Story",
+      "hierarchy": "Synthetic-fixture thesis, paired evidence spreads, strong limitations close",
+      "flow": "asymmetric",
+      "spacing": "large editorial margins and fewer simultaneous figures"
+    }
+  ]
+}

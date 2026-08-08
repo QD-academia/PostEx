@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1",
+  "mode": "traceable",
+  "research_type": "bioinformatics",
+  "poster_size": "a0-landscape",
+  "language": "en",
+  "blocks": [
+    {
+      "block_id": "question",
+      "role": "research_question",
+      "text": "Can a fully synthetic multi-cohort benchmark exercise evidence-linked poster generation without redistributing a real paper?",
+      "evidence": ["p1-abstract", "p2-objective"]
+    },
+    {
+      "block_id": "pipeline",
+      "role": "analysis_pipeline",
+      "text": "Fixed seed -> 1,240 profiles and 480 anonymous features -> nested elastic-net selection -> 12-feature AURORA-12 score -> four-cohort stress testing.",
+      "evidence": ["p2-methods", "fig1"]
+    },
+    {
+      "block_id": "datasets",
+      "role": "datasets",
+      "text": "Four deterministic synthetic cohorts contained 620 discovery, 310 internal-validation, 186 external-A and 124 external-B profiles; total n=1,240.",
+      "evidence": ["p1-methods", "p2-methods"]
+    },
+    {
+      "block_id": "performance",
+      "role": "key_results",
+      "text": "AURORA-12 C-indices were 0.78, 0.76, 0.75 and 0.74, compared with 0.68, 0.67, 0.66 and 0.65 for the synthetic baseline.",
+      "evidence": ["p1-results", "p3-results", "fig2"]
+    },
+    {
+      "block_id": "calibration",
+      "role": "external_validation",
+      "text": "External calibration slopes were 0.97 and 0.95, with absolute errors of 0.031 and 0.038; aggregate coefficient-sign stability was 92% across 500 resamples.",
+      "evidence": ["p1-results", "p4-stability", "fig3"]
+    },
+    {
+      "block_id": "stress",
+      "role": "key_results",
+      "text": "The most severe pre-specified synthetic shift reduced C-index by 0.04 from the matched reference simulation.",
+      "evidence": ["p4-stress", "fig4"]
+    },
+    {
+      "block_id": "boundary",
+      "role": "external_validation",
+      "text": "Every value is authored and synthetic; no biological transportability, prognosis, treatment effect or clinical utility may be inferred.",
+      "evidence": ["p1-disclaimer", "p5-limitations"]
+    },
+    {
+      "block_id": "conclusion",
+      "role": "conclusion",
+      "text": "AURORA-12 is a controlled, rights-safe evaluation fixture for evidence-linked scientific communication and poster rendering.",
+      "evidence": ["p1-conclusion", "p5-conclusion"]
+    }
+  ]
+}

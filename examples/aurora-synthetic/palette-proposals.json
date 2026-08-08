@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.2",
+  "approval_required": false,
+  "scientific_figure_colors_locked": true,
+  "proposals": [
+    {
+      "palette_id": "default-academic-safe",
+      "variant": "Academic Safe",
+      "name": "PostEx Default · Academic Safe",
+      "status": "approved",
+      "digest": "sha256:1415dde4c40a1a1652421d6bc9752898c97e4d046e43bf53cdaf31b3423f096d",
+      "colors": ["#102A43", "#0F5F73", "#2C8C99", "#E8B44C", "#F6F8FA", "#D9E2EC"],
+      "roles": {"text": "#102A43", "primary": "#0F5F73", "secondary": "#2C8C99", "highlight": "#E8B44C", "canvas": "#F6F8FA", "accent": "#D9E2EC"},
+      "ratios": {"canvas": 0.55, "primary": 0.18, "secondary": 0.10, "highlight": 0.07, "accent": 0.05, "text": 0.05},
+      "source": "PostEx default biomedical design system; original project colors",
+      "mood": ["rigorous", "clear", "restrained"],
+      "component_behavior": {"cards": "anchored", "corners": "structured", "connectors": "direct", "ornament": "minimal"},
+      "semantic_colors_locked": true,
+      "simulations": ["poster", "deuteranopia", "protanopia", "grayscale", "print"]
+    },
+    {
+      "palette_id": "gate-image-balanced-fusion",
+      "variant": "Balanced Fusion",
+      "name": "Campus Gate · Balanced Fusion",
+      "status": "approved",
+      "digest": "sha256:f3960633b4ea4f9a139d021c7437f8fa2b8a078f64b1b4c07d950d39e1d4be9d",
+      "colors": ["#142A3B", "#286F67", "#4D8FC0", "#D77A70", "#F2F1EC", "#8C9696"],
+      "roles": {"text": "#142A3B", "primary": "#286F67", "secondary": "#4D8FC0", "highlight": "#D77A70", "canvas": "#F2F1EC", "accent": "#8C9696"},
+      "ratios": {"canvas": 0.52, "primary": 0.19, "secondary": 0.10, "highlight": 0.07, "accent": 0.06, "text": 0.06},
+      "source": "User-supplied campus-gate image, SHA-256 647cf580497dfb351b541b8a3e6d11af022b57793b70c3c19c694bd9a13f3898; color inspiration only; source image not redistributed",
+      "mood": ["institutional", "open", "heritage", "calm"],
+      "component_behavior": {"cards": "floating", "corners": "soft", "connectors": "architectural", "ornament": "restrained eave rhythm"},
+      "semantic_colors_locked": true,
+      "simulations": ["poster", "deuteranopia", "protanopia", "grayscale", "print"]
+    },
+    {
+      "palette_id": "paimon-cape-gradient-visual-signature",
+      "variant": "Visual Signature",
+      "name": "Paimon Starlight Cape · Visual Signature",
+      "status": "approved",
+      "digest": "sha256:c9834f95586be531d5d8667465b8d0525469d9de17a3f361d76c34ad4677c4ca",
+      "colors": ["#293F55", "#3E5C78", "#487AA1", "#E5BC6C", "#F6F2EE", "#AE7F70"],
+      "roles": {"text": "#293F55", "primary": "#3E5C78", "secondary": "#487AA1", "highlight": "#E5BC6C", "canvas": "#F6F2EE", "accent": "#AE7F70", "neutral": "#DDE5E7"},
+      "ratios": {"canvas": 0.53, "primary": 0.18, "secondary": 0.10, "highlight": 0.07, "accent": 0.07, "text": 0.05},
+      "gradient_stops": ["#293F55", "#3E5C78", "#487AA1", "#89B8C9"],
+      "source": "Deterministic CIELAB clustering of semantic regions from HoYoverse official pages 122545 and 119430; image SHA-256 values and crop selectors recorded in paimon-palette-extraction.json; reference images not redistributed",
+      "mood": ["airy", "friendly", "celestial", "ink-blue", "warmly accented"],
+      "component_behavior": {"cards": "layered", "corners": "soft", "connectors": "starlight", "ornament": "ink-to-azure cape ribbon with sparse pale-cyan star points and peach-gold micro-accents"},
+      "design_guardrails": ["No green palette role", "No green gradient stop", "Color-vision-deficiency simulations are accessibility checks only and must never be applied as theme colors"],
+      "semantic_colors_locked": true,
+      "simulations": ["poster", "deuteranopia", "protanopia", "grayscale", "print"]
+    }
+  ]
+}

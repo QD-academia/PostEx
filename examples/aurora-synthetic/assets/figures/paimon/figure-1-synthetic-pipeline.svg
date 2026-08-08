@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Synthetic cohort generation and modelling pipeline">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6F2EE"/><stop offset="1" stop-color="#EEF3F5"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3E5C78"/><stop offset="1" stop-color="#487AA1"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#293F55" flood-opacity=".13"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="30" fill="url(#bg)"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#293F55">Synthetic benchmark workflow</text>
+  <text x="60" y="108" font-family="Arial" font-size="19" fill="#53697C">All profiles, features and outcomes are authored simulation fixtures</text>
+  <g stroke="#89B8C9" stroke-width="5" fill="none"><path d="M272 354H354"/><path d="M548 354H630"/><path d="M824 354H906"/></g>
+  <g fill="#E5BC6C"><path d="M346 344l18 10-18 10z"/><path d="M622 344l18 10-18 10z"/><path d="M898 344l18 10-18 10z"/></g>
+  <g transform="translate(60 202)" filter="url(#s)">
+    <rect width="212" height="304" rx="22" fill="#FFFFFF" stroke="#DDE5E7"/>
+    <circle cx="106" cy="82" r="43" fill="#E5BC6C"/>
+    <path d="M82 82h48M106 58v48" stroke="#293F55" stroke-width="7" stroke-linecap="round"/>
+    <text x="106" y="154" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#293F55">Fixed seed</text>
+    <text x="106" y="187" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">1,240 profiles</text>
+    <text x="106" y="215" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">480 features</text>
+    <text x="106" y="260" text-anchor="middle" font-family="Arial" font-size="17" fill="#3E5C78">Seed 20260808</text>
+  </g>
+  <g transform="translate(354 202)" filter="url(#s)">
+    <rect width="194" height="304" rx="22" fill="#FFFFFF" stroke="#DDE5E7"/>
+    <g transform="translate(44 38)">
+      <g fill="#3E5C78"><rect width="22" height="22" rx="4"/><rect x="28" width="22" height="22" rx="4" opacity=".72"/><rect x="56" width="22" height="22" rx="4" opacity=".46"/><rect x="84" width="22" height="22" rx="4" opacity=".28"/></g>
+      <g fill="#487AA1"><rect y="28" width="22" height="22" rx="4" opacity=".42"/><rect x="28" y="28" width="22" height="22" rx="4"/><rect x="56" y="28" width="22" height="22" rx="4" opacity=".7"/><rect x="84" y="28" width="22" height="22" rx="4" opacity=".45"/></g>
+      <g fill="#E5BC6C"><rect y="56" width="22" height="22" rx="4" opacity=".34"/><rect x="28" y="56" width="22" height="22" rx="4" opacity=".55"/><rect x="56" y="56" width="22" height="22" rx="4"/><rect x="84" y="56" width="22" height="22" rx="4" opacity=".65"/></g>
+    </g>
+    <text x="97" y="154" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#293F55">Latent modules</text>
+    <text x="97" y="187" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">3 anonymous axes</text>
+    <text x="97" y="215" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">controlled censoring</text>
+    <text x="97" y="260" text-anchor="middle" font-family="Arial" font-size="17" fill="#3E5C78">No gene mapping</text>
+  </g>
+  <g transform="translate(630 202)" filter="url(#s)">
+    <rect width="194" height="304" rx="22" fill="#FFFFFF" stroke="#DDE5E7"/>
+    <path d="M46 92c22-48 45 44 67-4s36 26 42-18" fill="none" stroke="url(#flow)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="46" cy="92" r="7" fill="#E5BC6C"/><circle cx="113" cy="88" r="7" fill="#E5BC6C"/><circle cx="155" cy="70" r="7" fill="#E5BC6C"/>
+    <text x="97" y="154" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#293F55">Elastic net</text>
+    <text x="97" y="187" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">480 to 12 features</text>
+    <text x="97" y="215" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">nested resampling</text>
+    <text x="97" y="260" text-anchor="middle" font-family="Arial" font-size="17" fill="#3E5C78">AURORA-12</text>
+  </g>
+  <g transform="translate(906 202)" filter="url(#s)">
+    <rect width="234" height="304" rx="22" fill="#FFFFFF" stroke="#DDE5E7"/>
+    <g transform="translate(35 45)" font-family="Arial" font-weight="700" text-anchor="middle"><circle cx="35" cy="35" r="31" fill="#3E5C78"/><circle cx="129" cy="35" r="31" fill="#487AA1"/><circle cx="35" cy="111" r="31" fill="#E5BC6C"/><circle cx="129" cy="111" r="31" fill="#53697C"/><g fill="#fff" font-size="19"><text x="35" y="42">D</text><text x="129" y="42">I</text><text x="35" y="118">A</text><text x="129" y="118">B</text></g></g>
+    <text x="117" y="222" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#293F55">Four cohorts</text>
+    <text x="117" y="255" text-anchor="middle" font-family="Arial" font-size="18" fill="#53697C">shift and stress tests</text>
+  </g>
+  <rect x="60" y="570" width="1080" height="86" rx="18" fill="#293F55"/>
+  <text x="600" y="607" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#FFFFFF">Interpretation boundary</text>
+  <text x="600" y="635" text-anchor="middle" font-family="Arial" font-size="17" fill="#DDE5E7">Methodological fixture only - no biological or clinical inference</text>
+</svg>

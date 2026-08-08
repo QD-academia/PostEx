@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Synthetic calibration and bootstrap stability summary">
+  <rect width="1200" height="720" rx="30" fill="#F7FAFC"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#102A43">Calibration and coefficient stability</text>
+  <text x="60" y="108" font-family="Arial" font-size="19" fill="#486581">Authored evaluation values - no patient-level data</text>
+  <g transform="translate(60 155)">
+    <rect width="520" height="485" rx="24" fill="#FFFFFF" stroke="#D9E2EC"/>
+    <text x="32" y="48" font-family="Arial" font-size="24" font-weight="700" fill="#102A43">24-month calibration</text>
+    <g transform="translate(76 88)"><path d="M0 330V0M0 330H370" stroke="#9FB3C8" stroke-width="3"/><path d="M0 330L330 0" stroke="#C5D1DE" stroke-width="5" stroke-dasharray="12 12"/><path d="M5 328C75 276 125 226 178 168S286 55 330 18" fill="none" stroke="#0F5F73" stroke-width="8" stroke-linecap="round"/><g fill="#E8B44C"><circle cx="58" cy="278" r="8"/><circle cx="122" cy="224" r="8"/><circle cx="182" cy="165" r="8"/><circle cx="244" cy="102" r="8"/><circle cx="316" cy="32" r="8"/></g><text x="185" y="370" text-anchor="middle" font-family="Arial" font-size="17" fill="#486581">Predicted event probability</text><text x="-165" y="-45" transform="rotate(-90)" text-anchor="middle" font-family="Arial" font-size="17" fill="#486581">Observed event fraction</text></g>
+  </g>
+  <g transform="translate(620 155)">
+    <rect width="520" height="485" rx="24" fill="#FFFFFF" stroke="#D9E2EC"/>
+    <text x="32" y="48" font-family="Arial" font-size="24" font-weight="700" fill="#102A43">500 bootstrap resamples</text>
+    <circle cx="190" cy="244" r="118" fill="none" stroke="#EAF0F5" stroke-width="38"/><circle cx="190" cy="244" r="118" fill="none" stroke="#2C8C99" stroke-width="38" stroke-linecap="round" stroke-dasharray="682 60" transform="rotate(-90 190 244)"/>
+    <text x="190" y="236" text-anchor="middle" font-family="Arial" font-size="55" font-weight="700" fill="#0F5F73">92%</text><text x="190" y="274" text-anchor="middle" font-family="Arial" font-size="18" fill="#486581">sign stability</text>
+    <g transform="translate(352 128)" font-family="Arial"><text font-size="18" font-weight="700" fill="#102A43">Calibration slope</text><text y="42" font-size="34" font-weight="700" fill="#0F5F73">0.95-0.99</text><text y="105" font-size="18" font-weight="700" fill="#102A43">Absolute error</text><text y="147" font-size="34" font-weight="700" fill="#E8B44C">0.021-0.038</text><text y="217" font-size="18" font-weight="700" fill="#102A43">Stable features</text><text y="259" font-size="34" font-weight="700" fill="#2C8C99">11 / 12</text></g>
+    <rect x="32" y="416" width="456" height="42" rx="12" fill="#EAF4F5"/><text x="260" y="444" text-anchor="middle" font-family="Arial" font-size="16" fill="#0F5F73">Synthetic stability supports fixture QA only</text>
+  </g>
+</svg>

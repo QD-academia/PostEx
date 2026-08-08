@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Synthetic stress test under increasing cohort shift">
+  <defs><linearGradient id="band" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#EEF3F5"/><stop offset="1" stop-color="#FDF3D8"/></linearGradient></defs>
+  <rect width="1200" height="720" rx="30" fill="#F6F2EE"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#293F55">Pre-specified stress-test boundary</text>
+  <text x="60" y="108" font-family="Arial" font-size="19" fill="#53697C">Increasing batch shift and latent-module imbalance</text>
+  <g transform="translate(90 160)">
+    <rect width="1020" height="420" rx="22" fill="#FFFFFF" stroke="#DDE5E7"/>
+    <rect x="90" y="62" width="820" height="270" rx="14" fill="url(#band)"/>
+    <g stroke="#DDE5E7" stroke-width="2"><path d="M90 332H910"/><path d="M90 242H910"/><path d="M90 152H910"/><path d="M90 62H910"/></g>
+    <g fill="#53697C" font-family="Arial" font-size="16" text-anchor="end"><text x="76" y="338">0.66</text><text x="76" y="248">0.70</text><text x="76" y="158">0.74</text><text x="76" y="68">0.78</text></g>
+    <path d="M110 84C250 92 355 116 490 152S720 218 890 264" fill="none" stroke="#3E5C78" stroke-width="10" stroke-linecap="round"/>
+    <g fill="#E5BC6C" stroke="#FFFFFF" stroke-width="4"><circle cx="110" cy="84" r="12"/><circle cx="300" cy="106" r="12"/><circle cx="490" cy="152" r="12"/><circle cx="690" cy="208" r="12"/><circle cx="890" cy="264" r="12"/></g>
+    <path d="M110 84V332M300 106V332M490 152V332M690 208V332M890 264V332" stroke="#89B8C9" stroke-width="2" stroke-dasharray="5 8"/>
+    <g fill="#293F55" font-family="Arial" font-size="17" text-anchor="middle"><text x="110" y="370">Reference</text><text x="300" y="370">Mild</text><text x="490" y="370">Moderate</text><text x="690" y="370">High</text><text x="890" y="370">Severe</text></g>
+    <rect x="670" y="20" width="240" height="48" rx="14" fill="#293F55"/><text x="790" y="51" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#FFFFFF">Maximum C-index drop: 0.04</text>
+  </g>
+  <rect x="90" y="618" width="1020" height="58" rx="16" fill="#E5BC6C"/>
+  <text x="600" y="654" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#293F55">Do not interpret this authored curve as biological transportability or clinical robustness</text>
+</svg>

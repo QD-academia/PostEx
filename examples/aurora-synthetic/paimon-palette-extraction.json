@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1",
+  "method": "Deterministic CIELAB k-means over manually declared semantic regions",
+  "selected_palette": {
+    "roles": {"text": "#293F55", "primary": "#3E5C78", "secondary": "#487AA1", "highlight": "#E5BC6C", "canvas": "#F6F2EE", "accent": "#AE7F70", "neutral": "#DDE5E7"},
+    "gradient_stops": ["#293F55", "#3E5C78", "#487AA1", "#89B8C9"],
+    "selection_logic": {
+      "cape_gradient": "Four ordered blue clusters from the two hue-filtered star-ribbon regions",
+      "canvas": "Dominant near-white clothing cluster from the upper-left outfit region",
+      "highlight": "Champagne-gold cluster from the upper-left outfit region",
+      "accent": "Peach-rose cluster from the upper-left outfit region",
+      "text": "Dark blue cluster from the right star-ribbon region, retained for distance contrast"
+    }
+  },
+  "references": [
+    {
+      "id": "outfit-reference",
+      "page_url": "https://genshin.hoyoverse.com/zh-tw/news/detail/122545",
+      "image_url": "https://fastcdn.hoyoverse.com/content-v2/hk4e/122545/a6e15ea612f41ec8f3a046e26ffb8dd8_5374481433348332940.png",
+      "sha256": "5d5ab0d0dad088e69d6c52823745de7ac19c2e751062f93170ebb1c3f87d9ed3",
+      "redistributed": false,
+      "regions": [
+        {"id": "upper-left-outfit", "box": [20, 0, 335, 250], "purpose": "white clothing, dark collar, peach-gold sleeves"},
+        {"id": "lower-right-outfit", "box": [810, 305, 1180, 675], "purpose": "white clothing, dark collar, peach-gold sleeves"}
+      ]
+    },
+    {
+      "id": "starlight-cape-reference",
+      "page_url": "https://genshin.hoyoverse.com/zh-tw/news/detail/119430",
+      "image_url": "https://fastcdn.hoyoverse.com/content-v2/hk4e/119430/c9607204d197f71997ff3e629ede9668_7643729868683306260.png",
+      "sha256": "9f9c344c999b19e85f48897946272af9f3ac240abfb4ee9164c04a526e1ec1a6",
+      "redistributed": false,
+      "regions": [
+        {"id": "star-ribbon-left", "box": [775, 325, 1025, 490], "purpose": "dark-to-azure starry cape analogue", "selector": {"hue_degrees": [170, 260], "saturation_min": 0.12, "value_max": 0.90}, "cluster_count": 6},
+        {"id": "star-ribbon-right", "box": [995, 325, 1225, 510], "purpose": "dark-to-azure starry cape analogue", "selector": {"hue_degrees": [170, 260], "saturation_min": 0.12, "value_max": 0.90}, "cluster_count": 6},
+        {"id": "seated-outfit", "box": [845, 75, 1165, 405], "purpose": "white, ink-blue, champagne and peach outfit roles"}
+      ]
+    }
+  ]
+}

@@ -203,7 +203,7 @@ def command_generate(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="postex")
-    parser.add_argument("--version", action="version", version="postex 0.2.0a1")
+    parser.add_argument("--version", action="version", version="postex 0.2.0a2")
     sub = parser.add_subparsers(dest="command", required=True)
     validate = sub.add_parser("validate", help="Load and validate project configuration")
     validate.add_argument("project")

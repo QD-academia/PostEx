@@ -1,0 +1,55 @@
+schema_version: "0.2"
+brief_id: aurora-synthetic-golden
+audience_setting: "Open-source scientific software demonstration and academic-poster evaluation"
+communication_job: >-
+  By the end, viewers should understand that AURORA-12 provides realistic evidence structure for testing PostEx,
+  while offering no biological or clinical evidence.
+one_sentence_takeaway: >-
+  A 12-feature synthetic score remained stable across four deterministic simulations, making it a useful rights-safe
+  fixture for evidence-linked poster generation rather than a clinical model.
+emphasis:
+  methods: 0.30
+  results: 0.42
+  impact: 0.08
+  limitations: 0.20
+must_keep:
+  claims:
+    - "All data, people, institutions and findings are fictional."
+    - "The benchmark is for software evaluation only."
+  numbers:
+    - "1,240 synthetic profiles across four cohorts"
+    - "480 anonymous features reduced to 12"
+    - "C-index 0.78, 0.76, 0.75 and 0.74"
+    - "92% coefficient-sign stability across 500 resamples"
+    - "External calibration slopes 0.97 and 0.95"
+    - "External absolute calibration errors 0.031 and 0.038"
+  figures:
+    - figure-1-synthetic-pipeline
+    - figure-2-performance
+    - figure-3-calibration
+    - figure-4-stress-test
+figure_permissions:
+  crop: true
+  split: true
+  recompose: true
+  caption_compression: true
+logo:
+  mode: placeholder
+  role: institution
+  placement: header-right
+  label: "Fictional lab logo"
+visual_tone: "modern, rigorous, optimistic, clearly synthetic"
+palette_source:
+  type: three-version-comparison
+  reference:
+    - "PostEx default biomedical design system"
+    - "User-supplied campus-gate image used for color inspiration only; source image not redistributed"
+    - "Deterministic CIELAB extraction from declared outfit and star-ribbon regions in two HoYoverse official images; references and hashes recorded, images not redistributed"
+language:
+  input: en
+  output: en
+content_mode: traceable
+network_permissions:
+  cloud_manuscript_upload: false
+  online_palette_search: false
+privacy_note: "Local-only; no cloud provider call is required for this authored fixture."

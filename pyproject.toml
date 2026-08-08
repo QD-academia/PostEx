@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "postex"
-version = "0.2.0a1"
+version = "0.2.0a2"
 description = "Evidence-linked Palette Fusion for distinctive academic posters"
 readme = "README.md"
 requires-python = ">=3.10"

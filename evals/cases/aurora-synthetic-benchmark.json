@@ -1,0 +1,39 @@
+{
+  "case_id": "aurora-synthetic-benchmark",
+  "title": "AURORA-12: a fully synthetic benchmark for evidence-linked poster generation",
+  "doi": "POSTEX-SYNTH-2026-001",
+  "source_url": "examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf",
+  "license": "CC0-1.0",
+  "fictional": true,
+  "render_preview": true,
+  "research_type": "bioinformatics",
+  "input_language": "en",
+  "output_language": "en",
+  "candidate": "../../examples/aurora-synthetic/content-plan.json",
+  "facts": [
+    {"claim_id": "total-profiles", "required_text": "1,240"},
+    {"claim_id": "selected-features", "required_text": "12-feature"},
+    {"claim_id": "external-c-index-a", "required_text": "0.75"},
+    {"claim_id": "external-c-index-b", "required_text": "0.74"},
+    {"claim_id": "sign-stability", "required_text": "92%"}
+  ],
+  "expected_sections": [
+    "research_question",
+    "datasets",
+    "analysis_pipeline",
+    "key_results",
+    "external_validation",
+    "conclusion"
+  ],
+  "forbidden": [
+    "AURORA-12 is clinically recommended",
+    "demonstrates a treatment effect",
+    "validated for biological transportability"
+  ],
+  "human_review": {
+    "source_figures_unchanged": true,
+    "negative_results_retained": true,
+    "limitations_visible": true,
+    "visual_status": "passed"
+  }
+}

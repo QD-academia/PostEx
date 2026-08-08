@@ -4,6 +4,21 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.2.0a2] - 2026-08-08
+
+### Added
+
+- Fully fictional CC0 AURORA-12 manuscript fixture with stable evidence IDs, approval records, editable figures, and three production-rendered poster variants.
+- Approval-bound palette roles, component behavior, and native stepped-gradient support in the Bioinformatics Pipeline renderer.
+- Explicit scientific-color unlock for separately generated editable SVG variants.
+- Portable public generation reports that omit machine-specific absolute paths.
+
+### Changed
+
+- Replaced the former real-paper golden example with the rights-safe AURORA-12 synthetic benchmark.
+- Updated the landing page and evaluation suite around reproducible three-palette comparison.
+- Refined the Paimon-inspired Visual Signature to a no-green cape gradient without redistributing character artwork.
+
 ## [0.2.0a1] - 2026-08-07
 
 ### Added
@@ -21,7 +36,7 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 ### Changed
 
 - Product positioning now centers on evidence-linked Palette Fusion and visual identity.
-- v0.1 configurations, approvals, renderer, and golden example remain compatible.
+- v0.1 configurations, approvals, and renderer remain compatible.
 
 ## [0.1.0a1] - 2026-08-06
 
@@ -29,4 +44,4 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 - Shared Python core, CLI, OpenAI/Anthropic provider boundaries, privacy and deletion approvals, evidence tracing, preflight, and Codex/Claude Skills.
 - Logo interview, local PDF extraction, Artifact Tool PPTX rendering, PowerPoint/LibreOffice PDF export, and three-size Bioinformatics Pipeline family.
-- Reproducible SCI02JITC golden example and licensed evaluation suite.
+- Reproducible golden-example workflow and licensed evaluation suite.
