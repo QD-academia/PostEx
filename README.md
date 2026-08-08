@@ -49,6 +49,32 @@ Both panels below are generated from CC0 fictional studies: **AURORA-12** exerci
 
 Inspect the [AURORA-12 manuscript and evidence](examples/aurora-synthetic/) or the [LUMEN-24 fictional source and content plan](examples/homepage-fictional-evidence/).
 
+### 5. Give one paper a knightly visual signature
+
+What if a scientific poster could feel decisive, kinetic, and memorable—without sacrificing evidence discipline? This Varka-inspired case translates charcoal armor, wolf teal, Anemo cyan, ivory, and antique gold into a role-based **Visual Signature** with a clear results axis and restrained high-energy accents.
+
+[![Varka visual source transformed into Palette DNA and an evidence-linked PostEx poster](docs/images/showcase/varka-showcase.webp)](docs/images/showcase/varka-poster.png)
+
+PostEx does not paste character art into the poster or recolor scientific figures. It abstracts the reference into hierarchy, contrast, rhythm, component behavior, and semantic color roles; the source figures remain pixel-locked while the surrounding design becomes unmistakably its own.
+
+**Route:** named-theme interpretation + region-aware image sampling · **Palette:** Visual Signature · **Structure:** Visual Journey · **Full view:** [poster PNG](docs/images/showcase/varka-poster.png) · **Reference:** [HoYoverse-hosted Varka illustration](docs/images/showcase/sources/varka-official-illustration.png)
+
+### 6. Turn architecture into an intelligent poster system
+
+The Temple of Heaven case starts with a real photograph, but the outcome is not a photo-themed template. PostEx recognizes glazed-tile blue, vermilion structure, gilded details, jade-painted eaves, and pale stone—then turns those observations into a print-safe **Balanced Fusion** and a calm, result-first reading path.
+
+[![Temple of Heaven photograph transformed into Palette DNA and an evidence-linked PostEx poster](docs/images/showcase/tiantan-showcase.webp)](docs/images/showcase/tiantan-poster.png)
+
+The building's ceremonial axis becomes information flow; tiered roofs become restrained header rhythm; white stone becomes breathing space. The reference image shapes the design language without appearing inside the scientific poster itself.
+
+**Route:** user-image recognition + semantic interpretation · **Palette:** Balanced Fusion · **Structure:** Visual Journey · **Full view:** [poster PNG](docs/images/showcase/tiantan-poster.png) · **Reference:** [Hall of Prayer for Good Harvests photograph](docs/images/showcase/sources/tiantan-hall-of-prayer.jpg)
+
+## Your study should not look like everyone else's
+
+Give PostEx a paper and a visual idea—a mood, a place, an image, a brand, or a few colors. It returns traceable content, approval-ready Palette DNA, intelligent layout fusion, an editable PPTX, print output, and the evidence trail behind every major decision.
+
+**If you want academic software to be both trustworthy and visually ambitious, [star PostEx on GitHub](https://github.com/QD-academia/PostEx).**
+
 > **Alpha boundary:** the full-size AURORA-12 posters use one approved Visual Journey structure in the production-renderable Bioinformatics Pipeline family. Palette Fusion also generates three structural candidates and rationale; rendering every structural direction and every template family is still in development.
 
 ## What makes PostEx different
@@ -133,10 +159,10 @@ docker/                  container packaging
 
 ## Compatibility and limits
 
-v0.1 project files remain loadable. The v0.2 alpha generates fusion plans and rationale through the shared Python core; it does not yet promise that all three fusion directions can be rendered by every template family. Raster scientific figures are never recolored automatically. Editable SVG figure variants require a separate scientific-color unlock. Named-theme examples include no proprietary character artwork or third-party brand assets.
+v0.1 project files remain loadable. The v0.2 alpha generates fusion plans and rationale through the shared Python core; it does not yet promise that all three fusion directions can be rendered by every template family. Raster scientific figures are never recolored automatically. Editable SVG figure variants require a separate scientific-color unlock. Core runnable examples remain independent of proprietary character artwork; the clearly attributed homepage showcase assets are governed separately and are not covered by the repository's Apache-2.0 license.
 
 ## Licensing
 
-Python code and documentation are Apache-2.0; see [LICENSE](LICENSE) and [NOTICE](NOTICE). Templates and examples have independent license records. Never assume the code license covers source papers, figures, logos, fonts, character artwork, or palette reference images.
+Python code and documentation are Apache-2.0; see [LICENSE](LICENSE) and [NOTICE](NOTICE). Templates, examples, source papers, scientific figures, logos, character artwork, photographs, and homepage showcase assets have independent license records. See the [README image provenance](docs/images/README.md) before redistribution; never assume the code license covers bundled media.
 
 See [PRD.md](PRD.md), [ARCHITECTURE.md](ARCHITECTURE.md), [SECURITY.md](SECURITY.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
