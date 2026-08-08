@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">PostEx Palette Fusion Studio</title>
+  <desc id="desc">Three palette DNA candidates and three intelligent poster structure candidates for a bright, friendly, celestial, and refined theme.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14213D" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14213D"/>
+      <stop offset="0.62" stop-color="#263E73"/>
+      <stop offset="1" stop-color="#6B4F93"/>
+    </linearGradient>
+    <linearGradient id="journey" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#263E73"/>
+      <stop offset="0.5" stop-color="#C9A4D8"/>
+      <stop offset="1" stop-color="#7BC8CF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" rx="28" fill="#F7F3ED"/>
+  <rect width="1600" height="208" rx="28" fill="url(#header)"/>
+  <rect y="180" width="1600" height="28" fill="url(#header)"/>
+
+  <text x="76" y="70" fill="#F2C66D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">POSTEX · PALETTE FUSION STUDIO</text>
+  <text x="76" y="126" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="750">From visual inspiration to a scientific design system</text>
+  <text x="76" y="170" fill="#DDE7FF" font-family="Inter, Arial, sans-serif" font-size="23">Theme: bright · friendly · celestial · refined  /  evidence and semantic colors stay locked</text>
+  <rect x="1270" y="58" width="254" height="88" rx="18" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.35"/>
+  <text x="1397" y="91" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">THEME-INSPIRED</text>
+  <text x="1397" y="120" text-anchor="middle" fill="#DDE7FF" font-family="Inter, Arial, sans-serif" font-size="14">No third-party artwork bundled</text>
+
+  <text x="76" y="263" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750">1 · Three Palette DNA directions</text>
+
+  <g transform="translate(76 294)" filter="url(#shadow)">
+    <rect width="448" height="304" rx="24" fill="#FFFFFF"/>
+    <rect width="448" height="12" rx="6" fill="#374769"/>
+    <text x="30" y="58" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750">Academic Safe</text>
+    <text x="30" y="88" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="16">Maximum conference formality</text>
+    <g transform="translate(30 116)">
+      <rect width="208" height="62" rx="12" fill="#F7F3ED" stroke="#DED8CF"/>
+      <text x="104" y="39" text-anchor="middle" fill="#20263A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Canvas · 55%</text>
+      <rect x="220" width="74" height="62" rx="12" fill="#374769"/>
+      <rect x="306" width="52" height="62" rx="12" fill="#C8B3D1"/>
+      <rect x="370" width="48" height="62" rx="12" fill="#DBC18C"/>
+    </g>
+    <g transform="translate(30 198)">
+      <rect width="112" height="42" rx="21" fill="#EEF1F7"/>
+      <text x="56" y="27" text-anchor="middle" fill="#374769" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Anchored</text>
+      <rect x="124" width="112" height="42" rx="21" fill="#EEF1F7"/>
+      <text x="180" y="27" text-anchor="middle" fill="#374769" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Structured</text>
+      <rect x="248" width="112" height="42" rx="21" fill="#EEF1F7"/>
+      <text x="304" y="27" text-anchor="middle" fill="#374769" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Minimal</text>
+    </g>
+    <text x="30" y="278" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="15">restrained theme expression · print-safe</text>
+  </g>
+
+  <g transform="translate(576 278)" filter="url(#shadow)">
+    <rect width="448" height="336" rx="24" fill="#FFFFFF" stroke="#F2C66D" stroke-width="3"/>
+    <rect width="448" height="14" rx="7" fill="url(#journey)"/>
+    <rect x="278" y="31" width="140" height="34" rx="17" fill="#F2C66D"/>
+    <text x="348" y="54" text-anchor="middle" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">RECOMMENDED</text>
+    <text x="30" y="62" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750">Balanced Fusion</text>
+    <text x="30" y="94" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="16">Scientific clarity + visual identity</text>
+    <g transform="translate(30 122)">
+      <rect width="208" height="62" rx="12" fill="#F7F3ED" stroke="#DED8CF"/>
+      <text x="104" y="39" text-anchor="middle" fill="#20263A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Canvas · 55%</text>
+      <rect x="220" width="74" height="62" rx="12" fill="#263E73"/>
+      <rect x="306" width="52" height="62" rx="12" fill="#C9A4D8"/>
+      <rect x="370" width="48" height="62" rx="12" fill="#F2C66D"/>
+    </g>
+    <g transform="translate(30 204)">
+      <rect width="112" height="42" rx="21" fill="#F0EBF4"/>
+      <text x="56" y="27" text-anchor="middle" fill="#263E73" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Floating</text>
+      <rect x="124" width="112" height="42" rx="21" fill="#F0EBF4"/>
+      <text x="180" y="27" text-anchor="middle" fill="#263E73" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Soft</text>
+      <rect x="248" width="140" height="42" rx="21" fill="#E5F4F5"/>
+      <text x="318" y="27" text-anchor="middle" fill="#263E73" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Starlight flow</text>
+    </g>
+    <text x="30" y="286" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="15">role-based color · 5 simulations · explainable</text>
+    <text x="30" y="313" fill="#263E73" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">#263E73  #C9A4D8  #F2C66D  #7BC8CF</text>
+  </g>
+
+  <g transform="translate(1076 294)" filter="url(#shadow)">
+    <rect width="448" height="304" rx="24" fill="#FFFFFF"/>
+    <rect width="448" height="12" rx="6" fill="#1A387A"/>
+    <text x="30" y="58" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750">Visual Signature</text>
+    <text x="30" y="88" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="16">Strongest expression for visual competition</text>
+    <g transform="translate(30 116)">
+      <rect width="208" height="62" rx="12" fill="#F7F3ED" stroke="#DED8CF"/>
+      <text x="104" y="39" text-anchor="middle" fill="#20263A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Canvas · 55%</text>
+      <rect x="220" width="74" height="62" rx="12" fill="#1A387A"/>
+      <rect x="306" width="52" height="62" rx="12" fill="#CA99DE"/>
+      <rect x="370" width="48" height="62" rx="12" fill="#FFC95B"/>
+    </g>
+    <g transform="translate(30 198)">
+      <rect width="112" height="42" rx="21" fill="#F0E8F5"/>
+      <text x="56" y="27" text-anchor="middle" fill="#1A387A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Layered</text>
+      <rect x="124" width="112" height="42" rx="21" fill="#F0E8F5"/>
+      <text x="180" y="27" text-anchor="middle" fill="#1A387A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Expressive</text>
+      <rect x="248" width="112" height="42" rx="21" fill="#E5F7F8"/>
+      <text x="304" y="27" text-anchor="middle" fill="#1A387A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Celestial</text>
+    </g>
+    <text x="30" y="278" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="15">distinctive rhythm · semantic locks preserved</text>
+  </g>
+
+  <text x="76" y="674" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="750">2 · Intelligent fusion changes hierarchy—not only color</text>
+
+  <g transform="translate(76 708)">
+    <rect width="430" height="124" rx="22" fill="#FFFFFF" stroke="#D6DFEE"/>
+    <circle cx="61" cy="62" r="34" fill="#263E73"/>
+    <text x="61" y="70" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">01</text>
+    <text x="116" y="52" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750">Hero Result</text>
+    <text x="116" y="82" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="16">One claim becomes the visual anchor</text>
+  </g>
+  <path d="M520 770 H558" stroke="#C9A4D8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M548 758 L562 770 L548 782" fill="none" stroke="#C9A4D8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(576 694)">
+    <rect width="448" height="152" rx="22" fill="#FFFFFF" stroke="#F2C66D" stroke-width="3" filter="url(#shadow)"/>
+    <circle cx="61" cy="76" r="34" fill="#F2C66D"/>
+    <text x="61" y="84" text-anchor="middle" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">02</text>
+    <text x="116" y="61" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750">Visual Journey</text>
+    <text x="116" y="91" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="16">Directional evidence flow · recommended</text>
+    <rect x="116" y="108" width="244" height="8" rx="4" fill="url(#journey)"/>
+  </g>
+  <path d="M1038 770 H1076" stroke="#7BC8CF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1066 758 L1080 770 L1066 782" fill="none" stroke="#7BC8CF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1094 708)">
+    <rect width="430" height="124" rx="22" fill="#FFFFFF" stroke="#D6DFEE"/>
+    <circle cx="61" cy="62" r="34" fill="#C9A4D8"/>
+    <text x="61" y="70" text-anchor="middle" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">03</text>
+    <text x="116" y="52" fill="#14213D" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750">Editorial Story</text>
+    <text x="116" y="82" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="16">Asymmetric narrative + impact emphasis</text>
+  </g>
+
+  <text x="800" y="877" text-anchor="middle" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="15">Palette roles · usage ratios · evidence locks · CVD / grayscale / print simulations · digest-bound approvals</text>
+</svg>

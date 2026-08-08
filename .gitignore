@@ -24,4 +24,5 @@ output/
 !examples/sci02jitc/output/*.png
 !evals/previews/**/*.pptx
 !evals/previews/**/*.png
+!docs/images/*.png
 .env
