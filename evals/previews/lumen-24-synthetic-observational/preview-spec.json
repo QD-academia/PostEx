@@ -1,0 +1,131 @@
+{
+  "schema_version": "0.1",
+  "canvas": {
+    "width": 4494,
+    "height": 3179
+  },
+  "template": {
+    "family": "bioinformatics-pipeline",
+    "size": "a0-landscape"
+  },
+  "theme": {
+    "ink": "#293F55",
+    "primary": "#3E5C78",
+    "secondary": "#487AA1",
+    "accent": "#E5BC6C",
+    "canvas": "#F6F2EE",
+    "panel": "#FFFFFF",
+    "neutral": "#DDE5E7",
+    "gradient_stops": [
+      "#293F55",
+      "#3E5C78",
+      "#487AA1",
+      "#89B8C9"
+    ]
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "content": {
+    "title": "LUMEN-24: synthetic observational evidence audit",
+    "authors": "Source-grounded PostEx evaluation fixture",
+    "affiliations": "Observational profile · CC0-1.0",
+    "citation": "Synthetic ID POSTEX-SYNTH-OBS-2026-001",
+    "header_metrics": [
+      {
+        "value": "2,400",
+        "label": "records"
+      },
+      {
+        "value": "3",
+        "label": "centers"
+      },
+      {
+        "value": "HR=1.18",
+        "label": "adjusted effect"
+      }
+    ],
+    "question_heading": "Communication objective",
+    "question": "Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.",
+    "question_evidence": "Evidence fixture: POSTEX-SYNTH-OBS-2026-001",
+    "pipeline_heading": "Required evidence structure",
+    "pipeline_steps": [
+      "Research Question",
+      "Datasets",
+      "Analysis Pipeline",
+      "Key Results"
+    ],
+    "dataset_kicker": "SOURCE CONTRACT",
+    "datasets": "Input: full paper\nLicense: CC0-1.0\nProfile: observational\nClaims checked: 5",
+    "dataset_evidence": "examples/homepage-fictional-evidence/lumen-24-source.yaml",
+    "figure_one_heading": "Methods and source evidence",
+    "takeaway": "2,400",
+    "takeaway_subtitle": "Key facts remain bound to the source and study design",
+    "takeaway_evidence": "Evidence fixture: POSTEX-SYNTH-OBS-2026-001",
+    "figure_two_heading": "Primary evidence",
+    "validation_heading": "Required factual anchors",
+    "validation": "• records: 2,400\n• centers: 3\n• adjusted effect: HR=1.18\n• uncertainty: 95% CI 1.05-1.32\n• negative control: HR=1.01",
+    "validation_evidence": "Ground-truth case: lumen-24-synthetic-observational",
+    "performance_strip": "No unsupported numerical or causal expansion permitted",
+    "biology_heading": "Fact checks",
+    "biology_metrics": [
+      {
+        "value": "2,400",
+        "label": "records"
+      },
+      {
+        "value": "3",
+        "label": "centers"
+      },
+      {
+        "value": "HR=1.18",
+        "label": "adjusted effect"
+      }
+    ],
+    "biology_evidence": "Machine-checkable evaluation fixture",
+    "validation_visual_heading": "Independent evidence slot",
+    "conclusion_heading": "Interpretation boundary",
+    "conclusion": "Interpret findings only within the source study design, population, methods and reported uncertainty.",
+    "conclusion_evidence": "Source and license: POSTEX-SYNTH-OBS-2026-001 · CC0-1.0",
+    "footer_source": "LUMEN-24: synthetic observational evidence audit · CC0-1.0",
+    "footer_status": "Evaluation preview · not a release poster",
+    "figures": [
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: POSTEX-SYNTH-OBS-2026-001"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: POSTEX-SYNTH-OBS-2026-001"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: POSTEX-SYNTH-OBS-2026-001"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: POSTEX-SYNTH-OBS-2026-001"
+      }
+    ]
+  },
+  "sources": [
+    "examples/homepage-fictional-evidence/lumen-24-source.yaml",
+    "License: CC0-1.0"
+  ]
+}

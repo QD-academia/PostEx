@@ -1,96 +1,191 @@
-{"kind":"deck","id":"pr/bxccud","name":"Deck"}
-{"kind":"layout","layoutId":"80e3369a-16f3-4275-9f65-9e05aec2e4b1","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"db35fc05-b82a-46dd-9991-2dcc924f05af","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/c17v21","slide":1,"title":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation","textShapes":61}
-{"kind":"shape","id":"sh/m1kb69cf","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
-{"kind":"shape","id":"sh/9ovahov6","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
-{"kind":"textbox","id":"sh/8n2t8jul","slide":1,"name":"poster-title","text":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation","textPreview":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation","textChars":76,"textLines":1,"bbox":[140,62,3120,230]}
-{"kind":"textbox","id":"sh/vqdsjydw","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
-{"kind":"textbox","id":"sh/up4batcr","slide":1,"name":"affiliations","text":"Bioinformatics profile · CC0-1.0","textPreview":"Bioinformatics profile · CC0-1.0","textChars":32,"textLines":1,"bbox":[145,382,3090,52]}
-{"kind":"textbox","id":"sh/hsval8v2","slide":1,"name":"citation","text":"DOI POSTEX-SYNTH-2026-001","textPreview":"DOI POSTEX-SYNTH-2026-001","textChars":25,"textLines":1,"bbox":[145,445,2550,42]}
-{"kind":"shape","id":"sh/wrmtc3uh","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
-{"kind":"textbox","id":"sh/judsnyd8","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
-{"kind":"shape","id":"sh/it4bedcn","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
-{"kind":"textbox","id":"sh/onehwv6l","slide":1,"name":"header-metric-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
-{"kind":"textbox","id":"sh/9o7i50n6","slide":1,"name":"header-metric-1-label","text":"total profiles","textPreview":"total profiles","textChars":14,"textLines":1,"bbox":[3440,322,260,88]}
-{"kind":"textbox","id":"sh/mlwzu5of","slide":1,"name":"header-metric-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3740,240,260,78]}
-{"kind":"textbox","id":"sh/nm503q50","slide":1,"name":"header-metric-2-label","text":"selected features","textPreview":"selected features","textChars":17,"textLines":1,"bbox":[3740,322,260,88]}
-{"kind":"textbox","id":"sh/wryh0f6h","slide":1,"name":"header-metric-3-value","text":"0.75","textPreview":"0.75","textChars":4,"textLines":1,"bbox":[4040,240,260,78]}
-{"kind":"textbox","id":"sh/xc7i9kn2","slide":1,"name":"header-metric-3-label","text":"external c index a","textPreview":"external c index a","textChars":18,"textLines":1,"bbox":[4040,322,260,88]}
-{"kind":"textbox","id":"sh/apgzy5or","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
-{"kind":"shape","id":"sh/bqp07a5w","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
-{"kind":"textbox","id":"sh/kfih4f6t","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
-{"kind":"textbox","id":"sh/lgridkne","slide":1,"name":"question-evidence","text":"Evidence fixture: POSTEX-SYNTH-2026-001","textPreview":"Evidence fixture: POSTEX-SYNTH-2026-001","textChars":39,"textLines":1,"bbox":[140,912,1220,38]}
-{"kind":"textbox","id":"sh/t03q1gb6","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
-{"kind":"shape","id":"sh/8zu98vul","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
-{"kind":"shape","id":"sh/7yl8zqt0","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
-{"kind":"textbox","id":"sh/6xcr6lcf","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
-{"kind":"textbox","id":"sh/honq50b2","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
-{"kind":"shape","id":"sh/gnu9cvux","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
-{"kind":"textbox","id":"sh/vml83qtc","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
-{"kind":"textbox","id":"sh/u1cralcr","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
-{"kind":"shape","id":"sh/xsjqtwby","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
-{"kind":"textbox","id":"sh/wrap0bud","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
-{"kind":"textbox","id":"sh/mxonaxsb","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
-{"kind":"shape","id":"sh/nyho329w","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
-{"kind":"textbox","id":"sh/ozq5c7ah","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
-{"kind":"textbox","id":"sh/90z65cr2","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
-{"kind":"shape","id":"sh/a18nehs7","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
-{"kind":"textbox","id":"sh/b2ho7m9s","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
-{"kind":"textbox","id":"sh/w3q5grad","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC0-1.0\nProfile: bioinformatics\nClaims checked: 5","textPreview":"Input: full paper | License: CC0-1.0 | Profile: bioinformatics | Claims checked: 5","textChars":76,"textLines":4,"bbox":[168,1495,1164,230]}
-{"kind":"textbox","id":"sh/x4z69wry","slide":1,"name":"dataset-evidence","text":"examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf","textPreview":"examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf","textChars":60,"textLines":1,"bbox":[168,1723,1164,38]}
-{"kind":"textbox","id":"sh/q54n2ds3","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
-{"kind":"shape","id":"sh/r6x4vi9o","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
-{"kind":"shape","id":"sh/72pkzelc","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
-{"kind":"shape","id":"sh/61w3q9kr","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
-{"kind":"textbox","id":"sh/t47m1o3i","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
-{"kind":"textbox","id":"sh/s3ylsj2x","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
-{"kind":"textbox","id":"sh/fqp43ylo","slide":1,"name":"figure-one-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[164,2916,1172,38]}
-{"kind":"shape","id":"sh/upg3utk3","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
-{"kind":"textbox","id":"sh/hs7m5oje","slide":1,"name":"central-takeaway-title","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[1464,625,1347,100]}
-{"kind":"textbox","id":"sh/grylwj29","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
-{"kind":"textbox","id":"sh/3u947y1k","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: POSTEX-SYNTH-2026-001","textPreview":"Evidence fixture: POSTEX-SYNTH-2026-001","textChars":39,"textLines":1,"bbox":[1466,810,1343,38]}
-{"kind":"textbox","id":"sh/2tg3ytkz","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
-{"kind":"shape","id":"sh/0zilo3id","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
-{"kind":"shape","id":"sh/l0r2x8zy","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
-{"kind":"shape","id":"sh/yx03mt07","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
-{"kind":"textbox","id":"sh/zy9kvyhs","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
-{"kind":"textbox","id":"sh/cvi1k3i1","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
-{"kind":"textbox","id":"sh/dwr2tozm","slide":1,"name":"figure-two-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[1444,2291,1387,38]}
-{"kind":"textbox","id":"sh/qtgjit0b","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
-{"kind":"shape","id":"sh/bu9kryhg","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
-{"kind":"shape","id":"sh/ory1gji5","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
-{"kind":"textbox","id":"sh/ps72pozq","slide":1,"name":"validation","text":"• total profiles: 1,240\n• selected features: 12-feature\n• external c index a: 0.75\n• external c index b: 0.74\n• sign stability: 92%","textPreview":"• total profiles: 1,240 | • selected features: 12-feature | • external c index a: 0.75 | • external c index b: 0.74 | • sign stability: 92%","textChars":131,"textLines":5,"bbox":[1456,2503,1363,310]}
-{"kind":"textbox","id":"sh/5czqxgn2","slide":1,"name":"validation-evidence","text":"Ground-truth case: aurora-synthetic-benchmark","textPreview":"Ground-truth case: aurora-synthetic-benchmark","textChars":45,"textLines":1,"bbox":[1456,2847,1363,38]}
-{"kind":"shape","id":"sh/kb694b6h","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
-{"kind":"textbox","id":"sh/jax8v65c","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
-{"kind":"textbox","id":"sh/i9or21or","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
-{"kind":"shape","id":"sh/xofqtg76","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
-{"kind":"textbox","id":"sh/wn690b6l","slide":1,"name":"biology-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[2915,690,420,78]}
-{"kind":"textbox","id":"sh/vmx8r6p0","slide":1,"name":"biology-1-label","text":"total profiles","textPreview":"total profiles","textChars":14,"textLines":1,"bbox":[2915,772,420,88]}
-{"kind":"textbox","id":"sh/alory1of","slide":1,"name":"biology-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3390,690,420,78]}
-{"kind":"textbox","id":"sh/h4ja50na","slide":1,"name":"biology-2-label","text":"selected features","textPreview":"selected features","textChars":17,"textLines":1,"bbox":[3390,772,420,88]}
-{"kind":"textbox","id":"sh/gjq9cv6p","slide":1,"name":"biology-3-value","text":"0.75","textPreview":"0.75","textChars":4,"textLines":1,"bbox":[3865,690,420,78]}
-{"kind":"textbox","id":"sh/ypkn6x47","slide":1,"name":"biology-3-label","text":"external c index a","textPreview":"external c index a","textChars":18,"textLines":1,"bbox":[3865,772,420,88]}
-{"kind":"textbox","id":"sh/zqtoz2ls","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
-{"kind":"shape","id":"sh/0r2p87md","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
-{"kind":"shape","id":"sh/lsb61c3y","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
-{"kind":"textbox","id":"sh/ql0n2x4b","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
-{"kind":"textbox","id":"sh/bmtovi5w","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
-{"kind":"textbox","id":"sh/cn254nmh","slide":1,"name":"figure-three-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[2939,1646,1391,38]}
-{"kind":"textbox","id":"sh/dob6xsnm","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
-{"kind":"shape","id":"sh/ah47eh4f","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
-{"kind":"shape","id":"sh/vido7ml0","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
-{"kind":"shape","id":"sh/je9ormd4","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
-{"kind":"textbox","id":"sh/id0nihwj","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
-{"kind":"textbox","id":"sh/50b6twva","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
-{"kind":"textbox","id":"sh/4z25krep","slide":1,"name":"figure-four-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[2939,2536,1391,38]}
-{"kind":"textbox","id":"sh/va9on2d8","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
-{"kind":"shape","id":"sh/u90nexwn","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
-{"kind":"shape","id":"sh/hcr6pcvy","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
-{"kind":"textbox","id":"sh/wbi5g7et","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
-{"kind":"textbox","id":"sh/76poj2dw","slide":1,"name":"conclusion-evidence","text":"Source and license: POSTEX-SYNTH-2026-001 · CC0-1.0","textPreview":"Source and license: POSTEX-SYNTH-2026-001 · CC0-1.0","textChars":51,"textLines":1,"bbox":[2949,2992,1371,38]}
-{"kind":"shape","id":"sh/m5gnaxwb","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
-{"kind":"textbox","id":"sh/czut4zqx","slide":1,"name":"footer-source","text":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation · CC0-1.0","textPreview":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation · CC0-1.0","textChars":86,"textLines":1,"bbox":[140,3107,3000,42]}
-{"kind":"textbox","id":"sh/d03ux47i","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
-{"kind":"notes","id":"nt/c17v21","slide":1,"text":"[Sources]\n- examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf\n- License: CC0-1.0\n[/Sources]"}
+{"kind":"deck","id":"pr/3mev9w","name":"Deck"}
+{"kind":"layout","layoutId":"c7b5f021-7e7c-424d-9fc7-dc52564046c9","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"166a4492-81cd-4a96-9703-f5de8b444f40","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ecau5w","slide":1,"title":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation","textShapes":61}
+{"kind":"shape","id":"sh/szihgfyx","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/rypg7ahc","slide":1,"name":"top-cape-gradient-1","bbox":[0,0,141.44,30]}
+{"kind":"shape","id":"sh/qxgfe5gr","slide":1,"name":"top-cape-gradient-2","bbox":[140.44,0,141.44,30]}
+{"kind":"shape","id":"sh/5w7y50z6","slide":1,"name":"top-cape-gradient-3","bbox":[280.87,0,141.44,30]}
+{"kind":"shape","id":"sh/4vyxcvy1","slide":1,"name":"top-cape-gradient-4","bbox":[421.31,0,141.44,30]}
+{"kind":"shape","id":"sh/3upg3qhg","slide":1,"name":"top-cape-gradient-5","bbox":[561.75,0,141.44,30]}
+{"kind":"shape","id":"sh/itgfalgv","slide":1,"name":"top-cape-gradient-6","bbox":[702.19,0,141.44,30]}
+{"kind":"shape","id":"sh/hs7y10za","slide":1,"name":"top-cape-gradient-7","bbox":[842.62,0,141.44,30]}
+{"kind":"shape","id":"sh/gryx8vyp","slide":1,"name":"top-cape-gradient-8","bbox":[983.06,0,141.44,30]}
+{"kind":"shape","id":"sh/q98f2h8z","slide":1,"name":"top-cape-gradient-9","bbox":[1123.5,0,141.44,30]}
+{"kind":"shape","id":"sh/rahgvmpk","slide":1,"name":"top-cape-gradient-10","bbox":[1263.94,0,141.44,30]}
+{"kind":"shape","id":"sh/cbax4rqp","slide":1,"name":"top-cape-gradient-11","bbox":[1404.38,0,141.44,30]}
+{"kind":"shape","id":"sh/dcjyxw7a","slide":1,"name":"top-cape-gradient-12","bbox":[1544.81,0,141.44,30]}
+{"kind":"shape","id":"sh/i58fyh8n","slide":1,"name":"top-cape-gradient-13","bbox":[1685.25,0,141.44,30]}
+{"kind":"shape","id":"sh/36hgrmp8","slide":1,"name":"top-cape-gradient-14","bbox":[1825.69,0,141.44,30]}
+{"kind":"shape","id":"sh/47qx07qt","slide":1,"name":"top-cape-gradient-15","bbox":[1966.13,0,141.44,30]}
+{"kind":"shape","id":"sh/p8zytc7e","slide":1,"name":"top-cape-gradient-16","bbox":[2106.56,0,141.44,30]}
+{"kind":"shape","id":"sh/u1ofux8r","slide":1,"name":"top-cape-gradient-17","bbox":[2247,0,141.44,30]}
+{"kind":"shape","id":"sh/v2xgn2pc","slide":1,"name":"top-cape-gradient-18","bbox":[2387.44,0,141.44,30]}
+{"kind":"shape","id":"sh/zat4fe1s","slide":1,"name":"top-cape-gradient-19","bbox":[2527.87,0,141.44,30]}
+{"kind":"shape","id":"sh/y9k369k7","slide":1,"name":"top-cape-gradient-20","bbox":[2668.31,0,141.44,30]}
+{"kind":"shape","id":"sh/lwbmh4jy","slide":1,"name":"top-cape-gradient-21","bbox":[2808.75,0,141.44,30]}
+{"kind":"shape","id":"sh/kb2l8z2d","slide":1,"name":"top-cape-gradient-22","bbox":[2949.19,0,141.44,30]}
+{"kind":"shape","id":"sh/7yd4je1o","slide":1,"name":"top-cape-gradient-23","bbox":[3089.62,0,141.44,30]}
+{"kind":"shape","id":"sh/mxk3a9k3","slide":1,"name":"top-cape-gradient-24","bbox":[3230.06,0,141.44,30]}
+{"kind":"shape","id":"sh/90vmloju","slide":1,"name":"top-cape-gradient-25","bbox":[3370.5,0,141.44,30]}
+{"kind":"shape","id":"sh/8zmlcji9","slide":1,"name":"top-cape-gradient-26","bbox":[3510.94,0,141.44,30]}
+{"kind":"shape","id":"sh/n2947u1k","slide":1,"name":"top-cape-gradient-27","bbox":[3651.38,0,141.44,30]}
+{"kind":"shape","id":"sh/2103epkz","slide":1,"name":"top-cape-gradient-28","bbox":[3791.81,0,141.44,30]}
+{"kind":"shape","id":"sh/s7y18bix","slide":1,"name":"top-cape-gradient-29","bbox":[3932.25,0,141.44,30]}
+{"kind":"shape","id":"sh/d87ihgzi","slide":1,"name":"top-cape-gradient-30","bbox":[4072.69,0,141.44,30]}
+{"kind":"shape","id":"sh/qlwj6l0r","slide":1,"name":"top-cape-gradient-31","bbox":[4213.13,0,141.44,30]}
+{"kind":"shape","id":"sh/r650fqhc","slide":1,"name":"top-cape-gradient-32","bbox":[4353.56,0,141.44,30]}
+{"kind":"shape","id":"sh/4je14bil","slide":1,"name":"header-cape-gradient-1","bbox":[0,490,141.44,30]}
+{"kind":"shape","id":"sh/5knidgz6","slide":1,"name":"header-cape-gradient-2","bbox":[140.44,490,141.44,30]}
+{"kind":"shape","id":"sh/ihwj210v","slide":1,"name":"header-cape-gradient-3","bbox":[280.87,490,141.44,30]}
+{"kind":"shape","id":"sh/3i50b6hg","slide":1,"name":"header-cape-gradient-4","bbox":[421.31,490,141.44,30]}
+{"kind":"shape","id":"sh/ofi1gfi5","slide":1,"name":"header-cape-gradient-5","bbox":[561.75,490,141.44,30]}
+{"kind":"shape","id":"sh/pgr2p0zq","slide":1,"name":"header-cape-gradient-6","bbox":[702.19,490,141.44,30]}
+{"kind":"shape","id":"sh/lkjyhsf2","slide":1,"name":"header-cape-gradient-7","bbox":[842.62,490,141.44,30]}
+{"kind":"shape","id":"sh/kjax87yh","slide":1,"name":"header-cape-gradient-8","bbox":[983.06,490,141.44,30]}
+{"kind":"shape","id":"sh/zi1gf2xw","slide":1,"name":"header-cape-gradient-9","bbox":[1123.5,490,141.44,30]}
+{"kind":"shape","id":"sh/yhsf6xgb","slide":1,"name":"header-cape-gradient-10","bbox":[1263.94,490,141.44,30]}
+{"kind":"shape","id":"sh/9o3ylcfy","slide":1,"name":"header-cape-gradient-11","bbox":[1404.38,490,141.44,30]}
+{"kind":"shape","id":"sh/8naxc7yd","slide":1,"name":"header-cape-gradient-12","bbox":[1544.81,490,141.44,30]}
+{"kind":"shape","id":"sh/7m1gj2x8","slide":1,"name":"header-cape-gradient-13","bbox":[1685.25,490,141.44,30]}
+{"kind":"shape","id":"sh/mlsfaxgn","slide":1,"name":"header-cape-gradient-14","bbox":[1825.69,490,141.44,30]}
+{"kind":"shape","id":"sh/hc3ypcfa","slide":1,"name":"header-cape-gradient-15","bbox":[1966.13,490,141.44,30]}
+{"kind":"shape","id":"sh/wruhgryp","slide":1,"name":"header-cape-gradient-16","bbox":[2106.56,490,141.44,30]}
+{"kind":"shape","id":"sh/ex4va9w7","slide":1,"name":"header-cape-gradient-17","bbox":[2247,490,141.44,30]}
+{"kind":"shape","id":"sh/fyxcjeds","slide":1,"name":"header-cape-gradient-18","bbox":[2387.44,490,141.44,30]}
+{"kind":"shape","id":"sh/0z6dcjex","slide":1,"name":"header-cape-gradient-19","bbox":[2527.87,490,141.44,30]}
+{"kind":"shape","id":"sh/10fulovi","slide":1,"name":"header-cape-gradient-20","bbox":[2668.31,490,141.44,30]}
+{"kind":"shape","id":"sh/21ovetw3","slide":1,"name":"header-cape-gradient-21","bbox":[2808.75,490,141.44,30]}
+{"kind":"shape","id":"sh/nmxcnydo","slide":1,"name":"header-cape-gradient-22","bbox":[2949.19,490,141.44,30]}
+{"kind":"shape","id":"sh/on6dg3e9","slide":1,"name":"header-cape-gradient-23","bbox":[3089.62,490,141.44,30]}
+{"kind":"shape","id":"sh/pofep8vu","slide":1,"name":"header-cape-gradient-24","bbox":[3230.06,490,141.44,30]}
+{"kind":"shape","id":"sh/ap8vitwf","slide":1,"name":"header-cape-gradient-25","bbox":[3370.5,490,141.44,30]}
+{"kind":"shape","id":"sh/bqhwbyd0","slide":1,"name":"header-cape-gradient-26","bbox":[3510.94,490,141.44,30]}
+{"kind":"shape","id":"sh/7uhczyts","slide":1,"name":"header-cape-gradient-27","bbox":[3651.38,490,141.44,30]}
+{"kind":"shape","id":"sh/mt8b6ds7","slide":1,"name":"header-cape-gradient-28","bbox":[3791.81,490,141.44,30]}
+{"kind":"shape","id":"sh/9wju18by","slide":1,"name":"header-cape-gradient-29","bbox":[3932.25,490,141.44,30]}
+{"kind":"shape","id":"sh/8vqt83ad","slide":1,"name":"header-cape-gradient-30","bbox":[4072.69,490,141.44,30]}
+{"kind":"shape","id":"sh/zqhcvytw","slide":1,"name":"header-cape-gradient-31","bbox":[4213.13,490,141.44,30]}
+{"kind":"shape","id":"sh/yp8b2tsb","slide":1,"name":"header-cape-gradient-32","bbox":[4353.56,490,141.44,30]}
+{"kind":"textbox","id":"sh/lszux8b2","slide":1,"name":"poster-title","text":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation","textPreview":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation","textChars":76,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/krqt43ah","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/b2xcretk","slide":1,"name":"affiliations","text":"Bioinformatics profile · CC0-1.0","textPreview":"Bioinformatics profile · CC0-1.0","textChars":32,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/a1obytcf","slide":1,"name":"citation","text":"Synthetic ID POSTEX-SYNTH-2026-001","textPreview":"Synthetic ID POSTEX-SYNTH-2026-001","textChars":34,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/gv2hcvml","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/1wbil0n6","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/etkzal4v","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/fut0jq5g","slide":1,"name":"header-metric-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/oj21gvmx","slide":1,"name":"header-metric-1-label","text":"total profiles","textPreview":"total profiles","textChars":14,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/pkvip0ni","slide":1,"name":"header-metric-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/2xkje54r","slide":1,"name":"header-metric-2-label","text":"selected features","textPreview":"selected features","textChars":17,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/3yt0nq5c","slide":1,"name":"header-metric-3-value","text":"0.75","textPreview":"0.75","textChars":4,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/4nih4b6t","slide":1,"name":"header-metric-3-label","text":"external c index a","textPreview":"external c index a","textChars":18,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/5oridgny","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/98nelc3q","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/87exc72l","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/n65wj2l0","slide":1,"name":"question-evidence","text":"Evidence fixture: POSTEX-SYNTH-2026-001","textPreview":"Evidence fixture: POSTEX-SYNTH-2026-001","textChars":39,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/m5wfax4f","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/l4nehs3u","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/03ex8nm9","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/z25wf2lo","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/y1cf6x43","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/50rytw3y","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/4zyxkr2d","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/25sbetkv","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/361c7y1g","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/o7adgj21","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/p8ju9ojm","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/eh8ba9kz","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/fi1cje1k","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/gjatcj25","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/14julojq","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/ydcvmd03","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/zelcfi1o","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC0-1.0\nProfile: bioinformatics\nClaims checked: 5","textPreview":"Input: full paper | License: CC0-1.0 | Profile: bioinformatics | Claims checked: 5","textChars":76,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/8j6x4vmh","slide":1,"name":"dataset-evidence","text":"examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf","textPreview":"examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf","textChars":60,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/tkfed032","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/6hof2l4b","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/7ixwbqlw","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/kf6x0vml","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/lgfe903q","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/yd4vyl4f","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/jexw7ql0","slide":1,"name":"figure-one-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/4bqxcfmp","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"shape","id":"sh/5czylk3a","slide":1,"name":"takeaway-cape-gradient-1","bbox":[1420,590,45.84,20]}
+{"kind":"shape","id":"sh/f6l0be5c","slide":1,"name":"takeaway-cape-gradient-2","bbox":[1464.84,590,45.84,20]}
+{"kind":"shape","id":"sh/e5cz29or","slide":1,"name":"takeaway-cape-gradient-3","bbox":[1509.69,590,45.84,20]}
+{"kind":"shape","id":"sh/183idoni","slide":1,"name":"takeaway-cape-gradient-4","bbox":[1554.53,590,45.84,20]}
+{"kind":"shape","id":"sh/07uh4j6x","slide":1,"name":"takeaway-cape-gradient-5","bbox":[1599.38,590,45.84,20]}
+{"kind":"shape","id":"sh/nal0fy5o","slide":1,"name":"takeaway-cape-gradient-6","bbox":[1644.22,590,45.84,20]}
+{"kind":"shape","id":"sh/29cz6to3","slide":1,"name":"takeaway-cape-gradient-7","bbox":[1689.06,590,45.84,20]}
+{"kind":"shape","id":"sh/pcnih8ne","slide":1,"name":"takeaway-cape-gradient-8","bbox":[1733.91,590,45.84,20]}
+{"kind":"shape","id":"sh/obuh836t","slide":1,"name":"takeaway-cape-gradient-9","bbox":[1778.75,590,45.84,20]}
+{"kind":"shape","id":"sh/3e1g3u54","slide":1,"name":"takeaway-cape-gradient-10","bbox":[1823.59,590,45.84,20]}
+{"kind":"shape","id":"sh/idszapoj","slide":1,"name":"takeaway-cape-gradient-11","bbox":[1868.44,590,45.84,20]}
+{"kind":"shape","id":"sh/650by1cj","slide":1,"name":"takeaway-cape-gradient-12","bbox":[1913.28,590,45.84,20]}
+{"kind":"shape","id":"sh/769cr6t4","slide":1,"name":"takeaway-cape-gradient-13","bbox":[1958.13,590,45.84,20]}
+{"kind":"shape","id":"sh/s7it0bup","slide":1,"name":"takeaway-cape-gradient-14","bbox":[2002.97,590,45.84,20]}
+{"kind":"shape","id":"sh/t8butwbu","slide":1,"name":"takeaway-cape-gradient-15","bbox":[2047.81,590,45.84,20]}
+{"kind":"shape","id":"sh/ih0buhc7","slide":1,"name":"takeaway-cape-gradient-16","bbox":[2092.66,590,45.84,20]}
+{"kind":"shape","id":"sh/j29cnmts","slide":1,"name":"takeaway-cape-gradient-17","bbox":[2137.5,590,45.84,20]}
+{"kind":"shape","id":"sh/k3itwrud","slide":1,"name":"takeaway-cape-gradient-18","bbox":[2182.34,590,45.84,20]}
+{"kind":"shape","id":"sh/54rupwby","slide":1,"name":"takeaway-cape-gradient-19","bbox":[2227.19,590,45.84,20]}
+{"kind":"shape","id":"sh/adgbqhcb","slide":1,"name":"takeaway-cape-gradient-20","bbox":[2272.03,590,45.84,20]}
+{"kind":"shape","id":"sh/vepsjmtw","slide":1,"name":"takeaway-cape-gradient-21","bbox":[2316.87,590,45.84,20]}
+{"kind":"shape","id":"sh/dsfe5kve","slide":1,"name":"takeaway-cape-gradient-22","bbox":[2361.72,590,45.84,20]}
+{"kind":"shape","id":"sh/crmxwfet","slide":1,"name":"takeaway-cape-gradient-23","bbox":[2406.56,590,45.84,20]}
+{"kind":"shape","id":"sh/r6dw3ad8","slide":1,"name":"takeaway-cape-gradient-24","bbox":[2451.41,590,45.84,20]}
+{"kind":"shape","id":"sh/q54fu5wn","slide":1,"name":"takeaway-cape-gradient-25","bbox":[2496.25,590,45.84,20]}
+{"kind":"shape","id":"sh/p4ve10v2","slide":1,"name":"takeaway-cape-gradient-26","bbox":[2541.09,590,45.84,20]}
+{"kind":"shape","id":"sh/43mdsfex","slide":1,"name":"takeaway-cape-gradient-27","bbox":[2585.94,590,45.84,20]}
+{"kind":"shape","id":"sh/32dwzadc","slide":1,"name":"takeaway-cape-gradient-28","bbox":[2630.78,590,45.84,20]}
+{"kind":"shape","id":"sh/214vq5wr","slide":1,"name":"takeaway-cape-gradient-29","bbox":[2675.62,590,45.84,20]}
+{"kind":"shape","id":"sh/h0vex0v6","slide":1,"name":"takeaway-cape-gradient-30","bbox":[2720.47,590,45.84,20]}
+{"kind":"shape","id":"sh/gz2dovel","slide":1,"name":"takeaway-cape-gradient-31","bbox":[2765.31,590,45.84,20]}
+{"kind":"shape","id":"sh/wrud8fal","slide":1,"name":"takeaway-cape-gradient-32","bbox":[2810.16,590,45.84,20]}
+{"kind":"textbox","id":"sh/hs3eh0r6","slide":1,"name":"central-takeaway-title","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/upsv65sf","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/vqlwfa90","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: POSTEX-SYNTH-2026-001","textPreview":"Evidence fixture: POSTEX-SYNTH-2026-001","textChars":39,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/4vuxcfah","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/5w3elkr2","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/itcva5sb","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/julwja9w","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/kzad0vad","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/l0je9gry","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/nq98vixs","slide":1,"name":"figure-two-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/2p072dg7","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/psrqxsfi","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/orip4nyx","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/f298rixg","slide":1,"name":"validation","text":"• total profiles: 1,240\n• selected features: 12-feature\n• external c index a: 0.75\n• external c index b: 0.74\n• sign stability: 92%","textPreview":"• total profiles: 1,240 | • selected features: 12-feature | • external c index a: 0.75 | • external c index b: 0.74 | • sign stability: 92%","textChars":131,"textLines":5,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/e1g7ydgv","slide":1,"name":"validation-evidence","text":"Ground-truth case: aurora-synthetic-benchmark","textPreview":"Ground-truth case: aurora-synthetic-benchmark","textChars":45,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/14rqt8fm","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/03ip0ny1","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/ryp8nyxk","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/qxg7utgz","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/utwr6t0r","slide":1,"name":"biology-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/vu58fy1c","slide":1,"name":"biology-1-label","text":"total profiles","textPreview":"total profiles","textChars":14,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/gvy983ix","slide":1,"name":"biology-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/hw7qh8zi","slide":1,"name":"biology-2-label","text":"selected features","textPreview":"selected features","textChars":17,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/ixgrad0n","slide":1,"name":"biology-3-value","text":"0.75","textPreview":"0.75","textChars":4,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/3yp8jyh8","slide":1,"name":"biology-3-label","text":"external c index a","textPreview":"external c index a","textChars":18,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/4zy9c3it","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/507ql8ze","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/q1gred0z","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/r2ps7ihk","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/1wbudcjm","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/0v2t4721","slide":1,"name":"figure-three-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/futcb21g","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/et0b2hkv","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/pkbuhwji","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/oj2t8r2d","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/nitcfm1s","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/2hkb6hk7","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/xovulwju","slide":1,"name":"figure-four-source","text":"Source: POSTEX-SYNTH-2026-001","textPreview":"Source: POSTEX-SYNTH-2026-001","textChars":29,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/wnmtcr29","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/4ri58zil","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/5crm14j6","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/ip03690f","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/jq94ze10","slide":1,"name":"conclusion-evidence","text":"Source and license: POSTEX-SYNTH-2026-001 · CC0-1.0","textPreview":"Source and license: POSTEX-SYNTH-2026-001 · CC0-1.0","textChars":51,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/wnyl4zip","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/hormx4ja","slide":1,"name":"footer-source","text":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation · CC0-1.0","textPreview":"AURORA-12: a fully synthetic benchmark for evidence-linked poster generation · CC0-1.0","textChars":86,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/ulg32pkj","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"notes","id":"nt/ecau5w","slide":1,"text":"[Sources]\n- examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf\n- License: CC0-1.0\n[/Sources]"}

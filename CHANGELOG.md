@@ -4,6 +4,17 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+
+- CC0 fictional LUMEN-24 observational fixture and homepage evidence preview.
+- Production-rendered Paimon-inspired AURORA-12 examples for A1 and 36×48-inch formats.
+
+### Changed
+
+- Reframed the repository homepage around Paimon-inspired Palette Fusion, with detailed natural-language, user-image, named-theme, brand, and manual palette routes.
+- Replaced the homepage size and study-type illustrations with generated fictional-paper examples.
+- Scaled A1 typography with the poster geometry and applied a size-appropriate preflight threshold.
+
 ## [0.2.0a2] - 2026-08-08
 
 ### Added
@@ -17,7 +28,7 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 - Replaced the former real-paper golden example with the rights-safe AURORA-12 synthetic benchmark.
 - Updated the landing page and evaluation suite around reproducible three-palette comparison.
-- Refined the Paimon-inspired Visual Signature to a no-green cape gradient without redistributing character artwork.
+- Refined the Paimon-inspired Visual Signature into a cape-gradient system without redistributing character artwork.
 
 ## [0.2.0a1] - 2026-08-07
 

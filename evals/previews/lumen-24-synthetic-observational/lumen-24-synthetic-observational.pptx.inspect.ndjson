@@ -1,0 +1,191 @@
+{"kind":"deck","id":"pr/h5o03i","name":"Deck"}
+{"kind":"layout","layoutId":"29c6ffbf-209c-4267-bcee-9481b4f4d3c4","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"486e3bf8-cbd0-41b4-9dee-62916a64c636","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/14bn2a","slide":1,"title":"LUMEN-24: synthetic observational evidence audit","textShapes":61}
+{"kind":"shape","id":"sh/6xczi5sz","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/t0nydkrq","slide":1,"name":"top-cape-gradient-1","bbox":[0,0,141.44,30]}
+{"kind":"shape","id":"sh/8zuhkfa5","slide":1,"name":"top-cape-gradient-2","bbox":[140.44,0,141.44,30]}
+{"kind":"shape","id":"sh/v250fu9g","slide":1,"name":"top-cape-gradient-3","bbox":[280.87,0,141.44,30]}
+{"kind":"shape","id":"sh/u1wzmpsb","slide":1,"name":"top-cape-gradient-4","bbox":[421.31,0,141.44,30]}
+{"kind":"shape","id":"sh/h4nih4rm","slide":1,"name":"top-cape-gradient-5","bbox":[561.75,0,141.44,30]}
+{"kind":"shape","id":"sh/g3ehoza1","slide":1,"name":"top-cape-gradient-6","bbox":[702.19,0,141.44,30]}
+{"kind":"shape","id":"sh/3q50ju9s","slide":1,"name":"top-cape-gradient-7","bbox":[842.62,0,141.44,30]}
+{"kind":"shape","id":"sh/i5wzqp87","slide":1,"name":"top-cape-gradient-8","bbox":[983.06,0,141.44,30]}
+{"kind":"shape","id":"sh/o3ihsv2t","slide":1,"name":"top-cape-gradient-9","bbox":[1123.5,0,141.44,30]}
+{"kind":"shape","id":"sh/p4ril03e","slide":1,"name":"top-cape-gradient-10","bbox":[1263.94,0,141.44,30]}
+{"kind":"shape","id":"sh/210zqlkn","slide":1,"name":"top-cape-gradient-11","bbox":[1404.38,0,141.44,30]}
+{"kind":"shape","id":"sh/3290jql8","slide":1,"name":"top-cape-gradient-12","bbox":[1544.81,0,141.44,30]}
+{"kind":"shape","id":"sh/c7ihwv25","slide":1,"name":"top-cape-gradient-13","bbox":[1685.25,0,141.44,30]}
+{"kind":"shape","id":"sh/d8bip0ja","slide":1,"name":"top-cape-gradient-14","bbox":[1825.69,0,141.44,30]}
+{"kind":"shape","id":"sh/q50zulkz","slide":1,"name":"top-cape-gradient-15","bbox":[1966.13,0,141.44,30]}
+{"kind":"shape","id":"sh/b690nq1k","slide":1,"name":"top-cape-gradient-16","bbox":[2106.56,0,141.44,30]}
+{"kind":"shape","id":"sh/0b210f21","slide":1,"name":"top-cape-gradient-17","bbox":[2247,0,141.44,30]}
+{"kind":"shape","id":"sh/lwbitkjm","slide":1,"name":"top-cape-gradient-18","bbox":[2387.44,0,141.44,30]}
+{"kind":"shape","id":"sh/9s7id0bq","slide":1,"name":"top-cape-gradient-19","bbox":[2527.87,0,141.44,30]}
+{"kind":"shape","id":"sh/8ryh4fu5","slide":1,"name":"top-cape-gradient-20","bbox":[2668.31,0,141.44,30]}
+{"kind":"shape","id":"sh/7qp0batk","slide":1,"name":"top-cape-gradient-21","bbox":[2808.75,0,141.44,30]}
+{"kind":"shape","id":"sh/mpgz25cz","slide":1,"name":"top-cape-gradient-22","bbox":[2949.19,0,141.44,30]}
+{"kind":"shape","id":"sh/hgrihkbm","slide":1,"name":"top-cape-gradient-23","bbox":[3089.62,0,141.44,30]}
+{"kind":"shape","id":"sh/wvih8fuh","slide":1,"name":"top-cape-gradient-24","bbox":[3230.06,0,141.44,30]}
+{"kind":"shape","id":"sh/vup0fatw","slide":1,"name":"top-cape-gradient-25","bbox":[3370.5,0,141.44,30]}
+{"kind":"shape","id":"sh/utgz65cb","slide":1,"name":"top-cape-gradient-26","bbox":[3510.94,0,141.44,30]}
+{"kind":"shape","id":"sh/xkny5gbi","slide":1,"name":"top-cape-gradient-27","bbox":[3651.38,0,141.44,30]}
+{"kind":"shape","id":"sh/czehwbux","slide":1,"name":"top-cape-gradient-28","bbox":[3791.81,0,141.44,30]}
+{"kind":"shape","id":"sh/2tsnqxoj","slide":1,"name":"top-cape-gradient-29","bbox":[3932.25,0,141.44,30]}
+{"kind":"shape","id":"sh/3u1oj254","slide":1,"name":"top-cape-gradient-30","bbox":[4072.69,0,141.44,30]}
+{"kind":"shape","id":"sh/ofa5s76p","slide":1,"name":"top-cape-gradient-31","bbox":[4213.13,0,141.44,30]}
+{"kind":"shape","id":"sh/pgj6lsna","slide":1,"name":"top-cape-gradient-32","bbox":[4353.56,0,141.44,30]}
+{"kind":"shape","id":"sh/qhsnuxov","slide":1,"name":"header-cape-gradient-1","bbox":[0,490,141.44,30]}
+{"kind":"shape","id":"sh/bilon250","slide":1,"name":"header-cape-gradient-2","bbox":[140.44,490,141.44,30]}
+{"kind":"shape","id":"sh/cju5w76l","slide":1,"name":"header-cape-gradient-3","bbox":[280.87,490,141.44,30]}
+{"kind":"shape","id":"sh/dk36pcn6","slide":1,"name":"header-cape-gradient-4","bbox":[421.31,490,141.44,30]}
+{"kind":"shape","id":"sh/6l8nidob","slide":1,"name":"header-cape-gradient-5","bbox":[561.75,490,141.44,30]}
+{"kind":"shape","id":"sh/rmh4bipw","slide":1,"name":"header-cape-gradient-6","bbox":[702.19,490,141.44,30]}
+{"kind":"shape","id":"sh/7i94fuhk","slide":1,"name":"header-cape-gradient-7","bbox":[842.62,490,141.44,30]}
+{"kind":"shape","id":"sh/mh03mpgf","slide":1,"name":"header-cape-gradient-8","bbox":[983.06,490,141.44,30]}
+{"kind":"shape","id":"sh/9krmh4zq","slide":1,"name":"header-cape-gradient-9","bbox":[1123.5,490,141.44,30]}
+{"kind":"shape","id":"sh/8jilozy5","slide":1,"name":"header-cape-gradient-10","bbox":[1263.94,490,141.44,30]}
+{"kind":"shape","id":"sh/vm94jehw","slide":1,"name":"header-cape-gradient-11","bbox":[1404.38,490,141.44,30]}
+{"kind":"shape","id":"sh/ul03q9gb","slide":1,"name":"header-cape-gradient-12","bbox":[1544.81,490,141.44,30]}
+{"kind":"shape","id":"sh/h8bmloz2","slide":1,"name":"header-cape-gradient-13","bbox":[1685.25,490,141.44,30]}
+{"kind":"shape","id":"sh/wn2lsjyh","slide":1,"name":"header-cape-gradient-14","bbox":[1825.69,490,141.44,30]}
+{"kind":"shape","id":"sh/3at4nehs","slide":1,"name":"header-cape-gradient-15","bbox":[1966.13,490,141.44,30]}
+{"kind":"shape","id":"sh/i9k3utg7","slide":1,"name":"header-cape-gradient-16","bbox":[2106.56,490,141.44,30]}
+{"kind":"shape","id":"sh/0fmlkjel","slide":1,"name":"header-cape-gradient-17","bbox":[2247,490,141.44,30]}
+{"kind":"shape","id":"sh/1gv2dov6","slide":1,"name":"header-cape-gradient-18","bbox":[2387.44,490,141.44,30]}
+{"kind":"shape","id":"sh/edk3itwf","slide":1,"name":"header-cape-gradient-19","bbox":[2527.87,490,141.44,30]}
+{"kind":"shape","id":"sh/fedkbyd0","slide":1,"name":"header-cape-gradient-20","bbox":[2668.31,490,141.44,30]}
+{"kind":"shape","id":"sh/sb2lgjep","slide":1,"name":"header-cape-gradient-21","bbox":[2808.75,490,141.44,30]}
+{"kind":"shape","id":"sh/dcb29ovu","slide":1,"name":"header-cape-gradient-22","bbox":[2949.19,490,141.44,30]}
+{"kind":"shape","id":"sh/qpkje9wj","slide":1,"name":"header-cape-gradient-23","bbox":[3089.62,490,141.44,30]}
+{"kind":"shape","id":"sh/ratk7ed4","slide":1,"name":"header-cape-gradient-24","bbox":[3230.06,490,141.44,30]}
+{"kind":"shape","id":"sh/4n21czed","slide":1,"name":"header-cape-gradient-25","bbox":[3370.5,490,141.44,30]}
+{"kind":"shape","id":"sh/5ob254vy","slide":1,"name":"header-cape-gradient-26","bbox":[3510.94,490,141.44,30]}
+{"kind":"shape","id":"sh/lsjatw3q","slide":1,"name":"header-cape-gradient-27","bbox":[3651.38,490,141.44,30]}
+{"kind":"shape","id":"sh/k7a9kb25","slide":1,"name":"header-cape-gradient-28","bbox":[3791.81,490,141.44,30]}
+{"kind":"shape","id":"sh/z618r6lk","slide":1,"name":"header-cape-gradient-29","bbox":[3932.25,490,141.44,30]}
+{"kind":"shape","id":"sh/y5sri1kz","slide":1,"name":"header-cape-gradient-30","bbox":[4072.69,490,141.44,30]}
+{"kind":"shape","id":"sh/x4zqpw3e","slide":1,"name":"header-cape-gradient-31","bbox":[4213.13,490,141.44,30]}
+{"kind":"shape","id":"sh/c3q9gr2t","slide":1,"name":"header-cape-gradient-32","bbox":[4353.56,490,141.44,30]}
+{"kind":"textbox","id":"sh/b2h8nml8","slide":1,"name":"poster-title","text":"LUMEN-24: synthetic observational evidence audit","textPreview":"LUMEN-24: synthetic observational evidence audit","textChars":48,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/a18rehkn","slide":1,"name":"authors","text":"Source-grounded PostEx evaluation fixture","textPreview":"Source-grounded PostEx evaluation fixture","textChars":41,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/h03a10ji","slide":1,"name":"affiliations","text":"Observational profile · CC0-1.0","textPreview":"Observational profile · CC0-1.0","textChars":31,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/wzu9sv2d","slide":1,"name":"citation","text":"Synthetic ID POSTEX-SYNTH-OBS-2026-001","textPreview":"Synthetic ID POSTEX-SYNTH-OBS-2026-001","textChars":38,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/e547md0f","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/f6xofi10","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/076ponil","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/18f6hsj6","slide":1,"name":"header-metric-1-value","text":"2,400","textPreview":"2,400","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/qh4nid0j","slide":1,"name":"header-metric-1-label","text":"records","textPreview":"records","textChars":7,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/r2dobi14","slide":1,"name":"header-metric-2-value","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/s3m5knip","slide":1,"name":"header-metric-2-label","text":"centers","textPreview":"centers","textChars":7,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/d4v6dsja","slide":1,"name":"header-metric-3-value","text":"HR=1.18","textPreview":"HR=1.18","textChars":7,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/ad87ux0n","slide":1,"name":"header-metric-3-label","text":"adjusted effect","textPreview":"adjusted effect","textChars":15,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/byhon2h8","slide":1,"name":"question-title","text":"Communication objective","textPreview":"Communication objective","textChars":23,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/judo729c","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/yt47exsr","slide":1,"name":"research-question","text":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textPreview":"Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.","textChars":113,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/lwv69cri","slide":1,"name":"question-evidence","text":"Evidence fixture: POSTEX-SYNTH-OBS-2026-001","textPreview":"Evidence fixture: POSTEX-SYNTH-OBS-2026-001","textChars":43,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/kvmpg7ax","slide":1,"name":"pipeline-title","text":"Required evidence structure","textPreview":"Required evidence structure","textChars":27,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/bqto32tg","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/apknaxsv","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/xsv65srm","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/wr25cna1","slide":1,"name":"pipeline-1-text","text":"Research Question","textPreview":"Research Question","textChars":17,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/n2tozit4","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/m1kn6dsz","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/c7ylgjqh","slide":1,"name":"pipeline-2-text","text":"Datasets","textPreview":"Datasets","textChars":8,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/d87m9or2","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/q5g3e98r","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/r6p47e9w","slide":1,"name":"pipeline-3-text","text":"Analysis Pipeline","textPreview":"Analysis Pipeline","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/0vilk3qt","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/1wrmdo7e","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/et03it8n","slide":1,"name":"pipeline-4-text","text":"Key Results","textPreview":"Key Results","textChars":11,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/zu94byp8","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/gzel8zq9","slide":1,"name":"dataset-kicker","text":"SOURCE CONTRACT","textPreview":"SOURCE CONTRACT","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/h0n214ru","slide":1,"name":"datasets","text":"Input: full paper\nLicense: CC0-1.0\nProfile: observational\nClaims checked: 5","textPreview":"Input: full paper | License: CC0-1.0 | Profile: observational | Claims checked: 5","textChars":75,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/y1cbalwf","slide":1,"name":"dataset-evidence","text":"examples/homepage-fictional-evidence/lumen-24-source.yaml","textPreview":"examples/homepage-fictional-evidence/lumen-24-source.yaml","textChars":57,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/z2lc3qd0","slide":1,"name":"figure-one-heading-title","text":"Methods and source evidence","textPreview":"Methods and source evidence","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/03utcvel","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/l43u50vq","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/m5wve5wb","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/n65c7qdw","slide":1,"name":"figure-one-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/87edgveh","slide":1,"name":"figure-one-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/9snu90v2","slide":1,"name":"figure-one-source","text":"Source: POSTEX-SYNTH-OBS-2026-001","textPreview":"Source: POSTEX-SYNTH-OBS-2026-001","textChars":33,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/29sb21w7","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"shape","id":"sh/3a1cv6xs","slide":1,"name":"takeaway-cape-gradient-1","bbox":[1420,590,45.84,20]}
+{"kind":"shape","id":"sh/50r6x8jm","slide":1,"name":"takeaway-cape-gradient-2","bbox":[1464.84,590,45.84,20]}
+{"kind":"shape","id":"sh/4zi5o321","slide":1,"name":"takeaway-cape-gradient-3","bbox":[1509.69,590,45.84,20]}
+{"kind":"shape","id":"sh/jy9ovy1g","slide":1,"name":"takeaway-cape-gradient-4","bbox":[1554.53,590,45.84,20]}
+{"kind":"shape","id":"sh/id0nmtkv","slide":1,"name":"takeaway-cape-gradient-5","bbox":[1599.38,590,45.84,20]}
+{"kind":"shape","id":"sh/t4b618ji","slide":1,"name":"takeaway-cape-gradient-6","bbox":[1644.22,590,45.84,20]}
+{"kind":"shape","id":"sh/s32ps32x","slide":1,"name":"takeaway-cape-gradient-7","bbox":[1689.06,590,45.84,20]}
+{"kind":"shape","id":"sh/r2tozy1c","slide":1,"name":"takeaway-cape-gradient-8","bbox":[1733.91,590,45.84,20]}
+{"kind":"shape","id":"sh/61knqtk7","slide":1,"name":"takeaway-cape-gradient-9","bbox":[1778.75,590,45.84,20]}
+{"kind":"shape","id":"sh/9876po3e","slide":1,"name":"takeaway-cape-gradient-10","bbox":[1823.59,590,45.84,20]}
+{"kind":"shape","id":"sh/87y5gj2t","slide":1,"name":"takeaway-cape-gradient-11","bbox":[1868.44,590,45.84,20]}
+{"kind":"shape","id":"sh/0r25wjap","slide":1,"name":"takeaway-cape-gradient-12","bbox":[1913.28,590,45.84,20]}
+{"kind":"shape","id":"sh/lsb65oba","slide":1,"name":"takeaway-cape-gradient-13","bbox":[1958.13,590,45.84,20]}
+{"kind":"shape","id":"sh/ypknu9sj","slide":1,"name":"takeaway-cape-gradient-14","bbox":[2002.97,590,45.84,20]}
+{"kind":"shape","id":"sh/zqto3et4","slide":1,"name":"takeaway-cape-gradient-15","bbox":[2047.81,590,45.84,20]}
+{"kind":"shape","id":"sh/8fmp0jal","slide":1,"name":"takeaway-cape-gradient-16","bbox":[2092.66,590,45.84,20]}
+{"kind":"shape","id":"sh/9gv69ob6","slide":1,"name":"takeaway-cape-gradient-17","bbox":[2137.5,590,45.84,20]}
+{"kind":"shape","id":"sh/mdk7ytsv","slide":1,"name":"takeaway-cape-gradient-18","bbox":[2182.34,590,45.84,20]}
+{"kind":"shape","id":"sh/neto7yt0","slide":1,"name":"takeaway-cape-gradient-19","bbox":[2227.19,590,45.84,20]}
+{"kind":"shape","id":"sh/wjmp43ax","slide":1,"name":"takeaway-cape-gradient-20","bbox":[2272.03,590,45.84,20]}
+{"kind":"shape","id":"sh/xkv6d8ri","slide":1,"name":"takeaway-cape-gradient-21","bbox":[2316.87,590,45.84,20]}
+{"kind":"shape","id":"sh/7eh832dk","slide":1,"name":"takeaway-cape-gradient-22","bbox":[2361.72,590,45.84,20]}
+{"kind":"shape","id":"sh/6doraxcz","slide":1,"name":"takeaway-cape-gradient-23","bbox":[2406.56,590,45.84,20]}
+{"kind":"shape","id":"sh/tgza5cbq","slide":1,"name":"takeaway-cape-gradient-24","bbox":[2451.41,590,45.84,20]}
+{"kind":"shape","id":"sh/sfq9c7u5","slide":1,"name":"takeaway-cape-gradient-25","bbox":[2496.25,590,45.84,20]}
+{"kind":"shape","id":"sh/jax8zid8","slide":1,"name":"takeaway-cape-gradient-26","bbox":[2541.09,590,45.84,20]}
+{"kind":"shape","id":"sh/i9or6xc3","slide":1,"name":"takeaway-cape-gradient-27","bbox":[2585.94,590,45.84,20]}
+{"kind":"shape","id":"sh/5cfq1sve","slide":1,"name":"takeaway-cape-gradient-28","bbox":[2630.78,590,45.84,20]}
+{"kind":"shape","id":"sh/kb698nut","slide":1,"name":"takeaway-cape-gradient-29","bbox":[2675.62,590,45.84,20]}
+{"kind":"shape","id":"sh/361sbmts","slide":1,"name":"takeaway-cape-gradient-30","bbox":[2720.47,590,45.84,20]}
+{"kind":"shape","id":"sh/258rihc7","slide":1,"name":"takeaway-cape-gradient-31","bbox":[2765.31,590,45.84,20]}
+{"kind":"shape","id":"sh/at8v6l8b","slide":1,"name":"takeaway-cape-gradient-32","bbox":[2810.16,590,45.84,20]}
+{"kind":"textbox","id":"sh/buhczq9w","slide":1,"name":"central-takeaway-title","text":"2,400","textPreview":"2,400","textChars":5,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/cfqd8bqh","slide":1,"name":"central-takeaway-subtitle","text":"Key facts remain bound to the source and study design","textPreview":"Key facts remain bound to the source and study design","textChars":53,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/xgzu1gr2","slide":1,"name":"takeaway-evidence","text":"Evidence fixture: POSTEX-SYNTH-OBS-2026-001","textPreview":"Evidence fixture: POSTEX-SYNTH-OBS-2026-001","textChars":43,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/2pov218f","slide":1,"name":"figure-two-heading-title","text":"Primary evidence","textPreview":"Primary evidence","textChars":16,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/nqxcv690","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/or6d4bql","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/psfuxgrq","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/mlsve58j","slide":1,"name":"figure-two-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/7m1w7a94","slide":1,"name":"figure-two-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/hg3yx4b6","slide":1,"name":"figure-two-source","text":"Source: POSTEX-SYNTH-OBS-2026-001","textPreview":"Source: POSTEX-SYNTH-OBS-2026-001","textChars":33,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/wfux4zal","slide":1,"name":"validation-heading-title","text":"Required factual anchors","textPreview":"Required factual anchors","textChars":24,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/velgvutg","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/udcf2psv","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/9c3ytkba","slide":1,"name":"validation","text":"• records: 2,400\n• centers: 3\n• adjusted effect: HR=1.18\n• uncertainty: 95% CI 1.05-1.32\n• negative control: HR=1.01","textPreview":"• records: 2,400 | • centers: 3 | • adjusted effect: HR=1.18 | • uncertainty: 95% CI 1.05-1.32 | • negative control: HR=1.01","textChars":116,"textLines":5,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/8bax0fap","slide":1,"name":"validation-evidence","text":"Ground-truth case: lumen-24-synthetic-observational","textPreview":"Ground-truth case: lumen-24-synthetic-observational","textChars":51,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/7a1grat4","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/m9sfypsj","slide":1,"name":"performance-strip-text","text":"No unsupported numerical or causal expansion permitted","textPreview":"No unsupported numerical or causal expansion permitted","textChars":54,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/t8ny5obe","slide":1,"name":"biology-heading-title","text":"Fact checks","textPreview":"Fact checks","textChars":11,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/s7ehcjat","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/cn69ormh","slide":1,"name":"biology-1-value","text":"2,400","textPreview":"2,400","textChars":5,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/xofqxw32","slide":1,"name":"biology-1-label","text":"records","textPreview":"records","textChars":7,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/a1ormh4b","slide":1,"name":"biology-2-value","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/b2x8vmlw","slide":1,"name":"biology-2-label","text":"centers","textPreview":"centers","textChars":7,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/ozm9k7m5","slide":1,"name":"biology-3-value","text":"HR=1.18","textPreview":"HR=1.18","textChars":7,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/p0vqtc3q","slide":1,"name":"biology-3-label","text":"adjusted effect","textPreview":"adjusted effect","textChars":15,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/2x4rix4f","slide":1,"name":"biology-evidence","text":"Machine-checkable evaluation fixture","textPreview":"Machine-checkable evaluation fixture","textChars":36,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/nyd8r2lk","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/0vm9g7m9","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/1wvqps3u","slide":1,"name":"figure-three-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/jqtsz2pg","slide":1,"name":"figure-three-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/i5kr6xov","slide":1,"name":"figure-three-source","text":"Source: POSTEX-SYNTH-OBS-2026-001","textPreview":"Source: POSTEX-SYNTH-OBS-2026-001","textChars":33,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/5sba1s7m","slide":1,"name":"validation-visual-heading-title","text":"Independent evidence slot","textPreview":"Independent evidence slot","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/4r298n61","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/ruds32ps","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/6tkraxo7","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/dwva5c7i","slide":1,"name":"figure-four-placeholder-label","text":"SOURCE FIGURE SLOT","textPreview":"SOURCE FIGURE SLOT","textChars":18,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/svm9c76d","slide":1,"name":"figure-four-caption","text":"Source figure selected during full-paper generation","textPreview":"Source figure selected during full-paper generation","textChars":51,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/fyds7mpo","slide":1,"name":"figure-four-source","text":"Source: POSTEX-SYNTH-OBS-2026-001","textPreview":"Source: POSTEX-SYNTH-OBS-2026-001","textChars":33,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/ex4beho3","slide":1,"name":"conclusion-heading-title","text":"Interpretation boundary","textPreview":"Interpretation boundary","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/m5kv21kn","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/n6twv6ls","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/o72d4b2d","slide":1,"name":"conclusion","text":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textPreview":"Interpret findings only within the source study design, population, methods and reported uncertainty.","textChars":101,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/98vexg3y","slide":1,"name":"conclusion-evidence","text":"Source and license: POSTEX-SYNTH-OBS-2026-001 · CC0-1.0","textPreview":"Source and license: POSTEX-SYNTH-OBS-2026-001 · CC0-1.0","textChars":55,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/a94v6lkj","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/badwzql4","slide":1,"name":"footer-source","text":"LUMEN-24: synthetic observational evidence audit · CC0-1.0","textPreview":"LUMEN-24: synthetic observational evidence audit · CC0-1.0","textChars":58,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/wbmd8v2p","slide":1,"name":"footer-status","text":"Evaluation preview · not a release poster","textPreview":"Evaluation preview · not a release poster","textChars":41,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"notes","id":"nt/14bn2a","slide":1,"text":"[Sources]\n- examples/homepage-fictional-evidence/lumen-24-source.yaml\n- License: CC0-1.0\n[/Sources]"}

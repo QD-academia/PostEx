@@ -40,7 +40,7 @@ function createHelpers(slide, canvas) {
   const py = (value) => value * sy;
   const pw = (value) => value * sx;
   const ph = (value) => value * sy;
-  const font = (value, minimum = 0) => Math.max(value * scale, minimum);
+  const font = (value, minimum = 0) => Math.max(value, minimum) * scale;
 
   function rect(x, y, width, height, fill, name, lineFill = "none", lineWidth = 0, radius = "rounded-xl") {
     return slide.shapes.add({
@@ -142,13 +142,15 @@ function body(h, theme, value, x, y, width, height, name, size = 38) {
 }
 
 function metric(h, theme, item, x, y, width, color, name) {
+  const value = String(item.value ?? "");
+  const valueFontSize = Math.min(68, Math.floor(width / Math.max(value.length * 0.62, 1)));
   h.text(
-    item.value,
+    value,
     x,
     y,
     width,
     78,
-    { fontSize: 68, minimumFontSize: 45, bold: true, color },
+    { fontSize: valueFontSize, minimumFontSize: 45, bold: true, color },
     `${name}-value`,
   );
   h.text(

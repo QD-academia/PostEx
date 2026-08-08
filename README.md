@@ -2,7 +2,7 @@
 
 **Let every study have its own visual identity.**
 
-PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.2 introduces **Palette Fusion**: it combines evidence-linked scientific content with an image, theme, brand, manual palette, or visual mood to create structurally distinct poster directions—not merely recolored templates.
+PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.2 introduces **Palette Fusion**: it combines evidence-linked scientific content with natural-language inspiration, reference images, named themes, brand systems, or manual colors to create a coherent poster identity—not merely a recolored template.
 
 > Status: `0.2.0a2`. Palette DNA, Poster Brief, three-direction fusion planning, figure-edit approval, design locks, explainable rationale, and approval-bound Palette DNA rendering are runnable. The Bioinformatics Pipeline family remains the production-renderable family while the remaining template families are developed.
 
@@ -10,37 +10,50 @@ PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Clau
 
 ### 1. Turn visual inspiration into Palette DNA
 
-PostEx does not stop at extracting a few hex codes. It proposes three named design systems—**Academic Safe**, **Balanced Fusion**, and **Visual Signature**—with color roles, usage ratios, component behavior, semantic locks, and accessibility/print simulations.
+The primary visual direction on this page is a **Paimon-inspired cape-gradient Visual Signature**: midnight navy, layered cape blues, luminous ice blue, warm starlight gold, and a soft pearl canvas. No character artwork is bundled. PostEx translates the inspiration into an original, research-ready system of color roles, gradients, hierarchy, rhythm, cards, connectors, and emphasis.
 
 ![PostEx Palette Fusion Studio with three palette directions and three intelligent layout directions](docs/images/palette-fusion-studio.svg)
 
-This runnable example starts from a user-authored *bright, friendly, celestial, refined* theme. It bundles no third-party character artwork: the inspiration is translated abstractly into palette, hierarchy, rhythm, corners, cards, and connectors. Open the generated [Palette Studio HTML](examples/palette-fusion/outputs/palette/palette-studio.html), inspect the [three fusion candidates](examples/palette-fusion/outputs/fusion/fusion-candidates.json), or read the [explainable design rationale](examples/palette-fusion/outputs/fusion/design-rationale.html).
+PostEx can build Palette DNA through several complementary routes:
 
-### 2. Fuse one synthetic paper with three visual identities
+- **Natural-language recognition:** descriptions such as *celestial, friendly, refined, airy* are parsed into temperature, luminance, saturation, contrast, visual rhythm, hierarchy, and component behavior.
+- **User-image recognition:** region-aware CIELAB sampling identifies dominant, supporting, and accent colors from meaningful image regions; contrast repair and print simulation turn them into usable poster roles instead of simply averaging pixels.
+- **Named-theme interpretation:** a theme is abstracted into visual characteristics and a rights-safe design language; source character or game artwork is not required or redistributed.
+- **Brand and manual input:** institutional or user-supplied colors are mapped to semantic roles, completed with accessible neutrals, and checked for contrast, grayscale, color-vision, and print behavior.
 
-The AURORA-12 golden example starts from a fully fictional, CC0 five-page manuscript and produces three editable, print-aware posters from the same approved evidence plan: PostEx Academic Safe, a user-image Balanced Fusion, and a Paimon-inspired cape-gradient Visual Signature with an explicit no-green guardrail. The reference images themselves are not redistributed.
+Every route records provenance and produces role-based colors, usage ratios, component behavior, semantic locks, and three approval-ready expression levels: **Academic Safe**, **Balanced Fusion**, and **Visual Signature**. The Paimon-inspired Visual Signature is the hero direction here; the other two demonstrate how the same evidence plan can support quieter alternatives. Open the generated [Palette Studio HTML](examples/palette-fusion/outputs/palette/palette-studio.html), inspect the [fusion candidates](examples/palette-fusion/outputs/fusion/fusion-candidates.json), or read the [design rationale](examples/palette-fusion/outputs/fusion/design-rationale.html).
+
+### 2. Fuse a fictional paper with a signature visual identity
+
+The AURORA-12 golden example starts from a fully fictional, CC0 five-page manuscript. Its primary output is the Paimon-inspired Visual Signature below: evidence-linked, editable, print-aware, and approval-bound from Palette DNA through final rendering.
+
+[![AURORA-12 fictional bioinformatics poster in the Paimon-inspired cape-gradient Visual Signature](examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.png)](examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.png)
+
+The same approved evidence plan can also be expressed through PostEx Academic Safe or a user-image Balanced Fusion. These are supporting comparisons, not the lead identity:
 
 [![Three AURORA-12 evidence-linked posters generated by PostEx](docs/images/aurora-three-palettes.png)](docs/images/aurora-three-palettes.png)
 
-**Input:** [fictional manuscript PDF](examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf) · **Research type:** synthetic bioinformatics benchmark · **Content mode:** traceable · **Outputs:** [default PPTX](examples/aurora-synthetic/output/default/aurora-synthetic-default-academic-safe.pptx) · [image-fusion PPTX](examples/aurora-synthetic/output/gate-image/aurora-synthetic-gate-image-balanced-fusion.pptx) · [no-green cape-gradient PPTX](examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.pptx) · [evidence](examples/aurora-synthetic/evidence.json) · [approvals](examples/aurora-synthetic/approval-log.json)
+**Input:** [fictional manuscript PDF](examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf) · **Research type:** synthetic bioinformatics benchmark · **Content mode:** traceable · **Primary output:** [Paimon-inspired PPTX](examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.pptx) · **Supporting outputs:** [Academic Safe PPTX](examples/aurora-synthetic/output/default/aurora-synthetic-default-academic-safe.pptx) · [image-fusion PPTX](examples/aurora-synthetic/output/gate-image/aurora-synthetic-gate-image-balanced-fusion.pptx) · **Audit:** [evidence](examples/aurora-synthetic/evidence.json) · [approvals](examples/aurora-synthetic/approval-log.json)
 
 ### 3. Keep one design language across print sizes
 
-The production-renderable Bioinformatics Pipeline family has independently checked A0, A1, and 36×48-inch landscape variants rather than relying on blind page scaling.
+The Paimon-inspired AURORA-12 design is rendered and preflighted independently in A0, A1, and 36×48-inch landscape formats rather than relying on blind page scaling. Typography, margins, cards, gradients, and figure density are adapted to each physical size while the Palette DNA remains recognizable.
 
 ![PostEx Bioinformatics Pipeline template family shown in A0, A1, and 36 by 48 inch variants](docs/images/template-family-preview.png)
 
 ### 4. Evaluate evidence structure across study types
 
-The evaluation set exercises bioinformatics and observational-paper structures, must-keep facts, source contracts, and interpretation boundaries—not just visual similarity.
+Both panels below are generated from CC0 fictional studies: **AURORA-12** exercises a bioinformatics benchmark structure, while **LUMEN-24** exercises an observational cohort structure. They test must-keep facts, evidence anchors, source contracts, and interpretation boundaries—not just visual similarity—and share the Paimon-inspired design language used throughout this page.
 
 ![PostEx evaluation previews across bioinformatics and observational biomedical papers](docs/images/evidence-eval-preview.png)
 
-> **Alpha boundary:** the three posters above use one approved Visual Journey structure in the production-renderable Bioinformatics Pipeline family. Palette Fusion also generates three structural candidates and rationale; rendering every structural direction and every template family is still in development.
+Inspect the [AURORA-12 manuscript and evidence](examples/aurora-synthetic/) or the [LUMEN-24 fictional source and content plan](examples/homepage-fictional-evidence/).
+
+> **Alpha boundary:** the full-size AURORA-12 posters use one approved Visual Journey structure in the production-renderable Bioinformatics Pipeline family. Palette Fusion also generates three structural candidates and rationale; rendering every structural direction and every template family is still in development.
 
 ## What makes PostEx different
 
-- **Palette DNA:** role-based colors, usage ratios, moods, component language, simulations, and semantic locks.
+- **Palette DNA:** natural language, user images, named themes, brand colors, or manual colors become role-based systems with usage ratios, component language, provenance, simulations, and semantic locks.
 - **Intelligent fusion:** Hero Result, Visual Journey, and Editorial Story proposals respond to both content and palette character.
 - **Explainable design:** every fusion proposal states why it chose its visual anchor, structure, emphasis, and guardrails.
 - **User-owned decisions:** cloud upload, deletion, figure editing, palette application, poster structure, and semantic-color unlock are digest-bound approvals.
@@ -57,7 +70,7 @@ source .venv/bin/activate
 pip install -e ".[dev]"
 
 postex brief-questions
-postex validate examples/palette-fusion/project.yaml
+postex validate examples/aurora-synthetic/project-paimon.yaml
 postex palette-plan examples/palette-fusion/project.yaml
 postex fusion-plan examples/palette-fusion/project.yaml
 python -m unittest discover -s tests -v
@@ -78,7 +91,7 @@ examples/palette-fusion/outputs/palette/
 The end-to-end renderer is exercised by the synthetic golden example:
 
 ```bash
-postex generate examples/aurora-synthetic/project-default.yaml \
+postex generate examples/aurora-synthetic/project-paimon.yaml \
   --artifact-workspace /path/to/initialized/artifact-tool-workspace \
   --office-executable /path/to/soffice
 ```

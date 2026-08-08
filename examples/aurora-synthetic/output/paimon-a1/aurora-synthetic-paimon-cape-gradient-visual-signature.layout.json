@@ -1,0 +1,5924 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/1q98l8",
+    "id": "1q98l8",
+    "slide": 1,
+    "layoutId": "6a9ed298-3342-4e83-92f0-c2a7109d4f08",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "03b7650d-a41f-44a1-9fbb-d7d67ca50ad6",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F6F2EE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 3179,
+      "height": 2245
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6a9ed298-3342-4e83-92f0-c2a7109d4f08",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "03b7650d-a41f-44a1-9fbb-d7d67ca50ad6",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "03b7650d-a41f-44a1-9fbb-d7d67ca50ad6",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3el076hw",
+      "id": "1",
+      "name": "header-band",
+      "bbox": [
+        0,
+        0,
+        3179,
+        367.22
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3E5C78",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozuhgbyh",
+      "id": "2",
+      "name": "top-cape-gradient-1",
+      "bbox": [
+        0,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#293F55",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p03i9gz2",
+      "id": "3",
+      "name": "top-cape-gradient-2",
+      "bbox": [
+        99.34,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2B4258",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9sza1gf",
+      "id": "4",
+      "name": "top-cape-gradient-3",
+      "bbox": [
+        198.69,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2D455C",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fal036h0",
+      "id": "5",
+      "name": "top-cape-gradient-4",
+      "bbox": [
+        298.03,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2F475F",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbuhcbyl",
+      "id": "6",
+      "name": "top-cape-gradient-5",
+      "bbox": [
+        397.38,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#314A63",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1c3i5gz6",
+      "id": "7",
+      "name": "top-cape-gradient-6",
+      "bbox": [
+        496.72,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#334D66",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5wzm5gj",
+      "id": "8",
+      "name": "top-cape-gradient-7",
+      "bbox": [
+        596.06,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#355069",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z650fqh4",
+      "id": "9",
+      "name": "top-cape-gradient-8",
+      "bbox": [
+        695.41,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#37536D",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqlsnet0",
+      "id": "10",
+      "name": "top-cape-gradient-9",
+      "bbox": [
+        794.75,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#395570",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpcru9sf",
+      "id": "11",
+      "name": "top-cape-gradient-10",
+      "bbox": [
+        894.09,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3B5873",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ds3apob6",
+      "id": "12",
+      "name": "top-cape-gradient-11",
+      "bbox": [
+        993.44,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3D5B77",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cru9wjal",
+      "id": "13",
+      "name": "top-cape-gradient-12",
+      "bbox": [
+        1092.78,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3F5E7B",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zulsrytc",
+      "id": "14",
+      "name": "top-cape-gradient-13",
+      "bbox": [
+        1192.13,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#40617F",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/etcrytsr",
+      "id": "15",
+      "name": "top-cape-gradient-14",
+      "bbox": [
+        1291.47,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#416483",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gnat8b2",
+      "id": "16",
+      "name": "top-cape-gradient-15",
+      "bbox": [
+        1390.81,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#426787",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fu903ah",
+      "id": "17",
+      "name": "top-cape-gradient-16",
+      "bbox": [
+        1490.16,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#436A8B",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ni5svyt8",
+      "id": "18",
+      "name": "top-cape-gradient-17",
+      "bbox": [
+        1589.5,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#436C8E",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhwr2dsn",
+      "id": "19",
+      "name": "top-cape-gradient-18",
+      "bbox": [
+        1688.84,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#446F92",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ip03a1g7",
+      "id": "20",
+      "name": "top-cape-gradient-19",
+      "bbox": [
+        1788.19,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#457296",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jq94j6hs",
+      "id": "21",
+      "name": "top-cape-gradient-20",
+      "bbox": [
+        1887.53,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#46759A",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/krilcbyd",
+      "id": "22",
+      "name": "top-cape-gradient-21",
+      "bbox": [
+        1986.87,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#47789E",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5srmlgzy",
+      "id": "23",
+      "name": "top-cape-gradient-22",
+      "bbox": [
+        2086.22,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4A7CA2",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al036h0v",
+      "id": "24",
+      "name": "top-cape-gradient-23",
+      "bbox": [
+        2185.56,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5082A6",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vm94fmhg",
+      "id": "25",
+      "name": "top-cape-gradient-24",
+      "bbox": [
+        2284.91,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5788AA",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wnil8ry1",
+      "id": "26",
+      "name": "top-cape-gradient-25",
+      "bbox": [
+        2384.25,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5D8EAE",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xormhwzm",
+      "id": "27",
+      "name": "top-cape-gradient-26",
+      "bbox": [
+        2483.59,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#6394B2",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uhk3ilgf",
+      "id": "28",
+      "name": "top-cape-gradient-27",
+      "bbox": [
+        2582.94,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#6A9AB6",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fit4rqh0",
+      "id": "29",
+      "name": "top-cape-gradient-28",
+      "bbox": [
+        2682.28,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#70A0BA",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pcf6hkj2",
+      "id": "30",
+      "name": "top-cape-gradient-29",
+      "bbox": [
+        2781.62,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#76A6BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obmp8fih",
+      "id": "31",
+      "name": "top-cape-gradient-30",
+      "bbox": [
+        2880.97,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#7CACC1",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3adofa1w",
+      "id": "32",
+      "name": "top-cape-gradient-31",
+      "bbox": [
+        2980.31,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#83B2C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p47650b",
+      "id": "33",
+      "name": "top-cape-gradient-32",
+      "bbox": [
+        3079.66,
+        0,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#89B8C9",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1ov6dkj6",
+      "id": "34",
+      "name": "header-cape-gradient-1",
+      "bbox": [
+        0,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#293F55",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnm54fil",
+      "id": "35",
+      "name": "header-cape-gradient-2",
+      "bbox": [
+        99.34,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2B4258",
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmdoba10",
+      "id": "36",
+      "name": "header-cape-gradient-3",
+      "bbox": [
+        198.69,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2D455C",
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul4n250f",
+      "id": "37",
+      "name": "header-cape-gradient-4",
+      "bbox": [
+        298.03,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2F475F",
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkz6p4ja",
+      "id": "38",
+      "name": "header-cape-gradient-5",
+      "bbox": [
+        397.38,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#314A63",
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0jqpgzip",
+      "id": "39",
+      "name": "header-cape-gradient-6",
+      "bbox": [
+        496.72,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#334D66",
+      "lineWidth": 0
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bu50fe9",
+      "id": "40",
+      "name": "header-cape-gradient-7",
+      "bbox": [
+        596.06,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#355069",
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9c36tkfu",
+      "id": "41",
+      "name": "header-cape-gradient-8",
+      "bbox": [
+        695.41,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#37536D",
+      "lineWidth": 0
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m9sny5w3",
+      "id": "42",
+      "name": "header-cape-gradient-9",
+      "bbox": [
+        794.75,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#395570",
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7aloraxo",
+      "id": "43",
+      "name": "header-cape-gradient-10",
+      "bbox": [
+        894.09,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3B5873",
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfu5ofe5",
+      "id": "44",
+      "name": "header-cape-gradient-11",
+      "bbox": [
+        993.44,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3D5B77",
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hg36xkfq",
+      "id": "45",
+      "name": "header-cape-gradient-12",
+      "bbox": [
+        1092.78,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3F5E7B",
+      "lineWidth": 0
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udcn25wz",
+      "id": "46",
+      "name": "header-cape-gradient-13",
+      "bbox": [
+        1192.13,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#40617F",
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/velovaxk",
+      "id": "47",
+      "name": "header-cape-gradient-14",
+      "bbox": [
+        1291.47,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#416483",
+      "lineWidth": 0
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43epszeh",
+      "id": "48",
+      "name": "header-cape-gradient-15",
+      "bbox": [
+        1390.81,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#426787",
+      "lineWidth": 0
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54n614f2",
+      "id": "49",
+      "name": "header-cape-gradient-16",
+      "bbox": [
+        1490.16,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#436A8B",
+      "lineWidth": 0
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za907ilg",
+      "id": "50",
+      "name": "header-cape-gradient-17",
+      "bbox": [
+        1589.5,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#436C8E",
+      "lineWidth": 0
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e90zedkv",
+      "id": "51",
+      "name": "header-cape-gradient-18",
+      "bbox": [
+        1688.84,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#446F92",
+      "lineWidth": 0
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cri9s36",
+      "id": "52",
+      "name": "header-cape-gradient-19",
+      "bbox": [
+        1788.19,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#457296",
+      "lineWidth": 0
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bihgn2l",
+      "id": "53",
+      "name": "header-cape-gradient-20",
+      "bbox": [
+        1887.53,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#46759A",
+      "lineWidth": 0
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmp0jil4",
+      "id": "54",
+      "name": "header-cape-gradient-21",
+      "bbox": [
+        1986.87,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#47789E",
+      "lineWidth": 0
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlgzadkj",
+      "id": "55",
+      "name": "header-cape-gradient-22",
+      "bbox": [
+        2086.22,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4A7CA2",
+      "lineWidth": 0
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8ri5s3a",
+      "id": "56",
+      "name": "header-cape-gradient-23",
+      "bbox": [
+        2185.56,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5082A6",
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnihcn2p",
+      "id": "57",
+      "name": "header-cape-gradient-24",
+      "bbox": [
+        2284.91,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5788AA",
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bit0f2l8",
+      "id": "58",
+      "name": "header-cape-gradient-25",
+      "bbox": [
+        2384.25,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5D8EAE",
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahkjmxk3",
+      "id": "59",
+      "name": "header-cape-gradient-26",
+      "bbox": [
+        2483.59,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#6394B2",
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6d43e14b",
+      "id": "60",
+      "name": "header-cape-gradient-27",
+      "bbox": [
+        2582.94,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#6A9AB6",
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7yxkn65g",
+      "id": "61",
+      "name": "header-cape-gradient-28",
+      "bbox": [
+        2682.28,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#70A0BA",
+      "lineWidth": 0
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z6lgbm1",
+      "id": "62",
+      "name": "header-cape-gradient-29",
+      "bbox": [
+        2781.62,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#76A6BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0f2pgnm",
+      "id": "63",
+      "name": "header-cape-gradient-30",
+      "bbox": [
+        2880.97,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#7CACC1",
+      "lineWidth": 0
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1o3il47",
+      "id": "64",
+      "name": "header-cape-gradient-31",
+      "bbox": [
+        2980.31,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#83B2C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2xkrq5s",
+      "id": "65",
+      "name": "header-cape-gradient-32",
+      "bbox": [
+        3079.66,
+        346.04,
+        100.05,
+        21.19
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#89B8C9",
+      "lineWidth": 0
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g36lkvmd",
+      "id": "66",
+      "name": "poster-title",
+      "bbox": [
+        99.03,
+        43.78,
+        2207.05,
+        162.43
+      ],
+      "geometry": "rect",
+      "text": "AURORA-12\nA fully synthetic benchmark for evidence-linked poster generation",
+      "textPreview": "AURORA-12 | A fully synthetic benchmark for evidence-linked poster generation",
+      "resolvedFontSize": 69.21,
+      "resolvedTextStyle": {
+        "fontSize": 69.21,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AURORA-12"
+          },
+          {
+            "index": 2,
+            "text": "A fully synthetic benchmark for evidence-linked poster generation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AURORA-12",
+          "resolvedTextStyle": {
+            "fontSize": 69.21,
+            "color": "#FFFFFF",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AURORA-12",
+              "fontSize": 69.21,
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "A fully synthetic benchmark for evidence-linked poster generation",
+          "resolvedTextStyle": {
+            "fontSize": 69.21,
+            "color": "#FFFFFF",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A fully synthetic benchmark for evidence-linked poster generation",
+              "fontSize": 69.21,
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4fmtgny",
+      "id": "67",
+      "name": "authors",
+      "bbox": [
+        102.57,
+        216.1,
+        2185.83,
+        46.61
+      ],
+      "geometry": "rect",
+      "text": "PostEx Synthetic Research Collective",
+      "textPreview": "PostEx Synthetic Research Collective",
+      "resolvedFontSize": 26.13,
+      "resolvedTextStyle": {
+        "fontSize": 26.13,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PostEx Synthetic Research Collective"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PostEx Synthetic Research Collective",
+          "resolvedTextStyle": {
+            "fontSize": 26.13,
+            "color": "#FFFFFF",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PostEx Synthetic Research Collective",
+              "fontSize": 26.13,
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5k36h43",
+      "id": "68",
+      "name": "affiliations",
+      "bbox": [
+        102.57,
+        269.77,
+        2185.83,
+        36.72
+      ],
+      "geometry": "rect",
+      "text": "Fictional Methods Laboratory · Example Research Campus · no real authors or institutions",
+      "textPreview": "Fictional Methods Laboratory · Example Research Campus · no real authors or institutions",
+      "resolvedFontSize": 20.48,
+      "resolvedTextStyle": {
+        "fontSize": 20.48,
+        "typeface": "+mn-lt",
+        "color": "#F6F2EE",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fictional Methods Laboratory · Example Research Campus · no real authors or institutions"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fictional Methods Laboratory · Example Research Campus · no real authors or institutions",
+          "resolvedTextStyle": {
+            "fontSize": 20.48,
+            "color": "#F6F2EE"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fictional Methods Laboratory · Example Research Campus · no real authors or institutions",
+              "fontSize": 20.48,
+              "color": "#F6F2EE"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 69,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6dkfm5o",
+      "id": "69",
+      "name": "citation",
+      "bbox": [
+        102.57,
+        314.26,
+        1803.84,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI",
+      "textPreview": "POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI",
+      "resolvedFontSize": 18.36,
+      "resolvedTextStyle": {
+        "fontSize": 18.36,
+        "typeface": "+mn-lt",
+        "color": "#E5BC6C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI",
+          "resolvedTextStyle": {
+            "fontSize": 18.36,
+            "color": "#E5BC6C",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI",
+              "fontSize": 18.36,
+              "color": "#E5BC6C",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 70,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0j6lk76",
+      "id": "70",
+      "name": "logo-slot-fictional-lab-logo",
+      "bbox": [
+        2383.9,
+        40.96,
+        693.24,
+        91.81
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 1.41
+    },
+    {
+      "order": 71,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cza5cf6l",
+      "id": "71",
+      "name": "logo-placeholder-fictional-lab-logo",
+      "bbox": [
+        2392.38,
+        67.79,
+        676.26,
+        36.72
+      ],
+      "geometry": "rect",
+      "text": "Fictional lab logo",
+      "textPreview": "Fictional lab logo",
+      "resolvedFontSize": 19.07,
+      "resolvedTextStyle": {
+        "fontSize": 19.07,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fictional lab logo"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fictional lab logo",
+          "resolvedTextStyle": {
+            "fontSize": 19.07,
+            "color": "#3E5C78",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fictional lab logo",
+              "fontSize": 19.07,
+              "color": "#3E5C78",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 72,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ry1ojup0",
+      "id": "72",
+      "name": "header-summary",
+      "bbox": [
+        2383.9,
+        148.3,
+        693.24,
+        169.49
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 73,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxsnapof",
+      "id": "73",
+      "name": "header-metric-1-value",
+      "bbox": [
+        2433.41,
+        169.49,
+        183.92,
+        55.08
+      ],
+      "geometry": "rect",
+      "text": "1,240",
+      "textPreview": "1,240",
+      "resolvedFontSize": 48.03,
+      "resolvedTextStyle": {
+        "fontSize": 48.03,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1,240"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1,240",
+          "resolvedTextStyle": {
+            "fontSize": 48.03,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1,240",
+              "fontSize": 48.03,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 74,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1o36p472",
+      "id": "74",
+      "name": "header-metric-1-label",
+      "bbox": [
+        2433.41,
+        227.4,
+        183.92,
+        62.15
+      ],
+      "geometry": "rect",
+      "text": "synthetic profiles",
+      "textPreview": "synthetic profiles",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "synthetic"
+          },
+          {
+            "index": 2,
+            "text": "profiles"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "synthetic profiles",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "synthetic profiles",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 75,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0na5gz6h",
+      "id": "75",
+      "name": "header-metric-2-value",
+      "bbox": [
+        2645.63,
+        169.49,
+        183.92,
+        55.08
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 48.03,
+      "resolvedTextStyle": {
+        "fontSize": 48.03,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 48.03,
+            "color": "#487AA1",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 48.03,
+              "color": "#487AA1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 76,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z21onupw",
+      "id": "76",
+      "name": "header-metric-2-label",
+      "bbox": [
+        2645.63,
+        227.4,
+        183.92,
+        62.15
+      ],
+      "geometry": "rect",
+      "text": "anonymous model features",
+      "textPreview": "anonymous model features",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "anonymous"
+          },
+          {
+            "index": 2,
+            "text": "model features"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "anonymous model features",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "anonymous model features",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 77,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1snepob",
+      "id": "77",
+      "name": "header-metric-3-value",
+      "bbox": [
+        2857.85,
+        169.49,
+        183.92,
+        55.08
+      ],
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 48.03,
+      "resolvedTextStyle": {
+        "fontSize": 48.03,
+        "typeface": "+mn-lt",
+        "color": "#E5BC6C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "fontSize": 48.03,
+            "color": "#E5BC6C",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 48.03,
+              "color": "#E5BC6C",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 78,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsz6d07y",
+      "id": "78",
+      "name": "header-metric-3-label",
+      "bbox": [
+        2857.85,
+        227.4,
+        183.92,
+        62.15
+      ],
+      "geometry": "rect",
+      "text": "deterministic cohort simulations",
+      "textPreview": "deterministic cohort simulations",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "deterministic"
+          },
+          {
+            "index": 2,
+            "text": "cohort"
+          },
+          {
+            "index": 3,
+            "text": "simulations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "deterministic cohort simulations",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "deterministic cohort simulations",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 79,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/grq54v6d",
+      "id": "79",
+      "name": "question-title",
+      "bbox": [
+        99.03,
+        416.66,
+        863.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Communication test",
+      "textPreview": "Communication test",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Communication test"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Communication test",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Communication test",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 80,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8r69k3yt",
+      "id": "80",
+      "name": "question-rule",
+      "bbox": [
+        99.03,
+        463.97,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 81,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9sfad8fe",
+      "id": "81",
+      "name": "research-question",
+      "bbox": [
+        99.03,
+        481.63,
+        863.01,
+        165.96
+      ],
+      "geometry": "rect",
+      "text": "Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?",
+      "textPreview": "Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomed...",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Can a realistic multi-cohort manuscript exercise evidence-linked"
+          },
+          {
+            "index": 2,
+            "text": "poster generation without redistributing a real paper or implying"
+          },
+          {
+            "index": 3,
+            "text": "biomedical evidence?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 82,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp4ritg3",
+      "id": "82",
+      "name": "question-evidence",
+      "bbox": [
+        99.03,
+        644.05,
+        863.01,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Evidence: Abstract and Introduction, pp. 1-2",
+      "textPreview": "Evidence: Abstract and Introduction, pp. 1-2",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence: Abstract and Introduction, pp. 1-2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence: Abstract and Introduction, pp. 1-2",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence: Abstract and Introduction, pp. 1-2",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 83,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qdsbyx8",
+      "id": "83",
+      "name": "pipeline-title",
+      "bbox": [
+        99.03,
+        685.01,
+        863.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Deterministic workflow",
+      "textPreview": "Deterministic workflow",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deterministic workflow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deterministic workflow",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deterministic workflow",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 84,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knm9gjyx",
+      "id": "84",
+      "name": "pipeline-rule",
+      "bbox": [
+        99.03,
+        732.33,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 85,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lova9ofi",
+      "id": "85",
+      "name": "pipeline-1-number-bg",
+      "bbox": [
+        99.03,
+        751.39,
+        43.86,
+        43.78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 86,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y14re9gr",
+      "id": "86",
+      "name": "pipeline-1-number",
+      "bbox": [
+        99.03,
+        756.34,
+        43.86,
+        32.49
+      ],
+      "geometry": "rect",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 87,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2ds7exc",
+      "id": "87",
+      "name": "pipeline-1-text",
+      "bbox": [
+        157.04,
+        754.22,
+        805.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Fixed seed generated 1,240 profiles",
+      "textPreview": "Fixed seed generated 1,240 profiles",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fixed seed generated 1,240 profiles"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fixed seed generated 1,240 profiles",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fixed seed generated 1,240 profiles",
+              "fontSize": 26.84,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 88,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4jqtcne1",
+      "id": "88",
+      "name": "pipeline-2-number-bg",
+      "bbox": [
+        99.03,
+        807.89,
+        43.86,
+        43.78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 89,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kzalsfm",
+      "id": "89",
+      "name": "pipeline-2-number",
+      "bbox": [
+        99.03,
+        812.83,
+        43.86,
+        32.49
+      ],
+      "geometry": "rect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 90,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fe1cbmho",
+      "id": "90",
+      "name": "pipeline-2-text",
+      "bbox": [
+        157.04,
+        810.71,
+        805.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "480 anonymous transcript-like features",
+      "textPreview": "480 anonymous transcript-like features",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "480 anonymous transcript-like features"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "480 anonymous transcript-like features",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "480 anonymous transcript-like features",
+              "fontSize": 26.84,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 91,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/edsvihg3",
+      "id": "91",
+      "name": "pipeline-3-number-bg",
+      "bbox": [
+        99.03,
+        864.38,
+        43.86,
+        43.78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 92,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gjedwzu",
+      "id": "92",
+      "name": "pipeline-3-number",
+      "bbox": [
+        99.03,
+        869.33,
+        43.86,
+        32.49
+      ],
+      "geometry": "rect",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 93,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfadkry9",
+      "id": "93",
+      "name": "pipeline-3-text",
+      "bbox": [
+        157.04,
+        867.21,
+        805.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Nested elastic-net selection",
+      "textPreview": "Nested elastic-net selection",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Nested elastic-net selection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Nested elastic-net selection",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nested elastic-net selection",
+              "fontSize": 26.84,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 94,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ilwfmh0",
+      "id": "94",
+      "name": "pipeline-4-number-bg",
+      "bbox": [
+        99.03,
+        920.88,
+        43.86,
+        43.78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 95,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hcvmhgf",
+      "id": "95",
+      "name": "pipeline-4-number",
+      "bbox": [
+        99.03,
+        925.82,
+        43.86,
+        32.49
+      ],
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 96,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pk3ehwz6",
+      "id": "96",
+      "name": "pipeline-4-text",
+      "bbox": [
+        157.04,
+        923.71,
+        805.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "12-feature score and shift testing",
+      "textPreview": "12-feature score and shift testing",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12-feature score and shift testing"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12-feature score and shift testing",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12-feature score and shift testing",
+              "fontSize": 26.84,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 97,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ojudoryl",
+      "id": "97",
+      "name": "dataset-panel",
+      "bbox": [
+        99.03,
+        995.74,
+        863.01,
+        254.23
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 98,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmhc32hg",
+      "id": "98",
+      "name": "dataset-kicker",
+      "bbox": [
+        118.84,
+        1016.92,
+        325.4,
+        28.25
+      ],
+      "geometry": "rect",
+      "text": "FOUR SYNTHETIC COHORTS",
+      "textPreview": "FOUR SYNTHETIC COHORTS",
+      "resolvedFontSize": 20.48,
+      "resolvedTextStyle": {
+        "fontSize": 20.48,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUR SYNTHETIC COHORTS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUR SYNTHETIC COHORTS",
+          "resolvedTextStyle": {
+            "fontSize": 20.48,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUR SYNTHETIC COHORTS",
+              "fontSize": 20.48,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 99,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il8vax0b",
+      "id": "99",
+      "name": "datasets",
+      "bbox": [
+        118.84,
+        1055.76,
+        823.4,
+        162.43
+      ],
+      "geometry": "rect",
+      "text": "Discovery n=620 · Internal validation n=310\nExternal simulation A n=186 · External simulation B n=124\nAll values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
+      "textPreview": "Discovery n=620 · Internal validation n=310 | External simulation A n=186 · External simulation B n=124 | All values are authored fixture...",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Discovery n=620 · Internal validation n=310"
+          },
+          {
+            "index": 2,
+            "text": "External simulation A n=186 · External simulation B n=124"
+          },
+          {
+            "index": 3,
+            "text": "All values are authored fixtures; no participant, specimen,"
+          },
+          {
+            "index": 4,
+            "text": "institution, registry or external dataset exists."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Discovery n=620 · Internal validation n=310",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Discovery n=620 · Internal validation n=310",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "External simulation A n=186 · External simulation B n=124",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "External simulation A n=186 · External simulation B n=124",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "All values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "All values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 100,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vqx8belw",
+      "id": "100",
+      "name": "dataset-evidence",
+      "bbox": [
+        118.84,
+        1216.78,
+        823.4,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Evidence: Abstract and Methods, pp. 1-2",
+      "textPreview": "Evidence: Abstract and Methods, pp. 1-2",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence: Abstract and Methods, pp. 1-2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence: Abstract and Methods, pp. 1-2",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence: Abstract and Methods, pp. 1-2",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 101,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upo7i94b",
+      "id": "101",
+      "name": "figure-one-heading-title",
+      "bbox": [
+        99.03,
+        1288.81,
+        863.01,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Generation to validation",
+      "textPreview": "Generation to validation",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Generation to validation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Generation to validation",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Generation to validation",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 102,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsfqdo32",
+      "id": "102",
+      "name": "figure-one-heading-rule",
+      "bbox": [
+        99.03,
+        1336.12,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 103,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr6pkjmh",
+      "id": "103",
+      "name": "figure-one-frame",
+      "bbox": [
+        99.03,
+        1352.37,
+        863.01,
+        734.44
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 104,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/utwvqhgj",
+      "id": "104",
+      "bbox": [
+        113.18,
+        1366.49,
+        834.72,
+        665.24
+      ],
+      "alt": "Deterministic generation, feature selection and four-cohort evaluation workflow",
+      "contentType": "image/svg+xml",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "45c24c82-9697-4e7a-b424-0f757c4ef31f",
+        "contentType": "image/svg+xml",
+        "byteLength": 5531
+      }
+    },
+    {
+      "order": 105,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6147e94f",
+      "id": "105",
+      "name": "figure-one-caption",
+      "bbox": [
+        116.01,
+        2035.97,
+        829.06,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Figure 1 · Deterministic generation and validation workflow",
+      "textPreview": "Figure 1 · Deterministic generation and validation workflow",
+      "resolvedFontSize": 21.19,
+      "resolvedTextStyle": {
+        "fontSize": 21.19,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Figure 1 · Deterministic generation and validation workflow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Figure 1 · Deterministic generation and validation workflow",
+          "resolvedTextStyle": {
+            "fontSize": 21.19,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Figure 1 · Deterministic generation and validation workflow",
+              "fontSize": 21.19,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 106,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tofq9436",
+      "id": "106",
+      "name": "figure-one-source",
+      "bbox": [
+        116.01,
+        2059.27,
+        829.06,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Authored synthetic fixture · manuscript p. 2",
+      "textPreview": "Authored synthetic fixture · manuscript p. 2",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Authored synthetic fixture · manuscript p. 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Authored synthetic fixture · manuscript p. 2",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Authored synthetic fixture · manuscript p. 2",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 107,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/836pgzml",
+      "id": "107",
+      "name": "central-takeaway",
+      "bbox": [
+        1004.49,
+        416.66,
+        1015.1,
+        187.14
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 108,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryh8jyl4",
+      "id": "108",
+      "name": "takeaway-cape-gradient-1",
+      "bbox": [
+        1004.49,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#293F55",
+      "lineWidth": 0
+    },
+    {
+      "order": 109,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qx8rqt4j",
+      "id": "109",
+      "name": "takeaway-cape-gradient-2",
+      "bbox": [
+        1036.21,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2B4258",
+      "lineWidth": 0
+    },
+    {
+      "order": 110,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oridoryp",
+      "id": "110",
+      "name": "takeaway-cape-gradient-3",
+      "bbox": [
+        1067.93,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2D455C",
+      "lineWidth": 0
+    },
+    {
+      "order": 111,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psrexwfa",
+      "id": "111",
+      "name": "takeaway-cape-gradient-4",
+      "bbox": [
+        1099.66,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2F475F",
+      "lineWidth": 0
+    },
+    {
+      "order": 112,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p0vm1gz",
+      "id": "112",
+      "name": "takeaway-cape-gradient-5",
+      "bbox": [
+        1131.38,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#314A63",
+      "lineWidth": 0
+    },
+    {
+      "order": 113,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q9wv6xk",
+      "id": "113",
+      "name": "takeaway-cape-gradient-6",
+      "bbox": [
+        1163.1,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#334D66",
+      "lineWidth": 0
+    },
+    {
+      "order": 114,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvidsby1",
+      "id": "114",
+      "name": "takeaway-cape-gradient-7",
+      "bbox": [
+        1194.82,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#355069",
+      "lineWidth": 0
+    },
+    {
+      "order": 115,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwre1gfm",
+      "id": "115",
+      "name": "takeaway-cape-gradient-8",
+      "bbox": [
+        1226.54,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#37536D",
+      "lineWidth": 0
+    },
+    {
+      "order": 116,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qt0vq1gv",
+      "id": "116",
+      "name": "takeaway-cape-gradient-9",
+      "bbox": [
+        1258.27,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#395570",
+      "lineWidth": 0
+    },
+    {
+      "order": 117,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu9wz6xg",
+      "id": "117",
+      "name": "takeaway-cape-gradient-10",
+      "bbox": [
+        1289.99,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3B5873",
+      "lineWidth": 0
+    },
+    {
+      "order": 118,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0j2xwbyx",
+      "id": "118",
+      "name": "takeaway-cape-gradient-11",
+      "bbox": [
+        1321.71,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3D5B77",
+      "lineWidth": 0
+    },
+    {
+      "order": 119,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkbe5gfi",
+      "id": "119",
+      "name": "takeaway-cape-gradient-12",
+      "bbox": [
+        1353.43,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3F5E7B",
+      "lineWidth": 0
+    },
+    {
+      "order": 120,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tg7e9g7m",
+      "id": "120",
+      "name": "takeaway-cape-gradient-13",
+      "bbox": [
+        1385.15,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#40617F",
+      "lineWidth": 0
+    },
+    {
+      "order": 121,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8fydgbq1",
+      "id": "121",
+      "name": "takeaway-cape-gradient-14",
+      "bbox": [
+        1416.88,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#416483",
+      "lineWidth": 0
+    },
+    {
+      "order": 122,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7epw76pw",
+      "id": "122",
+      "name": "takeaway-cape-gradient-15",
+      "bbox": [
+        1448.6,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#426787",
+      "lineWidth": 0
+    },
+    {
+      "order": 123,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mdgve18b",
+      "id": "123",
+      "name": "takeaway-cape-gradient-16",
+      "bbox": [
+        1480.32,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#436A8B",
+      "lineWidth": 0
+    },
+    {
+      "order": 124,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4red07y",
+      "id": "124",
+      "name": "takeaway-cape-gradient-17",
+      "bbox": [
+        1512.04,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#436C8E",
+      "lineWidth": 0
+    },
+    {
+      "order": 125,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3idkvqd",
+      "id": "125",
+      "name": "takeaway-cape-gradient-18",
+      "bbox": [
+        1543.76,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#446F92",
+      "lineWidth": 0
+    },
+    {
+      "order": 126,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vipwbqps",
+      "id": "126",
+      "name": "takeaway-cape-gradient-19",
+      "bbox": [
+        1575.48,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#457296",
+      "lineWidth": 0
+    },
+    {
+      "order": 127,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uhgvil87",
+      "id": "127",
+      "name": "takeaway-cape-gradient-20",
+      "bbox": [
+        1607.21,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#46759A",
+      "lineWidth": 0
+    },
+    {
+      "order": 128,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8ne1w7e",
+      "id": "128",
+      "name": "takeaway-cape-gradient-21",
+      "bbox": [
+        1638.93,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#47789E",
+      "lineWidth": 0
+    },
+    {
+      "order": 129,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cned8rq9",
+      "id": "129",
+      "name": "takeaway-cape-gradient-22",
+      "bbox": [
+        1670.65,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4A7CA2",
+      "lineWidth": 0
+    },
+    {
+      "order": 130,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2tcbixor",
+      "id": "130",
+      "name": "takeaway-cape-gradient-23",
+      "bbox": [
+        1702.37,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5082A6",
+      "lineWidth": 0
+    },
+    {
+      "order": 131,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nelsb25c",
+      "id": "131",
+      "name": "takeaway-cape-gradient-24",
+      "bbox": [
+        1734.09,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5788AA",
+      "lineWidth": 0
+    },
+    {
+      "order": 132,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ofutk76x",
+      "id": "132",
+      "name": "takeaway-cape-gradient-25",
+      "bbox": [
+        1765.82,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5D8EAE",
+      "lineWidth": 0
+    },
+    {
+      "order": 133,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3adcni",
+      "id": "133",
+      "name": "takeaway-cape-gradient-26",
+      "bbox": [
+        1797.54,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#6394B2",
+      "lineWidth": 0
+    },
+    {
+      "order": 134,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahcbmho3",
+      "id": "134",
+      "name": "takeaway-cape-gradient-27",
+      "bbox": [
+        1829.26,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#6A9AB6",
+      "lineWidth": 0
+    },
+    {
+      "order": 135,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bilsf25o",
+      "id": "135",
+      "name": "takeaway-cape-gradient-28",
+      "bbox": [
+        1860.98,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#70A0BA",
+      "lineWidth": 0
+    },
+    {
+      "order": 136,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cjuto76t",
+      "id": "136",
+      "name": "takeaway-cape-gradient-29",
+      "bbox": [
+        1892.7,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#76A6BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 137,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xknuhcne",
+      "id": "137",
+      "name": "takeaway-cape-gradient-30",
+      "bbox": [
+        1924.43,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#7CACC1",
+      "lineWidth": 0
+    },
+    {
+      "order": 138,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlsbadoj",
+      "id": "138",
+      "name": "takeaway-cape-gradient-31",
+      "bbox": [
+        1956.15,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#83B2C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 139,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm1s3i54",
+      "id": "139",
+      "name": "takeaway-cape-gradient-32",
+      "bbox": [
+        1987.87,
+        416.66,
+        32.43,
+        14.12
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#89B8C9",
+      "lineWidth": 0
+    },
+    {
+      "order": 140,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7690radw",
+      "id": "140",
+      "name": "central-takeaway-title",
+      "bbox": [
+        1035.62,
+        441.37,
+        952.85,
+        70.62
+      ],
+      "geometry": "rect",
+      "text": "External simulations retained C-indices of 0.75 and 0.74",
+      "textPreview": "External simulations retained C-indices of 0.75 and 0.74",
+      "resolvedFontSize": 38.84,
+      "resolvedTextStyle": {
+        "fontSize": 38.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "External simulations retained C-indices of 0.75"
+          },
+          {
+            "index": 2,
+            "text": "and 0.74"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "External simulations retained C-indices of 0.75 and 0.74",
+          "resolvedTextStyle": {
+            "fontSize": 38.84,
+            "color": "#293F55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "External simulations retained C-indices of 0.75 and 0.74",
+              "fontSize": 38.84,
+              "color": "#293F55",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 141,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/650zi5cb",
+      "id": "141",
+      "name": "central-takeaway-subtitle",
+      "bbox": [
+        1054.01,
+        532.47,
+        916.07,
+        33.9
+      ],
+      "geometry": "rect",
+      "text": "Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation",
+      "textPreview": "Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation",
+      "resolvedFontSize": 22.6,
+      "resolvedTextStyle": {
+        "fontSize": 22.6,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation",
+          "resolvedTextStyle": {
+            "fontSize": 22.6,
+            "color": "#293F55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation",
+              "fontSize": 22.6,
+              "color": "#293F55",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 142,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8ritkv2",
+      "id": "142",
+      "name": "takeaway-evidence",
+      "bbox": [
+        1037.03,
+        572.02,
+        950.02,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Evidence: Results, pp. 1 and 3; Figure 2",
+      "textPreview": "Evidence: Results, pp. 1 and 3; Figure 2",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence: Results, pp. 1 and 3; Figure 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence: Results, pp. 1 and 3; Figure 2",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence: Results, pp. 1 and 3; Figure 2",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 143,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ihkfuh",
+      "id": "143",
+      "name": "figure-two-heading-title",
+      "bbox": [
+        1004.49,
+        639.11,
+        1015.1,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Discrimination across shifts",
+      "textPreview": "Discrimination across shifts",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Discrimination across shifts"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Discrimination across shifts",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Discrimination across shifts",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 144,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/va90vuds",
+      "id": "144",
+      "name": "figure-two-heading-rule",
+      "bbox": [
+        1004.49,
+        686.42,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 145,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u90zmpc7",
+      "id": "145",
+      "name": "figure-two-frame",
+      "bbox": [
+        1004.49,
+        702.67,
+        1015.1,
+        942.77
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 146,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gbet83m5",
+      "id": "146",
+      "bbox": [
+        1018.64,
+        716.79,
+        986.81,
+        873.57
+      ],
+      "alt": "AURORA-12 and synthetic baseline concordance indices in four cohorts",
+      "contentType": "image/svg+xml",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "4ac4d8a5-61e9-40f1-8eba-45e3ca01b171",
+        "contentType": "image/svg+xml",
+        "byteLength": 2449
+      }
+    },
+    {
+      "order": 147,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gb2hozud",
+      "id": "147",
+      "name": "figure-two-caption",
+      "bbox": [
+        1021.47,
+        1594.59,
+        981.15,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Figure 2 · Authored discrimination values across cohort shifts",
+      "textPreview": "Figure 2 · Authored discrimination values across cohort shifts",
+      "resolvedFontSize": 21.19,
+      "resolvedTextStyle": {
+        "fontSize": 21.19,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Figure 2 · Authored discrimination values across cohort shifts"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Figure 2 · Authored discrimination values across cohort shifts",
+          "resolvedTextStyle": {
+            "fontSize": 21.19,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Figure 2 · Authored discrimination values across cohort shifts",
+              "fontSize": 21.19,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 148,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3yt0zud4",
+      "id": "148",
+      "name": "figure-two-source",
+      "bbox": [
+        1021.47,
+        1617.9,
+        981.15,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Authored synthetic fixture · manuscript p. 3",
+      "textPreview": "Authored synthetic fixture · manuscript p. 3",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Authored synthetic fixture · manuscript p. 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Authored synthetic fixture · manuscript p. 3",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Authored synthetic fixture · manuscript p. 3",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 149,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixkzqpcj",
+      "id": "149",
+      "name": "validation-heading-title",
+      "bbox": [
+        1004.49,
+        1680.75,
+        1015.1,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Calibration and stress boundary",
+      "textPreview": "Calibration and stress boundary",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Calibration and stress boundary"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Calibration and stress boundary",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Calibration and stress boundary",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 150,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03mhgzah",
+      "id": "150",
+      "name": "validation-heading-rule",
+      "bbox": [
+        1004.49,
+        1728.06,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 151,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/14vyp4r2",
+      "id": "151",
+      "name": "validation-panel",
+      "bbox": [
+        1004.49,
+        1744.31,
+        1015.1,
+        300.13
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 152,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1kzepsr",
+      "id": "152",
+      "name": "validation",
+      "bbox": [
+        1029.96,
+        1767.61,
+        964.17,
+        218.92
+      ],
+      "geometry": "rect",
+      "text": "• External calibration slopes were 0.97 and 0.95.\n• External absolute errors were 0.031 and 0.038.\n• Aggregate coefficient-sign stability was 92% across 500 resamples.\n• The most severe pre-specified shift reduced C-index by 0.04.",
+      "textPreview": "• External calibration slopes were 0.97 and 0.95. | • External absolute errors were 0.031 and 0.038. | • Aggregate coefficient-sign stabi...",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• External calibration slopes were 0.97 and 0.95."
+          },
+          {
+            "index": 2,
+            "text": "• External absolute errors were 0.031 and 0.038."
+          },
+          {
+            "index": 3,
+            "text": "• Aggregate coefficient-sign stability was 92% across 500 resamples."
+          },
+          {
+            "index": 4,
+            "text": "• The most severe pre-specified shift reduced C-index by 0.04."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• External calibration slopes were 0.97 and 0.95.",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• External calibration slopes were 0.97 and 0.95.",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• External absolute errors were 0.031 and 0.038.",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• External absolute errors were 0.031 and 0.038.",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Aggregate coefficient-sign stability was 92% across 500 resamples.",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Aggregate coefficient-sign stability was 92% across 500 resamples.",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• The most severe pre-specified shift reduced C-index by 0.04.",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• The most severe pre-specified shift reduced C-index by 0.04.",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 153,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2dgnu9w",
+      "id": "153",
+      "name": "validation-evidence",
+      "bbox": [
+        1029.96,
+        2010.54,
+        964.17,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
+      "textPreview": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence: Results, pp. 1, 3-4; Figures 3-4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 154,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sz2hczal",
+      "id": "154",
+      "name": "performance-strip",
+      "bbox": [
+        1004.49,
+        2069.16,
+        1015.1,
+        81.21
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#3E5C78",
+      "lineWidth": 0
+    },
+    {
+      "order": 155,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0byl4r6",
+      "id": "155",
+      "name": "performance-strip-text",
+      "bbox": [
+        1028.54,
+        2090.34,
+        967,
+        36.72
+      ],
+      "geometry": "rect",
+      "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+      "textPreview": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+      "resolvedFontSize": 24.01,
+      "resolvedTextStyle": {
+        "fontSize": 24.01,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 ·"
+          },
+          {
+            "index": 2,
+            "text": "External A 0.75 vs 0.66 · External B 0.74 vs 0.65"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+          "resolvedTextStyle": {
+            "fontSize": 24.01,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+              "fontSize": 24.01,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 156,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxkzapsf",
+      "id": "156",
+      "name": "biology-heading-title",
+      "bbox": [
+        2062.03,
+        416.66,
+        1017.93,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Calibration & stability",
+      "textPreview": "Calibration & stability",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Calibration & stability"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Calibration & stability",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Calibration & stability",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 157,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytgju90",
+      "id": "157",
+      "name": "biology-heading-rule",
+      "bbox": [
+        2062.03,
+        463.97,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 158,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4b2h8fa9",
+      "id": "158",
+      "name": "biology-1-value",
+      "bbox": [
+        2062.03,
+        487.28,
+        297.1,
+        55.08
+      ],
+      "geometry": "rect",
+      "text": "92%",
+      "textPreview": "92%",
+      "resolvedFontSize": 48.03,
+      "resolvedTextStyle": {
+        "fontSize": 48.03,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "92%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "92%",
+          "resolvedTextStyle": {
+            "fontSize": 48.03,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "92%",
+              "fontSize": 48.03,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 159,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cbyhkru",
+      "id": "159",
+      "name": "biology-1-label",
+      "bbox": [
+        2062.03,
+        545.18,
+        297.1,
+        62.15
+      ],
+      "geometry": "rect",
+      "text": "coefficient-sign stability",
+      "textPreview": "coefficient-sign stability",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "coefficient-sign stability"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "coefficient-sign stability",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "coefficient-sign stability",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 160,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5s3e5g3y",
+      "id": "160",
+      "name": "biology-2-value",
+      "bbox": [
+        2398.04,
+        487.28,
+        297.1,
+        55.08
+      ],
+      "geometry": "rect",
+      "text": "0.97 / 0.95",
+      "textPreview": "0.97 / 0.95",
+      "resolvedFontSize": 43.08,
+      "resolvedTextStyle": {
+        "fontSize": 43.08,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.97 / 0.95"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.97 / 0.95",
+          "resolvedTextStyle": {
+            "fontSize": 43.08,
+            "color": "#487AA1",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.97 / 0.95",
+              "fontSize": 43.08,
+              "color": "#487AA1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 161,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kruxcb2d",
+      "id": "161",
+      "name": "biology-2-label",
+      "bbox": [
+        2398.04,
+        545.18,
+        297.1,
+        62.15
+      ],
+      "geometry": "rect",
+      "text": "external calibration slopes",
+      "textPreview": "external calibration slopes",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "external calibration slopes"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "external calibration slopes",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "external calibration slopes",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 162,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jq1w36ls",
+      "id": "162",
+      "name": "biology-3-value",
+      "bbox": [
+        2734.05,
+        487.28,
+        297.1,
+        55.08
+      ],
+      "geometry": "rect",
+      "text": "0.031 / 0.038",
+      "textPreview": "0.031 / 0.038",
+      "resolvedFontSize": 36.72,
+      "resolvedTextStyle": {
+        "fontSize": 36.72,
+        "typeface": "+mn-lt",
+        "color": "#E5BC6C",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.031 / 0.038"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.031 / 0.038",
+          "resolvedTextStyle": {
+            "fontSize": 36.72,
+            "color": "#E5BC6C",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.031 / 0.038",
+              "fontSize": 36.72,
+              "color": "#E5BC6C",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 163,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5sfa1k7",
+      "id": "163",
+      "name": "biology-3-label",
+      "bbox": [
+        2734.05,
+        545.18,
+        297.1,
+        62.15
+      ],
+      "geometry": "rect",
+      "text": "external absolute errors",
+      "textPreview": "external absolute errors",
+      "resolvedFontSize": 21.89,
+      "resolvedTextStyle": {
+        "fontSize": 21.89,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "external absolute errors"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "external absolute errors",
+          "resolvedTextStyle": {
+            "fontSize": 21.89,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "external absolute errors",
+              "fontSize": 21.89,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 164,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4je1w3m",
+      "id": "164",
+      "name": "biology-evidence",
+      "bbox": [
+        2062.03,
+        628.52,
+        1017.93,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Evidence: Stability and calibration, p. 4",
+      "textPreview": "Evidence: Stability and calibration, p. 4",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence: Stability and calibration, p. 4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence: Stability and calibration, p. 4",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence: Stability and calibration, p. 4",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 165,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3ad8r21",
+      "id": "165",
+      "name": "figure-three-frame",
+      "bbox": [
+        2062.03,
+        681.48,
+        1017.93,
+        508.46
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 166,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ehs72pgz",
+      "id": "166",
+      "bbox": [
+        2076.18,
+        695.6,
+        989.64,
+        439.25
+      ],
+      "alt": "Calibration slopes, absolute errors and bootstrap stability summaries",
+      "contentType": "image/svg+xml",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "db1c1059-5e42-49f0-a813-15b6102cdee8",
+        "contentType": "image/svg+xml",
+        "byteLength": 3005
+      }
+    },
+    {
+      "order": 167,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1sv61kb",
+      "id": "167",
+      "name": "figure-three-caption",
+      "bbox": [
+        2079.01,
+        1139.1,
+        983.98,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Figure 3 · Calibration and coefficient-sign stability",
+      "textPreview": "Figure 3 · Calibration and coefficient-sign stability",
+      "resolvedFontSize": 21.19,
+      "resolvedTextStyle": {
+        "fontSize": 21.19,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Figure 3 · Calibration and coefficient-sign stability"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Figure 3 · Calibration and coefficient-sign stability",
+          "resolvedTextStyle": {
+            "fontSize": 21.19,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Figure 3 · Calibration and coefficient-sign stability",
+              "fontSize": 21.19,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 168,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0ned0j6",
+      "id": "168",
+      "name": "figure-three-source",
+      "bbox": [
+        2079.01,
+        1162.4,
+        983.98,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Authored synthetic fixture · manuscript p. 4",
+      "textPreview": "Authored synthetic fixture · manuscript p. 4",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Authored synthetic fixture · manuscript p. 4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Authored synthetic fixture · manuscript p. 4",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Authored synthetic fixture · manuscript p. 4",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 169,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzexkv2l",
+      "id": "169",
+      "name": "validation-visual-heading-title",
+      "bbox": [
+        2062.03,
+        1225.25,
+        1017.93,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Pre-specified stress test",
+      "textPreview": "Pre-specified stress test",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pre-specified stress test"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pre-specified stress test",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pre-specified stress test",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 170,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e5obex03",
+      "id": "170",
+      "name": "validation-visual-heading-rule",
+      "bbox": [
+        2062.03,
+        1272.57,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 171,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z6xc7218",
+      "id": "171",
+      "name": "figure-four-frame",
+      "bbox": [
+        2062.03,
+        1288.81,
+        1017.93,
+        529.65
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 172,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/l47a98ju",
+      "id": "172",
+      "bbox": [
+        2076.18,
+        1302.93,
+        989.64,
+        460.44
+      ],
+      "alt": "AURORA-12 concordance index under increasing synthetic shift",
+      "contentType": "image/svg+xml",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "d2f1791b-b4ba-4dd0-8dd8-03962589fb2e",
+        "contentType": "image/svg+xml",
+        "byteLength": 2447
+      }
+    },
+    {
+      "order": 173,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18zu9sje",
+      "id": "173",
+      "name": "figure-four-caption",
+      "bbox": [
+        2079.01,
+        1767.61,
+        983.98,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Figure 4 · Stress-test boundary under increasing shift",
+      "textPreview": "Figure 4 · Stress-test boundary under increasing shift",
+      "resolvedFontSize": 21.19,
+      "resolvedTextStyle": {
+        "fontSize": 21.19,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Figure 4 · Stress-test boundary under increasing shift"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Figure 4 · Stress-test boundary under increasing shift",
+          "resolvedTextStyle": {
+            "fontSize": 21.19,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Figure 4 · Stress-test boundary under increasing shift",
+              "fontSize": 21.19,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 174,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q1obad0r",
+      "id": "174",
+      "name": "figure-four-source",
+      "bbox": [
+        2079.01,
+        1790.92,
+        983.98,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Authored synthetic fixture · manuscript p. 4",
+      "textPreview": "Authored synthetic fixture · manuscript p. 4",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Authored synthetic fixture · manuscript p. 4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Authored synthetic fixture · manuscript p. 4",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Authored synthetic fixture · manuscript p. 4",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 175,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2xc3i1c",
+      "id": "175",
+      "name": "conclusion-heading-title",
+      "bbox": [
+        2062.03,
+        1853.77,
+        1017.93,
+        40.96
+      ],
+      "geometry": "rect",
+      "text": "Supported conclusion",
+      "textPreview": "Supported conclusion",
+      "resolvedFontSize": 33.89,
+      "resolvedTextStyle": {
+        "fontSize": 33.89,
+        "typeface": "+mn-lt",
+        "color": "#3E5C78",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Supported conclusion"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Supported conclusion",
+          "resolvedTextStyle": {
+            "fontSize": 33.89,
+            "color": "#3E5C78",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Supported conclusion",
+              "fontSize": 33.89,
+              "color": "#3E5C78",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 176,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c36tcnix",
+      "id": "176",
+      "name": "conclusion-heading-rule",
+      "bbox": [
+        2062.03,
+        1901.08,
+        233.44,
+        7.06
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E5BC6C",
+      "lineWidth": 0
+    },
+    {
+      "order": 177,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4fu5sji",
+      "id": "177",
+      "name": "conclusion-panel",
+      "bbox": [
+        2062.03,
+        1917.32,
+        1017.93,
+        233.04
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE5E7",
+      "lineWidth": 2.12
+    },
+    {
+      "order": 178,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ax8bmh0v",
+      "id": "178",
+      "name": "conclusion",
+      "bbox": [
+        2086.09,
+        1940.63,
+        969.83,
+        162.43
+      ],
+      "geometry": "rect",
+      "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
+      "textPreview": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real ...",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked"
+          },
+          {
+            "index": 2,
+            "text": "scientific communication. It supports no inference about real biology,"
+          },
+          {
+            "index": 3,
+            "text": "prognosis, treatment or clinical utility. Every number, cohort, feature, author"
+          },
+          {
+            "index": 4,
+            "text": "and institution is fictional."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 179,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhcfmhg",
+      "id": "179",
+      "name": "conclusion-evidence",
+      "bbox": [
+        2086.09,
+        2112.94,
+        969.83,
+        26.84
+      ],
+      "geometry": "rect",
+      "text": "Evidence: Discussion and Conclusion, p. 5",
+      "textPreview": "Evidence: Discussion and Conclusion, p. 5",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#487AA1",
+        "italic": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence: Discussion and Conclusion, p. 5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence: Discussion and Conclusion, p. 5",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#487AA1",
+            "italic": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence: Discussion and Conclusion, p. 5",
+              "fontSize": 17.65,
+              "color": "#487AA1",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 180,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jidkji5o",
+      "id": "180",
+      "name": "footer-band",
+      "bbox": [
+        0,
+        2175.09,
+        3179,
+        69.91
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#293F55",
+      "lineWidth": 0
+    },
+    {
+      "order": 181,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh43ado3",
+      "id": "181",
+      "name": "footer-source",
+      "bbox": [
+        99.03,
+        2194.15,
+        2122.16,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing",
+      "textPreview": "Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing",
+      "resolvedFontSize": 18.36,
+      "resolvedTextStyle": {
+        "fontSize": 18.36,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing",
+          "resolvedTextStyle": {
+            "fontSize": 18.36,
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing",
+              "fontSize": 18.36,
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 182,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkv2lsne",
+      "id": "182",
+      "name": "footer-status",
+      "bbox": [
+        2207.05,
+        2194.15,
+        870.09,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Approvals current · synthetic boundary locked · editable logo placeholder",
+      "textPreview": "Approvals current · synthetic boundary locked · editable logo placeholder",
+      "resolvedFontSize": 17.65,
+      "resolvedTextStyle": {
+        "fontSize": 17.65,
+        "typeface": "+mn-lt",
+        "color": "#E5BC6C",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Approvals current · synthetic boundary locked · editable logo placeholder"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Approvals current · synthetic boundary locked · editable logo placeholder",
+          "resolvedTextStyle": {
+            "fontSize": 17.65,
+            "color": "#E5BC6C",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Approvals current · synthetic boundary locked · editable logo placeholder",
+              "fontSize": 17.65,
+              "color": "#E5BC6C",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

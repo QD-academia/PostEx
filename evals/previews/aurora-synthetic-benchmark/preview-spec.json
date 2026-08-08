@@ -9,13 +9,19 @@
     "size": "a0-landscape"
   },
   "theme": {
-    "ink": "#102A43",
-    "primary": "#0F5F73",
-    "secondary": "#2C8C99",
-    "accent": "#E8B44C",
-    "canvas": "#F6F8FA",
+    "ink": "#293F55",
+    "primary": "#3E5C78",
+    "secondary": "#487AA1",
+    "accent": "#E5BC6C",
+    "canvas": "#F6F2EE",
     "panel": "#FFFFFF",
-    "neutral": "#D9E2EC"
+    "neutral": "#DDE5E7",
+    "gradient_stops": [
+      "#293F55",
+      "#3E5C78",
+      "#487AA1",
+      "#89B8C9"
+    ]
   },
   "branding": {
     "logo_mode": "placeholder",
@@ -32,7 +38,7 @@
     "title": "AURORA-12: a fully synthetic benchmark for evidence-linked poster generation",
     "authors": "Source-grounded PostEx evaluation fixture",
     "affiliations": "Bioinformatics profile · CC0-1.0",
-    "citation": "DOI POSTEX-SYNTH-2026-001",
+    "citation": "Synthetic ID POSTEX-SYNTH-2026-001",
     "header_metrics": [
       {
         "value": "1,240",

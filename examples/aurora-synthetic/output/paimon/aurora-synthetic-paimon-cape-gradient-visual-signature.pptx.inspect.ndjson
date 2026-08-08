@@ -1,187 +1,187 @@
-{"kind":"deck","id":"pr/020sw3","name":"Deck"}
-{"kind":"layout","layoutId":"a8deba7a-bb43-40bb-bbb0-bddf6fe3f07b","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"f4babab6-3ad5-47d6-a18c-0c7fd40af87b","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/fn41sj","slide":1,"title":"AURORA-12","textShapes":57}
-{"kind":"shape","id":"sh/sf2dwveh","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
-{"kind":"shape","id":"sh/7etw3qdw","slide":1,"name":"top-cape-gradient-1","bbox":[0,0,141.44,30]}
-{"kind":"shape","id":"sh/6dkvulwb","slide":1,"name":"top-cape-gradient-2","bbox":[140.44,0,141.44,30]}
-{"kind":"shape","id":"sh/h4ve90vy","slide":1,"name":"top-cape-gradient-3","bbox":[280.87,0,141.44,30]}
-{"kind":"shape","id":"sh/g3mx0ved","slide":1,"name":"top-cape-gradient-4","bbox":[421.31,0,141.44,30]}
-{"kind":"shape","id":"sh/f2tw7qds","slide":1,"name":"top-cape-gradient-5","bbox":[561.75,0,141.44,30]}
-{"kind":"shape","id":"sh/u1kfylw7","slide":1,"name":"top-cape-gradient-6","bbox":[702.19,0,141.44,30]}
-{"kind":"shape","id":"sh/x8rexwvu","slide":1,"name":"top-cape-gradient-7","bbox":[842.62,0,141.44,30]}
-{"kind":"shape","id":"sh/w7idobe9","slide":1,"name":"top-cape-gradient-8","bbox":[983.06,0,141.44,30]}
-{"kind":"shape","id":"sh/qlw3udsn","slide":1,"name":"top-cape-gradient-9","bbox":[1123.5,0,141.44,30]}
-{"kind":"shape","id":"sh/rm54ni98","slide":1,"name":"top-cape-gradient-10","bbox":[1263.94,0,141.44,30]}
-{"kind":"shape","id":"sh/cne5wnat","slide":1,"name":"top-cape-gradient-11","bbox":[1404.38,0,141.44,30]}
-{"kind":"shape","id":"sh/donmp8re","slide":1,"name":"top-cape-gradient-12","bbox":[1544.81,0,141.44,30]}
-{"kind":"shape","id":"sh/epwnydsz","slide":1,"name":"top-cape-gradient-13","bbox":[1685.25,0,141.44,30]}
-{"kind":"shape","id":"sh/zq54ri9k","slide":1,"name":"top-cape-gradient-14","bbox":[1825.69,0,141.44,30]}
-{"kind":"shape","id":"sh/0ry50nap","slide":1,"name":"top-cape-gradient-15","bbox":[1966.13,0,141.44,30]}
-{"kind":"shape","id":"sh/1s7mtsra","slide":1,"name":"top-cape-gradient-16","bbox":[2106.56,0,141.44,30]}
-{"kind":"shape","id":"sh/mtgn2xsv","slide":1,"name":"top-cape-gradient-17","bbox":[2247,0,141.44,30]}
-{"kind":"shape","id":"sh/nep4v29g","slide":1,"name":"top-cape-gradient-18","bbox":[2387.44,0,141.44,30]}
-{"kind":"shape","id":"sh/ji94j2po","slide":1,"name":"top-cape-gradient-19","bbox":[2527.87,0,141.44,30]}
-{"kind":"shape","id":"sh/yhg3qxo3","slide":1,"name":"top-cape-gradient-20","bbox":[2668.31,0,141.44,30]}
-{"kind":"shape","id":"sh/lkrmlc7u","slide":1,"name":"top-cape-gradient-21","bbox":[2808.75,0,141.44,30]}
-{"kind":"shape","id":"sh/kjils769","slide":1,"name":"top-cape-gradient-22","bbox":[2949.19,0,141.44,30]}
-{"kind":"shape","id":"sh/bupkfipc","slide":1,"name":"top-cape-gradient-23","bbox":[3089.62,0,141.44,30]}
-{"kind":"shape","id":"sh/atg3mdo7","slide":1,"name":"top-cape-gradient-24","bbox":[3230.06,0,141.44,30]}
-{"kind":"shape","id":"sh/xg7mhs7i","slide":1,"name":"top-cape-gradient-25","bbox":[3370.5,0,141.44,30]}
-{"kind":"shape","id":"sh/wvylon6x","slide":1,"name":"top-cape-gradient-26","bbox":[3510.94,0,141.44,30]}
-{"kind":"shape","id":"sh/nq5kbipg","slide":1,"name":"top-cape-gradient-27","bbox":[3651.38,0,141.44,30]}
-{"kind":"shape","id":"sh/mpw3idov","slide":1,"name":"top-cape-gradient-28","bbox":[3791.81,0,141.44,30]}
-{"kind":"shape","id":"sh/sja9wfih","slide":1,"name":"top-cape-gradient-29","bbox":[3932.25,0,141.44,30]}
-{"kind":"shape","id":"sh/dkja5kj2","slide":1,"name":"top-cape-gradient-30","bbox":[4072.69,0,141.44,30]}
-{"kind":"shape","id":"sh/qhsru50b","slide":1,"name":"top-cape-gradient-31","bbox":[4213.13,0,141.44,30]}
-{"kind":"shape","id":"sh/ri1s3a1w","slide":1,"name":"top-cape-gradient-32","bbox":[4353.56,0,141.44,30]}
-{"kind":"shape","id":"sh/0nu90zid","slide":1,"name":"header-cape-gradient-1","bbox":[0,490,141.44,30]}
-{"kind":"shape","id":"sh/1o3a94jy","slide":1,"name":"header-cape-gradient-2","bbox":[140.44,490,141.44,30]}
-{"kind":"shape","id":"sh/elsryp0n","slide":1,"name":"header-cape-gradient-3","bbox":[280.87,490,141.44,30]}
-{"kind":"shape","id":"sh/fmls7u18","slide":1,"name":"header-cape-gradient-4","bbox":[421.31,490,141.44,30]}
-{"kind":"shape","id":"sh/grq9ovi9","slide":1,"name":"header-cape-gradient-5","bbox":[561.75,490,141.44,30]}
-{"kind":"shape","id":"sh/hszqx0ju","slide":1,"name":"header-cape-gradient-6","bbox":[702.19,490,141.44,30]}
-{"kind":"shape","id":"sh/9kvad4na","slide":1,"name":"header-cape-gradient-7","bbox":[842.62,490,141.44,30]}
-{"kind":"shape","id":"sh/8jm9kzmp","slide":1,"name":"header-cape-gradient-8","bbox":[983.06,490,141.44,30]}
-{"kind":"shape","id":"sh/nidsbu5k","slide":1,"name":"header-cape-gradient-9","bbox":[1123.5,490,141.44,30]}
-{"kind":"shape","id":"sh/mx4rip4z","slide":1,"name":"header-cape-gradient-10","bbox":[1263.94,490,141.44,30]}
-{"kind":"shape","id":"sh/lwva9kne","slide":1,"name":"header-cape-gradient-11","bbox":[1404.38,490,141.44,30]}
-{"kind":"shape","id":"sh/0v29gfmt","slide":1,"name":"header-cape-gradient-12","bbox":[1544.81,490,141.44,30]}
-{"kind":"shape","id":"sh/zuts7a58","slide":1,"name":"header-cape-gradient-13","bbox":[1685.25,490,141.44,30]}
-{"kind":"shape","id":"sh/ytkre5on","slide":1,"name":"header-cape-gradient-14","bbox":[1825.69,490,141.44,30]}
-{"kind":"shape","id":"sh/dsba5kn2","slide":1,"name":"header-cape-gradient-15","bbox":[1966.13,490,141.44,30]}
-{"kind":"shape","id":"sh/cr29cf6x","slide":1,"name":"header-cape-gradient-16","bbox":[2106.56,490,141.44,30]}
-{"kind":"shape","id":"sh/2x07mlkf","slide":1,"name":"header-cape-gradient-17","bbox":[2247,490,141.44,30]}
-{"kind":"shape","id":"sh/3y9of6l0","slide":1,"name":"header-cape-gradient-18","bbox":[2387.44,490,141.44,30]}
-{"kind":"shape","id":"sh/ozipob2l","slide":1,"name":"header-cape-gradient-19","bbox":[2527.87,490,141.44,30]}
-{"kind":"shape","id":"sh/p0rqhg36","slide":1,"name":"header-cape-gradient-20","bbox":[2668.31,490,141.44,30]}
-{"kind":"shape","id":"sh/etg7i14j","slide":1,"name":"header-cape-gradient-21","bbox":[2808.75,490,141.44,30]}
-{"kind":"shape","id":"sh/fupob6l4","slide":1,"name":"header-cape-gradient-22","bbox":[2949.19,490,141.44,30]}
-{"kind":"shape","id":"sh/gvypkbmp","slide":1,"name":"header-cape-gradient-23","bbox":[3089.62,490,141.44,30]}
-{"kind":"shape","id":"sh/1w76dg3u","slide":1,"name":"header-cape-gradient-24","bbox":[3230.06,490,141.44,30]}
-{"kind":"shape","id":"sh/65w7e147","slide":1,"name":"header-cape-gradient-25","bbox":[3370.5,490,141.44,30]}
-{"kind":"shape","id":"sh/76po7mls","slide":1,"name":"header-cape-gradient-26","bbox":[3510.94,490,141.44,30]}
-{"kind":"shape","id":"sh/by1czyx8","slide":1,"name":"header-cape-gradient-27","bbox":[3651.38,490,141.44,30]}
-{"kind":"shape","id":"sh/axsvqtg3","slide":1,"name":"header-cape-gradient-28","bbox":[3791.81,490,141.44,30]}
-{"kind":"shape","id":"sh/x03e18fe","slide":1,"name":"header-cape-gradient-29","bbox":[3932.25,490,141.44,30]}
-{"kind":"shape","id":"sh/wzads3yt","slide":1,"name":"header-cape-gradient-30","bbox":[4072.69,490,141.44,30]}
-{"kind":"shape","id":"sh/j2lw3yxk","slide":1,"name":"header-cape-gradient-31","bbox":[4213.13,490,141.44,30]}
-{"kind":"shape","id":"sh/y1cvudwz","slide":1,"name":"header-cape-gradient-32","bbox":[4353.56,490,141.44,30]}
-{"kind":"textbox","id":"sh/lo3e58fq","slide":1,"name":"poster-title","text":"AURORA-12\nA fully synthetic benchmark for evidence-linked poster generation","textPreview":"AURORA-12 | A fully synthetic benchmark for evidence-linked poster generation","textChars":75,"textLines":2,"bbox":[140,62,3120,230]}
-{"kind":"textbox","id":"sh/knudw3e5","slide":1,"name":"authors","text":"PostEx Synthetic Research Collective","textPreview":"PostEx Synthetic Research Collective","textChars":36,"textLines":1,"bbox":[145,306,3090,66]}
-{"kind":"textbox","id":"sh/z6hcrexg","slide":1,"name":"affiliations","text":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textPreview":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textChars":88,"textLines":1,"bbox":[145,382,3090,52]}
-{"kind":"textbox","id":"sh/e58vi9gv","slide":1,"name":"citation","text":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textPreview":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textChars":58,"textLines":1,"bbox":[145,445,2550,42]}
-{"kind":"shape","id":"sh/4b69sfed","slide":1,"name":"logo-slot-fictional-lab-logo","bbox":[3370,58,980,130]}
-{"kind":"textbox","id":"sh/pcfa1kvy","slide":1,"name":"logo-placeholder-fictional-lab-logo","text":"Fictional lab logo","textPreview":"Fictional lab logo","textChars":18,"textLines":1,"bbox":[3382,96,956,52]}
-{"kind":"shape","id":"sh/294rq5wn","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
-{"kind":"textbox","id":"sh/3axszad8","slide":1,"name":"header-metric-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
-{"kind":"textbox","id":"sh/g7m9oveh","slide":1,"name":"header-metric-1-label","text":"synthetic profiles","textPreview":"synthetic profiles","textChars":18,"textLines":1,"bbox":[3440,322,260,88]}
-{"kind":"textbox","id":"sh/h8vax0v2","slide":1,"name":"header-metric-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3740,240,260,78]}
-{"kind":"textbox","id":"sh/u54rm5wb","slide":1,"name":"header-metric-2-label","text":"anonymous model features","textPreview":"anonymous model features","textChars":24,"textLines":1,"bbox":[3740,322,260,88]}
-{"kind":"textbox","id":"sh/f6dsvadw","slide":1,"name":"header-metric-3-value","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
-{"kind":"textbox","id":"sh/03qt0zul","slide":1,"name":"header-metric-3-label","text":"deterministic cohort simulations","textPreview":"deterministic cohort simulations","textChars":32,"textLines":1,"bbox":[4040,322,260,88]}
-{"kind":"textbox","id":"sh/14za94v6","slide":1,"name":"question-title","text":"Communication test","textPreview":"Communication test","textChars":18,"textLines":1,"bbox":[140,590,1220,58]}
-{"kind":"shape","id":"sh/94j6tgnq","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
-{"kind":"textbox","id":"sh/83a50bm5","slide":1,"name":"research-question","text":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?","textPreview":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomed...","textChars":151,"textLines":1,"bbox":[140,682,1220,235]}
-{"kind":"textbox","id":"sh/n21or65k","slide":1,"name":"question-evidence","text":"Evidence: Abstract and Introduction, pp. 1-2","textPreview":"Evidence: Abstract and Introduction, pp. 1-2","textChars":44,"textLines":1,"bbox":[140,912,1220,38]}
-{"kind":"textbox","id":"sh/mhsny14z","slide":1,"name":"pipeline-title","text":"Deterministic workflow","textPreview":"Deterministic workflow","textChars":22,"textLines":1,"bbox":[140,970,1220,58]}
-{"kind":"shape","id":"sh/h836xgnm","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
-{"kind":"shape","id":"sh/w7u54bm1","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
-{"kind":"textbox","id":"sh/v61ov65g","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
-{"kind":"textbox","id":"sh/a5sn214b","slide":1,"name":"pipeline-1-text","text":"Fixed seed generated 1,240 profiles","textPreview":"Fixed seed generated 1,240 profiles","textChars":35,"textLines":1,"bbox":[222,1068,1138,58]}
-{"kind":"shape","id":"sh/dcz6lwni","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
-{"kind":"textbox","id":"sh/cbq5srmx","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
-{"kind":"textbox","id":"sh/2ho32xkv","slide":1,"name":"pipeline-2-text","text":"480 anonymous transcript-like features","textPreview":"480 anonymous transcript-like features","textChars":38,"textLines":1,"bbox":[222,1148,1138,58]}
-{"kind":"shape","id":"sh/3ixkvilg","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
-{"kind":"textbox","id":"sh/oj6l4n2l","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
-{"kind":"textbox","id":"sh/pkf2xs36","slide":1,"name":"pipeline-3-text","text":"Nested elastic-net selection","textPreview":"Nested elastic-net selection","textChars":28,"textLines":1,"bbox":[222,1228,1138,58]}
-{"kind":"shape","id":"sh/qlo36xkr","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
-{"kind":"textbox","id":"sh/bmxkz2lc","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
-{"kind":"textbox","id":"sh/cn6l872x","slide":1,"name":"pipeline-4-text","text":"12-feature score and shift testing","textPreview":"12-feature score and shift testing","textChars":34,"textLines":1,"bbox":[222,1308,1138,58]}
-{"kind":"shape","id":"sh/d8zm1c3i","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
-{"kind":"textbox","id":"sh/6p43utkn","slide":1,"name":"dataset-kicker","text":"FOUR SYNTHETIC COHORTS","textPreview":"FOUR SYNTHETIC COHORTS","textChars":22,"textLines":1,"bbox":[168,1440,460,40]}
-{"kind":"textbox","id":"sh/rqdknyl8","slide":1,"name":"datasets","text":"Discovery n=620 · Internal validation n=310\nExternal simulation A n=186 · External simulation B n=124\nAll values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.","textPreview":"Discovery n=620 · Internal validation n=310 | External simulation A n=186 · External simulation B n=124 | All values are authored fixture...","textChars":211,"textLines":3,"bbox":[168,1495,1164,230]}
-{"kind":"textbox","id":"sh/onu5s3m5","slide":1,"name":"dataset-evidence","text":"Evidence: Abstract and Methods, pp. 1-2","textPreview":"Evidence: Abstract and Methods, pp. 1-2","textChars":39,"textLines":1,"bbox":[168,1723,1164,38]}
-{"kind":"textbox","id":"sh/ponm18nq","slide":1,"name":"figure-one-heading-title","text":"Generation to validation","textPreview":"Generation to validation","textChars":24,"textLines":1,"bbox":[140,1825,1220,58]}
-{"kind":"shape","id":"sh/2lcnqt4z","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
-{"kind":"shape","id":"sh/nml4zy5k","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
-{"kind":"textbox","id":"sh/xsnm58nm","slide":1,"name":"figure-one-caption","text":"Figure 1 · Deterministic generation and validation workflow","textPreview":"Figure 1 · Deterministic generation and validation workflow","textChars":59,"textLines":1,"bbox":[164,2883,1172,42]}
-{"kind":"textbox","id":"sh/apwnud4v","slide":1,"name":"figure-one-source","text":"Authored synthetic fixture · manuscript p. 2","textPreview":"Authored synthetic fixture · manuscript p. 2","textChars":44,"textLines":1,"bbox":[164,2916,1172,38]}
-{"kind":"shape","id":"sh/bq543y5g","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
-{"kind":"shape","id":"sh/kfy50nmd","slide":1,"name":"takeaway-cape-gradient-1","bbox":[1420,590,45.84,20]}
-{"kind":"shape","id":"sh/lg7m9sni","slide":1,"name":"takeaway-cape-gradient-2","bbox":[1464.84,590,45.84,20]}
-{"kind":"shape","id":"sh/va98zmp0","slide":1,"name":"takeaway-cape-gradient-3","bbox":[1509.69,590,45.84,20]}
-{"kind":"shape","id":"sh/u9076hof","slide":1,"name":"takeaway-cape-gradient-4","bbox":[1554.53,590,45.84,20]}
-{"kind":"shape","id":"sh/hcrq1w7q","slide":1,"name":"takeaway-cape-gradient-5","bbox":[1599.38,590,45.84,20]}
-{"kind":"shape","id":"sh/gbip8r6l","slide":1,"name":"takeaway-cape-gradient-6","bbox":[1644.22,590,45.84,20]}
-{"kind":"shape","id":"sh/7mpov2po","slide":1,"name":"takeaway-cape-gradient-7","bbox":[1689.06,590,45.84,20]}
-{"kind":"shape","id":"sh/6lg72xo3","slide":1,"name":"takeaway-cape-gradient-8","bbox":[1733.91,590,45.84,20]}
-{"kind":"shape","id":"sh/t8r6xc7u","slide":1,"name":"takeaway-cape-gradient-9","bbox":[1778.75,590,45.84,20]}
-{"kind":"shape","id":"sh/87ip4769","slide":1,"name":"takeaway-cape-gradient-10","bbox":[1823.59,590,45.84,20]}
-{"kind":"shape","id":"sh/rit876p8","slide":1,"name":"takeaway-cape-gradient-11","bbox":[1868.44,590,45.84,20]}
-{"kind":"shape","id":"sh/qhk7e1on","slide":1,"name":"takeaway-cape-gradient-12","bbox":[1913.28,590,45.84,20]}
-{"kind":"shape","id":"sh/2x4b658v","slide":1,"name":"takeaway-cape-gradient-13","bbox":[1958.13,590,45.84,20]}
-{"kind":"shape","id":"sh/nyxsza9g","slide":1,"name":"takeaway-cape-gradient-14","bbox":[2002.97,590,45.84,20]}
-{"kind":"shape","id":"sh/oz6t8fql","slide":1,"name":"takeaway-cape-gradient-15","bbox":[2047.81,590,45.84,20]}
-{"kind":"shape","id":"sh/p0fa1kr6","slide":1,"name":"takeaway-cape-gradient-16","bbox":[2092.66,590,45.84,20]}
-{"kind":"shape","id":"sh/a1oba58r","slide":1,"name":"takeaway-cape-gradient-17","bbox":[2137.5,590,45.84,20]}
-{"kind":"shape","id":"sh/b2xs3a9c","slide":1,"name":"takeaway-cape-gradient-18","bbox":[2182.34,590,45.84,20]}
-{"kind":"shape","id":"sh/c36tcfqx","slide":1,"name":"takeaway-cape-gradient-19","bbox":[2227.19,590,45.84,20]}
-{"kind":"shape","id":"sh/x4fa5kri","slide":1,"name":"takeaway-cape-gradient-20","bbox":[2272.03,590,45.84,20]}
-{"kind":"shape","id":"sh/q5kryl8n","slide":1,"name":"takeaway-cape-gradient-21","bbox":[2316.87,590,45.84,20]}
-{"kind":"shape","id":"sh/r6dsrq98","slide":1,"name":"takeaway-cape-gradient-22","bbox":[2361.72,590,45.84,20]}
-{"kind":"shape","id":"sh/90jexobq","slide":1,"name":"takeaway-cape-gradient-23","bbox":[2406.56,590,45.84,20]}
-{"kind":"shape","id":"sh/8zad4ja5","slide":1,"name":"takeaway-cape-gradient-24","bbox":[2451.41,590,45.84,20]}
-{"kind":"shape","id":"sh/7y1cvetk","slide":1,"name":"takeaway-cape-gradient-25","bbox":[2496.25,590,45.84,20]}
-{"kind":"shape","id":"sh/mxsv29sz","slide":1,"name":"takeaway-cape-gradient-26","bbox":[2541.09,590,45.84,20]}
-{"kind":"shape","id":"sh/hoje1orm","slide":1,"name":"takeaway-cape-gradient-27","bbox":[2585.94,590,45.84,20]}
-{"kind":"shape","id":"sh/gnad83a1","slide":1,"name":"takeaway-cape-gradient-28","bbox":[2630.78,590,45.84,20]}
-{"kind":"shape","id":"sh/vm1wzytw","slide":1,"name":"takeaway-cape-gradient-29","bbox":[2675.62,590,45.84,20]}
-{"kind":"shape","id":"sh/u1sv6tsb","slide":1,"name":"takeaway-cape-gradient-30","bbox":[2720.47,590,45.84,20]}
-{"kind":"shape","id":"sh/xszup4bi","slide":1,"name":"takeaway-cape-gradient-31","bbox":[2765.31,590,45.84,20]}
-{"kind":"shape","id":"sh/crqdwzax","slide":1,"name":"takeaway-cape-gradient-32","bbox":[2810.16,590,45.84,20]}
-{"kind":"textbox","id":"sh/0zypkbyx","slide":1,"name":"central-takeaway-title","text":"External simulations retained C-indices of 0.75 and 0.74","textPreview":"External simulations retained C-indices of 0.75 and 0.74","textChars":56,"textLines":1,"bbox":[1464,625,1347,100]}
-{"kind":"textbox","id":"sh/107qtwz2","slide":1,"name":"central-takeaway-subtitle","text":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textPreview":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textChars":77,"textLines":1,"bbox":[1490,754,1295,48]}
-{"kind":"textbox","id":"sh/exg7i1gr","slide":1,"name":"takeaway-evidence","text":"Evidence: Results, pp. 1 and 3; Figure 2","textPreview":"Evidence: Results, pp. 1 and 3; Figure 2","textChars":40,"textLines":1,"bbox":[1466,810,1343,38]}
-{"kind":"textbox","id":"sh/zypor6hc","slide":1,"name":"figure-two-heading-title","text":"Discrimination across shifts","textPreview":"Discrimination across shifts","textChars":28,"textLines":1,"bbox":[1420,905,1435,58]}
-{"kind":"shape","id":"sh/cvypgryl","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
-{"kind":"shape","id":"sh/dw76pwz6","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
-{"kind":"textbox","id":"sh/ruponmh0","slide":1,"name":"figure-two-caption","text":"Figure 2 · Authored discrimination values across cohort shifts","textPreview":"Figure 2 · Authored discrimination values across cohort shifts","textChars":62,"textLines":1,"bbox":[1444,2258,1387,42]}
-{"kind":"textbox","id":"sh/4repcryp","slide":1,"name":"figure-two-source","text":"Authored synthetic fixture · manuscript p. 3","textPreview":"Authored synthetic fixture · manuscript p. 3","textChars":44,"textLines":1,"bbox":[1444,2291,1387,38]}
-{"kind":"textbox","id":"sh/psn6lcza","slide":1,"name":"validation-heading-title","text":"Calibration and stress boundary","textPreview":"Calibration and stress boundary","textChars":31,"textLines":1,"bbox":[1420,2380,1435,58]}
-{"kind":"shape","id":"sh/7258v21w","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
-{"kind":"shape","id":"sh/61c72h0b","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
-{"kind":"textbox","id":"sh/t4nqxcj2","slide":1,"name":"validation","text":"• External calibration slopes were 0.97 and 0.95.\n• External absolute errors were 0.031 and 0.038.\n• Aggregate coefficient-sign stability was 92% across 500 resamples.\n• The most severe pre-specified shift reduced C-index by 0.04.","textPreview":"• External calibration slopes were 0.97 and 0.95. | • External absolute errors were 0.031 and 0.038. | • Aggregate coefficient-sign stabi...","textChars":230,"textLines":4,"bbox":[1456,2503,1363,310]}
-{"kind":"textbox","id":"sh/s3ep47ih","slide":1,"name":"validation-evidence","text":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textPreview":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textChars":42,"textLines":1,"bbox":[1456,2847,1363,38]}
-{"kind":"shape","id":"sh/fq58zm1s","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
-{"kind":"textbox","id":"sh/u5wr6h0n","slide":1,"name":"performance-strip-text","text":"AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65","textPreview":"AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65","textChars":130,"textLines":1,"bbox":[1454,2960,1367,52]}
-{"kind":"textbox","id":"sh/hsnq1wjy","slide":1,"name":"biology-heading-title","text":"Calibration & stability","textPreview":"Calibration & stability","textChars":23,"textLines":1,"bbox":[2915,590,1439,58]}
-{"kind":"shape","id":"sh/gre98rid","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
-{"kind":"textbox","id":"sh/3up83614","slide":1,"name":"biology-1-value","text":"92%","textPreview":"92%","textChars":3,"textLines":1,"bbox":[2915,690,420,78]}
-{"kind":"textbox","id":"sh/2twra10j","slide":1,"name":"biology-1-label","text":"coefficient-sign stability","textPreview":"coefficient-sign stability","textChars":26,"textLines":1,"bbox":[2915,772,420,88]}
-{"kind":"textbox","id":"sh/ep0b25kr","slide":1,"name":"biology-2-value","text":"0.97 / 0.95","textPreview":"0.97 / 0.95","textChars":11,"textLines":1,"bbox":[3390,690,420,78]}
-{"kind":"textbox","id":"sh/zq9svqlc","slide":1,"name":"biology-2-label","text":"external calibration slopes","textPreview":"external calibration slopes","textChars":27,"textLines":1,"bbox":[3390,772,420,88]}
-{"kind":"textbox","id":"sh/0rit4v2x","slide":1,"name":"biology-3-value","text":"0.031 / 0.038","textPreview":"0.031 / 0.038","textChars":13,"textLines":1,"bbox":[3865,690,420,78]}
-{"kind":"textbox","id":"sh/1srux03i","slide":1,"name":"biology-3-label","text":"external absolute errors","textPreview":"external absolute errors","textChars":24,"textLines":1,"bbox":[3865,772,420,88]}
-{"kind":"textbox","id":"sh/qlgbylkv","slide":1,"name":"biology-evidence","text":"Evidence: Stability and calibration, p. 4","textPreview":"Evidence: Stability and calibration, p. 4","textChars":41,"textLines":1,"bbox":[2915,890,1439,38]}
-{"kind":"shape","id":"sh/rm9srqlg","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
-{"kind":"textbox","id":"sh/dorat036","slide":1,"name":"figure-three-caption","text":"Figure 3 · Calibration and coefficient-sign stability","textPreview":"Figure 3 · Calibration and coefficient-sign stability","textChars":53,"textLines":1,"bbox":[2939,1613,1391,42]}
-{"kind":"textbox","id":"sh/ahkbapkz","slide":1,"name":"figure-three-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,1646,1391,38]}
-{"kind":"textbox","id":"sh/bitc3alk","slide":1,"name":"validation-visual-heading-title","text":"Pre-specified stress test","textPreview":"Pre-specified stress test","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
-{"kind":"shape","id":"sh/lcfetonm","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
-{"kind":"shape","id":"sh/kbmd0jm1","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
-{"kind":"textbox","id":"sh/y94vy94b","slide":1,"name":"figure-four-caption","text":"Figure 4 · Stress-test boundary under increasing shift","textPreview":"Figure 4 · Stress-test boundary under increasing shift","textChars":54,"textLines":1,"bbox":[2939,2503,1391,42]}
-{"kind":"textbox","id":"sh/xovep4nq","slide":1,"name":"figure-four-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,2536,1391,38]}
-{"kind":"textbox","id":"sh/wnmdwzm5","slide":1,"name":"conclusion-heading-title","text":"Supported conclusion","textPreview":"Supported conclusion","textChars":20,"textLines":1,"bbox":[2915,2625,1439,58]}
-{"kind":"shape","id":"sh/bmdwnu5k","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
-{"kind":"shape","id":"sh/al4vup4z","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
-{"kind":"textbox","id":"sh/hkze18nu","slide":1,"name":"conclusion","text":"AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.","textPreview":"AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real ...","textChars":255,"textLines":1,"bbox":[2949,2748,1371,230]}
-{"kind":"textbox","id":"sh/gj6x83m9","slide":1,"name":"conclusion-evidence","text":"Evidence: Discussion and Conclusion, p. 5","textPreview":"Evidence: Discussion and Conclusion, p. 5","textChars":41,"textLines":1,"bbox":[2949,2992,1371,38]}
-{"kind":"shape","id":"sh/czah076h","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
-{"kind":"textbox","id":"sh/d0jy9c72","slide":1,"name":"footer-source","text":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textPreview":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textChars":85,"textLines":1,"bbox":[140,3107,3000,42]}
-{"kind":"textbox","id":"sh/qdszyxob","slide":1,"name":"footer-status","text":"Approvals current · synthetic boundary locked · editable logo placeholder","textPreview":"Approvals current · synthetic boundary locked · editable logo placeholder","textChars":73,"textLines":1,"bbox":[3120,3107,1230,42]}
-{"kind":"image","id":"im/94be5ofq","slide":1,"name":"","alt":"Deterministic generation, feature selection and four-cohort evaluation workflow","bbox":[160,1935,1180,942]}
-{"kind":"image","id":"im/7y9cjalg","slide":1,"name":"","alt":"AURORA-12 and synthetic baseline concordance indices in four cohorts","bbox":[1440,1015,1395,1237]}
-{"kind":"image","id":"im/l47qdwza","slide":1,"name":"","alt":"Calibration slopes, absolute errors and bootstrap stability summaries","bbox":[2935,985,1399,622]}
-{"kind":"image","id":"im/ehsn6dwf","slide":1,"name":"","alt":"AURORA-12 concordance index under increasing synthetic shift","bbox":[2935,1845,1399,652]}
-{"kind":"notes","id":"nt/fn41sj","slide":1,"text":"[Sources]\n- AURORA-12-synthetic-manuscript.pdf\n- palette approval sha256:c9834f95586be531d5d8667465b8d0525469d9de17a3f361d76c34ad4677c4ca\n- deletion approval sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b\n[/Sources]"}
+{"kind":"deck","id":"pr/cbsbbf","name":"Deck"}
+{"kind":"layout","layoutId":"1d489685-3fd9-4d70-824d-e2877a2ac4f6","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"aa3df5a0-0ba6-4886-9dd1-7f9779a601e8","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/goohi3","slide":1,"title":"AURORA-12","textShapes":57}
+{"kind":"shape","id":"sh/lgvmhcfi","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/yd4n6xg7","slide":1,"name":"top-cape-gradient-1","bbox":[0,0,141.44,30]}
+{"kind":"shape","id":"sh/zed4f2xs","slide":1,"name":"top-cape-gradient-2","bbox":[140.44,0,141.44,30]}
+{"kind":"shape","id":"sh/cbm54ny1","slide":1,"name":"top-cape-gradient-3","bbox":[280.87,0,141.44,30]}
+{"kind":"shape","id":"sh/dcvmdsfm","slide":1,"name":"top-cape-gradient-4","bbox":[421.31,0,141.44,30]}
+{"kind":"shape","id":"sh/qp4n2xgv","slide":1,"name":"top-cape-gradient-5","bbox":[561.75,0,141.44,30]}
+{"kind":"shape","id":"sh/bqd4bixg","slide":1,"name":"top-cape-gradient-6","bbox":[702.19,0,141.44,30]}
+{"kind":"shape","id":"sh/on250nyp","slide":1,"name":"top-cape-gradient-7","bbox":[842.62,0,141.44,30]}
+{"kind":"shape","id":"sh/pobm9sfa","slide":1,"name":"top-cape-gradient-8","bbox":[983.06,0,141.44,30]}
+{"kind":"shape","id":"sh/18nm90nq","slide":1,"name":"top-cape-gradient-9","bbox":[1123.5,0,141.44,30]}
+{"kind":"shape","id":"sh/g7elgv65","slide":1,"name":"top-cape-gradient-10","bbox":[1263.94,0,141.44,30]}
+{"kind":"shape","id":"sh/f6547q5k","slide":1,"name":"top-cape-gradient-11","bbox":[1404.38,0,141.44,30]}
+{"kind":"shape","id":"sh/e5w3eloz","slide":1,"name":"top-cape-gradient-12","bbox":[1544.81,0,141.44,30]}
+{"kind":"shape","id":"sh/t4nm5gne","slide":1,"name":"top-cape-gradient-13","bbox":[1685.25,0,141.44,30]}
+{"kind":"shape","id":"sh/s3elcb69","slide":1,"name":"top-cape-gradient-14","bbox":[1825.69,0,141.44,30]}
+{"kind":"shape","id":"sh/r254365o","slide":1,"name":"top-cape-gradient-15","bbox":[1966.13,0,141.44,30]}
+{"kind":"shape","id":"sh/61c3a1o3","slide":1,"name":"top-cape-gradient-16","bbox":[2106.56,0,141.44,30]}
+{"kind":"shape","id":"sh/5g3m1wni","slide":1,"name":"top-cape-gradient-17","bbox":[2247,0,141.44,30]}
+{"kind":"shape","id":"sh/4ful8b6x","slide":1,"name":"top-cape-gradient-18","bbox":[2387.44,0,141.44,30]}
+{"kind":"shape","id":"sh/wvid4vi5","slide":1,"name":"top-cape-gradient-19","bbox":[2527.87,0,141.44,30]}
+{"kind":"shape","id":"sh/hwrud0zq","slide":1,"name":"top-cape-gradient-20","bbox":[2668.31,0,141.44,30]}
+{"kind":"shape","id":"sh/ut0v250z","slide":1,"name":"top-cape-gradient-21","bbox":[2808.75,0,141.44,30]}
+{"kind":"shape","id":"sh/vu9cbq1k","slide":1,"name":"top-cape-gradient-22","bbox":[2949.19,0,141.44,30]}
+{"kind":"shape","id":"sh/87yd0vit","slide":1,"name":"top-cape-gradient-23","bbox":[3089.62,0,141.44,30]}
+{"kind":"shape","id":"sh/9s7u90je","slide":1,"name":"top-cape-gradient-24","bbox":[3230.06,0,141.44,30]}
+{"kind":"shape","id":"sh/m5gvyl03","slide":1,"name":"top-cape-gradient-25","bbox":[3370.5,0,141.44,30]}
+{"kind":"shape","id":"sh/76pc7q18","slide":1,"name":"top-cape-gradient-26","bbox":[3510.94,0,141.44,30]}
+{"kind":"shape","id":"sh/sn2dcfid","slide":1,"name":"top-cape-gradient-27","bbox":[3651.38,0,141.44,30]}
+{"kind":"shape","id":"sh/dobelkzi","slide":1,"name":"top-cape-gradient-28","bbox":[3791.81,0,141.44,30]}
+{"kind":"shape","id":"sh/nidgbe10","slide":1,"name":"top-cape-gradient-29","bbox":[3932.25,0,141.44,30]}
+{"kind":"shape","id":"sh/2h4fitkf","slide":1,"name":"top-cape-gradient-30","bbox":[4072.69,0,141.44,30]}
+{"kind":"shape","id":"sh/pkfydojq","slide":1,"name":"top-cape-gradient-31","bbox":[4213.13,0,141.44,30]}
+{"kind":"shape","id":"sh/oj6xkj2l","slide":1,"name":"top-cape-gradient-32","bbox":[4353.56,0,141.44,30]}
+{"kind":"shape","id":"sh/bmxgfy1w","slide":1,"name":"header-cape-gradient-1","bbox":[0,490,141.44,30]}
+{"kind":"shape","id":"sh/alozmtkb","slide":1,"name":"header-cape-gradient-2","bbox":[140.44,490,141.44,30]}
+{"kind":"shape","id":"sh/xofyh8j2","slide":1,"name":"header-cape-gradient-3","bbox":[280.87,490,141.44,30]}
+{"kind":"shape","id":"sh/cn6ho32h","slide":1,"name":"header-cape-gradient-4","bbox":[421.31,490,141.44,30]}
+{"kind":"shape","id":"sh/rqtg3uls","slide":1,"name":"header-cape-gradient-5","bbox":[561.75,490,141.44,30]}
+{"kind":"shape","id":"sh/qpkfa9k7","slide":1,"name":"header-cape-gradient-6","bbox":[702.19,490,141.44,30]}
+{"kind":"shape","id":"sh/i9ofq9s3","slide":1,"name":"header-cape-gradient-7","bbox":[842.62,490,141.44,30]}
+{"kind":"shape","id":"sh/jaxgjeto","slide":1,"name":"header-cape-gradient-8","bbox":[983.06,490,141.44,30]}
+{"kind":"shape","id":"sh/4b6hsza9","slide":1,"name":"header-cape-gradient-9","bbox":[1123.5,490,141.44,30]}
+{"kind":"shape","id":"sh/5cfyl4be","slide":1,"name":"header-cape-gradient-10","bbox":[1263.94,490,141.44,30]}
+{"kind":"shape","id":"sh/6x8zu9sz","slide":1,"name":"header-cape-gradient-11","bbox":[1404.38,490,141.44,30]}
+{"kind":"shape","id":"sh/ryhgnetk","slide":1,"name":"header-cape-gradient-12","bbox":[1544.81,490,141.44,30]}
+{"kind":"shape","id":"sh/szqhwja5","slide":1,"name":"header-cape-gradient-13","bbox":[1685.25,490,141.44,30]}
+{"kind":"shape","id":"sh/t0zypobq","slide":1,"name":"header-cape-gradient-14","bbox":[1825.69,490,141.44,30]}
+{"kind":"shape","id":"sh/e18zytsb","slide":1,"name":"header-cape-gradient-15","bbox":[1966.13,490,141.44,30]}
+{"kind":"shape","id":"sh/f2hgry9w","slide":1,"name":"header-cape-gradient-16","bbox":[2106.56,490,141.44,30]}
+{"kind":"shape","id":"sh/pw3ihsvy","slide":1,"name":"header-cape-gradient-17","bbox":[2247,490,141.44,30]}
+{"kind":"shape","id":"sh/ova1onud","slide":1,"name":"header-cape-gradient-18","bbox":[2387.44,490,141.44,30]}
+{"kind":"shape","id":"sh/3u10fids","slide":1,"name":"header-cape-gradient-19","bbox":[2527.87,490,141.44,30]}
+{"kind":"shape","id":"sh/2tsjmdc7","slide":1,"name":"header-cape-gradient-20","bbox":[2668.31,490,141.44,30]}
+{"kind":"shape","id":"sh/d032lsbu","slide":1,"name":"header-cape-gradient-21","bbox":[2808.75,490,141.44,30]}
+{"kind":"shape","id":"sh/czu1snup","slide":1,"name":"header-cape-gradient-22","bbox":[2949.19,490,141.44,30]}
+{"kind":"shape","id":"sh/byl0j2d4","slide":1,"name":"header-cape-gradient-23","bbox":[3089.62,490,141.44,30]}
+{"kind":"shape","id":"sh/qxcjqxcj","slide":1,"name":"header-cape-gradient-24","bbox":[3230.06,490,141.44,30]}
+{"kind":"shape","id":"sh/lon2pcb6","slide":1,"name":"header-cape-gradient-25","bbox":[3370.5,490,141.44,30]}
+{"kind":"shape","id":"sh/0nu1w7ul","slide":1,"name":"header-cape-gradient-26","bbox":[3510.94,490,141.44,30]}
+{"kind":"shape","id":"sh/kjmd8f6t","slide":1,"name":"header-cape-gradient-27","bbox":[3651.38,490,141.44,30]}
+{"kind":"shape","id":"sh/54vuhkne","slide":1,"name":"header-cape-gradient-28","bbox":[3791.81,490,141.44,30]}
+{"kind":"shape","id":"sh/ih4v65o3","slide":1,"name":"header-cape-gradient-29","bbox":[3932.25,490,141.44,30]}
+{"kind":"shape","id":"sh/jidcfa5o","slide":1,"name":"header-cape-gradient-30","bbox":[4072.69,490,141.44,30]}
+{"kind":"shape","id":"sh/s76dcf65","slide":1,"name":"header-cape-gradient-31","bbox":[4213.13,490,141.44,30]}
+{"kind":"shape","id":"sh/t8fulknq","slide":1,"name":"header-cape-gradient-32","bbox":[4353.56,490,141.44,30]}
+{"kind":"textbox","id":"sh/65ova5oz","slide":1,"name":"poster-title","text":"AURORA-12\nA fully synthetic benchmark for evidence-linked poster generation","textPreview":"AURORA-12 | A fully synthetic benchmark for evidence-linked poster generation","textChars":75,"textLines":2,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/76xcja5k","slide":1,"name":"authors","text":"PostEx Synthetic Research Collective","textPreview":"PostEx Synthetic Research Collective","textChars":36,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/8b2t0v6l","slide":1,"name":"affiliations","text":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textPreview":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textChars":88,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/9cbu90n6","slide":1,"name":"citation","text":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textPreview":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textChars":58,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/b61gfypo","slide":1,"name":"logo-slot-fictional-lab-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/q5sfmt8j","slide":1,"name":"logo-placeholder-fictional-lab-logo","text":"Fictional lab logo","textPreview":"Fictional lab logo","textChars":18,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/d8jyh87u","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/c7axo3q9","slide":1,"name":"header-metric-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/32hwbeps","slide":1,"name":"header-metric-1-label","text":"synthetic profiles","textPreview":"synthetic profiles","textChars":18,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/218fi987","slide":1,"name":"header-metric-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/p4jedo7y","slide":1,"name":"header-metric-2-label","text":"anonymous model features","textPreview":"anonymous model features","textChars":24,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/o3qxkjqd","slide":1,"name":"header-metric-3-value","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/fyhw7epw","slide":1,"name":"header-metric-3-label","text":"deterministic cohort simulations","textPreview":"deterministic cohort simulations","textChars":32,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/ed8fe98b","slide":1,"name":"question-title","text":"Communication test","textPreview":"Communication test","textChars":18,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/6hsfu9g7","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/7ilgnexc","slide":1,"name":"research-question","text":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?","textPreview":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomed...","textChars":151,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/sjuxwjyx","slide":1,"name":"question-evidence","text":"Evidence: Abstract and Introduction, pp. 1-2","textPreview":"Evidence: Abstract and Introduction, pp. 1-2","textChars":44,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/tk3ypofi","slide":1,"name":"pipeline-title","text":"Deterministic workflow","textPreview":"Deterministic workflow","textChars":22,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/ytsfq9gv","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/je1wjuxg","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/kfaxszy1","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/lgjyl4fm","slide":1,"name":"pipeline-1-text","text":"Fixed seed generated 1,240 profiles","textPreview":"Fixed seed generated 1,240 profiles","textChars":35,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/2pwf2tgz","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/3a5gvyxk","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/dgrahw3y","slide":1,"name":"pipeline-2-text","text":"480 anonymous transcript-like features","textPreview":"480 anonymous transcript-like features","textChars":38,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/cfi98rmd","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/bu9sfml8","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/qtgr6h4n","slide":1,"name":"pipeline-3-text","text":"Nested elastic-net selection","textPreview":"Nested elastic-net selection","textChars":28,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/ps7qdc32","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/ory947mh","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/3qp8b2lw","slide":1,"name":"pipeline-4-text","text":"12-feature score and shift testing","textPreview":"12-feature score and shift testing","textChars":34,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/2pgr2h4b","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/9obapg36","slide":1,"name":"dataset-kicker","text":"FOUR SYNTHETIC COHORTS","textPreview":"FOUR SYNTHETIC COHORTS","textChars":22,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/8n29gbml","slide":1,"name":"datasets","text":"Discovery n=620 · Internal validation n=310\nExternal simulation A n=186 · External simulation B n=124\nAll values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.","textPreview":"Discovery n=620 · Internal validation n=310 | External simulation A n=186 · External simulation B n=124 | All values are authored fixture...","textChars":211,"textLines":3,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/xov2dozq","slide":1,"name":"dataset-evidence","text":"Evidence: Abstract and Methods, pp. 1-2","textPreview":"Evidence: Abstract and Methods, pp. 1-2","textChars":39,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/w3mlkjy5","slide":1,"name":"figure-one-heading-title","text":"Generation to validation","textPreview":"Generation to validation","textChars":24,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/v2dkbeh0","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/a143i9gf","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"textbox","id":"sh/8zmlgzi9","slide":1,"name":"figure-one-caption","text":"Figure 1 · Deterministic generation and validation workflow","textPreview":"Figure 1 · Deterministic generation and validation workflow","textChars":59,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/nytk7eho","slide":1,"name":"figure-one-source","text":"Authored synthetic fixture · manuscript p. 2","textPreview":"Authored synthetic fixture · manuscript p. 2","textChars":44,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/mxk3e903","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"shape","id":"sh/lwb254zi","slide":1,"name":"takeaway-cape-gradient-1","bbox":[1420,590,45.84,20]}
+{"kind":"shape","id":"sh/0v2lczid","slide":1,"name":"takeaway-cape-gradient-2","bbox":[1464.84,590,45.84,20]}
+{"kind":"shape","id":"sh/qpgrq1sz","slide":1,"name":"takeaway-cape-gradient-3","bbox":[1509.69,590,45.84,20]}
+{"kind":"shape","id":"sh/rqp8z6t4","slide":1,"name":"takeaway-cape-gradient-4","bbox":[1554.53,590,45.84,20]}
+{"kind":"shape","id":"sh/sry9sbap","slide":1,"name":"takeaway-cape-gradient-5","bbox":[1599.38,590,45.84,20]}
+{"kind":"shape","id":"sh/ds7a1gba","slide":1,"name":"takeaway-cape-gradient-6","bbox":[1644.22,590,45.84,20]}
+{"kind":"shape","id":"sh/i1wrm1cn","slide":1,"name":"takeaway-cape-gradient-7","bbox":[1689.06,590,45.84,20]}
+{"kind":"shape","id":"sh/32p8v6t8","slide":1,"name":"takeaway-cape-gradient-8","bbox":[1733.91,590,45.84,20]}
+{"kind":"shape","id":"sh/4ny9obut","slide":1,"name":"takeaway-cape-gradient-9","bbox":[1778.75,590,45.84,20]}
+{"kind":"shape","id":"sh/5o7qxwbe","slide":1,"name":"takeaway-cape-gradient-10","bbox":[1823.59,590,45.84,20]}
+{"kind":"shape","id":"sh/uxwrihcr","slide":1,"name":"takeaway-cape-gradient-11","bbox":[1868.44,590,45.84,20]}
+{"kind":"shape","id":"sh/vy58rmtw","slide":1,"name":"takeaway-cape-gradient-12","bbox":[1913.28,590,45.84,20]}
+{"kind":"shape","id":"sh/j21ozi9o","slide":1,"name":"takeaway-cape-gradient-13","bbox":[1958.13,590,45.84,20]}
+{"kind":"shape","id":"sh/y1snqdsj","slide":1,"name":"takeaway-cape-gradient-14","bbox":[2002.97,590,45.84,20]}
+{"kind":"shape","id":"sh/l4361sru","slide":1,"name":"takeaway-cape-gradient-15","bbox":[2047.81,590,45.84,20]}
+{"kind":"shape","id":"sh/k3u5sna9","slide":1,"name":"takeaway-cape-gradient-16","bbox":[2092.66,590,45.84,20]}
+{"kind":"shape","id":"sh/76lo3290","slide":1,"name":"takeaway-cape-gradient-17","bbox":[2137.5,590,45.84,20]}
+{"kind":"shape","id":"sh/65c7uxsf","slide":1,"name":"takeaway-cape-gradient-18","bbox":[2182.34,590,45.84,20]}
+{"kind":"shape","id":"sh/t8365sr6","slide":1,"name":"takeaway-cape-gradient-19","bbox":[2227.19,590,45.84,20]}
+{"kind":"shape","id":"sh/87upw7ql","slide":1,"name":"takeaway-cape-gradient-20","bbox":[2272.03,590,45.84,20]}
+{"kind":"shape","id":"sh/nahory9w","slide":1,"name":"takeaway-cape-gradient-21","bbox":[2316.87,590,45.84,20]}
+{"kind":"shape","id":"sh/m98nitsb","slide":1,"name":"takeaway-cape-gradient-22","bbox":[2361.72,590,45.84,20]}
+{"kind":"shape","id":"sh/sf6lszqt","slide":1,"name":"takeaway-cape-gradient-23","bbox":[2406.56,590,45.84,20]}
+{"kind":"shape","id":"sh/dgf2147e","slide":1,"name":"takeaway-cape-gradient-24","bbox":[2451.41,590,45.84,20]}
+{"kind":"shape","id":"sh/qdo3qp83","slide":1,"name":"takeaway-cape-gradient-25","bbox":[2496.25,590,45.84,20]}
+{"kind":"shape","id":"sh/rexkzupo","slide":1,"name":"takeaway-cape-gradient-26","bbox":[2541.09,590,45.84,20]}
+{"kind":"shape","id":"sh/4bmlozqx","slide":1,"name":"takeaway-cape-gradient-27","bbox":[2585.94,590,45.84,20]}
+{"kind":"shape","id":"sh/5cv2x47i","slide":1,"name":"takeaway-cape-gradient-28","bbox":[2630.78,590,45.84,20]}
+{"kind":"shape","id":"sh/i943mp8r","slide":1,"name":"takeaway-cape-gradient-29","bbox":[2675.62,590,45.84,20]}
+{"kind":"shape","id":"sh/3adkvupc","slide":1,"name":"takeaway-cape-gradient-30","bbox":[2720.47,590,45.84,20]}
+{"kind":"shape","id":"sh/o7ql0j61","slide":1,"name":"takeaway-cape-gradient-31","bbox":[2765.31,590,45.84,20]}
+{"kind":"shape","id":"sh/98zm9o7m","slide":1,"name":"takeaway-cape-gradient-32","bbox":[2810.16,590,45.84,20]}
+{"kind":"textbox","id":"sh/lsrilgny","slide":1,"name":"central-takeaway-title","text":"External simulations retained C-indices of 0.75 and 0.74","textPreview":"External simulations retained C-indices of 0.75 and 0.74","textChars":56,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/krihsb6t","slide":1,"name":"central-takeaway-subtitle","text":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textPreview":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textChars":77,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/jq90j658","slide":1,"name":"takeaway-evidence","text":"Evidence: Results, pp. 1 and 3; Figure 2","textPreview":"Evidence: Results, pp. 1 and 3; Figure 2","textChars":40,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/yp0zq1on","slide":1,"name":"figure-two-heading-title","text":"Discrimination across shifts","textPreview":"Discrimination across shifts","textChars":28,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/tgbip0na","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/8f21wv6p","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"textbox","id":"sh/6dkzuloj","slide":1,"name":"figure-two-caption","text":"Figure 2 · Authored discrimination values across cohort shifts","textPreview":"Figure 2 · Authored discrimination values across cohort shifts","textChars":62,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/hkbit0n6","slide":1,"name":"figure-two-source","text":"Authored synthetic fixture · manuscript p. 3","textPreview":"Authored synthetic fixture · manuscript p. 3","textChars":44,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/gj210v6l","slide":1,"name":"validation-heading-title","text":"Calibration and stress boundary","textPreview":"Calibration and stress boundary","textChars":31,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/edcnyd07","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/felo7yhc","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/0fup03ix","slide":1,"name":"validation","text":"• External calibration slopes were 0.97 and 0.95.\n• External absolute errors were 0.031 and 0.038.\n• Aggregate coefficient-sign stability was 92% across 500 resamples.\n• The most severe pre-specified shift reduced C-index by 0.04.","textPreview":"• External calibration slopes were 0.97 and 0.95. | • External absolute errors were 0.031 and 0.038. | • Aggregate coefficient-sign stabi...","textChars":230,"textLines":4,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/1g3698zi","slide":1,"name":"validation-evidence","text":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textPreview":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textChars":42,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/2hw72d03","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/ni5obiho","slide":1,"name":"performance-strip-text","text":"AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65","textPreview":"AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65","textChars":130,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/ojep4ni9","slide":1,"name":"biology-heading-title","text":"Calibration & stability","textPreview":"Calibration & stability","textChars":23,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/pkn6dszu","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/alw76x0f","slide":1,"name":"biology-1-value","text":"92%","textPreview":"92%","textChars":3,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/bm5ofihk","slide":1,"name":"biology-1-label","text":"coefficient-sign stability","textPreview":"coefficient-sign stability","textChars":26,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/7apo32xs","slide":1,"name":"biology-2-value","text":"0.97 / 0.95","textPreview":"0.97 / 0.95","textChars":11,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/mpgnuxw7","slide":1,"name":"biology-2-label","text":"external calibration slopes","textPreview":"external calibration slopes","textChars":27,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/9c765sfy","slide":1,"name":"biology-3-value","text":"0.031 / 0.038","textPreview":"0.031 / 0.038","textChars":13,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/8by5wned","slide":1,"name":"biology-3-label","text":"external absolute errors","textPreview":"external absolute errors","textChars":24,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/zm54zixw","slide":1,"name":"biology-evidence","text":"Evidence: Stability and calibration, p. 4","textPreview":"Evidence: Stability and calibration, p. 4","textChars":41,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/ylwnqdwb","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"textbox","id":"sh/kne5sneh","slide":1,"name":"figure-three-caption","text":"Figure 3 · Calibration and coefficient-sign stability","textPreview":"Figure 3 · Calibration and coefficient-sign stability","textChars":53,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/bi54vixk","slide":1,"name":"figure-three-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/ahwnmdwz","slide":1,"name":"validation-visual-heading-title","text":"Pre-specified stress test","textPreview":"Pre-specified stress test","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/0nalwjux","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/1oj254vi","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"textbox","id":"sh/fm1k3edc","slide":1,"name":"figure-four-caption","text":"Figure 4 · Stress-test boundary under increasing shift","textPreview":"Figure 4 · Stress-test boundary under increasing shift","textChars":54,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/orul0ju9","slide":1,"name":"figure-four-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/ps329ove","slide":1,"name":"conclusion-heading-title","text":"Supported conclusion","textPreview":"Supported conclusion","textChars":20,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/2pc3y9c3","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/nqlk7edo","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/4vq1ofep","slide":1,"name":"conclusion","text":"AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.","textPreview":"AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real ...","textChars":255,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/5wz2xkva","slide":1,"name":"conclusion-evidence","text":"Evidence: Discussion and Conclusion, p. 5","textPreview":"Evidence: Discussion and Conclusion, p. 5","textChars":41,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/90fipgb2","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/8z6hwvah","slide":1,"name":"footer-source","text":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textPreview":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textChars":85,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/7yx0nqtw","slide":1,"name":"footer-status","text":"Approvals current · synthetic boundary locked · editable logo placeholder","textPreview":"Approvals current · synthetic boundary locked · editable logo placeholder","textChars":73,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"image","id":"im/srmx8ja5","slide":1,"name":"","alt":"Deterministic generation, feature selection and four-cohort evaluation workflow","bbox":[160,1935,1180,942]}
+{"kind":"image","id":"im/mt4zqx4j","slide":1,"name":"","alt":"AURORA-12 and synthetic baseline concordance indices in four cohorts","bbox":[1440,1015,1395,1237]}
+{"kind":"image","id":"im/8n6lwbap","slide":1,"name":"","alt":"Calibration slopes, absolute errors and bootstrap stability summaries","bbox":[2935,985,1399,622]}
+{"kind":"image","id":"im/falo3utk","slide":1,"name":"","alt":"AURORA-12 concordance index under increasing synthetic shift","bbox":[2935,1845,1399,652]}
+{"kind":"notes","id":"nt/goohi3","slide":1,"text":"[Sources]\n- AURORA-12-synthetic-manuscript.pdf\n- palette approval sha256:c9834f95586be531d5d8667465b8d0525469d9de17a3f361d76c34ad4677c4ca\n- deletion approval sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b\n[/Sources]"}

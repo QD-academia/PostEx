@@ -6,6 +6,7 @@
   "license": "CC0-1.0",
   "fictional": true,
   "render_preview": true,
+  "homepage_palette": "paimon-cape-gradient",
   "research_type": "bioinformatics",
   "input_language": "en",
   "output_language": "en",

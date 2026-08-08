@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "passed": true,
   "real_paper_cases": 5,
-  "total_cases": 7,
+  "total_cases": 8,
   "errors": [],
   "results": [
     {
@@ -25,6 +25,13 @@
       "license": "CC0-1.0",
       "candidate_status": "fixture-only",
       "human_review_status": "not-applicable"
+    },
+    {
+      "case_id": "lumen-24-synthetic-observational",
+      "research_type": "observational",
+      "license": "CC0-1.0",
+      "candidate_status": "passed",
+      "human_review_status": "passed"
     },
     {
       "case_id": "plos-data-analysis-workflows",

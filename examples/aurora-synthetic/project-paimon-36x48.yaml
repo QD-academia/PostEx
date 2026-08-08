@@ -1,0 +1,44 @@
+schema_version: "0.1"
+project_id: aurora-synthetic
+title: "AURORA-12: a fully synthetic benchmark for evidence-linked poster generation"
+research_type: bioinformatics
+input_language: en
+output_language: en
+content_mode: traceable
+source:
+  type: pdf
+  path: AURORA-12-synthetic-manuscript.pdf
+  published: false
+  sha256: ddd3aad8b3ed4ba3a82beabf6172b6830d22b2ced40345cfd4cf743ca400e2a5
+provider:
+  name: local-only
+  model: none
+template:
+  family: bioinformatics-pipeline
+  size: 36x48-landscape
+branding:
+  logo_mode: placeholder
+  placeholders:
+    - id: fictional-lab-logo
+      role: institution
+      placement: header-right
+      label: "Fictional lab logo"
+privacy:
+  require_cloud_upload_approval: true
+  allow_network_palette_sources: false
+palette:
+  selected: paimon-cape-gradient-visual-signature
+  require_approval: true
+  lock_scientific_figure_colors: false
+  figure_variant_root: assets/figures/paimon
+artifacts:
+  content_plan: content-plan.json
+  evidence: evidence.json
+  deletion_proposal: deletion-proposal.json
+  palette_proposals: palette-proposals.json
+  approval_log: approval-log.json
+  render_content: render-content.json
+  figure_color_proposal: figure-color-proposal.json
+output:
+  directory: output/paimon-36x48
+  formats: [pptx, pdf, png, evidence, preflight]

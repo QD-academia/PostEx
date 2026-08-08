@@ -24,7 +24,7 @@
       "code": "minimum_font_size",
       "severity": "error",
       "passed": true,
-      "message": "Minimum primary text is 38.0 px; required >=37.3 px (28 pt)."
+      "message": "Minimum primary text is 38.0 px; required >=37.3 px (28 pt) for a0-landscape."
     },
     {
       "code": "dimensions.png",

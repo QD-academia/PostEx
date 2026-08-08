@@ -1,0 +1,23 @@
+schema_version: "0.1"
+source_id: POSTEX-SYNTH-OBS-2026-001
+title: "LUMEN-24: synthetic observational evidence audit"
+license: CC0-1.0
+fictional: true
+abstract:
+  background: "Observational posters must preserve cohort construction, confounder control, uncertainty and interpretation boundaries."
+  methods: "A fixed seed generated 2,400 synthetic records across three simulated centers. A pre-specified exposure, outcome, confounder set, inverse-probability weighting and negative-control outcome were authored as software fixtures."
+  results: "The authored adjusted hazard ratio was 1.18 with a 95% confidence interval of 1.05 to 1.32. The negative-control hazard ratio was 1.01."
+  conclusion: "LUMEN-24 tests traceable observational communication only and supports no causal, clinical or biological inference."
+methods:
+  cohorts: ["Center A n=960", "Center B n=840", "Center C n=600"]
+  total_records: 2400
+  adjustment: "Pre-specified inverse-probability weighting with authored covariates"
+  sensitivity: "Negative-control outcome and center-stratified estimates"
+results:
+  adjusted_hazard_ratio: 1.18
+  confidence_interval_95: [1.05, 1.32]
+  negative_control_hazard_ratio: 1.01
+  centers_consistent: 3
+limitations:
+  - "All values and records are synthetic."
+  - "The fixture cannot support causal, clinical or biological inference."

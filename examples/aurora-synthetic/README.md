@@ -22,7 +22,7 @@ The example includes:
 
 Final poster outputs are generated only after the proposal digests recorded in this directory have explicit approval.
 
-## Generate the three variants
+## Generate the three palette variants
 
 Initialize an Artifact Tool workspace, then run the variants sequentially:
 
@@ -44,6 +44,24 @@ Each output directory contains editable PPTX, print PDF, PNG preview, portable r
 |---|---|---|
 | Academic Safe | PostEx default teal, gold and neutral system | `output/default/` |
 | Balanced Fusion | User-image-derived teal, sky blue and restrained coral; source image omitted | `output/gate-image/` |
-| Visual Signature | Paimon-inspired navy-to-pale-blue cape gradient with a no-green guardrail | `output/paimon/` |
+| Visual Signature | Paimon-inspired midnight-navy-to-pale-blue cape gradient with starlight-gold accents | `output/paimon/` |
 
 The Paimon-inspired variant uses separately generated editable SVG copies only after the approved scientific-color unlock. It does not include Paimon artwork, screenshots, logos, fonts, or game assets.
+
+## Generate the Paimon-inspired size family
+
+The homepage size comparison is generated from the same fictional evidence plan and Palette DNA with size-specific layout and preflight rules:
+
+```bash
+postex generate examples/aurora-synthetic/project-paimon.yaml \
+  --artifact-workspace /path/to/artifact-workspace \
+  --office-executable /path/to/soffice
+postex generate examples/aurora-synthetic/project-paimon-a1.yaml \
+  --artifact-workspace /path/to/artifact-workspace \
+  --office-executable /path/to/soffice
+postex generate examples/aurora-synthetic/project-paimon-36x48.yaml \
+  --artifact-workspace /path/to/artifact-workspace \
+  --office-executable /path/to/soffice
+```
+
+The generated artifacts are stored in `output/paimon/`, `output/paimon-a1/`, and `output/paimon-36x48/`.

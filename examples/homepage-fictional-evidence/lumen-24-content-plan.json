@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "mode": "traceable",
+  "research_type": "observational",
+  "poster_size": "a0-landscape",
+  "language": "en",
+  "blocks": [
+    {
+      "block_id": "question",
+      "role": "research_question",
+      "text": "Can a synthetic multi-center cohort test whether PostEx preserves observational-study design and uncertainty?"
+    },
+    {
+      "block_id": "datasets",
+      "role": "datasets",
+      "text": "A fixed seed generated 2,400 synthetic records across 3 simulated centers: 960, 840 and 600 records."
+    },
+    {
+      "block_id": "pipeline",
+      "role": "analysis_pipeline",
+      "text": "Cohort construction -> pre-specified confounders -> inverse-probability weighting -> adjusted model -> negative-control and center sensitivity analyses."
+    },
+    {
+      "block_id": "result",
+      "role": "key_results",
+      "text": "The authored adjusted estimate was HR=1.18 with 95% CI 1.05-1.32."
+    },
+    {
+      "block_id": "validation",
+      "role": "external_validation",
+      "text": "All 3 simulated centers were directionally consistent; the negative-control estimate was HR=1.01."
+    },
+    {
+      "block_id": "conclusion",
+      "role": "conclusion",
+      "text": "LUMEN-24 is a traceability fixture for observational communication and supports no causal, clinical or biological inference."
+    }
+  ]
+}

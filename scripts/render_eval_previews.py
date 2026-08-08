@@ -13,6 +13,27 @@ CASES = ROOT / "evals" / "cases"
 OUTPUT = ROOT / "evals" / "previews"
 RUNNER = ROOT / "src" / "postex" / "renderers" / "artifact_renderer.mjs"
 
+DEFAULT_THEME = {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC",
+}
+
+PAIMON_CAPE_THEME = {
+    "ink": "#293F55",
+    "primary": "#3E5C78",
+    "secondary": "#487AA1",
+    "accent": "#E5BC6C",
+    "canvas": "#F6F2EE",
+    "panel": "#FFFFFF",
+    "neutral": "#DDE5E7",
+    "gradient_stops": ["#293F55", "#3E5C78", "#487AA1", "#89B8C9"],
+}
+
 
 def load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -26,6 +47,11 @@ def metric_value(item: dict) -> str:
     value = str(item["required_text"])
     tokens = re.findall(r"(?:[A-Za-z]{1,4}=)?\d[\d.,]*|[A-Za-z][A-Za-z0-9]*", value)
     return (tokens[0] if tokens else "FACT")[:10].rstrip(",.")
+
+
+def source_label(case: dict) -> str:
+    prefix = "Synthetic ID" if case.get("fictional", False) else "DOI"
+    return f"{prefix} {case['doi']}"
 
 
 def render_content(case: dict) -> dict:
@@ -57,7 +83,7 @@ def render_content(case: dict) -> dict:
         "title": case["title"],
         "authors": "Source-grounded PostEx evaluation fixture",
         "affiliations": f"{case['research_type'].title()} profile · {case['license']}",
-        "citation": f"DOI {case['doi']}",
+        "citation": source_label(case),
         "header_metrics": metric_items,
         "question_heading": "Communication objective",
         "question": "Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.",
@@ -97,15 +123,11 @@ def build_spec(case: dict) -> dict:
             "family": "bioinformatics-pipeline",
             "size": "a0-landscape",
         },
-        "theme": {
-            "ink": "#102A43",
-            "primary": "#0F5F73",
-            "secondary": "#2C8C99",
-            "accent": "#E8B44C",
-            "canvas": "#F6F8FA",
-            "panel": "#FFFFFF",
-            "neutral": "#D9E2EC",
-        },
+        "theme": (
+            PAIMON_CAPE_THEME
+            if case.get("homepage_palette") == "paimon-cape-gradient"
+            else DEFAULT_THEME
+        ),
         "branding": {
             "logo_mode": "placeholder",
             "placeholders": [
@@ -126,6 +148,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--artifact-workspace", required=True)
     parser.add_argument("--node", default=shutil.which("node"))
+    parser.add_argument("--case", action="append", default=[])
     args = parser.parse_args()
     if not args.node:
         raise SystemExit("Node.js was not found")
@@ -139,6 +162,8 @@ def main() -> int:
     rendered = 0
     for path in sorted(CASES.glob("*.json")):
         case = load(path)
+        if args.case and case["case_id"] not in set(args.case):
+            continue
         if case.get("fictional", False) and not case.get("render_preview", False):
             continue
         target = OUTPUT / case["case_id"]

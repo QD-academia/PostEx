@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1",
+  "project_id": "aurora-synthetic",
+  "poster_size": "a1-landscape",
+  "passed": true,
+  "expected_inches": [
+    33.11,
+    23.386
+  ],
+  "findings": [
+    {
+      "code": "artifacts",
+      "severity": "error",
+      "passed": true,
+      "message": "PPTX, PDF, PNG and layout JSON are present."
+    },
+    {
+      "code": "dimensions.layout",
+      "severity": "error",
+      "passed": true,
+      "message": "Layout is (3179, 2245); expected (3179, 2245) px."
+    },
+    {
+      "code": "minimum_font_size",
+      "severity": "error",
+      "passed": true,
+      "message": "Minimum primary text is 26.8 px; required >=26.7 px (20 pt) for a1-landscape."
+    },
+    {
+      "code": "dimensions.png",
+      "severity": "error",
+      "passed": true,
+      "message": "PNG is (3179, 2245); expected (3179, 2245) px."
+    },
+    {
+      "code": "dimensions.pdf",
+      "severity": "error",
+      "passed": true,
+      "message": "PDF has 1 page at 2384.25x1683.75 pt."
+    },
+    {
+      "code": "dimensions.pptx",
+      "severity": "error",
+      "passed": true,
+      "message": "PPTX is (30279975, 21383625); expected (30279975, 21383625) EMU."
+    },
+    {
+      "code": "evidence_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Evidence coverage is 1.000."
+    },
+    {
+      "code": "approvals",
+      "severity": "error",
+      "passed": true,
+      "message": "Deletion and palette approvals match current proposal digests."
+    },
+    {
+      "code": "branding",
+      "severity": "error",
+      "passed": true,
+      "message": "Logo mode is valid and all supplied logo files exist."
+    }
+  ]
+}

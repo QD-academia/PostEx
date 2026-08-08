@@ -50,6 +50,13 @@ REQUIRED_CHECKS = (
 )
 
 
+def _minimum_body_font(poster_size: PosterSize) -> tuple[float, float]:
+    """Return the print-size-specific body threshold in pixels and points."""
+
+    points = 20.0 if poster_size is PosterSize.A1_LANDSCAPE else 28.0
+    return points * 4.0 / 3.0, points
+
+
 def _finding(code: str, severity: str, passed: bool, message: str) -> dict[str, Any]:
     return {
         "code": code,
@@ -132,12 +139,15 @@ def run_artifact_preflight(
         )
     ]
     minimum_body = min(body_sizes) if body_sizes else 0.0
+    minimum_body_required, minimum_body_points = _minimum_body_font(poster_size)
     findings.append(
         _finding(
             "minimum_font_size",
             "error",
-            minimum_body >= 37.3,
-            f"Minimum primary text is {minimum_body:.1f} px; required >=37.3 px (28 pt).",
+            minimum_body >= minimum_body_required,
+            f"Minimum primary text is {minimum_body:.1f} px; required "
+            f">={minimum_body_required:.1f} px ({minimum_body_points:.0f} pt) "
+            f"for {poster_size.value}.",
         )
     )
 

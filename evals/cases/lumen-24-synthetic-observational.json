@@ -1,0 +1,40 @@
+{
+  "case_id": "lumen-24-synthetic-observational",
+  "title": "LUMEN-24: synthetic observational evidence audit",
+  "doi": "POSTEX-SYNTH-OBS-2026-001",
+  "source_url": "examples/homepage-fictional-evidence/lumen-24-source.yaml",
+  "license": "CC0-1.0",
+  "fictional": true,
+  "render_preview": true,
+  "homepage_palette": "paimon-cape-gradient",
+  "research_type": "observational",
+  "input_language": "en",
+  "output_language": "en",
+  "candidate": "../../examples/homepage-fictional-evidence/lumen-24-content-plan.json",
+  "facts": [
+    {"claim_id": "records", "required_text": "2,400"},
+    {"claim_id": "centers", "required_text": "3"},
+    {"claim_id": "adjusted-effect", "required_text": "HR=1.18"},
+    {"claim_id": "uncertainty", "required_text": "95% CI 1.05-1.32"},
+    {"claim_id": "negative-control", "required_text": "HR=1.01"}
+  ],
+  "expected_sections": [
+    "research_question",
+    "datasets",
+    "analysis_pipeline",
+    "key_results",
+    "external_validation",
+    "conclusion"
+  ],
+  "forbidden": [
+    "proves a causal effect",
+    "recommended for clinical use",
+    "validated biological association"
+  ],
+  "human_review": {
+    "source_figures_unchanged": true,
+    "negative_results_retained": true,
+    "limitations_visible": true,
+    "visual_status": "passed"
+  }
+}
