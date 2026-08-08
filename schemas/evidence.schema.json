@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.1/evidence.schema.json",
+  "title": "PostEx Evidence Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "project_id", "records"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "project_id": {"type": "string"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["evidence_id", "claim_id", "relation", "locator"],
+        "properties": {
+          "evidence_id": {"type": "string"},
+          "claim_id": {"type": "string"},
+          "relation": {"enum": ["direct", "paraphrase", "synthesis"]},
+          "excerpt_hash": {"type": ["string", "null"]},
+          "locator": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source_id", "kind"],
+            "properties": {
+              "source_id": {"type": "string"},
+              "kind": {"enum": ["page", "section", "figure", "table", "json-pointer"]},
+              "page": {"type": ["integer", "null"], "minimum": 1},
+              "section": {"type": ["string", "null"]},
+              "figure": {"type": ["string", "null"]},
+              "table": {"type": ["string", "null"]},
+              "json_pointer": {"type": ["string", "null"]}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

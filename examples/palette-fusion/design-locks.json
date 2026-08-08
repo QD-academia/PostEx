@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.2",
+  "locks": [
+    {
+      "target_id": "claim:external-validation",
+      "target_type": "copy",
+      "value_digest": "sha256:91ea14d0e779605ef58a8276639b10b6f2419bc527f8bf247d550da353b07abe",
+      "actor": "project-owner"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/approval.schema.json",
+  "title": "PostEx Approval Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject", "proposal_id", "digest", "decision", "actor", "decided_at"],
+  "properties": {
+    "subject": {
+      "enum": [
+        "cloud_upload", "content_deletion", "palette_application",
+        "scientific_color_unlock", "hero_result", "figure_edit",
+        "poster_structure", "final_release"
+      ]
+    },
+    "proposal_id": {"type": "string", "minLength": 1},
+    "digest": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+    "decision": {"enum": ["approved", "rejected", "revoked"]},
+    "actor": {"type": "string", "minLength": 1},
+    "decided_at": {"type": "string", "format": "date-time"}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "mode": "traceable",
+  "research_type": "bioinformatics",
+  "poster_size": "a0-landscape",
+  "language": "en",
+  "blocks": [
+    {
+      "block_id": "question",
+      "role": "research_question",
+      "text": "Can transcriptomic features of neutrophil extracellular trap formation predict prognosis across cancers?",
+      "evidence": ["p1-abstract", "p2-objective"]
+    },
+    {
+      "block_id": "pipeline",
+      "role": "analysis_pipeline",
+      "text": "69 initial biomarkers -> LASSO -> 24 non-zero genes -> correlation pruning -> 19-gene NETs score.",
+      "evidence": ["p2-biomarkers", "p3-construction", "fig1"]
+    },
+    {
+      "block_id": "datasets",
+      "role": "datasets",
+      "text": "TCGA pan-cancer n=8,739 across 32 tumor types (6,117 training; 2,622 test), with CGGA n=651, METABRIC n=1,868 and GEO n=2,459 external data.",
+      "evidence": ["p2-datasets"]
+    },
+    {
+      "block_id": "prognosis",
+      "role": "key_results",
+      "text": "Higher NETs score tracked worse DSS, OS and PFI and remained independently associated with OS in the TCGA test cohort (HR=1.22, p=0.0070).",
+      "evidence": ["p4-prognosis", "fig2"]
+    },
+    {
+      "block_id": "external",
+      "role": "external_validation",
+      "text": "External cohorts supported prognostic value in glioma and LUAD, but not consistently in breast cancer or LUSC.",
+      "evidence": ["p4-external", "fig3"]
+    },
+    {
+      "block_id": "biology",
+      "role": "key_results",
+      "text": "NETs activity correlated with EMT (R=0.7444), angiogenesis (R=0.5369) and cell cycle activity (R=0.3835); all p<0.0001.",
+      "evidence": ["p6-correlations", "fig5"]
+    },
+    {
+      "block_id": "ihc",
+      "role": "external_validation",
+      "text": "MPO staining stratified outcomes in COAD, KIRC and LUAD, but not TNBC; MPO remained independent in COAD and KIRC.",
+      "evidence": ["p7-ihc", "fig6"]
+    },
+    {
+      "block_id": "conclusion",
+      "role": "conclusion",
+      "text": "A transcriptomic NETs-formation signature captures clinically relevant, tumor-type-specific prognosis and malignant biology; broader marker and cancer-type validation is still needed.",
+      "evidence": ["p10-limitations", "p10-conclusion"]
+    }
+  ]
+}
+

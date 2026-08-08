@@ -1,0 +1,21 @@
+audience:
+  - bioinformatics researchers
+  - translational medicine collaborators
+conference: "Fictional biomedical research meeting"
+takeaway: "The external validation result is the clearest evidence that the workflow generalizes."
+emphasis: results
+must_keep:
+  - claim:external-validation
+  - figure:validation
+  - number:sample-size
+figure_edit_permission: ask
+logo_treatment: placeholder
+visual_tone:
+  - bright
+  - friendly
+  - celestial
+  - refined
+palette_source: "natural-language theme: Paimon-inspired starlight; no proprietary artwork included"
+content_mode: traceable
+allow_network_palette_sources: false
+allow_cloud_manuscript_processing: false

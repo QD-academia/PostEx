@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/design-locks.schema.json",
+  "title": "PostEx Design Locks",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "locks"],
+  "properties": {
+    "schema_version": {"const": "0.2"},
+    "locks": {
+      "type": "array", "uniqueItems": true,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["target_id", "target_type", "value_digest", "actor"],
+        "properties": {
+          "target_id": {"type": "string", "minLength": 1},
+          "target_type": {"enum": ["copy", "figure", "region", "palette-color", "layout", "logo"]},
+          "value_digest": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+          "actor": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

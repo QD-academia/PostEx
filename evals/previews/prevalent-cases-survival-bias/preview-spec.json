@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "canvas": {
+    "width": 4494,
+    "height": 3179
+  },
+  "template": {
+    "family": "bioinformatics-pipeline",
+    "size": "a0-landscape"
+  },
+  "theme": {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC"
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "content": {
+    "title": "Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates?",
+    "authors": "Source-grounded PostEx evaluation fixture",
+    "affiliations": "Observational profile · CC BY-NC-SA 3.0",
+    "citation": "DOI 10.1038/sj.bjc.6605062",
+    "header_metrics": [
+      {
+        "value": "4470",
+        "label": "total sample"
+      },
+      {
+        "value": "1231",
+        "label": "incident cases"
+      },
+      {
+        "value": "3239",
+        "label": "prevalent cases"
+      }
+    ],
+    "question_heading": "Communication objective",
+    "question": "Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.",
+    "question_evidence": "Evidence fixture: 10.1038/sj.bjc.6605062",
+    "pipeline_heading": "Required evidence structure",
+    "pipeline_steps": [
+      "Background",
+      "Cohort Construction",
+      "Baseline Characteristics",
+      "Statistical Model"
+    ],
+    "dataset_kicker": "SOURCE CONTRACT",
+    "datasets": "Input: full paper\nLicense: CC BY-NC-SA 3.0\nProfile: observational\nClaims checked: 4",
+    "dataset_evidence": "https://www.nature.com/articles/6605062",
+    "figure_one_heading": "Methods and source evidence",
+    "takeaway": "4470",
+    "takeaway_subtitle": "Key facts remain bound to the source and study design",
+    "takeaway_evidence": "Evidence fixture: 10.1038/sj.bjc.6605062",
+    "figure_two_heading": "Primary evidence",
+    "validation_heading": "Required factual anchors",
+    "validation": "• total sample: 4470\n• incident cases: 1231\n• prevalent cases: 3239\n• stage comparison p: P=0.90",
+    "validation_evidence": "Ground-truth case: prevalent-cases-survival-bias",
+    "performance_strip": "No unsupported numerical or causal expansion permitted",
+    "biology_heading": "Fact checks",
+    "biology_metrics": [
+      {
+        "value": "4470",
+        "label": "total sample"
+      },
+      {
+        "value": "1231",
+        "label": "incident cases"
+      },
+      {
+        "value": "3239",
+        "label": "prevalent cases"
+      }
+    ],
+    "biology_evidence": "Machine-checkable evaluation fixture",
+    "validation_visual_heading": "Independent evidence slot",
+    "conclusion_heading": "Interpretation boundary",
+    "conclusion": "Interpret findings only within the source study design, population, methods and reported uncertainty.",
+    "conclusion_evidence": "Source and license: 10.1038/sj.bjc.6605062 · CC BY-NC-SA 3.0",
+    "footer_source": "Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates? · CC BY-NC-SA 3.0",
+    "footer_status": "Evaluation preview · not a release poster",
+    "figures": [
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1038/sj.bjc.6605062"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1038/sj.bjc.6605062"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1038/sj.bjc.6605062"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1038/sj.bjc.6605062"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.nature.com/articles/6605062",
+    "License: CC BY-NC-SA 3.0"
+  ]
+}

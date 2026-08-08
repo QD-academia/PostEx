@@ -1,0 +1,25 @@
+schema_version: "0.1"
+project_id: fictional-cohort
+title: "虚构队列研究：暴露与结局的关联"
+research_type: observational
+input_language: zh-CN
+output_language: en
+content_mode: traceable
+source:
+  type: yaml
+  path: examples/fictional-research.yaml
+  published: false
+provider:
+  name: anthropic
+  model: replace-with-approved-model
+template:
+  family: observational-cohort
+  size: 36x48-landscape
+branding:
+  logo_mode: none
+privacy:
+  require_cloud_upload_approval: true
+  allow_network_palette_sources: false
+output:
+  directory: output/fictional-cohort
+  formats: [pptx, pdf, png, evidence, preflight]

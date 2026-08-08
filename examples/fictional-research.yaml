@@ -1,0 +1,12 @@
+license: CC0-1.0
+fictional: true
+title: "Fictional evidence for PostEx tests"
+abstract: "Synthetic content for workflow and layout testing; not a real study."
+methods:
+  design: "Synthetic demonstration only"
+  sample_size: 120
+results:
+  primary_effect: 1.25
+  confidence_interval: [1.05, 1.49]
+  note: "Numbers are invented and must never be presented as clinical evidence."
+

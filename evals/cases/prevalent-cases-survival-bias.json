@@ -1,0 +1,37 @@
+{
+  "case_id": "prevalent-cases-survival-bias",
+  "title": "Prevalent cases in observational studies of cancer survival: do they bias hazard ratio estimates?",
+  "doi": "10.1038/sj.bjc.6605062",
+  "source_url": "https://www.nature.com/articles/6605062",
+  "license": "CC BY-NC-SA 3.0",
+  "fictional": false,
+  "research_type": "observational",
+  "input_language": "en",
+  "output_language": "en",
+  "facts": [
+    {"claim_id": "total-sample", "required_text": "4470"},
+    {"claim_id": "incident-cases", "required_text": "1231"},
+    {"claim_id": "prevalent-cases", "required_text": "3239"},
+    {"claim_id": "stage-comparison-p", "required_text": "P=0.90"}
+  ],
+  "expected_sections": [
+    "background",
+    "cohort_construction",
+    "baseline_characteristics",
+    "statistical_model",
+    "primary_outcome",
+    "sensitivity_analysis",
+    "limitations"
+  ],
+  "forbidden": [
+    "prevalent cases never cause bias",
+    "proportional hazards assumption is unnecessary",
+    "left truncation can be ignored"
+  ],
+  "human_review": {
+    "left_truncation_visible": true,
+    "proportional_hazards_condition_visible": true,
+    "generalisability_limit_visible": true,
+    "visual_status": "passed"
+  }
+}

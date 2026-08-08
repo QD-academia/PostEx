@@ -1,0 +1,26 @@
+schema_version: "0.1"
+family: visual-results
+research_types: [bioinformatics, observational]
+license: CC-BY-4.0
+minimum_font_pt: {title: 72, body: 28, caption: 22}
+roles:
+  - one_sentence_question
+  - hero_result
+  - supporting_results
+  - methods_summary
+  - conclusion
+  - significance
+variants:
+  a0-landscape:
+    width_in: 46.811
+    height_in: 33.110
+    asset: a0-landscape/template.pptx
+  a1-landscape:
+    width_in: 33.110
+    height_in: 23.386
+    asset: a1-landscape/template.pptx
+  36x48-landscape:
+    width_in: 48
+    height_in: 36
+    asset: 36x48-landscape/template.pptx
+

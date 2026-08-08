@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "canvas": {
+    "width": 4494,
+    "height": 3179
+  },
+  "template": {
+    "family": "bioinformatics-pipeline",
+    "size": "a0-landscape"
+  },
+  "theme": {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC"
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "content": {
+    "title": "Circulating Concentrations of Vitamin B6 and Kidney Cancer Prognosis: A Prospective Case-Cohort Study",
+    "authors": "Source-grounded PostEx evaluation fixture",
+    "affiliations": "Observational profile · CC BY 4.0",
+    "citation": "DOI 10.1371/journal.pone.0140677",
+    "header_metrics": [
+      {
+        "value": "630",
+        "label": "sample size"
+      },
+      {
+        "value": "0.33",
+        "label": "all cause hr"
+      },
+      {
+        "value": "0.18",
+        "label": "all cause ci"
+      }
+    ],
+    "question_heading": "Communication objective",
+    "question": "Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.",
+    "question_evidence": "Evidence fixture: 10.1371/journal.pone.0140677",
+    "pipeline_heading": "Required evidence structure",
+    "pipeline_steps": [
+      "Background",
+      "Cohort Construction",
+      "Baseline Characteristics",
+      "Statistical Model"
+    ],
+    "dataset_kicker": "SOURCE CONTRACT",
+    "datasets": "Input: full paper\nLicense: CC BY 4.0\nProfile: observational\nClaims checked: 4",
+    "dataset_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4623509/",
+    "figure_one_heading": "Methods and source evidence",
+    "takeaway": "630",
+    "takeaway_subtitle": "Key facts remain bound to the source and study design",
+    "takeaway_evidence": "Evidence fixture: 10.1371/journal.pone.0140677",
+    "figure_two_heading": "Primary evidence",
+    "validation_heading": "Required factual anchors",
+    "validation": "• sample size: 630\n• all cause hr: 0.33\n• all cause ci: 0.18, 0.60\n• rcc death hr: 0.22",
+    "validation_evidence": "Ground-truth case: vitamin-b6-kidney-prognosis",
+    "performance_strip": "No unsupported numerical or causal expansion permitted",
+    "biology_heading": "Fact checks",
+    "biology_metrics": [
+      {
+        "value": "630",
+        "label": "sample size"
+      },
+      {
+        "value": "0.33",
+        "label": "all cause hr"
+      },
+      {
+        "value": "0.18",
+        "label": "all cause ci"
+      }
+    ],
+    "biology_evidence": "Machine-checkable evaluation fixture",
+    "validation_visual_heading": "Independent evidence slot",
+    "conclusion_heading": "Interpretation boundary",
+    "conclusion": "Interpret findings only within the source study design, population, methods and reported uncertainty.",
+    "conclusion_evidence": "Source and license: 10.1371/journal.pone.0140677 · CC BY 4.0",
+    "footer_source": "Circulating Concentrations of Vitamin B6 and Kidney Cancer Prognosis: A Prospective Case-Cohort Study · CC BY 4.0",
+    "footer_status": "Evaluation preview · not a release poster",
+    "figures": [
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0140677"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0140677"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0140677"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0140677"
+      }
+    ]
+  },
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4623509/",
+    "License: CC BY 4.0"
+  ]
+}

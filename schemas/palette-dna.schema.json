@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/palette-dna.schema.json",
+  "title": "PostEx Palette DNA",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["palette_id", "name", "source_type", "source_reference", "colors", "moods"],
+  "properties": {
+    "palette_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+    "name": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["default", "image", "theme", "brand", "manual"]},
+    "source_reference": {"type": "string", "minLength": 1},
+    "colors": {
+      "type": "array", "minItems": 6, "maxItems": 10,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["role", "hex", "ratio"],
+        "properties": {
+          "role": {"enum": ["canvas", "primary", "secondary", "highlight", "accent", "text", "surface", "muted", "positive", "negative"]},
+          "hex": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"},
+          "ratio": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+          "locked": {"type": "boolean"}
+        }
+      }
+    },
+    "moods": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "component_style": {"type": "object", "additionalProperties": {"type": "string"}},
+    "semantic_locks": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "simulations": {"type": "array", "uniqueItems": true, "items": {"enum": ["poster", "deuteranopia", "protanopia", "tritanopia", "grayscale", "print"]}}
+  }
+}

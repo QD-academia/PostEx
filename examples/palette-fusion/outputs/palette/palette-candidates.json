@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.2",
+  "candidates": [
+    {
+      "variant": "academic-safe",
+      "palette": {
+        "palette_id": "paimon-starlight-academic-safe",
+        "name": "Paimon Starlight · Academic Safe",
+        "source_type": "theme",
+        "source_reference": "User-authored theme description; no third-party image or game asset redistributed",
+        "colors": [
+          {
+            "role": "canvas",
+            "hex": "#F7F3ED",
+            "ratio": 0.55,
+            "locked": false
+          },
+          {
+            "role": "primary",
+            "hex": "#374769",
+            "ratio": 0.18,
+            "locked": false
+          },
+          {
+            "role": "secondary",
+            "hex": "#C8B3D1",
+            "ratio": 0.1,
+            "locked": false
+          },
+          {
+            "role": "highlight",
+            "hex": "#DBC18C",
+            "ratio": 0.07,
+            "locked": false
+          },
+          {
+            "role": "accent",
+            "hex": "#90BEC2",
+            "ratio": 0.05,
+            "locked": false
+          },
+          {
+            "role": "text",
+            "hex": "#20263A",
+            "ratio": 0.05,
+            "locked": true
+          }
+        ],
+        "moods": [
+          "bright",
+          "friendly",
+          "celestial",
+          "refined"
+        ],
+        "component_style": {
+          "cards": "anchored",
+          "connectors": "starlight",
+          "corners": "structured",
+          "ornament_density": "minimal"
+        },
+        "semantic_locks": [
+          "effect_direction",
+          "risk_level",
+          "significance"
+        ],
+        "simulations": [
+          "poster",
+          "deuteranopia",
+          "protanopia",
+          "grayscale",
+          "print"
+        ]
+      },
+      "recommendation": "Maximum conference formality and restrained theme expression."
+    },
+    {
+      "variant": "balanced-fusion",
+      "palette": {
+        "palette_id": "paimon-starlight-balanced-fusion",
+        "name": "Paimon Starlight · Balanced Fusion",
+        "source_type": "theme",
+        "source_reference": "User-authored theme description; no third-party image or game asset redistributed",
+        "colors": [
+          {
+            "role": "canvas",
+            "hex": "#F7F3ED",
+            "ratio": 0.55,
+            "locked": false
+          },
+          {
+            "role": "primary",
+            "hex": "#263E73",
+            "ratio": 0.18,
+            "locked": false
+          },
+          {
+            "role": "secondary",
+            "hex": "#C9A4D8",
+            "ratio": 0.1,
+            "locked": false
+          },
+          {
+            "role": "highlight",
+            "hex": "#F2C66D",
+            "ratio": 0.07,
+            "locked": false
+          },
+          {
+            "role": "accent",
+            "hex": "#7BC8CF",
+            "ratio": 0.05,
+            "locked": false
+          },
+          {
+            "role": "text",
+            "hex": "#20263A",
+            "ratio": 0.05,
+            "locked": true
+          }
+        ],
+        "moods": [
+          "bright",
+          "friendly",
+          "celestial",
+          "refined"
+        ],
+        "component_style": {
+          "cards": "floating",
+          "connectors": "starlight",
+          "corners": "soft",
+          "ornament_density": "restrained"
+        },
+        "semantic_locks": [
+          "effect_direction",
+          "risk_level",
+          "significance"
+        ],
+        "simulations": [
+          "poster",
+          "deuteranopia",
+          "protanopia",
+          "grayscale",
+          "print"
+        ]
+      },
+      "recommendation": "Recommended balance of scientific clarity and visual identity."
+    },
+    {
+      "variant": "visual-signature",
+      "palette": {
+        "palette_id": "paimon-starlight-visual-signature",
+        "name": "Paimon Starlight · Visual Signature",
+        "source_type": "theme",
+        "source_reference": "User-authored theme description; no third-party image or game asset redistributed",
+        "colors": [
+          {
+            "role": "canvas",
+            "hex": "#F7F3ED",
+            "ratio": 0.55,
+            "locked": false
+          },
+          {
+            "role": "primary",
+            "hex": "#1A387A",
+            "ratio": 0.18,
+            "locked": false
+          },
+          {
+            "role": "secondary",
+            "hex": "#CA99DE",
+            "ratio": 0.1,
+            "locked": false
+          },
+          {
+            "role": "highlight",
+            "hex": "#FFC95B",
+            "ratio": 0.07,
+            "locked": false
+          },
+          {
+            "role": "accent",
+            "hex": "#6BD1DA",
+            "ratio": 0.05,
+            "locked": false
+          },
+          {
+            "role": "text",
+            "hex": "#20263A",
+            "ratio": 0.05,
+            "locked": true
+          }
+        ],
+        "moods": [
+          "bright",
+          "friendly",
+          "celestial",
+          "refined"
+        ],
+        "component_style": {
+          "cards": "layered",
+          "connectors": "starlight",
+          "corners": "soft",
+          "ornament_density": "expressive"
+        },
+        "semantic_locks": [
+          "effect_direction",
+          "risk_level",
+          "significance"
+        ],
+        "simulations": [
+          "poster",
+          "deuteranopia",
+          "protanopia",
+          "grayscale",
+          "print"
+        ]
+      },
+      "recommendation": "Strongest theme expression for visually competitive settings."
+    }
+  ]
+}

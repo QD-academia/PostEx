@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.1/preflight-report.schema.json",
+  "title": "PostEx Preflight Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "project_id", "passed", "findings"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "project_id": {"type": "string"},
+    "passed": {"type": "boolean"},
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "severity", "message"],
+        "properties": {
+          "code": {"type": "string"},
+          "severity": {"enum": ["info", "warning", "error"]},
+          "message": {"type": "string"},
+          "location": {"type": ["string", "null"]},
+          "remediation": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}
+

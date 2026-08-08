@@ -1,0 +1,29 @@
+schema_version: "0.1"
+dimensions:
+  evidence_coverage:
+    weight: 0.30
+    threshold: 1.0
+    blocking: true
+  numerical_fidelity:
+    weight: 0.25
+    threshold: 1.0
+    blocking: true
+  conclusion_fidelity:
+    weight: 0.15
+    threshold: 0.95
+    blocking: true
+  poster_readability:
+    weight: 0.15
+    threshold: 0.85
+  visual_hierarchy:
+    weight: 0.10
+    threshold: 0.80
+  bilingual_terminology:
+    weight: 0.05
+    threshold: 0.90
+hard_gates:
+  - cloud_upload_approved
+  - deletions_approved
+  - palette_approved
+  - preflight_has_no_errors
+

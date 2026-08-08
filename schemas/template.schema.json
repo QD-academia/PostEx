@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.1/template.schema.json",
+  "title": "PostEx Official Template Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "family", "research_types", "license", "variants"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "family": {
+      "enum": ["bioinformatics-pipeline", "observational-cohort", "visual-results"]
+    },
+    "research_types": {
+      "type": "array",
+      "items": {"enum": ["bioinformatics", "observational"]},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "license": {"type": "string", "minLength": 1},
+    "roles": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "minimum_font_pt": {
+      "type": "object",
+      "required": ["title", "body", "caption"],
+      "properties": {
+        "title": {"type": "number"},
+        "body": {"type": "number"},
+        "caption": {"type": "number"}
+      }
+    },
+    "variants": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["a0-landscape", "a1-landscape", "36x48-landscape"],
+      "properties": {
+        "a0-landscape": {"$ref": "#/$defs/variant"},
+        "a1-landscape": {"$ref": "#/$defs/variant"},
+        "36x48-landscape": {"$ref": "#/$defs/variant"}
+      }
+    }
+  },
+  "$defs": {
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width_in", "height_in", "asset"],
+      "properties": {
+        "width_in": {"type": "number", "exclusiveMinimum": 0},
+        "height_in": {"type": "number", "exclusiveMinimum": 0},
+        "asset": {"type": "string", "minLength": 1},
+        "layout_spec": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

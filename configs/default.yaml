@@ -1,0 +1,30 @@
+schema_version: "0.2"
+defaults:
+  content_mode: traceable
+  input_language: en
+  output_language: en
+  provider: local-only
+  branding:
+    logo_mode: none
+  privacy:
+    require_cloud_upload_approval: true
+    allow_network_palette_sources: false
+  palette:
+    require_approval: true
+    lock_scientific_colors: true
+    required_roles: [canvas, primary, secondary, highlight, accent, text]
+    simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  fusion:
+    directions: [hero-result, visual-journey, editorial-story]
+    require_hero_approval: true
+    require_figure_edit_approval: true
+    require_structure_approval: true
+  deletion:
+    require_approval: true
+  outputs: [pptx, pdf, png, evidence, preflight, fusion-candidates, design-rationale]
+rendering:
+  canonical: pptx
+  pdf_export_preference: [powerpoint, libreoffice]
+preflight:
+  block_on_error: true
+  acknowledge_warnings: true

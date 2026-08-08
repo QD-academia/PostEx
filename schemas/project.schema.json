@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/project.schema.json",
+  "title": "PostEx Project",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "project_id", "title", "research_type",
+    "input_language", "output_language", "content_mode",
+    "source", "provider", "template"
+  ],
+  "properties": {
+    "schema_version": {"enum": ["0.1", "0.2"]},
+    "project_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "title": {"type": "string", "minLength": 1},
+    "research_type": {"enum": ["bioinformatics", "observational"]},
+    "input_language": {"enum": ["en", "zh-CN"]},
+    "output_language": {"enum": ["en", "zh-CN"]},
+    "content_mode": {"enum": ["verbatim", "traceable", "editorial"]},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "path"],
+      "properties": {
+        "type": {"enum": ["pdf", "latex", "yaml", "json"]},
+        "path": {"type": "string", "minLength": 1},
+        "published": {"type": "boolean", "default": false},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "model"],
+      "properties": {
+        "name": {"enum": ["openai", "anthropic", "local-only"]},
+        "model": {"type": "string", "minLength": 1}
+      }
+    },
+    "template": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family", "size"],
+      "properties": {
+        "family": {
+          "enum": ["bioinformatics-pipeline", "observational-cohort", "visual-results"]
+        },
+        "size": {"enum": ["a0-landscape", "a1-landscape", "36x48-landscape"]}
+      }
+    },
+    "branding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["logo_mode"],
+      "properties": {
+        "logo_mode": {"enum": ["none", "placeholder", "provided"]},
+        "logos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "role", "path", "placement"],
+            "properties": {
+              "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+              "role": {
+                "enum": ["institution", "laboratory", "funder", "conference", "other"]
+              },
+              "path": {"type": "string", "minLength": 1},
+              "placement": {
+                "enum": ["header-left", "header-right", "footer-left", "footer-right"]
+              },
+              "alt_text": {"type": "string"},
+              "license": {"type": "string"}
+            }
+          }
+        },
+        "placeholders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "role", "placement", "label"],
+            "properties": {
+              "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+              "role": {
+                "enum": ["institution", "laboratory", "funder", "conference", "other"]
+              },
+              "placement": {
+                "enum": ["header-left", "header-right", "footer-left", "footer-right"]
+              },
+              "label": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"logo_mode": {"const": "provided"}}},
+          "then": {
+            "required": ["logos"],
+            "properties": {"logos": {"minItems": 1}}
+          }
+        },
+        {
+          "if": {"properties": {"logo_mode": {"const": "placeholder"}}},
+          "then": {
+            "required": ["placeholders"],
+            "properties": {"placeholders": {"minItems": 1}}
+          }
+        },
+        {
+          "if": {"properties": {"logo_mode": {"const": "none"}}},
+          "then": {
+            "properties": {
+              "logos": {"maxItems": 0},
+              "placeholders": {"maxItems": 0}
+            }
+          }
+        }
+      ]
+    },
+    "poster_brief": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "status": {"enum": ["draft", "confirmed"]}
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "require_cloud_upload_approval": {"const": true},
+        "allow_network_palette_sources": {"type": "boolean"}
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["selected"],
+      "properties": {
+        "selected": {"type": "string", "minLength": 1},
+        "require_approval": {"const": true},
+        "lock_scientific_figure_colors": {"const": true}
+        ,"dna": {"type": "string", "minLength": 1}
+      }
+    },
+    "fusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "require_structure_approval": {"const": true},
+        "selected_candidate": {"type": "string", "minLength": 1},
+        "content_signals": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["hero_claim_id"],
+          "properties": {
+            "hero_claim_id": {"type": "string", "minLength": 1},
+            "main_visual_id": {"type": "string"},
+            "figure_count": {"type": "integer", "minimum": 0},
+            "table_count": {"type": "integer", "minimum": 0},
+            "methods_complexity": {"enum": ["low", "medium", "high"]}
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "content_plan": {"type": "string", "minLength": 1},
+        "evidence": {"type": "string", "minLength": 1},
+        "deletion_proposal": {"type": "string", "minLength": 1},
+        "palette_proposals": {"type": "string", "minLength": 1},
+        "approval_log": {"type": "string", "minLength": 1},
+        "render_content": {"type": "string", "minLength": 1}
+        ,"poster_brief": {"type": "string", "minLength": 1}
+        ,"palette_dna": {"type": "string", "minLength": 1}
+        ,"fusion_candidates": {"type": "string", "minLength": 1}
+        ,"design_rationale": {"type": "string", "minLength": 1}
+        ,"design_locks": {"type": "string", "minLength": 1}
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "directory": {"type": "string"},
+        "formats": {
+          "type": "array",
+          "items": {"enum": ["pptx", "pdf", "png", "evidence", "preflight", "design-rationale", "fusion-candidates"]},
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

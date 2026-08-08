@@ -1,0 +1,19 @@
+palette_id: paimon-starlight
+name: "Paimon Starlight"
+source_type: theme
+source_reference: "User-authored theme description; no third-party image or game asset redistributed"
+colors:
+  - {role: canvas, hex: "#F7F3ED", ratio: 0.55, locked: false}
+  - {role: primary, hex: "#263E73", ratio: 0.18, locked: false}
+  - {role: secondary, hex: "#C9A4D8", ratio: 0.10, locked: false}
+  - {role: highlight, hex: "#F2C66D", ratio: 0.07, locked: false}
+  - {role: accent, hex: "#7BC8CF", ratio: 0.05, locked: false}
+  - {role: text, hex: "#20263A", ratio: 0.05, locked: true}
+moods: [bright, friendly, celestial, refined]
+component_style:
+  cards: floating
+  corners: soft
+  connectors: starlight
+  ornament_density: restrained
+semantic_locks: [effect_direction, risk_level, significance]
+simulations: [poster, deuteranopia, protanopia, grayscale, print]

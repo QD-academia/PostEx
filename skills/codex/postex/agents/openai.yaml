@@ -1,0 +1,4 @@
+interface:
+  display_name: "PostEx Palette Fusion"
+  short_description: "Fuse research evidence with a custom visual identity"
+  default_prompt: "Use $postex to turn my research and visual inspiration into an evidence-linked Palette Fusion poster."

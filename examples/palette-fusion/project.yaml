@@ -1,0 +1,50 @@
+schema_version: "0.2"
+project_id: paimon-starlight-demo
+title: "Palette Fusion demonstration for a fictional RNA-seq study"
+research_type: bioinformatics
+input_language: en
+output_language: zh-CN
+content_mode: traceable
+source:
+  type: yaml
+  path: ../fictional-research.yaml
+  published: false
+provider:
+  name: local-only
+  model: none
+template:
+  family: bioinformatics-pipeline
+  size: a0-landscape
+branding:
+  logo_mode: placeholder
+  placeholders:
+    - id: institution-logo
+      role: institution
+      placement: header-right
+      label: "Institution logo"
+poster_brief:
+  path: poster-brief.yaml
+  status: confirmed
+privacy:
+  require_cloud_upload_approval: true
+  allow_network_palette_sources: false
+palette:
+  selected: paimon-starlight
+  dna: palette-dna.yaml
+  require_approval: true
+  lock_scientific_figure_colors: true
+fusion:
+  require_structure_approval: true
+  content_signals:
+    hero_claim_id: claim:external-validation
+    main_visual_id: figure:validation
+    figure_count: 5
+    table_count: 1
+    methods_complexity: high
+artifacts:
+  poster_brief: poster-brief.yaml
+  palette_dna: palette-dna.yaml
+  design_locks: design-locks.json
+output:
+  directory: outputs
+  formats: [pptx, pdf, png, evidence, preflight, design-rationale, fusion-candidates]

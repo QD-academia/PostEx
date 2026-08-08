@@ -1,0 +1,34 @@
+{
+  "case_id": "plos-rnaseq-tool-comparison",
+  "title": "A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data",
+  "doi": "10.1371/journal.pone.0103207",
+  "source_url": "https://doi.org/10.1371/journal.pone.0103207",
+  "license": "CC BY 4.0",
+  "fictional": false,
+  "research_type": "bioinformatics",
+  "input_language": "en",
+  "output_language": "en",
+  "facts": [
+    {"claim_id": "tools", "required_text": "Cuffdiff2, DESeq and edgeR"},
+    {"claim_id": "true-positive-result", "required_text": "edgeR performs slightly better"},
+    {"claim_id": "false-positive-caution", "required_text": "DESeq or taking the intersection"}
+  ],
+  "expected_sections": [
+    "research_question",
+    "datasets",
+    "analysis_pipeline",
+    "key_results",
+    "external_validation",
+    "conclusion"
+  ],
+  "forbidden": [
+    "edgeR is always superior",
+    "one method is optimal for every design",
+    "clinical recommendation"
+  ],
+  "human_review": {
+    "tradeoff_visible": true,
+    "benchmark_conditions_retained": true,
+    "visual_status": "passed"
+  }
+}

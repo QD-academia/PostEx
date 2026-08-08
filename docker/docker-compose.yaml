@@ -1,0 +1,13 @@
+services:
+  postex:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ../examples:/workspace/examples:ro
+      - ../output:/workspace/output
+    working_dir: /workspace
+    command: ["workflow-demo"]
+    environment:
+      POSTEX_TELEMETRY: "off"
+

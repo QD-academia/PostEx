@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PostEx design rationale</title>
+<style>
+:root{--ink:#20263a;--paper:#f7f3ed;--accent:#263e73}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#eef5ff,#fff8ef);color:var(--ink);font:16px/1.55 system-ui,sans-serif}main{max-width:1040px;margin:48px auto;padding:42px;background:#fff;border-radius:28px;box-shadow:0 20px 70px #263e7320}.eyebrow{color:#6b7190;font-weight:700;letter-spacing:.12em;text-transform:uppercase}h1{font-size:44px;line-height:1.05;margin:.25em 0}.takeaway{font-size:23px;color:#414a70}.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:12px}.swatch{padding:10px;border:1px solid #e7e8ef;border-radius:16px}.swatch span{display:block;height:88px;border-radius:11px;margin-bottom:8px}small{display:block;color:#73778c}section{margin-top:34px}li{margin:.55em 0}details{margin-top:32px}pre{overflow:auto;background:#171b2a;color:#eff3ff;padding:20px;border-radius:16px}
+</style><main><div class="eyebrow">PostEx Palette Fusion · explainable design</div>
+<h1>Paimon Starlight</h1><p class="takeaway">The external validation result is the clearest evidence that the workflow generalizes.</p>
+<section><h2>Palette DNA</h2><div class="swatches"><div class="swatch"><span style="background:#F7F3ED"></span><b>canvas</b><small>#F7F3ED · 55%</small></div><div class="swatch"><span style="background:#263E73"></span><b>primary</b><small>#263E73 · 18%</small></div><div class="swatch"><span style="background:#C9A4D8"></span><b>secondary</b><small>#C9A4D8 · 10%</small></div><div class="swatch"><span style="background:#F2C66D"></span><b>highlight</b><small>#F2C66D · 7%</small></div><div class="swatch"><span style="background:#7BC8CF"></span><b>accent</b><small>#7BC8CF · 5%</small></div><div class="swatch"><span style="background:#20263A"></span><b>text</b><small>#20263A · 5%</small></div></div></section>
+<section><h2>Why this design</h2><ul><li>Use claim:external-validation as the approved visual anchor.</li><li>Translate the bright, friendly, celestial, refined palette mood into visual-journey composition.</li><li>Prioritize results while preserving every must-keep item.</li><li>Keep scientific semantic colors locked unless separately approved.</li></ul></section>
+<section><h2>Scientific guardrails</h2><ul><li>Claim and numeric evidence links remain stable across design variants.</li><li>Scientific semantic colors remain locked unless separately approved.</li><li>Figure crop, split, or recomposition requires a digest-bound approval.</li></ul></section>
+<details><summary>Machine-readable rationale</summary><pre>{
+  &quot;schema_version&quot;: &quot;0.2&quot;,
+  &quot;palette&quot;: {
+    &quot;palette_id&quot;: &quot;paimon-starlight&quot;,
+    &quot;name&quot;: &quot;Paimon Starlight&quot;,
+    &quot;source_type&quot;: &quot;theme&quot;,
+    &quot;source_reference&quot;: &quot;User-authored theme description; no third-party image or game asset redistributed&quot;,
+    &quot;colors&quot;: [
+      {
+        &quot;role&quot;: &quot;canvas&quot;,
+        &quot;hex&quot;: &quot;#F7F3ED&quot;,
+        &quot;ratio&quot;: 0.55,
+        &quot;locked&quot;: false
+      },
+      {
+        &quot;role&quot;: &quot;primary&quot;,
+        &quot;hex&quot;: &quot;#263E73&quot;,
+        &quot;ratio&quot;: 0.18,
+        &quot;locked&quot;: false
+      },
+      {
+        &quot;role&quot;: &quot;secondary&quot;,
+        &quot;hex&quot;: &quot;#C9A4D8&quot;,
+        &quot;ratio&quot;: 0.1,
+        &quot;locked&quot;: false
+      },
+      {
+        &quot;role&quot;: &quot;highlight&quot;,
+        &quot;hex&quot;: &quot;#F2C66D&quot;,
+        &quot;ratio&quot;: 0.07,
+        &quot;locked&quot;: false
+      },
+      {
+        &quot;role&quot;: &quot;accent&quot;,
+        &quot;hex&quot;: &quot;#7BC8CF&quot;,
+        &quot;ratio&quot;: 0.05,
+        &quot;locked&quot;: false
+      },
+      {
+        &quot;role&quot;: &quot;text&quot;,
+        &quot;hex&quot;: &quot;#20263A&quot;,
+        &quot;ratio&quot;: 0.05,
+        &quot;locked&quot;: true
+      }
+    ],
+    &quot;moods&quot;: [
+      &quot;bright&quot;,
+      &quot;friendly&quot;,
+      &quot;celestial&quot;,
+      &quot;refined&quot;
+    ],
+    &quot;component_style&quot;: {
+      &quot;cards&quot;: &quot;floating&quot;,
+      &quot;connectors&quot;: &quot;starlight&quot;,
+      &quot;corners&quot;: &quot;soft&quot;,
+      &quot;ornament_density&quot;: &quot;restrained&quot;
+    },
+    &quot;semantic_locks&quot;: [
+      &quot;effect_direction&quot;,
+      &quot;risk_level&quot;,
+      &quot;significance&quot;
+    ],
+    &quot;simulations&quot;: [
+      &quot;poster&quot;,
+      &quot;deuteranopia&quot;,
+      &quot;protanopia&quot;,
+      &quot;grayscale&quot;,
+      &quot;print&quot;
+    ]
+  },
+  &quot;structure&quot;: {
+    &quot;candidate_id&quot;: &quot;paimon-starlight-visual-journey&quot;,
+    &quot;direction&quot;: &quot;visual-journey&quot;,
+    &quot;palette_id&quot;: &quot;paimon-starlight&quot;,
+    &quot;brief_digest&quot;: &quot;sha256:0aa2bd9b27fcb308ea33d7c8a3f400848148c495cbf29e97e422a5a536eb12b4&quot;,
+    &quot;hero_claim_id&quot;: &quot;claim:external-validation&quot;,
+    &quot;layout_weights&quot;: {
+      &quot;hero&quot;: 0.18,
+      &quot;methods&quot;: 0.288,
+      &quot;results&quot;: 0.406,
+      &quot;impact&quot;: 0.126
+    },
+    &quot;component_style&quot;: {
+      &quot;cards&quot;: &quot;floating&quot;,
+      &quot;flow&quot;: &quot;directional&quot;,
+      &quot;ornament&quot;: &quot;rhythmic&quot;,
+      &quot;corners&quot;: &quot;soft&quot;,
+      &quot;connectors&quot;: &quot;starlight&quot;,
+      &quot;ornament_density&quot;: &quot;restrained&quot;
+    },
+    &quot;rationale&quot;: [
+      &quot;Use claim:external-validation as the approved visual anchor.&quot;,
+      &quot;Translate the bright, friendly, celestial, refined palette mood into visual-journey composition.&quot;,
+      &quot;Prioritize results while preserving every must-keep item.&quot;,
+      &quot;Keep scientific semantic colors locked unless separately approved.&quot;
+    ],
+    &quot;recommended&quot;: true
+  },
+  &quot;audience&quot;: [
+    &quot;bioinformatics researchers&quot;,
+    &quot;translational medicine collaborators&quot;
+  ],
+  &quot;takeaway&quot;: &quot;The external validation result is the clearest evidence that the workflow generalizes.&quot;,
+  &quot;must_keep&quot;: [
+    &quot;claim:external-validation&quot;,
+    &quot;figure:validation&quot;,
+    &quot;number:sample-size&quot;
+  ],
+  &quot;decisions&quot;: [
+    &quot;Use claim:external-validation as the approved visual anchor.&quot;,
+    &quot;Translate the bright, friendly, celestial, refined palette mood into visual-journey composition.&quot;,
+    &quot;Prioritize results while preserving every must-keep item.&quot;,
+    &quot;Keep scientific semantic colors locked unless separately approved.&quot;
+  ],
+  &quot;scientific_guardrails&quot;: [
+    &quot;Claim and numeric evidence links remain stable across design variants.&quot;,
+    &quot;Scientific semantic colors remain locked unless separately approved.&quot;,
+    &quot;Figure crop, split, or recomposition requires a digest-bound approval.&quot;
+  ]
+}</pre></details></main></html>

@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "source": "SCI02JITC.pdf",
+  "source_doi": "10.1136/jitc-2021-004210",
+  "records": [
+    {"evidence_id": "p1-abstract", "page": 1, "section": "Abstract", "relation": "paraphrase"},
+    {"evidence_id": "p2-objective", "page": 2, "section": "Introduction", "relation": "paraphrase"},
+    {"evidence_id": "p2-biomarkers", "page": 2, "section": "NETs-initial biomarkers", "relation": "direct"},
+    {"evidence_id": "p2-datasets", "page": 2, "section": "Patients and data sets", "relation": "direct"},
+    {"evidence_id": "p3-construction", "page": 3, "section": "Identification of a 19-gene signature", "relation": "paraphrase"},
+    {"evidence_id": "p4-prognosis", "page": 4, "section": "Panorama of NETs score", "relation": "direct"},
+    {"evidence_id": "p4-external", "page": 4, "section": "External validation", "relation": "paraphrase"},
+    {"evidence_id": "p6-correlations", "page": 6, "section": "NETs signature and malignant features", "relation": "direct"},
+    {"evidence_id": "p7-ihc", "page": 7, "section": "Clinical cohorts", "relation": "paraphrase"},
+    {"evidence_id": "p10-limitations", "page": 10, "section": "Discussion", "relation": "paraphrase"},
+    {"evidence_id": "p10-conclusion", "page": 10, "section": "Conclusions", "relation": "paraphrase"},
+    {"evidence_id": "fig1", "page": 4, "figure": "Figure 1", "relation": "direct"},
+    {"evidence_id": "fig2", "page": 5, "figure": "Figure 2", "relation": "direct"},
+    {"evidence_id": "fig3", "page": 6, "figure": "Figure 3", "relation": "direct"},
+    {"evidence_id": "fig5", "page": 8, "figure": "Figure 5", "relation": "direct"},
+    {"evidence_id": "fig6", "page": 9, "figure": "Figure 6", "relation": "direct"}
+  ]
+}
+

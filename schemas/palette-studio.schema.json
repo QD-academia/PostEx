@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/palette-studio.schema.json",
+  "title": "PostEx Palette Studio Candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "candidates"],
+  "properties": {
+    "schema_version": {"const": "0.2"},
+    "candidates": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["variant", "palette", "recommendation"],
+        "properties": {
+          "variant": {"enum": ["academic-safe", "balanced-fusion", "visual-signature"]},
+          "palette": {"type": "object"},
+          "recommendation": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

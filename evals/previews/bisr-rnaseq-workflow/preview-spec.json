@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "canvas": {
+    "width": 4494,
+    "height": 3179
+  },
+  "template": {
+    "family": "bioinformatics-pipeline",
+    "size": "a0-landscape"
+  },
+  "theme": {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC"
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "content": {
+    "title": "BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation",
+    "authors": "Source-grounded PostEx evaluation fixture",
+    "affiliations": "Bioinformatics profile · CC BY 4.0",
+    "citation": "DOI 10.1186/s12859-019-3251-8",
+    "header_metrics": [
+      {
+        "value": "GSE48403",
+        "label": "demo dataset"
+      },
+      {
+        "value": "HISAT2",
+        "label": "aligner"
+      },
+      {
+        "value": "R",
+        "label": "report"
+      }
+    ],
+    "question_heading": "Communication objective",
+    "question": "Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.",
+    "question_evidence": "Evidence fixture: 10.1186/s12859-019-3251-8",
+    "pipeline_heading": "Required evidence structure",
+    "pipeline_steps": [
+      "Research Question",
+      "Datasets",
+      "Analysis Pipeline",
+      "Key Results"
+    ],
+    "dataset_kicker": "SOURCE CONTRACT",
+    "datasets": "Input: full paper\nLicense: CC BY 4.0\nProfile: bioinformatics\nClaims checked: 3",
+    "dataset_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/",
+    "figure_one_heading": "Methods and source evidence",
+    "takeaway": "GSE48403",
+    "takeaway_subtitle": "Key facts remain bound to the source and study design",
+    "takeaway_evidence": "Evidence fixture: 10.1186/s12859-019-3251-8",
+    "figure_two_heading": "Primary evidence",
+    "validation_heading": "Required factual anchors",
+    "validation": "• demo dataset: GSE48403\n• aligner: HISAT2\n• report: R Shiny",
+    "validation_evidence": "Ground-truth case: bisr-rnaseq-workflow",
+    "performance_strip": "No unsupported numerical or causal expansion permitted",
+    "biology_heading": "Fact checks",
+    "biology_metrics": [
+      {
+        "value": "GSE48403",
+        "label": "demo dataset"
+      },
+      {
+        "value": "HISAT2",
+        "label": "aligner"
+      },
+      {
+        "value": "R",
+        "label": "report"
+      }
+    ],
+    "biology_evidence": "Machine-checkable evaluation fixture",
+    "validation_visual_heading": "Independent evidence slot",
+    "conclusion_heading": "Interpretation boundary",
+    "conclusion": "Interpret findings only within the source study design, population, methods and reported uncertainty.",
+    "conclusion_evidence": "Source and license: 10.1186/s12859-019-3251-8 · CC BY 4.0",
+    "footer_source": "BISR-RNAseq: an efficient and scalable RNAseq analysis workflow with interactive report generation · CC BY 4.0",
+    "footer_status": "Evaluation preview · not a release poster",
+    "figures": [
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1186/s12859-019-3251-8"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1186/s12859-019-3251-8"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1186/s12859-019-3251-8"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1186/s12859-019-3251-8"
+      }
+    ]
+  },
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6923898/",
+    "License: CC BY 4.0"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.2",
+  "candidates": [
+    {
+      "candidate_id": "paimon-starlight-hero-result",
+      "direction": "hero-result",
+      "palette_id": "paimon-starlight",
+      "brief_digest": "sha256:0aa2bd9b27fcb308ea33d7c8a3f400848148c495cbf29e97e422a5a536eb12b4",
+      "hero_claim_id": "claim:external-validation",
+      "layout_weights": {
+        "hero": 0.378,
+        "methods": 0.162,
+        "results": 0.352,
+        "impact": 0.108
+      },
+      "component_style": {
+        "cards": "floating",
+        "flow": "focused",
+        "ornament": "minimal",
+        "corners": "soft",
+        "connectors": "starlight",
+        "ornament_density": "restrained"
+      },
+      "rationale": [
+        "Use claim:external-validation as the approved visual anchor.",
+        "Translate the bright, friendly, celestial, refined palette mood into hero-result composition.",
+        "Prioritize results while preserving every must-keep item.",
+        "Keep scientific semantic colors locked unless separately approved."
+      ],
+      "recommended": false
+    },
+    {
+      "candidate_id": "paimon-starlight-visual-journey",
+      "direction": "visual-journey",
+      "palette_id": "paimon-starlight",
+      "brief_digest": "sha256:0aa2bd9b27fcb308ea33d7c8a3f400848148c495cbf29e97e422a5a536eb12b4",
+      "hero_claim_id": "claim:external-validation",
+      "layout_weights": {
+        "hero": 0.18,
+        "methods": 0.288,
+        "results": 0.406,
+        "impact": 0.126
+      },
+      "component_style": {
+        "cards": "floating",
+        "flow": "directional",
+        "ornament": "rhythmic",
+        "corners": "soft",
+        "connectors": "starlight",
+        "ornament_density": "restrained"
+      },
+      "rationale": [
+        "Use claim:external-validation as the approved visual anchor.",
+        "Translate the bright, friendly, celestial, refined palette mood into visual-journey composition.",
+        "Prioritize results while preserving every must-keep item.",
+        "Keep scientific semantic colors locked unless separately approved."
+      ],
+      "recommended": true
+    },
+    {
+      "candidate_id": "paimon-starlight-editorial-story",
+      "direction": "editorial-story",
+      "palette_id": "paimon-starlight",
+      "brief_digest": "sha256:0aa2bd9b27fcb308ea33d7c8a3f400848148c495cbf29e97e422a5a536eb12b4",
+      "hero_claim_id": "claim:external-validation",
+      "layout_weights": {
+        "hero": 0.27,
+        "methods": 0.144,
+        "results": 0.334,
+        "impact": 0.252
+      },
+      "component_style": {
+        "cards": "floating",
+        "flow": "asymmetric",
+        "ornament": "expressive",
+        "corners": "soft",
+        "connectors": "starlight",
+        "ornament_density": "restrained"
+      },
+      "rationale": [
+        "Use claim:external-validation as the approved visual anchor.",
+        "Translate the bright, friendly, celestial, refined palette mood into editorial-story composition.",
+        "Prioritize results while preserving every must-keep item.",
+        "Keep scientific semantic colors locked unless separately approved."
+      ],
+      "recommended": false
+    }
+  ]
+}

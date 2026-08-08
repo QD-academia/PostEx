@@ -1,0 +1,96 @@
+{"kind":"deck","id":"pr/wwkgne","name":"Deck"}
+{"kind":"layout","layoutId":"7fe701ea-85a1-41aa-b734-9048f25bd4a7","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"a0b2f917-2edf-4819-805a-63ede126636b","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3yihfl","slide":1,"title":"Evidence-traceable bioinformatics poster title","textShapes":61}
+{"kind":"shape","id":"sh/f694zyd8","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/g7i5s3ut","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/18rm18ve","slide":1,"name":"poster-title","text":"Evidence-traceable bioinformatics poster title","textPreview":"Evidence-traceable bioinformatics poster title","textChars":46,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/61gnmtwr","slide":1,"name":"authors","text":"Author names","textPreview":"Author names","textChars":12,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/r2p4vedc","slide":1,"name":"affiliations","text":"Institutions and collaborating centers","textPreview":"Institutions and collaborating centers","textChars":38,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/s3y5ojex","slide":1,"name":"citation","text":"Journal or conference · DOI","textPreview":"Journal or conference · DOI","textChars":27,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/t47mxovi","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/ixg3i9wv","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/jyp4redg","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/rmtsnixg","slide":1,"name":"header-metric-1-value","text":"N","textPreview":"N","textChars":1,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/qlkbedwv","slide":1,"name":"header-metric-1-label","text":"signature features","textPreview":"signature features","textChars":18,"textLines":1,"bbox":[3440,322,260,88]}
+{"kind":"textbox","id":"sh/dobup8f6","slide":1,"name":"header-metric-2-value","text":"N","textPreview":"N","textChars":1,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/cn2tgne1","slide":1,"name":"header-metric-2-label","text":"discovery samples","textPreview":"discovery samples","textChars":17,"textLines":1,"bbox":[3740,322,260,88]}
+{"kind":"textbox","id":"sh/zqdcrixc","slide":1,"name":"header-metric-3-value","text":"N","textPreview":"N","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/epkbidwr","slide":1,"name":"header-metric-3-label","text":"validation cohorts","textPreview":"validation cohorts","textChars":18,"textLines":1,"bbox":[4040,322,260,88]}
+{"kind":"textbox","id":"sh/1svutsfi","slide":1,"name":"question-title","text":"Research question","textPreview":"Research question","textChars":17,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/0rmtknex","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/vu9sfyx8","slide":1,"name":"research-question","text":"State the biological or clinical question in two concise sentences.","textPreview":"State the biological or clinical question in two concise sentences.","textChars":67,"textLines":1,"bbox":[140,682,1220,235]}
+{"kind":"textbox","id":"sh/ut0b6twn","slide":1,"name":"question-evidence","text":"Evidence: source page or section","textPreview":"Evidence: source page or section","textChars":32,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/yp8vu1gb","slide":1,"name":"pipeline-title","text":"Analysis pipeline","textPreview":"Analysis pipeline","textChars":17,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/jahwn6hw","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/kbqxwry1","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/lczepwzm","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/alovqhgz","slide":1,"name":"pipeline-1-text","text":"Input biomarkers or features","textPreview":"Input biomarkers or features","textChars":28,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/bmxwjmhk","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/wn6dsry5","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/xofelwzq","slide":1,"name":"pipeline-2-text","text":"Feature selection","textPreview":"Feature selection","textChars":17,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/mh4vmhg3","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/nixwfmho","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/ponqh4ni","slide":1,"name":"pipeline-3-text","text":"Model construction","textPreview":"Model construction","textChars":18,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/4nep8zmx","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/3m58fe5c","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/2lc7694r","slide":1,"name":"pipeline-4-text","text":"Independent validation","textPreview":"Independent validation","textChars":22,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/hk3qd4n6","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/gjup4zml","slide":1,"name":"dataset-kicker","text":"DATA FOUNDATION","textPreview":"DATA FOUNDATION","textChars":15,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/fil8bu50","slide":1,"name":"datasets","text":"Discovery cohort\nTraining and test split\nExternal validation\nOrthogonal validation","textPreview":"Discovery cohort | Training and test split | External validation | Orthogonal validation","textChars":82,"textLines":4,"bbox":[168,1495,1164,230]}
+{"kind":"textbox","id":"sh/uhc72p4v","slide":1,"name":"dataset-evidence","text":"Evidence: methods and dataset table","textPreview":"Evidence: methods and dataset table","textChars":35,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/tg3q9kna","slide":1,"name":"figure-one-heading-title","text":"From features to signature","textPreview":"From features to signature","textChars":26,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/sfup0fmp","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/872pkzi9","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/98bqt4ju","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/mlk7ip0j","slide":1,"name":"figure-one-placeholder-label","text":"SCIENTIFIC FIGURE","textPreview":"SCIENTIFIC FIGURE","textChars":17,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/7mt8ru1o","slide":1,"name":"figure-one-caption","text":"Figure caption","textPreview":"Figure caption","textChars":14,"textLines":1,"bbox":[164,2883,1172,42]}
+{"kind":"textbox","id":"sh/wbmpozil","slide":1,"name":"figure-one-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[164,2916,1172,38]}
+{"kind":"shape","id":"sh/hcvqx4j6","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/u9k7m90f","slide":1,"name":"central-takeaway-title","text":"Place the single most important result here","textPreview":"Place the single most important result here","textChars":43,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/vat8ve10","slide":1,"name":"central-takeaway-subtitle","text":"Explain what the result means for the audience","textPreview":"Explain what the result means for the audience","textChars":46,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/cfipcfi1","slide":1,"name":"takeaway-evidence","text":"Evidence: result section and figure","textPreview":"Evidence: result section and figure","textChars":35,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/xgr6lkjm","slide":1,"name":"figure-two-heading-title","text":"Primary performance","textPreview":"Primary performance","textChars":19,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/faxsril4","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/e9obidkz","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/1czatsja","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/0bqtkn2p","slide":1,"name":"figure-two-placeholder-label","text":"SCIENTIFIC FIGURE","textPreview":"SCIENTIFIC FIGURE","textChars":17,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/r6xsnyl8","slide":1,"name":"figure-two-caption","text":"Figure caption","textPreview":"Figure caption","textChars":14,"textLines":1,"bbox":[1444,2258,1387,42]}
+{"kind":"textbox","id":"sh/65oredkn","slide":1,"name":"figure-two-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[1444,2291,1387,38]}
+{"kind":"textbox","id":"sh/t8fap83e","slide":1,"name":"validation-heading-title","text":"Independent and external validation","textPreview":"Independent and external validation","textChars":35,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/s76tg32t","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/j2dsjylc","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/i14ratkr","slide":1,"name":"validation","text":"• Primary adjusted result\n• External validation\n• Negative or inconsistent findings\n• Interpretation boundary","textPreview":"• Primary adjusted result | • External validation | • Negative or inconsistent findings | • Interpretation boundary","textChars":109,"textLines":4,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/md4b2t4j","slide":1,"name":"validation-evidence","text":"Evidence: result pages","textPreview":"Evidence: result pages","textChars":22,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/7edcvy54","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/8fmt43mp","slide":1,"name":"performance-strip-text","text":"Primary performance statistic or calibrated model comparison","textPreview":"Primary performance statistic or calibrated model comparison","textChars":60,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/90vux8nu","slide":1,"name":"biology-heading-title","text":"Biological interpretation","textPreview":"Biological interpretation","textChars":25,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/u14b6t4f","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/v2dczy50","slide":1,"name":"biology-1-value","text":"Effect","textPreview":"Effect","textChars":6,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/w36t83ml","slide":1,"name":"biology-1-label","text":"program or pathway","textPreview":"program or pathway","textChars":18,"textLines":1,"bbox":[2915,772,420,88]}
+{"kind":"textbox","id":"sh/h4fu18n6","slide":1,"name":"biology-2-value","text":"Effect","textPreview":"Effect","textChars":6,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/i5obad4r","slide":1,"name":"biology-2-label","text":"program or pathway","textPreview":"program or pathway","textChars":18,"textLines":1,"bbox":[3390,772,420,88]}
+{"kind":"textbox","id":"sh/j6xc3i5c","slide":1,"name":"biology-3-value","text":"Effect","textPreview":"Effect","textChars":6,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/dcjmpgbq","slide":1,"name":"biology-3-label","text":"program or pathway","textPreview":"program or pathway","textChars":18,"textLines":1,"bbox":[3865,772,420,88]}
+{"kind":"textbox","id":"sh/cba5gba5","slide":1,"name":"biology-evidence","text":"Evidence: biological analysis","textPreview":"Evidence: biological analysis","textChars":29,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/ra14n6tk","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/q9sne1sz","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/1036tgbm","slide":1,"name":"figure-three-placeholder-label","text":"SCIENTIFIC FIGURE","textPreview":"SCIENTIFIC FIGURE","textChars":17,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/0fa5kba1","slide":1,"name":"figure-three-caption","text":"Figure caption","textPreview":"Figure caption","textChars":14,"textLines":1,"bbox":[2939,1613,1391,42]}
+{"kind":"textbox","id":"sh/ze1or6tg","slide":1,"name":"figure-three-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[2939,1646,1391,38]}
+{"kind":"textbox","id":"sh/edsni1sb","slide":1,"name":"validation-visual-heading-title","text":"Orthogonal validation","textPreview":"Orthogonal validation","textChars":21,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/9436x0by","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/o3u5ovad","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/wv6poz6d","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/xwz6x4ny","slide":1,"name":"figure-four-placeholder-label","text":"SCIENTIFIC FIGURE","textPreview":"SCIENTIFIC FIGURE","textChars":17,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/ato7m9o7","slide":1,"name":"figure-four-caption","text":"Figure caption","textPreview":"Figure caption","textChars":14,"textLines":1,"bbox":[2939,2503,1391,42]}
+{"kind":"textbox","id":"sh/vuxovu5s","slide":1,"name":"figure-four-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[2939,2536,1391,38]}
+{"kind":"textbox","id":"sh/8r6pkz6h","slide":1,"name":"conclusion-heading-title","text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/9sf6t4nm","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/mpo7ipob","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/nqxoru5w","slide":1,"name":"conclusion","text":"State the supported conclusion and retain the most important limitation.","textPreview":"State the supported conclusion and retain the most important limitation.","textChars":72,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/03mpgf65","slide":1,"name":"conclusion-evidence","text":"Evidence: discussion and conclusion","textPreview":"Evidence: discussion and conclusion","textChars":35,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/l4v6pknq","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/3yd8za9c","slide":1,"name":"footer-source","text":"Source citation · content mode · asset license","textPreview":"Source citation · content mode · asset license","textChars":46,"textLines":1,"bbox":[140,3107,3000,42]}
+{"kind":"textbox","id":"sh/2x47q587","slide":1,"name":"footer-status","text":"Approval status · scientific colors locked","textPreview":"Approval status · scientific colors locked","textChars":42,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"notes","id":"nt/3yihfl","slide":1,"text":"[Sources]\n- PostEx official template asset; CC BY 4.0\n- No third-party logo or scientific figure is embedded\n[/Sources]"}

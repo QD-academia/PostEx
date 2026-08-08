@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "canvas": {
+    "width": 4494,
+    "height": 3179
+  },
+  "template": {
+    "family": "bioinformatics-pipeline",
+    "size": "a0-landscape"
+  },
+  "theme": {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC"
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "content": {
+    "title": "A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data",
+    "authors": "Source-grounded PostEx evaluation fixture",
+    "affiliations": "Bioinformatics profile · CC BY 4.0",
+    "citation": "DOI 10.1371/journal.pone.0103207",
+    "header_metrics": [
+      {
+        "value": "Cuffdiff2",
+        "label": "tools"
+      },
+      {
+        "value": "edgeR",
+        "label": "true positive resu"
+      },
+      {
+        "value": "DESeq",
+        "label": "false positive cau"
+      }
+    ],
+    "question_heading": "Communication objective",
+    "question": "Present the paper's design, central evidence and interpretation boundary in a traceable conference-poster format.",
+    "question_evidence": "Evidence fixture: 10.1371/journal.pone.0103207",
+    "pipeline_heading": "Required evidence structure",
+    "pipeline_steps": [
+      "Research Question",
+      "Datasets",
+      "Analysis Pipeline",
+      "Key Results"
+    ],
+    "dataset_kicker": "SOURCE CONTRACT",
+    "datasets": "Input: full paper\nLicense: CC BY 4.0\nProfile: bioinformatics\nClaims checked: 3",
+    "dataset_evidence": "https://doi.org/10.1371/journal.pone.0103207",
+    "figure_one_heading": "Methods and source evidence",
+    "takeaway": "Cuffdiff2, DESeq and edgeR",
+    "takeaway_subtitle": "Key facts remain bound to the source and study design",
+    "takeaway_evidence": "Evidence fixture: 10.1371/journal.pone.0103207",
+    "figure_two_heading": "Primary evidence",
+    "validation_heading": "Required factual anchors",
+    "validation": "• tools: Cuffdiff2, DESeq and edgeR\n• true positive result: edgeR performs slightly better\n• false positive caution: DESeq or taking the intersection",
+    "validation_evidence": "Ground-truth case: plos-rnaseq-tool-comparison",
+    "performance_strip": "No unsupported numerical or causal expansion permitted",
+    "biology_heading": "Fact checks",
+    "biology_metrics": [
+      {
+        "value": "Cuffdiff2",
+        "label": "tools"
+      },
+      {
+        "value": "edgeR",
+        "label": "true positive resu"
+      },
+      {
+        "value": "DESeq",
+        "label": "false positive cau"
+      }
+    ],
+    "biology_evidence": "Machine-checkable evaluation fixture",
+    "validation_visual_heading": "Independent evidence slot",
+    "conclusion_heading": "Interpretation boundary",
+    "conclusion": "Interpret findings only within the source study design, population, methods and reported uncertainty.",
+    "conclusion_evidence": "Source and license: 10.1371/journal.pone.0103207 · CC BY 4.0",
+    "footer_source": "A Comparative Study of Techniques for Differential Expression Analysis on RNA-Seq Data · CC BY 4.0",
+    "footer_status": "Evaluation preview · not a release poster",
+    "figures": [
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0103207"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0103207"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0103207"
+      },
+      {
+        "placeholder": "SOURCE FIGURE SLOT",
+        "alt": "Evaluation-only source figure placeholder",
+        "caption": "Source figure selected during full-paper generation",
+        "source": "Source: 10.1371/journal.pone.0103207"
+      }
+    ]
+  },
+  "sources": [
+    "https://doi.org/10.1371/journal.pone.0103207",
+    "License: CC BY 4.0"
+  ]
+}

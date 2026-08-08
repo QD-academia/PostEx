@@ -1,0 +1,37 @@
+{
+  "case_id": "vitamin-b6-kidney-prognosis",
+  "title": "Circulating Concentrations of Vitamin B6 and Kidney Cancer Prognosis: A Prospective Case-Cohort Study",
+  "doi": "10.1371/journal.pone.0140677",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4623509/",
+  "license": "CC BY 4.0",
+  "fictional": false,
+  "research_type": "observational",
+  "input_language": "en",
+  "output_language": "en",
+  "facts": [
+    {"claim_id": "sample-size", "required_text": "630"},
+    {"claim_id": "all-cause-hr", "required_text": "0.33"},
+    {"claim_id": "all-cause-ci", "required_text": "0.18, 0.60"},
+    {"claim_id": "rcc-death-hr", "required_text": "0.22"}
+  ],
+  "expected_sections": [
+    "background",
+    "cohort_construction",
+    "baseline_characteristics",
+    "statistical_model",
+    "primary_outcome",
+    "sensitivity_analysis",
+    "limitations"
+  ],
+  "forbidden": [
+    "vitamin B6 supplementation improves survival",
+    "causal association",
+    "treatment recommendation"
+  ],
+  "human_review": {
+    "case_cohort_design_visible": true,
+    "confidence_intervals_visible": true,
+    "causal_limit_visible": true,
+    "visual_status": "passed"
+  }
+}

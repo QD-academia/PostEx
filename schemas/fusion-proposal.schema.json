@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/fusion-proposal.schema.json",
+  "title": "PostEx Palette Fusion Candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "candidates"],
+  "properties": {
+    "schema_version": {"const": "0.2"},
+    "candidates": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["candidate_id", "direction", "palette_id", "brief_digest", "hero_claim_id", "layout_weights", "component_style", "rationale", "recommended"],
+        "properties": {
+          "candidate_id": {"type": "string", "minLength": 1},
+          "direction": {"enum": ["hero-result", "visual-journey", "editorial-story"]},
+          "palette_id": {"type": "string", "minLength": 1},
+          "brief_digest": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+          "hero_claim_id": {"type": "string", "minLength": 1},
+          "layout_weights": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}},
+          "component_style": {"type": "object", "additionalProperties": {"type": "string"}},
+          "rationale": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "recommended": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

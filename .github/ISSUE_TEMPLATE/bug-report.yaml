@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible PostEx defect without sensitive manuscript data
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal redacted reproduction
+      description: Never attach unpublished manuscripts, credentials, or personal data.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact area
+      options:
+        - Privacy or approval
+        - Evidence traceability
+        - Rendering or preflight
+        - Provider adapter
+        - Template
+        - Other
+    validations:
+      required: true
+

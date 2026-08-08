@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "approval_required": false,
+  "scientific_figure_colors_locked": true,
+  "proposals": [
+    {
+      "palette_id": "default",
+      "status": "approved",
+      "digest": "sha256:1046a396ac28389a2a39c7e93d6002ca6ac6a0ed54ef043f014da5e74439d63a",
+      "colors": [
+        "#102A43",
+        "#0F5F73",
+        "#2C8C99",
+        "#E8B44C",
+        "#F6F8FA",
+        "#FFFFFF"
+      ],
+      "source": "PostEx default biomedical palette",
+      "semantic_colors_locked": true,
+      "simulations": ["poster", "deuteranopia", "grayscale"]
+    }
+  ]
+}

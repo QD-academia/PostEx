@@ -1,0 +1,10 @@
+providers:
+  openai:
+    api_key_env: OPENAI_API_KEY
+    model: replace-with-approved-model
+  anthropic:
+    api_key_env: ANTHROPIC_API_KEY
+    model: replace-with-approved-model
+
+# Secrets belong in the environment or a secret manager, never in this file.
+

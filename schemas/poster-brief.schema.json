@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.2/poster-brief.schema.json",
+  "title": "PostEx Poster Brief",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["audience", "takeaway", "visual_tone", "palette_source", "logo_treatment"],
+  "properties": {
+    "audience": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "conference": {"type": ["string", "null"]},
+    "takeaway": {"type": "string", "minLength": 1},
+    "emphasis": {"enum": ["balanced", "methods", "results", "impact"]},
+    "must_keep": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "figure_edit_permission": {"enum": ["never", "ask", "crop", "split", "recompose"]},
+    "logo_treatment": {"enum": ["none", "placeholder", "provided"]},
+    "visual_tone": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "palette_source": {"type": "string", "minLength": 1},
+    "content_mode": {"enum": ["verbatim", "traceable", "editorial"]},
+    "allow_network_palette_sources": {"type": "boolean"},
+    "allow_cloud_manuscript_processing": {"type": "boolean"}
+  }
+}

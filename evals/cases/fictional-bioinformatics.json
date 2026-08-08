@@ -1,0 +1,27 @@
+{
+  "case_id": "fictional-bioinformatics-001",
+  "license": "CC0-1.0",
+  "fictional": true,
+  "research_type": "bioinformatics",
+  "input_language": "en",
+  "output_language": "zh-CN",
+  "facts": [
+    {"claim_id": "sample-size", "value": 120, "source": "/methods/sample_size"},
+    {
+      "claim_id": "primary-effect",
+      "value": 1.25,
+      "confidence_interval": [1.05, 1.49],
+      "source": "/results"
+    }
+  ],
+  "expected_sections": [
+    "research_question",
+    "datasets",
+    "analysis_pipeline",
+    "key_results",
+    "external_validation",
+    "conclusion"
+  ],
+  "forbidden": ["clinical recommendation", "causal claim", "unapproved upload"]
+}
+

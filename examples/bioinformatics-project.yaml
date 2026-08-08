@@ -1,0 +1,30 @@
+schema_version: "0.1"
+project_id: fictional-rnaseq
+title: "A fictional RNA-seq validation study"
+research_type: bioinformatics
+input_language: en
+output_language: zh-CN
+content_mode: traceable
+source:
+  type: yaml
+  path: examples/fictional-research.yaml
+  published: false
+provider:
+  name: openai
+  model: replace-with-approved-model
+template:
+  family: bioinformatics-pipeline
+  size: a0-landscape
+branding:
+  logo_mode: placeholder
+  placeholders:
+    - id: institution-logo
+      role: institution
+      placement: header-left
+      label: "Institution logo"
+privacy:
+  require_cloud_upload_approval: true
+  allow_network_palette_sources: false
+output:
+  directory: output/fictional-rnaseq
+  formats: [pptx, pdf, png, evidence, preflight]
