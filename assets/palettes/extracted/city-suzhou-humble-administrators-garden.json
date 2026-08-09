@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-suzhou-humble-administrators-garden",
   "name": "苏州·拙政园",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-suzhou-humble-administrators-garden.png",
-  "source_sha256": "ae3087edcc467bb781995256a7fd1596d0e5f11bd5177b0c593fc6e12d6dbf4a",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-suzhou-humble-administrators-garden.jpg",
+  "source_sha256": "f28f3cd66e140727b595f5b959911da6c6310d017d34f6c66fde29cf7e3d6384",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#242316",
+      "hex": "#35381D",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#E3DBCB",
+      "hex": "#5E6E32",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#4A442E",
+      "hex": "#807145",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#67503E",
+      "hex": "#8FB157",
       "ratio": 0.07
     },
     {

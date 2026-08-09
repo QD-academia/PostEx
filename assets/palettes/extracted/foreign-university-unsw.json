@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-unsw",
+  "name": "新南威尔士大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-unsw.png",
+  "source_sha256": "cd8aaf351ece70362683538e58e49bf4d43e726fa46ee8144673a2a8c073d9d9",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#DB4827",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#272423",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#E7D8C9",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#A9A872",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-boston",
+  "name": "波士顿大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-boston.png",
+  "source_sha256": "cafbf1c89c56f4653e2c9941fd16ab60147c47947a3547ec7b916b4dcfb7cf4a",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#CC0000",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#F8DDDD",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#D93F3F",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#EFB1B1",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

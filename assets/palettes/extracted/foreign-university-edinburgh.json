@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-edinburgh",
+  "name": "爱丁堡大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-edinburgh.png",
+  "source_sha256": "2a1f8132aaa9b0aa9768f795401ae25303b3aefa77005322e54c9ca732a6983b",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#092040",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#DF1E34",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#546279",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#26203F",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

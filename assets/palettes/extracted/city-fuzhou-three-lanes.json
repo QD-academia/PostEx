@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-fuzhou-three-lanes",
   "name": "福州·三坊七巷",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-fuzhou-three-lanes.png",
-  "source_sha256": "6527a5d587ce73df375d44eebda18b3658ee2a5ba37ec7161d8e4e5e54a485c1",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-fuzhou-three-lanes.jpg",
+  "source_sha256": "33dcfe7803102ee1ecb9bbe45ac9b339c90ae030a62b7f982ae8f710b5883537",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#19140F",
+      "hex": "#4285D1",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#605346",
+      "hex": "#563420",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#4F3323",
+      "hex": "#A5B1BA",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#756F64",
+      "hex": "#2F5D8F",
       "ratio": 0.07
     },
     {

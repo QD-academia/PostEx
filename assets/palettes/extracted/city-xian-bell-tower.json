@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-xian-bell-tower",
   "name": "西安·钟楼",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-xian-bell-tower.png",
-  "source_sha256": "28b8bf583773e2a11e11304de5833db91d1493c97363d1d92f45e635bd36fc84",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-xian-bell-tower.jpg",
+  "source_sha256": "39e01ba8a67dc45357b3dbc3f32c4f38b5d873708a6546add19079c0b73b5b9a",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#251E1B",
+      "hex": "#5F84FE",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#6A4026",
+      "hex": "#34385C",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#46382D",
+      "hex": "#5F74D9",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#8D572C",
+      "hex": "#6E505C",
       "ratio": 0.07
     },
     {

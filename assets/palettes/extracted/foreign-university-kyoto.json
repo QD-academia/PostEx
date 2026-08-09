@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-kyoto",
+  "name": "京都大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-kyoto.png",
+  "source_sha256": "219055714c474e7a014a2699449879bdb92db0de41c5f68d3623cb27c820818c",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#15356E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355E82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#127987",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#955F2D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

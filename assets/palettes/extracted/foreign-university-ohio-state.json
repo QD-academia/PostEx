@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-ohio-state",
+  "name": "俄亥俄州立大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-ohio-state.png",
+  "source_sha256": "655c271a1195ac772df7cb6d7dbc56ea7267c0a53caf2c08043c980951b54002",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#BA0C2F",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#70071C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#993C4F",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#853636",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

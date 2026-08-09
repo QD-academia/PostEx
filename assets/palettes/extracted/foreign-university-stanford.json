@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-stanford",
+  "name": "斯坦福大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-stanford.png",
+  "source_sha256": "5f9dcda554bc76c66a07bb758025b817532db33fd3f18e0677b981187c999afa",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#AA0C31",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#E8BEC8",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#BF4662",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#823535",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

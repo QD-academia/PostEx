@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-chengdu-anshun-bridge",
   "name": "成都·安顺廊桥",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-chengdu-anshun-bridge.png",
-  "source_sha256": "f4cdf1ba353f40e2b93772739072462fce1a02817cbe30bef8d92d623e33e373",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-chengdu-anshun-bridge.jpg",
+  "source_sha256": "88fc88dfdbc6a85c3361dc18fd409d3efa938f7e5675a0de32091049656e6ab4",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#5A341B",
+      "hex": "#623015",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#381706",
+      "hex": "#D2813B",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#865231",
+      "hex": "#A85812",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#B29D81",
+      "hex": "#D6A46F",
       "ratio": 0.07
     },
     {

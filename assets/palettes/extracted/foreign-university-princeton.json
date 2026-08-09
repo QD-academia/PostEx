@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-princeton",
+  "name": "普林斯顿大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-princeton.png",
+  "source_sha256": "50636c08c68ad5b92a8bc8dd6949657376b47defebeec790a825ae0e4d503e7c",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#E87722",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#211105",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#B15B1A",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#A47443",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

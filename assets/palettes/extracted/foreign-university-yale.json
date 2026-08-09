@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-yale",
+  "name": "耶鲁大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-yale.png",
+  "source_sha256": "99e6d713ccf5fe624b74d183355907a36a03013ef48e03a25fc1fc8f57d3bb5a",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#00356B",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355B82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B2F74",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#127687",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

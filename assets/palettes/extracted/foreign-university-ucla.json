@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-ucla",
+  "name": "加州大学洛杉矶分校",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-ucla.png",
+  "source_sha256": "198e3d1b0ca9a2cd096437907bae1b3cc5cb0041da4894422180585f6b7db4ff",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#2774AE",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#21428D",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#179FA9",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#A46231",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

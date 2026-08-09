@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-shenzhen-civic-center",
   "name": "深圳·市民中心",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-shenzhen-civic-center.png",
-  "source_sha256": "fc8e09835f2109ec8b753b770782610e70db0e04e890df0d982cd91a70214f8b",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-shenzhen-civic-center.jpg",
+  "source_sha256": "9a9ecc6c86bbbdffbcc19eda900abd9d133af9940986f612251612ef3829c9a8",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#160F14",
+      "hex": "#927775",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#5E5343",
+      "hex": "#BC9E9A",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#403933",
+      "hex": "#85919A",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#7D725E",
+      "hex": "#415053",
       "ratio": 0.07
     },
     {

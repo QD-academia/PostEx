@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-columbia",
+  "name": "哥伦比亚大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-columbia.png",
+  "source_sha256": "fedb3d1d219b2ed8ba08ffc40cd34eeb2eb287c43c1d328f64cf35538479d299",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#3275BB",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#827961",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#A6BBC5",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#45443D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-manchester",
+  "name": "曼彻斯特大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-manchester.png",
+  "source_sha256": "fcc46b67571817f1d370f346a1175fd53a8e856ae5c63c931eefee800cbcf372",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#660099",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#6DAEDF",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#FCCA32",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#A1C9C7",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-shanghai-oriental-pearl",
   "name": "上海·东方明珠",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-shanghai-oriental-pearl.png",
-  "source_sha256": "fa9ff61816eb1debe25d50775435f57a4e01d273d23585b05e06add921e8da7f",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-shanghai-oriental-pearl.jpg",
+  "source_sha256": "dcf657157d62d4b93a79df4b1a56f91da6ff2706b4bf4c64487725f2c0e759c2",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#845232",
+      "hex": "#E68241",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#624B3D",
+      "hex": "#8BCFF9",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#271716",
+      "hex": "#874732",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#4C2923",
+      "hex": "#CC5530",
       "ratio": 0.07
     },
     {

@@ -9,12 +9,12 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "dist" / "postex-built-in-palettes-v0.3.0a1.zip"
+OUTPUT = ROOT / "dist" / "postex-built-in-palettes-v0.3.0a2.zip"
 INCLUDE = (
     "LICENSE",
     "NOTICE",
     "docs/built-in-palettes.md",
-    "docs/releases/v0.3.0a1.md",
+    "docs/releases/v0.3.0a2.md",
     "assets/palettes/README.md",
     "assets/palettes/ATTRIBUTION.md",
     "assets/palettes/catalog.yaml",
@@ -24,7 +24,9 @@ INCLUDE = (
     "assets/palettes/extracted",
     "assets/palettes/cards",
     "assets/palettes/previews",
+    "assets/palettes/examples",
     "reports/palette-source-search/city-selected-sources.yaml",
+    "reports/palette-source-search/city-official-landmark-verification.yaml",
     "reports/palette-source-search/genshin-official-sources.yaml",
     "reports/palette-source-search/city-download-receipts.json",
     "reports/palette-source-search/university-wikidata-sources.json",
@@ -32,6 +34,8 @@ INCLUDE = (
     "reports/palette-source-search/university-commons-candidates.json",
     "reports/palette-source-search/university-wikipedia-logo-candidates.json",
     "reports/palette-source-search/university-download-receipts.json",
+    "reports/palette-source-search/foreign-university-download-receipts.json",
+    "reports/palette-source-search/usnews-2026-2027-foreign-top50.yaml",
     "reports/palette-source-search/genshin-download-receipts.json",
 )
 
@@ -57,7 +61,7 @@ def main() -> int:
         for path in files:
             relative = path.relative_to(ROOT)
             payload = path.read_bytes()
-            info = zipfile.ZipInfo(f"postex-built-in-palettes-v0.3.0a1/{relative}")
+            info = zipfile.ZipInfo(f"postex-built-in-palettes-v0.3.0a2/{relative}")
             info.date_time = (2026, 8, 8, 0, 0, 0)
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
@@ -75,7 +79,7 @@ def main() -> int:
             ).encode("utf-8")
             + b"\n"
         )
-        info = zipfile.ZipInfo("postex-built-in-palettes-v0.3.0a1/MANIFEST.json")
+        info = zipfile.ZipInfo("postex-built-in-palettes-v0.3.0a2/MANIFEST.json")
         info.date_time = (2026, 8, 8, 0, 0, 0)
         info.compress_type = zipfile.ZIP_DEFLATED
         info.external_attr = 0o100644 << 16

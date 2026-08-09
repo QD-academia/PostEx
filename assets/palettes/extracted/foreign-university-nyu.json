@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-nyu",
+  "name": "纽约大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-nyu.png",
+  "source_sha256": "f0a8916ce74f91a92745864916a4d5b4b690c7978b257529be615ea887864fb5",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#57068C",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#643582",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#691B74",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#2F1287",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

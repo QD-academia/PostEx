@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-monash",
+  "name": "蒙纳士大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-monash.png",
+  "source_sha256": "da6a1010444795bb738c6b8bd88349fd2bacf3185f15a62eaacac27ed904d2d8",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#356682",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#1B3B74",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#13888A",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#95542D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

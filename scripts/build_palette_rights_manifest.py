@@ -30,11 +30,20 @@ def main() -> int:
     catalog = load_palette_catalog(ROOT)
     entries = {entry.palette_id: entry for entry in catalog.entries}
     city = yaml.safe_load((REPORT_DIR / "city-selected-sources.yaml").read_text(encoding="utf-8"))
+    city_official = {
+        item["id"]: item
+        for item in yaml.safe_load(
+            (REPORT_DIR / "city-official-landmark-verification.yaml").read_text(encoding="utf-8")
+        )["assets"]
+    }
     genshin = yaml.safe_load(
         (REPORT_DIR / "genshin-official-sources.yaml").read_text(encoding="utf-8")
     )
     universities = json.loads(
         (REPORT_DIR / "university-download-receipts.json").read_text(encoding="utf-8")
+    )["assets"]
+    foreign_universities = json.loads(
+        (REPORT_DIR / "foreign-university-download-receipts.json").read_text(encoding="utf-8")
     )["assets"]
 
     rights: dict[str, dict[str, object]] = {}
@@ -57,9 +66,11 @@ def main() -> int:
             "license": license_name,
             "attribution": f"{title} — {artist}",
             "modified": True,
+            "official_reference_url": city_official[palette_id]["official_reference_url"],
+            "official_reference_publisher": city_official[palette_id]["publisher"],
         }
         attribution_sections.append(
-            f"- **{entries[palette_id].name}**: [{title}]({asset['description_url']}) by {artist}; {license_name}; background removed and cropped."
+            f"- **{entries[palette_id].name}**: landmark verified by [{city_official[palette_id]['publisher']}]({city_official[palette_id]['official_reference_url']}); reusable photo [{title}]({asset['description_url']}) by {artist}; {license_name}; framed and color-normalized without background removal."
         )
 
     attribution_sections.extend(
@@ -87,6 +98,30 @@ def main() -> int:
         }
         attribution_sections.append(
             f"- **#{entry.rank} {entry.name}**: [authorized emblem asset mirror]({asset['source_url']}); © {entry.name}; transparent normalization and cropping applied."
+        )
+
+    attribution_sections.extend(
+        [
+            "",
+            "## Foreign university emblems",
+            "",
+            "The 2026–2027 U.S. News selection uses institution-specific logo or seal files. The project maintainer attested that redistribution permission or authorized source assets are held for this collection.",
+            "",
+        ]
+    )
+    for asset in foreign_universities:
+        palette_id = asset["id"]
+        entry = entries[palette_id]
+        rights[palette_id] = {
+            "status": "permission-granted",
+            "source_url": asset["source_url"],
+            "license": "Written redistribution permission / authorized asset (user-attested)",
+            "attribution": f"© {asset['subject']}",
+            "modified": True,
+            "permission_record": USER_PERMISSION_RECORD,
+        }
+        attribution_sections.append(
+            f"- **#{entry.rank} {entry.name}**: [{asset['source_file']}]({asset['source_url']}); © {asset['subject']}; transparent normalization and palette extraction applied."
         )
 
     attribution_sections.extend(

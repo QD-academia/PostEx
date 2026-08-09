@@ -1,0 +1,14 @@
+schema_version: "0.3"
+publisher: U.S. News & World Report
+edition: 2026-2027 Best Global Universities
+published: "2026-06-16"
+ranking_url: https://www.usnews.com/education/best-global-universities/search
+release_confirmation_url: https://clarivate.com/news/u-s-news-unveils-2026-2027-best-global-universities-rankings/
+selection_rule: Exclude institutions located in mainland China, Hong Kong, and Macao, then retain the first 50 foreign institutions; collection rank is the resulting display order.
+catalog_source: assets/palettes/catalog.yaml#foreign-universities
+verification_sources:
+  - https://www.ucl.ac.uk/about/who-we-are/ucl-brand
+  - https://medicine.yale.edu/news-article/ysm-research-areas-ranked-among-best-in-the-world/
+  - https://www.monash.edu/news/articles/monash-maintains-global-position-in-us-news-and-world-report-2026-2027-best-global-universities-rankings
+  - https://www.sydney.edu.au/news-opinion/news/2026/06/17/university-of-sydney-ranked-among-worlds-best.html
+note: U.S. News blocks automated extraction in this build environment. The edition and selection scope were checked against the official Clarivate release and institution-published 2026-2027 ranking announcements; the exact 50-item product selection is versioned in catalog.yaml.

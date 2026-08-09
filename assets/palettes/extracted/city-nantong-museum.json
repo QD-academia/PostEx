@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-nantong-museum",
   "name": "南通·南通博物苑",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-nantong-museum.png",
-  "source_sha256": "ade9d3ae368e76f572b032fbe382a1bb58b5a4c3efdabfe43f58f5f26512956e",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-nantong-museum.jpg",
+  "source_sha256": "c5f86f5e9c5bd1fb381038917fec99f765b9d3c392a3834919a20b49fea1eac6",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#1C1F1E",
+      "hex": "#273518",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#8C8580",
+      "hex": "#887C7B",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#626160",
+      "hex": "#CED5E4",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#3A3836",
+      "hex": "#54798A",
       "ratio": 0.07
     },
     {

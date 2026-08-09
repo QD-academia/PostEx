@@ -2,15 +2,21 @@
 
 **Let every study have its own visual identity.**
 
-PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.3 adds a curated **Built-in Palette Library** while retaining Palette Fusion: evidence-linked scientific content can now start from 104 ready-to-browse visual identities as well as natural-language inspiration, reference images, named themes, brand systems, or manual colors.
+PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.3 adds a curated **Built-in Palette Library** while retaining Palette Fusion: evidence-linked scientific content can now start from 154 ready-to-browse visual identities as well as natural-language inspiration, reference images, named themes, brand systems, or manual colors.
 
-> Status: `0.3.0a1`. The built-in palette catalog, source-art cards, rights audit, Palette DNA, Poster Brief, fusion planning, figure-edit approval, design locks, and approval-bound rendering are runnable. The Bioinformatics Pipeline family remains the production-renderable family while the remaining template families are developed.
+> Status: `0.3.0a2`. The built-in palette catalog, source-art cards, rights audit, Palette DNA, Poster Brief, fusion planning, figure-edit approval, design locks, and approval-bound rendering are runnable. The Bioinformatics Pipeline family remains the production-renderable family while the remaining template families are developed.
 
 ## Built-in palette library
 
-PostEx 0.3 includes 104 source-grounded cards: 19 Chinese city landmarks, the ShanghaiRanking 2026 Top50 university emblems, and 35 Genshin characters grouped by Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Nod-Krai. Each card combines transparent source art with a six-role, poster-ready palette and machine-readable provenance.
+PostEx 0.3 includes 154 source-grounded cards, displayed as: 50 ShanghaiRanking 2026 Chinese university emblems, 50 foreign university emblems selected from the 2026–2027 U.S. News Best Global Universities ranking, 35 Genshin characters grouped by Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Nod-Krai, then 19 Chinese city photographic cards. Each card combines source art with a six-role, poster-ready palette and machine-readable provenance.
 
-[![All 104 built-in PostEx palette cards](assets/palettes/previews/all-palettes.webp)](assets/palettes/previews/all-palettes.webp)
+[![All 154 built-in PostEx palette cards](assets/palettes/previews/all-palettes.webp)](assets/palettes/previews/all-palettes.webp)
+
+Two enlarged examples show how the emblem and semantic palette work together:
+
+[![Huazhong University of Science and Technology enlarged palette example](assets/palettes/examples/university-hust-example.webp)](assets/palettes/examples/university-hust-example.webp)
+
+[![Tsinghua University enlarged palette example](assets/palettes/examples/university-tsinghua-example.webp)](assets/palettes/examples/university-tsinghua-example.webp)
 
 See the [built-in palette documentation](docs/built-in-palettes.md) or audit a checkout with:
 

@@ -11,10 +11,18 @@ class PaletteCatalogTests(unittest.TestCase):
         self.catalog = load_palette_catalog(ROOT)
 
     def test_requested_collections_are_complete(self) -> None:
-        self.assertEqual(len(self.catalog.entries), 104)
+        self.assertEqual(len(self.catalog.entries), 154)
         self.assertEqual(len(self.catalog.by_collection("city-landmarks")), 19)
         self.assertEqual(len(self.catalog.by_collection("universities")), 50)
+        self.assertEqual(len(self.catalog.by_collection("foreign-universities")), 50)
         self.assertEqual(len(self.catalog.by_collection("genshin-characters")), 35)
+
+    def test_display_order_matches_product_navigation(self) -> None:
+        collections = list(dict.fromkeys(item.collection for item in self.catalog.entries))
+        self.assertEqual(
+            collections,
+            ["universities", "foreign-universities", "genshin-characters", "city-landmarks"],
+        )
 
     def test_genshin_has_seven_groups_of_five(self) -> None:
         entries = self.catalog.by_collection("genshin-characters")

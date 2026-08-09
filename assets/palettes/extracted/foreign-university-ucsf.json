@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-ucsf",
+  "name": "加州大学旧金山分校",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-ucsf.png",
+  "source_sha256": "00e49daa9c17df6ed2c595c66dd66a89d10788c89a2cd0853bc21dfc62a25c4f",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#052049",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355482",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B2674",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#126A87",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

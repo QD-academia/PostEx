@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-guangzhou-canton-tower",
   "name": "广州·广州塔",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-guangzhou-canton-tower.png",
-  "source_sha256": "f21163998f36604f5f6b3fbcb9922308940ef2cf237e10e0a1a314458d4e2687",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-guangzhou-canton-tower.jpg",
+  "source_sha256": "552fc785dd392906eea761f615f90c98533b900f37e756f2afb8ef6b5cf5dec9",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#4F2B36",
+      "hex": "#567287",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#311B21",
+      "hex": "#3A4049",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#5F4454",
+      "hex": "#B4A7A8",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#7D6B7B",
+      "hex": "#774F67",
       "ratio": 0.07
     },
     {

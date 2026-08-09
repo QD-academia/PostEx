@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-beijing-temple-of-heaven",
   "name": "北京·天坛",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-beijing-temple-of-heaven.png",
-  "source_sha256": "1daf764725b7bac1f6bcdaf989c043cabf74bd7457fafd75da25a403ff787989",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-beijing-temple-of-heaven.jpg",
+  "source_sha256": "4e365b83d59941d9dd0f70d8c4bfad986c4ea68f3f162e03daa0399292cd4e38",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#767F85",
+      "hex": "#A3DCFF",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#5B606D",
+      "hex": "#B7C5AD",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#251F36",
+      "hex": "#7A5342",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#4D2724",
+      "hex": "#C6F3FF",
       "ratio": 0.07
     },
     {

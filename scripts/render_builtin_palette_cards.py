@@ -16,6 +16,7 @@ CARD_SIZE = (900, 1240)
 ART_BOX = (54, 170, 846, 800)
 CARD_ROOT = ROOT / "assets" / "palettes" / "cards"
 PREVIEW_ROOT = ROOT / "assets" / "palettes" / "previews"
+EXAMPLE_ROOT = ROOT / "assets" / "palettes" / "examples"
 
 
 def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
@@ -72,9 +73,57 @@ def _category_label(entry: object) -> str:
     collection = entry.collection
     if collection == "universities":
         return f"软科 2026 TOP50 · #{entry.rank}"
+    if collection == "foreign-universities":
+        return f"U.S. NEWS 2026–2027 · TOP50 #{entry.rank}"
     if collection == "genshin-characters":
         return f"原神角色 · {entry.group}"
-    return "中国城市地标"
+    return "中国城市 · 官方摄影名片"
+
+
+def _render_university_example(catalog: object, palette_id: str) -> Path:
+    entry = next(item for item in catalog.entries if item.palette_id == palette_id)
+    colors = load_extracted_palette(catalog, entry)["colors"]
+    primary = colors[1]["hex"]
+    canvas = Image.new("RGB", (1800, 1180), _blend(colors[0]["hex"], primary, 0.045))
+    draw = ImageDraw.Draw(canvas)
+    draw.rounded_rectangle(
+        (32, 32, 1768, 1148), radius=44, fill=canvas.getpixel((0, 0)), outline=primary, width=4
+    )
+    draw.text((92, 72), "POSTEX UNIVERSITY PALETTE · ENLARGED EXAMPLE", font=_font(30, True), fill=primary)
+    draw.text((92, 126), entry.name, font=_font(76, True), fill="#17202A")
+    draw.text((94, 220), f"软科 2026 TOP50 · #{entry.rank}  |  校徽原图 + 六角色海报色卡", font=_font(27), fill="#556170")
+
+    art_panel = _checkerboard((720, 720), _blend(colors[0]["hex"], primary, 0.025))
+    art_panel = ImageOps.expand(art_panel, border=3, fill=_blend(primary, "#FFFFFF", 0.55))
+    canvas.paste(art_panel, (92, 308))
+    artwork = Image.open(ROOT / entry.artwork.path).convert("RGBA")
+    fitted = ImageOps.contain(artwork, (610, 610), Image.Resampling.LANCZOS)
+    art_x = 92 + (720 - fitted.width) // 2
+    art_y = 308 + (720 - fitted.height) // 2
+    shadow_alpha = fitted.getchannel("A").filter(ImageFilter.GaussianBlur(18))
+    shadow = Image.new("RGBA", fitted.size, (12, 24, 36, 0))
+    shadow.putalpha(shadow_alpha.point(lambda value: round(value * 0.22)))
+    canvas.paste(shadow, (art_x + 12, art_y + 18), shadow)
+    canvas.paste(fitted, (art_x, art_y), fitted)
+
+    draw = ImageDraw.Draw(canvas)
+    draw.text((884, 310), "PALETTE DNA", font=_font(34, True), fill="#17202A")
+    for index, color in enumerate(colors):
+        column = index % 2
+        row = index // 2
+        left = 884 + column * 420
+        top = 380 + row * 218
+        draw.rounded_rectangle((left, top, left + 382, top + 178), radius=24, fill=color["hex"])
+        foreground = _text_color(color["hex"])
+        draw.text((left + 24, top + 24), color["role"].upper(), font=_font(24, True), fill=foreground)
+        draw.text((left + 24, top + 112), color["hex"], font=_font(30, True), fill=foreground)
+        draw.text((left + 238, top + 116), f"{round(color['ratio'] * 100)}%", font=_font(23, True), fill=foreground)
+    draw.rounded_rectangle((884, 1050, 1686, 1098), radius=24, fill=primary)
+    draw.text((912, 1058), f"{entry.palette_id} · PostEx v0.3", font=_font(22, True), fill=_text_color(primary))
+    EXAMPLE_ROOT.mkdir(parents=True, exist_ok=True)
+    output = EXAMPLE_ROOT / f"{palette_id}-example.webp"
+    canvas.save(output, "WEBP", quality=92, method=6)
+    return output
 
 
 def _render_card(catalog: object, entry: object) -> Path:
@@ -199,12 +248,17 @@ def main() -> int:
     }
     all_paths = [path for paths in outputs.values() for path in paths]
     previews["all"] = str(_contact_sheet("all-palettes", all_paths, columns=8).relative_to(ROOT))
+    examples = {
+        palette_id: str(_render_university_example(catalog, palette_id).relative_to(ROOT))
+        for palette_id in ("university-hust", "university-tsinghua")
+    }
     (ROOT / "assets" / "palettes" / "cards.json").write_text(
         json.dumps(
             {
                 "schema_version": "0.3",
                 "count": len(manifest),
                 "previews": previews,
+                "examples": examples,
                 "cards": manifest,
             },
             ensure_ascii=False,

@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-shenyang-imperial-palace",
   "name": "沈阳·故宫",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-shenyang-imperial-palace.png",
-  "source_sha256": "1ba816f0f262d5a057a0cc808c8112c3b2851b7bfa0b2ce87b7ad05a751e90d0",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-shenyang-imperial-palace.jpg",
+  "source_sha256": "2d254523f18fc25524f91a3e1e4e83cb343e5ceb132acdd990e74851c7de63cd",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#553238",
+      "hex": "#92B4E3",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#2A2332",
+      "hex": "#664A3D",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#5B6068",
+      "hex": "#B4AC99",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#776763",
+      "hex": "#9F8E67",
       "ratio": 0.07
     },
     {

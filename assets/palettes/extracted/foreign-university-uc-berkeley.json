@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-uc-berkeley",
+  "name": "加州大学伯克利分校",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-uc-berkeley.png",
+  "source_sha256": "a7d3d0cd4cf735ed268a23efac32d078fbd57733cd17cd2273e678571f09a5fa",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#00326F",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355D82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3074",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#127887",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

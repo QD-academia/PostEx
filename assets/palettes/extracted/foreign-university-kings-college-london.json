@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-kings-college-london",
+  "name": "伦敦国王学院",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-kings-college-london.png",
+  "source_sha256": "f0874d76a8c6bd891dcbc5b7ba5ff9733410b6b5c6d5cf5e2142f03d0cc1d727",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#D2995C",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#101219",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#B25939",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#F6EAC4",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,22 @@
+schema_version: "0.3"
+selection_method: Landmark identity verified against municipal government or official culture-and-tourism pages; embedded photographs retain separately documented public-domain or Creative Commons reuse terms.
+assets:
+  - {id: city-beijing-temple-of-heaven, official_reference_url: "https://s.visitbeijing.com.cn/index.php/gallery/19080", publisher: 北京市文化和旅游局·北京旅游网}
+  - {id: city-shanghai-oriental-pearl, official_reference_url: "https://www.shanghai.gov.cn/nw31406/20250123/15f458f237484349b2e886647d55b0ce.html", publisher: 上海市人民政府}
+  - {id: city-guangzhou-canton-tower, official_reference_url: "https://wglj.gz.gov.cn/ztmb/gzhyn/ajjq/4a/content/post_8928935.html", publisher: 广州市文化广电旅游局}
+  - {id: city-shenzhen-civic-center, official_reference_url: "https://wtl.sz.gov.cn/lyfw/lyxw/content/post_11009514.html", publisher: 深圳市文化广电旅游体育局}
+  - {id: city-hangzhou-leifeng-pagoda, official_reference_url: "https://wgly.hangzhou.gov.cn/art/2022/12/1/art_1229696389_58943150.html", publisher: 杭州市文化广电旅游局}
+  - {id: city-wuhan-yellow-crane-tower, official_reference_url: "https://wlj.wuhan.gov.cn/zwgk_27/zwdt/jdxw/202109/t20210911_1776288.shtml", publisher: 武汉市文化和旅游局}
+  - {id: city-nanjing-sun-yat-sen-mausoleum, official_reference_url: "https://wlj.nanjing.gov.cn/whcg/wbdw/gmgmjzwjsgm/201807/t20180731_1078646.html", publisher: 南京市文化和旅游局}
+  - {id: city-suzhou-humble-administrators-garden, official_reference_url: "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202602/2d44192442c04beaaba26eeda1cca2eb.shtml", publisher: 苏州市文化广电和旅游局}
+  - {id: city-chongqing-hongya-cave, official_reference_url: "https://whlyw.cq.gov.cn/zjwl/yzq/jqjd_1/202203/t20220304_10463056.html", publisher: 重庆市文化和旅游发展委员会}
+  - {id: city-chengdu-anshun-bridge, official_reference_url: "https://cdwglj.chengdu.gov.cn/", publisher: 成都市文化广电旅游局}
+  - {id: city-xian-bell-tower, official_reference_url: "https://wlj.xa.gov.cn/", publisher: 西安市文化和旅游局}
+  - {id: city-nantong-museum, official_reference_url: "https://wgxj.nantong.gov.cn/ntswgxj/whhd/content/ed00f941-fd9e-4c65-952c-b02035386a84.html", publisher: 南通市文化广电和旅游局}
+  - {id: city-wuxi-changchun-bridge, official_reference_url: "https://wglj.wuxi.gov.cn/", publisher: 无锡市文化广电和旅游局}
+  - {id: city-ningbo-tianyi-pavilion, official_reference_url: "https://wglyj.ningbo.gov.cn/art/2022/11/28/art_1229057569_58924703.html", publisher: 宁波市文化广电旅游局}
+  - {id: city-lanzhou-zhongshan-bridge, official_reference_url: "https://wlj.lanzhou.gov.cn/", publisher: 兰州市文化和旅游局}
+  - {id: city-harbin-saint-sophia, official_reference_url: "https://wlj.harbin.gov.cn/", publisher: 哈尔滨市文化广电和旅游局}
+  - {id: city-shenyang-imperial-palace, official_reference_url: "https://wlgd.shenyang.gov.cn/", publisher: 沈阳市文化旅游和广播电视局}
+  - {id: city-fuzhou-three-lanes, official_reference_url: "https://wlj.fuzhou.gov.cn/", publisher: 福州市文化和旅游局}
+  - {id: city-xiamen-twin-towers, official_reference_url: "https://wlj.xm.gov.cn/", publisher: 厦门市文化和旅游局}

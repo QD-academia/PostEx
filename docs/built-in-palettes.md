@@ -1,14 +1,19 @@
 # Built-in palette packs
 
-Version 0.3 introduces a rights-gated catalog for 104 visual palettes:
+Version 0.3 introduces a rights-gated catalog for 154 visual palettes, in product display order:
 
-- 19 Chinese city landmark palettes requested for Beijing, Shanghai, Guangzhou,
-  Shenzhen, Hangzhou, Wuhan, Nanjing, Suzhou, Chongqing, Chengdu, Xi'an, Nantong,
-  Wuxi, Ningbo, Lanzhou, Harbin, Shenyang, Fuzhou, and Xiamen.
 - The Top 50 entries in the 2026 ShanghaiRanking Chinese Universities Ranking
   (main ranking), published 15 April 2026.
+- 50 foreign universities selected from the 2026–2027 U.S. News Best Global
+  Universities ranking after excluding institutions in mainland China, Hong Kong,
+  and Macao.
 - 35 Genshin character inspirations: five each for Mondstadt, Liyue, Inazuma,
   Sumeru, Fontaine, Natlan, and Nod-Krai.
+- 19 Chinese city photographic cards requested for Beijing, Shanghai, Guangzhou,
+  Shenzhen, Hangzhou, Wuhan, Nanjing, Suzhou, Chongqing, Chengdu, Xi'an, Nantong,
+  Wuxi, Ningbo, Lanzhou, Harbin, Shenyang, Fuzhou, and Xiamen. These retain the
+  complete photo in a transparent rounded frame and use a near-black-resistant
+  photo palette extractor instead of neural background removal.
 
 The catalog reserves stable IDs before artwork is acquired. Each card uses an
 alpha-transparent PNG and a palette extracted from that exact PNG. The source PNG
@@ -20,7 +25,13 @@ collection contact sheets under `assets/palettes/previews/`. The standalone rele
 archive includes the cutouts, extracted palettes, rendered cards, previews, rights
 manifest, attribution, source receipts, and a per-file SHA-256 manifest.
 
-![All 104 built-in palettes](../assets/palettes/previews/all-palettes.webp)
+![All 154 built-in palettes](../assets/palettes/previews/all-palettes.webp)
+
+## Enlarged university examples
+
+![HUST emblem and six-role palette](../assets/palettes/examples/university-hust-example.webp)
+
+![Tsinghua emblem and six-role palette](../assets/palettes/examples/university-tsinghua-example.webp)
 
 ## Preparing an approved asset
 
@@ -60,6 +71,5 @@ PYTHONPATH=src python scripts/render_builtin_palette_cards.py
 PYTHONPATH=src python scripts/build_palette_archive.py
 ```
 
-The archive is written to `dist/postex-built-in-palettes-v0.3.0a1.zip`, together
+The archive is written to `dist/postex-built-in-palettes-v0.3.0a2.zip`, together
 with a `.sha256` checksum file.
-

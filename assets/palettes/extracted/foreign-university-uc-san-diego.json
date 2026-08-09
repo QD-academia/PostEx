@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-uc-san-diego",
+  "name": "加州大学圣迭戈分校",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-uc-san-diego.png",
+  "source_sha256": "a3559c8f88e0755f756c52a219a6a1fe2e60eebdbab186bb177ef33c4a8dfc90",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#182B49",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#C69214",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#355382",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#1B2674",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

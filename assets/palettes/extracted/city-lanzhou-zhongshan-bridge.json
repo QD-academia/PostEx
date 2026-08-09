@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-lanzhou-zhongshan-bridge",
   "name": "兰州·中山桥",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-lanzhou-zhongshan-bridge.png",
-  "source_sha256": "e6261f8b43d7df61d8fd0094688dfb31d1d40147715416316fc15cbda3d9ab31",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-lanzhou-zhongshan-bridge.jpg",
+  "source_sha256": "9668f97c009b9675f8dcfa4041501044e69f3117a2a909a6b2289c598223d348",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#363F42",
+      "hex": "#A98D72",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#544D48",
+      "hex": "#4C4135",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#95938E",
+      "hex": "#867060",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#737A7C",
+      "hex": "#53636A",
       "ratio": 0.07
     },
     {

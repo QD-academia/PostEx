@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-pennsylvania",
+  "name": "宾夕法尼亚大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-pennsylvania.png",
+  "source_sha256": "c71f57d7d780d8c8637d2ccee591db07d16b6dbc2c2e851068ddd3818fa1d8d8",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#354F82",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#1B2174",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#126387",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#95722D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

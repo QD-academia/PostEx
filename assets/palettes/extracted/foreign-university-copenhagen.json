@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-copenhagen",
+  "name": "哥本哈根大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-copenhagen.png",
+  "source_sha256": "546db692679fb75a8b5ab90f31d6feb072e5737d54165c81cdf23c8c29b2cb76",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#840404",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#823538",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#74301B",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#871240",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,4 +1,9 @@
 schema_version: "0.3"
+display_order:
+  - universities
+  - foreign-universities
+  - genshin-characters
+  - city-landmarks
 asset_contract:
   cutout_format: png
   cutout_path: assets/palettes/cutouts/{id}.png
@@ -95,6 +100,67 @@ collections:
       - {rank: 48, id: university-southwest-jiaotong, name: 西南交通大学, seed_hex: "#005BAC"}
       - {rank: 50, id: university-bupt, name: 北京邮电大学, seed_hex: "#005BAC"}
 
+  foreign-universities:
+    name: 国外高校校徽
+    expected_count: 50
+    ranking:
+      publisher: U.S. News & World Report
+      edition: 2026-2027 Best Global Universities
+      published: "2026-06-16"
+      source_url: https://www.usnews.com/education/best-global-universities/search
+    selection_note: 以2026-2027 Best Global Universities总榜为依据，排除中国内地与港澳高校后取前50所；rank为本集合展示序号。
+    items:
+      - {rank: 1, id: foreign-university-harvard, name: 哈佛大学, subject: Harvard University, seed_hex: "#A51C30"}
+      - {rank: 2, id: foreign-university-mit, name: 麻省理工学院, subject: Massachusetts Institute of Technology, seed_hex: "#A31F34"}
+      - {rank: 3, id: foreign-university-stanford, name: 斯坦福大学, subject: Stanford University, seed_hex: "#8C1515"}
+      - {rank: 4, id: foreign-university-oxford, name: 牛津大学, subject: University of Oxford, seed_hex: "#002147"}
+      - {rank: 5, id: foreign-university-cambridge, name: 剑桥大学, subject: University of Cambridge, seed_hex: "#A3C1AD"}
+      - {rank: 6, id: foreign-university-ucl, name: 伦敦大学学院, subject: University College London, seed_hex: "#500778"}
+      - {rank: 7, id: foreign-university-uc-berkeley, name: 加州大学伯克利分校, subject: University of California, Berkeley, seed_hex: "#003262"}
+      - {rank: 8, id: foreign-university-yale, name: 耶鲁大学, subject: Yale University, seed_hex: "#00356B"}
+      - {rank: 9, id: foreign-university-imperial, name: 帝国理工学院, subject: Imperial College London, seed_hex: "#003E74"}
+      - {rank: 10, id: foreign-university-columbia, name: 哥伦比亚大学, subject: Columbia University, seed_hex: "#B9D9EB"}
+      - {rank: 11, id: foreign-university-johns-hopkins, name: 约翰斯·霍普金斯大学, subject: Johns Hopkins University, seed_hex: "#002D72"}
+      - {rank: 12, id: foreign-university-washington, name: 华盛顿大学, subject: University of Washington, seed_hex: "#4B2E83"}
+      - {rank: 13, id: foreign-university-ucla, name: 加州大学洛杉矶分校, subject: University of California, Los Angeles, seed_hex: "#2774AE"}
+      - {rank: 14, id: foreign-university-pennsylvania, name: 宾夕法尼亚大学, subject: University of Pennsylvania, seed_hex: "#011F5B"}
+      - {rank: 15, id: foreign-university-ucsf, name: 加州大学旧金山分校, subject: University of California, San Francisco, seed_hex: "#052049"}
+      - {rank: 16, id: foreign-university-princeton, name: 普林斯顿大学, subject: Princeton University, seed_hex: "#E77500"}
+      - {rank: 17, id: foreign-university-toronto, name: 多伦多大学, subject: University of Toronto, seed_hex: "#1E3765"}
+      - {rank: 18, id: foreign-university-uc-san-diego, name: 加州大学圣迭戈分校, subject: University of California, San Diego, seed_hex: "#182B49"}
+      - {rank: 19, id: foreign-university-michigan, name: 密歇根大学, subject: University of Michigan, seed_hex: "#00274C"}
+      - {rank: 20, id: foreign-university-cornell, name: 康奈尔大学, subject: Cornell University, seed_hex: "#B31B1B"}
+      - {rank: 21, id: foreign-university-northwestern, name: 西北大学, subject: Northwestern University, seed_hex: "#4E2A84"}
+      - {rank: 22, id: foreign-university-duke, name: 杜克大学, subject: Duke University, seed_hex: "#012169"}
+      - {rank: 23, id: foreign-university-melbourne, name: 墨尔本大学, subject: University of Melbourne, seed_hex: "#094183"}
+      - {rank: 24, id: foreign-university-sydney, name: 悉尼大学, subject: University of Sydney, seed_hex: "#E64626"}
+      - {rank: 25, id: foreign-university-nus, name: 新加坡国立大学, subject: National University of Singapore, seed_hex: "#003D7C"}
+      - {rank: 26, id: foreign-university-edinburgh, name: 爱丁堡大学, subject: University of Edinburgh, seed_hex: "#041E42"}
+      - {rank: 27, id: foreign-university-nyu, name: 纽约大学, subject: New York University, seed_hex: "#57068C"}
+      - {rank: 28, id: foreign-university-washu, name: 圣路易斯华盛顿大学, subject: Washington University in St. Louis, seed_hex: "#A51417"}
+      - {rank: 29, id: foreign-university-unsw, name: 新南威尔士大学, subject: UNSW Sydney, seed_hex: "#FFCD00"}
+      - {rank: 30, id: foreign-university-ubc, name: 英属哥伦比亚大学, subject: University of British Columbia, seed_hex: "#002145"}
+      - {rank: 31, id: foreign-university-kings-college-london, name: 伦敦国王学院, subject: King's College London, seed_hex: "#9B2534"}
+      - {rank: 32, id: foreign-university-monash, name: 蒙纳士大学, subject: Monash University, seed_hex: "#006DAE"}
+      - {rank: 33, id: foreign-university-epfl, name: 洛桑联邦理工学院, subject: EPFL, seed_hex: "#E2001A"}
+      - {rank: 34, id: foreign-university-copenhagen, name: 哥本哈根大学, subject: University of Copenhagen, seed_hex: "#901A1E"}
+      - {rank: 35, id: foreign-university-karolinska, name: 卡罗琳医学院, subject: Karolinska Institutet, seed_hex: "#870052"}
+      - {rank: 36, id: foreign-university-amsterdam, name: 阿姆斯特丹大学, subject: University of Amsterdam, seed_hex: "#BC0031"}
+      - {rank: 37, id: foreign-university-sorbonne, name: 索邦大学, subject: Sorbonne University, seed_hex: "#1D2D50"}
+      - {rank: 38, id: foreign-university-mcgill, name: 麦吉尔大学, subject: McGill University, seed_hex: "#ED1B2F"}
+      - {rank: 39, id: foreign-university-manchester, name: 曼彻斯特大学, subject: University of Manchester, seed_hex: "#6B2C91"}
+      - {rank: 40, id: foreign-university-utrecht, name: 乌得勒支大学, subject: Utrecht University, seed_hex: "#FFCD00"}
+      - {rank: 41, id: foreign-university-queensland, name: 昆士兰大学, subject: University of Queensland, seed_hex: "#51247A"}
+      - {rank: 42, id: foreign-university-pittsburgh, name: 匹兹堡大学, subject: University of Pittsburgh, seed_hex: "#003594"}
+      - {rank: 43, id: foreign-university-minnesota, name: 明尼苏达大学, subject: University of Minnesota, seed_hex: "#7A0019"}
+      - {rank: 44, id: foreign-university-tokyo, name: 东京大学, subject: University of Tokyo, seed_hex: "#187FC4"}
+      - {rank: 45, id: foreign-university-kyoto, name: 京都大学, subject: Kyoto University, seed_hex: "#003B71"}
+      - {rank: 46, id: foreign-university-ohio-state, name: 俄亥俄州立大学, subject: The Ohio State University, seed_hex: "#BB0000"}
+      - {rank: 47, id: foreign-university-vanderbilt, name: 范德堡大学, subject: Vanderbilt University, seed_hex: "#866D4B"}
+      - {rank: 48, id: foreign-university-texas-austin, name: 德克萨斯大学奥斯汀分校, subject: The University of Texas at Austin, seed_hex: "#BF5700"}
+      - {rank: 49, id: foreign-university-boston, name: 波士顿大学, subject: Boston University, seed_hex: "#CC0000"}
+      - {rank: 50, id: foreign-university-erasmus-rotterdam, name: 鹿特丹伊拉斯姆斯大学, subject: Erasmus University Rotterdam, seed_hex: "#003082"}
+
   genshin-characters:
     name: 原神角色灵感配色
     expected_count: 35
@@ -149,4 +215,3 @@ collections:
           - {id: genshin-nod-krai-aino, name: 爱诺, seed_hex: "#4D91A5"}
           - {id: genshin-nod-krai-ineffa, name: 伊涅芙, seed_hex: "#6F75A8"}
           - {id: genshin-nod-krai-columbina, name: 哥伦比娅, seed_hex: "#B8A7D1"}
-

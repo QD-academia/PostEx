@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-utrecht",
+  "name": "乌得勒支大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-utrecht.png",
+  "source_sha256": "c5bbdeae31e0709a741ea410447bcf37525779a77022b375785f3db1d9974117",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#F0B501",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#735603",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#A10530",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#F4C470",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

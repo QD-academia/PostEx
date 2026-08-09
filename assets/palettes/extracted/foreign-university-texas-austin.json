@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-texas-austin",
+  "name": "德克萨斯大学奥斯汀分校",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-texas-austin.png",
+  "source_sha256": "8e5c72a82a1cc11175f1890907a214da5cf857531fcf8c4f40f2179e7162c3c2",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#BF5700",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#D48E53",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#E9C5A6",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#F6E6D9",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

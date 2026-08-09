@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-pittsburgh",
+  "name": "匹兹堡大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-pittsburgh.png",
+  "source_sha256": "c22fc0576247f3f2b56de3d3c00ff15c1c2b41bbfa38f9ee52abc35390ab9bbb",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#004F9D",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#FDB71A",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#8A9070",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#E5CB80",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

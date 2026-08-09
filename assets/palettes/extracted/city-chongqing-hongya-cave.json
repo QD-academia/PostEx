@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-chongqing-hongya-cave",
   "name": "重庆·洪崖洞",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-chongqing-hongya-cave.png",
-  "source_sha256": "dbb7ae8e92cae4b67139148a8cf317f02a4677da856da65bf7924fbcd69fdf89",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-chongqing-hongya-cave.jpg",
+  "source_sha256": "4c4b4f4223bce1333a7f4784ee45b2b5d88c42123b8a16804e155383309cd337",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#56463D",
+      "hex": "#F52F41",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#392D25",
+      "hex": "#87989F",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#19110C",
+      "hex": "#393E1E",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#DECCC6",
+      "hex": "#C7704B",
       "ratio": 0.07
     },
     {

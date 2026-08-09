@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-johns-hopkins",
+  "name": "约翰斯·霍普金斯大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-johns-hopkins.png",
+  "source_sha256": "94a0185fb7131efa73b74127505510a9096094620bd636b35adb7b68866c67ff",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#53574A",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#ACB8BF",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#586770",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#283231",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

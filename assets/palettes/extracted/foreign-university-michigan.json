@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-michigan",
+  "name": "密歇根大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-michigan.png",
+  "source_sha256": "a683bb58fc8b0b032bac7d13d2035fd353a995d0e4be8b6ecb1fbc8a4f63bc33",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#FFCB05",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#00274C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#355D82",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#1B3174",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

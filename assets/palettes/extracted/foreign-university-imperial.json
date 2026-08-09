@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-imperial",
+  "name": "帝国理工学院",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-imperial.png",
+  "source_sha256": "cc63728d10585b322d36ecf6223caf7fb24eb1621d1e3786111c7f78cf4da2b6",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#ECAA26",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#D70000",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#053C80",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#751818",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

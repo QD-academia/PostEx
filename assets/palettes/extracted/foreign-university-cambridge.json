@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-cambridge",
+  "name": "剑桥大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-cambridge.png",
+  "source_sha256": "61867b262bb2d0d89ec1ac3cce2ccba8c3900afc98bbbbeb6ef6b81c2319e030",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#CD0707",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#985722",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#FEE46E",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#EDD327",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

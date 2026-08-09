@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "foreign-university-oxford",
+  "name": "牛津大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/foreign-university-oxford.png",
+  "source_sha256": "dfd8392a110c812961b1d9a1299f44c2416137a792a339d2c2be31c2ebee4b8b",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#002147",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#E8D03C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#F6DF6A",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#B05820",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-ningbo-tianyi-pavilion",
   "name": "宁波·天一阁",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-ningbo-tianyi-pavilion.png",
-  "source_sha256": "930ed118527f47aaf1df4d6147d7287929fa5362f22e715bf41cbe20318aadfd",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-ningbo-tianyi-pavilion.jpg",
+  "source_sha256": "ecdd7cb216b0cd15b048c5527b99329712cfcaee8e6962c6a2c52c5c8aa43315",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#3D3530",
+      "hex": "#55643E",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#211815",
+      "hex": "#2D3622",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#7C7469",
+      "hex": "#B7875C",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#62574F",
+      "hex": "#8F835F",
       "ratio": 0.07
     },
     {

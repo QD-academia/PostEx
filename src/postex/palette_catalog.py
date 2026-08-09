@@ -87,7 +87,7 @@ class PaletteCatalog:
         return blockers
 
     def summary(self) -> dict[str, Any]:
-        collections = sorted({item.collection for item in self.entries})
+        collections = list(dict.fromkeys(item.collection for item in self.entries))
         blockers = self.release_blockers()
         return {
             "schema_version": self.schema_version,
@@ -134,7 +134,12 @@ def load_palette_catalog(root: str | Path) -> PaletteCatalog:
 
     entries: list[PaletteCatalogEntry] = []
     seen: set[str] = set()
-    for collection_id, collection in catalog_data["collections"].items():
+    collections = catalog_data["collections"]
+    order = catalog_data.get("display_order", list(collections))
+    if set(order) != set(collections):
+        raise ValueError("display_order must list every collection exactly once")
+    for collection_id in order:
+        collection = collections[collection_id]
         collection_name = str(collection["name"])
         item_count = 0
         for group_name, item in _iter_collection_items(collection):

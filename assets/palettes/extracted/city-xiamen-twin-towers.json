@@ -2,10 +2,10 @@
   "schema_version": "0.3",
   "palette_id": "city-xiamen-twin-towers",
   "name": "厦门·双子塔",
-  "source_type": "image",
-  "source_reference": "assets/palettes/cutouts/city-xiamen-twin-towers.png",
-  "source_sha256": "7c7946278a89e69fc1b3b45702adbe73d4a5cc4246f457147ed521d76c0de93a",
-  "extraction": "alpha-aware-median-cut-v1",
+  "source_type": "official-city-photo-card",
+  "source_reference": "assets/palettes/incoming/originals/cities/city-xiamen-twin-towers.jpg",
+  "source_sha256": "c400dec6f199682ee5908033a592f57a2643c95fe1096da38542d931aa6862de",
+  "extraction": "photo-chroma-weighted-median-cut-v2",
   "colors": [
     {
       "role": "canvas",
@@ -14,22 +14,22 @@
     },
     {
       "role": "primary",
-      "hex": "#384571",
+      "hex": "#7893DC",
       "ratio": 0.18
     },
     {
       "role": "secondary",
-      "hex": "#5E76AF",
+      "hex": "#212B9D",
       "ratio": 0.11
     },
     {
       "role": "highlight",
-      "hex": "#242D50",
+      "hex": "#556EC8",
       "ratio": 0.08
     },
     {
       "role": "accent",
-      "hex": "#435A92",
+      "hex": "#494C8F",
       "ratio": 0.07
     },
     {

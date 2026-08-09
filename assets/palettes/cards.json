@@ -1,184 +1,18 @@
 {
   "schema_version": "0.3",
-  "count": 104,
+  "count": 154,
   "previews": {
-    "city-landmarks": "assets/palettes/previews/city-landmarks.webp",
     "universities": "assets/palettes/previews/universities.webp",
+    "foreign-universities": "assets/palettes/previews/foreign-universities.webp",
     "genshin-characters": "assets/palettes/previews/genshin-characters.webp",
+    "city-landmarks": "assets/palettes/previews/city-landmarks.webp",
     "all": "assets/palettes/previews/all-palettes.webp"
   },
+  "examples": {
+    "university-hust": "assets/palettes/examples/university-hust-example.webp",
+    "university-tsinghua": "assets/palettes/examples/university-tsinghua-example.webp"
+  },
   "cards": [
-    {
-      "id": "city-beijing-temple-of-heaven",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "北京·天坛",
-      "card": "assets/palettes/cards/city-landmarks/city-beijing-temple-of-heaven.webp",
-      "cutout": "assets/palettes/cutouts/city-beijing-temple-of-heaven.png",
-      "palette": "assets/palettes/extracted/city-beijing-temple-of-heaven.json"
-    },
-    {
-      "id": "city-shanghai-oriental-pearl",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "上海·东方明珠",
-      "card": "assets/palettes/cards/city-landmarks/city-shanghai-oriental-pearl.webp",
-      "cutout": "assets/palettes/cutouts/city-shanghai-oriental-pearl.png",
-      "palette": "assets/palettes/extracted/city-shanghai-oriental-pearl.json"
-    },
-    {
-      "id": "city-guangzhou-canton-tower",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "广州·广州塔",
-      "card": "assets/palettes/cards/city-landmarks/city-guangzhou-canton-tower.webp",
-      "cutout": "assets/palettes/cutouts/city-guangzhou-canton-tower.png",
-      "palette": "assets/palettes/extracted/city-guangzhou-canton-tower.json"
-    },
-    {
-      "id": "city-shenzhen-civic-center",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "深圳·市民中心",
-      "card": "assets/palettes/cards/city-landmarks/city-shenzhen-civic-center.webp",
-      "cutout": "assets/palettes/cutouts/city-shenzhen-civic-center.png",
-      "palette": "assets/palettes/extracted/city-shenzhen-civic-center.json"
-    },
-    {
-      "id": "city-hangzhou-leifeng-pagoda",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "杭州·雷峰塔",
-      "card": "assets/palettes/cards/city-landmarks/city-hangzhou-leifeng-pagoda.webp",
-      "cutout": "assets/palettes/cutouts/city-hangzhou-leifeng-pagoda.png",
-      "palette": "assets/palettes/extracted/city-hangzhou-leifeng-pagoda.json"
-    },
-    {
-      "id": "city-wuhan-yellow-crane-tower",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "武汉·黄鹤楼",
-      "card": "assets/palettes/cards/city-landmarks/city-wuhan-yellow-crane-tower.webp",
-      "cutout": "assets/palettes/cutouts/city-wuhan-yellow-crane-tower.png",
-      "palette": "assets/palettes/extracted/city-wuhan-yellow-crane-tower.json"
-    },
-    {
-      "id": "city-nanjing-sun-yat-sen-mausoleum",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "南京·中山陵",
-      "card": "assets/palettes/cards/city-landmarks/city-nanjing-sun-yat-sen-mausoleum.webp",
-      "cutout": "assets/palettes/cutouts/city-nanjing-sun-yat-sen-mausoleum.png",
-      "palette": "assets/palettes/extracted/city-nanjing-sun-yat-sen-mausoleum.json"
-    },
-    {
-      "id": "city-suzhou-humble-administrators-garden",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "苏州·拙政园",
-      "card": "assets/palettes/cards/city-landmarks/city-suzhou-humble-administrators-garden.webp",
-      "cutout": "assets/palettes/cutouts/city-suzhou-humble-administrators-garden.png",
-      "palette": "assets/palettes/extracted/city-suzhou-humble-administrators-garden.json"
-    },
-    {
-      "id": "city-chongqing-hongya-cave",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "重庆·洪崖洞",
-      "card": "assets/palettes/cards/city-landmarks/city-chongqing-hongya-cave.webp",
-      "cutout": "assets/palettes/cutouts/city-chongqing-hongya-cave.png",
-      "palette": "assets/palettes/extracted/city-chongqing-hongya-cave.json"
-    },
-    {
-      "id": "city-chengdu-anshun-bridge",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "成都·安顺廊桥",
-      "card": "assets/palettes/cards/city-landmarks/city-chengdu-anshun-bridge.webp",
-      "cutout": "assets/palettes/cutouts/city-chengdu-anshun-bridge.png",
-      "palette": "assets/palettes/extracted/city-chengdu-anshun-bridge.json"
-    },
-    {
-      "id": "city-xian-bell-tower",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "西安·钟楼",
-      "card": "assets/palettes/cards/city-landmarks/city-xian-bell-tower.webp",
-      "cutout": "assets/palettes/cutouts/city-xian-bell-tower.png",
-      "palette": "assets/palettes/extracted/city-xian-bell-tower.json"
-    },
-    {
-      "id": "city-nantong-museum",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "南通·南通博物苑",
-      "card": "assets/palettes/cards/city-landmarks/city-nantong-museum.webp",
-      "cutout": "assets/palettes/cutouts/city-nantong-museum.png",
-      "palette": "assets/palettes/extracted/city-nantong-museum.json"
-    },
-    {
-      "id": "city-wuxi-changchun-bridge",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "无锡·长春桥",
-      "card": "assets/palettes/cards/city-landmarks/city-wuxi-changchun-bridge.webp",
-      "cutout": "assets/palettes/cutouts/city-wuxi-changchun-bridge.png",
-      "palette": "assets/palettes/extracted/city-wuxi-changchun-bridge.json"
-    },
-    {
-      "id": "city-ningbo-tianyi-pavilion",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "宁波·天一阁",
-      "card": "assets/palettes/cards/city-landmarks/city-ningbo-tianyi-pavilion.webp",
-      "cutout": "assets/palettes/cutouts/city-ningbo-tianyi-pavilion.png",
-      "palette": "assets/palettes/extracted/city-ningbo-tianyi-pavilion.json"
-    },
-    {
-      "id": "city-lanzhou-zhongshan-bridge",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "兰州·中山桥",
-      "card": "assets/palettes/cards/city-landmarks/city-lanzhou-zhongshan-bridge.webp",
-      "cutout": "assets/palettes/cutouts/city-lanzhou-zhongshan-bridge.png",
-      "palette": "assets/palettes/extracted/city-lanzhou-zhongshan-bridge.json"
-    },
-    {
-      "id": "city-harbin-saint-sophia",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "哈尔滨·圣索菲亚教堂",
-      "card": "assets/palettes/cards/city-landmarks/city-harbin-saint-sophia.webp",
-      "cutout": "assets/palettes/cutouts/city-harbin-saint-sophia.png",
-      "palette": "assets/palettes/extracted/city-harbin-saint-sophia.json"
-    },
-    {
-      "id": "city-shenyang-imperial-palace",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "沈阳·故宫",
-      "card": "assets/palettes/cards/city-landmarks/city-shenyang-imperial-palace.webp",
-      "cutout": "assets/palettes/cutouts/city-shenyang-imperial-palace.png",
-      "palette": "assets/palettes/extracted/city-shenyang-imperial-palace.json"
-    },
-    {
-      "id": "city-fuzhou-three-lanes",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "福州·三坊七巷",
-      "card": "assets/palettes/cards/city-landmarks/city-fuzhou-three-lanes.webp",
-      "cutout": "assets/palettes/cutouts/city-fuzhou-three-lanes.png",
-      "palette": "assets/palettes/extracted/city-fuzhou-three-lanes.json"
-    },
-    {
-      "id": "city-xiamen-twin-towers",
-      "collection": "city-landmarks",
-      "group": null,
-      "name": "厦门·双子塔",
-      "card": "assets/palettes/cards/city-landmarks/city-xiamen-twin-towers.webp",
-      "cutout": "assets/palettes/cutouts/city-xiamen-twin-towers.png",
-      "palette": "assets/palettes/extracted/city-xiamen-twin-towers.json"
-    },
     {
       "id": "university-tsinghua",
       "collection": "universities",
@@ -630,6 +464,456 @@
       "palette": "assets/palettes/extracted/university-bupt.json"
     },
     {
+      "id": "foreign-university-harvard",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "哈佛大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-harvard.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-harvard.png",
+      "palette": "assets/palettes/extracted/foreign-university-harvard.json"
+    },
+    {
+      "id": "foreign-university-mit",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "麻省理工学院",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-mit.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-mit.png",
+      "palette": "assets/palettes/extracted/foreign-university-mit.json"
+    },
+    {
+      "id": "foreign-university-stanford",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "斯坦福大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-stanford.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-stanford.png",
+      "palette": "assets/palettes/extracted/foreign-university-stanford.json"
+    },
+    {
+      "id": "foreign-university-oxford",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "牛津大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-oxford.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-oxford.png",
+      "palette": "assets/palettes/extracted/foreign-university-oxford.json"
+    },
+    {
+      "id": "foreign-university-cambridge",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "剑桥大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-cambridge.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-cambridge.png",
+      "palette": "assets/palettes/extracted/foreign-university-cambridge.json"
+    },
+    {
+      "id": "foreign-university-ucl",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "伦敦大学学院",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-ucl.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-ucl.png",
+      "palette": "assets/palettes/extracted/foreign-university-ucl.json"
+    },
+    {
+      "id": "foreign-university-uc-berkeley",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "加州大学伯克利分校",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-uc-berkeley.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-uc-berkeley.png",
+      "palette": "assets/palettes/extracted/foreign-university-uc-berkeley.json"
+    },
+    {
+      "id": "foreign-university-yale",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "耶鲁大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-yale.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-yale.png",
+      "palette": "assets/palettes/extracted/foreign-university-yale.json"
+    },
+    {
+      "id": "foreign-university-imperial",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "帝国理工学院",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-imperial.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-imperial.png",
+      "palette": "assets/palettes/extracted/foreign-university-imperial.json"
+    },
+    {
+      "id": "foreign-university-columbia",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "哥伦比亚大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-columbia.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-columbia.png",
+      "palette": "assets/palettes/extracted/foreign-university-columbia.json"
+    },
+    {
+      "id": "foreign-university-johns-hopkins",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "约翰斯·霍普金斯大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-johns-hopkins.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-johns-hopkins.png",
+      "palette": "assets/palettes/extracted/foreign-university-johns-hopkins.json"
+    },
+    {
+      "id": "foreign-university-washington",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "华盛顿大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-washington.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-washington.png",
+      "palette": "assets/palettes/extracted/foreign-university-washington.json"
+    },
+    {
+      "id": "foreign-university-ucla",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "加州大学洛杉矶分校",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-ucla.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-ucla.png",
+      "palette": "assets/palettes/extracted/foreign-university-ucla.json"
+    },
+    {
+      "id": "foreign-university-pennsylvania",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "宾夕法尼亚大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-pennsylvania.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-pennsylvania.png",
+      "palette": "assets/palettes/extracted/foreign-university-pennsylvania.json"
+    },
+    {
+      "id": "foreign-university-ucsf",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "加州大学旧金山分校",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-ucsf.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-ucsf.png",
+      "palette": "assets/palettes/extracted/foreign-university-ucsf.json"
+    },
+    {
+      "id": "foreign-university-princeton",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "普林斯顿大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-princeton.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-princeton.png",
+      "palette": "assets/palettes/extracted/foreign-university-princeton.json"
+    },
+    {
+      "id": "foreign-university-toronto",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "多伦多大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-toronto.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-toronto.png",
+      "palette": "assets/palettes/extracted/foreign-university-toronto.json"
+    },
+    {
+      "id": "foreign-university-uc-san-diego",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "加州大学圣迭戈分校",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-uc-san-diego.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-uc-san-diego.png",
+      "palette": "assets/palettes/extracted/foreign-university-uc-san-diego.json"
+    },
+    {
+      "id": "foreign-university-michigan",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "密歇根大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-michigan.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-michigan.png",
+      "palette": "assets/palettes/extracted/foreign-university-michigan.json"
+    },
+    {
+      "id": "foreign-university-cornell",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "康奈尔大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-cornell.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-cornell.png",
+      "palette": "assets/palettes/extracted/foreign-university-cornell.json"
+    },
+    {
+      "id": "foreign-university-northwestern",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "西北大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-northwestern.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-northwestern.png",
+      "palette": "assets/palettes/extracted/foreign-university-northwestern.json"
+    },
+    {
+      "id": "foreign-university-duke",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "杜克大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-duke.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-duke.png",
+      "palette": "assets/palettes/extracted/foreign-university-duke.json"
+    },
+    {
+      "id": "foreign-university-melbourne",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "墨尔本大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-melbourne.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-melbourne.png",
+      "palette": "assets/palettes/extracted/foreign-university-melbourne.json"
+    },
+    {
+      "id": "foreign-university-sydney",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "悉尼大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-sydney.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-sydney.png",
+      "palette": "assets/palettes/extracted/foreign-university-sydney.json"
+    },
+    {
+      "id": "foreign-university-nus",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "新加坡国立大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-nus.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-nus.png",
+      "palette": "assets/palettes/extracted/foreign-university-nus.json"
+    },
+    {
+      "id": "foreign-university-edinburgh",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "爱丁堡大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-edinburgh.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-edinburgh.png",
+      "palette": "assets/palettes/extracted/foreign-university-edinburgh.json"
+    },
+    {
+      "id": "foreign-university-nyu",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "纽约大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-nyu.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-nyu.png",
+      "palette": "assets/palettes/extracted/foreign-university-nyu.json"
+    },
+    {
+      "id": "foreign-university-washu",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "圣路易斯华盛顿大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-washu.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-washu.png",
+      "palette": "assets/palettes/extracted/foreign-university-washu.json"
+    },
+    {
+      "id": "foreign-university-unsw",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "新南威尔士大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-unsw.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-unsw.png",
+      "palette": "assets/palettes/extracted/foreign-university-unsw.json"
+    },
+    {
+      "id": "foreign-university-ubc",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "英属哥伦比亚大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-ubc.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-ubc.png",
+      "palette": "assets/palettes/extracted/foreign-university-ubc.json"
+    },
+    {
+      "id": "foreign-university-kings-college-london",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "伦敦国王学院",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-kings-college-london.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-kings-college-london.png",
+      "palette": "assets/palettes/extracted/foreign-university-kings-college-london.json"
+    },
+    {
+      "id": "foreign-university-monash",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "蒙纳士大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-monash.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-monash.png",
+      "palette": "assets/palettes/extracted/foreign-university-monash.json"
+    },
+    {
+      "id": "foreign-university-epfl",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "洛桑联邦理工学院",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-epfl.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-epfl.png",
+      "palette": "assets/palettes/extracted/foreign-university-epfl.json"
+    },
+    {
+      "id": "foreign-university-copenhagen",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "哥本哈根大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-copenhagen.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-copenhagen.png",
+      "palette": "assets/palettes/extracted/foreign-university-copenhagen.json"
+    },
+    {
+      "id": "foreign-university-karolinska",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "卡罗琳医学院",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-karolinska.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-karolinska.png",
+      "palette": "assets/palettes/extracted/foreign-university-karolinska.json"
+    },
+    {
+      "id": "foreign-university-amsterdam",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "阿姆斯特丹大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-amsterdam.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-amsterdam.png",
+      "palette": "assets/palettes/extracted/foreign-university-amsterdam.json"
+    },
+    {
+      "id": "foreign-university-sorbonne",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "索邦大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-sorbonne.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-sorbonne.png",
+      "palette": "assets/palettes/extracted/foreign-university-sorbonne.json"
+    },
+    {
+      "id": "foreign-university-mcgill",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "麦吉尔大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-mcgill.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-mcgill.png",
+      "palette": "assets/palettes/extracted/foreign-university-mcgill.json"
+    },
+    {
+      "id": "foreign-university-manchester",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "曼彻斯特大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-manchester.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-manchester.png",
+      "palette": "assets/palettes/extracted/foreign-university-manchester.json"
+    },
+    {
+      "id": "foreign-university-utrecht",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "乌得勒支大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-utrecht.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-utrecht.png",
+      "palette": "assets/palettes/extracted/foreign-university-utrecht.json"
+    },
+    {
+      "id": "foreign-university-queensland",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "昆士兰大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-queensland.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-queensland.png",
+      "palette": "assets/palettes/extracted/foreign-university-queensland.json"
+    },
+    {
+      "id": "foreign-university-pittsburgh",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "匹兹堡大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-pittsburgh.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-pittsburgh.png",
+      "palette": "assets/palettes/extracted/foreign-university-pittsburgh.json"
+    },
+    {
+      "id": "foreign-university-minnesota",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "明尼苏达大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-minnesota.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-minnesota.png",
+      "palette": "assets/palettes/extracted/foreign-university-minnesota.json"
+    },
+    {
+      "id": "foreign-university-tokyo",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "东京大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-tokyo.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-tokyo.png",
+      "palette": "assets/palettes/extracted/foreign-university-tokyo.json"
+    },
+    {
+      "id": "foreign-university-kyoto",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "京都大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-kyoto.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-kyoto.png",
+      "palette": "assets/palettes/extracted/foreign-university-kyoto.json"
+    },
+    {
+      "id": "foreign-university-ohio-state",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "俄亥俄州立大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-ohio-state.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-ohio-state.png",
+      "palette": "assets/palettes/extracted/foreign-university-ohio-state.json"
+    },
+    {
+      "id": "foreign-university-vanderbilt",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "范德堡大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-vanderbilt.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-vanderbilt.png",
+      "palette": "assets/palettes/extracted/foreign-university-vanderbilt.json"
+    },
+    {
+      "id": "foreign-university-texas-austin",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "德克萨斯大学奥斯汀分校",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-texas-austin.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-texas-austin.png",
+      "palette": "assets/palettes/extracted/foreign-university-texas-austin.json"
+    },
+    {
+      "id": "foreign-university-boston",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "波士顿大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-boston.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-boston.png",
+      "palette": "assets/palettes/extracted/foreign-university-boston.json"
+    },
+    {
+      "id": "foreign-university-erasmus-rotterdam",
+      "collection": "foreign-universities",
+      "group": null,
+      "name": "鹿特丹伊拉斯姆斯大学",
+      "card": "assets/palettes/cards/foreign-universities/foreign-university-erasmus-rotterdam.webp",
+      "cutout": "assets/palettes/cutouts/foreign-university-erasmus-rotterdam.png",
+      "palette": "assets/palettes/extracted/foreign-university-erasmus-rotterdam.json"
+    },
+    {
       "id": "genshin-mondstadt-venti",
       "collection": "genshin-characters",
       "group": "蒙德",
@@ -943,6 +1227,177 @@
       "card": "assets/palettes/cards/genshin-characters/genshin-nod-krai-columbina.webp",
       "cutout": "assets/palettes/cutouts/genshin-nod-krai-columbina.png",
       "palette": "assets/palettes/extracted/genshin-nod-krai-columbina.json"
+    },
+    {
+      "id": "city-beijing-temple-of-heaven",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "北京·天坛",
+      "card": "assets/palettes/cards/city-landmarks/city-beijing-temple-of-heaven.webp",
+      "cutout": "assets/palettes/cutouts/city-beijing-temple-of-heaven.png",
+      "palette": "assets/palettes/extracted/city-beijing-temple-of-heaven.json"
+    },
+    {
+      "id": "city-shanghai-oriental-pearl",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "上海·东方明珠",
+      "card": "assets/palettes/cards/city-landmarks/city-shanghai-oriental-pearl.webp",
+      "cutout": "assets/palettes/cutouts/city-shanghai-oriental-pearl.png",
+      "palette": "assets/palettes/extracted/city-shanghai-oriental-pearl.json"
+    },
+    {
+      "id": "city-guangzhou-canton-tower",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "广州·广州塔",
+      "card": "assets/palettes/cards/city-landmarks/city-guangzhou-canton-tower.webp",
+      "cutout": "assets/palettes/cutouts/city-guangzhou-canton-tower.png",
+      "palette": "assets/palettes/extracted/city-guangzhou-canton-tower.json"
+    },
+    {
+      "id": "city-shenzhen-civic-center",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "深圳·市民中心",
+      "card": "assets/palettes/cards/city-landmarks/city-shenzhen-civic-center.webp",
+      "cutout": "assets/palettes/cutouts/city-shenzhen-civic-center.png",
+      "palette": "assets/palettes/extracted/city-shenzhen-civic-center.json"
+    },
+    {
+      "id": "city-hangzhou-leifeng-pagoda",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "杭州·雷峰塔",
+      "card": "assets/palettes/cards/city-landmarks/city-hangzhou-leifeng-pagoda.webp",
+      "cutout": "assets/palettes/cutouts/city-hangzhou-leifeng-pagoda.png",
+      "palette": "assets/palettes/extracted/city-hangzhou-leifeng-pagoda.json"
+    },
+    {
+      "id": "city-wuhan-yellow-crane-tower",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "武汉·黄鹤楼",
+      "card": "assets/palettes/cards/city-landmarks/city-wuhan-yellow-crane-tower.webp",
+      "cutout": "assets/palettes/cutouts/city-wuhan-yellow-crane-tower.png",
+      "palette": "assets/palettes/extracted/city-wuhan-yellow-crane-tower.json"
+    },
+    {
+      "id": "city-nanjing-sun-yat-sen-mausoleum",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "南京·中山陵",
+      "card": "assets/palettes/cards/city-landmarks/city-nanjing-sun-yat-sen-mausoleum.webp",
+      "cutout": "assets/palettes/cutouts/city-nanjing-sun-yat-sen-mausoleum.png",
+      "palette": "assets/palettes/extracted/city-nanjing-sun-yat-sen-mausoleum.json"
+    },
+    {
+      "id": "city-suzhou-humble-administrators-garden",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "苏州·拙政园",
+      "card": "assets/palettes/cards/city-landmarks/city-suzhou-humble-administrators-garden.webp",
+      "cutout": "assets/palettes/cutouts/city-suzhou-humble-administrators-garden.png",
+      "palette": "assets/palettes/extracted/city-suzhou-humble-administrators-garden.json"
+    },
+    {
+      "id": "city-chongqing-hongya-cave",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "重庆·洪崖洞",
+      "card": "assets/palettes/cards/city-landmarks/city-chongqing-hongya-cave.webp",
+      "cutout": "assets/palettes/cutouts/city-chongqing-hongya-cave.png",
+      "palette": "assets/palettes/extracted/city-chongqing-hongya-cave.json"
+    },
+    {
+      "id": "city-chengdu-anshun-bridge",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "成都·安顺廊桥",
+      "card": "assets/palettes/cards/city-landmarks/city-chengdu-anshun-bridge.webp",
+      "cutout": "assets/palettes/cutouts/city-chengdu-anshun-bridge.png",
+      "palette": "assets/palettes/extracted/city-chengdu-anshun-bridge.json"
+    },
+    {
+      "id": "city-xian-bell-tower",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "西安·钟楼",
+      "card": "assets/palettes/cards/city-landmarks/city-xian-bell-tower.webp",
+      "cutout": "assets/palettes/cutouts/city-xian-bell-tower.png",
+      "palette": "assets/palettes/extracted/city-xian-bell-tower.json"
+    },
+    {
+      "id": "city-nantong-museum",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "南通·南通博物苑",
+      "card": "assets/palettes/cards/city-landmarks/city-nantong-museum.webp",
+      "cutout": "assets/palettes/cutouts/city-nantong-museum.png",
+      "palette": "assets/palettes/extracted/city-nantong-museum.json"
+    },
+    {
+      "id": "city-wuxi-changchun-bridge",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "无锡·长春桥",
+      "card": "assets/palettes/cards/city-landmarks/city-wuxi-changchun-bridge.webp",
+      "cutout": "assets/palettes/cutouts/city-wuxi-changchun-bridge.png",
+      "palette": "assets/palettes/extracted/city-wuxi-changchun-bridge.json"
+    },
+    {
+      "id": "city-ningbo-tianyi-pavilion",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "宁波·天一阁",
+      "card": "assets/palettes/cards/city-landmarks/city-ningbo-tianyi-pavilion.webp",
+      "cutout": "assets/palettes/cutouts/city-ningbo-tianyi-pavilion.png",
+      "palette": "assets/palettes/extracted/city-ningbo-tianyi-pavilion.json"
+    },
+    {
+      "id": "city-lanzhou-zhongshan-bridge",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "兰州·中山桥",
+      "card": "assets/palettes/cards/city-landmarks/city-lanzhou-zhongshan-bridge.webp",
+      "cutout": "assets/palettes/cutouts/city-lanzhou-zhongshan-bridge.png",
+      "palette": "assets/palettes/extracted/city-lanzhou-zhongshan-bridge.json"
+    },
+    {
+      "id": "city-harbin-saint-sophia",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "哈尔滨·圣索菲亚教堂",
+      "card": "assets/palettes/cards/city-landmarks/city-harbin-saint-sophia.webp",
+      "cutout": "assets/palettes/cutouts/city-harbin-saint-sophia.png",
+      "palette": "assets/palettes/extracted/city-harbin-saint-sophia.json"
+    },
+    {
+      "id": "city-shenyang-imperial-palace",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "沈阳·故宫",
+      "card": "assets/palettes/cards/city-landmarks/city-shenyang-imperial-palace.webp",
+      "cutout": "assets/palettes/cutouts/city-shenyang-imperial-palace.png",
+      "palette": "assets/palettes/extracted/city-shenyang-imperial-palace.json"
+    },
+    {
+      "id": "city-fuzhou-three-lanes",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "福州·三坊七巷",
+      "card": "assets/palettes/cards/city-landmarks/city-fuzhou-three-lanes.webp",
+      "cutout": "assets/palettes/cutouts/city-fuzhou-three-lanes.png",
+      "palette": "assets/palettes/extracted/city-fuzhou-three-lanes.json"
+    },
+    {
+      "id": "city-xiamen-twin-towers",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "厦门·双子塔",
+      "card": "assets/palettes/cards/city-landmarks/city-xiamen-twin-towers.webp",
+      "cutout": "assets/palettes/cutouts/city-xiamen-twin-towers.png",
+      "palette": "assets/palettes/extracted/city-xiamen-twin-towers.json"
     }
   ]
 }
