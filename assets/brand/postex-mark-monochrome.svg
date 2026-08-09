@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">PostEx monochrome mark</title>
+  <desc id="desc">A single-color geometric P inside a poster frame with three palette swatches.</desc>
+  <defs>
+    <mask id="cutouts">
+      <rect width="256" height="256" fill="#FFFFFF"/>
+      <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="116" y="184" width="24" height="15" rx="7.5" fill="#000000"/>
+      <rect x="147" y="184" width="24" height="15" rx="7.5" fill="#000000"/>
+      <rect x="178" y="184" width="24" height="15" rx="7.5" fill="#000000"/>
+    </mask>
+  </defs>
+  <rect x="20" y="14" width="216" height="228" rx="42" fill="#293F55" mask="url(#cutouts)"/>
+</svg>

@@ -4,6 +4,7 @@ These images are used on the GitHub repository landing page and are not a substi
 
 | File | Source | License and restrictions |
 |---|---|---|
+| `postex-brand-system.svg` | Original PostEx identity board showing the approved Poster Frame mark, variants, clear space, minimum size, and color roles | Apache-2.0 documentation asset. The PostEx name and logo identify the project and should not be used to imply affiliation or endorsement. |
 | `palette-fusion-studio.svg` | Original PostEx documentation artwork showing the Paimon-inspired cape-gradient Palette DNA as the primary Visual Signature, with Academic Safe and image/brand fusion as supporting routes | Apache-2.0 documentation asset. It includes no third-party character, game, brand, logo, font, or screenshot artwork. |
 | `template-family-preview.png` | Montage of production-rendered AURORA-12 Paimon-inspired posters in A0, A1, and 36×48-inch formats | Original CC0 synthetic example combined with PostEx template artwork; see `examples/aurora-synthetic/ASSET_LICENSES.md` and `assets/templates/LICENSE.md`. |
 | `evidence-eval-preview.png` | Montage of generated AURORA-12 bioinformatics and LUMEN-24 observational previews | Both studies and all displayed values are original CC0 fictional fixtures. See their records in `evals/cases/` and `examples/`. |

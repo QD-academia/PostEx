@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PostEx social avatar</title>
+  <desc id="desc">The PostEx Frame mark centered on a warm ivory square.</desc>
+  <rect width="512" height="512" rx="112" fill="#F6F2EE"/>
+  <rect x="86" y="72" width="340" height="368" rx="72" fill="#293F55"/>
+  <path d="M168 354V158h112c54 0 88 27 88 70s-34 71-88 71H171" fill="none" stroke="#FFFFFF" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="236" y="342" width="38" height="24" rx="12" fill="#89B8C9"/>
+  <rect x="286" y="342" width="38" height="24" rx="12" fill="#E5BC6C"/>
+  <rect x="336" y="342" width="38" height="24" rx="12" fill="#E98B6F"/>
+</svg>

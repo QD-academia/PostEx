@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">PostEx Frame mark</title>
+  <desc id="desc">A geometric P inside a poster frame with three Palette DNA swatches.</desc>
+  <rect x="20" y="14" width="216" height="228" rx="42" fill="#293F55"/>
+  <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="116" y="184" width="24" height="15" rx="7.5" fill="#89B8C9"/>
+  <rect x="147" y="184" width="24" height="15" rx="7.5" fill="#E5BC6C"/>
+  <rect x="178" y="184" width="24" height="15" rx="7.5" fill="#E98B6F"/>
+</svg>

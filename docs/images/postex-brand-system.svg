@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">PostEx official brand system</title>
+  <desc id="desc">The approved Poster Frame logo, its variants, clear-space rule, minimum-size guidance, and brand colors.</desc>
+  <rect width="1600" height="1000" fill="#F6F2EE"/>
+  <rect width="1600" height="210" fill="#293F55"/>
+  <text x="84" y="82" fill="#E5BC6C" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">POSTEX BRAND SYSTEM · 01</text>
+  <text x="84" y="154" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Poster Frame</text>
+  <text x="488" y="151" fill="#C9D8E3" font-family="Inter, Arial, sans-serif" font-size="27">P monogram · poster boundary · Palette DNA roles</text>
+
+  <rect x="68" y="258" width="940" height="310" rx="34" fill="#FFFFFF"/>
+  <text x="106" y="306" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.4">PRIMARY SIGNATURE</text>
+  <g transform="translate(106 330) scale(.72)">
+    <rect x="20" y="14" width="216" height="228" rx="42" fill="#293F55"/>
+    <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="116" y="184" width="24" height="15" rx="7.5" fill="#89B8C9"/>
+    <rect x="147" y="184" width="24" height="15" rx="7.5" fill="#E5BC6C"/>
+    <rect x="178" y="184" width="24" height="15" rx="7.5" fill="#E98B6F"/>
+  </g>
+  <text x="318" y="467" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-4">Post</text>
+  <text x="532" y="467" fill="#487AA1" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-4">Ex</text>
+  <text x="325" y="511" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">Let every study have its own visual identity.</text>
+
+  <rect x="1038" y="258" width="494" height="310" rx="34" fill="#293F55"/>
+  <text x="1076" y="306" fill="#C9D8E3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.4">REVERSE / DARK SURFACE</text>
+  <g transform="translate(1163 324) scale(.72)">
+    <defs>
+      <mask id="reverse-cutouts">
+        <rect width="256" height="256" fill="#FFFFFF"/>
+        <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="116" y="184" width="24" height="15" rx="7.5" fill="#000000"/>
+        <rect x="147" y="184" width="24" height="15" rx="7.5" fill="#000000"/>
+        <rect x="178" y="184" width="24" height="15" rx="7.5" fill="#000000"/>
+      </mask>
+    </defs>
+    <rect x="20" y="14" width="216" height="228" rx="42" fill="#FFFFFF" mask="url(#reverse-cutouts)"/>
+  </g>
+  <text x="1285" y="532" text-anchor="middle" fill="#C9D8E3" font-family="Inter, Arial, sans-serif" font-size="18">one-color knockout</text>
+
+  <rect x="68" y="600" width="596" height="332" rx="34" fill="#FFFFFF"/>
+  <text x="106" y="648" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.4">CLEAR SPACE</text>
+  <rect x="126" y="685" width="220" height="220" rx="28" fill="none" stroke="#E5BC6C" stroke-width="3" stroke-dasharray="10 8"/>
+  <g transform="translate(148 690) scale(.68)">
+    <rect x="20" y="14" width="216" height="228" rx="42" fill="#293F55"/>
+    <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="116" y="184" width="24" height="15" rx="7.5" fill="#89B8C9"/>
+    <rect x="147" y="184" width="24" height="15" rx="7.5" fill="#E5BC6C"/>
+    <rect x="178" y="184" width="24" height="15" rx="7.5" fill="#E98B6F"/>
+  </g>
+  <path d="M126 675v-14m220 14v-14M116 685h-14m14 220h-14" stroke="#E5BC6C" stroke-width="3" stroke-linecap="round"/>
+  <text x="111" y="670" fill="#B38534" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">x</text>
+  <text x="96" y="801" fill="#B38534" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">x</text>
+  <text x="386" y="716" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">One swatch = x</text>
+  <text x="386" y="757" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="20">Keep ≥ x on every side.</text>
+  <text x="386" y="820" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">Minimum size</text>
+  <text x="386" y="860" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="20">mark 24 px · 8 mm</text>
+  <text x="386" y="892" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="20">horizontal 120 px · 32 mm</text>
+
+  <rect x="694" y="600" width="838" height="332" rx="34" fill="#FFFFFF"/>
+  <text x="732" y="648" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.4">COLOR ROLES</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="732" y="686" width="116" height="116" rx="22" fill="#293F55"/>
+    <text x="790" y="836" text-anchor="middle" fill="#293F55" font-size="16" font-weight="700">Poster Navy</text>
+    <text x="790" y="864" text-anchor="middle" fill="#697386" font-size="17">#293F55</text>
+    <rect x="864" y="686" width="116" height="116" rx="22" fill="#487AA1"/>
+    <text x="922" y="836" text-anchor="middle" fill="#293F55" font-size="16" font-weight="700">Evidence Blue</text>
+    <text x="922" y="864" text-anchor="middle" fill="#697386" font-size="17">#487AA1</text>
+    <rect x="996" y="686" width="116" height="116" rx="22" fill="#89B8C9"/>
+    <text x="1054" y="836" text-anchor="middle" fill="#293F55" font-size="16" font-weight="700">Palette Ice</text>
+    <text x="1054" y="864" text-anchor="middle" fill="#697386" font-size="17">#89B8C9</text>
+    <rect x="1128" y="686" width="116" height="116" rx="22" fill="#E5BC6C"/>
+    <text x="1186" y="836" text-anchor="middle" fill="#293F55" font-size="16" font-weight="700">Signal Gold</text>
+    <text x="1186" y="864" text-anchor="middle" fill="#697386" font-size="17">#E5BC6C</text>
+    <rect x="1260" y="686" width="116" height="116" rx="22" fill="#E98B6F"/>
+    <text x="1318" y="836" text-anchor="middle" fill="#293F55" font-size="16" font-weight="700">Review Coral</text>
+    <text x="1318" y="864" text-anchor="middle" fill="#697386" font-size="17">#E98B6F</text>
+    <rect x="1392" y="686" width="102" height="116" rx="22" fill="#F6F2EE" stroke="#DDD6CF" stroke-width="2"/>
+    <text x="1443" y="836" text-anchor="middle" fill="#293F55" font-size="16" font-weight="700">Canvas</text>
+    <text x="1443" y="864" text-anchor="middle" fill="#697386" font-size="17">#F6F2EE</text>
+  </g>
+</svg>
