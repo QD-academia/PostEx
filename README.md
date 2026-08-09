@@ -87,6 +87,16 @@ The building's ceremonial axis becomes information flow; tiered roofs become res
 
 **Route:** user-image recognition + semantic interpretation · **Palette:** Balanced Fusion · **Structure:** Visual Journey · **Full view:** [poster PNG](docs/images/showcase/tiantan-poster.png) · **Reference:** [Hall of Prayer for Good Harvests photograph](docs/images/showcase/sources/tiantan-hall-of-prayer.jpg)
 
+### 7. Turn an institutional emblem into a scientific identity
+
+The Peking Union Medical College (北京协和医学院) case begins with an authorized institutional emblem rather than a photograph or character reference. PostEx maps PUMC green, archival ivory, restrained gold, sage support and clinical white into a disciplined **Balanced Fusion** that feels institutional without turning the poster into a branded letterhead.
+
+[![Peking Union Medical College emblem transformed into Palette DNA and an evidence-linked PostEx poster](docs/images/showcase/pumc-showcase.webp)](docs/images/showcase/pumc-poster.png)
+
+The emblem appears as the approved institutional mark while the extracted palette controls hierarchy, cards, metrics and emphasis. Scientific raster figures remain unchanged, and no affiliation or endorsement beyond the source study is implied.
+
+**Route:** permission-recorded emblem + brand-role extraction · **Palette:** Balanced Fusion · **Structure:** Visual Journey · **Full view:** [poster PNG](docs/images/showcase/pumc-poster.png) · **Reference:** [authorized CAMS & PUMC emblem](docs/images/showcase/sources/pumc-emblem.png)
+
 ## Your study should not look like everyone else's
 
 Give PostEx a paper and a visual idea—a mood, a place, an image, a brand, or a few colors. It returns traceable content, approval-ready Palette DNA, intelligent layout fusion, an editable PPTX, print output, and the evidence trail behind every major decision.

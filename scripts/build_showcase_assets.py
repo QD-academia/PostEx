@@ -34,6 +34,7 @@ class Showcase:
     accent: str
     card: str
     dark_source_text: bool = False
+    source_contain: bool = False
 
 
 CASES = (
@@ -75,6 +76,27 @@ CASES = (
         border="#143F78",
         accent="#D2A44F",
         card="#FFFFFF",
+    ),
+    Showcase(
+        slug="pumc",
+        eyebrow="POSTEX PALETTE FUSION  /  INSTITUTIONAL EMBLEM CASE STUDY",
+        title="HERITAGE PRECISION",
+        subtitle="From a historic medical emblem to a disciplined scientific identity.",
+        source_label="INSTITUTIONAL EMBLEM",
+        source_detail="PUMC green  ·  archival ivory  ·  restrained gold",
+        source_credit="CAMS & PUMC emblem · used with user-confirmed permission",
+        source_image=SOURCES / "pumc-emblem.png",
+        poster_image=SHOWCASE / "pumc-poster.png",
+        palette=("#F5F7F3", "#00584F", "#4D8378", "#C5A45B", "#D7E3DD", "#173832"),
+        background_top="#F5F7F3",
+        background_bottom="#CEDBD5",
+        text="#173832",
+        muted="#4B635D",
+        border="#00584F",
+        accent="#C5A45B",
+        card="#FFFFFF",
+        dark_source_text=True,
+        source_contain=True,
     ),
 )
 
@@ -138,6 +160,18 @@ def contain(image: Image.Image, size: tuple[int, int], background: str) -> Image
     return output
 
 
+def rounded_contain(
+    image: Image.Image, size: tuple[int, int], radius: int, background: str
+) -> Image.Image:
+    fitted = contain(image, size, background)
+    mask = Image.new("L", size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle(
+        (0, 0, size[0] - 1, size[1] - 1), radius=radius, fill=255
+    )
+    fitted.putalpha(mask)
+    return fitted
+
+
 def paste_shadow(
     canvas: Image.Image, image: Image.Image, xy: tuple[int, int], radius: int = 22
 ) -> None:
@@ -196,7 +230,10 @@ def build(case: Showcase) -> Path:
     source_draw = ImageDraw.Draw(source_card)
     source_image = Image.open(case.source_image)
     focus_y = 0.06 if case.slug == "tiantan" else 0.5
-    source_visual = rounded_crop(source_image, (source_w - 24, 388), 20, focus_y=focus_y)
+    if case.source_contain:
+        source_visual = rounded_contain(source_image, (source_w - 24, 388), 20, case.card)
+    else:
+        source_visual = rounded_crop(source_image, (source_w - 24, 388), 20, focus_y=focus_y)
     source_card.alpha_composite(source_visual, (12, 12))
     source_text = "#17202B" if case.dark_source_text or case.card == "#FFFFFF" else case.text
     source_muted = "#52606C"
