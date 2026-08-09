@@ -295,6 +295,11 @@ def generate_project(
             "gradient_stops": list(palette.get("gradient_stops", [])),
             "component_behavior": dict(palette.get("component_behavior", {})),
         },
+        "typography": {
+            "language": config.output_language.value,
+            "latin_font_family": "Arial",
+            "cjk_font_family": "Noto Sans CJK SC",
+        },
         "branding": branding,
         "content": content,
         "sources": source_records,

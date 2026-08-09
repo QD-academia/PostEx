@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/1q98l8",
-    "id": "1q98l8",
+    "aid": "sl/dzpmqz",
+    "id": "dzpmqz",
     "slide": 1,
-    "layoutId": "6a9ed298-3342-4e83-92f0-c2a7109d4f08",
+    "layoutId": "39a30716-b7f2-44f6-a3a4-12e1d7602884",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "03b7650d-a41f-44a1-9fbb-d7d67ca50ad6",
+    "masterLayoutId": "b2534356-7db8-4f68-8ee2-ffb9b4d410b1",
     "masterLayoutName": "Master",
     "backgroundColor": "#F6F2EE",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "6a9ed298-3342-4e83-92f0-c2a7109d4f08",
+      "id": "39a30716-b7f2-44f6-a3a4-12e1d7602884",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "03b7650d-a41f-44a1-9fbb-d7d67ca50ad6",
+      "parentLayoutId": "b2534356-7db8-4f68-8ee2-ffb9b4d410b1",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "03b7650d-a41f-44a1-9fbb-d7d67ca50ad6",
+      "id": "b2534356-7db8-4f68-8ee2-ffb9b4d410b1",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3el076hw",
+      "aid": "sh/0batwnu5",
       "id": "1",
       "name": "header-band",
       "bbox": [
@@ -81,7 +81,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ozuhgbyh",
+      "aid": "sh/za1snidk",
       "id": "2",
       "name": "top-cape-gradient-1",
       "bbox": [
@@ -98,7 +98,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p03i9gz2",
+      "aid": "sh/e9sbudcz",
       "id": "3",
       "name": "top-cape-gradient-2",
       "bbox": [
@@ -115,7 +115,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e9sza1gf",
+      "aid": "sh/9gjutcvm",
       "id": "4",
       "name": "top-cape-gradient-3",
       "bbox": [
@@ -132,7 +132,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fal036h0",
+      "aid": "sh/ofat07u1",
       "id": "5",
       "name": "top-cape-gradient-4",
       "bbox": [
@@ -149,7 +149,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gbuhcbyl",
+      "aid": "sh/ne1cr2dw",
       "id": "6",
       "name": "top-cape-gradient-5",
       "bbox": [
@@ -166,7 +166,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1c3i5gz6",
+      "aid": "sh/mdsbyxcb",
       "id": "7",
       "name": "top-cape-gradient-6",
       "bbox": [
@@ -183,7 +183,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y5wzm5gj",
+      "aid": "sh/x43uxcvy",
       "id": "8",
       "name": "top-cape-gradient-7",
       "bbox": [
@@ -200,7 +200,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z650fqh4",
+      "aid": "sh/w3ut47ud",
       "id": "9",
       "name": "top-cape-gradient-8",
       "bbox": [
@@ -217,7 +217,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rqlsnet0",
+      "aid": "sh/i9kjux4j",
       "id": "10",
       "name": "top-cape-gradient-9",
       "bbox": [
@@ -234,7 +234,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qpcru9sf",
+      "aid": "sh/jat03254",
       "id": "11",
       "name": "top-cape-gradient-10",
       "bbox": [
@@ -251,7 +251,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ds3apob6",
+      "aid": "sh/kb21w7mp",
       "id": "12",
       "name": "top-cape-gradient-11",
       "bbox": [
@@ -268,7 +268,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cru9wjal",
+      "aid": "sh/5cbi5cna",
       "id": "13",
       "name": "top-cape-gradient-12",
       "bbox": [
@@ -285,7 +285,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/zulsrytc",
+      "aid": "sh/6xkjyx4f",
       "id": "14",
       "name": "top-cape-gradient-13",
       "bbox": [
@@ -302,7 +302,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/etcrytsr",
+      "aid": "sh/7yd07250",
       "id": "15",
       "name": "top-cape-gradient-14",
       "bbox": [
@@ -319,7 +319,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1gnat8b2",
+      "aid": "sh/szm107ml",
       "id": "16",
       "name": "top-cape-gradient-15",
       "bbox": [
@@ -336,7 +336,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0fu903ah",
+      "aid": "sh/t0vi9cn6",
       "id": "17",
       "name": "top-cape-gradient-16",
       "bbox": [
@@ -353,7 +353,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ni5svyt8",
+      "aid": "sh/mh0zmd4b",
       "id": "18",
       "name": "top-cape-gradient-17",
       "bbox": [
@@ -370,7 +370,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mhwr2dsn",
+      "aid": "sh/n290vi5w",
       "id": "19",
       "name": "top-cape-gradient-18",
       "bbox": [
@@ -387,7 +387,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ip03a1g7",
+      "aid": "sh/bm5g3elo",
       "id": "20",
       "name": "top-cape-gradient-19",
       "bbox": [
@@ -404,7 +404,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jq94j6hs",
+      "aid": "sh/qlwfu9k3",
       "id": "21",
       "name": "top-cape-gradient-20",
       "bbox": [
@@ -421,7 +421,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/krilcbyd",
+      "aid": "sh/d87y5o3u",
       "id": "22",
       "name": "top-cape-gradient-21",
       "bbox": [
@@ -438,7 +438,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5srmlgzy",
+      "aid": "sh/cnyxwj29",
       "id": "23",
       "name": "top-cape-gradient-22",
       "bbox": [
@@ -455,7 +455,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/al036h0v",
+      "aid": "sh/3i5gzuls",
       "id": "24",
       "name": "top-cape-gradient-23",
       "bbox": [
@@ -472,7 +472,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vm94fmhg",
+      "aid": "sh/2hwfqpk7",
       "id": "25",
       "name": "top-cape-gradient-24",
       "bbox": [
@@ -489,7 +489,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wnil8ry1",
+      "aid": "sh/pkny143i",
       "id": "26",
       "name": "top-cape-gradient-25",
       "bbox": [
@@ -506,7 +506,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xormhwzm",
+      "aid": "sh/ojexsz2x",
       "id": "27",
       "name": "top-cape-gradient-26",
       "bbox": [
@@ -523,7 +523,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/uhk3ilgf",
+      "aid": "sh/nepgbylw",
       "id": "28",
       "name": "top-cape-gradient-27",
       "bbox": [
@@ -540,7 +540,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fit4rqh0",
+      "aid": "sh/mdgf2tkb",
       "id": "29",
       "name": "top-cape-gradient-28",
       "bbox": [
@@ -557,7 +557,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pcf6hkj2",
+      "aid": "sh/k7qlgreh",
       "id": "30",
       "name": "top-cape-gradient-29",
       "bbox": [
@@ -574,7 +574,7 @@
       "order": 31,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/obmp8fih",
+      "aid": "sh/l8zm9wf2",
       "id": "31",
       "name": "top-cape-gradient-30",
       "bbox": [
@@ -591,7 +591,7 @@
       "order": 32,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3adofa1w",
+      "aid": "sh/yl83e1wb",
       "id": "32",
       "name": "top-cape-gradient-31",
       "bbox": [
@@ -608,7 +608,7 @@
       "order": 33,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2p47650b",
+      "aid": "sh/jmh47mxw",
       "id": "33",
       "name": "top-cape-gradient-32",
       "bbox": [
@@ -625,7 +625,7 @@
       "order": 34,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1ov6dkj6",
+      "aid": "sh/8balkbet",
       "id": "34",
       "name": "header-cape-gradient-1",
       "bbox": [
@@ -642,7 +642,7 @@
       "order": 35,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gnm54fil",
+      "aid": "sh/tcjmdgfy",
       "id": "35",
       "name": "header-cape-gradient-2",
       "bbox": [
@@ -659,7 +659,7 @@
       "order": 36,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fmdoba10",
+      "aid": "sh/6983i1wn",
       "id": "36",
       "name": "header-cape-gradient-3",
       "bbox": [
@@ -676,7 +676,7 @@
       "order": 37,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ul4n250f",
+      "aid": "sh/7ah4b6x8",
       "id": "37",
       "name": "header-cape-gradient-4",
       "bbox": [
@@ -693,7 +693,7 @@
       "order": 38,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkz6p4ja",
+      "aid": "sh/gfalobep",
       "id": "38",
       "name": "header-cape-gradient-5",
       "bbox": [
@@ -710,7 +710,7 @@
       "order": 39,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0jqpgzip",
+      "aid": "sh/hgjmhgfa",
       "id": "39",
       "name": "header-cape-gradient-6",
       "bbox": [
@@ -727,7 +727,7 @@
       "order": 40,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8bu50fe9",
+      "aid": "sh/1obmxgja",
       "id": "40",
       "name": "header-cape-gradient-7",
       "bbox": [
@@ -744,7 +744,7 @@
       "order": 41,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9c36tkfu",
+      "aid": "sh/gn2lobip",
       "id": "41",
       "name": "header-cape-gradient-8",
       "bbox": [
@@ -761,7 +761,7 @@
       "order": 42,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m9sny5w3",
+      "aid": "sh/fmt4v61k",
       "id": "42",
       "name": "header-cape-gradient-9",
       "bbox": [
@@ -778,7 +778,7 @@
       "order": 43,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7aloraxo",
+      "aid": "sh/elk3m10z",
       "id": "43",
       "name": "header-cape-gradient-10",
       "bbox": [
@@ -795,7 +795,7 @@
       "order": 44,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gfu5ofe5",
+      "aid": "sh/tkrmtwje",
       "id": "44",
       "name": "header-cape-gradient-11",
       "bbox": [
@@ -812,7 +812,7 @@
       "order": 45,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hg36xkfq",
+      "aid": "sh/sjilkrit",
       "id": "45",
       "name": "header-cape-gradient-12",
       "bbox": [
@@ -829,7 +829,7 @@
       "order": 46,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/udcn25wz",
+      "aid": "sh/ri94rm18",
       "id": "46",
       "name": "header-cape-gradient-13",
       "bbox": [
@@ -846,7 +846,7 @@
       "order": 47,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/velovaxk",
+      "aid": "sh/6h03yh0n",
       "id": "47",
       "name": "header-cape-gradient-14",
       "bbox": [
@@ -863,7 +863,7 @@
       "order": 48,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/43epszeh",
+      "aid": "sh/xgvm50ji",
       "id": "48",
       "name": "header-cape-gradient-15",
       "bbox": [
@@ -880,7 +880,7 @@
       "order": 49,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/54n614f2",
+      "aid": "sh/cfm5wvix",
       "id": "49",
       "name": "header-cape-gradient-16",
       "bbox": [
@@ -897,7 +897,7 @@
       "order": 50,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/za907ilg",
+      "aid": "sh/ulwjqxgf",
       "id": "50",
       "name": "header-cape-gradient-17",
       "bbox": [
@@ -914,7 +914,7 @@
       "order": 51,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e90zedkv",
+      "aid": "sh/vmpkzih0",
       "id": "51",
       "name": "header-cape-gradient-18",
       "bbox": [
@@ -931,7 +931,7 @@
       "order": 52,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1cri9s36",
+      "aid": "sh/wny1snyl",
       "id": "52",
       "name": "header-cape-gradient-19",
       "bbox": [
@@ -948,7 +948,7 @@
       "order": 53,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0bihgn2l",
+      "aid": "sh/ho721sz6",
       "id": "53",
       "name": "header-cape-gradient-20",
       "bbox": [
@@ -965,7 +965,7 @@
       "order": 54,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rmp0jil4",
+      "aid": "sh/mxwjmdgj",
       "id": "54",
       "name": "header-cape-gradient-21",
       "bbox": [
@@ -982,7 +982,7 @@
       "order": 55,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qlgzadkj",
+      "aid": "sh/7y50vih4",
       "id": "55",
       "name": "header-cape-gradient-22",
       "bbox": [
@@ -999,7 +999,7 @@
       "order": 56,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d8ri5s3a",
+      "aid": "sh/8ze1onyp",
       "id": "56",
       "name": "header-cape-gradient-23",
       "bbox": [
@@ -1016,7 +1016,7 @@
       "order": 57,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cnihcn2p",
+      "aid": "sh/90nixszu",
       "id": "57",
       "name": "header-cape-gradient-24",
       "bbox": [
@@ -1033,7 +1033,7 @@
       "order": 58,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bit0f2l8",
+      "aid": "sh/6t0jyhgn",
       "id": "58",
       "name": "header-cape-gradient-25",
       "bbox": [
@@ -1050,7 +1050,7 @@
       "order": 59,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ahkjmxk3",
+      "aid": "sh/ru9k72h8",
       "id": "59",
       "name": "header-cape-gradient-26",
       "bbox": [
@@ -1067,7 +1067,7 @@
       "order": 60,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6d43e14b",
+      "aid": "sh/3mh83ato",
       "id": "60",
       "name": "header-cape-gradient-27",
       "bbox": [
@@ -1084,7 +1084,7 @@
       "order": 61,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7yxkn65g",
+      "aid": "sh/2l87a5s3",
       "id": "61",
       "name": "header-cape-gradient-28",
       "bbox": [
@@ -1101,7 +1101,7 @@
       "order": 62,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8z6lgbm1",
+      "aid": "sh/pozq5kbe",
       "id": "62",
       "name": "header-cape-gradient-29",
       "bbox": [
@@ -1118,7 +1118,7 @@
       "order": 63,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t0f2pgnm",
+      "aid": "sh/onqpcfat",
       "id": "63",
       "name": "header-cape-gradient-30",
       "bbox": [
@@ -1135,7 +1135,7 @@
       "order": 64,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u1o3il47",
+      "aid": "sh/bq187atk",
       "id": "64",
       "name": "header-cape-gradient-31",
       "bbox": [
@@ -1152,7 +1152,7 @@
       "order": 65,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/v2xkrq5s",
+      "aid": "sh/qps7epsz",
       "id": "65",
       "name": "header-cape-gradient-32",
       "bbox": [
@@ -1169,7 +1169,7 @@
       "order": 66,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g36lkvmd",
+      "aid": "sh/dsjq9kbq",
       "id": "66",
       "name": "poster-title",
       "bbox": [
@@ -1254,7 +1254,7 @@
       "order": 67,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/h4fmtgny",
+      "aid": "sh/crapgfa5",
       "id": "67",
       "name": "authors",
       "bbox": [
@@ -1316,7 +1316,7 @@
       "order": 68,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a5k36h43",
+      "aid": "sh/zu18butg",
       "id": "68",
       "name": "affiliations",
       "bbox": [
@@ -1375,7 +1375,7 @@
       "order": 69,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b6dkfm5o",
+      "aid": "sh/yts7ipsb",
       "id": "69",
       "name": "citation",
       "bbox": [
@@ -1437,7 +1437,7 @@
       "order": 70,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d0j6lk76",
+      "aid": "sh/wjup8zq9",
       "id": "70",
       "name": "logo-slot-fictional-lab-logo",
       "bbox": [
@@ -1455,7 +1455,7 @@
       "order": 71,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cza5cf6l",
+      "aid": "sh/xk36147u",
       "id": "71",
       "name": "logo-placeholder-fictional-lab-logo",
       "bbox": [
@@ -1519,7 +1519,7 @@
       "order": 72,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ry1ojup0",
+      "aid": "sh/ahc76p83",
       "id": "72",
       "name": "header-summary",
       "bbox": [
@@ -1536,7 +1536,7 @@
       "order": 73,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qxsnapof",
+      "aid": "sh/vilozu9o",
       "id": "73",
       "name": "header-metric-1-value",
       "bbox": [
@@ -1598,12 +1598,12 @@
       "order": 74,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1o36p472",
+      "aid": "sh/8vap4zqd",
       "id": "74",
       "name": "header-metric-1-label",
       "bbox": [
         2433.41,
-        227.4,
+        224.57,
         183.92,
         62.15
       ],
@@ -1664,7 +1664,7 @@
       "order": 75,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0na5gz6h",
+      "aid": "sh/9w36xkri",
       "id": "75",
       "name": "header-metric-2-value",
       "bbox": [
@@ -1726,12 +1726,12 @@
       "order": 76,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z21onupw",
+      "aid": "sh/mtsn2p87",
       "id": "76",
       "name": "header-metric-2-label",
       "bbox": [
         2645.63,
-        227.4,
+        224.57,
         183.92,
         62.15
       ],
@@ -1792,7 +1792,7 @@
       "order": 77,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e1snepob",
+      "aid": "sh/nu1ovu9s",
       "id": "77",
       "name": "header-metric-3-value",
       "bbox": [
@@ -1854,12 +1854,12 @@
       "order": 78,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hsz6d07y",
+      "aid": "sh/0ra50fq1",
       "id": "78",
       "name": "header-metric-3-label",
       "bbox": [
         2857.85,
-        227.4,
+        224.57,
         183.92,
         62.15
       ],
@@ -1924,7 +1924,7 @@
       "order": 79,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/grq54v6d",
+      "aid": "sh/lsj6tkrm",
       "id": "79",
       "name": "question-title",
       "bbox": [
@@ -1986,7 +1986,7 @@
       "order": 80,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8r69k3yt",
+      "aid": "sh/d07mtwvm",
       "id": "80",
       "name": "question-rule",
       "bbox": [
@@ -2003,14 +2003,14 @@
       "order": 81,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9sfad8fe",
+      "aid": "sh/sze50re1",
       "id": "81",
       "name": "research-question",
       "bbox": [
         99.03,
         481.63,
         863.01,
-        165.96
+        155.36
       ],
       "geometry": "rect",
       "text": "Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?",
@@ -2070,7 +2070,7 @@
       "order": 82,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mp4ritg3",
+      "aid": "sh/ry54rmdg",
       "id": "82",
       "name": "question-evidence",
       "bbox": [
@@ -2087,7 +2087,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2111,16 +2110,14 @@
           "text": "Evidence: Abstract and Introduction, pp. 1-2",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: Abstract and Introduction, pp. 1-2",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -2132,7 +2129,7 @@
       "order": 83,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7qdsbyx8",
+      "aid": "sh/qxwny1wv",
       "id": "83",
       "name": "pipeline-title",
       "bbox": [
@@ -2194,7 +2191,7 @@
       "order": 84,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/knm9gjyx",
+      "aid": "sh/147mxgvi",
       "id": "84",
       "name": "pipeline-rule",
       "bbox": [
@@ -2211,7 +2208,7 @@
       "order": 85,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lova9ofi",
+      "aid": "sh/03y54bex",
       "id": "85",
       "name": "pipeline-1-number-bg",
       "bbox": [
@@ -2228,7 +2225,7 @@
       "order": 86,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y14re9gr",
+      "aid": "sh/f2p4v6dc",
       "id": "86",
       "name": "pipeline-1-number",
       "bbox": [
@@ -2292,7 +2289,7 @@
       "order": 87,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z2ds7exc",
+      "aid": "sh/e1gn21w7",
       "id": "87",
       "name": "pipeline-1-text",
       "bbox": [
@@ -2309,7 +2306,6 @@
         "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#293F55",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2333,16 +2329,14 @@
           "text": "Fixed seed generated 1,240 profiles",
           "resolvedTextStyle": {
             "fontSize": 26.84,
-            "color": "#293F55",
-            "bold": true
+            "color": "#293F55"
           },
           "runs": [
             {
               "index": 1,
               "text": "Fixed seed generated 1,240 profiles",
               "fontSize": 26.84,
-              "color": "#293F55",
-              "bold": true
+              "color": "#293F55"
             }
           ],
           "marginLeft": 0
@@ -2354,7 +2348,7 @@
       "order": 88,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4jqtcne1",
+      "aid": "sh/98r61gvu",
       "id": "88",
       "name": "pipeline-2-number-bg",
       "bbox": [
@@ -2371,7 +2365,7 @@
       "order": 89,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5kzalsfm",
+      "aid": "sh/o7y5sbu9",
       "id": "89",
       "name": "pipeline-2-number",
       "bbox": [
@@ -2435,7 +2429,7 @@
       "order": 90,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fe1cbmho",
+      "aid": "sh/m18b6t8f",
       "id": "90",
       "name": "pipeline-2-text",
       "bbox": [
@@ -2452,7 +2446,6 @@
         "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#293F55",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2476,16 +2469,14 @@
           "text": "480 anonymous transcript-like features",
           "resolvedTextStyle": {
             "fontSize": 26.84,
-            "color": "#293F55",
-            "bold": true
+            "color": "#293F55"
           },
           "runs": [
             {
               "index": 1,
               "text": "480 anonymous transcript-like features",
               "fontSize": 26.84,
-              "color": "#293F55",
-              "bold": true
+              "color": "#293F55"
             }
           ],
           "marginLeft": 0
@@ -2497,7 +2488,7 @@
       "order": 91,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/edsvihg3",
+      "aid": "sh/72hsfyp0",
       "id": "91",
       "name": "pipeline-3-number-bg",
       "bbox": [
@@ -2514,7 +2505,7 @@
       "order": 92,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1gjedwzu",
+      "aid": "sh/83qt8jql",
       "id": "92",
       "name": "pipeline-3-number",
       "bbox": [
@@ -2578,7 +2569,7 @@
       "order": 93,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gfadkry9",
+      "aid": "sh/94jaho7q",
       "id": "93",
       "name": "pipeline-3-text",
       "bbox": [
@@ -2595,7 +2586,6 @@
         "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#293F55",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2619,16 +2609,14 @@
           "text": "Nested elastic-net selection",
           "resolvedTextStyle": {
             "fontSize": 26.84,
-            "color": "#293F55",
-            "bold": true
+            "color": "#293F55"
           },
           "runs": [
             {
               "index": 1,
               "text": "Nested elastic-net selection",
               "fontSize": 26.84,
-              "color": "#293F55",
-              "bold": true
+              "color": "#293F55"
             }
           ],
           "marginLeft": 0
@@ -2640,7 +2628,7 @@
       "order": 94,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ilwfmh0",
+      "aid": "sh/u5sbat8b",
       "id": "94",
       "name": "pipeline-4-number-bg",
       "bbox": [
@@ -2657,7 +2645,7 @@
       "order": 95,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2hcvmhgf",
+      "aid": "sh/v61cjypw",
       "id": "95",
       "name": "pipeline-4-number",
       "bbox": [
@@ -2721,7 +2709,7 @@
       "order": 96,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pk3ehwz6",
+      "aid": "sh/w7atc3qh",
       "id": "96",
       "name": "pipeline-4-text",
       "bbox": [
@@ -2738,7 +2726,6 @@
         "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#293F55",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2762,16 +2749,14 @@
           "text": "12-feature score and shift testing",
           "resolvedTextStyle": {
             "fontSize": 26.84,
-            "color": "#293F55",
-            "bold": true
+            "color": "#293F55"
           },
           "runs": [
             {
               "index": 1,
               "text": "12-feature score and shift testing",
               "fontSize": 26.84,
-              "color": "#293F55",
-              "bold": true
+              "color": "#293F55"
             }
           ],
           "marginLeft": 0
@@ -2783,7 +2768,7 @@
       "order": 97,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ojudoryl",
+      "aid": "sh/hsjul872",
       "id": "97",
       "name": "dataset-panel",
       "bbox": [
@@ -2801,7 +2786,7 @@
       "order": 98,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jmhc32hg",
+      "aid": "sh/itsbedon",
       "id": "98",
       "name": "dataset-kicker",
       "bbox": [
@@ -2863,18 +2848,80 @@
       "order": 99,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/il8vax0b",
+      "aid": "sh/ju1cnip8",
       "id": "99",
-      "name": "datasets",
+      "name": "dataset-lead",
       "bbox": [
         118.84,
         1055.76,
         823.4,
-        162.43
+        38.13
       ],
       "geometry": "rect",
-      "text": "Discovery n=620 · Internal validation n=310\nExternal simulation A n=186 · External simulation B n=124\nAll values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
-      "textPreview": "Discovery n=620 · Internal validation n=310 | External simulation A n=186 · External simulation B n=124 | All values are authored fixture...",
+      "text": "Four deterministic synthetic cohorts",
+      "textPreview": "Four deterministic synthetic cohorts",
+      "resolvedFontSize": 26.84,
+      "resolvedTextStyle": {
+        "fontSize": 26.84,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Four deterministic synthetic cohorts"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Four deterministic synthetic cohorts",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Four deterministic synthetic cohorts",
+              "fontSize": 26.84,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 100,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nylc7qh",
+      "id": "100",
+      "name": "datasets",
+      "bbox": [
+        118.84,
+        1098.84,
+        823.4,
+        109.46
+      ],
+      "geometry": "rect",
+      "text": "• Discovery n=620 · Internal validation n=310\n• External A n=186 · External B n=124\n• No participants, specimens or external datasets",
+      "textPreview": "• Discovery n=620 · Internal validation n=310 | • External A n=186 · External B n=124 | • No participants, specimens or external datasets",
       "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
         "fontSize": 26.84,
@@ -2889,30 +2936,26 @@
         }
       },
       "textLayout": {
-        "lineCount": 4,
+        "lineCount": 3,
         "lines": [
           {
             "index": 1,
-            "text": "Discovery n=620 · Internal validation n=310"
+            "text": "• Discovery n=620 · Internal validation n=310"
           },
           {
             "index": 2,
-            "text": "External simulation A n=186 · External simulation B n=124"
+            "text": "• External A n=186 · External B n=124"
           },
           {
             "index": 3,
-            "text": "All values are authored fixtures; no participant, specimen,"
-          },
-          {
-            "index": 4,
-            "text": "institution, registry or external dataset exists."
+            "text": "• No participants, specimens or external datasets"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Discovery n=620 · Internal validation n=310",
+          "text": "• Discovery n=620 · Internal validation n=310",
           "resolvedTextStyle": {
             "fontSize": 26.84,
             "color": "#293F55"
@@ -2920,7 +2963,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Discovery n=620 · Internal validation n=310",
+              "text": "• Discovery n=620 · Internal validation n=310",
               "fontSize": 26.84,
               "color": "#293F55"
             }
@@ -2929,7 +2972,7 @@
         },
         {
           "index": 2,
-          "text": "External simulation A n=186 · External simulation B n=124",
+          "text": "• External A n=186 · External B n=124",
           "resolvedTextStyle": {
             "fontSize": 26.84,
             "color": "#293F55"
@@ -2937,7 +2980,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "External simulation A n=186 · External simulation B n=124",
+              "text": "• External A n=186 · External B n=124",
               "fontSize": 26.84,
               "color": "#293F55"
             }
@@ -2946,7 +2989,7 @@
         },
         {
           "index": 3,
-          "text": "All values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
+          "text": "• No participants, specimens or external datasets",
           "resolvedTextStyle": {
             "fontSize": 26.84,
             "color": "#293F55"
@@ -2954,7 +2997,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "All values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
+              "text": "• No participants, specimens or external datasets",
               "fontSize": 26.84,
               "color": "#293F55"
             }
@@ -2965,11 +3008,11 @@
       "lineWidth": 0
     },
     {
-      "order": 100,
+      "order": 101,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vqx8belw",
-      "id": "100",
+      "aid": "sh/1o7mlc72",
+      "id": "101",
       "name": "dataset-evidence",
       "bbox": [
         118.84,
@@ -2985,7 +3028,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -3009,16 +3051,14 @@
           "text": "Evidence: Abstract and Methods, pp. 1-2",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: Abstract and Methods, pp. 1-2",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -3027,11 +3067,11 @@
       "lineWidth": 0
     },
     {
-      "order": 101,
+      "order": 102,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/upo7i94b",
-      "id": "101",
+      "aid": "sh/e1g3ah8b",
+      "id": "102",
       "name": "figure-one-heading-title",
       "bbox": [
         99.03,
@@ -3089,11 +3129,11 @@
       "lineWidth": 0
     },
     {
-      "order": 102,
+      "order": 103,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hsfqdo32",
-      "id": "102",
+      "aid": "sh/fmp4jmpw",
+      "id": "103",
       "name": "figure-one-heading-rule",
       "bbox": [
         99.03,
@@ -3106,11 +3146,11 @@
       "lineWidth": 0
     },
     {
-      "order": 103,
+      "order": 104,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gr6pkjmh",
-      "id": "103",
+      "aid": "sh/orilgrqt",
+      "id": "104",
       "name": "figure-one-frame",
       "bbox": [
         99.03,
@@ -3124,11 +3164,11 @@
       "lineWidth": 2.12
     },
     {
-      "order": 104,
+      "order": 105,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/utwvqhgj",
-      "id": "104",
+      "aid": "im/c7mlk7ud",
+      "id": "105",
       "bbox": [
         113.18,
         1366.49,
@@ -3139,23 +3179,23 @@
       "contentType": "image/svg+xml",
       "imageFit": "contain",
       "asset": {
-        "assetId": "45c24c82-9697-4e7a-b424-0f757c4ef31f",
+        "assetId": "f8d6205d-714d-4a01-bc51-7be52c926288",
         "contentType": "image/svg+xml",
         "byteLength": 5531
       }
     },
     {
-      "order": 105,
+      "order": 106,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6147e94f",
-      "id": "105",
+      "aid": "sh/2pg3eh8n",
+      "id": "106",
       "name": "figure-one-caption",
       "bbox": [
         116.01,
         2035.97,
         829.06,
-        29.66
+        23.3
       ],
       "geometry": "rect",
       "text": "Figure 1 · Deterministic generation and validation workflow",
@@ -3207,15 +3247,15 @@
       "lineWidth": 0
     },
     {
-      "order": 106,
+      "order": 107,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tofq9436",
-      "id": "106",
+      "aid": "sh/nq947mp8",
+      "id": "107",
       "name": "figure-one-source",
       "bbox": [
         116.01,
-        2059.27,
+        2059.98,
         829.06,
         26.84
       ],
@@ -3227,7 +3267,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -3251,16 +3290,14 @@
           "text": "Authored synthetic fixture · manuscript p. 2",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Authored synthetic fixture · manuscript p. 2",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -3269,11 +3306,11 @@
       "lineWidth": 0
     },
     {
-      "order": 107,
+      "order": 108,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/836pgzml",
-      "id": "107",
+      "aid": "sh/4vel4nq9",
+      "id": "108",
       "name": "central-takeaway",
       "bbox": [
         1004.49,
@@ -3286,11 +3323,11 @@
       "lineWidth": 0
     },
     {
-      "order": 108,
+      "order": 109,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ryh8jyl4",
-      "id": "108",
+      "aid": "sh/5wn2ds7u",
+      "id": "109",
       "name": "takeaway-cape-gradient-1",
       "bbox": [
         1004.49,
@@ -3303,11 +3340,11 @@
       "lineWidth": 0
     },
     {
-      "order": 109,
+      "order": 110,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qx8rqt4j",
-      "id": "109",
+      "aid": "sh/7qdojq9c",
+      "id": "110",
       "name": "takeaway-cape-gradient-2",
       "bbox": [
         1036.21,
@@ -3320,11 +3357,11 @@
       "lineWidth": 0
     },
     {
-      "order": 110,
+      "order": 111,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/oridoryp",
-      "id": "110",
+      "aid": "sh/mpk7a5sr",
+      "id": "111",
       "name": "takeaway-cape-gradient-3",
       "bbox": [
         1067.93,
@@ -3337,11 +3374,11 @@
       "lineWidth": 0
     },
     {
-      "order": 111,
+      "order": 112,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/psrexwfa",
-      "id": "111",
+      "aid": "sh/9cv6l0ri",
+      "id": "112",
       "name": "takeaway-cape-gradient-4",
       "bbox": [
         1099.66,
@@ -3354,11 +3391,11 @@
       "lineWidth": 0
     },
     {
-      "order": 112,
+      "order": 113,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2p0vm1gz",
-      "id": "112",
+      "aid": "sh/8bmpcvqx",
+      "id": "113",
       "name": "takeaway-cape-gradient-5",
       "bbox": [
         1131.38,
@@ -3371,11 +3408,11 @@
       "lineWidth": 0
     },
     {
-      "order": 113,
+      "order": 114,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3q9wv6xk",
-      "id": "113",
+      "aid": "sh/zmtofq9g",
+      "id": "114",
       "name": "takeaway-cape-gradient-6",
       "bbox": [
         1163.1,
@@ -3388,11 +3425,11 @@
       "lineWidth": 0
     },
     {
-      "order": 114,
+      "order": 115,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cvidsby1",
-      "id": "114",
+      "aid": "sh/ylk76lsv",
+      "id": "115",
       "name": "takeaway-cape-gradient-7",
       "bbox": [
         1194.82,
@@ -3405,11 +3442,11 @@
       "lineWidth": 0
     },
     {
-      "order": 115,
+      "order": 116,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dwre1gfm",
-      "id": "115",
+      "aid": "sh/lob6h0r6",
+      "id": "116",
       "name": "takeaway-cape-gradient-8",
       "bbox": [
         1226.54,
@@ -3422,11 +3459,11 @@
       "lineWidth": 0
     },
     {
-      "order": 116,
+      "order": 117,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qt0vq1gv",
-      "id": "116",
+      "aid": "sh/kn2p8va1",
+      "id": "117",
       "name": "takeaway-cape-gradient-9",
       "bbox": [
         1258.27,
@@ -3439,11 +3476,11 @@
       "lineWidth": 0
     },
     {
-      "order": 117,
+      "order": 118,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bu9wz6xg",
-      "id": "117",
+      "aid": "sh/bitob694",
+      "id": "118",
       "name": "takeaway-cape-gradient-10",
       "bbox": [
         1289.99,
@@ -3456,11 +3493,11 @@
       "lineWidth": 0
     },
     {
-      "order": 118,
+      "order": 119,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0j2xwbyx",
-      "id": "118",
+      "aid": "sh/ah0n2lsj",
+      "id": "119",
       "name": "takeaway-cape-gradient-11",
       "bbox": [
         1321.71,
@@ -3473,11 +3510,11 @@
       "lineWidth": 0
     },
     {
-      "order": 119,
+      "order": 120,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkbe5gfi",
-      "id": "119",
+      "aid": "sh/et07e1cr",
+      "id": "120",
       "name": "takeaway-cape-gradient-12",
       "bbox": [
         1353.43,
@@ -3490,11 +3527,11 @@
       "lineWidth": 0
     },
     {
-      "order": 120,
+      "order": 121,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tg7e9g7m",
-      "id": "120",
+      "aid": "sh/fe98n6tc",
+      "id": "121",
       "name": "takeaway-cape-gradient-13",
       "bbox": [
         1385.15,
@@ -3507,11 +3544,11 @@
       "lineWidth": 0
     },
     {
-      "order": 121,
+      "order": 122,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8fydgbq1",
-      "id": "121",
+      "aid": "sh/0fipgbuh",
+      "id": "122",
       "name": "takeaway-cape-gradient-14",
       "bbox": [
         1416.88,
@@ -3524,11 +3561,11 @@
       "lineWidth": 0
     },
     {
-      "order": 122,
+      "order": 123,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7epw76pw",
-      "id": "122",
+      "aid": "sh/1grqpgb2",
+      "id": "123",
       "name": "takeaway-cape-gradient-15",
       "bbox": [
         1448.6,
@@ -3541,11 +3578,11 @@
       "lineWidth": 0
     },
     {
-      "order": 123,
+      "order": 124,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mdgve18b",
-      "id": "123",
+      "aid": "sh/2h07ilcn",
+      "id": "124",
       "name": "takeaway-cape-gradient-16",
       "bbox": [
         1480.32,
@@ -3558,11 +3595,11 @@
       "lineWidth": 0
     },
     {
-      "order": 124,
+      "order": 125,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/h4red07y",
-      "id": "124",
+      "aid": "sh/nit8rqt8",
+      "id": "125",
       "name": "takeaway-cape-gradient-17",
       "bbox": [
         1512.04,
@@ -3575,11 +3612,11 @@
       "lineWidth": 0
     },
     {
-      "order": 125,
+      "order": 126,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g3idkvqd",
-      "id": "125",
+      "aid": "sh/oj2pkvut",
+      "id": "126",
       "name": "takeaway-cape-gradient-18",
       "bbox": [
         1543.76,
@@ -3592,11 +3629,11 @@
       "lineWidth": 0
     },
     {
-      "order": 126,
+      "order": 127,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vipwbqps",
-      "id": "126",
+      "aid": "sh/pkbqt0be",
+      "id": "127",
       "name": "takeaway-cape-gradient-19",
       "bbox": [
         1575.48,
@@ -3609,11 +3646,11 @@
       "lineWidth": 0
     },
     {
-      "order": 127,
+      "order": 128,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/uhgvil87",
-      "id": "127",
+      "aid": "sh/alk7mlcz",
+      "id": "128",
       "name": "takeaway-cape-gradient-20",
       "bbox": [
         1607.21,
@@ -3626,11 +3663,11 @@
       "lineWidth": 0
     },
     {
-      "order": 128,
+      "order": 129,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/x8ne1w7e",
-      "id": "128",
+      "aid": "sh/bmt8vqt4",
+      "id": "129",
       "name": "takeaway-cape-gradient-21",
       "bbox": [
         1638.93,
@@ -3643,11 +3680,11 @@
       "lineWidth": 0
     },
     {
-      "order": 129,
+      "order": 130,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cned8rq9",
-      "id": "129",
+      "aid": "sh/lgvalkvm",
+      "id": "130",
       "name": "takeaway-cape-gradient-22",
       "bbox": [
         1670.65,
@@ -3660,11 +3697,11 @@
       "lineWidth": 0
     },
     {
-      "order": 130,
+      "order": 131,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2tcbixor",
-      "id": "130",
+      "aid": "sh/kfmtsze1",
+      "id": "131",
       "name": "takeaway-cape-gradient-23",
       "bbox": [
         1702.37,
@@ -3677,11 +3714,11 @@
       "lineWidth": 0
     },
     {
-      "order": 131,
+      "order": 132,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/nelsb25c",
-      "id": "131",
+      "aid": "sh/zedsjudg",
+      "id": "132",
       "name": "takeaway-cape-gradient-24",
       "bbox": [
         1734.09,
@@ -3694,11 +3731,11 @@
       "lineWidth": 0
     },
     {
-      "order": 132,
+      "order": 133,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ofutk76x",
-      "id": "132",
+      "aid": "sh/yd4rqpwv",
+      "id": "133",
       "name": "takeaway-cape-gradient-25",
       "bbox": [
         1765.82,
@@ -3711,11 +3748,11 @@
       "lineWidth": 0
     },
     {
-      "order": 133,
+      "order": 134,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pg3adcni",
-      "id": "133",
+      "aid": "sh/94fap4vi",
+      "id": "134",
       "name": "takeaway-cape-gradient-26",
       "bbox": [
         1797.54,
@@ -3728,11 +3765,11 @@
       "lineWidth": 0
     },
     {
-      "order": 134,
+      "order": 135,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ahcbmho3",
-      "id": "134",
+      "aid": "sh/8j6twzex",
+      "id": "135",
       "name": "takeaway-cape-gradient-27",
       "bbox": [
         1829.26,
@@ -3745,11 +3782,11 @@
       "lineWidth": 0
     },
     {
-      "order": 135,
+      "order": 136,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bilsf25o",
-      "id": "135",
+      "aid": "sh/7ixsnudc",
+      "id": "136",
       "name": "takeaway-cape-gradient-28",
       "bbox": [
         1860.98,
@@ -3762,11 +3799,11 @@
       "lineWidth": 0
     },
     {
-      "order": 136,
+      "order": 137,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cjuto76t",
-      "id": "136",
+      "aid": "sh/mh4bupw7",
+      "id": "137",
       "name": "takeaway-cape-gradient-29",
       "bbox": [
         1892.7,
@@ -3779,11 +3816,11 @@
       "lineWidth": 0
     },
     {
-      "order": 137,
+      "order": 138,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xknuhcne",
-      "id": "137",
+      "aid": "sh/h8fat4vu",
+      "id": "138",
       "name": "takeaway-cape-gradient-30",
       "bbox": [
         1924.43,
@@ -3796,11 +3833,11 @@
       "lineWidth": 0
     },
     {
-      "order": 138,
+      "order": 139,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qlsbadoj",
-      "id": "138",
+      "aid": "sh/w76t0je9",
+      "id": "139",
       "name": "takeaway-cape-gradient-31",
       "bbox": [
         1956.15,
@@ -3813,11 +3850,11 @@
       "lineWidth": 0
     },
     {
-      "order": 139,
+      "order": 140,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rm1s3i54",
-      "id": "139",
+      "aid": "sh/s3adsnyh",
+      "id": "140",
       "name": "takeaway-cape-gradient-32",
       "bbox": [
         1987.87,
@@ -3830,11 +3867,11 @@
       "lineWidth": 0
     },
     {
-      "order": 140,
+      "order": 141,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7690radw",
-      "id": "140",
+      "aid": "sh/t4jel8f2",
+      "id": "141",
       "name": "central-takeaway-title",
       "bbox": [
         1035.62,
@@ -3843,8 +3880,8 @@
         70.62
       ],
       "geometry": "rect",
-      "text": "External simulations retained C-indices of 0.75 and 0.74",
-      "textPreview": "External simulations retained C-indices of 0.75 and 0.74",
+      "text": "External C-indices remained 0.75 and 0.74",
+      "textPreview": "External C-indices remained 0.75 and 0.74",
       "resolvedFontSize": 38.84,
       "resolvedTextStyle": {
         "fontSize": 38.84,
@@ -3860,22 +3897,18 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "External simulations retained C-indices of 0.75"
-          },
-          {
-            "index": 2,
-            "text": "and 0.74"
+            "text": "External C-indices remained 0.75 and 0.74"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "External simulations retained C-indices of 0.75 and 0.74",
+          "text": "External C-indices remained 0.75 and 0.74",
           "resolvedTextStyle": {
             "fontSize": 38.84,
             "color": "#293F55",
@@ -3885,7 +3918,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "External simulations retained C-indices of 0.75 and 0.74",
+              "text": "External C-indices remained 0.75 and 0.74",
               "fontSize": 38.84,
               "color": "#293F55",
               "bold": true,
@@ -3898,11 +3931,11 @@
       "lineWidth": 0
     },
     {
-      "order": 141,
+      "order": 142,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/650zi5cb",
-      "id": "141",
+      "aid": "sh/61svqdgb",
+      "id": "142",
       "name": "central-takeaway-subtitle",
       "bbox": [
         1054.01,
@@ -3962,11 +3995,11 @@
       "lineWidth": 0
     },
     {
-      "order": 142,
+      "order": 143,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t8ritkv2",
-      "id": "142",
+      "aid": "sh/r21wjixw",
+      "id": "143",
       "name": "takeaway-evidence",
       "bbox": [
         1037.03,
@@ -3982,7 +4015,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -4006,16 +4038,14 @@
           "text": "Evidence: Results, pp. 1 and 3; Figure 2",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: Results, pp. 1 and 3; Figure 2",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -4024,11 +4054,11 @@
       "lineWidth": 0
     },
     {
-      "order": 143,
+      "order": 144,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/87ihkfuh",
-      "id": "143",
+      "aid": "sh/4zqdo3y5",
+      "id": "144",
       "name": "figure-two-heading-title",
       "bbox": [
         1004.49,
@@ -4086,11 +4116,11 @@
       "lineWidth": 0
     },
     {
-      "order": 144,
+      "order": 145,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/va90vuds",
-      "id": "144",
+      "aid": "sh/50zuh8fq",
+      "id": "145",
       "name": "figure-two-heading-rule",
       "bbox": [
         1004.49,
@@ -4103,11 +4133,11 @@
       "lineWidth": 0
     },
     {
-      "order": 145,
+      "order": 146,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u90zmpc7",
-      "id": "145",
+      "aid": "sh/id8vmtgf",
+      "id": "146",
       "name": "figure-two-frame",
       "bbox": [
         1004.49,
@@ -4121,11 +4151,11 @@
       "lineWidth": 2.12
     },
     {
-      "order": 146,
+      "order": 147,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/gbet83m5",
-      "id": "146",
+      "aid": "im/alkjyt0n",
+      "id": "147",
       "bbox": [
         1018.64,
         716.79,
@@ -4136,23 +4166,23 @@
       "contentType": "image/svg+xml",
       "imageFit": "contain",
       "asset": {
-        "assetId": "4ac4d8a5-61e9-40f1-8eba-45e3ca01b171",
+        "assetId": "de5f7b8d-626a-4fcd-af80-6dff1fed9b52",
         "contentType": "image/svg+xml",
         "byteLength": 2449
       }
     },
     {
-      "order": 147,
+      "order": 148,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gb2hozud",
-      "id": "147",
+      "aid": "sh/ovud07yp",
+      "id": "148",
       "name": "figure-two-caption",
       "bbox": [
         1021.47,
         1594.59,
         981.15,
-        29.66
+        23.3
       ],
       "geometry": "rect",
       "text": "Figure 2 · Authored discrimination values across cohort shifts",
@@ -4204,15 +4234,15 @@
       "lineWidth": 0
     },
     {
-      "order": 148,
+      "order": 149,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3yt0zud4",
-      "id": "148",
+      "aid": "sh/pw3etsfu",
+      "id": "149",
       "name": "figure-two-source",
       "bbox": [
         1021.47,
-        1617.9,
+        1618.6,
         981.15,
         26.84
       ],
@@ -4224,7 +4254,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -4248,16 +4277,14 @@
           "text": "Authored synthetic fixture · manuscript p. 3",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Authored synthetic fixture · manuscript p. 3",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -4266,11 +4293,11 @@
       "lineWidth": 0
     },
     {
-      "order": 149,
+      "order": 150,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ixkzqpcj",
-      "id": "149",
+      "aid": "sh/j2p8fqlo",
+      "id": "150",
       "name": "validation-heading-title",
       "bbox": [
         1004.49,
@@ -4328,11 +4355,11 @@
       "lineWidth": 0
     },
     {
-      "order": 150,
+      "order": 151,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/03mhgzah",
-      "id": "150",
+      "aid": "sh/y1g76l43",
+      "id": "151",
       "name": "validation-heading-rule",
       "bbox": [
         1004.49,
@@ -4345,11 +4372,11 @@
       "lineWidth": 0
     },
     {
-      "order": 151,
+      "order": 152,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/14vyp4r2",
-      "id": "151",
+      "aid": "sh/l47qh03e",
+      "id": "152",
       "name": "validation-panel",
       "bbox": [
         1004.49,
@@ -4363,11 +4390,11 @@
       "lineWidth": 2.12
     },
     {
-      "order": 152,
+      "order": 153,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e1kzepsr",
-      "id": "152",
+      "aid": "sh/k3yp8vmt",
+      "id": "153",
       "name": "validation",
       "bbox": [
         1029.96,
@@ -4485,11 +4512,11 @@
       "lineWidth": 0
     },
     {
-      "order": 153,
+      "order": 154,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/f2dgnu9w",
-      "id": "153",
+      "aid": "sh/7698jalk",
+      "id": "154",
       "name": "validation-evidence",
       "bbox": [
         1029.96,
@@ -4505,7 +4532,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -4529,16 +4555,14 @@
           "text": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -4547,11 +4571,11 @@
       "lineWidth": 0
     },
     {
-      "order": 154,
+      "order": 155,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sz2hczal",
-      "id": "154",
+      "aid": "sh/6507a54z",
+      "id": "155",
       "name": "performance-strip",
       "bbox": [
         1004.49,
@@ -4564,11 +4588,11 @@
       "lineWidth": 0
     },
     {
-      "order": 155,
+      "order": 156,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d0byl4r6",
-      "id": "155",
+      "aid": "sh/t8rql03q",
+      "id": "156",
       "name": "performance-strip-text",
       "bbox": [
         1028.54,
@@ -4577,8 +4601,8 @@
         36.72
       ],
       "geometry": "rect",
-      "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
-      "textPreview": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+      "text": "External validation retained discrimination: C-index 0.75 / 0.74",
+      "textPreview": "External validation retained discrimination: C-index 0.75 / 0.74",
       "resolvedFontSize": 24.01,
       "resolvedTextStyle": {
         "fontSize": 24.01,
@@ -4594,22 +4618,18 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 ·"
-          },
-          {
-            "index": 2,
-            "text": "External A 0.75 vs 0.66 · External B 0.74 vs 0.65"
+            "text": "External validation retained discrimination: C-index 0.75 / 0.74"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+          "text": "External validation retained discrimination: C-index 0.75 / 0.74",
           "resolvedTextStyle": {
             "fontSize": 24.01,
             "color": "#FFFFFF",
@@ -4619,7 +4639,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+              "text": "External validation retained discrimination: C-index 0.75 / 0.74",
               "fontSize": 24.01,
               "color": "#FFFFFF",
               "bold": true,
@@ -4632,11 +4652,11 @@
       "lineWidth": 0
     },
     {
-      "order": 156,
+      "order": 157,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qxkzapsf",
-      "id": "156",
+      "aid": "sh/87ipcfm5",
+      "id": "157",
       "name": "biology-heading-title",
       "bbox": [
         2062.03,
@@ -4694,11 +4714,11 @@
       "lineWidth": 0
     },
     {
-      "order": 157,
+      "order": 158,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rytgju90",
-      "id": "157",
+      "aid": "sh/na5o76lg",
+      "id": "158",
       "name": "biology-heading-rule",
       "bbox": [
         2062.03,
@@ -4711,11 +4731,11 @@
       "lineWidth": 0
     },
     {
-      "order": 158,
+      "order": 159,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4b2h8fa9",
-      "id": "158",
+      "aid": "sh/m9w7y14v",
+      "id": "159",
       "name": "biology-1-value",
       "bbox": [
         2062.03,
@@ -4773,15 +4793,15 @@
       "lineWidth": 0
     },
     {
-      "order": 159,
+      "order": 160,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5cbyhkru",
-      "id": "159",
+      "aid": "sh/qp4b69oj",
+      "id": "160",
       "name": "biology-1-label",
       "bbox": [
         2062.03,
-        545.18,
+        542.36,
         297.1,
         62.15
       ],
@@ -4835,11 +4855,11 @@
       "lineWidth": 0
     },
     {
-      "order": 160,
+      "order": 161,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5s3e5g3y",
-      "id": "160",
+      "aid": "sh/rqdsfe5o",
+      "id": "161",
       "name": "biology-2-value",
       "bbox": [
         2398.04,
@@ -4850,9 +4870,9 @@
       "geometry": "rect",
       "text": "0.97 / 0.95",
       "textPreview": "0.97 / 0.95",
-      "resolvedFontSize": 43.08,
+      "resolvedFontSize": 48.03,
       "resolvedTextStyle": {
-        "fontSize": 43.08,
+        "fontSize": 48.03,
         "typeface": "+mn-lt",
         "color": "#487AA1",
         "bold": true,
@@ -4878,7 +4898,7 @@
           "index": 1,
           "text": "0.97 / 0.95",
           "resolvedTextStyle": {
-            "fontSize": 43.08,
+            "fontSize": 48.03,
             "color": "#487AA1",
             "bold": true
           },
@@ -4886,7 +4906,7 @@
             {
               "index": 1,
               "text": "0.97 / 0.95",
-              "fontSize": 43.08,
+              "fontSize": 48.03,
               "color": "#487AA1",
               "bold": true
             }
@@ -4897,15 +4917,15 @@
       "lineWidth": 0
     },
     {
-      "order": 161,
+      "order": 162,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kruxcb2d",
-      "id": "161",
+      "aid": "sh/srmt8j69",
+      "id": "162",
       "name": "biology-2-label",
       "bbox": [
         2398.04,
-        545.18,
+        542.36,
         297.1,
         62.15
       ],
@@ -4959,11 +4979,11 @@
       "lineWidth": 0
     },
     {
-      "order": 162,
+      "order": 163,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jq1w36ls",
-      "id": "162",
+      "aid": "sh/dsvahonu",
+      "id": "163",
       "name": "biology-3-value",
       "bbox": [
         2734.05,
@@ -4974,9 +4994,9 @@
       "geometry": "rect",
       "text": "0.031 / 0.038",
       "textPreview": "0.031 / 0.038",
-      "resolvedFontSize": 36.72,
+      "resolvedFontSize": 38.84,
       "resolvedTextStyle": {
-        "fontSize": 36.72,
+        "fontSize": 38.84,
         "typeface": "+mn-lt",
         "color": "#E5BC6C",
         "bold": true,
@@ -5002,7 +5022,7 @@
           "index": 1,
           "text": "0.031 / 0.038",
           "resolvedTextStyle": {
-            "fontSize": 36.72,
+            "fontSize": 38.84,
             "color": "#E5BC6C",
             "bold": true
           },
@@ -5010,7 +5030,7 @@
             {
               "index": 1,
               "text": "0.031 / 0.038",
-              "fontSize": 36.72,
+              "fontSize": 38.84,
               "color": "#E5BC6C",
               "bold": true
             }
@@ -5021,15 +5041,15 @@
       "lineWidth": 0
     },
     {
-      "order": 163,
+      "order": 164,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y5sfa1k7",
-      "id": "163",
+      "aid": "sh/i1kr29o7",
+      "id": "164",
       "name": "biology-3-label",
       "bbox": [
         2734.05,
-        545.18,
+        542.36,
         297.1,
         62.15
       ],
@@ -5083,11 +5103,11 @@
       "lineWidth": 0
     },
     {
-      "order": 164,
+      "order": 165,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/x4je1w3m",
-      "id": "164",
+      "aid": "sh/32tsbe5s",
+      "id": "165",
       "name": "biology-evidence",
       "bbox": [
         2062.03,
@@ -5103,7 +5123,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -5127,16 +5146,14 @@
           "text": "Evidence: Stability and calibration, p. 4",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: Stability and calibration, p. 4",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -5145,11 +5162,11 @@
       "lineWidth": 0
     },
     {
-      "order": 165,
+      "order": 166,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w3ad8r21",
-      "id": "165",
+      "aid": "sh/432t4z6d",
+      "id": "166",
       "name": "figure-three-frame",
       "bbox": [
         2062.03,
@@ -5163,11 +5180,11 @@
       "lineWidth": 2.12
     },
     {
-      "order": 166,
+      "order": 167,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/ehs72pgz",
-      "id": "166",
+      "aid": "im/87ixsfeh",
+      "id": "167",
       "bbox": [
         2076.18,
         695.6,
@@ -5178,23 +5195,23 @@
       "contentType": "image/svg+xml",
       "imageFit": "contain",
       "asset": {
-        "assetId": "db1c1059-5e42-49f0-a813-15b6102cdee8",
+        "assetId": "38f3d271-5c02-43f0-acd1-eed30d1af20a",
         "contentType": "image/svg+xml",
         "byteLength": 3005
       }
     },
     {
-      "order": 167,
+      "order": 168,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a1sv61kb",
-      "id": "167",
+      "aid": "sh/uxkrypob",
+      "id": "168",
       "name": "figure-three-caption",
       "bbox": [
         2079.01,
         1139.1,
         983.98,
-        29.66
+        23.3
       ],
       "geometry": "rect",
       "text": "Figure 3 · Calibration and coefficient-sign stability",
@@ -5246,15 +5263,15 @@
       "lineWidth": 0
     },
     {
-      "order": 168,
+      "order": 169,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/h0ned0j6",
-      "id": "168",
+      "aid": "sh/vyts7u5w",
+      "id": "169",
       "name": "figure-three-source",
       "bbox": [
         2079.01,
-        1162.4,
+        1163.11,
         983.98,
         26.84
       ],
@@ -5266,7 +5283,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -5290,16 +5306,14 @@
           "text": "Authored synthetic fixture · manuscript p. 4",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Authored synthetic fixture · manuscript p. 4",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -5308,11 +5322,11 @@
       "lineWidth": 0
     },
     {
-      "order": 169,
+      "order": 170,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gzexkv2l",
-      "id": "169",
+      "aid": "sh/xszeds7e",
+      "id": "170",
       "name": "validation-visual-heading-title",
       "bbox": [
         2062.03,
@@ -5370,11 +5384,11 @@
       "lineWidth": 0
     },
     {
-      "order": 170,
+      "order": 171,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e5obex03",
-      "id": "170",
+      "aid": "sh/wrqd4nqt",
+      "id": "171",
       "name": "validation-visual-heading-rule",
       "bbox": [
         2062.03,
@@ -5387,11 +5401,11 @@
       "lineWidth": 0
     },
     {
-      "order": 171,
+      "order": 172,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z6xc7218",
-      "id": "171",
+      "aid": "sh/bqhcbip8",
+      "id": "172",
       "name": "figure-four-frame",
       "bbox": [
         2062.03,
@@ -5405,11 +5419,11 @@
       "lineWidth": 2.12
     },
     {
-      "order": 172,
+      "order": 173,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/l47a98ju",
-      "id": "172",
+      "aid": "im/3ulk72pg",
+      "id": "173",
       "bbox": [
         2076.18,
         1302.93,
@@ -5420,23 +5434,23 @@
       "contentType": "image/svg+xml",
       "imageFit": "contain",
       "asset": {
-        "assetId": "d2f1791b-b4ba-4dd0-8dd8-03962589fb2e",
+        "assetId": "29a7dab6-5a8a-4817-a2aa-b7b8dce4d484",
         "contentType": "image/svg+xml",
         "byteLength": 2447
       }
     },
     {
-      "order": 173,
+      "order": 174,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/18zu9sje",
-      "id": "173",
+      "aid": "sh/9ozu9s72",
+      "id": "174",
       "name": "figure-four-caption",
       "bbox": [
         2079.01,
         1767.61,
         983.98,
-        29.66
+        23.3
       ],
       "geometry": "rect",
       "text": "Figure 4 · Stress-test boundary under increasing shift",
@@ -5488,15 +5502,15 @@
       "lineWidth": 0
     },
     {
-      "order": 174,
+      "order": 175,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q1obad0r",
-      "id": "174",
+      "aid": "sh/onqdgnqh",
+      "id": "175",
       "name": "figure-four-source",
       "bbox": [
         2079.01,
-        1790.92,
+        1791.62,
         983.98,
         26.84
       ],
@@ -5508,7 +5522,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -5532,16 +5545,14 @@
           "text": "Authored synthetic fixture · manuscript p. 4",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Authored synthetic fixture · manuscript p. 4",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -5550,11 +5561,11 @@
       "lineWidth": 0
     },
     {
-      "order": 175,
+      "order": 176,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r2xc3i1c",
-      "id": "175",
+      "aid": "sh/nmxc7ipw",
+      "id": "176",
       "name": "conclusion-heading-title",
       "bbox": [
         2062.03,
@@ -5612,11 +5623,11 @@
       "lineWidth": 0
     },
     {
-      "order": 176,
+      "order": 177,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/c36tcnix",
-      "id": "176",
+      "aid": "sh/2loved8r",
+      "id": "177",
       "name": "conclusion-heading-rule",
       "bbox": [
         2062.03,
@@ -5629,11 +5640,11 @@
       "lineWidth": 0
     },
     {
-      "order": 177,
+      "order": 178,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d4fu5sji",
-      "id": "177",
+      "aid": "sh/1kfu5876",
+      "id": "178",
       "name": "conclusion-panel",
       "bbox": [
         2062.03,
@@ -5647,21 +5658,83 @@
       "lineWidth": 2.12
     },
     {
-      "order": 178,
+      "order": 179,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ax8bmh0v",
-      "id": "178",
-      "name": "conclusion",
+      "aid": "sh/0j6dc3ql",
+      "id": "179",
+      "name": "conclusion-lead",
       "bbox": [
         2086.09,
         1940.63,
         969.83,
-        162.43
+        45.2
       ],
       "geometry": "rect",
-      "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
-      "textPreview": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real ...",
+      "text": "A rights-safe methodological test fixture",
+      "textPreview": "A rights-safe methodological test fixture",
+      "resolvedFontSize": 28.25,
+      "resolvedTextStyle": {
+        "fontSize": 28.25,
+        "typeface": "+mn-lt",
+        "color": "#293F55",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A rights-safe methodological test fixture"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A rights-safe methodological test fixture",
+          "resolvedTextStyle": {
+            "fontSize": 28.25,
+            "color": "#293F55",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A rights-safe methodological test fixture",
+              "fontSize": 28.25,
+              "color": "#293F55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 180,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czihoj2t",
+      "id": "180",
+      "name": "conclusion",
+      "bbox": [
+        2086.09,
+        1991.48,
+        969.83,
+        111.58
+      ],
+      "geometry": "rect",
+      "text": "• No biological, prognostic or clinical inference\n• All cohorts, values and identities are fictional",
+      "textPreview": "• No biological, prognostic or clinical inference | • All cohorts, values and identities are fictional",
       "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
         "fontSize": 26.84,
@@ -5676,30 +5749,22 @@
         }
       },
       "textLayout": {
-        "lineCount": 4,
+        "lineCount": 2,
         "lines": [
           {
             "index": 1,
-            "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked"
+            "text": "• No biological, prognostic or clinical inference"
           },
           {
             "index": 2,
-            "text": "scientific communication. It supports no inference about real biology,"
-          },
-          {
-            "index": 3,
-            "text": "prognosis, treatment or clinical utility. Every number, cohort, feature, author"
-          },
-          {
-            "index": 4,
-            "text": "and institution is fictional."
+            "text": "• All cohorts, values and identities are fictional"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
+          "text": "• No biological, prognostic or clinical inference",
           "resolvedTextStyle": {
             "fontSize": 26.84,
             "color": "#293F55"
@@ -5707,7 +5772,24 @@
           "runs": [
             {
               "index": 1,
-              "text": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
+              "text": "• No biological, prognostic or clinical inference",
+              "fontSize": 26.84,
+              "color": "#293F55"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• All cohorts, values and identities are fictional",
+          "resolvedTextStyle": {
+            "fontSize": 26.84,
+            "color": "#293F55"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• All cohorts, values and identities are fictional",
               "fontSize": 26.84,
               "color": "#293F55"
             }
@@ -5718,11 +5800,11 @@
       "lineWidth": 0
     },
     {
-      "order": 179,
+      "order": 181,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/byhcfmhg",
-      "id": "179",
+      "aid": "sh/d0rixoje",
+      "id": "181",
       "name": "conclusion-evidence",
       "bbox": [
         2086.09,
@@ -5738,7 +5820,6 @@
         "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#487AA1",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -5762,16 +5843,14 @@
           "text": "Evidence: Discussion and Conclusion, p. 5",
           "resolvedTextStyle": {
             "fontSize": 17.65,
-            "color": "#487AA1",
-            "italic": true
+            "color": "#487AA1"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: Discussion and Conclusion, p. 5",
               "fontSize": 17.65,
-              "color": "#487AA1",
-              "italic": true
+              "color": "#487AA1"
             }
           ],
           "marginLeft": 0
@@ -5780,11 +5859,11 @@
       "lineWidth": 0
     },
     {
-      "order": 180,
+      "order": 182,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jidkji5o",
-      "id": "180",
+      "aid": "sh/qxgzm9kn",
+      "id": "182",
       "name": "footer-band",
       "bbox": [
         0,
@@ -5797,16 +5876,16 @@
       "lineWidth": 0
     },
     {
-      "order": 181,
+      "order": 183,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yh43ado3",
-      "id": "181",
+      "aid": "sh/ry90ve18",
+      "id": "183",
       "name": "footer-source",
       "bbox": [
         99.03,
         2194.15,
-        2122.16,
+        2093.87,
         29.66
       ],
       "geometry": "rect",
@@ -5856,11 +5935,11 @@
       "lineWidth": 0
     },
     {
-      "order": 182,
+      "order": 184,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkv2lsne",
-      "id": "182",
+      "aid": "sh/03i1s32p",
+      "id": "184",
       "name": "footer-status",
       "bbox": [
         2207.05,

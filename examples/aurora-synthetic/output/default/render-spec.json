@@ -7,7 +7,7 @@
   "template": {
     "family": "bioinformatics-pipeline",
     "size": "a0-landscape",
-    "asset": "assets/templates/bioinformatics-pipeline/a0-landscape/template.pptx"
+    "asset": "template.pptx"
   },
   "theme": {
     "ink": "#102A43",
@@ -24,6 +24,11 @@
       "connectors": "direct",
       "ornament": "minimal"
     }
+  },
+  "typography": {
+    "language": "en",
+    "latin_font_family": "Arial",
+    "cjk_font_family": "Noto Sans CJK SC"
   },
   "branding": {
     "logo_mode": "placeholder",
@@ -67,9 +72,15 @@
     ],
     "dataset_kicker": "FOUR SYNTHETIC COHORTS",
     "datasets": "Discovery n=620 · Internal validation n=310\nExternal simulation A n=186 · External simulation B n=124\nAll values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.",
+    "dataset_lead": "Four deterministic synthetic cohorts",
+    "dataset_bullets": [
+      "Discovery n=620 · Internal validation n=310",
+      "External A n=186 · External B n=124",
+      "No participants, specimens or external datasets"
+    ],
     "dataset_evidence": "Evidence: Abstract and Methods, pp. 1-2",
     "figure_one_heading": "Generation to validation",
-    "takeaway": "External simulations retained C-indices of 0.75 and 0.74",
+    "takeaway": "External C-indices remained 0.75 and 0.74",
     "takeaway_subtitle": "Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation",
     "takeaway_evidence": "Evidence: Results, pp. 1 and 3; Figure 2",
     "figure_two_heading": "Discrimination across shifts",
@@ -77,6 +88,7 @@
     "validation": "• External calibration slopes were 0.97 and 0.95.\n• External absolute errors were 0.031 and 0.038.\n• Aggregate coefficient-sign stability was 92% across 500 resamples.\n• The most severe pre-specified shift reduced C-index by 0.04.",
     "validation_evidence": "Evidence: Results, pp. 1, 3-4; Figures 3-4",
     "performance_strip": "AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65",
+    "performance_summary": "External validation retained discrimination: C-index 0.75 / 0.74",
     "biology_heading": "Calibration & stability",
     "biology_metrics": [
       {
@@ -96,6 +108,11 @@
     "validation_visual_heading": "Pre-specified stress test",
     "conclusion_heading": "Supported conclusion",
     "conclusion": "AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.",
+    "conclusion_lead": "A rights-safe methodological test fixture",
+    "conclusion_bullets": [
+      "No biological, prognostic or clinical inference",
+      "All cohorts, values and identities are fictional"
+    ],
     "conclusion_evidence": "Evidence: Discussion and Conclusion, p. 5",
     "footer_source": "Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing",
     "footer_status": "Approvals current · synthetic boundary locked · editable logo placeholder",

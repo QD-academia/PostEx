@@ -47,6 +47,10 @@ REQUIRED_CHECKS = (
     "scientific_color_locks",
     "approvals",
     "renderer_match",
+    "text_line_limits",
+    "text_capacity",
+    "text_collisions",
+    "cjk_line_breaks",
 )
 
 
@@ -64,6 +68,168 @@ def _finding(code: str, severity: str, passed: bool, message: str) -> dict[str, 
         "passed": passed,
         "message": message,
     }
+
+
+def _line_count(element: dict[str, Any]) -> int:
+    layout = element.get("textLayout")
+    if isinstance(layout, dict):
+        value = layout.get("lineCount")
+        if isinstance(value, int):
+            return value
+    text = str(element.get("text", ""))
+    return max(text.count("\n") + 1, 1)
+
+
+def _maximum_lines(name: str) -> int | None:
+    if name == "poster-title" or name == "central-takeaway-title":
+        return 2
+    if (
+        name == "performance-strip-text"
+        or name.endswith("-value")
+        or name.endswith("-caption")
+        or "evidence" in name
+        or name in {"footer-source", "footer-status"}
+    ):
+        return 2 if name.endswith("-caption") else 1
+    if name.endswith("-title"):
+        return 1
+    return None
+
+
+def _bbox(element: dict[str, Any]) -> tuple[float, float, float, float] | None:
+    raw = element.get("bbox")
+    if not isinstance(raw, list) or len(raw) != 4:
+        return None
+    try:
+        return (float(raw[0]), float(raw[1]), float(raw[2]), float(raw[3]))
+    except (TypeError, ValueError):
+        return None
+
+
+def _text_boxes_overlap(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    a = _bbox(left)
+    b = _bbox(right)
+    if a is None or b is None:
+        return False
+    horizontal = min(a[0] + a[2], b[0] + b[2]) - max(a[0], b[0])
+    vertical = min(a[1] + a[3], b[1] + b[3]) - max(a[1], b[1])
+    return horizontal > 1.0 and vertical > 1.0
+
+
+def _layout_typography_findings(layout_data: dict[str, Any]) -> list[dict[str, Any]]:
+    elements = [
+        item
+        for item in layout_data.get("elements", [])
+        if isinstance(item, dict) and str(item.get("text", "")).strip()
+    ]
+
+    line_limit_failures: list[str] = []
+    capacity_failures: list[str] = []
+    orphan_lines: list[str] = []
+    long_lines: list[str] = []
+    cjk_break_failures: list[str] = []
+    closing_punctuation = "，。；：！？）》】」』、"
+    opening_punctuation = "（《【「『"
+    line_length_exemptions = {
+        "affiliations",
+        "citation",
+        "central-takeaway-subtitle",
+        "footer-source",
+        "footer-status",
+    }
+
+    for element in elements:
+        name = str(element.get("name", "unnamed"))
+        lines = _line_count(element)
+        maximum = _maximum_lines(name)
+        if maximum is not None and lines > maximum:
+            line_limit_failures.append(f"{name} ({lines}>{maximum})")
+
+        bbox = _bbox(element)
+        try:
+            font_size = float(element.get("resolvedFontSize", 0.0))
+        except (TypeError, ValueError):
+            font_size = 0.0
+        if bbox is not None and font_size > 0 and lines * font_size * 0.92 > bbox[3] + 2.0:
+            capacity_failures.append(name)
+
+        text_layout = element.get("textLayout")
+        rendered_lines = text_layout.get("lines", []) if isinstance(text_layout, dict) else []
+        line_texts = [
+            str(item.get("text", "")).strip()
+            for item in rendered_lines
+            if isinstance(item, dict) and str(item.get("text", "")).strip()
+        ]
+        if len(line_texts) > 1:
+            last = line_texts[-1]
+            if len(last) <= 8 and len(line_texts[-2]) >= 24:
+                orphan_lines.append(name)
+        for line in line_texts:
+            has_cjk = any("\u2e80" <= char <= "\ufaff" for char in line)
+            limit = 34 if has_cjk else 72
+            if len(line) > limit and name not in line_length_exemptions and "evidence" not in name:
+                long_lines.append(name)
+            if has_cjk and (line[0] in closing_punctuation or line[-1] in opening_punctuation):
+                cjk_break_failures.append(name)
+
+    collision_pairs: list[str] = []
+    for index, left in enumerate(elements):
+        for right in elements[index + 1 :]:
+            if _text_boxes_overlap(left, right):
+                collision_pairs.append(f"{left.get('name', 'unnamed')} / {right.get('name', 'unnamed')}")
+
+    return [
+        _finding(
+            "text_line_limits",
+            "error",
+            not line_limit_failures,
+            "Text line limits are respected."
+            if not line_limit_failures
+            else "Excess line count: " + ", ".join(line_limit_failures[:8]),
+        ),
+        _finding(
+            "text_capacity",
+            "error",
+            not capacity_failures,
+            "Rendered line count fits every text box."
+            if not capacity_failures
+            else "Text boxes are too short for rendered lines: "
+            + ", ".join(capacity_failures[:8]),
+        ),
+        _finding(
+            "text_collisions",
+            "error",
+            not collision_pairs,
+            "Text boxes do not overlap."
+            if not collision_pairs
+            else "Overlapping text boxes: " + ", ".join(collision_pairs[:8]),
+        ),
+        _finding(
+            "orphan_lines",
+            "warning",
+            not orphan_lines,
+            "No short orphan lines were detected."
+            if not orphan_lines
+            else "Short final lines: " + ", ".join(sorted(set(orphan_lines))[:8]),
+        ),
+        _finding(
+            "text_line_length",
+            "warning",
+            not long_lines,
+            "Text lines stay within scan-friendly length targets."
+            if not long_lines
+            else "Long rendered lines: " + ", ".join(sorted(set(long_lines))[:8]),
+        ),
+        _finding(
+            "cjk_line_breaks",
+            "warning",
+            not cjk_break_failures,
+            "CJK punctuation line breaks are valid."
+            if not cjk_break_failures
+            else "Invalid CJK punctuation breaks: "
+            + ", ".join(sorted(set(cjk_break_failures))[:8]),
+        ),
+    ]
 
 
 def run_artifact_preflight(
@@ -150,6 +316,7 @@ def run_artifact_preflight(
             f"for {poster_size.value}.",
         )
     )
+    findings.extend(_layout_typography_findings(layout_data))
 
     with Image.open(png) as image:
         png_size = image.size

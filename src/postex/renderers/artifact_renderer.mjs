@@ -4,6 +4,41 @@ import { Presentation, PresentationFile } from "@oai/artifact-tool";
 
 const BASE_WIDTH = 4494;
 const BASE_HEIGHT = 3179;
+const LATIN_FONT = "Arial";
+const CJK_FONT = "Noto Sans CJK SC";
+
+function containsCjk(value) {
+  return /[\u2E80-\u9FFF\uF900-\uFAFF]/u.test(String(value ?? ""));
+}
+
+function fontFamilyFor(value, typography = {}) {
+  return containsCjk(value)
+    ? typography.cjk_font_family ?? CJK_FONT
+    : typography.latin_font_family ?? LATIN_FONT;
+}
+
+function estimatedGlyphUnits(value) {
+  let units = 0;
+  for (const glyph of String(value ?? "")) {
+    if (containsCjk(glyph)) units += 1;
+    else if (/\s/u.test(glyph)) units += 0.32;
+    else if (/[0-9]/u.test(glyph)) units += 0.58;
+    else if (/[A-Z]/u.test(glyph)) units += 0.66;
+    else if (/[a-z]/u.test(glyph)) units += 0.53;
+    else units += 0.34;
+  }
+  return Math.max(units, 1);
+}
+
+function singleLineFontSize(value, width, preferred, minimum) {
+  const safeWidth = Math.max(width - 28, 1);
+  const fitted = Math.floor(safeWidth / (estimatedGlyphUnits(value) * 1.12));
+  return Math.max(minimum, Math.min(preferred, fitted));
+}
+
+function bulletText(items) {
+  return (items ?? []).map((item) => `• ${String(item).replace(/^\s*[•\-]\s*/u, "")}`).join("\n");
+}
 
 function parseArgs(argv) {
   const values = {};
@@ -32,7 +67,7 @@ function contentType(filePath) {
   return "image/png";
 }
 
-function createHelpers(slide, canvas) {
+function createHelpers(slide, canvas, typography = {}) {
   const sx = canvas.width / BASE_WIDTH;
   const sy = canvas.height / BASE_HEIGHT;
   const scale = Math.min(sx, sy);
@@ -62,10 +97,16 @@ function createHelpers(slide, canvas) {
       line: { style: "solid", fill: "none", width: 0 },
     });
     shape.text = String(value ?? "");
+    const {
+      minimumFontSize = 0,
+      fontSize = 38,
+      fontFamily,
+      ...renderStyle
+    } = style;
     shape.text.style = {
-      fontFamily: "Arial",
-      ...style,
-      fontSize: font(style.fontSize ?? 38, style.minimumFontSize ?? 0),
+      fontFamily: fontFamily ?? fontFamilyFor(value, typography),
+      ...renderStyle,
+      fontSize: font(fontSize, minimumFontSize),
     };
     return shape;
   }
@@ -124,7 +165,7 @@ function evidence(h, theme, value, x, y, width, name) {
     y,
     width,
     38,
-    { fontSize: 25, minimumFontSize: 22, color: theme.secondary, italic: true },
+    { fontSize: 25, minimumFontSize: 22, color: theme.secondary },
     name,
   );
 }
@@ -141,22 +182,38 @@ function body(h, theme, value, x, y, width, height, name, size = 38) {
   );
 }
 
+function lead(h, theme, value, x, y, width, height, name, size = 40) {
+  return h.text(
+    value,
+    x,
+    y,
+    width,
+    height,
+    { fontSize: size, minimumFontSize: 37.4, bold: true, color: theme.ink },
+    name,
+  );
+}
+
+function bullets(h, theme, items, x, y, width, height, name, size = 38) {
+  return body(h, theme, bulletText(items), x, y, width, height, name, size);
+}
+
 function metric(h, theme, item, x, y, width, color, name) {
   const value = String(item.value ?? "");
-  const valueFontSize = Math.min(68, Math.floor(width / Math.max(value.length * 0.62, 1)));
+  const valueFontSize = singleLineFontSize(value, width, 68, 38);
   h.text(
     value,
     x,
     y,
     width,
     78,
-    { fontSize: valueFontSize, minimumFontSize: 45, bold: true, color },
+    { fontSize: valueFontSize, minimumFontSize: 38, bold: true, color },
     `${name}-value`,
   );
   h.text(
     item.label,
     x,
-    y + 82,
+    y + 78,
     width,
     88,
     { fontSize: 31, minimumFontSize: 24, bold: true, color: theme.ink },
@@ -210,11 +267,11 @@ async function figureBlock(h, theme, item, x, y, width, height, name) {
     x + 24,
     y + height - 72,
     width - 48,
-    42,
+    33,
     { fontSize: 30, minimumFontSize: 29.4, bold: true, color: theme.ink },
     `${name}-caption`,
   );
-  evidence(h, theme, item.source, x + 24, y + height - 39, width - 48, `${name}-source`);
+  evidence(h, theme, item.source, x + 24, y + height - 38, width - 48, `${name}-source`);
 }
 
 async function build(spec, outputPath) {
@@ -224,7 +281,7 @@ async function build(spec, outputPath) {
   const deck = Presentation.create({ slideSize: canvas });
   const slide = deck.slides.add();
   slide.background.fill = theme.canvas;
-  const h = createHelpers(slide, canvas);
+  const h = createHelpers(slide, canvas, spec.typography ?? {});
 
   h.rect(0, 0, BASE_WIDTH, 520, theme.primary, "header-band", "none", 0, "rounded-none");
   if ((theme.gradient_stops ?? []).length > 1) {
@@ -249,18 +306,32 @@ async function build(spec, outputPath) {
   const x1 = 140;
   const w1 = 1220;
   sectionTitle(h, theme, content.question_heading, x1, 590, w1, "question");
-  body(h, theme, content.question, x1, 682, w1, 235, "research-question");
+  if (Array.isArray(content.question_bullets) && content.question_bullets.length > 0) {
+    lead(h, theme, content.question_lead ?? content.question, x1, 682, w1, 78, "research-question-lead");
+    bullets(h, theme, content.question_bullets, x1, 770, w1, 137, "research-question");
+  } else {
+    body(h, theme, content.question, x1, 682, w1, 220, "research-question");
+  }
   evidence(h, theme, content.question_evidence, x1, 912, w1, "question-evidence");
   sectionTitle(h, theme, content.pipeline_heading, x1, 970, w1, "pipeline");
   for (const [index, step] of content.pipeline_steps.slice(0, 4).entries()) {
     const y = 1064 + index * 80;
     h.rect(x1, y, 62, 62, theme.accent, `pipeline-${index + 1}-number-bg`, "none", 0, "rounded-lg");
     h.text(index + 1, x1, y + 7, 62, 46, { fontSize: 31, minimumFontSize: 24, bold: true, color: theme.ink, alignment: "center" }, `pipeline-${index + 1}-number`);
-    h.text(step, x1 + 82, y + 4, w1 - 82, 58, { fontSize: 38, minimumFontSize: 37.4, bold: true, color: theme.ink }, `pipeline-${index + 1}-text`);
+    h.text(step, x1 + 82, y + 4, w1 - 82, 58, { fontSize: 38, minimumFontSize: 37.4, color: theme.ink }, `pipeline-${index + 1}-text`);
   }
   h.rect(x1, 1410, w1, 360, theme.panel, "dataset-panel", theme.neutral, 3, "rounded-xl");
   h.text(content.dataset_kicker, x1 + 28, 1440, 460, 40, { fontSize: 29, minimumFontSize: 24, bold: true, color: theme.primary }, "dataset-kicker");
-  body(h, theme, content.datasets, x1 + 28, 1495, w1 - 56, 230, "datasets");
+  if (Array.isArray(content.dataset_bullets) && content.dataset_bullets.length > 0) {
+    if (content.dataset_lead) {
+      lead(h, theme, content.dataset_lead, x1 + 28, 1495, w1 - 56, 54, "dataset-lead", 38);
+      bullets(h, theme, content.dataset_bullets, x1 + 28, 1556, w1 - 56, 155, "datasets");
+    } else {
+      bullets(h, theme, content.dataset_bullets, x1 + 28, 1495, w1 - 56, 216, "datasets");
+    }
+  } else {
+    body(h, theme, content.datasets, x1 + 28, 1495, w1 - 56, 216, "datasets");
+  }
   evidence(h, theme, content.dataset_evidence, x1 + 28, 1723, w1 - 56, "dataset-evidence");
   sectionTitle(h, theme, content.figure_one_heading, x1, 1825, w1, "figure-one-heading");
   await figureBlock(h, theme, content.figures[0], x1, 1915, w1, 1040, "figure-one");
@@ -281,7 +352,22 @@ async function build(spec, outputPath) {
   body(h, theme, content.validation, x2 + 36, 2503, w2 - 72, 310, "validation");
   evidence(h, theme, content.validation_evidence, x2 + 36, 2847, w2 - 72, "validation-evidence");
   h.rect(x2, 2930, w2, 115, theme.primary, "performance-strip", "none", 0, "rounded-xl");
-  h.text(content.performance_strip, x2 + 34, 2960, w2 - 68, 52, { fontSize: 34, minimumFontSize: 28, bold: true, color: "#FFFFFF", alignment: "center" }, "performance-strip-text");
+  const performanceSummary = content.performance_summary ?? content.performance_strip;
+  h.text(
+    performanceSummary,
+    x2 + 34,
+    2960,
+    w2 - 68,
+    52,
+    {
+      fontSize: singleLineFontSize(performanceSummary, w2 - 68, 34, 28),
+      minimumFontSize: 28,
+      bold: true,
+      color: "#FFFFFF",
+      alignment: "center",
+    },
+    "performance-strip-text",
+  );
 
   const x3 = 2915;
   const w3 = 1439;
@@ -296,11 +382,16 @@ async function build(spec, outputPath) {
   await figureBlock(h, theme, content.figures[3], x3, 1825, w3, 750, "figure-four");
   sectionTitle(h, theme, content.conclusion_heading, x3, 2625, w3, "conclusion-heading");
   h.rect(x3, 2715, w3, 330, theme.panel, "conclusion-panel", theme.neutral, 3, "rounded-xl");
-  body(h, theme, content.conclusion, x3 + 34, 2748, w3 - 68, 230, "conclusion");
+  if (Array.isArray(content.conclusion_bullets) && content.conclusion_bullets.length > 0) {
+    lead(h, theme, content.conclusion_lead ?? content.conclusion, x3 + 34, 2748, w3 - 68, 64, "conclusion-lead", 40);
+    bullets(h, theme, content.conclusion_bullets, x3 + 34, 2820, w3 - 68, 158, "conclusion");
+  } else {
+    body(h, theme, content.conclusion, x3 + 34, 2748, w3 - 68, 230, "conclusion");
+  }
   evidence(h, theme, content.conclusion_evidence, x3 + 34, 2992, w3 - 68, "conclusion-evidence");
 
   h.rect(0, 3080, BASE_WIDTH, 99, theme.ink, "footer-band", "none", 0, "rounded-none");
-  h.text(content.footer_source, 140, 3107, 3000, 42, { fontSize: 26, minimumFontSize: 22, color: "#FFFFFF" }, "footer-source");
+  h.text(content.footer_source, 140, 3107, 2960, 42, { fontSize: 26, minimumFontSize: 22, color: "#FFFFFF" }, "footer-source");
   h.text(content.footer_status, 3120, 3107, 1230, 42, { fontSize: 25, minimumFontSize: 21, bold: true, color: theme.accent, alignment: "right" }, "footer-status");
 
   slide.speakerNotes.textFrame.setText(

@@ -1,92 +1,94 @@
-{"kind":"deck","id":"pr/ku3bcg","name":"Deck"}
-{"kind":"layout","layoutId":"464bf822-667f-4538-926b-ccc42e2dfef1","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"32506e85-38ce-4c5b-a7d8-bdcb812316ea","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/z6u7j9","slide":1,"title":"AURORA-12","textShapes":57}
-{"kind":"shape","id":"sh/dwf6pwjq","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
-{"kind":"shape","id":"sh/qt4neh0z","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
-{"kind":"textbox","id":"sh/ruxonm1k","slide":1,"name":"poster-title","text":"AURORA-12\nA fully synthetic benchmark for evidence-linked poster generation","textPreview":"AURORA-12 | A fully synthetic benchmark for evidence-linked poster generation","textChars":75,"textLines":2,"bbox":[140,62,3120,230]}
-{"kind":"textbox","id":"sh/0z65kbi1","slide":1,"name":"authors","text":"PostEx Synthetic Research Collective","textPreview":"PostEx Synthetic Research Collective","textChars":36,"textLines":1,"bbox":[145,306,3090,66]}
-{"kind":"textbox","id":"sh/10f6twjm","slide":1,"name":"affiliations","text":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textPreview":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textChars":88,"textLines":1,"bbox":[145,382,3090,52]}
-{"kind":"textbox","id":"sh/exoni10v","slide":1,"name":"citation","text":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textPreview":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textChars":58,"textLines":1,"bbox":[145,445,2550,42]}
-{"kind":"shape","id":"sh/zyxor61g","slide":1,"name":"logo-slot-fictional-lab-logo","bbox":[3370,58,980,130]}
-{"kind":"textbox","id":"sh/g3m5872x","slide":1,"name":"logo-placeholder-fictional-lab-logo","text":"Fictional lab logo","textPreview":"Fictional lab logo","textChars":18,"textLines":1,"bbox":[3382,96,956,52]}
-{"kind":"shape","id":"sh/h4vmhcji","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
-{"kind":"textbox","id":"sh/ls329836","slide":1,"name":"header-metric-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
-{"kind":"textbox","id":"sh/krulgnml","slide":1,"name":"header-metric-1-label","text":"synthetic profiles","textPreview":"synthetic profiles","textChars":18,"textLines":1,"bbox":[3440,322,260,88]}
-{"kind":"textbox","id":"sh/jqlk7il0","slide":1,"name":"header-metric-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3740,240,260,78]}
-{"kind":"textbox","id":"sh/ypc3ed4f","slide":1,"name":"header-metric-2-label","text":"anonymous model features","textPreview":"anonymous model features","textChars":24,"textLines":1,"bbox":[3740,322,260,88]}
-{"kind":"textbox","id":"sh/tgn2ds3i","slide":1,"name":"header-metric-3-value","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
-{"kind":"textbox","id":"sh/8felknmx","slide":1,"name":"header-metric-3-label","text":"deterministic cohort simulations","textPreview":"deterministic cohort simulations","textChars":32,"textLines":1,"bbox":[4040,322,260,88]}
-{"kind":"textbox","id":"sh/7e5kbilc","slide":1,"name":"question-title","text":"Communication test","textPreview":"Communication test","textChars":18,"textLines":1,"bbox":[140,590,1220,58]}
-{"kind":"shape","id":"sh/6dc3id4r","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
-{"kind":"textbox","id":"sh/hknmhc3e","slide":1,"name":"research-question","text":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?","textPreview":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomed...","textChars":151,"textLines":1,"bbox":[140,682,1220,235]}
-{"kind":"textbox","id":"sh/gjelo7mt","slide":1,"name":"question-evidence","text":"Evidence: Abstract and Introduction, pp. 1-2","textPreview":"Evidence: Abstract and Introduction, pp. 1-2","textChars":44,"textLines":1,"bbox":[140,912,1220,38]}
-{"kind":"textbox","id":"sh/0z6d0vyh","slide":1,"name":"pipeline-title","text":"Deterministic workflow","textPreview":"Deterministic workflow","textChars":22,"textLines":1,"bbox":[140,970,1220,58]}
-{"kind":"shape","id":"sh/10fe90fm","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
-{"kind":"shape","id":"sh/exovy5gb","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
-{"kind":"textbox","id":"sh/zyxw7axw","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
-{"kind":"textbox","id":"sh/o3qx4fyd","slide":1,"name":"pipeline-1-text","text":"Fixed seed generated 1,240 profiles","textPreview":"Fixed seed generated 1,240 profiles","textChars":35,"textLines":1,"bbox":[222,1068,1138,58]}
-{"kind":"shape","id":"sh/94zedkfy","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
-{"kind":"textbox","id":"sh/m1of25g7","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
-{"kind":"textbox","id":"sh/n2xwbaxs","slide":1,"name":"pipeline-2-text","text":"480 anonymous transcript-like features","textPreview":"480 anonymous transcript-like features","textChars":38,"textLines":1,"bbox":[222,1148,1138,58]}
-{"kind":"shape","id":"sh/47mdsby9","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
-{"kind":"textbox","id":"sh/58ve1gfu","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
-{"kind":"textbox","id":"sh/7mlg7yhc","slide":1,"name":"pipeline-3-text","text":"Nested elastic-net selection","textPreview":"Nested elastic-net selection","textChars":28,"textLines":1,"bbox":[222,1228,1138,58]}
-{"kind":"shape","id":"sh/6lszyt0r","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
-{"kind":"textbox","id":"sh/to3i9oz2","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
-{"kind":"textbox","id":"sh/8nuh0jih","slide":1,"name":"pipeline-4-text","text":"12-feature score and shift testing","textPreview":"12-feature score and shift testing","textChars":34,"textLines":1,"bbox":[222,1308,1138,58]}
-{"kind":"shape","id":"sh/jy1g3eh0","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
-{"kind":"textbox","id":"sh/yxszu90f","slide":1,"name":"dataset-kicker","text":"FOUR SYNTHETIC COHORTS","textPreview":"FOUR SYNTHETIC COHORTS","textChars":22,"textLines":1,"bbox":[168,1440,460,40]}
-{"kind":"textbox","id":"sh/l0jy5oz6","slide":1,"name":"datasets","text":"Discovery n=620 · Internal validation n=310\nExternal simulation A n=186 · External simulation B n=124\nAll values are authored fixtures; no participant, specimen, institution, registry or external dataset exists.","textPreview":"Discovery n=620 · Internal validation n=310 | External simulation A n=186 · External simulation B n=124 | All values are authored fixture...","textChars":211,"textLines":3,"bbox":[168,1495,1164,230]}
-{"kind":"textbox","id":"sh/kzahwjil","slide":1,"name":"dataset-evidence","text":"Evidence: Abstract and Methods, pp. 1-2","textPreview":"Evidence: Abstract and Methods, pp. 1-2","textChars":39,"textLines":1,"bbox":[168,1723,1164,38]}
-{"kind":"textbox","id":"sh/bu1gzuh4","slide":1,"name":"figure-one-heading-title","text":"Generation to validation","textPreview":"Generation to validation","textChars":24,"textLines":1,"bbox":[140,1825,1220,58]}
-{"kind":"shape","id":"sh/at8zq90j","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
-{"kind":"shape","id":"sh/q1c3axw3","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
-{"kind":"textbox","id":"sh/c3ulc7e9","slide":1,"name":"figure-one-caption","text":"Figure 1 · Deterministic generation and validation workflow","textPreview":"Figure 1 · Deterministic generation and validation workflow","textChars":59,"textLines":1,"bbox":[164,2883,1172,42]}
-{"kind":"textbox","id":"sh/d4325cvu","slide":1,"name":"figure-one-source","text":"Authored synthetic fixture · manuscript p. 2","textPreview":"Authored synthetic fixture · manuscript p. 2","textChars":44,"textLines":1,"bbox":[164,2916,1172,38]}
-{"kind":"shape","id":"sh/2ds36xwr","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
-{"kind":"textbox","id":"sh/3y1kz2dc","slide":1,"name":"central-takeaway-title","text":"External simulations retained C-indices of 0.75 and 0.74","textPreview":"External simulations retained C-indices of 0.75 and 0.74","textChars":56,"textLines":1,"bbox":[1464,625,1347,100]}
-{"kind":"textbox","id":"sh/4zal8nex","slide":1,"name":"central-takeaway-subtitle","text":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textPreview":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textChars":77,"textLines":1,"bbox":[1490,754,1295,48]}
-{"kind":"textbox","id":"sh/p0321svi","slide":1,"name":"takeaway-evidence","text":"Evidence: Results, pp. 1 and 3; Figure 2","textPreview":"Evidence: Results, pp. 1 and 3; Figure 2","textChars":40,"textLines":1,"bbox":[1466,810,1343,38]}
-{"kind":"textbox","id":"sh/u9s32dwv","slide":1,"name":"figure-two-heading-title","text":"Discrimination across shifts","textPreview":"Discrimination across shifts","textChars":28,"textLines":1,"bbox":[1420,905,1435,58]}
-{"kind":"shape","id":"sh/fa1kvidg","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
-{"kind":"shape","id":"sh/xo761gfy","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
-{"kind":"textbox","id":"sh/v2poz6xs","slide":1,"name":"figure-two-caption","text":"Figure 2 · Authored discrimination values across cohort shifts","textPreview":"Figure 2 · Authored discrimination values across cohort shifts","textChars":62,"textLines":1,"bbox":[1444,2258,1387,42]}
-{"kind":"textbox","id":"sh/a1gn6lg7","slide":1,"name":"figure-two-source","text":"Authored synthetic fixture · manuscript p. 3","textPreview":"Authored synthetic fixture · manuscript p. 3","textChars":44,"textLines":1,"bbox":[1444,2291,1387,38]}
-{"kind":"textbox","id":"sh/9076xgf2","slide":1,"name":"validation-heading-title","text":"Calibration and stress boundary","textPreview":"Calibration and stress boundary","textChars":31,"textLines":1,"bbox":[1420,2380,1435,58]}
-{"kind":"shape","id":"sh/8zy54byh","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
-{"kind":"shape","id":"sh/ny5ov6xw","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
-{"kind":"textbox","id":"sh/mxwn21gb","slide":1,"name":"validation","text":"• External calibration slopes were 0.97 and 0.95.\n• External absolute errors were 0.031 and 0.038.\n• Aggregate coefficient-sign stability was 92% across 500 resamples.\n• The most severe pre-specified shift reduced C-index by 0.04.","textPreview":"• External calibration slopes were 0.97 and 0.95. | • External absolute errors were 0.031 and 0.038. | • Aggregate coefficient-sign stabi...","textChars":230,"textLines":4,"bbox":[1456,2503,1363,310]}
-{"kind":"textbox","id":"sh/1wn6twfq","slide":1,"name":"validation-evidence","text":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textPreview":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textChars":42,"textLines":1,"bbox":[1456,2847,1363,38]}
-{"kind":"shape","id":"sh/0ve50ry5","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
-{"kind":"textbox","id":"sh/sfi5gb61","slide":1,"name":"performance-strip-text","text":"AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65","textPreview":"AURORA-12 vs baseline C-index · Discovery 0.78 vs 0.68 · Internal 0.76 vs 0.67 · External A 0.75 vs 0.66 · External B 0.74 vs 0.65","textChars":130,"textLines":1,"bbox":[1454,2960,1367,52]}
-{"kind":"textbox","id":"sh/dgr69wnm","slide":1,"name":"biology-heading-title","text":"Calibration & stability","textPreview":"Calibration & stability","textChars":23,"textLines":1,"bbox":[2915,590,1439,58]}
-{"kind":"shape","id":"sh/qd0ne1ov","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
-{"kind":"textbox","id":"sh/re9on65g","slide":1,"name":"biology-1-value","text":"92%","textPreview":"92%","textChars":3,"textLines":1,"bbox":[2915,690,420,78]}
-{"kind":"textbox","id":"sh/4by5cr65","slide":1,"name":"biology-1-label","text":"coefficient-sign stability","textPreview":"coefficient-sign stability","textChars":26,"textLines":1,"bbox":[2915,772,420,88]}
-{"kind":"textbox","id":"sh/5c76lwnq","slide":1,"name":"biology-2-value","text":"0.97 / 0.95","textPreview":"0.97 / 0.95","textChars":11,"textLines":1,"bbox":[3390,690,420,78]}
-{"kind":"textbox","id":"sh/i9gnahoz","slide":1,"name":"biology-2-label","text":"external calibration slopes","textPreview":"external calibration slopes","textChars":27,"textLines":1,"bbox":[3390,772,420,88]}
-{"kind":"textbox","id":"sh/3apojm5k","slide":1,"name":"biology-3-value","text":"0.031 / 0.038","textPreview":"0.031 / 0.038","textChars":13,"textLines":1,"bbox":[3865,690,420,78]}
-{"kind":"textbox","id":"sh/o72pov69","slide":1,"name":"biology-3-label","text":"external absolute errors","textPreview":"external absolute errors","textChars":24,"textLines":1,"bbox":[3865,772,420,88]}
-{"kind":"textbox","id":"sh/98b6hgnu","slide":1,"name":"biology-evidence","text":"Evidence: Stability and calibration, p. 4","textPreview":"Evidence: Stability and calibration, p. 4","textChars":41,"textLines":1,"bbox":[2915,890,1439,38]}
-{"kind":"shape","id":"sh/jex03et8","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
-{"kind":"textbox","id":"sh/5gfi5obe","slide":1,"name":"figure-three-caption","text":"Figure 3 · Calibration and coefficient-sign stability","textPreview":"Figure 3 · Calibration and coefficient-sign stability","textChars":53,"textLines":1,"bbox":[2939,1613,1391,42]}
-{"kind":"textbox","id":"sh/kf6hwjut","slide":1,"name":"figure-three-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,1646,1391,38]}
-{"kind":"textbox","id":"sh/7ih07yt4","slide":1,"name":"validation-visual-heading-title","text":"Pre-specified stress test","textPreview":"Pre-specified stress test","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
-{"kind":"shape","id":"sh/6h8zytcj","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
-{"kind":"shape","id":"sh/t4zi9oba","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
-{"kind":"textbox","id":"sh/nmd0vut0","slide":1,"name":"figure-four-caption","text":"Figure 4 · Stress-test boundary under increasing shift","textPreview":"Figure 4 · Stress-test boundary under increasing shift","textChars":54,"textLines":1,"bbox":[2939,2503,1391,42]}
-{"kind":"textbox","id":"sh/ml4z2pcf","slide":1,"name":"figure-four-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,2536,1391,38]}
-{"kind":"textbox","id":"sh/ql0zq9w3","slide":1,"name":"conclusion-heading-title","text":"Supported conclusion","textPreview":"Supported conclusion","textChars":20,"textLines":1,"bbox":[2915,2625,1439,58]}
-{"kind":"shape","id":"sh/bm9gjedo","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
-{"kind":"shape","id":"sh/cnihsje9","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
-{"kind":"textbox","id":"sh/dorylovu","slide":1,"name":"conclusion","text":"AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real biology, prognosis, treatment or clinical utility. Every number, cohort, feature, author and institution is fictional.","textPreview":"AURORA-12 is a controlled, rights-safe fixture for testing evidence-linked scientific communication. It supports no inference about real ...","textChars":255,"textLines":1,"bbox":[2949,2748,1371,230]}
-{"kind":"textbox","id":"sh/yp0zutcf","slide":1,"name":"conclusion-evidence","text":"Evidence: Discussion and Conclusion, p. 5","textPreview":"Evidence: Discussion and Conclusion, p. 5","textChars":41,"textLines":1,"bbox":[2949,2992,1371,38]}
-{"kind":"shape","id":"sh/zq9gnyd0","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
-{"kind":"textbox","id":"sh/0rihwjul","slide":1,"name":"footer-source","text":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textPreview":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textChars":85,"textLines":1,"bbox":[140,3107,3000,42]}
-{"kind":"textbox","id":"sh/lsbypovq","slide":1,"name":"footer-status","text":"Approvals current · synthetic boundary locked · editable logo placeholder","textPreview":"Approvals current · synthetic boundary locked · editable logo placeholder","textChars":73,"textLines":1,"bbox":[3120,3107,1230,42]}
-{"kind":"image","id":"im/kfal0zqt","slide":1,"name":"","alt":"Deterministic generation, feature selection and four-cohort evaluation workflow","bbox":[160,1935,1180,942]}
-{"kind":"image","id":"im/zedkvqp4","slide":1,"name":"","alt":"AURORA-12 and synthetic baseline concordance indices in four cohorts","bbox":[1440,1015,1395,1237]}
-{"kind":"image","id":"im/143exo3e","slide":1,"name":"","alt":"Calibration slopes, absolute errors and bootstrap stability summaries","bbox":[2935,985,1399,622]}
-{"kind":"image","id":"im/n65wzelk","slide":1,"name":"","alt":"AURORA-12 concordance index under increasing synthetic shift","bbox":[2935,1845,1399,652]}
-{"kind":"notes","id":"nt/z6u7j9","slide":1,"text":"[Sources]\n- AURORA-12-synthetic-manuscript.pdf\n- palette approval sha256:1415dde4c40a1a1652421d6bc9752898c97e4d046e43bf53cdaf31b3423f096d\n- deletion approval sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b\n[/Sources]"}
+{"kind":"deck","id":"pr/i3bdfo","name":"Deck"}
+{"kind":"layout","layoutId":"33acef6f-e98c-469d-b119-af8e36f86306","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"f76d4ec5-7b3a-43d2-a87b-99305d9a24c1","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/cyih6e","slide":1,"title":"AURORA-12","textShapes":59}
+{"kind":"shape","id":"sh/utkfydgf","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/hwbetszq","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/gv2x0nyl","slide":1,"name":"poster-title","text":"AURORA-12\nA fully synthetic benchmark for evidence-linked poster generation","textPreview":"AURORA-12 | A fully synthetic benchmark for evidence-linked poster generation","textChars":75,"textLines":2,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/3ydwvihw","slide":1,"name":"authors","text":"PostEx Synthetic Research Collective","textPreview":"PostEx Synthetic Research Collective","textChars":36,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/2xkf2dgb","slide":1,"name":"affiliations","text":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textPreview":"Fictional Methods Laboratory · Example Research Campus · no real authors or institutions","textChars":88,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/pkvexsz2","slide":1,"name":"citation","text":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textPreview":"POSTEX-SYNTH-2026-001 · fully synthetic · CC0-1.0 · no DOI","textChars":58,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/4jmx4nyh","slide":1,"name":"logo-slot-fictional-lab-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/rmdwz2h8","slide":1,"name":"logo-placeholder-fictional-lab-logo","text":"Fictional lab logo","textPreview":"Fictional lab logo","textChars":18,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/ql4f6xgn","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/8jm90n6l","slide":1,"name":"header-metric-1-value","text":"1,240","textPreview":"1,240","textChars":5,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/tkvatsn6","slide":1,"name":"header-metric-1-label","text":"synthetic profiles","textPreview":"synthetic profiles","textChars":18,"textLines":1,"bbox":[3440,318,260,88]}
+{"kind":"textbox","id":"sh/6hkrydof","slide":1,"name":"header-metric-2-value","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/7itsri50","slide":1,"name":"header-metric-2-label","text":"anonymous model features","textPreview":"anonymous model features","textChars":24,"textLines":1,"bbox":[3740,318,260,88]}
+{"kind":"textbox","id":"sh/g7m94n6h","slide":1,"name":"header-metric-3-value","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/h8vaxsn2","slide":1,"name":"header-metric-3-label","text":"deterministic cohort simulations","textPreview":"deterministic cohort simulations","textChars":32,"textLines":1,"bbox":[4040,318,260,88]}
+{"kind":"textbox","id":"sh/ul4r2dor","slide":1,"name":"question-title","text":"Communication test","textPreview":"Communication test","textChars":18,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/vmdsvi5c","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/4b69876t","slide":1,"name":"research-question","text":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomedical evidence?","textPreview":"Can a realistic multi-cohort manuscript exercise evidence-linked poster generation without redistributing a real paper or implying biomed...","textChars":151,"textLines":1,"bbox":[140,682,1220,220]}
+{"kind":"textbox","id":"sh/5cfa1cne","slide":1,"name":"question-evidence","text":"Evidence: Abstract and Introduction, pp. 1-2","textPreview":"Evidence: Abstract and Introduction, pp. 1-2","textChars":44,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/dgrip8b6","slide":1,"name":"pipeline-title","text":"Deterministic workflow","textPreview":"Deterministic workflow","textChars":22,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/svihw3al","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/ru90nyt0","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/qt0zutsf","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/1kbit8b2","slide":1,"name":"pipeline-1-text","text":"Fixed seed generated 1,240 profiles","textPreview":"Fixed seed generated 1,240 profiles","textChars":35,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/0ji10nax","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/fi90ritc","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/eh0jydsr","slide":1,"name":"pipeline-2-text","text":"480 anonymous transcript-like features","textPreview":"480 anonymous transcript-like features","textChars":38,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/ho7ixoby","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/gnyhojud","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/6twfypsb","slide":1,"name":"pipeline-3-text","text":"Nested elastic-net selection","textPreview":"Nested elastic-net selection","textChars":28,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/7u5gru9w","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/8vex0zqh","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/twnytkr2","slide":1,"name":"pipeline-4-text","text":"12-feature score and shift testing","textPreview":"12-feature score and shift testing","textChars":34,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/uxwf2p87","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/vy5gvu9s","slide":1,"name":"dataset-kicker","text":"FOUR SYNTHETIC COHORTS","textPreview":"FOUR SYNTHETIC COHORTS","textChars":22,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/gzex4zqd","slide":1,"name":"dataset-lead","text":"Four deterministic synthetic cohorts","textPreview":"Four deterministic synthetic cohorts","textChars":36,"textLines":1,"bbox":[168,1495,1164,54]}
+{"kind":"textbox","id":"sh/h0nyx4ry","slide":1,"name":"datasets","text":"• Discovery n=620 · Internal validation n=310\n• External A n=186 · External B n=124\n• No participants, specimens or external datasets","textPreview":"• Discovery n=620 · Internal validation n=310 | • External A n=186 · External B n=124 | • No participants, specimens or external datasets","textChars":133,"textLines":3,"bbox":[168,1556,1164,155]}
+{"kind":"textbox","id":"sh/a1sfq5s3","slide":1,"name":"dataset-evidence","text":"Evidence: Abstract and Methods, pp. 1-2","textPreview":"Evidence: Abstract and Methods, pp. 1-2","textChars":39,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/b2lwja9o","slide":1,"name":"figure-one-heading-title","text":"Generation to validation","textPreview":"Generation to validation","textChars":24,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/rydcnm1c","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/qxkvu1kr","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"textbox","id":"sh/czmdwr2x","slide":1,"name":"figure-one-caption","text":"Figure 1 · Deterministic generation and validation workflow","textPreview":"Figure 1 · Deterministic generation and validation workflow","textChars":59,"textLines":1,"bbox":[164,2883,1172,33]}
+{"kind":"textbox","id":"sh/zmdwr61o","slide":1,"name":"figure-one-source","text":"Authored synthetic fixture · manuscript p. 2","textPreview":"Authored synthetic fixture · manuscript p. 2","textChars":44,"textLines":1,"bbox":[164,2917,1172,38]}
+{"kind":"shape","id":"sh/el4vy1k3","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/lovetgje","slide":1,"name":"central-takeaway-title","text":"External C-indices remained 0.75 and 0.74","textPreview":"External C-indices remained 0.75 and 0.74","textChars":41,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/0nmd0b29","slide":1,"name":"central-takeaway-subtitle","text":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textPreview":"Synthetic baseline: 0.66 and 0.65 · software fixture, not clinical validation","textChars":77,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/nqxwv61k","slide":1,"name":"takeaway-evidence","text":"Evidence: Results, pp. 1 and 3; Figure 2","textPreview":"Evidence: Results, pp. 1 and 3; Figure 2","textChars":40,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/mpov2lkz","slide":1,"name":"figure-two-heading-title","text":"Discrimination across shifts","textPreview":"Discrimination across shifts","textChars":28,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/kv6dcbyd","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/5wzulgzy","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"textbox","id":"sh/juxcjqhs","slide":1,"name":"figure-two-caption","text":"Figure 2 · Authored discrimination values across cohort shifts","textPreview":"Figure 2 · Authored discrimination values across cohort shifts","textChars":62,"textLines":1,"bbox":[1444,2258,1387,33]}
+{"kind":"textbox","id":"sh/wr6t8by1","slide":1,"name":"figure-two-source","text":"Authored synthetic fixture · manuscript p. 3","textPreview":"Authored synthetic fixture · manuscript p. 3","textChars":44,"textLines":1,"bbox":[1444,2292,1387,38]}
+{"kind":"textbox","id":"sh/xsfuhgzm","slide":1,"name":"validation-heading-title","text":"Calibration and stress boundary","textPreview":"Calibration and stress boundary","textChars":31,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/apob61gb","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/vqxcf6hw","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/8nmt4ri5","slide":1,"name":"validation","text":"• External calibration slopes were 0.97 and 0.95.\n• External absolute errors were 0.031 and 0.038.\n• Aggregate coefficient-sign stability was 92% across 500 resamples.\n• The most severe pre-specified shift reduced C-index by 0.04.","textPreview":"• External calibration slopes were 0.97 and 0.95. | • External absolute errors were 0.031 and 0.038. | • Aggregate coefficient-sign stabi...","textChars":230,"textLines":4,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/9ovudwzq","slide":1,"name":"validation-evidence","text":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textPreview":"Evidence: Results, pp. 1, 3-4; Figures 3-4","textChars":42,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/p8ni18n2","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/47u1s36x","slide":1,"name":"performance-strip-text","text":"External validation retained discrimination: C-index 0.75 / 0.74","textPreview":"External validation retained discrimination: C-index 0.75 / 0.74","textChars":64,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/36l0zy5c","slide":1,"name":"biology-heading-title","text":"Calibration & stability","textPreview":"Calibration & stability","textChars":23,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/25cjqtor","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/h43ixon6","slide":1,"name":"biology-1-value","text":"92%","textPreview":"92%","textChars":3,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/g3u1oj6l","slide":1,"name":"biology-1-label","text":"coefficient-sign stability","textPreview":"coefficient-sign stability","textChars":26,"textLines":1,"bbox":[2915,768,420,88]}
+{"kind":"textbox","id":"sh/fil0ve50","slide":1,"name":"biology-2-value","text":"0.97 / 0.95","textPreview":"0.97 / 0.95","textChars":11,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/uhcjm9of","slide":1,"name":"biology-2-label","text":"external calibration slopes","textPreview":"external calibration slopes","textChars":27,"textLines":1,"bbox":[3390,768,420,88]}
+{"kind":"textbox","id":"sh/1072tsna","slide":1,"name":"biology-3-value","text":"0.031 / 0.038","textPreview":"0.031 / 0.038","textChars":13,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/0zy10n6p","slide":1,"name":"biology-3-label","text":"external absolute errors","textPreview":"external absolute errors","textChars":24,"textLines":1,"bbox":[3865,768,420,88]}
+{"kind":"textbox","id":"sh/il8fu547","slide":1,"name":"biology-evidence","text":"Evidence: Stability and calibration, p. 4","textPreview":"Evidence: Stability and calibration, p. 4","textChars":41,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/jmhgnals","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"textbox","id":"sh/5ozypk3y","slide":1,"name":"figure-three-caption","text":"Figure 3 · Calibration and coefficient-sign stability","textPreview":"Figure 3 · Calibration and coefficient-sign stability","textChars":53,"textLines":1,"bbox":[2939,1613,1391,33]}
+{"kind":"textbox","id":"sh/ah8fq54b","slide":1,"name":"figure-three-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,1647,1391,38]}
+{"kind":"textbox","id":"sh/vihgjalw","slide":1,"name":"validation-visual-heading-title","text":"Pre-specified stress test","textPreview":"Pre-specified stress test","textChars":25,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/wjqxsfmh","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/xkzylk3m","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"textbox","id":"sh/fe1gvul0","slide":1,"name":"figure-four-caption","text":"Figure 4 · Stress-test boundary under increasing shift","textPreview":"Figure 4 · Stress-test boundary under increasing shift","textChars":54,"textLines":1,"bbox":[2939,2503,1391,33]}
+{"kind":"textbox","id":"sh/3uxgfud4","slide":1,"name":"figure-four-source","text":"Authored synthetic fixture · manuscript p. 4","textPreview":"Authored synthetic fixture · manuscript p. 4","textChars":44,"textLines":1,"bbox":[2939,2537,1391,38]}
+{"kind":"textbox","id":"sh/29ofmpwj","slide":1,"name":"conclusion-heading-title","text":"Supported conclusion","textPreview":"Supported conclusion","textChars":20,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/pwzyh4va","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/ovqxozep","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/f6xgbud8","slide":1,"name":"conclusion-lead","text":"A rights-safe methodological test fixture","textPreview":"A rights-safe methodological test fixture","textChars":41,"textLines":1,"bbox":[2949,2748,1371,64]}
+{"kind":"textbox","id":"sh/e5ofipwn","slide":1,"name":"conclusion","text":"• No biological, prognostic or clinical inference\n• All cohorts, values and identities are fictional","textPreview":"• No biological, prognostic or clinical inference | • All cohorts, values and identities are fictional","textChars":100,"textLines":2,"bbox":[2949,2820,1371,158]}
+{"kind":"textbox","id":"sh/18fydkvy","slide":1,"name":"conclusion-evidence","text":"Evidence: Discussion and Conclusion, p. 5","textPreview":"Evidence: Discussion and Conclusion, p. 5","textChars":41,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/g76xkzet","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/r2dg7adw","slide":1,"name":"footer-source","text":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textPreview":"Original synthetic fixture · CC0-1.0 · evidence coverage 100% · local-only processing","textChars":85,"textLines":1,"bbox":[140,3107,2960,42]}
+{"kind":"textbox","id":"sh/614fe5wb","slide":1,"name":"footer-status","text":"Approvals current · synthetic boundary locked · editable logo placeholder","textPreview":"Approvals current · synthetic boundary locked · editable logo placeholder","textChars":73,"textLines":1,"bbox":[3120,3107,1230,42]}
+{"kind":"image","id":"im/epgbidk3","slide":1,"name":"","alt":"Deterministic generation, feature selection and four-cohort evaluation workflow","bbox":[160,1935,1180,942]}
+{"kind":"image","id":"im/tgvytwnu","slide":1,"name":"","alt":"AURORA-12 and synthetic baseline concordance indices in four cohorts","bbox":[1440,1015,1395,1237]}
+{"kind":"image","id":"im/j25kny9o","slide":1,"name":"","alt":"Calibration slopes, absolute errors and bootstrap stability summaries","bbox":[2935,985,1399,622]}
+{"kind":"image","id":"im/9c32horm","slide":1,"name":"","alt":"AURORA-12 concordance index under increasing synthetic shift","bbox":[2935,1845,1399,652]}
+{"kind":"notes","id":"nt/cyih6e","slide":1,"text":"[Sources]\n- AURORA-12-synthetic-manuscript.pdf\n- palette approval sha256:1415dde4c40a1a1652421d6bc9752898c97e4d046e43bf53cdaf31b3423f096d\n- deletion approval sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b\n[/Sources]"}

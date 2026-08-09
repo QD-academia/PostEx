@@ -8,16 +8,24 @@
   "properties": {
     "schema_version": {"const": "0.1"},
     "project_id": {"type": "string"},
+    "poster_size": {"enum": ["a0-landscape", "a1-landscape", "36x48-landscape"]},
+    "expected_inches": {
+      "type": "array",
+      "prefixItems": [{"type": "number"}, {"type": "number"}],
+      "minItems": 2,
+      "maxItems": 2
+    },
     "passed": {"type": "boolean"},
     "findings": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["code", "severity", "message"],
+        "required": ["code", "severity", "passed", "message"],
         "properties": {
           "code": {"type": "string"},
           "severity": {"enum": ["info", "warning", "error"]},
+          "passed": {"type": "boolean"},
           "message": {"type": "string"},
           "location": {"type": ["string", "null"]},
           "remediation": {"type": ["string", "null"]}
@@ -26,4 +34,3 @@
     }
   }
 }
-
