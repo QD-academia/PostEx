@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-mondstadt-diluc",
+  "name": "迪卢克",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-mondstadt-diluc.png",
+  "source_sha256": "335cbd94bc41d7dbee05f960d49e4e9fb8c44f2ab936649c4a9f1dae3dde2348",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#534741",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#DF6948",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#2C2A27",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#E24425",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

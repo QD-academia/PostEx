@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-peking",
+  "name": "北京大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-peking.png",
+  "source_sha256": "174bf177ede754a9a083f2f84925e27282d3fc03275e1968e6adc76526b4c3de",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#7D181C",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#893844",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#991558",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#2D9586",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

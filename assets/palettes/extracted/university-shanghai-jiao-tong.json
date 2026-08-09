@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-shanghai-jiao-tong",
+  "name": "上海交通大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-shanghai-jiao-tong.png",
+  "source_sha256": "cd3411b34bbd035ec90cfe19cc42708f42ec97c3547a420b69f84cd55fee3b84",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#B72537",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#8A3946",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#82291E",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#9A155A",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-scut",
+  "name": "华南理工大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-scut.png",
+  "source_sha256": "b9f49504af4a67fbc24d7a0862e709e34e5dff0042033c93d0dcc632f3cdd8c1",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#0450A6",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#0170BC",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#9FCBE6",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#3C9AD1",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

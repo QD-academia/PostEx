@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-harbin-engineering",
+  "name": "哈尔滨工程大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-harbin-engineering.png",
+  "source_sha256": "9f72285b0fbbe3349d0dc479d8a13ecbb966e5c140e282d8e8d57bc98ab7de05",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#004EA2",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#7AC0DF",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#B3DFEE",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#DDEFF4",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-central-south",
+  "name": "中南大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-central-south.png",
+  "source_sha256": "e17aaf4a19a475f8886350eb0e85250d7de3f333eeedb65c7e79f7c62a63a31d",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#016DAD",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355E82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3274",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#137B88",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

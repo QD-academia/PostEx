@@ -1,0 +1,1030 @@
+{
+  "schema_version": "0.3",
+  "source": "Wikimedia Commons API",
+  "review_status": "candidate-search; official identity and permission review required",
+  "results": {
+    "university-tsinghua": {
+      "university": "Tsinghua University",
+      "candidate_count": 6,
+      "candidates": [
+        {
+          "title": "File:Tsinghua University Logo.svg",
+          "score": 156,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tsinghua_University_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tsinghua_University_Logo.svg/960px-Tsinghua_University_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 284,
+          "height": 284,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Tsinghua University",
+          "credit": "http://info.tsinghua.edu.cn/xxxczl/xbhs.htm",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Tsinghua University PBC School of Finance logo.png",
+          "score": 141,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_PBC_School_of_Finance_logo.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tsinghua_University_PBC_School_of_Finance_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tsinghua_University_PBC_School_of_Finance_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 553,
+          "height": 152,
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Tsinghua University PBC School of Finance",
+          "credit": "Own work",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 4.0"
+        },
+        {
+          "title": "File:The China National Emblem's Design, Tsinghua University.png",
+          "score": 141,
+          "description_url": "https://commons.wikimedia.org/wiki/File:The_China_National_Emblem%27s_Design,_Tsinghua_University.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/The_China_National_Emblem%27s_Design%2C_Tsinghua_University.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/The_China_National_Emblem%27s_Design%2C_Tsinghua_University.png/960px-The_China_National_Emblem%27s_Design%2C_Tsinghua_University.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 2438,
+          "height": 2948,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "清华大学",
+          "credit": "政协全国委员会办公厅 (编). 《开天辟地：中华人民共和国国旗国歌国徽诞生》2019.9. 中国文史出版社. 2019. ISBN 9787520512947.",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:The Old Logo of Tsinghua University, on Tsinghuapper, in 1917.png",
+          "score": 61,
+          "description_url": "https://commons.wikimedia.org/wiki/File:The_Old_Logo_of_Tsinghua_University,_on_Tsinghuapper,_in_1917.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Old_Logo_of_Tsinghua_University%2C_on_Tsinghuapper%2C_in_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/The_Old_Logo_of_Tsinghua_University%2C_on_Tsinghuapper%2C_in_1917.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 101,
+          "height": 102,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Tsinghua University",
+          "credit": "http://www.ziyuanv.cn/ziyuan/33/1448.html",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Tsinghua University Department of Computer Science and Technology Logo.png",
+          "score": 61,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Department_of_Computer_Science_and_Technology_Logo.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tsinghua_University_Department_of_Computer_Science_and_Technology_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tsinghua_University_Department_of_Computer_Science_and_Technology_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 240,
+          "height": 243,
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Tsinghua University Department of Computer Science and Technology",
+          "credit": "http://www.cs.tsinghua.edu.cn/",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 4.0"
+        },
+        {
+          "title": "File:The Logo of Tsinghua Hua School, in 1925.png",
+          "score": 33,
+          "description_url": "https://commons.wikimedia.org/wiki/File:The_Logo_of_Tsinghua_Hua_School,_in_1925.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Logo_of_Tsinghua_Hua_School%2C_in_1925.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Logo_of_Tsinghua_Hua_School%2C_in_1925.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 355,
+          "height": 355,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Tsinghua University",
+          "credit": "https://books.google.com.hk/books?id=PmiOHknGA6kC&printsec=frontcover&dq=%E6%B8%85%E5%8D%8E%E5%9B%AD%E9%A3%8E%E7%89%A9%E5%BF%97&source=bl&ots=Lmrfc0176P&sig=Fs0bbhsWjOJmA_HrvQ7kawcZoRo&hl=zh-CN&ei=rN_KTNbLN5K0vgOQvtHjDw&sa=X&oi=book_result&ct=result&resnum=1&ved=0CBcQ6AEwAA#v=onepage&q&f=false",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-peking": {
+      "university": "Peking University",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "title": "File:Peking University seal.svg",
+          "score": 156,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Peking_University_seal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Peking_University_seal.svg/960px-Peking_University_seal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 512,
+          "height": 512,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Peking University",
+          "credit": "Own work using: 北京大学视觉形象识别系统(Peking University VIS)",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Logo of Peking University (1888-1904).png",
+          "score": 141,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Logo_of_Peking_University_(1888-1904).png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_of_Peking_University_%281888-1904%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Logo_of_Peking_University_%281888-1904%29.png/960px-Logo_of_Peking_University_%281888-1904%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 1090,
+          "height": 1070,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Peking University",
+          "credit": "This image has been extracted from another file",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Pe1570pd35-peking-university-logo-peking-university.png",
+          "score": 141,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Pe1570pd35-peking-university-logo-peking-university.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pe1570pd35-peking-university-logo-peking-university.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pe1570pd35-peking-university-logo-peking-university.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 880,
+          "height": 247,
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Jomyzzzz",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Creative Commons Zero, Public Domain Dedication"
+        },
+        {
+          "title": "File:Peking University.svg",
+          "score": 131,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Peking_University.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Peking_University.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Peking_University.svg/960px-Peking_University.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 800,
+          "height": 800,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Lu Xun",
+          "credit": "http://www.pku.edu.cn/",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-zhejiang": {
+      "university": "Zhejiang University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-shanghai-jiao-tong": {
+      "university": "Shanghai Jiao Tong University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:SJTU emblem 1912-1921.png",
+          "score": 25,
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_emblem_1912-1921.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/SJTU_emblem_1912-1921.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/SJTU_emblem_1912-1921.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 745,
+          "height": 750,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Ericmetro",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:SJTU Flag 1928.svg",
+          "score": 15,
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_Flag_1928.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/SJTU_Flag_1928.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/SJTU_Flag_1928.svg/960px-SJTU_Flag_1928.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 1500,
+          "height": 1000,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Shanghai Jiao Tong University",
+          "credit": "Own work (Ericmetro)",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-fudan": {
+      "university": "Fudan University",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:Fudan University Logo.svg",
+          "score": 156,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fudan_University_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fudan_University_Logo.svg/960px-Fudan_University_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 512,
+          "height": 511,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Original: Fudan University Vector: Prcmise",
+          "credit": "http://www.fudan.edu.cn/files/logo.zip",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-nanjing": {
+      "university": "Nanjing University",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "title": "File:Nanjing University Anthem.png",
+          "score": 116,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Nanjing_University_Anthem.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanjing_University_Anthem.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanjing_University_Anthem.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 735,
+          "height": 531,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Nanjing University",
+          "credit": "https://www.nju.edu.cn/ndgk/ndbs.htm",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:HNC-Logo.svg",
+          "score": 40,
+          "description_url": "https://commons.wikimedia.org/wiki/File:HNC-Logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/HNC-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/HNC-Logo.svg/960px-HNC-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 243,
+          "height": 359,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Hopkins-Nanjing Center",
+          "credit": "Hopkins-Nanjing Center, adapted from official blog here",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:NJU name English.svg",
+          "score": 15,
+          "description_url": "https://commons.wikimedia.org/wiki/File:NJU_name_English.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/NJU_name_English.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/NJU_name_English.svg/960px-NJU_name_English.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 581,
+          "height": 32,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Nanjing University",
+          "credit": "http://xiaoban.nju.edu.cn/zlxz/nju.rar",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Glnjdx.PNG",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Glnjdx.PNG",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Glnjdx.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Glnjdx.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 893,
+          "height": 614,
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "artist": "The original uploader was 用心阁 at Chinese Wikipedia.",
+          "credit": "Transferred from zh.wikipedia to Commons by Shizhao using CommonsHelper.",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0"
+        }
+      ]
+    },
+    "university-ustc": {
+      "university": "University of Science and Technology of China",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-wuhan": {
+      "university": "Wuhan University",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "title": "File:毛泽东思想万岁（武汉钢二司版）第二卷封面.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%87%E5%B2%81%EF%BC%88%E6%AD%A6%E6%B1%89%E9%92%A2%E4%BA%8C%E5%8F%B8%E7%89%88%EF%BC%89%E7%AC%AC%E4%BA%8C%E5%8D%B7%E5%B0%81%E9%9D%A2.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%87%E5%B2%81%EF%BC%88%E6%AD%A6%E6%B1%89%E9%92%A2%E4%BA%8C%E5%8F%B8%E7%89%88%EF%BC%89%E7%AC%AC%E4%BA%8C%E5%8D%B7%E5%B0%81%E9%9D%A2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%87%E5%B2%81%EF%BC%88%E6%AD%A6%E6%B1%89%E9%92%A2%E4%BA%8C%E5%8F%B8%E7%89%88%EF%BC%89%E7%AC%AC%E4%BA%8C%E5%8D%B7%E5%B0%81%E9%9D%A2.png/960px-%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%87%E5%B2%81%EF%BC%88%E6%AD%A6%E6%B1%89%E9%92%A2%E4%BA%8C%E5%8F%B8%E7%89%88%EF%BC%89%E7%AC%AC%E4%BA%8C%E5%8D%B7%E5%B0%81%E9%9D%A2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 1950,
+          "height": 2800,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "武汉钢二司",
+          "credit": "http://www.mzdbl.cn/maoxuan/wansui2.pdf",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Whooldlogo.png",
+          "score": -55,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Whooldlogo.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Whooldlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Whooldlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 684,
+          "height": 738,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Wen Yiduo",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Whuoldlogo.png",
+          "score": -55,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Whuoldlogo.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Whuoldlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Whuoldlogo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 684,
+          "height": 738,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Wen Yiduo",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-hust": {
+      "university": "Huazhong University of Science and Technology",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-xian-jiao-tong": {
+      "university": "Xi'an Jiaotong University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:Jiaotong university history.png",
+          "score": 16,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Jiaotong_university_history.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jiaotong_university_history.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jiaotong_university_history.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 588,
+          "height": 1454,
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "artist": "Synyan",
+          "credit": "Own work",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution 3.0"
+        },
+        {
+          "title": "File:Xiaoge.png",
+          "score": 8,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Xiaoge.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Xiaoge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Xiaoge.png/960px-Xiaoge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 2894,
+          "height": 2631,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Composer: Xiao Youmei (蕭友梅, 1884-1940) Poet: (unknown) Picture is created by danielinblue",
+          "credit": "http://www.xjtu.edu.cn/jdgk/17.html",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-beihang": {
+      "university": "Beihang University",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "title": "File:BUAAtile.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:BUAAtile.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/BUAAtile.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/BUAAtile.png/960px-BUAAtile.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 1002,
+          "height": 471,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Hercius",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:北航建校.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E8%88%AA%E5%BB%BA%E6%A0%A1.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/%E5%8C%97%E8%88%AA%E5%BB%BA%E6%A0%A1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/%E5%8C%97%E8%88%AA%E5%BB%BA%E6%A0%A1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 776,
+          "height": 526,
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Liukun0104",
+          "credit": "Own work",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 4.0"
+        },
+        {
+          "title": "File:新建 Microsoft PowerPoint 演示文稿.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%BB%BA_Microsoft_PowerPoint_%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/%E6%96%B0%E5%BB%BA_Microsoft_PowerPoint_%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%E6%96%B0%E5%BB%BA_Microsoft_PowerPoint_%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.png/960px-%E6%96%B0%E5%BB%BA_Microsoft_PowerPoint_%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 1280,
+          "height": 720,
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Liukun0104",
+          "credit": "Own work",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 4.0"
+        }
+      ]
+    },
+    "university-hit": {
+      "university": "Harbin Institute of Technology",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:HIT1920.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:HIT1920.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/HIT1920.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/HIT1920.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 907,
+          "height": 619,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Harbin Institute of Technology",
+          "credit": "https://www.hit.edu.cn/11545/list.htm",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-sun-yat-sen": {
+      "university": "Sun Yat-sen University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:Seal of Canton Kwong Wah Medical College.png",
+          "score": 25,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Seal_of_Canton_Kwong_Wah_Medical_College.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Seal_of_Canton_Kwong_Wah_Medical_College.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Seal_of_Canton_Kwong_Wah_Medical_College.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 374,
+          "height": 376,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "私立广东光华医学院",
+          "credit": "《广东光华医学院：中国第一家华人自办的医学院90周年志庆：1908-1998年》",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:SYSU logo 1951.png",
+          "score": 25,
+          "description_url": "https://commons.wikimedia.org/wiki/File:SYSU_logo_1951.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/SYSU_logo_1951.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/SYSU_logo_1951.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 427,
+          "height": 419,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Unknown authorUnknown author",
+          "credit": "《中山大学毕业同学录 1951》",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-bit": {
+      "university": "Beijing Institute of Technology",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-southeast": {
+      "university": "Southeast University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-sichuan": {
+      "university": "Sichuan University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:SCUSEAL CORE.png",
+          "score": 25,
+          "description_url": "https://commons.wikimedia.org/wiki/File:SCUSEAL_CORE.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SCUSEAL_CORE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SCUSEAL_CORE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 198,
+          "height": 298,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Sichuan University",
+          "credit": "http://www.scu.edu.cn/portal2013/rootfiles/2014/06/16/1402363144357573-1402363144360249.pdf",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Dienedione synthesis.svg",
+          "score": 15,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Dienedione_synthesis.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Dienedione_synthesis.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dienedione_synthesis.svg/960px-Dienedione_synthesis.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 512,
+          "height": 207,
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Yogi Yolk",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Creative Commons Zero, Public Domain Dedication"
+        }
+      ]
+    },
+    "university-renmin": {
+      "university": "Renmin University of China",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-tongji": {
+      "university": "Tongji University",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:ZhuRouCiShen.svg",
+          "score": 15,
+          "description_url": "https://commons.wikimedia.org/wiki/File:ZhuRouCiShen.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/ZhuRouCiShen.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/ZhuRouCiShen.svg/960px-ZhuRouCiShen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 512,
+          "height": 512,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "水餃喵",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-bnu": {
+      "university": "Beijing Normal University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-tianjin": {
+      "university": "Tianjin University",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "title": "File:Logo of Georgia Tech Shenzhen Institute, Tianjin University.png",
+          "score": 141,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Logo_of_Georgia_Tech_Shenzhen_Institute,_Tianjin_University.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Logo_of_Georgia_Tech_Shenzhen_Institute%2C_Tianjin_University.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Logo_of_Georgia_Tech_Shenzhen_Institute%2C_Tianjin_University.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 415,
+          "height": 36,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Georgia Tech Shenzhen Institute, Tianjin University",
+          "credit": "https://www.gtsi.edu.cn/sites/default/files/2023-01/logo-1_0.png",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Tju Vi Name.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tju_Vi_Name.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Tju_Vi_Name.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Tju_Vi_Name.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 134,
+          "height": 401,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "天津大学",
+          "credit": "天津大学办公网",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:组建国立西北工学院的教育部训令.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E7%BB%84%E5%BB%BA%E5%9B%BD%E7%AB%8B%E8%A5%BF%E5%8C%97%E5%B7%A5%E5%AD%A6%E9%99%A2%E7%9A%84%E6%95%99%E8%82%B2%E9%83%A8%E8%AE%AD%E4%BB%A4.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/%E7%BB%84%E5%BB%BA%E5%9B%BD%E7%AB%8B%E8%A5%BF%E5%8C%97%E5%B7%A5%E5%AD%A6%E9%99%A2%E7%9A%84%E6%95%99%E8%82%B2%E9%83%A8%E8%AE%AD%E4%BB%A4.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E7%BB%84%E5%BB%BA%E5%9B%BD%E7%AB%8B%E8%A5%BF%E5%8C%97%E5%B7%A5%E5%AD%A6%E9%99%A2%E7%9A%84%E6%95%99%E8%82%B2%E9%83%A8%E8%AE%AD%E4%BB%A4.png/960px-%E7%BB%84%E5%BB%BA%E5%9B%BD%E7%AB%8B%E8%A5%BF%E5%8C%97%E5%B7%A5%E5%AD%A6%E9%99%A2%E7%9A%84%E6%95%99%E8%82%B2%E9%83%A8%E8%AE%AD%E4%BB%A4.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/png",
+          "width": 1052,
+          "height": 770,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Chen Lifu",
+          "credit": "天津大学档案馆",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:授张之洞北洋大学堂荣誉学者仪式合影.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E6%8E%88%E5%BC%A0%E4%B9%8B%E6%B4%9E%E5%8C%97%E6%B4%8B%E5%A4%A7%E5%AD%A6%E5%A0%82%E8%8D%A3%E8%AA%89%E5%AD%A6%E8%80%85%E4%BB%AA%E5%BC%8F%E5%90%88%E5%BD%B1.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/%E6%8E%88%E5%BC%A0%E4%B9%8B%E6%B4%9E%E5%8C%97%E6%B4%8B%E5%A4%A7%E5%AD%A6%E5%A0%82%E8%8D%A3%E8%AA%89%E5%AD%A6%E8%80%85%E4%BB%AA%E5%BC%8F%E5%90%88%E5%BD%B1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/%E6%8E%88%E5%BC%A0%E4%B9%8B%E6%B4%9E%E5%8C%97%E6%B4%8B%E5%A4%A7%E5%AD%A6%E5%A0%82%E8%8D%A3%E8%AA%89%E5%AD%A6%E8%80%85%E4%BB%AA%E5%BC%8F%E5%90%88%E5%BD%B1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 786,
+          "height": 524,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Unknown authorUnknown author",
+          "credit": "天津市档案馆",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-nankai": {
+      "university": "Nankai University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:南开大学迎水道校区教学楼（原天津外贸学院主楼）.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E8%BF%8E%E6%B0%B4%E9%81%93%E6%A0%A1%E5%8C%BA%E6%95%99%E5%AD%A6%E6%A5%BC%EF%BC%88%E5%8E%9F%E5%A4%A9%E6%B4%A5%E5%A4%96%E8%B4%B8%E5%AD%A6%E9%99%A2%E4%B8%BB%E6%A5%BC%EF%BC%89.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E8%BF%8E%E6%B0%B4%E9%81%93%E6%A0%A1%E5%8C%BA%E6%95%99%E5%AD%A6%E6%A5%BC%EF%BC%88%E5%8E%9F%E5%A4%A9%E6%B4%A5%E5%A4%96%E8%B4%B8%E5%AD%A6%E9%99%A2%E4%B8%BB%E6%A5%BC%EF%BC%89.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E8%BF%8E%E6%B0%B4%E9%81%93%E6%A0%A1%E5%8C%BA%E6%95%99%E5%AD%A6%E6%A5%BC%EF%BC%88%E5%8E%9F%E5%A4%A9%E6%B4%A5%E5%A4%96%E8%B4%B8%E5%AD%A6%E9%99%A2%E4%B8%BB%E6%A5%BC%EF%BC%89.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 800,
+          "height": 600,
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist": "Amazingloong",
+          "credit": "Own work",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0"
+        },
+        {
+          "title": "File:P.C. Chang's Statue.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:P.C._Chang%27s_Statue.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/P.C._Chang%27s_Statue.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/P.C._Chang%27s_Statue.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 336,
+          "height": 758,
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "artist": "Arnold Vancouver",
+          "credit": "Own work",
+          "attribution_required": "true",
+          "usage_terms": "Creative Commons Attribution-Share Alike 4.0"
+        }
+      ]
+    },
+    "university-shandong": {
+      "university": "Shandong University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-nwpu": {
+      "university": "Northwestern Polytechnical University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-cau": {
+      "university": "China Agricultural University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:1952-08 北京农业大学 五一楼.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:1952-08_%E5%8C%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E4%BA%94%E4%B8%80%E6%A5%BC.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/1952-08_%E5%8C%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E4%BA%94%E4%B8%80%E6%A5%BC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/1952-08_%E5%8C%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E4%BA%94%E4%B8%80%E6%A5%BC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 646,
+          "height": 558,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "《人民画报》",
+          "credit": "《人民画报》1952年第8期",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:1952-08 北京农业大学 学员.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:1952-08_%E5%8C%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E5%AD%A6%E5%91%98.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/1952-08_%E5%8C%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E5%AD%A6%E5%91%98.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/1952-08_%E5%8C%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E5%AD%A6%E5%91%98.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 815,
+          "height": 613,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "《人民画报》",
+          "credit": "《人民画报》1952年第8期",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-xiamen": {
+      "university": "Xiamen University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:Xiamen University logo.svg",
+          "score": 156,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Xiamen_University_logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Xiamen_University_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Xiamen_University_logo.svg/960px-Xiamen_University_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 267,
+          "height": 267,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "林文庆",
+          "credit": "https://www.xmu.edu.cn/about/xiaoxun/",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:Xiamen University Wordmark.png",
+          "score": 116,
+          "description_url": "https://commons.wikimedia.org/wiki/File:Xiamen_University_Wordmark.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Xiamen_University_Wordmark.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Xiamen_University_Wordmark.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 334,
+          "height": 108,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Xiamen University",
+          "credit": "http://en.xmu.edu.cn",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-jilin": {
+      "university": "Jilin University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-central-south": {
+      "university": "Central South University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-dalian-technology": {
+      "university": "Dalian University of Technology",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-ecnu": {
+      "university": "East China Normal University",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "title": "File:The Great China University.png",
+          "score": 16,
+          "description_url": "https://commons.wikimedia.org/wiki/File:The_Great_China_University.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_Great_China_University.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_Great_China_University.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 223,
+          "height": 197,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "East China Normal University",
+          "credit": "http://www.dag.ecnu.edu.cn/xiaoshi/daxia/xiaohui-daxia.htm",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        },
+        {
+          "title": "File:1953年华东师范大学毕业证书.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:1953%E5%B9%B4%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E8%AF%81%E4%B9%A6.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/1953%E5%B9%B4%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E8%AF%81%E4%B9%A6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/1953%E5%B9%B4%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E8%AF%81%E4%B9%A6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 852,
+          "height": 630,
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "artist": "Veritas-iustitia-libertas",
+          "credit": "Own work",
+          "attribution_required": "false",
+          "usage_terms": "Creative Commons Zero, Public Domain Dedication"
+        }
+      ]
+    },
+    "university-sustech": {
+      "university": "Southern University of Science and Technology",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-hunan": {
+      "university": "Hunan University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-scut": {
+      "university": "South China University of Technology",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:First Russian-Chinese translation electronic computer in China.png",
+          "score": 8,
+          "description_url": "https://commons.wikimedia.org/wiki/File:First_Russian-Chinese_translation_electronic_computer_in_China.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/First_Russian-Chinese_translation_electronic_computer_in_China.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/First_Russian-Chinese_translation_electronic_computer_in_China.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 588,
+          "height": 372,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "华南理工大学",
+          "credit": "华南理工大学校史馆（[1]）",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-uestc": {
+      "university": "University of Electronic Science and Technology of China",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-chongqing": {
+      "university": "Chongqing University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-ustb": {
+      "university": "University of Science and Technology Beijing",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-njust": {
+      "university": "Nanjing University of Science and Technology",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-nuaa": {
+      "university": "Nanjing University of Aeronautics and Astronautics",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-northeastern": {
+      "university": "Northeastern University China",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-xidian": {
+      "university": "Xidian University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-lanzhou": {
+      "university": "Lanzhou University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-bjtu": {
+      "university": "Beijing Jiaotong University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-ecust": {
+      "university": "East China University of Science and Technology",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:East China University of Science and Technology Text Logo in English.svg",
+          "score": 196,
+          "description_url": "https://commons.wikimedia.org/wiki/File:East_China_University_of_Science_and_Technology_Text_Logo_in_English.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/East_China_University_of_Science_and_Technology_Text_Logo_in_English.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/East_China_University_of_Science_and_Technology_Text_Logo_in_English.svg/960px-East_China_University_of_Science_and_Technology_Text_Logo_in_English.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 240,
+          "height": 50,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "East China University of Science and Technology",
+          "credit": "xiaoban.ecust.edu.cn/ upload/article/images/bd/95/8ec5799c4d8e9bfb6ba8b9e00eb1/d19a4064-07e2-42c4-9efe-d790d69cbe2a.jpg",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-harbin-engineering": {
+      "university": "Harbin Engineering University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-zhengzhou": {
+      "university": "Zhengzhou University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-huazhong-agricultural": {
+      "university": "Huazhong Agricultural University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-soochow": {
+      "university": "Soochow University China",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:E.V.Jones 龚士博士.png",
+          "score": 0,
+          "description_url": "https://commons.wikimedia.org/wiki/File:E.V.Jones_%E9%BE%9A%E5%A3%AB%E5%8D%9A%E5%A3%AB.png",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/E.V.Jones_%E9%BE%9A%E5%A3%AB%E5%8D%9A%E5%A3%AB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/E.V.Jones_%E9%BE%9A%E5%A3%AB%E5%8D%9A%E5%A3%AB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/png",
+          "width": 209,
+          "height": 284,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "Unknown authorUnknown author",
+          "credit": "https://chemistry.suda.edu.cn/2056/list.htm",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-shanghaitech": {
+      "university": "ShanghaiTech University",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "title": "File:ShanghaiTech University Wordmark.svg",
+          "score": 131,
+          "description_url": "https://commons.wikimedia.org/wiki/File:ShanghaiTech_University_Wordmark.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/ShanghaiTech_University_Wordmark.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ShanghaiTech_University_Wordmark.svg/960px-ShanghaiTech_University_Wordmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 721,
+          "height": 182,
+          "license": "Public domain",
+          "license_url": "",
+          "artist": "ShanghaiTech University",
+          "credit": "https://www.shanghaitech.edu.cn/",
+          "attribution_required": "false",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-northeast-normal": {
+      "university": "Northeast Normal University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-southwest-jiaotong": {
+      "university": "Southwest Jiaotong University",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    "university-bupt": {
+      "university": "Beijing University of Posts and Telecommunications",
+      "candidate_count": 0,
+      "candidates": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-nod-krai-lauma",
+  "name": "菈乌玛",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-nod-krai-lauma.png",
+  "source_sha256": "d4408ab64f713afc8dc23d61de772a8df7b3c33a1575a088bf59ee0ae219dacf",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#434468",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#F6EEE9",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#26253E",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#B9D4E0",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -14,6 +14,7 @@ from postex.palette import (
     palette_dna_from_mapping,
     render_palette_studio_html,
 )
+from postex.palette_catalog import load_palette_catalog
 from postex.rationale import build_design_rationale, render_design_rationale_html
 from postex.research import PROFILES
 from postex.templates import TemplateRegistry
@@ -167,6 +168,15 @@ def command_templates(root: str) -> int:
     return 0
 
 
+def command_palette_catalog(root: str, show_blockers: bool) -> int:
+    catalog = load_palette_catalog(root)
+    payload = catalog.summary()
+    if show_blockers:
+        payload["blockers"] = catalog.release_blockers()
+    print(json.dumps(payload, ensure_ascii=False, indent=2))
+    return 0 if payload["blocked"] == 0 else 1
+
+
 def command_generate(
     path: str,
     *,
@@ -203,7 +213,7 @@ def command_generate(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="postex")
-    parser.add_argument("--version", action="version", version="postex 0.2.0a2")
+    parser.add_argument("--version", action="version", version="postex 0.3.0a1")
     sub = parser.add_subparsers(dest="command", required=True)
     validate = sub.add_parser("validate", help="Load and validate project configuration")
     validate.add_argument("project")
@@ -217,6 +227,12 @@ def build_parser() -> argparse.ArgumentParser:
     palettes = sub.add_parser("palette-plan", help="Create three named Palette Studio candidates")
     palettes.add_argument("project")
     palettes.add_argument("--output")
+    catalog = sub.add_parser(
+        "palette-catalog",
+        help="Audit built-in palette selections, cutouts and redistribution rights",
+    )
+    catalog.add_argument("--root", default=str(Path(__file__).resolve().parents[2]))
+    catalog.add_argument("--show-blockers", action="store_true")
     templates = sub.add_parser("templates", help="List official template families")
     templates.add_argument("--root", default=str(_default_templates()))
     generate = sub.add_parser(
@@ -250,6 +266,8 @@ def main() -> int:
         return command_fusion_plan(args.project, args.output)
     if args.command == "palette-plan":
         return command_palette_plan(args.project, args.output)
+    if args.command == "palette-catalog":
+        return command_palette_catalog(args.root, args.show_blockers)
     if args.command == "templates":
         return command_templates(args.root)
     if args.command == "generate":

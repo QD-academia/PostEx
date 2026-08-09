@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-sumeru-alhaitham",
+  "name": "艾尔海森",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-sumeru-alhaitham.png",
+  "source_sha256": "8a6eb4a217ed811edeaeb4c8e817f598184d6131dc569d5fe1e80a1f2eb2d5b1",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#675842",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#1C4648",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1C201F",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#8D795B",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

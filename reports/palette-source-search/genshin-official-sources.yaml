@@ -1,0 +1,66 @@
+schema_version: "0.3"
+source: 原神官方网站角色页
+publisher: 上海米哈游影铁科技有限公司
+retrieved: "2026-08-08"
+review_status: official-CDN-source-confirmed; written redistribution permission must still be attached
+asset_selector: img.character__person
+regions:
+  mondstadt:
+    source_page: https://ys.mihoyo.com/main/character/mondstadt
+    items:
+      - {id: genshin-mondstadt-venti, name: 温迪, width: 2300, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/965e940e6caafe8fbd4bf0e17653000b_7797376782783229067.png}
+      - {id: genshin-mondstadt-jean, name: 琴, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/b51565c6f1298e534e90b6e63332e9c1_6618231443033589469.png}
+      - {id: genshin-mondstadt-diluc, name: 迪卢克, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/f5ae62eff2cf426e98626c882dd0cf0d_3491810425996357724.png}
+      - {id: genshin-mondstadt-albedo, name: 阿贝多, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/f95b03a7d7370aa4f5de3ac9a5f161bc_96708841112282504.png}
+      - {id: genshin-mondstadt-eula, name: 优菈, width: 2254, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/4c4b8babc68ffedce9bd5766b60e1ae5_8781849729625946129.png}
+  liyue:
+    source_page: https://ys.mihoyo.com/main/character/liyue
+    items:
+      - {id: genshin-liyue-zhongli, name: 钟离, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/e699d7e2413ed5dfb384ee48c2b872d3_5181262111088024686.png}
+      - {id: genshin-liyue-ningguang, name: 凝光, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/d35a0a1d13f821fd55a6951210c672ac_8868204139408761896.png}
+      - {id: genshin-liyue-xiao, name: 魈, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/930f3ce55517e3c711a962c82e4639c0_8788966481995409698.png}
+      - {id: genshin-liyue-ganyu, name: 甘雨, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/1ae0d0aaad9ee9b55652ea7ec67f0465_624394286022075834.png}
+      - {id: genshin-liyue-hu-tao, name: 胡桃, width: 2484, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/300df2aed5060579f08d7db601d8710d_118206614584398576.png}
+  inazuma:
+    source_page: https://ys.mihoyo.com/main/character/inazuma
+    items:
+      - {id: genshin-inazuma-raiden-shogun, name: 雷电将军, width: 2554, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/fdcbc9ef8859b7077d92ae38d925e15e_7767077963502328666.png}
+      - {id: genshin-inazuma-yae-miko, name: 八重神子, width: 2700, height: 1320, asset_url: https://uploadstatic.mihoyo.com/contentweb/20220208/2022020814003845991.png}
+      - {id: genshin-inazuma-kamisato-ayaka, name: 神里绫华, width: 2154, height: 1320, asset_url: https://uploadstatic.mihoyo.com/contentweb/20210720/2021072011090118454.png}
+      - {id: genshin-inazuma-yoimiya, name: 宵宫, width: 2454, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/593e6a6d5d8836ca2ab5c27a98593e58_7195951238560837785.png}
+      - {id: genshin-inazuma-kaedehara-kazuha, name: 枫原万叶, width: 2400, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/44e2d916d9c13bca863d56423004fd98_5259521148631074871.png}
+  sumeru:
+    source_page: https://ys.mihoyo.com/main/character/sumeru
+    items:
+      - {id: genshin-sumeru-nahida, name: 纳西妲, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/10/24/fe684624008db25ac4b44ea4704f9ba0_4542359697614905341.png}
+      - {id: genshin-sumeru-alhaitham, name: 艾尔海森, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2023/01/10/1f3bc8199884ff93a04e713809e4aef3_66257121119188218.png}
+      - {id: genshin-sumeru-cyno, name: 赛诺, width: 2200, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/09/21/c4f05fb0c04afac045171c27c7d03cdc_7123941963780824423.png}
+      - {id: genshin-sumeru-nilou, name: 妮露, width: 2354, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2022/09/27/d978cf1ce85e372971bdcf6add639e8f_5385395843160526652.png}
+      - {id: genshin-sumeru-dehya, name: 迪希雅, width: 2154, height: 1320, asset_url: https://webstatic.mihoyo.com/upload/contentweb/2023/02/03/28d4e40c6f27105a444d7477229f8ced_6061104866077771332.png}
+  fontaine:
+    source_page: https://ys.mihoyo.com/main/character/fontaine
+    items:
+      - {id: genshin-fontaine-furina, name: 芙宁娜, width: 2154, height: 1320, asset_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/e8d153da1a2dca7a07fd76397cd60612_7641410511196198159.png}
+      - {id: genshin-fontaine-neuvillette, name: 那维莱特, width: 2154, height: 1320, asset_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/43a4c54c7bf0689f5bd3d7b23798f9e9_6680261336665197454.png}
+      - {id: genshin-fontaine-wriothesley, name: 莱欧斯利, width: 2154, height: 1320, asset_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/dc378808e6f7d2109a95186b0f312773_3179733661324062252.png}
+      - {id: genshin-fontaine-navia, name: 娜维娅, width: 2154, height: 1320, asset_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/c765b3ba5e3b25ce6e8afd3e758251a8_741046217554426529.png}
+      - {id: genshin-fontaine-clorinde, name: 克洛琳德, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/123893/c3f7661378c0cfa11ab2cc2a9bd09c5e_4714225803080593226.png}
+  natlan:
+    source_page: https://ys.mihoyo.com/main/character/natlan
+    items:
+      - {id: genshin-natlan-mavuika, name: 玛薇卡, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/127622/e03b719f827eba22de2b3e4de1778f19_443214802071996334.png}
+      - {id: genshin-natlan-xilonen, name: 希诺宁, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/126200/0dca02ec950a9713e811f2aee6169ba6_4674205181278794291.png}
+      - {id: genshin-natlan-kinich, name: 基尼奇, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/125706/e0cfc13a904c1fc542924ae1e4d61da5_8583956813350043278.png}
+      - {id: genshin-natlan-mualani, name: 玛拉妮, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/125367/15252d1fb7f5cb3b5f6441f507abfefd_6969627761777064385.png}
+      - {id: genshin-natlan-citlali, name: 茜特菈莉, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/127616/fe1da72a75427bb2fcc15c9d25ab1a55_5884844607579486920.png}
+  nod-krai:
+    source_page: https://ys.mihoyo.com/main/character/snezhnaya
+    official_page_label: 至冬
+    catalog_group_label: 挪德卡莱
+    items:
+      - {id: genshin-nod-krai-lauma, name: 菈乌玛, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/159322/16068549dffb811a7b3e1787c220c945_6864954280188492103.png}
+      - {id: genshin-nod-krai-flins, name: 菲林斯, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/159856/df998d945d99d423b3b5139e1dfdcfc3_5743294209352973794.png}
+      - {id: genshin-nod-krai-aino, name: 爱诺, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/159985/4451e31063007d81075e8743f873337a_7341622504943727164.png}
+      - {id: genshin-nod-krai-ineffa, name: 伊涅芙, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/157824/0939d9b343340db5f0d2c3cf4e18e83b_531980484149140309.png}
+      - {id: genshin-nod-krai-columbina, name: 哥伦比娅, width: 2154, height: 1320, asset_url: https://fastcdn.mihoyo.com/content-v2/hk4e/162064/57aec6a3774c7fcbf9bd70abeed9be84_7992530274035884759.png}
+

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-bjtu",
+  "name": "北京交通大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-bjtu.png",
+  "source_sha256": "9b5be39fef159b42bc5f7720eb0cf255e9667f214c31dbbec3f1ab8786dfe066",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#003891",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#943C44",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#8A3420",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#A51656",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

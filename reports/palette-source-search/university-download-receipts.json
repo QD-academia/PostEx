@@ -1,0 +1,805 @@
+{
+  "schema_version": "0.3",
+  "assets": [
+    {
+      "id": "university-tsinghua",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/tsinghua-university/240w/tsinghua-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.tsinghua.edu.cn",
+      "source_sha256": "347b67f9eeb82df3314497e6bd135c66e4fd18cc6f713bfb970029a93208fcfb",
+      "source_dimensions": [
+        240,
+        243
+      ],
+      "cutout": "assets/palettes/cutouts/university-tsinghua.png",
+      "palette": "assets/palettes/extracted/university-tsinghua.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-peking",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/peking-university/240w/peking-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://pku.edu.cn",
+      "source_sha256": "278c70c1600443fae7ba8f8c64bd51d09260f7a111391e269abd24c0ebd33551",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-peking.png",
+      "palette": "assets/palettes/extracted/university-peking.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-zhejiang",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/zhejiang-university/240w/zhejiang-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.zju.edu.cn",
+      "source_sha256": "e28062b21662c888a9b4d84fca5e1bcd41995f1e4e97d3d8b109c2dad9ede2d8",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-zhejiang.png",
+      "palette": "assets/palettes/extracted/university-zhejiang.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-shanghai-jiao-tong",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/shanghai-jiao-tong-university/240w/shanghai-jiao-tong-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.sjtu.edu.cn/",
+      "source_sha256": "e854be99f837e57300b4ceb97162b4a9a90b1bb8a27cb2916eb0f23591bfc8b2",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-shanghai-jiao-tong.png",
+      "palette": "assets/palettes/extracted/university-shanghai-jiao-tong.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-fudan",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/fudan-university/240w/fudan-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.fudan.edu.cn",
+      "source_sha256": "2d98297b0f2338d71c7e5d98adeb2d5072376a18da6f8948223a6aeacceb9706",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-fudan.png",
+      "palette": "assets/palettes/extracted/university-fudan.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-nanjing",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/nanjing-university/240w/nanjing-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.nju.edu.cn/main.htm",
+      "source_sha256": "2979bf6338f041044d39d7ead7bc2b13be92c899b3690a118854701d9ede7d1e",
+      "source_dimensions": [
+        240,
+        293
+      ],
+      "cutout": "assets/palettes/cutouts/university-nanjing.png",
+      "palette": "assets/palettes/extracted/university-nanjing.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-ustc",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/university-of-science-and-technology-of-china/240w/university-of-science-and-technology-of-china-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://ustc.edu.cn",
+      "source_sha256": "cb394b513173311f758f7192a92890630b84e0d88908e9c366834c5227db53a4",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-ustc.png",
+      "palette": "assets/palettes/extracted/university-ustc.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-wuhan",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/wuhan-university/240w/wuhan-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.whu.edu.cn",
+      "source_sha256": "994698a81d8db7d399e6437a5be60ff69ad53ff2e09909b5555b7efb261b90ab",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-wuhan.png",
+      "palette": "assets/palettes/extracted/university-wuhan.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-hust",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/huazhong-university-of-science-and-technology/240w/huazhong-university-of-science-and-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.hust.edu.cn",
+      "source_sha256": "ba0fcf864da09aba982bbfc69226d53686bf8e877912951212024d767c892d6a",
+      "source_dimensions": [
+        240,
+        185
+      ],
+      "cutout": "assets/palettes/cutouts/university-hust.png",
+      "palette": "assets/palettes/extracted/university-hust.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-xian-jiao-tong",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/xian-jiaotong-university/240w/xian-jiaotong-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.xjtu.edu.cn/",
+      "source_sha256": "ee2b645ffc32e579f17570a38d48c817a285b9bc388badec5ab999642b33e195",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-xian-jiao-tong.png",
+      "palette": "assets/palettes/extracted/university-xian-jiao-tong.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-beihang",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/beihang-university/240w/beihang-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://buaa.edu.cn",
+      "source_sha256": "1a0a9723aa5d47687889fb4de4a3eda1434a8bd1bd28834b155218839a9cb5f2",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-beihang.png",
+      "palette": "assets/palettes/extracted/university-beihang.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-hit",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/harbin-institute-of-technology/240w/harbin-institute-of-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.hit.edu.cn/",
+      "source_sha256": "6a1c01e20a61a05d95506853edf7ecd037d6490b122c688414d6e21b039c06ac",
+      "source_dimensions": [
+        240,
+        217
+      ],
+      "cutout": "assets/palettes/cutouts/university-hit.png",
+      "palette": "assets/palettes/extracted/university-hit.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-sun-yat-sen",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/sun-yat-sen-university/240w/sun-yat-sen-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.sysu.edu.cn/",
+      "source_sha256": "836e870d756fbdb43ae07690be261d1dfe925c1fa841dc88e302d8b01fd6e4ca",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-sun-yat-sen.png",
+      "palette": "assets/palettes/extracted/university-sun-yat-sen.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-bit",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/beijing-institute-of-technology/240w/beijing-institute-of-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.bit.edu.cn/",
+      "source_sha256": "2516f89e4d8ef8d1d9057fb2bccbbaeea417e3a8e2c0be073ca3e9852a6e30bf",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-bit.png",
+      "palette": "assets/palettes/extracted/university-bit.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-southeast",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/southeast-university/240w/southeast-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.seu.edu.cn/",
+      "source_sha256": "1830a7bfeb2466aa5e937e04b4d37d180220533774f1879c086b452d1732b008",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-southeast.png",
+      "palette": "assets/palettes/extracted/university-southeast.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-sichuan",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/sichuan-university/240w/sichuan-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://scu.edu.cn",
+      "source_sha256": "9c91af3d92dadcf9e1a64bbb6a2121227311f18e7b68139f2c7ed6687d7e9b82",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-sichuan.png",
+      "palette": "assets/palettes/extracted/university-sichuan.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-renmin",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/renmin-university-of-china/240w/renmin-university-of-china-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.ruc.edu.cn/",
+      "source_sha256": "62df52cb42248a0e5f0224fc86998f625562bcd9467fe03ecba5558ee928d959",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-renmin.png",
+      "palette": "assets/palettes/extracted/university-renmin.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-tongji",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/tongji-university/240w/tongji-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.tongji.edu.cn/",
+      "source_sha256": "45357f55d151df0a8dcb9604c64c4c3076eee2d01e15cb1f8be150cf1441d4fa",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-tongji.png",
+      "palette": "assets/palettes/extracted/university-tongji.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-bnu",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/beijing-normal-university/240w/beijing-normal-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.bnu.edu.cn/",
+      "source_sha256": "f2834db0b38352a12e456479530ebf668bab0f57cf9f086d9eb02cca4dd2a150",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-bnu.png",
+      "palette": "assets/palettes/extracted/university-bnu.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-tianjin",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/tianjin-university/240w/tianjin-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.tju.edu.cn",
+      "source_sha256": "e8ef24c495d4ef5e6fe9279ee9eadd0fd70f79ae187307f9b36f3e6795d2a32a",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-tianjin.png",
+      "palette": "assets/palettes/extracted/university-tianjin.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-nankai",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/nankai-university/240w/nankai-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.nankai.edu.cn/",
+      "source_sha256": "ad1633977c55d8d0e6a62aad986b1d109e600a891add66afd77f7a06480f1a62",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-nankai.png",
+      "palette": "assets/palettes/extracted/university-nankai.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-shandong",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/shandong-university/240w/shandong-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.sdu.edu.cn/",
+      "source_sha256": "71e6cd2bdec1111788b726fea35101d56d2c0a3bf8f8342584e399ed9b8ed7e0",
+      "source_dimensions": [
+        240,
+        239
+      ],
+      "cutout": "assets/palettes/cutouts/university-shandong.png",
+      "palette": "assets/palettes/extracted/university-shandong.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-nwpu",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/northwestern-polytechnical-university/240w/northwestern-polytechnical-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.nwpu.edu.cn/",
+      "source_sha256": "a596abac6f31b082a7bf3ab024477a5b8fe5f7b05bcdf49b82cad5ef82243c74",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-nwpu.png",
+      "palette": "assets/palettes/extracted/university-nwpu.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-cau",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/china-agricultural-university/240w/china-agricultural-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.cau.edu.cn/",
+      "source_sha256": "71ec682d6d00cf6b611b389b1a2d83af0ac9cda8b0e3a6ad77c6771d2889de43",
+      "source_dimensions": [
+        240,
+        297
+      ],
+      "cutout": "assets/palettes/cutouts/university-cau.png",
+      "palette": "assets/palettes/extracted/university-cau.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-xiamen",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/xiamen-university/240w/xiamen-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.xmu.edu.cn/",
+      "source_sha256": "d2b9c390a400c766fd3686ec2a77ff3943da741af46a01d62c00deefffda60c9",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-xiamen.png",
+      "palette": "assets/palettes/extracted/university-xiamen.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-jilin",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/jilin-university/240w/jilin-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.jlu.edu.cn/",
+      "source_sha256": "709c337dfb3ff3081c44a1b0b23fdff91974de9ca265073e6772988198df8840",
+      "source_dimensions": [
+        240,
+        239
+      ],
+      "cutout": "assets/palettes/cutouts/university-jilin.png",
+      "palette": "assets/palettes/extracted/university-jilin.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-central-south",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/central-south-university/240w/central-south-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.csu.edu.cn/",
+      "source_sha256": "de3fcbc4c8a545dd70bc96a459b975af5b67974f1f7623818c4eaf9a1f045ad8",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-central-south.png",
+      "palette": "assets/palettes/extracted/university-central-south.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-dalian-technology",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/dalian-university-of-technology/240w/dalian-university-of-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.dlut.edu.cn",
+      "source_sha256": "20da30587b6c7924a7926eb978de00ed65aeb4a4648a095d2d34691d14c062a3",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-dalian-technology.png",
+      "palette": "assets/palettes/extracted/university-dalian-technology.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-ecnu",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/east-china-normal-university/240w/east-china-normal-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://english.ecnu.edu.cn",
+      "source_sha256": "8cb8e354382fe0e69b438b32b09e89741d0bf0eeb4c8d3615db83fc680dbaf19",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-ecnu.png",
+      "palette": "assets/palettes/extracted/university-ecnu.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-sustech",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/southern-university-of-science-and-technology/240w/southern-university-of-science-and-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://sustech.edu.cn",
+      "source_sha256": "42806835f5cf8d46fd4a9ac1765f3a38d5cf6f0c518f4868b0c84de8c2240662",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-sustech.png",
+      "palette": "assets/palettes/extracted/university-sustech.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-hunan",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/hunan-university/240w/hunan-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.hunu.edu.cn/",
+      "source_sha256": "cad0c4347d3b5c4243deff9a998282684f689110d6c5359bc385e5c421dbbe71",
+      "source_dimensions": [
+        240,
+        230
+      ],
+      "cutout": "assets/palettes/cutouts/university-hunan.png",
+      "palette": "assets/palettes/extracted/university-hunan.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-scut",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/south-china-university-of-technology/240w/south-china-university-of-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.scut.edu.cn/",
+      "source_sha256": "e54f05e82c975df4641d0374bf59291fb8142334b63e8f87d5501c84f56f5950",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-scut.png",
+      "palette": "assets/palettes/extracted/university-scut.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-uestc",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/university-of-electronic-science-and-technology-of-china/240w/university-of-electronic-science-and-technology-of-china-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.uestc.edu.cn/",
+      "source_sha256": "bdde69ac27d693062d86d7ba3d3d34b701f59e7addbd9625c95a5c235844b469",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-uestc.png",
+      "palette": "assets/palettes/extracted/university-uestc.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-chongqing",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/chongqing-university/240w/chongqing-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.cqu.edu.cn",
+      "source_sha256": "050fab9f8896c555c2b6bda68cb1557a4662628b9007b9c57b73f5a701425b97",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-chongqing.png",
+      "palette": "assets/palettes/extracted/university-chongqing.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-ustb",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/university-of-science--technology-beijing/240w/university-of-science--technology-beijing-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.ustb.edu.cn",
+      "source_sha256": "c914f7dc83ef1e10287724ecf593985257a0b55df1d0602043a73cddc5d5a121",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-ustb.png",
+      "palette": "assets/palettes/extracted/university-ustb.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-njust",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/nanjing-university-of-science--technology/240w/nanjing-university-of-science--technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.njust.edu.cn/",
+      "source_sha256": "e0f862b3d619e888d72ae49a994759a2f9e930e3e29cae33c1834187382fbc53",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-njust.png",
+      "palette": "assets/palettes/extracted/university-njust.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-nuaa",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/nanjing-university-of-aeronautics-and-astronautics/240w/nanjing-university-of-aeronautics-and-astronautics-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.nuaa.edu.cn",
+      "source_sha256": "b4b155800ec6deddbb28d8edf084882c5363979ae1321e3fcf5dd7d305571053",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-nuaa.png",
+      "palette": "assets/palettes/extracted/university-nuaa.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-northeastern",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/northeastern-university/240w/northeastern-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.neu.edu.cn/",
+      "source_sha256": "f9b39cab169050d74f32c8413c3f56a1f8979a3d7eceeba9503b8f30d7b95208",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-northeastern.png",
+      "palette": "assets/palettes/extracted/university-northeastern.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-xidian",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/xidian-university/240w/xidian-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.xidian.edu.cn/",
+      "source_sha256": "a6ed329762d4b39444ee03b5ad0d48aa97f4a5461d2abdae8ca2714822741ddd",
+      "source_dimensions": [
+        240,
+        237
+      ],
+      "cutout": "assets/palettes/cutouts/university-xidian.png",
+      "palette": "assets/palettes/extracted/university-xidian.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-lanzhou",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/lanzhou-university/240w/lanzhou-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.lzu.edu.cn/",
+      "source_sha256": "41759ff7faea83a8db1f9e19d31fd67b7bd5f121e8e305ef206f438d4489a932",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-lanzhou.png",
+      "palette": "assets/palettes/extracted/university-lanzhou.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-bjtu",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/beijing-jiaotong-university/240w/beijing-jiaotong-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.bjtu.edu.cn/",
+      "source_sha256": "efd4fd532b847f7642884b41d34cbcc2cd60a3fee90edd4c763483c2ce45ecd2",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-bjtu.png",
+      "palette": "assets/palettes/extracted/university-bjtu.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-ecust",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/east-china-university-of-science-and-technology/240w/east-china-university-of-science-and-technology-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.ecust.edu.cn/",
+      "source_sha256": "ee17177789a7c58b4f9ab4995a358fc3f1c4e6fd196dabc0c08eea0b315214ec",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-ecust.png",
+      "palette": "assets/palettes/extracted/university-ecust.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-harbin-engineering",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/harbin-engineering-university/240w/harbin-engineering-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.hrbeu.edu.cn",
+      "source_sha256": "5933173cd33f7e8c7992339821615d8c200301f4e78eaf82582b249db902c618",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-harbin-engineering.png",
+      "palette": "assets/palettes/extracted/university-harbin-engineering.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-zhengzhou",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/zhengzhou-university/240w/zhengzhou-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.zzu.edu.cn",
+      "source_sha256": "4d3a702e889c2d9dcd17f72469e92a86179f927e8580e1993aefd0903792c0f2",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-zhengzhou.png",
+      "palette": "assets/palettes/extracted/university-zhengzhou.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-huazhong-agricultural",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/huazhong-agricultural-university/240w/huazhong-agricultural-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.hzau.edu.cn/",
+      "source_sha256": "c18dfe49514315c501290b9841a1f0c583581e472aae57ad80142d03835fb0e1",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-huazhong-agricultural.png",
+      "palette": "assets/palettes/extracted/university-huazhong-agricultural.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-soochow",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/soochow-university/240w/soochow-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://xcb.suda.edu.cn/31026/list.htm",
+      "source_sha256": "3c30130bac116c342660ab7adeb92c04870df3a857dcba0cf405d3264a9d7296",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-soochow.png",
+      "palette": "assets/palettes/extracted/university-soochow.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-shanghaitech",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/shanghaitech-university/240w/shanghaitech-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.shanghaitech.edu.cn",
+      "source_sha256": "10e57d29d41cc996b2442c271f9efe44dfbfabfc6d61a6852c586cfe1182704d",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-shanghaitech.png",
+      "palette": "assets/palettes/extracted/university-shanghaitech.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-northeast-normal",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/northeast-normal-university/240w/northeast-normal-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://en.nenu.edu.cn/",
+      "source_sha256": "d79d3b12a4a624257c9bb390c52a1fbf966e1125e02210fd42092dbf63722dfa",
+      "source_dimensions": [
+        240,
+        202
+      ],
+      "cutout": "assets/palettes/cutouts/university-northeast-normal.png",
+      "palette": "assets/palettes/extracted/university-northeast-normal.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-southwest-jiaotong",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/southwest-jiaotong-university/240w/southwest-jiaotong-university-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "https://www.swjtu.edu.cn",
+      "source_sha256": "9996e4aaf616f6ab2c50661c121fe0bd81b5fce9461c60b5a248c63be137a923",
+      "source_dimensions": [
+        240,
+        264
+      ],
+      "cutout": "assets/palettes/cutouts/university-southwest-jiaotong.png",
+      "palette": "assets/palettes/extracted/university-southwest-jiaotong.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    },
+    {
+      "id": "university-bupt",
+      "status": "processed",
+      "source_url": "https://cdn.urongda.com/images/schools/beijing-university-of-posts-and-telecommunications/240w/beijing-university-of-posts-and-telecommunications-240w.webp",
+      "retrieval_page": "https://urongda.com/logos",
+      "official_page": "http://www.bupt.edu.cn/",
+      "source_sha256": "af779a37fd955b81debfe31ca5aa62d523e0628e7db3fa5d51bb0ce7831a0032",
+      "source_dimensions": [
+        240,
+        240
+      ],
+      "cutout": "assets/palettes/cutouts/university-bupt.png",
+      "palette": "assets/palettes/extracted/university-bupt.json",
+      "selection_score": "reviewed-university-logo-library",
+      "candidate_errors": []
+    }
+  ]
+}

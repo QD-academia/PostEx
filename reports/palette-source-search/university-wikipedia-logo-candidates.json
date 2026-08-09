@@ -1,0 +1,1387 @@
+{
+  "schema_version": "0.3",
+  "results": {
+    "university-tsinghua": {
+      "name": "清华大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "清华大学"
+        },
+        {
+          "language": "en",
+          "title": "Tsinghua University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Tsinghua University Logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tsinghua_University_Logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tsinghua_University_Logo.svg/960px-Tsinghua_University_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "width": 284,
+          "height": 284,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Tsinghua University Logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tsinghua_University_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tsinghua_University_Logo.svg/960px-Tsinghua_University_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tsinghua_University_Logo.svg",
+          "width": 284,
+          "height": 284,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:The Logo of National Tsing Hua University.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/NTHU_Round_Seal.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/NTHU_Round_Seal.svg/960px-NTHU_Round_Seal.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:NTHU_Round_Seal.svg",
+          "width": 302,
+          "height": 302,
+          "mime": "image/svg+xml",
+          "score": 91
+        },
+        {
+          "title": "File:The Logo of Tsinghua Hua School, in 1925.png",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Logo_of_Tsinghua_Hua_School%2C_in_1925.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Logo_of_Tsinghua_Hua_School%2C_in_1925.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:The_Logo_of_Tsinghua_Hua_School,_in_1925.png",
+          "width": 355,
+          "height": 355,
+          "mime": "image/png",
+          "score": 86
+        },
+        {
+          "title": "File:Wikisource-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/960px-Wikisource-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wikisource-logo.svg",
+          "width": 410,
+          "height": 430,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:NTHU Bird Seal.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/NTHU_Bird_Seal.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/NTHU_Bird_Seal.svg/960px-NTHU_Bird_Seal.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:NTHU_Bird_Seal.svg",
+          "width": 284,
+          "height": 136,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": []
+    },
+    "university-peking": {
+      "name": "北京大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "北京大学"
+        },
+        {
+          "language": "en",
+          "title": "Peking University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Peking University seal.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Peking_University_seal.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Peking_University_seal.svg/960px-Peking_University_seal.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg",
+          "width": 512,
+          "height": 512,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Peking University seal.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Peking_University_seal.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Peking_University_seal.svg/960px-Peking_University_seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg",
+          "width": 512,
+          "height": 512,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Seal and Flag, Peking University.jpg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Seal_and_Flag%2C_Peking_University.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Seal_and_Flag%2C_Peking_University.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Seal_and_Flag,_Peking_University.jpg",
+          "width": 650,
+          "height": 330,
+          "mime": "image/jpeg",
+          "score": 88
+        },
+        {
+          "title": "File:Wikisource-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/960px-Wikisource-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wikisource-logo.svg",
+          "width": 410,
+          "height": 430,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": []
+    },
+    "university-zhejiang": {
+      "name": "浙江大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "浙江大学"
+        },
+        {
+          "language": "en",
+          "title": "Zhejiang University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Zhejiang University Logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/1/16/Zhejiang_University_Logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Zhejiang_University_Logo.svg/960px-Zhejiang_University_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:Zhejiang_University_Logo.svg",
+          "width": 160,
+          "height": 160,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Zhejiang University Logotype.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/8/89/Zhejiang_University_Logotype.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Zhejiang_University_Logotype.svg/960px-Zhejiang_University_Logotype.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Zhejiang_University_Logotype.svg",
+          "width": 255,
+          "height": 113,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Zhejiang University Logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/1/16/Zhejiang_University_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Zhejiang_University_Logo.svg/960px-Zhejiang_University_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Zhejiang_University_Logo.svg",
+          "width": 300,
+          "height": 300,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Wikisource-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/960px-Wikisource-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wikisource-logo.svg",
+          "width": 410,
+          "height": 430,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": []
+    },
+    "university-shanghai-jiao-tong": {
+      "name": "上海交通大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "上海交通大学"
+        },
+        {
+          "language": "en",
+          "title": "Shanghai Jiao Tong University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Wikisource-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/960px-Wikisource-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wikisource-logo.svg",
+          "width": 410,
+          "height": 430,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:SJTU emblem.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/d/d5/SJTU_emblem.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/d/d5/SJTU_emblem.svg/960px-SJTU_emblem.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:SJTU_emblem.svg",
+          "width": 315,
+          "height": 315,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:SJTU emblem 1912-1921.png",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/SJTU_emblem_1912-1921.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/SJTU_emblem_1912-1921.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_emblem_1912-1921.png",
+          "width": 745,
+          "height": 750,
+          "mime": "image/png",
+          "score": 77
+        },
+        {
+          "title": "File:Sjtu-logo-standard-red.png",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://en.wikipedia.org/wiki/File:Sjtu-logo-standard-red.png",
+          "width": 316,
+          "height": 316,
+          "mime": "image/png",
+          "score": 77
+        }
+      ],
+      "errors": []
+    },
+    "university-fudan": {
+      "name": "复旦大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "复旦大学"
+        },
+        {
+          "language": "en",
+          "title": "Fudan University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Fudan University Logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fudan_University_Logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fudan_University_Logo.svg/960px-Fudan_University_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "width": 512,
+          "height": 511,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Fudan University Logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fudan_University_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fudan_University_Logo.svg/960px-Fudan_University_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "width": 512,
+          "height": 511,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:FDU logo.png",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/2/23/FDU_logo.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/2/23/FDU_logo.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://zh.wikipedia.org/wiki/File:FDU_logo.png",
+          "width": 478,
+          "height": 209,
+          "mime": "image/png",
+          "score": 77
+        }
+      ],
+      "errors": []
+    },
+    "university-nanjing": {
+      "name": "南京大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "南京大学"
+        },
+        {
+          "language": "en",
+          "title": "Nanjing University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:南京大学校徽.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/f/fb/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%BE%BD.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/f/fb/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%BE%BD.svg/960px-%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%BE%BD.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%BE%BD.svg",
+          "width": 268,
+          "height": 336,
+          "mime": "image/svg+xml",
+          "score": 112
+        },
+        {
+          "title": "File:Nanjing University Logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Nanjing_University_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Nanjing_University_Logo.svg/960px-Nanjing_University_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Nanjing_University_Logo.svg",
+          "width": 268,
+          "height": 336,
+          "mime": "image/svg+xml",
+          "score": 100
+        },
+        {
+          "title": "File:Wikisource-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/960px-Wikisource-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wikisource-logo.svg",
+          "width": 410,
+          "height": 430,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": []
+    },
+    "university-ustc": {
+      "name": "中国科学技术大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "中国科学技术大学"
+        },
+        {
+          "language": "en",
+          "title": "University of Science and Technology of China"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Logo of University of Science and Technology of China.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Logo_of_University_of_Science_and_Technology_of_China.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Logo_of_University_of_Science_and_Technology_of_China.svg/960px-Logo_of_University_of_Science_and_Technology_of_China.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Logo_of_University_of_Science_and_Technology_of_China.svg",
+          "width": 177,
+          "height": 177,
+          "mime": "image/svg+xml",
+          "score": 118
+        },
+        {
+          "title": "File:USTC logo 2008.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/6/64/USTC_logo_2008.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/6/64/USTC_logo_2008.svg/960px-USTC_logo_2008.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:USTC_logo_2008.svg",
+          "width": 75,
+          "height": 75,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": [
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-wuhan": {
+      "name": "武汉大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "武汉大学"
+        },
+        {
+          "language": "en",
+          "title": "Wuhan University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Wuhan University logo with name.png",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/8/8f/Wuhan_University_logo_with_name.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/8/8f/Wuhan_University_logo_with_name.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://en.wikipedia.org/wiki/File:Wuhan_University_logo_with_name.png",
+          "width": 320,
+          "height": 120,
+          "mime": "image/png",
+          "score": 95
+        },
+        {
+          "title": "File:Wuhan University Logo.png",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Wuhan_University_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/6/68/Wuhan_University_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://en.wikipedia.org/wiki/File:Wuhan_University_Logo.png",
+          "width": 316,
+          "height": 316,
+          "mime": "image/png",
+          "score": 95
+        },
+        {
+          "title": "File:WHULogo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/d/d0/WHULogo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/d/d0/WHULogo.svg/960px-WHULogo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:WHULogo.svg",
+          "width": 315,
+          "height": 315,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:WHU Logo 2022Ver.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/0/01/WHU_Logo_2022Ver.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/01/WHU_Logo_2022Ver.svg/960px-WHU_Logo_2022Ver.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:WHU_Logo_2022Ver.svg",
+          "width": 252,
+          "height": 252,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": [
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-hust": {
+      "name": "华中科技大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "华中科技大学"
+        },
+        {
+          "language": "en",
+          "title": "Huazhong University of Science and Technology"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Huazhong University of Science & Technology logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/a/ab/Huazhong_University_of_Science_%26_Technology_logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/a/ab/Huazhong_University_of_Science_%26_Technology_logo.svg/960px-Huazhong_University_of_Science_%26_Technology_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:Huazhong_University_of_Science_%26_Technology_logo.svg",
+          "width": 202,
+          "height": 153,
+          "mime": "image/svg+xml",
+          "score": 118
+        },
+        {
+          "title": "File:Huazhong University of Science and Technology logo.png",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/0/01/Huazhong_University_of_Science_and_Technology_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Huazhong_University_of_Science_and_Technology_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://en.wikipedia.org/wiki/File:Huazhong_University_of_Science_and_Technology_logo.png",
+          "width": 362,
+          "height": 275,
+          "mime": "image/png",
+          "score": 113
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "en",
+          "url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Commons-logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        }
+      ],
+      "errors": []
+    },
+    "university-xian-jiao-tong": {
+      "name": "西安交通大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "西安交通大学"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:XJTU emblem.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/e/e9/XJTU_emblem.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/XJTU_emblem.svg/960px-XJTU_emblem.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:XJTU_emblem.svg",
+          "width": 315,
+          "height": 315,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Wikisource-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/960px-Wikisource-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wikisource-logo.svg",
+          "width": 410,
+          "height": 430,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:Commons-logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+          "width": 1024,
+          "height": 1376,
+          "mime": "image/svg+xml",
+          "score": 82
+        },
+        {
+          "title": "File:SJTU emblem 1940.jpg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/SJTU_emblem_1940.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/SJTU_emblem_1940.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_emblem_1940.jpg",
+          "width": 284,
+          "height": 279,
+          "mime": "image/jpeg",
+          "score": 70
+        },
+        {
+          "title": "File:SJTU emblem 1934.jpg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/SJTU_emblem_1934.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/SJTU_emblem_1934.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_emblem_1934.jpg",
+          "width": 311,
+          "height": 326,
+          "mime": "image/jpeg",
+          "score": 70
+        },
+        {
+          "title": "File:SJTU emblem 1926.jpg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/SJTU_emblem_1926.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/SJTU_emblem_1926.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_emblem_1926.jpg",
+          "width": 298,
+          "height": 307,
+          "mime": "image/jpeg",
+          "score": 70
+        }
+      ],
+      "errors": [
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-beihang": {
+      "name": "北京航空航天大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "北京航空航天大学"
+        },
+        {
+          "language": "en",
+          "title": "Beihang University"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Beihang University Logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/a/a6/Beihang_University_Logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/a/a6/Beihang_University_Logo.svg/960px-Beihang_University_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:Beihang_University_Logo.svg",
+          "width": 213,
+          "height": 213,
+          "mime": "image/svg+xml",
+          "score": 100
+        }
+      ],
+      "errors": [
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-hit": {
+      "name": "哈尔滨工业大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "哈尔滨工业大学"
+        }
+      ],
+      "candidates": [
+        {
+          "title": "File:Harbin Institute of Technology logo.svg",
+          "language": "zh",
+          "url": "https://upload.wikimedia.org/wikipedia/zh/4/46/Harbin_Institute_of_Technology_logo.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/zh/thumb/4/46/Harbin_Institute_of_Technology_logo.svg/960px-Harbin_Institute_of_Technology_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "description_url": "https://zh.wikipedia.org/wiki/File:Harbin_Institute_of_Technology_logo.svg",
+          "width": 332,
+          "height": 302,
+          "mime": "image/svg+xml",
+          "score": 109
+        }
+      ],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-sun-yat-sen": {
+      "name": "中山大学",
+      "articles": [
+        {
+          "language": "zh",
+          "title": "中山大学"
+        }
+      ],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-bit": {
+      "name": "北京理工大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-southeast": {
+      "name": "东南大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-sichuan": {
+      "name": "四川大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-renmin": {
+      "name": "中国人民大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-tongji": {
+      "name": "同济大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-bnu": {
+      "name": "北京师范大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-tianjin": {
+      "name": "天津大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-nankai": {
+      "name": "南开大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-shandong": {
+      "name": "山东大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-nwpu": {
+      "name": "西北工业大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-cau": {
+      "name": "中国农业大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-xiamen": {
+      "name": "厦门大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-jilin": {
+      "name": "吉林大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-central-south": {
+      "name": "中南大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-dalian-technology": {
+      "name": "大连理工大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-ecnu": {
+      "name": "华东师范大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-sustech": {
+      "name": "南方科技大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-hunan": {
+      "name": "湖南大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-scut": {
+      "name": "华南理工大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-uestc": {
+      "name": "电子科技大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-chongqing": {
+      "name": "重庆大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-ustb": {
+      "name": "北京科技大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-njust": {
+      "name": "南京理工大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-nuaa": {
+      "name": "南京航空航天大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-northeastern": {
+      "name": "东北大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-xidian": {
+      "name": "西安电子科技大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-lanzhou": {
+      "name": "兰州大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-bjtu": {
+      "name": "北京交通大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-ecust": {
+      "name": "华东理工大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-harbin-engineering": {
+      "name": "哈尔滨工程大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-zhengzhou": {
+      "name": "郑州大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-huazhong-agricultural": {
+      "name": "华中农业大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-soochow": {
+      "name": "苏州大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-shanghaitech": {
+      "name": "上海科技大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-northeast-normal": {
+      "name": "东北师范大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-southwest-jiaotong": {
+      "name": "西南交通大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    },
+    "university-bupt": {
+      "name": "北京邮电大学",
+      "articles": [],
+      "candidates": [],
+      "errors": [
+        {
+          "language": "zh",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        },
+        {
+          "language": "en",
+          "error": "HTTPError: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+        }
+      ]
+    }
+  }
+}

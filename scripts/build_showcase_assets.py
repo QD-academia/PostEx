@@ -7,7 +7,6 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SHOWCASE = ROOT / "docs" / "images" / "showcase"
 SOURCES = SHOWCASE / "sources"
@@ -102,7 +101,9 @@ def vertical_gradient(size: tuple[int, int], start: str, end: str) -> Image.Imag
     return image
 
 
-def rounded_crop(image: Image.Image, size: tuple[int, int], radius: int, *, focus_y: float = 0.5) -> Image.Image:
+def rounded_crop(
+    image: Image.Image, size: tuple[int, int], radius: int, *, focus_y: float = 0.5
+) -> Image.Image:
     target_w, target_h = size
     source_ratio = image.width / image.height
     target_ratio = target_w / target_h
@@ -117,7 +118,9 @@ def rounded_crop(image: Image.Image, size: tuple[int, int], radius: int, *, focu
         box = (0, top, image.width, top + crop_h)
     fitted = image.crop(box).resize(size, Image.Resampling.LANCZOS).convert("RGBA")
     mask = Image.new("L", size, 0)
-    ImageDraw.Draw(mask).rounded_rectangle((0, 0, target_w - 1, target_h - 1), radius=radius, fill=255)
+    ImageDraw.Draw(mask).rounded_rectangle(
+        (0, 0, target_w - 1, target_h - 1), radius=radius, fill=255
+    )
     fitted.putalpha(mask)
     return fitted
 
@@ -125,13 +128,19 @@ def rounded_crop(image: Image.Image, size: tuple[int, int], radius: int, *, focu
 def contain(image: Image.Image, size: tuple[int, int], background: str) -> Image.Image:
     target_w, target_h = size
     ratio = min(target_w / image.width, target_h / image.height)
-    fitted = image.resize((round(image.width * ratio), round(image.height * ratio)), Image.Resampling.LANCZOS)
+    fitted = image.resize(
+        (round(image.width * ratio), round(image.height * ratio)), Image.Resampling.LANCZOS
+    )
     output = Image.new("RGBA", size, (*rgb(background), 255))
-    output.alpha_composite(fitted.convert("RGBA"), ((target_w - fitted.width) // 2, (target_h - fitted.height) // 2))
+    output.alpha_composite(
+        fitted.convert("RGBA"), ((target_w - fitted.width) // 2, (target_h - fitted.height) // 2)
+    )
     return output
 
 
-def paste_shadow(canvas: Image.Image, image: Image.Image, xy: tuple[int, int], radius: int = 22) -> None:
+def paste_shadow(
+    canvas: Image.Image, image: Image.Image, xy: tuple[int, int], radius: int = 22
+) -> None:
     x, y = xy
     shadow = Image.new("RGBA", (image.width + radius * 4, image.height + radius * 4), (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
@@ -147,12 +156,20 @@ def paste_shadow(canvas: Image.Image, image: Image.Image, xy: tuple[int, int], r
 
 def build(case: Showcase) -> Path:
     width, height = 1800, 1000
-    canvas = vertical_gradient((width, height), case.background_top, case.background_bottom).convert("RGBA")
+    canvas = vertical_gradient(
+        (width, height), case.background_top, case.background_bottom
+    ).convert("RGBA")
     draw = ImageDraw.Draw(canvas)
 
     # Fine architectural/technical rhythm without competing with the two hero artifacts.
     for offset, alpha in ((0, 32), (28, 18), (56, 12)):
-        draw.arc((1180 + offset, -460 + offset, 2100 - offset, 460 - offset), 35, 180, fill=(*rgb(case.accent), alpha), width=3)
+        draw.arc(
+            (1180 + offset, -460 + offset, 2100 - offset, 460 - offset),
+            35,
+            180,
+            fill=(*rgb(case.accent), alpha),
+            width=3,
+        )
     draw.line((70, 198, 1730, 198), fill=(*rgb(case.border), 150), width=2)
 
     draw.text((72, 52), case.eyebrow, font=font(21, bold=True), fill=case.accent)
@@ -164,7 +181,10 @@ def build(case: Showcase) -> Path:
     pill_text = "STAR ON GITHUB"
     bbox = draw.textbbox((0, 0), pill_text, font=font(19, bold=True))
     draw.text(
-        ((pill[0] + pill[2] - (bbox[2] - bbox[0])) / 2, (pill[1] + pill[3] - (bbox[3] - bbox[1])) / 2 - 2),
+        (
+            (pill[0] + pill[2] - (bbox[2] - bbox[0])) / 2,
+            (pill[1] + pill[3] - (bbox[3] - bbox[1])) / 2 - 2,
+        ),
         pill_text,
         font=font(19, bold=True),
         fill="#101820",
@@ -182,7 +202,9 @@ def build(case: Showcase) -> Path:
     source_muted = "#52606C"
     source_draw.text((28, 421), case.source_label, font=font(18, bold=True), fill=case.border)
     source_draw.text((28, 454), case.source_detail, font=font(19), fill=source_text)
-    source_draw.text((28, 503), "extract  >  assign roles  >  lock semantics", font=font(17), fill=source_muted)
+    source_draw.text(
+        (28, 503), "extract  >  assign roles  >  lock semantics", font=font(17), fill=source_muted
+    )
     mask = Image.new("L", source_card.size, 0)
     ImageDraw.Draw(mask).rounded_rectangle((0, 0, source_w - 1, source_h - 1), radius=28, fill=255)
     source_card.putalpha(mask)
@@ -202,7 +224,9 @@ def build(case: Showcase) -> Path:
     poster_card = Image.new("RGBA", (poster_w, poster_h), (*rgb(case.card), 255))
     poster_card.alpha_composite(poster, (11, 11))
     poster_mask = Image.new("L", poster_card.size, 0)
-    ImageDraw.Draw(poster_mask).rounded_rectangle((0, 0, poster_w - 1, poster_h - 1), radius=28, fill=255)
+    ImageDraw.Draw(poster_mask).rounded_rectangle(
+        (0, 0, poster_w - 1, poster_h - 1), radius=28, fill=255
+    )
     poster_card.putalpha(poster_mask)
     paste_shadow(canvas, poster_card, (poster_x, poster_y))
 
@@ -210,7 +234,13 @@ def build(case: Showcase) -> Path:
     swatch_y = 850
     for index, color in enumerate(case.palette):
         x = 70 + index * 74
-        draw.rounded_rectangle((x, swatch_y, x + 58, swatch_y + 58), radius=14, fill=color, outline=(255, 255, 255, 90), width=2)
+        draw.rounded_rectangle(
+            (x, swatch_y, x + 58, swatch_y + 58),
+            radius=14,
+            fill=color,
+            outline=(255, 255, 255, 90),
+            width=2,
+        )
     draw.text((70, 925), "SOURCE", font=font(16, bold=True), fill=case.muted)
     draw.text((207, 925), ">", font=font(18, bold=True), fill=case.accent)
     draw.text((248, 925), "ROLE-BASED COLOR", font=font(16, bold=True), fill=case.muted)
@@ -219,7 +249,12 @@ def build(case: Showcase) -> Path:
 
     thesis = "Same evidence. A completely different visual identity."
     thesis_box = draw.textbbox((0, 0), thesis, font=font(24, bold=True))
-    draw.text((1730 - (thesis_box[2] - thesis_box[0]), 914), thesis, font=font(24, bold=True), fill=case.text)
+    draw.text(
+        (1730 - (thesis_box[2] - thesis_box[0]), 914),
+        thesis,
+        font=font(24, bold=True),
+        fill=case.text,
+    )
 
     output = SHOWCASE / f"{case.slug}-showcase.webp"
     canvas.convert("RGB").save(output, "WEBP", quality=91, method=6)

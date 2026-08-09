@@ -1,0 +1,817 @@
+{
+  "schema_version": "0.3",
+  "source": "Wikidata and Wikimedia Commons APIs",
+  "review_status": "entity, official-site and logo-claim review required",
+  "results": {
+    "university-tsinghua": {
+      "name": "Tsinghua University",
+      "status": "resolved",
+      "wikidata_id": "Q16955",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16955",
+      "matched_label": "Tsinghua University",
+      "matched_description": "public university in Beijing, China",
+      "official_websites": [
+        "https://www.tsinghua.edu.cn",
+        "https://www.tsinghua.edu.cn/en/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-peking": {
+      "name": "Peking University",
+      "status": "resolved",
+      "wikidata_id": "Q16952",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16952",
+      "matched_label": "Peking University",
+      "matched_description": "university in Beijing, China",
+      "official_websites": [
+        "https://pku.edu.cn",
+        "https://english.pku.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-zhejiang": {
+      "name": "Zhejiang University",
+      "status": "resolved",
+      "wikidata_id": "Q197543",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q197543",
+      "matched_label": "Zhejiang University",
+      "matched_description": "university in Hangzhou, China",
+      "official_websites": [
+        "https://www.zju.edu.cn",
+        "https://www.zju.edu.cn/english"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-shanghai-jiao-tong": {
+      "name": "Shanghai Jiao Tong University",
+      "status": "resolved",
+      "wikidata_id": "Q525169",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q525169",
+      "matched_label": "Shanghai Jiao Tong University",
+      "matched_description": "university in Shanghai, China",
+      "official_websites": [
+        "https://www.sjtu.edu.cn/",
+        "https://en.sjtu.edu.cn/"
+      ],
+      "logo_claims": [
+        "SJTU emblem 1940.jpg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:SJTU emblem 1940.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:SJTU_emblem_1940.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/SJTU_emblem_1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/SJTU_emblem_1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/jpeg",
+          "width": 284,
+          "height": 279,
+          "license": "Public domain",
+          "license_url": "",
+          "artist_html": "Shanghai Jiao Tong University",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"http://jd.sjtu.edu.cn/www/tzgg/2007-12-24/7918.html\">http://jd.sjtu.edu.cn/www/tzgg/2007-12-24/7918.html</a>",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-fudan": {
+      "name": "Fudan University",
+      "status": "resolved",
+      "wikidata_id": "Q495015",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q495015",
+      "matched_label": "Fudan University",
+      "matched_description": "university in Shanghai, China",
+      "official_websites": [
+        "https://www.fudan.edu.cn"
+      ],
+      "logo_claims": [
+        "Fudan University Logo.svg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:Fudan University Logo.svg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Fudan_University_Logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fudan_University_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fudan_University_Logo.svg/960px-Fudan_University_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 512,
+          "height": 511,
+          "license": "Public domain",
+          "license_url": "",
+          "artist_html": "<div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Original:</div> <div style=\"display:inline-block;padding:3px 0;\"><a href=\"//commons.wikimedia.org/w/index.php?title=User:Fudan_University&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fudan University (page does not exist)\">Fudan University</a></div> <div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Vector: </div> <div style=\"display:inline-block;\"><a href=\"//commons.wikimedia.org/wiki/User:Prcmise\" title=\"User:Prcmise\">Prcmise</a></div>",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.fudan.edu.cn/files/logo.zip\">http://www.fudan.edu.cn/files/logo.zip</a>",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-nanjing": {
+      "name": "Nanjing University",
+      "status": "resolved",
+      "wikidata_id": "Q683580",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q683580",
+      "matched_label": "Nanjing University",
+      "matched_description": "public university in Nanjing, China",
+      "official_websites": [
+        "https://www.nju.edu.cn/main.htm"
+      ],
+      "logo_claims": [
+        "Motto of Nanjing University .jpg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:Motto of Nanjing University .jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Motto_of_Nanjing_University_.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Motto_of_Nanjing_University_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Motto_of_Nanjing_University_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/jpeg",
+          "width": 440,
+          "height": 220,
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:%E4%B8%AD%E5%9C%8B%E4%B9%8B%E6%96%B0%E6%B0%91%EF%BC%88THE_NEW_CITIZEN_OF_CHINA%EF%BC%89\" title=\"User:中國之新民（THE NEW CITIZEN OF CHINA）\">中國之新民（THE NEW CITIZEN OF CHINA）</a>",
+          "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0"
+        }
+      ]
+    },
+    "university-ustc": {
+      "name": "University of Science and Technology of China",
+      "status": "resolved",
+      "wikidata_id": "Q1074103",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1074103",
+      "matched_label": "University of Science and Technology of China",
+      "matched_description": "university in Hefei, China",
+      "official_websites": [
+        "https://ustc.edu.cn",
+        "https://en.ustc.edu.cn",
+        "http://ustc.edu"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-wuhan": {
+      "name": "Wuhan University",
+      "status": "resolved",
+      "wikidata_id": "Q1108197",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1108197",
+      "matched_label": "Wuhan University",
+      "matched_description": "university in Wuhan, China",
+      "official_websites": [
+        "http://www.whu.edu.cn",
+        "https://en.whu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-hust": {
+      "name": "Huazhong University of Science and Technology",
+      "status": "resolved",
+      "wikidata_id": "Q1711196",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1711196",
+      "matched_label": "Huazhong University of Science and Technology",
+      "matched_description": "Chinese university",
+      "official_websites": [
+        "http://www.hust.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-xian-jiao-tong": {
+      "name": "Xi'an Jiaotong University",
+      "status": "resolved",
+      "wikidata_id": "Q981237",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q981237",
+      "matched_label": "Xi'an Jiaotong University",
+      "matched_description": "university in Xi'an, China",
+      "official_websites": [
+        "http://www.xjtu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-beihang": {
+      "name": "Beihang University",
+      "status": "resolved",
+      "wikidata_id": "Q2299797",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2299797",
+      "matched_label": "Beihang University",
+      "matched_description": "university in China",
+      "official_websites": [
+        "https://buaa.edu.cn",
+        "https://ev.buaa.edu.cn/"
+      ],
+      "logo_claims": [
+        "北京航空航天大学东门 BUAA.jpg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:北京航空航天大学东门 BUAA.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%E4%B8%9C%E9%97%A8_BUAA.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%E5%8C%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%E4%B8%9C%E9%97%A8_BUAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%E5%8C%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%E4%B8%9C%E9%97%A8_BUAA.jpg/960px-%E5%8C%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%E4%B8%9C%E9%97%A8_BUAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/jpeg",
+          "width": 1022,
+          "height": 590,
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21259140@N00\">rainoo</a> from Tokyo, Japan",
+          "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/21259140@N00/66370204/\">北京航空航天大学东门 BUAA</a>",
+          "usage_terms": "Creative Commons Attribution 2.0"
+        }
+      ]
+    },
+    "university-hit": {
+      "name": "Harbin Institute of Technology",
+      "status": "resolved",
+      "wikidata_id": "Q632558",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q632558",
+      "matched_label": "Harbin Institute of Technology",
+      "matched_description": "university in Harbin, China",
+      "official_websites": [
+        "http://www.hit.edu.cn/",
+        "http://en.hit.edu.cn"
+      ],
+      "logo_claims": [
+        "哈尔滨工业大学 - panoramio (3).jpg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:哈尔滨工业大学 - panoramio (3).jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6_-_panoramio_(3).jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6_-_panoramio_%283%29.jpg/960px-%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/jpeg",
+          "width": 4320,
+          "height": 2432,
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161021191129/http://www.panoramio.com/user/5954851?with_photo_id=57080506\">quanyit&amp;夏夜未眠派</a>",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161021191128/http://www.panoramio.com/photo/57080506\">https://web.archive.org/web/20161021191128/http://www.panoramio.com/photo/57080506</a>",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0"
+        }
+      ]
+    },
+    "university-sun-yat-sen": {
+      "name": "Sun Yat-sen University",
+      "status": "resolved",
+      "wikidata_id": "Q178972",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q178972",
+      "matched_label": "Sun Yat-sen University",
+      "matched_description": "university in Guangdong, China",
+      "official_websites": [
+        "http://www.sysu.edu.cn/",
+        "http://www.zsu.edu.cn"
+      ],
+      "logo_claims": [
+        "National Sun Yat-sen University Canton.jpg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:National Sun Yat-sen University Canton.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:National_Sun_Yat-sen_University_Canton.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/National_Sun_Yat-sen_University_Canton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/National_Sun_Yat-sen_University_Canton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 496,
+          "license": "Public domain",
+          "license_url": "",
+          "artist_html": "National Sun Yat-sen University(Canton)",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"http://archives.sysu.edu.cn/index.aspx?lanmuid=65&amp;sublanmuid=664&amp;id=689\">http://archives.sysu.edu.cn/index.aspx?lanmuid=65&amp;sublanmuid=664&amp;id=689</a>",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-bit": {
+      "name": "Beijing Institute of Technology",
+      "status": "resolved",
+      "wikidata_id": "Q23101",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q23101",
+      "matched_label": "Beijing Institute of Technology",
+      "matched_description": "university",
+      "official_websites": [
+        "http://www.bit.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-southeast": {
+      "name": "Southeast University",
+      "status": "resolved",
+      "wikidata_id": "Q3551770",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3551770",
+      "matched_label": "Southeast University",
+      "matched_description": "public university in Nanjing, China",
+      "official_websites": [
+        "https://www.seu.edu.cn/"
+      ],
+      "logo_claims": [
+        "Southeast University Name.svg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:Southeast University Name.svg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Southeast_University_Name.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Southeast_University_Name.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Southeast_University_Name.svg/960px-Southeast_University_Name.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 500,
+          "height": 205,
+          "license": "Public domain",
+          "license_url": "",
+          "artist_html": "王羲之",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.seu.edu.cn\">https://www.seu.edu.cn</a>",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-sichuan": {
+      "name": "Sichuan University",
+      "status": "resolved",
+      "wikidata_id": "Q2281517",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2281517",
+      "matched_label": "Sichuan University",
+      "matched_description": "university in Chengdu, Sichuan, China",
+      "official_websites": [
+        "https://scu.edu.cn",
+        "https://en.scu.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-renmin": {
+      "name": "Renmin University of China",
+      "status": "resolved",
+      "wikidata_id": "Q1074117",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1074117",
+      "matched_label": "Renmin University of China",
+      "matched_description": "research university in Haidian District, Beijing, China",
+      "official_websites": [
+        "https://www.ruc.edu.cn/",
+        "https://www.ruc.edu.cn/en"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-tongji": {
+      "name": "Tongji University",
+      "status": "resolved",
+      "wikidata_id": "Q16947",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q16947",
+      "matched_label": "Tongji University",
+      "matched_description": "university located in Shanghai, China",
+      "official_websites": [
+        "https://www.tongji.edu.cn/",
+        "https://en.tongji.edu.cn/",
+        "https://de.tongji.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-bnu": {
+      "name": "Beijing Normal University",
+      "status": "resolved",
+      "wikidata_id": "Q1604022",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1604022",
+      "matched_label": "Beijing Normal University",
+      "matched_description": "public research university in Beijing, China",
+      "official_websites": [
+        "http://www.bnu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-tianjin": {
+      "name": "Tianjin University",
+      "status": "resolved",
+      "wikidata_id": "Q2031560",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2031560",
+      "matched_label": "Tianjin University",
+      "matched_description": "university in Tianjin, China",
+      "official_websites": [
+        "http://www.tju.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-nankai": {
+      "name": "Nankai University",
+      "status": "resolved",
+      "wikidata_id": "Q254204",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q254204",
+      "matched_label": "Nankai University",
+      "matched_description": "public research university in Tianjin, China",
+      "official_websites": [
+        "http://www.nankai.edu.cn/",
+        "https://www.nankai.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-shandong": {
+      "name": "Shandong University",
+      "status": "resolved",
+      "wikidata_id": "Q604470",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q604470",
+      "matched_label": "Shandong University",
+      "matched_description": "university in China",
+      "official_websites": [
+        "https://www.sdu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-nwpu": {
+      "name": "Northwestern Polytechnical University",
+      "status": "resolved",
+      "wikidata_id": "Q832550",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q832550",
+      "matched_label": "Northwestern Polytechnical University",
+      "matched_description": "university in China",
+      "official_websites": [
+        "http://www.nwpu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-cau": {
+      "name": "China Agricultural University",
+      "status": "resolved",
+      "wikidata_id": "Q257655",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q257655",
+      "matched_label": "China Agricultural University",
+      "matched_description": "university in Beijing, China",
+      "official_websites": [
+        "http://www.cau.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-xiamen": {
+      "name": "Xiamen University",
+      "status": "resolved",
+      "wikidata_id": "Q1153539",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1153539",
+      "matched_label": "Xiamen University",
+      "matched_description": "public research university in Xiamen, Fujian, China",
+      "official_websites": [
+        "https://www.xmu.edu.cn/"
+      ],
+      "logo_claims": [
+        "Xiamen University logo.svg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:Xiamen University logo.svg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Xiamen_University_logo.svg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Xiamen_University_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Xiamen_University_logo.svg/960px-Xiamen_University_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/svg+xml",
+          "width": 267,
+          "height": 267,
+          "license": "Public domain",
+          "license_url": "",
+          "artist_html": "林文庆",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.xmu.edu.cn/about/xiaoxun/\">https://www.xmu.edu.cn/about/xiaoxun/</a>",
+          "usage_terms": "Public domain"
+        }
+      ]
+    },
+    "university-jilin": {
+      "name": "Jilin University",
+      "status": "resolved",
+      "wikidata_id": "Q1432030",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1432030",
+      "matched_label": "Jilin University",
+      "matched_description": "university in Changchun, China",
+      "official_websites": [
+        "http://www.jlu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-central-south": {
+      "name": "Central South University",
+      "status": "resolved",
+      "wikidata_id": "Q5061828",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5061828",
+      "matched_label": "Central South University",
+      "matched_description": "national university of China",
+      "official_websites": [
+        "http://www.csu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-dalian-technology": {
+      "name": "Dalian University of Technology",
+      "status": "resolved",
+      "wikidata_id": "Q1477368",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1477368",
+      "matched_label": "Dalian University of Technology",
+      "matched_description": "university in Dalian, Liaoning Province, China",
+      "official_websites": [
+        "http://www.dlut.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-ecnu": {
+      "name": "East China Normal University",
+      "status": "resolved",
+      "wikidata_id": "Q2034790",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2034790",
+      "matched_label": "East China Normal University",
+      "matched_description": "university in Shanghai, China",
+      "official_websites": [
+        "http://english.ecnu.edu.cn",
+        "http://www.ecnu.edu.cn",
+        "https://russian.ecnu.edu.cn/",
+        "https://french.ecnu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-sustech": {
+      "name": "Southern University of Science and Technology",
+      "status": "resolved",
+      "wikidata_id": "Q7568723",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7568723",
+      "matched_label": "Southern University of Science and Technology",
+      "matched_description": "public university in Shenzhen, Guangdong, China",
+      "official_websites": [
+        "https://sustech.edu.cn",
+        "http://www.sustc.edu.cn/",
+        "https://sustech.edu.cn/en/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-hunan": {
+      "name": "Hunan University",
+      "status": "resolved",
+      "wikidata_id": "Q649868",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q649868",
+      "matched_label": "Hunan University",
+      "matched_description": "university in China",
+      "official_websites": [
+        "http://www.hunu.edu.cn/",
+        "https://www.hnu.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-scut": {
+      "name": "South China University of Technology",
+      "status": "resolved",
+      "wikidata_id": "Q835366",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q835366",
+      "matched_label": "South China University of Technology",
+      "matched_description": "University in Guangdong, China",
+      "official_websites": [
+        "http://www.scut.edu.cn/",
+        "https://www.scut.edu.cn/en/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-uestc": {
+      "name": "University of Electronic Science and Technology of China",
+      "status": "resolved",
+      "wikidata_id": "Q5971900",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q5971900",
+      "matched_label": "University of Electronic Science and Technology of China",
+      "matched_description": "a key multidisciplinary research-oriented university",
+      "official_websites": [
+        "http://www.uestc.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-chongqing": {
+      "name": "Chongqing University",
+      "status": "resolved",
+      "wikidata_id": "Q834857",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q834857",
+      "matched_label": "Chongqing University",
+      "matched_description": "university in Chongqing, China",
+      "official_websites": [
+        "https://www.cqu.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-ustb": {
+      "name": "University of Science and Technology Beijing",
+      "status": "resolved",
+      "wikidata_id": "Q1510516",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1510516",
+      "matched_label": "University of Science and Technology Beijing",
+      "matched_description": "university",
+      "official_websites": [
+        "http://www.ustb.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-njust": {
+      "name": "Nanjing University of Science and Technology",
+      "status": "resolved",
+      "wikidata_id": "Q3953805",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3953805",
+      "matched_label": "Nanjing University of Science and Technology",
+      "matched_description": "public university in Nanjing, Jiangsu, China",
+      "official_websites": [
+        "http://www.njust.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-nuaa": {
+      "name": "Nanjing University of Aeronautics and Astronautics",
+      "status": "resolved",
+      "wikidata_id": "Q23110",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q23110",
+      "matched_label": "Nanjing University of Aeronautics and Astronautics",
+      "matched_description": "university",
+      "official_websites": [
+        "http://www.nuaa.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-northeastern": {
+      "name": "Northeastern University China",
+      "status": "wikidata-not-found"
+    },
+    "university-xidian": {
+      "name": "Xidian University",
+      "status": "resolved",
+      "wikidata_id": "Q649906",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q649906",
+      "matched_label": "Xidian University",
+      "matched_description": "university in China",
+      "official_websites": [
+        "http://www.xidian.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-lanzhou": {
+      "name": "Lanzhou University",
+      "status": "resolved",
+      "wikidata_id": "Q4475799",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4475799",
+      "matched_label": "Lanzhou University",
+      "matched_description": "university in Lanzhou, Gansu province, China",
+      "official_websites": [
+        "http://www.lzu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-bjtu": {
+      "name": "Beijing Jiaotong University",
+      "status": "resolved",
+      "wikidata_id": "Q4587760",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4587760",
+      "matched_label": "Beijing Jiaotong University",
+      "matched_description": "University based in Beijing, China",
+      "official_websites": [
+        "http://www.bjtu.edu.cn/",
+        "http://en.bjtu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-ecust": {
+      "name": "East China University of Science and Technology",
+      "status": "resolved",
+      "wikidata_id": "Q2655352",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2655352",
+      "matched_label": "East China University of Science and Technology",
+      "matched_description": "public university in Shanghai, China",
+      "official_websites": [
+        "http://www.ecust.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-harbin-engineering": {
+      "name": "Harbin Engineering University",
+      "status": "resolved",
+      "wikidata_id": "Q23102",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q23102",
+      "matched_label": "Harbin Engineering University",
+      "matched_description": "Chinese university",
+      "official_websites": [
+        "http://www.hrbeu.edu.cn"
+      ],
+      "logo_claims": [
+        "巡道工出品 photo by xundaogong 哈尔滨工程大学 红旗大街正面 - panoramio.jpg"
+      ],
+      "logo_files": [
+        {
+          "title": "File:巡道工出品 photo by xundaogong 哈尔滨工程大学 红旗大街正面 - panoramio.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:%E5%B7%A1%E9%81%93%E5%B7%A5%E5%87%BA%E5%93%81_photo_by_xundaogong_%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6_%E7%BA%A2%E6%97%97%E5%A4%A7%E8%A1%97%E6%AD%A3%E9%9D%A2_-_panoramio.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/%E5%B7%A1%E9%81%93%E5%B7%A5%E5%87%BA%E5%93%81_photo_by_xundaogong_%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6_%E7%BA%A2%E6%97%97%E5%A4%A7%E8%A1%97%E6%AD%A3%E9%9D%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%B7%A1%E9%81%93%E5%B7%A5%E5%87%BA%E5%93%81_photo_by_xundaogong_%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6_%E7%BA%A2%E6%97%97%E5%A4%A7%E8%A1%97%E6%AD%A3%E9%9D%A2_-_panoramio.jpg/960px-%E5%B7%A1%E9%81%93%E5%B7%A5%E5%87%BA%E5%93%81_photo_by_xundaogong_%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E7%A8%8B%E5%A4%A7%E5%AD%A6_%E7%BA%A2%E6%97%97%E5%A4%A7%E8%A1%97%E6%AD%A3%E9%9D%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "mime": "image/jpeg",
+          "width": 2816,
+          "height": 2112,
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161030104651/http://www.panoramio.com/user/1632657?with_photo_id=102908197\">xue siyang (df45086)</a>",
+          "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161030104650/http://www.panoramio.com/photo/102908197\">https://web.archive.org/web/20161030104650/http://www.panoramio.com/photo/102908197</a>",
+          "usage_terms": "Creative Commons Attribution-Share Alike 3.0"
+        }
+      ]
+    },
+    "university-zhengzhou": {
+      "name": "Zhengzhou University",
+      "status": "resolved",
+      "wikidata_id": "Q649895",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q649895",
+      "matched_label": "Zhengzhou University",
+      "matched_description": "university situated in Zhengzhou, China",
+      "official_websites": [
+        "http://www.zzu.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-huazhong-agricultural": {
+      "name": "Huazhong Agricultural University",
+      "status": "resolved",
+      "wikidata_id": "Q3429270",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3429270",
+      "matched_label": "Huazhong Agricultural University",
+      "matched_description": "multi-disciplinary comprehensive university in Wuhan",
+      "official_websites": [
+        "http://www.hzau.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-soochow": {
+      "name": "Soochow University China",
+      "status": "wikidata-not-found"
+    },
+    "university-shanghaitech": {
+      "name": "ShanghaiTech University",
+      "status": "resolved",
+      "wikidata_id": "Q3817847",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3817847",
+      "matched_label": "ShanghaiTech University",
+      "matched_description": "university in Shanghai, China",
+      "official_websites": [
+        "https://www.shanghaitech.edu.cn",
+        "https://www.shanghaitech.edu.cn/eng/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-northeast-normal": {
+      "name": "Northeast Normal University",
+      "status": "resolved",
+      "wikidata_id": "Q4393424",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4393424",
+      "matched_label": "Northeast Normal University",
+      "matched_description": "university in China",
+      "official_websites": [
+        "http://en.nenu.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-southwest-jiaotong": {
+      "name": "Southwest Jiaotong University",
+      "status": "resolved",
+      "wikidata_id": "Q3551422",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3551422",
+      "matched_label": "Southwest Jiaotong University",
+      "matched_description": "university in Chengdu, Sichuan province, China",
+      "official_websites": [
+        "https://www.swjtu.edu.cn",
+        "https://en.swjtu.edu.cn"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    },
+    "university-bupt": {
+      "name": "Beijing University of Posts and Telecommunications",
+      "status": "resolved",
+      "wikidata_id": "Q4881210",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4881210",
+      "matched_label": "Beijing University of Posts and Telecommunications",
+      "matched_description": "key national university in Beijing, China",
+      "official_websites": [
+        "http://www.bupt.edu.cn/"
+      ],
+      "logo_claims": [],
+      "logo_files": []
+    }
+  }
+}

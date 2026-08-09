@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-nwpu",
+  "name": "西北工业大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-nwpu.png",
+  "source_sha256": "30010c5e859af832e7c0026bf4bb17a03bb6ef11100d8f6987b85fe1fe00873d",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#004DA5",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355E82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3274",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#137B88",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

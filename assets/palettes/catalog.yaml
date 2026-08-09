@@ -1,0 +1,152 @@
+schema_version: "0.3"
+asset_contract:
+  cutout_format: png
+  cutout_path: assets/palettes/cutouts/{id}.png
+  extracted_palette_path: assets/palettes/extracted/{id}.json
+  minimum_width: 512
+  minimum_height: 512
+  require_alpha: true
+  release_requires_rights_clearance: true
+
+collections:
+  city-landmarks:
+    name: 中国城市地标
+    expected_count: 19
+    selection_note: 用户指定城市；每城选择一处辨识度高的地标建筑。
+    items:
+      - {id: city-beijing-temple-of-heaven, name: 北京·天坛, subject: 天坛祈年殿, seed_hex: "#A9363E"}
+      - {id: city-shanghai-oriental-pearl, name: 上海·东方明珠, subject: 东方明珠广播电视塔, seed_hex: "#C43A55"}
+      - {id: city-guangzhou-canton-tower, name: 广州·广州塔, subject: 广州塔, seed_hex: "#D94D45"}
+      - {id: city-shenzhen-civic-center, name: 深圳·市民中心, subject: 深圳市民中心, seed_hex: "#218A83"}
+      - {id: city-hangzhou-leifeng-pagoda, name: 杭州·雷峰塔, subject: 雷峰塔, seed_hex: "#537B62"}
+      - {id: city-wuhan-yellow-crane-tower, name: 武汉·黄鹤楼, subject: 黄鹤楼, seed_hex: "#D19A35"}
+      - {id: city-nanjing-sun-yat-sen-mausoleum, name: 南京·中山陵, subject: 中山陵祭堂, seed_hex: "#3F7770"}
+      - {id: city-suzhou-humble-administrators-garden, name: 苏州·拙政园, subject: 拙政园建筑, seed_hex: "#6E9074"}
+      - {id: city-chongqing-hongya-cave, name: 重庆·洪崖洞, subject: 洪崖洞吊脚楼建筑群, seed_hex: "#B84238"}
+      - {id: city-chengdu-anshun-bridge, name: 成都·安顺廊桥, subject: 安顺廊桥, seed_hex: "#B4593D"}
+      - {id: city-xian-bell-tower, name: 西安·钟楼, subject: 西安钟楼, seed_hex: "#A96038"}
+      - {id: city-nantong-museum, name: 南通·南通博物苑, subject: 南通博物苑南馆, seed_hex: "#54798A"}
+      - {id: city-wuxi-changchun-bridge, name: 无锡·长春桥, subject: 鼋头渚长春桥, seed_hex: "#699A82"}
+      - {id: city-ningbo-tianyi-pavilion, name: 宁波·天一阁, subject: 天一阁建筑, seed_hex: "#4F7888"}
+      - {id: city-lanzhou-zhongshan-bridge, name: 兰州·中山桥, subject: 黄河中山桥, seed_hex: "#B58A3E"}
+      - {id: city-harbin-saint-sophia, name: 哈尔滨·圣索菲亚教堂, subject: 圣索菲亚教堂, seed_hex: "#A87C35"}
+      - {id: city-shenyang-imperial-palace, name: 沈阳·故宫, subject: 沈阳故宫大政殿, seed_hex: "#A43D35"}
+      - {id: city-fuzhou-three-lanes, name: 福州·三坊七巷, subject: 三坊七巷传统建筑, seed_hex: "#4E705E"}
+      - {id: city-xiamen-twin-towers, name: 厦门·双子塔, subject: 厦门世茂海峡大厦, seed_hex: "#2C78A4"}
+
+  universities:
+    name: 中国高校校徽
+    expected_count: 50
+    ranking:
+      publisher: 软科
+      edition: 2026中国大学排名（主榜）
+      published: "2026-04-15"
+      source_url: https://www.shanghairanking.cn/rankings/bcur/2026
+    selection_note: 以2026主榜名次为稳定键；并列第48名在目录中顺延为第49个条目。
+    items:
+      - {rank: 1, id: university-tsinghua, name: 清华大学, seed_hex: "#82318E"}
+      - {rank: 2, id: university-peking, name: 北京大学, seed_hex: "#A51C30"}
+      - {rank: 3, id: university-zhejiang, name: 浙江大学, seed_hex: "#003F88"}
+      - {rank: 4, id: university-shanghai-jiao-tong, name: 上海交通大学, seed_hex: "#A32035"}
+      - {rank: 5, id: university-fudan, name: 复旦大学, seed_hex: "#0B3D91"}
+      - {rank: 6, id: university-nanjing, name: 南京大学, seed_hex: "#5B2C83"}
+      - {rank: 7, id: university-ustc, name: 中国科学技术大学, seed_hex: "#0067A8"}
+      - {rank: 8, id: university-wuhan, name: 武汉大学, seed_hex: "#0068A6"}
+      - {rank: 9, id: university-hust, name: 华中科技大学, seed_hex: "#005BAC"}
+      - {rank: 10, id: university-xian-jiao-tong, name: 西安交通大学, seed_hex: "#005BAB"}
+      - {rank: 11, id: university-beihang, name: 北京航空航天大学, seed_hex: "#005BAC"}
+      - {rank: 12, id: university-hit, name: 哈尔滨工业大学, seed_hex: "#005A9C"}
+      - {rank: 13, id: university-sun-yat-sen, name: 中山大学, seed_hex: "#006F5F"}
+      - {rank: 14, id: university-bit, name: 北京理工大学, seed_hex: "#007A60"}
+      - {rank: 15, id: university-southeast, name: 东南大学, seed_hex: "#6A1B6F"}
+      - {rank: 16, id: university-sichuan, name: 四川大学, seed_hex: "#C1262D"}
+      - {rank: 17, id: university-renmin, name: 中国人民大学, seed_hex: "#B21E2B"}
+      - {rank: 18, id: university-tongji, name: 同济大学, seed_hex: "#005BAC"}
+      - {rank: 19, id: university-bnu, name: 北京师范大学, seed_hex: "#005A9C"}
+      - {rank: 20, id: university-tianjin, name: 天津大学, seed_hex: "#005A9C"}
+      - {rank: 21, id: university-nankai, name: 南开大学, seed_hex: "#6B2D84"}
+      - {rank: 22, id: university-shandong, name: 山东大学, seed_hex: "#0068A6"}
+      - {rank: 23, id: university-nwpu, name: 西北工业大学, seed_hex: "#005BAC"}
+      - {rank: 24, id: university-cau, name: 中国农业大学, seed_hex: "#007A4D"}
+      - {rank: 25, id: university-xiamen, name: 厦门大学, seed_hex: "#0068A6"}
+      - {rank: 26, id: university-jilin, name: 吉林大学, seed_hex: "#005BAC"}
+      - {rank: 27, id: university-central-south, name: 中南大学, seed_hex: "#005BAC"}
+      - {rank: 28, id: university-dalian-technology, name: 大连理工大学, seed_hex: "#005BAC"}
+      - {rank: 29, id: university-ecnu, name: 华东师范大学, seed_hex: "#B51E3A"}
+      - {rank: 30, id: university-sustech, name: 南方科技大学, seed_hex: "#003F6B"}
+      - {rank: 31, id: university-hunan, name: 湖南大学, seed_hex: "#A61E2D"}
+      - {rank: 32, id: university-scut, name: 华南理工大学, seed_hex: "#A61E2D"}
+      - {rank: 33, id: university-uestc, name: 电子科技大学, seed_hex: "#005BAC"}
+      - {rank: 34, id: university-chongqing, name: 重庆大学, seed_hex: "#005BAC"}
+      - {rank: 35, id: university-ustb, name: 北京科技大学, seed_hex: "#005BAC"}
+      - {rank: 36, id: university-njust, name: 南京理工大学, seed_hex: "#6D2878"}
+      - {rank: 37, id: university-nuaa, name: 南京航空航天大学, seed_hex: "#005BAC"}
+      - {rank: 38, id: university-northeastern, name: 东北大学, seed_hex: "#005BAC"}
+      - {rank: 39, id: university-xidian, name: 西安电子科技大学, seed_hex: "#005BAC"}
+      - {rank: 40, id: university-lanzhou, name: 兰州大学, seed_hex: "#0068A6"}
+      - {rank: 41, id: university-bjtu, name: 北京交通大学, seed_hex: "#B21E2B"}
+      - {rank: 42, id: university-ecust, name: 华东理工大学, seed_hex: "#005BAC"}
+      - {rank: 43, id: university-harbin-engineering, name: 哈尔滨工程大学, seed_hex: "#005A9C"}
+      - {rank: 44, id: university-zhengzhou, name: 郑州大学, seed_hex: "#005BAC"}
+      - {rank: 45, id: university-huazhong-agricultural, name: 华中农业大学, seed_hex: "#007A4D"}
+      - {rank: 46, id: university-soochow, name: 苏州大学, seed_hex: "#B21E2B"}
+      - {rank: 47, id: university-shanghaitech, name: 上海科技大学, seed_hex: "#005BAC"}
+      - {rank: 48, id: university-northeast-normal, name: 东北师范大学, seed_hex: "#005BAC"}
+      - {rank: 48, id: university-southwest-jiaotong, name: 西南交通大学, seed_hex: "#005BAC"}
+      - {rank: 50, id: university-bupt, name: 北京邮电大学, seed_hex: "#005BAC"}
+
+  genshin-characters:
+    name: 原神角色灵感配色
+    expected_count: 35
+    selection_note: 每地区5名，兼顾辨识度、色相差异与学术海报适配性；角色原画须单独取得再分发许可。
+    groups:
+      - name: 蒙德
+        items:
+          - {id: genshin-mondstadt-venti, name: 温迪, seed_hex: "#45A997"}
+          - {id: genshin-mondstadt-jean, name: 琴, seed_hex: "#6A8FBD"}
+          - {id: genshin-mondstadt-diluc, name: 迪卢克, seed_hex: "#A92E38"}
+          - {id: genshin-mondstadt-albedo, name: 阿贝多, seed_hex: "#D4B45C"}
+          - {id: genshin-mondstadt-eula, name: 优菈, seed_hex: "#6EA6C5"}
+      - name: 璃月
+        items:
+          - {id: genshin-liyue-zhongli, name: 钟离, seed_hex: "#8B663E"}
+          - {id: genshin-liyue-ningguang, name: 凝光, seed_hex: "#C9A256"}
+          - {id: genshin-liyue-xiao, name: 魈, seed_hex: "#187E78"}
+          - {id: genshin-liyue-ganyu, name: 甘雨, seed_hex: "#7196C8"}
+          - {id: genshin-liyue-hu-tao, name: 胡桃, seed_hex: "#8F2F38"}
+      - name: 稻妻
+        items:
+          - {id: genshin-inazuma-raiden-shogun, name: 雷电将军, seed_hex: "#7952A3"}
+          - {id: genshin-inazuma-yae-miko, name: 八重神子, seed_hex: "#C85D86"}
+          - {id: genshin-inazuma-kamisato-ayaka, name: 神里绫华, seed_hex: "#7C9DC6"}
+          - {id: genshin-inazuma-yoimiya, name: 宵宫, seed_hex: "#D96A35"}
+          - {id: genshin-inazuma-kaedehara-kazuha, name: 枫原万叶, seed_hex: "#A64B45"}
+      - name: 须弥
+        items:
+          - {id: genshin-sumeru-nahida, name: 纳西妲, seed_hex: "#80A94A"}
+          - {id: genshin-sumeru-alhaitham, name: 艾尔海森, seed_hex: "#268474"}
+          - {id: genshin-sumeru-cyno, name: 赛诺, seed_hex: "#6D5597"}
+          - {id: genshin-sumeru-nilou, name: 妮露, seed_hex: "#4F9EB4"}
+          - {id: genshin-sumeru-dehya, name: 迪希雅, seed_hex: "#A84636"}
+      - name: 枫丹
+        items:
+          - {id: genshin-fontaine-furina, name: 芙宁娜, seed_hex: "#3F78B7"}
+          - {id: genshin-fontaine-neuvillette, name: 那维莱特, seed_hex: "#3C718F"}
+          - {id: genshin-fontaine-wriothesley, name: 莱欧斯利, seed_hex: "#6E1C34"}
+          - {id: genshin-fontaine-navia, name: 娜维娅, seed_hex: "#C69B3E"}
+          - {id: genshin-fontaine-clorinde, name: 克洛琳德, seed_hex: "#4A3D78"}
+      - name: 纳塔
+        items:
+          - {id: genshin-natlan-mavuika, name: 玛薇卡, seed_hex: "#C7442E"}
+          - {id: genshin-natlan-xilonen, name: 希诺宁, seed_hex: "#C99A42"}
+          - {id: genshin-natlan-kinich, name: 基尼奇, seed_hex: "#5D8B3A"}
+          - {id: genshin-natlan-mualani, name: 玛拉妮, seed_hex: "#2F9BB2"}
+          - {id: genshin-natlan-citlali, name: 茜特菈莉, seed_hex: "#9C6AB2"}
+      - name: 挪德卡莱
+        items:
+          - {id: genshin-nod-krai-lauma, name: 菈乌玛, seed_hex: "#4E8B72"}
+          - {id: genshin-nod-krai-flins, name: 菲林斯, seed_hex: "#59658A"}
+          - {id: genshin-nod-krai-aino, name: 爱诺, seed_hex: "#4D91A5"}
+          - {id: genshin-nod-krai-ineffa, name: 伊涅芙, seed_hex: "#6F75A8"}
+          - {id: genshin-nod-krai-columbina, name: 哥伦比娅, seed_hex: "#B8A7D1"}
+

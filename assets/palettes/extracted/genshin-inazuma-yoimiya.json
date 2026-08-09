@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-inazuma-yoimiya",
+  "name": "宵宫",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-inazuma-yoimiya.png",
+  "source_sha256": "13bb182184848194c576043118b2e66e8dde8065f554660c8d6736ab53f35a72",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#922321",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#3E1616",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#B53D2F",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#CBA788",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

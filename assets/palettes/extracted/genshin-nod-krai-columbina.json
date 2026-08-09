@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-nod-krai-columbina",
+  "name": "哥伦比娅",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-nod-krai-columbina.png",
+  "source_sha256": "8fbf75f06a65478a09f25ba5d9b016c0f6e6b75167587672984458c2e4f25f5a",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#5C6DC5",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#2F2C50",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#A3B0E3",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#693D76",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

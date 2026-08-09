@@ -1,0 +1,324 @@
+schema_version: '0.3'
+source: Wikimedia Commons
+selection_method: license-filtered API search plus visual review of three candidates per city
+selected_count: 19
+assets:
+- id: city-beijing-temple-of-heaven
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Hall of Prayer for Good Harvest.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Hall_of_Prayer_for_Good_Harvest.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Hall_of_Prayer_for_Good_Harvest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hall_of_Prayer_for_Good_Harvest.JPG/960px-Hall_of_Prayer_for_Good_Harvest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3000
+  height: 2000
+  license: Public domain
+  license_url: ''
+  artist: Fong Chen
+  credit: Own work
+  attribution_required: 'false'
+  usage_terms: Public domain
+  copyrighted: 'False'
+- id: city-shanghai-oriental-pearl
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:·˙·ChinaUli2010·.· Shanghai - Oriental Pearl TV Tower - panoramio (15).jpg
+  description_url: https://commons.wikimedia.org/wiki/File:%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_(15).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/05/%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_%2815%29.jpg/960px-%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 1536
+  height: 2048
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  artist: ·˙·ChinaUli2010·.·
+  credit: https://web.archive.org/web/20161016122321/http://www.panoramio.com/photo/44126002
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution 3.0
+  copyrighted: 'True'
+- id: city-guangzhou-canton-tower
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Canton tower in asian games opening ceremony.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg/960px-Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 1350
+  height: 2048
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  artist: Colin Zhu from Guangzhou, China
+  credit: 亚运开幕
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 2.0
+  copyrighted: 'True'
+- id: city-shenzhen-civic-center
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Shenzhen Civic Center 01.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Shenzhen_Civic_Center_01.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Shenzhen_Civic_Center_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Shenzhen_Civic_Center_01.jpg/960px-Shenzhen_Civic_Center_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3872
+  height: 2592
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  artist: Ged Carroll from London mostly, UK
+  credit: Shenzhen civic centre Uploaded by Zolo
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution 2.0
+  copyrighted: 'True'
+- id: city-hangzhou-leifeng-pagoda
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Leifeng Pagoda, Hangzhou.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda,_Hangzhou.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/0/08/Leifeng_Pagoda%2C_Hangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leifeng_Pagoda%2C_Hangzhou.JPG/960px-Leifeng_Pagoda%2C_Hangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 2032
+  height: 1524
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: 螺钉
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+- id: city-wuhan-yellow-crane-tower
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:CN - Hubei - Wuhan - Kranichpagode.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/7/7f/CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg/960px-CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3000
+  height: 4000
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: MonsieurRoi
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+- id: city-nanjing-sun-yat-sen-mausoleum
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Sun Yat-sen Mausoleum, Nanjing (2789677299).jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Sun_Yat-sen_Mausoleum,_Nanjing_(2789677299).jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/9/92/Sun_Yat-sen_Mausoleum%2C_Nanjing_%282789677299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sun_Yat-sen_Mausoleum%2C_Nanjing_%282789677299%29.jpg/960px-Sun_Yat-sen_Mausoleum%2C_Nanjing_%282789677299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3264
+  height: 2448
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  artist: Peter Dowley from Dubai, United Arab Emirates
+  credit: Sun Yat-sen Mausoleum, Nanjing
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution 2.0
+  copyrighted: 'True'
+- id: city-suzhou-humble-administrators-garden
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Pavilions in Humble Administrator's Garden.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Pavilions_in_Humble_Administrator%27s_Garden.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/4/44/Pavilions_in_Humble_Administrator%27s_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pavilions_in_Humble_Administrator%27s_Garden.JPG/960px-Pavilions_in_Humble_Administrator%27s_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 2304
+  height: 3072
+  license: Public domain
+  license_url: ''
+  artist: 韩笃一
+  credit: Own work
+  attribution_required: 'false'
+  usage_terms: Public domain
+  copyrighted: 'False'
+- id: city-chongqing-hongya-cave
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Hongya Cave Centre at night - panoramio.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Hongya_Cave_Centre_at_night_-_panoramio.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Hongya_Cave_Centre_at_night_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Hongya_Cave_Centre_at_night_-_panoramio.jpg/960px-Hongya_Cave_Centre_at_night_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 1704
+  height: 2272
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  artist: Raki_Man
+  credit: https://web.archive.org/web/20161028204241/http://www.panoramio.com/photo/92367744
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution 3.0
+  copyrighted: 'True'
+- id: city-chengdu-anshun-bridge
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Restaurant sobre el pont - panoramio - danferman.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/2/29/Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg/960px-Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 2048
+  height: 1536
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  artist: danferman
+  credit: https://web.archive.org/web/20161012064156/http://www.panoramio.com/photo/2481514
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution 3.0
+  copyrighted: 'True'
+- id: city-xian-bell-tower
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Xi'an bell tower.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Xi%27an_bell_tower.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/b3/Xi%27an_bell_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Xi%27an_bell_tower.jpg/960px-Xi%27an_bell_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3575
+  height: 2383
+  license: Public domain
+  license_url: ''
+  artist: This image was produced by me, David Castor (user:dcastor). The pictures I submit to the Wikipedia Project are released
+    to the public domain. This gives you the right to use them in any way you like, without any kind of notification. This
+    said, I would still appreciate to be mentioned as the originator whenever you think it complies well with your use of
+    the picture. A message to me about how it has been used would also be welcome. You are obviously not required to respond
+    to these wishes of mine, just in a friendly manner encouraged to. (All my photos are placed in Category:Images by David
+    Castor or a subcategory thereof.)
+  credit: Own work
+  attribution_required: 'false'
+  usage_terms: Public domain
+  copyrighted: 'False'
+- id: city-nantong-museum
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Nantong Museum 1.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Nantong_Museum_1.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Nantong_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nantong_Museum_1.jpg/960px-Nantong_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 1824
+  height: 1368
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  artist: 'This illustration was made by Peter Potrowl. Please credit this with : © Peter Potrowl in the immediate vicinity
+    of the image. A link to my website sitemai.eu would be much appreciated but isn''t mandatory. An email to Peter Potrowl
+    would be appreciated too. Do not copy this image illegally by ignoring the terms of the license below, as it is not in
+    the public domain. If you would like special permission to use, license, or purchase the image please contact me Peter
+    Potrowl to negotiate terms. More free pictures in my website. Donations are accepted here and here.'
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution 3.0
+  copyrighted: 'True'
+  matched_query: 南通博物苑
+- id: city-wuxi-changchun-bridge
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  landmark_scope_note: Commons has no eligible Changchun Bridge image; selected a reusable Yuantouzhu landmark image.
+  title: File:Yuantouzhu,Lake Tai,Wuxi.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Yuantouzhu,Lake_Tai,Wuxi.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/3/3a/Yuantouzhu%2CLake_Tai%2CWuxi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yuantouzhu%2CLake_Tai%2CWuxi.JPG/960px-Yuantouzhu%2CLake_Tai%2CWuxi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 2032
+  height: 1524
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: 螺钉
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+  matched_query: Yuantouzhu Wuxi
+- id: city-ningbo-tianyi-pavilion
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Ningbo - Tianyi Pavilion Museum 02.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Ningbo_-_Tianyi_Pavilion_Museum_02.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Ningbo_-_Tianyi_Pavilion_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ningbo_-_Tianyi_Pavilion_Museum_02.jpg/960px-Ningbo_-_Tianyi_Pavilion_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3888
+  height: 2592
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: Nablazzz
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+- id: city-lanzhou-zhongshan-bridge
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Zhongshan-Brücke-05.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Zhongshan-Br%C3%BCcke-05.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Zhongshan-Br%C3%BCcke-05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Zhongshan-Br%C3%BCcke-05.JPG/960px-Zhongshan-Br%C3%BCcke-05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 3008
+  height: 2000
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: Sigismund von Dobschütz
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+- id: city-harbin-saint-sophia
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Saint Sophia Cathedral Harbin.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral_Harbin.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/6b/Saint_Sophia_Cathedral_Harbin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Saint_Sophia_Cathedral_Harbin.JPG/960px-Saint_Sophia_Cathedral_Harbin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 2736
+  height: 3648
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: Tlrmq
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+- id: city-shenyang-imperial-palace
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:沈阳故宫大政殿2019.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/e/e7/%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg/960px-%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 6000
+  height: 4000
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  artist: ScareCriterion12
+  credit: Own work
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 4.0
+  copyrighted: 'True'
+- id: city-fuzhou-three-lanes
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Foochow house.JPG
+  description_url: https://commons.wikimedia.org/wiki/File:Foochow_house.JPG
+  original_url: https://upload.wikimedia.org/wikipedia/commons/6/66/Foochow_house.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Foochow_house.JPG/960px-Foochow_house.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 2304
+  height: 3072
+  license: Public domain
+  license_url: ''
+  artist: GnuDoyng
+  credit: Own work
+  attribution_required: 'false'
+  usage_terms: Public domain
+  copyrighted: 'False'
+  matched_query: Sanfang Qixiang Fuzhou
+- id: city-xiamen-twin-towers
+  review_status: visually-selected; license metadata captured; final building cutout review required
+  title: File:Xiamen MO Sky Mansion.jpg
+  description_url: https://commons.wikimedia.org/wiki/File:Xiamen_MO_Sky_Mansion.jpg
+  original_url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Xiamen_MO_Sky_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Xiamen_MO_Sky_Mansion.jpg/960px-Xiamen_MO_Sky_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  mime: image/jpeg
+  width: 4000
+  height: 3000
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  artist: James Yu
+  credit: Photosubmissions 2013053110001899
+  attribution_required: 'true'
+  usage_terms: Creative Commons Attribution-Share Alike 3.0
+  copyrighted: 'True'
+  matched_query: Shimao Strait Tower Xiamen
+

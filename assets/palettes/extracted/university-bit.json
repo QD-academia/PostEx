@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-bit",
+  "name": "北京理工大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-bit.png",
+  "source_sha256": "cfea80c65e19358ad9c10ea8bb14cb5228b1559caf101dffeb8c301620189097",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#005C31",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#98411A",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#079E52",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#D6DFC9",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-mondstadt-eula",
+  "name": "优菈",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-mondstadt-eula.png",
+  "source_sha256": "427b9f18998b11143d99f82ecff9b3c952e5e97e9616a1d1bd3111938f629bde",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#1B253A",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#A6B3C4",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#314967",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#68645E",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

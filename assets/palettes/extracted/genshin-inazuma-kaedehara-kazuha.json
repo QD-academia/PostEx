@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-inazuma-kaedehara-kazuha",
+  "name": "枫原万叶",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-inazuma-kaedehara-kazuha.png",
+  "source_sha256": "760805cf3e911f250a8a727e1db9fb596e70df6de1937e190b397f331362d591",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#5D251B",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#281513",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#C4A38D",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#44413A",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

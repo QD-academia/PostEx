@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-fontaine-clorinde",
+  "name": "克洛琳德",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-fontaine-clorinde.png",
+  "source_sha256": "52fd4166beefcf8dec7966974ce7d2b4dd9c89bea0929231b911b7cc375a86f2",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#121328",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#333148",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#6773C9",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#655860",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

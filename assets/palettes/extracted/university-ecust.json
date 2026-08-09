@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-ecust",
+  "name": "华东理工大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-ecust.png",
+  "source_sha256": "5df23435e386ccfb12fb5da409853a65cd650bade8b146e9a51a1df8e1855b3e",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#0068AB",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#CAEDF7",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#65A1C5",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#08588F",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

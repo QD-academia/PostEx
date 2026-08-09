@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-nod-krai-aino",
+  "name": "爱诺",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-nod-krai-aino.png",
+  "source_sha256": "758503e58c0ea4b55f93fcc78398539371aa07db6eadda742b2ac94033e50b3f",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#E7D8C9",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#563446",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#F2F1AC",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#DEA9CD",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

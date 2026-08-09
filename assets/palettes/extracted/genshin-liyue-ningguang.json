@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-liyue-ningguang",
+  "name": "凝光",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-liyue-ningguang.png",
+  "source_sha256": "b3fe0523ce2bc6959a48b1aeb40bbbf175230aaad64d8c6a27dc2fd746c64200",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#BDB4AB",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#F9EFE2",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#422E17",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#DDCCB5",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

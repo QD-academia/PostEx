@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-inazuma-yae-miko",
+  "name": "八重神子",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-inazuma-yae-miko.png",
+  "source_sha256": "bbbef94a2b66f74c9c7d6c036a179772119029b99faed8c8ba881b695c1f4a82",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#D7B7B3",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#9E3C3C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#5A2A2D",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#C35B65",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

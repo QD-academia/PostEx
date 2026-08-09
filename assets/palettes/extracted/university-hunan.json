@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-hunan",
+  "name": "湖南大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-hunan.png",
+  "source_sha256": "5fa65c18ff3c02f04c71b2bc3ca8734b5c6ed6c11a1cd70c5d826bc16e362e5e",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#A12F33",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#822E1F",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#9B1554",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#2D978B",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

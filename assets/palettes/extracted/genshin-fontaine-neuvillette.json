@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-fontaine-neuvillette",
+  "name": "那维莱特",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-fontaine-neuvillette.png",
+  "source_sha256": "6128d7ea0a9d97f866c78d416311461ffe495abe5469dcef6c3c486cae0d772c",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#454E6F",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#242944",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#446794",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#79727F",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

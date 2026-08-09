@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-nod-krai-flins",
+  "name": "菲林斯",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-nod-krai-flins.png",
+  "source_sha256": "f07c2ef08778af46095d6a6f1e828a418795a4896da47228f2b97f518159b7ac",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#1D1C28",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#3E3F4A",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#6B7FB9",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#434670",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

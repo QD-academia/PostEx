@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-liyue-hu-tao",
+  "name": "胡桃",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-liyue-hu-tao.png",
+  "source_sha256": "87cbe683ff6e14710fb504ff40186c988f67655bf2ae2f9a9270d3be2a9528af",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#3B2A29",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#6A4A4B",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#5E2B29",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#B3998C",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

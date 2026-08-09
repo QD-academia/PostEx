@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-dalian-technology",
+  "name": "大连理工大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-dalian-technology.png",
+  "source_sha256": "84202710133285aef13329e2951a7528dabcac53e2aafa5d2e1617e5da9b28c1",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#0175BE",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#0B66A1",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#DEFBFE",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#4992BE",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

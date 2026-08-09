@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-wuhan",
+  "name": "武汉大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-wuhan.png",
+  "source_sha256": "ec851bbdac574d4ff25f459c9248f967cf47367be960dabde656463ae83f5c65",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#125840",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#0A2F4E",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#DDF1F0",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#7C98A0",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

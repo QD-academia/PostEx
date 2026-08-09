@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-hit",
+  "name": "哈尔滨工业大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-hit.png",
+  "source_sha256": "18d6cb7afc162259fd55f4f88ecbb9afbc38655ffa5f50d9c345e4362bd4949d",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#005575",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#356282",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3674",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#127F87",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

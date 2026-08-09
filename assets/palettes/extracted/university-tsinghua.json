@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-tsinghua",
+  "name": "清华大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-tsinghua.png",
+  "source_sha256": "25b8f7a64475659abfe07274b336df54821d46333dc573ab9756a0fe6a6660bb",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#7E2D9C",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#7F1E71",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#571597",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#3A952D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

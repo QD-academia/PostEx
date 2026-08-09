@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-ustc",
+  "name": "中国科学技术大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-ustc.png",
+  "source_sha256": "1408038f0d5c7cde44bce88f8f84c2e5688e8b0ba6f65e9dd6bacf11da2a8401",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#005CAA",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#356582",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3A74",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#128487",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

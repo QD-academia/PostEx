@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-mondstadt-albedo",
+  "name": "阿贝多",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-mondstadt-albedo.png",
+  "source_sha256": "cdf3ca3e96afe4cd230ae0c06c6b588916765c2d8edb34c0798fec1c27d124ea",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#E2D8CC",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#1D1921",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#48476C",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#75626E",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

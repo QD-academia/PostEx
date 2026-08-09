@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "postex"
-version = "0.2.0a2"
+version = "0.3.0a1"
 description = "Evidence-linked Palette Fusion for distinctive academic posters"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -26,6 +26,7 @@ dependencies = ["PyYAML>=6.0", "jsonschema>=4.22"]
 openai = ["openai>=1.50"]
 anthropic = ["anthropic>=0.40"]
 render = ["Pillow>=10.4", "PyMuPDF>=1.24", "pypdf>=5.0"]
+palette-assets = ["Pillow>=12.1", "certifi>=2025.0", "cairosvg>=2.8", "rembg[cpu]>=2.0.70"]
 dev = ["pytest>=8.2", "pytest-cov>=5.0", "ruff>=0.6", "mypy>=1.11"]
 
 [project.scripts]
@@ -41,12 +42,14 @@ packages = ["src/postex"]
 
 [tool.hatch.build.targets.wheel.force-include]
 "assets/templates" = "postex/assets/templates"
+"assets/palettes" = "postex/assets/palettes"
 "schemas" = "postex/schemas"
 
 [tool.hatch.build.targets.sdist]
 include = [
   "/src",
   "/assets/templates",
+  "/assets/palettes",
   "/schemas",
   "/configs",
   "/skills",

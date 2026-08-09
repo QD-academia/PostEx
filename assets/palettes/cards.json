@@ -1,0 +1,948 @@
+{
+  "schema_version": "0.3",
+  "count": 104,
+  "previews": {
+    "city-landmarks": "assets/palettes/previews/city-landmarks.webp",
+    "universities": "assets/palettes/previews/universities.webp",
+    "genshin-characters": "assets/palettes/previews/genshin-characters.webp",
+    "all": "assets/palettes/previews/all-palettes.webp"
+  },
+  "cards": [
+    {
+      "id": "city-beijing-temple-of-heaven",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "北京·天坛",
+      "card": "assets/palettes/cards/city-landmarks/city-beijing-temple-of-heaven.webp",
+      "cutout": "assets/palettes/cutouts/city-beijing-temple-of-heaven.png",
+      "palette": "assets/palettes/extracted/city-beijing-temple-of-heaven.json"
+    },
+    {
+      "id": "city-shanghai-oriental-pearl",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "上海·东方明珠",
+      "card": "assets/palettes/cards/city-landmarks/city-shanghai-oriental-pearl.webp",
+      "cutout": "assets/palettes/cutouts/city-shanghai-oriental-pearl.png",
+      "palette": "assets/palettes/extracted/city-shanghai-oriental-pearl.json"
+    },
+    {
+      "id": "city-guangzhou-canton-tower",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "广州·广州塔",
+      "card": "assets/palettes/cards/city-landmarks/city-guangzhou-canton-tower.webp",
+      "cutout": "assets/palettes/cutouts/city-guangzhou-canton-tower.png",
+      "palette": "assets/palettes/extracted/city-guangzhou-canton-tower.json"
+    },
+    {
+      "id": "city-shenzhen-civic-center",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "深圳·市民中心",
+      "card": "assets/palettes/cards/city-landmarks/city-shenzhen-civic-center.webp",
+      "cutout": "assets/palettes/cutouts/city-shenzhen-civic-center.png",
+      "palette": "assets/palettes/extracted/city-shenzhen-civic-center.json"
+    },
+    {
+      "id": "city-hangzhou-leifeng-pagoda",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "杭州·雷峰塔",
+      "card": "assets/palettes/cards/city-landmarks/city-hangzhou-leifeng-pagoda.webp",
+      "cutout": "assets/palettes/cutouts/city-hangzhou-leifeng-pagoda.png",
+      "palette": "assets/palettes/extracted/city-hangzhou-leifeng-pagoda.json"
+    },
+    {
+      "id": "city-wuhan-yellow-crane-tower",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "武汉·黄鹤楼",
+      "card": "assets/palettes/cards/city-landmarks/city-wuhan-yellow-crane-tower.webp",
+      "cutout": "assets/palettes/cutouts/city-wuhan-yellow-crane-tower.png",
+      "palette": "assets/palettes/extracted/city-wuhan-yellow-crane-tower.json"
+    },
+    {
+      "id": "city-nanjing-sun-yat-sen-mausoleum",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "南京·中山陵",
+      "card": "assets/palettes/cards/city-landmarks/city-nanjing-sun-yat-sen-mausoleum.webp",
+      "cutout": "assets/palettes/cutouts/city-nanjing-sun-yat-sen-mausoleum.png",
+      "palette": "assets/palettes/extracted/city-nanjing-sun-yat-sen-mausoleum.json"
+    },
+    {
+      "id": "city-suzhou-humble-administrators-garden",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "苏州·拙政园",
+      "card": "assets/palettes/cards/city-landmarks/city-suzhou-humble-administrators-garden.webp",
+      "cutout": "assets/palettes/cutouts/city-suzhou-humble-administrators-garden.png",
+      "palette": "assets/palettes/extracted/city-suzhou-humble-administrators-garden.json"
+    },
+    {
+      "id": "city-chongqing-hongya-cave",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "重庆·洪崖洞",
+      "card": "assets/palettes/cards/city-landmarks/city-chongqing-hongya-cave.webp",
+      "cutout": "assets/palettes/cutouts/city-chongqing-hongya-cave.png",
+      "palette": "assets/palettes/extracted/city-chongqing-hongya-cave.json"
+    },
+    {
+      "id": "city-chengdu-anshun-bridge",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "成都·安顺廊桥",
+      "card": "assets/palettes/cards/city-landmarks/city-chengdu-anshun-bridge.webp",
+      "cutout": "assets/palettes/cutouts/city-chengdu-anshun-bridge.png",
+      "palette": "assets/palettes/extracted/city-chengdu-anshun-bridge.json"
+    },
+    {
+      "id": "city-xian-bell-tower",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "西安·钟楼",
+      "card": "assets/palettes/cards/city-landmarks/city-xian-bell-tower.webp",
+      "cutout": "assets/palettes/cutouts/city-xian-bell-tower.png",
+      "palette": "assets/palettes/extracted/city-xian-bell-tower.json"
+    },
+    {
+      "id": "city-nantong-museum",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "南通·南通博物苑",
+      "card": "assets/palettes/cards/city-landmarks/city-nantong-museum.webp",
+      "cutout": "assets/palettes/cutouts/city-nantong-museum.png",
+      "palette": "assets/palettes/extracted/city-nantong-museum.json"
+    },
+    {
+      "id": "city-wuxi-changchun-bridge",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "无锡·长春桥",
+      "card": "assets/palettes/cards/city-landmarks/city-wuxi-changchun-bridge.webp",
+      "cutout": "assets/palettes/cutouts/city-wuxi-changchun-bridge.png",
+      "palette": "assets/palettes/extracted/city-wuxi-changchun-bridge.json"
+    },
+    {
+      "id": "city-ningbo-tianyi-pavilion",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "宁波·天一阁",
+      "card": "assets/palettes/cards/city-landmarks/city-ningbo-tianyi-pavilion.webp",
+      "cutout": "assets/palettes/cutouts/city-ningbo-tianyi-pavilion.png",
+      "palette": "assets/palettes/extracted/city-ningbo-tianyi-pavilion.json"
+    },
+    {
+      "id": "city-lanzhou-zhongshan-bridge",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "兰州·中山桥",
+      "card": "assets/palettes/cards/city-landmarks/city-lanzhou-zhongshan-bridge.webp",
+      "cutout": "assets/palettes/cutouts/city-lanzhou-zhongshan-bridge.png",
+      "palette": "assets/palettes/extracted/city-lanzhou-zhongshan-bridge.json"
+    },
+    {
+      "id": "city-harbin-saint-sophia",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "哈尔滨·圣索菲亚教堂",
+      "card": "assets/palettes/cards/city-landmarks/city-harbin-saint-sophia.webp",
+      "cutout": "assets/palettes/cutouts/city-harbin-saint-sophia.png",
+      "palette": "assets/palettes/extracted/city-harbin-saint-sophia.json"
+    },
+    {
+      "id": "city-shenyang-imperial-palace",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "沈阳·故宫",
+      "card": "assets/palettes/cards/city-landmarks/city-shenyang-imperial-palace.webp",
+      "cutout": "assets/palettes/cutouts/city-shenyang-imperial-palace.png",
+      "palette": "assets/palettes/extracted/city-shenyang-imperial-palace.json"
+    },
+    {
+      "id": "city-fuzhou-three-lanes",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "福州·三坊七巷",
+      "card": "assets/palettes/cards/city-landmarks/city-fuzhou-three-lanes.webp",
+      "cutout": "assets/palettes/cutouts/city-fuzhou-three-lanes.png",
+      "palette": "assets/palettes/extracted/city-fuzhou-three-lanes.json"
+    },
+    {
+      "id": "city-xiamen-twin-towers",
+      "collection": "city-landmarks",
+      "group": null,
+      "name": "厦门·双子塔",
+      "card": "assets/palettes/cards/city-landmarks/city-xiamen-twin-towers.webp",
+      "cutout": "assets/palettes/cutouts/city-xiamen-twin-towers.png",
+      "palette": "assets/palettes/extracted/city-xiamen-twin-towers.json"
+    },
+    {
+      "id": "university-tsinghua",
+      "collection": "universities",
+      "group": null,
+      "name": "清华大学",
+      "card": "assets/palettes/cards/universities/university-tsinghua.webp",
+      "cutout": "assets/palettes/cutouts/university-tsinghua.png",
+      "palette": "assets/palettes/extracted/university-tsinghua.json"
+    },
+    {
+      "id": "university-peking",
+      "collection": "universities",
+      "group": null,
+      "name": "北京大学",
+      "card": "assets/palettes/cards/universities/university-peking.webp",
+      "cutout": "assets/palettes/cutouts/university-peking.png",
+      "palette": "assets/palettes/extracted/university-peking.json"
+    },
+    {
+      "id": "university-zhejiang",
+      "collection": "universities",
+      "group": null,
+      "name": "浙江大学",
+      "card": "assets/palettes/cards/universities/university-zhejiang.webp",
+      "cutout": "assets/palettes/cutouts/university-zhejiang.png",
+      "palette": "assets/palettes/extracted/university-zhejiang.json"
+    },
+    {
+      "id": "university-shanghai-jiao-tong",
+      "collection": "universities",
+      "group": null,
+      "name": "上海交通大学",
+      "card": "assets/palettes/cards/universities/university-shanghai-jiao-tong.webp",
+      "cutout": "assets/palettes/cutouts/university-shanghai-jiao-tong.png",
+      "palette": "assets/palettes/extracted/university-shanghai-jiao-tong.json"
+    },
+    {
+      "id": "university-fudan",
+      "collection": "universities",
+      "group": null,
+      "name": "复旦大学",
+      "card": "assets/palettes/cards/universities/university-fudan.webp",
+      "cutout": "assets/palettes/cutouts/university-fudan.png",
+      "palette": "assets/palettes/extracted/university-fudan.json"
+    },
+    {
+      "id": "university-nanjing",
+      "collection": "universities",
+      "group": null,
+      "name": "南京大学",
+      "card": "assets/palettes/cards/universities/university-nanjing.webp",
+      "cutout": "assets/palettes/cutouts/university-nanjing.png",
+      "palette": "assets/palettes/extracted/university-nanjing.json"
+    },
+    {
+      "id": "university-ustc",
+      "collection": "universities",
+      "group": null,
+      "name": "中国科学技术大学",
+      "card": "assets/palettes/cards/universities/university-ustc.webp",
+      "cutout": "assets/palettes/cutouts/university-ustc.png",
+      "palette": "assets/palettes/extracted/university-ustc.json"
+    },
+    {
+      "id": "university-wuhan",
+      "collection": "universities",
+      "group": null,
+      "name": "武汉大学",
+      "card": "assets/palettes/cards/universities/university-wuhan.webp",
+      "cutout": "assets/palettes/cutouts/university-wuhan.png",
+      "palette": "assets/palettes/extracted/university-wuhan.json"
+    },
+    {
+      "id": "university-hust",
+      "collection": "universities",
+      "group": null,
+      "name": "华中科技大学",
+      "card": "assets/palettes/cards/universities/university-hust.webp",
+      "cutout": "assets/palettes/cutouts/university-hust.png",
+      "palette": "assets/palettes/extracted/university-hust.json"
+    },
+    {
+      "id": "university-xian-jiao-tong",
+      "collection": "universities",
+      "group": null,
+      "name": "西安交通大学",
+      "card": "assets/palettes/cards/universities/university-xian-jiao-tong.webp",
+      "cutout": "assets/palettes/cutouts/university-xian-jiao-tong.png",
+      "palette": "assets/palettes/extracted/university-xian-jiao-tong.json"
+    },
+    {
+      "id": "university-beihang",
+      "collection": "universities",
+      "group": null,
+      "name": "北京航空航天大学",
+      "card": "assets/palettes/cards/universities/university-beihang.webp",
+      "cutout": "assets/palettes/cutouts/university-beihang.png",
+      "palette": "assets/palettes/extracted/university-beihang.json"
+    },
+    {
+      "id": "university-hit",
+      "collection": "universities",
+      "group": null,
+      "name": "哈尔滨工业大学",
+      "card": "assets/palettes/cards/universities/university-hit.webp",
+      "cutout": "assets/palettes/cutouts/university-hit.png",
+      "palette": "assets/palettes/extracted/university-hit.json"
+    },
+    {
+      "id": "university-sun-yat-sen",
+      "collection": "universities",
+      "group": null,
+      "name": "中山大学",
+      "card": "assets/palettes/cards/universities/university-sun-yat-sen.webp",
+      "cutout": "assets/palettes/cutouts/university-sun-yat-sen.png",
+      "palette": "assets/palettes/extracted/university-sun-yat-sen.json"
+    },
+    {
+      "id": "university-bit",
+      "collection": "universities",
+      "group": null,
+      "name": "北京理工大学",
+      "card": "assets/palettes/cards/universities/university-bit.webp",
+      "cutout": "assets/palettes/cutouts/university-bit.png",
+      "palette": "assets/palettes/extracted/university-bit.json"
+    },
+    {
+      "id": "university-southeast",
+      "collection": "universities",
+      "group": null,
+      "name": "东南大学",
+      "card": "assets/palettes/cards/universities/university-southeast.webp",
+      "cutout": "assets/palettes/cutouts/university-southeast.png",
+      "palette": "assets/palettes/extracted/university-southeast.json"
+    },
+    {
+      "id": "university-sichuan",
+      "collection": "universities",
+      "group": null,
+      "name": "四川大学",
+      "card": "assets/palettes/cards/universities/university-sichuan.webp",
+      "cutout": "assets/palettes/cutouts/university-sichuan.png",
+      "palette": "assets/palettes/extracted/university-sichuan.json"
+    },
+    {
+      "id": "university-renmin",
+      "collection": "universities",
+      "group": null,
+      "name": "中国人民大学",
+      "card": "assets/palettes/cards/universities/university-renmin.webp",
+      "cutout": "assets/palettes/cutouts/university-renmin.png",
+      "palette": "assets/palettes/extracted/university-renmin.json"
+    },
+    {
+      "id": "university-tongji",
+      "collection": "universities",
+      "group": null,
+      "name": "同济大学",
+      "card": "assets/palettes/cards/universities/university-tongji.webp",
+      "cutout": "assets/palettes/cutouts/university-tongji.png",
+      "palette": "assets/palettes/extracted/university-tongji.json"
+    },
+    {
+      "id": "university-bnu",
+      "collection": "universities",
+      "group": null,
+      "name": "北京师范大学",
+      "card": "assets/palettes/cards/universities/university-bnu.webp",
+      "cutout": "assets/palettes/cutouts/university-bnu.png",
+      "palette": "assets/palettes/extracted/university-bnu.json"
+    },
+    {
+      "id": "university-tianjin",
+      "collection": "universities",
+      "group": null,
+      "name": "天津大学",
+      "card": "assets/palettes/cards/universities/university-tianjin.webp",
+      "cutout": "assets/palettes/cutouts/university-tianjin.png",
+      "palette": "assets/palettes/extracted/university-tianjin.json"
+    },
+    {
+      "id": "university-nankai",
+      "collection": "universities",
+      "group": null,
+      "name": "南开大学",
+      "card": "assets/palettes/cards/universities/university-nankai.webp",
+      "cutout": "assets/palettes/cutouts/university-nankai.png",
+      "palette": "assets/palettes/extracted/university-nankai.json"
+    },
+    {
+      "id": "university-shandong",
+      "collection": "universities",
+      "group": null,
+      "name": "山东大学",
+      "card": "assets/palettes/cards/universities/university-shandong.webp",
+      "cutout": "assets/palettes/cutouts/university-shandong.png",
+      "palette": "assets/palettes/extracted/university-shandong.json"
+    },
+    {
+      "id": "university-nwpu",
+      "collection": "universities",
+      "group": null,
+      "name": "西北工业大学",
+      "card": "assets/palettes/cards/universities/university-nwpu.webp",
+      "cutout": "assets/palettes/cutouts/university-nwpu.png",
+      "palette": "assets/palettes/extracted/university-nwpu.json"
+    },
+    {
+      "id": "university-cau",
+      "collection": "universities",
+      "group": null,
+      "name": "中国农业大学",
+      "card": "assets/palettes/cards/universities/university-cau.webp",
+      "cutout": "assets/palettes/cutouts/university-cau.png",
+      "palette": "assets/palettes/extracted/university-cau.json"
+    },
+    {
+      "id": "university-xiamen",
+      "collection": "universities",
+      "group": null,
+      "name": "厦门大学",
+      "card": "assets/palettes/cards/universities/university-xiamen.webp",
+      "cutout": "assets/palettes/cutouts/university-xiamen.png",
+      "palette": "assets/palettes/extracted/university-xiamen.json"
+    },
+    {
+      "id": "university-jilin",
+      "collection": "universities",
+      "group": null,
+      "name": "吉林大学",
+      "card": "assets/palettes/cards/universities/university-jilin.webp",
+      "cutout": "assets/palettes/cutouts/university-jilin.png",
+      "palette": "assets/palettes/extracted/university-jilin.json"
+    },
+    {
+      "id": "university-central-south",
+      "collection": "universities",
+      "group": null,
+      "name": "中南大学",
+      "card": "assets/palettes/cards/universities/university-central-south.webp",
+      "cutout": "assets/palettes/cutouts/university-central-south.png",
+      "palette": "assets/palettes/extracted/university-central-south.json"
+    },
+    {
+      "id": "university-dalian-technology",
+      "collection": "universities",
+      "group": null,
+      "name": "大连理工大学",
+      "card": "assets/palettes/cards/universities/university-dalian-technology.webp",
+      "cutout": "assets/palettes/cutouts/university-dalian-technology.png",
+      "palette": "assets/palettes/extracted/university-dalian-technology.json"
+    },
+    {
+      "id": "university-ecnu",
+      "collection": "universities",
+      "group": null,
+      "name": "华东师范大学",
+      "card": "assets/palettes/cards/universities/university-ecnu.webp",
+      "cutout": "assets/palettes/cutouts/university-ecnu.png",
+      "palette": "assets/palettes/extracted/university-ecnu.json"
+    },
+    {
+      "id": "university-sustech",
+      "collection": "universities",
+      "group": null,
+      "name": "南方科技大学",
+      "card": "assets/palettes/cards/universities/university-sustech.webp",
+      "cutout": "assets/palettes/cutouts/university-sustech.png",
+      "palette": "assets/palettes/extracted/university-sustech.json"
+    },
+    {
+      "id": "university-hunan",
+      "collection": "universities",
+      "group": null,
+      "name": "湖南大学",
+      "card": "assets/palettes/cards/universities/university-hunan.webp",
+      "cutout": "assets/palettes/cutouts/university-hunan.png",
+      "palette": "assets/palettes/extracted/university-hunan.json"
+    },
+    {
+      "id": "university-scut",
+      "collection": "universities",
+      "group": null,
+      "name": "华南理工大学",
+      "card": "assets/palettes/cards/universities/university-scut.webp",
+      "cutout": "assets/palettes/cutouts/university-scut.png",
+      "palette": "assets/palettes/extracted/university-scut.json"
+    },
+    {
+      "id": "university-uestc",
+      "collection": "universities",
+      "group": null,
+      "name": "电子科技大学",
+      "card": "assets/palettes/cards/universities/university-uestc.webp",
+      "cutout": "assets/palettes/cutouts/university-uestc.png",
+      "palette": "assets/palettes/extracted/university-uestc.json"
+    },
+    {
+      "id": "university-chongqing",
+      "collection": "universities",
+      "group": null,
+      "name": "重庆大学",
+      "card": "assets/palettes/cards/universities/university-chongqing.webp",
+      "cutout": "assets/palettes/cutouts/university-chongqing.png",
+      "palette": "assets/palettes/extracted/university-chongqing.json"
+    },
+    {
+      "id": "university-ustb",
+      "collection": "universities",
+      "group": null,
+      "name": "北京科技大学",
+      "card": "assets/palettes/cards/universities/university-ustb.webp",
+      "cutout": "assets/palettes/cutouts/university-ustb.png",
+      "palette": "assets/palettes/extracted/university-ustb.json"
+    },
+    {
+      "id": "university-njust",
+      "collection": "universities",
+      "group": null,
+      "name": "南京理工大学",
+      "card": "assets/palettes/cards/universities/university-njust.webp",
+      "cutout": "assets/palettes/cutouts/university-njust.png",
+      "palette": "assets/palettes/extracted/university-njust.json"
+    },
+    {
+      "id": "university-nuaa",
+      "collection": "universities",
+      "group": null,
+      "name": "南京航空航天大学",
+      "card": "assets/palettes/cards/universities/university-nuaa.webp",
+      "cutout": "assets/palettes/cutouts/university-nuaa.png",
+      "palette": "assets/palettes/extracted/university-nuaa.json"
+    },
+    {
+      "id": "university-northeastern",
+      "collection": "universities",
+      "group": null,
+      "name": "东北大学",
+      "card": "assets/palettes/cards/universities/university-northeastern.webp",
+      "cutout": "assets/palettes/cutouts/university-northeastern.png",
+      "palette": "assets/palettes/extracted/university-northeastern.json"
+    },
+    {
+      "id": "university-xidian",
+      "collection": "universities",
+      "group": null,
+      "name": "西安电子科技大学",
+      "card": "assets/palettes/cards/universities/university-xidian.webp",
+      "cutout": "assets/palettes/cutouts/university-xidian.png",
+      "palette": "assets/palettes/extracted/university-xidian.json"
+    },
+    {
+      "id": "university-lanzhou",
+      "collection": "universities",
+      "group": null,
+      "name": "兰州大学",
+      "card": "assets/palettes/cards/universities/university-lanzhou.webp",
+      "cutout": "assets/palettes/cutouts/university-lanzhou.png",
+      "palette": "assets/palettes/extracted/university-lanzhou.json"
+    },
+    {
+      "id": "university-bjtu",
+      "collection": "universities",
+      "group": null,
+      "name": "北京交通大学",
+      "card": "assets/palettes/cards/universities/university-bjtu.webp",
+      "cutout": "assets/palettes/cutouts/university-bjtu.png",
+      "palette": "assets/palettes/extracted/university-bjtu.json"
+    },
+    {
+      "id": "university-ecust",
+      "collection": "universities",
+      "group": null,
+      "name": "华东理工大学",
+      "card": "assets/palettes/cards/universities/university-ecust.webp",
+      "cutout": "assets/palettes/cutouts/university-ecust.png",
+      "palette": "assets/palettes/extracted/university-ecust.json"
+    },
+    {
+      "id": "university-harbin-engineering",
+      "collection": "universities",
+      "group": null,
+      "name": "哈尔滨工程大学",
+      "card": "assets/palettes/cards/universities/university-harbin-engineering.webp",
+      "cutout": "assets/palettes/cutouts/university-harbin-engineering.png",
+      "palette": "assets/palettes/extracted/university-harbin-engineering.json"
+    },
+    {
+      "id": "university-zhengzhou",
+      "collection": "universities",
+      "group": null,
+      "name": "郑州大学",
+      "card": "assets/palettes/cards/universities/university-zhengzhou.webp",
+      "cutout": "assets/palettes/cutouts/university-zhengzhou.png",
+      "palette": "assets/palettes/extracted/university-zhengzhou.json"
+    },
+    {
+      "id": "university-huazhong-agricultural",
+      "collection": "universities",
+      "group": null,
+      "name": "华中农业大学",
+      "card": "assets/palettes/cards/universities/university-huazhong-agricultural.webp",
+      "cutout": "assets/palettes/cutouts/university-huazhong-agricultural.png",
+      "palette": "assets/palettes/extracted/university-huazhong-agricultural.json"
+    },
+    {
+      "id": "university-soochow",
+      "collection": "universities",
+      "group": null,
+      "name": "苏州大学",
+      "card": "assets/palettes/cards/universities/university-soochow.webp",
+      "cutout": "assets/palettes/cutouts/university-soochow.png",
+      "palette": "assets/palettes/extracted/university-soochow.json"
+    },
+    {
+      "id": "university-shanghaitech",
+      "collection": "universities",
+      "group": null,
+      "name": "上海科技大学",
+      "card": "assets/palettes/cards/universities/university-shanghaitech.webp",
+      "cutout": "assets/palettes/cutouts/university-shanghaitech.png",
+      "palette": "assets/palettes/extracted/university-shanghaitech.json"
+    },
+    {
+      "id": "university-northeast-normal",
+      "collection": "universities",
+      "group": null,
+      "name": "东北师范大学",
+      "card": "assets/palettes/cards/universities/university-northeast-normal.webp",
+      "cutout": "assets/palettes/cutouts/university-northeast-normal.png",
+      "palette": "assets/palettes/extracted/university-northeast-normal.json"
+    },
+    {
+      "id": "university-southwest-jiaotong",
+      "collection": "universities",
+      "group": null,
+      "name": "西南交通大学",
+      "card": "assets/palettes/cards/universities/university-southwest-jiaotong.webp",
+      "cutout": "assets/palettes/cutouts/university-southwest-jiaotong.png",
+      "palette": "assets/palettes/extracted/university-southwest-jiaotong.json"
+    },
+    {
+      "id": "university-bupt",
+      "collection": "universities",
+      "group": null,
+      "name": "北京邮电大学",
+      "card": "assets/palettes/cards/universities/university-bupt.webp",
+      "cutout": "assets/palettes/cutouts/university-bupt.png",
+      "palette": "assets/palettes/extracted/university-bupt.json"
+    },
+    {
+      "id": "genshin-mondstadt-venti",
+      "collection": "genshin-characters",
+      "group": "蒙德",
+      "name": "温迪",
+      "card": "assets/palettes/cards/genshin-characters/genshin-mondstadt-venti.webp",
+      "cutout": "assets/palettes/cutouts/genshin-mondstadt-venti.png",
+      "palette": "assets/palettes/extracted/genshin-mondstadt-venti.json"
+    },
+    {
+      "id": "genshin-mondstadt-jean",
+      "collection": "genshin-characters",
+      "group": "蒙德",
+      "name": "琴",
+      "card": "assets/palettes/cards/genshin-characters/genshin-mondstadt-jean.webp",
+      "cutout": "assets/palettes/cutouts/genshin-mondstadt-jean.png",
+      "palette": "assets/palettes/extracted/genshin-mondstadt-jean.json"
+    },
+    {
+      "id": "genshin-mondstadt-diluc",
+      "collection": "genshin-characters",
+      "group": "蒙德",
+      "name": "迪卢克",
+      "card": "assets/palettes/cards/genshin-characters/genshin-mondstadt-diluc.webp",
+      "cutout": "assets/palettes/cutouts/genshin-mondstadt-diluc.png",
+      "palette": "assets/palettes/extracted/genshin-mondstadt-diluc.json"
+    },
+    {
+      "id": "genshin-mondstadt-albedo",
+      "collection": "genshin-characters",
+      "group": "蒙德",
+      "name": "阿贝多",
+      "card": "assets/palettes/cards/genshin-characters/genshin-mondstadt-albedo.webp",
+      "cutout": "assets/palettes/cutouts/genshin-mondstadt-albedo.png",
+      "palette": "assets/palettes/extracted/genshin-mondstadt-albedo.json"
+    },
+    {
+      "id": "genshin-mondstadt-eula",
+      "collection": "genshin-characters",
+      "group": "蒙德",
+      "name": "优菈",
+      "card": "assets/palettes/cards/genshin-characters/genshin-mondstadt-eula.webp",
+      "cutout": "assets/palettes/cutouts/genshin-mondstadt-eula.png",
+      "palette": "assets/palettes/extracted/genshin-mondstadt-eula.json"
+    },
+    {
+      "id": "genshin-liyue-zhongli",
+      "collection": "genshin-characters",
+      "group": "璃月",
+      "name": "钟离",
+      "card": "assets/palettes/cards/genshin-characters/genshin-liyue-zhongli.webp",
+      "cutout": "assets/palettes/cutouts/genshin-liyue-zhongli.png",
+      "palette": "assets/palettes/extracted/genshin-liyue-zhongli.json"
+    },
+    {
+      "id": "genshin-liyue-ningguang",
+      "collection": "genshin-characters",
+      "group": "璃月",
+      "name": "凝光",
+      "card": "assets/palettes/cards/genshin-characters/genshin-liyue-ningguang.webp",
+      "cutout": "assets/palettes/cutouts/genshin-liyue-ningguang.png",
+      "palette": "assets/palettes/extracted/genshin-liyue-ningguang.json"
+    },
+    {
+      "id": "genshin-liyue-xiao",
+      "collection": "genshin-characters",
+      "group": "璃月",
+      "name": "魈",
+      "card": "assets/palettes/cards/genshin-characters/genshin-liyue-xiao.webp",
+      "cutout": "assets/palettes/cutouts/genshin-liyue-xiao.png",
+      "palette": "assets/palettes/extracted/genshin-liyue-xiao.json"
+    },
+    {
+      "id": "genshin-liyue-ganyu",
+      "collection": "genshin-characters",
+      "group": "璃月",
+      "name": "甘雨",
+      "card": "assets/palettes/cards/genshin-characters/genshin-liyue-ganyu.webp",
+      "cutout": "assets/palettes/cutouts/genshin-liyue-ganyu.png",
+      "palette": "assets/palettes/extracted/genshin-liyue-ganyu.json"
+    },
+    {
+      "id": "genshin-liyue-hu-tao",
+      "collection": "genshin-characters",
+      "group": "璃月",
+      "name": "胡桃",
+      "card": "assets/palettes/cards/genshin-characters/genshin-liyue-hu-tao.webp",
+      "cutout": "assets/palettes/cutouts/genshin-liyue-hu-tao.png",
+      "palette": "assets/palettes/extracted/genshin-liyue-hu-tao.json"
+    },
+    {
+      "id": "genshin-inazuma-raiden-shogun",
+      "collection": "genshin-characters",
+      "group": "稻妻",
+      "name": "雷电将军",
+      "card": "assets/palettes/cards/genshin-characters/genshin-inazuma-raiden-shogun.webp",
+      "cutout": "assets/palettes/cutouts/genshin-inazuma-raiden-shogun.png",
+      "palette": "assets/palettes/extracted/genshin-inazuma-raiden-shogun.json"
+    },
+    {
+      "id": "genshin-inazuma-yae-miko",
+      "collection": "genshin-characters",
+      "group": "稻妻",
+      "name": "八重神子",
+      "card": "assets/palettes/cards/genshin-characters/genshin-inazuma-yae-miko.webp",
+      "cutout": "assets/palettes/cutouts/genshin-inazuma-yae-miko.png",
+      "palette": "assets/palettes/extracted/genshin-inazuma-yae-miko.json"
+    },
+    {
+      "id": "genshin-inazuma-kamisato-ayaka",
+      "collection": "genshin-characters",
+      "group": "稻妻",
+      "name": "神里绫华",
+      "card": "assets/palettes/cards/genshin-characters/genshin-inazuma-kamisato-ayaka.webp",
+      "cutout": "assets/palettes/cutouts/genshin-inazuma-kamisato-ayaka.png",
+      "palette": "assets/palettes/extracted/genshin-inazuma-kamisato-ayaka.json"
+    },
+    {
+      "id": "genshin-inazuma-yoimiya",
+      "collection": "genshin-characters",
+      "group": "稻妻",
+      "name": "宵宫",
+      "card": "assets/palettes/cards/genshin-characters/genshin-inazuma-yoimiya.webp",
+      "cutout": "assets/palettes/cutouts/genshin-inazuma-yoimiya.png",
+      "palette": "assets/palettes/extracted/genshin-inazuma-yoimiya.json"
+    },
+    {
+      "id": "genshin-inazuma-kaedehara-kazuha",
+      "collection": "genshin-characters",
+      "group": "稻妻",
+      "name": "枫原万叶",
+      "card": "assets/palettes/cards/genshin-characters/genshin-inazuma-kaedehara-kazuha.webp",
+      "cutout": "assets/palettes/cutouts/genshin-inazuma-kaedehara-kazuha.png",
+      "palette": "assets/palettes/extracted/genshin-inazuma-kaedehara-kazuha.json"
+    },
+    {
+      "id": "genshin-sumeru-nahida",
+      "collection": "genshin-characters",
+      "group": "须弥",
+      "name": "纳西妲",
+      "card": "assets/palettes/cards/genshin-characters/genshin-sumeru-nahida.webp",
+      "cutout": "assets/palettes/cutouts/genshin-sumeru-nahida.png",
+      "palette": "assets/palettes/extracted/genshin-sumeru-nahida.json"
+    },
+    {
+      "id": "genshin-sumeru-alhaitham",
+      "collection": "genshin-characters",
+      "group": "须弥",
+      "name": "艾尔海森",
+      "card": "assets/palettes/cards/genshin-characters/genshin-sumeru-alhaitham.webp",
+      "cutout": "assets/palettes/cutouts/genshin-sumeru-alhaitham.png",
+      "palette": "assets/palettes/extracted/genshin-sumeru-alhaitham.json"
+    },
+    {
+      "id": "genshin-sumeru-cyno",
+      "collection": "genshin-characters",
+      "group": "须弥",
+      "name": "赛诺",
+      "card": "assets/palettes/cards/genshin-characters/genshin-sumeru-cyno.webp",
+      "cutout": "assets/palettes/cutouts/genshin-sumeru-cyno.png",
+      "palette": "assets/palettes/extracted/genshin-sumeru-cyno.json"
+    },
+    {
+      "id": "genshin-sumeru-nilou",
+      "collection": "genshin-characters",
+      "group": "须弥",
+      "name": "妮露",
+      "card": "assets/palettes/cards/genshin-characters/genshin-sumeru-nilou.webp",
+      "cutout": "assets/palettes/cutouts/genshin-sumeru-nilou.png",
+      "palette": "assets/palettes/extracted/genshin-sumeru-nilou.json"
+    },
+    {
+      "id": "genshin-sumeru-dehya",
+      "collection": "genshin-characters",
+      "group": "须弥",
+      "name": "迪希雅",
+      "card": "assets/palettes/cards/genshin-characters/genshin-sumeru-dehya.webp",
+      "cutout": "assets/palettes/cutouts/genshin-sumeru-dehya.png",
+      "palette": "assets/palettes/extracted/genshin-sumeru-dehya.json"
+    },
+    {
+      "id": "genshin-fontaine-furina",
+      "collection": "genshin-characters",
+      "group": "枫丹",
+      "name": "芙宁娜",
+      "card": "assets/palettes/cards/genshin-characters/genshin-fontaine-furina.webp",
+      "cutout": "assets/palettes/cutouts/genshin-fontaine-furina.png",
+      "palette": "assets/palettes/extracted/genshin-fontaine-furina.json"
+    },
+    {
+      "id": "genshin-fontaine-neuvillette",
+      "collection": "genshin-characters",
+      "group": "枫丹",
+      "name": "那维莱特",
+      "card": "assets/palettes/cards/genshin-characters/genshin-fontaine-neuvillette.webp",
+      "cutout": "assets/palettes/cutouts/genshin-fontaine-neuvillette.png",
+      "palette": "assets/palettes/extracted/genshin-fontaine-neuvillette.json"
+    },
+    {
+      "id": "genshin-fontaine-wriothesley",
+      "collection": "genshin-characters",
+      "group": "枫丹",
+      "name": "莱欧斯利",
+      "card": "assets/palettes/cards/genshin-characters/genshin-fontaine-wriothesley.webp",
+      "cutout": "assets/palettes/cutouts/genshin-fontaine-wriothesley.png",
+      "palette": "assets/palettes/extracted/genshin-fontaine-wriothesley.json"
+    },
+    {
+      "id": "genshin-fontaine-navia",
+      "collection": "genshin-characters",
+      "group": "枫丹",
+      "name": "娜维娅",
+      "card": "assets/palettes/cards/genshin-characters/genshin-fontaine-navia.webp",
+      "cutout": "assets/palettes/cutouts/genshin-fontaine-navia.png",
+      "palette": "assets/palettes/extracted/genshin-fontaine-navia.json"
+    },
+    {
+      "id": "genshin-fontaine-clorinde",
+      "collection": "genshin-characters",
+      "group": "枫丹",
+      "name": "克洛琳德",
+      "card": "assets/palettes/cards/genshin-characters/genshin-fontaine-clorinde.webp",
+      "cutout": "assets/palettes/cutouts/genshin-fontaine-clorinde.png",
+      "palette": "assets/palettes/extracted/genshin-fontaine-clorinde.json"
+    },
+    {
+      "id": "genshin-natlan-mavuika",
+      "collection": "genshin-characters",
+      "group": "纳塔",
+      "name": "玛薇卡",
+      "card": "assets/palettes/cards/genshin-characters/genshin-natlan-mavuika.webp",
+      "cutout": "assets/palettes/cutouts/genshin-natlan-mavuika.png",
+      "palette": "assets/palettes/extracted/genshin-natlan-mavuika.json"
+    },
+    {
+      "id": "genshin-natlan-xilonen",
+      "collection": "genshin-characters",
+      "group": "纳塔",
+      "name": "希诺宁",
+      "card": "assets/palettes/cards/genshin-characters/genshin-natlan-xilonen.webp",
+      "cutout": "assets/palettes/cutouts/genshin-natlan-xilonen.png",
+      "palette": "assets/palettes/extracted/genshin-natlan-xilonen.json"
+    },
+    {
+      "id": "genshin-natlan-kinich",
+      "collection": "genshin-characters",
+      "group": "纳塔",
+      "name": "基尼奇",
+      "card": "assets/palettes/cards/genshin-characters/genshin-natlan-kinich.webp",
+      "cutout": "assets/palettes/cutouts/genshin-natlan-kinich.png",
+      "palette": "assets/palettes/extracted/genshin-natlan-kinich.json"
+    },
+    {
+      "id": "genshin-natlan-mualani",
+      "collection": "genshin-characters",
+      "group": "纳塔",
+      "name": "玛拉妮",
+      "card": "assets/palettes/cards/genshin-characters/genshin-natlan-mualani.webp",
+      "cutout": "assets/palettes/cutouts/genshin-natlan-mualani.png",
+      "palette": "assets/palettes/extracted/genshin-natlan-mualani.json"
+    },
+    {
+      "id": "genshin-natlan-citlali",
+      "collection": "genshin-characters",
+      "group": "纳塔",
+      "name": "茜特菈莉",
+      "card": "assets/palettes/cards/genshin-characters/genshin-natlan-citlali.webp",
+      "cutout": "assets/palettes/cutouts/genshin-natlan-citlali.png",
+      "palette": "assets/palettes/extracted/genshin-natlan-citlali.json"
+    },
+    {
+      "id": "genshin-nod-krai-lauma",
+      "collection": "genshin-characters",
+      "group": "挪德卡莱",
+      "name": "菈乌玛",
+      "card": "assets/palettes/cards/genshin-characters/genshin-nod-krai-lauma.webp",
+      "cutout": "assets/palettes/cutouts/genshin-nod-krai-lauma.png",
+      "palette": "assets/palettes/extracted/genshin-nod-krai-lauma.json"
+    },
+    {
+      "id": "genshin-nod-krai-flins",
+      "collection": "genshin-characters",
+      "group": "挪德卡莱",
+      "name": "菲林斯",
+      "card": "assets/palettes/cards/genshin-characters/genshin-nod-krai-flins.webp",
+      "cutout": "assets/palettes/cutouts/genshin-nod-krai-flins.png",
+      "palette": "assets/palettes/extracted/genshin-nod-krai-flins.json"
+    },
+    {
+      "id": "genshin-nod-krai-aino",
+      "collection": "genshin-characters",
+      "group": "挪德卡莱",
+      "name": "爱诺",
+      "card": "assets/palettes/cards/genshin-characters/genshin-nod-krai-aino.webp",
+      "cutout": "assets/palettes/cutouts/genshin-nod-krai-aino.png",
+      "palette": "assets/palettes/extracted/genshin-nod-krai-aino.json"
+    },
+    {
+      "id": "genshin-nod-krai-ineffa",
+      "collection": "genshin-characters",
+      "group": "挪德卡莱",
+      "name": "伊涅芙",
+      "card": "assets/palettes/cards/genshin-characters/genshin-nod-krai-ineffa.webp",
+      "cutout": "assets/palettes/cutouts/genshin-nod-krai-ineffa.png",
+      "palette": "assets/palettes/extracted/genshin-nod-krai-ineffa.json"
+    },
+    {
+      "id": "genshin-nod-krai-columbina",
+      "collection": "genshin-characters",
+      "group": "挪德卡莱",
+      "name": "哥伦比娅",
+      "card": "assets/palettes/cards/genshin-characters/genshin-nod-krai-columbina.webp",
+      "cutout": "assets/palettes/cutouts/genshin-nod-krai-columbina.png",
+      "palette": "assets/palettes/extracted/genshin-nod-krai-columbina.json"
+    }
+  ]
+}

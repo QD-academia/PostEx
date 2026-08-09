@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-xian-jiao-tong",
+  "name": "西安交通大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-xian-jiao-tong.png",
+  "source_sha256": "e1d177020d79609f56adf9aa52fd1ed9f91018fe74ad2927c189d2e726b5dc84",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#CA2B2E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355E82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3274",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#127B87",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

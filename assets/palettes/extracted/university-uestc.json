@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-uestc",
+  "name": "电子科技大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-uestc.png",
+  "source_sha256": "dda31f127d7bdd6cac89263c9c346ad0e479078003f2b602580212b651f9dec4",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#004098",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#D6AC71",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#355583",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#1B3274",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

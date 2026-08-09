@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-natlan-citlali",
+  "name": "茜特菈莉",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-natlan-citlali.png",
+  "source_sha256": "11c79f42bef9af74ed4a4ade2be9e76d7ebda2bac00c9ecf0ffe8bc73c1604d5",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#1E1844",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#907BC6",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#32357E",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#5B53A3",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

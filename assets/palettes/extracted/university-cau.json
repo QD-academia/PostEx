@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-cau",
+  "name": "中国农业大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-cau.png",
+  "source_sha256": "a329d3cd96960ab6818df976c51e5b903ed738cd1423a4f162de657c04a36a21",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#028C41",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#358266",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B746B",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#952D53",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-natlan-kinich",
+  "name": "基尼奇",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-natlan-kinich.png",
+  "source_sha256": "de7b0e7f403d183c6e41725696cda51ba03c95d3d9fafb6e37dd22c5c8773611",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#22262D",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#28646C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B4049",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#EFE2C0",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

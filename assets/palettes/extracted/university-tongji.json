@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-tongji",
+  "name": "同济大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-tongji.png",
+  "source_sha256": "637b69ae83a59ba78575b7eaa089a00bb14b49ee20e8f27b7399f7eff19cd2c8",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#016199",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355E82",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3274",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#137B88",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

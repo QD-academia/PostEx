@@ -4,8 +4,12 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.3.0a1] - 2026-08-08
+
 ### Added
 
+- Built-in 104-palette catalog: 19 Chinese city landmarks, ShanghaiRanking 2026 Top50 university emblems, and 35 Genshin character palettes across seven regions.
+- Transparent source-art presentation, six-role palette extraction, 900×1240 WebP card rendering, catalog contact sheets, and redistribution-rights release audit.
 - CC0 fictional LUMEN-24 observational fixture and homepage evidence preview.
 - Production-rendered Paimon-inspired AURORA-12 examples for A1 and 36×48-inch formats.
 

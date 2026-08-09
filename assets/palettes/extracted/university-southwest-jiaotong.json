@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-southwest-jiaotong",
+  "name": "西南交通大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-southwest-jiaotong.png",
+  "source_sha256": "2437eca2b4813fc2220cf062b21e9a8bf624b1743f800c4586f6df634b718d82",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#0D78B8",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#4489B4",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#DEFCFE",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#9ACFE7",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

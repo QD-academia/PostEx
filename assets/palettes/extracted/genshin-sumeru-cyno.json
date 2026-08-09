@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-sumeru-cyno",
+  "name": "赛诺",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-sumeru-cyno.png",
+  "source_sha256": "3964ce5635b7b7c2e9a73a5bed221bb3d6b3b16b79b3b99a486b21b707166892",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#211A24",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#322D43",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#7D472D",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#7B686F",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-liyue-ganyu",
+  "name": "甘雨",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-liyue-ganyu.png",
+  "source_sha256": "3190fec6830042828f8e8bf8393a3d9e74decb6da4d81673d205f2e0bf084a59",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#6D8EC2",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#495B95",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#99A6C5",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#26274B",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

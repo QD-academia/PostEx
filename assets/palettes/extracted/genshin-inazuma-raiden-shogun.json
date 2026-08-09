@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-inazuma-raiden-shogun",
+  "name": "雷电将军",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-inazuma-raiden-shogun.png",
+  "source_sha256": "819be8f6201ac4c05ab2c707407cf284d8a47f1b9dc79caa32347630f057ec46",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#644D7E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#1C112B",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#8665A7",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#2A1F49",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

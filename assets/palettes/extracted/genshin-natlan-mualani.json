@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-natlan-mualani",
+  "name": "玛拉妮",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-natlan-mualani.png",
+  "source_sha256": "12f1cc2fdf7c3e88df8d79a511ad61d010efd9ada7c32a4a71842ad4566d7fc6",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#0A1D3E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#4A769A",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#E9BF9F",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#BB9480",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

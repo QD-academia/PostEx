@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-ecnu",
+  "name": "华东师范大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-ecnu.png",
+  "source_sha256": "4ad204cc751d411f6ba5950b2b36720c3be8412b68bf27cb84e3bb7a1a68af71",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#A32035",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#963D4E",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#A71766",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#31A28D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

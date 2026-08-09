@@ -17,6 +17,9 @@ output/
 !assets/templates/**/preview.png
 !assets/templates/**/*.pptx
 !assets/templates/**/*.png
+!assets/palettes/cutouts/*.png
+!assets/palettes/cards/**/*.png
+!assets/palettes/previews/*.png
 !examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf
 !examples/aurora-synthetic/output/**/*.pptx
 !examples/aurora-synthetic/output/**/*.pdf
@@ -24,4 +27,10 @@ output/
 !evals/previews/**/*.pptx
 !evals/previews/**/*.png
 !docs/images/*.png
+!docs/images/palettes/*.png
 .env
+.cache/
+assets/palettes/incoming/originals/
+reports/palette-source-search/university-thumbnails/
+reports/palette-source-search/*-contact-sheet.jpg
+reports/palette-source-search/*-contact-sheet.png

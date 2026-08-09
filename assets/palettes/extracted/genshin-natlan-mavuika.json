@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-natlan-mavuika",
+  "name": "玛薇卡",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-natlan-mavuika.png",
+  "source_sha256": "f6e7479b3b066b7c55aa166440edc1f9012f1dd278c51d023cbb0d166445fc1f",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#60312E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#4D100B",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#E23E1B",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#AE413E",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

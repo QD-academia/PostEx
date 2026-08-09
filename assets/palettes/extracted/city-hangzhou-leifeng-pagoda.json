@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "city-hangzhou-leifeng-pagoda",
+  "name": "杭州·雷峰塔",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/city-hangzhou-leifeng-pagoda.png",
+  "source_sha256": "7635946ca97382b4487a0e3b6e306aab3f0fca8bdf6decca90b90155862f3a01",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#2A1E26",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#6D615E",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#514D4E",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#908477",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

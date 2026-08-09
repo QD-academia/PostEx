@@ -2,9 +2,21 @@
 
 **Let every study have its own visual identity.**
 
-PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.2 introduces **Palette Fusion**: it combines evidence-linked scientific content with natural-language inspiration, reference images, named themes, brand systems, or manual colors to create a coherent poster identity—not merely a recolored template.
+PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.3 adds a curated **Built-in Palette Library** while retaining Palette Fusion: evidence-linked scientific content can now start from 104 ready-to-browse visual identities as well as natural-language inspiration, reference images, named themes, brand systems, or manual colors.
 
-> Status: `0.2.0a2`. Palette DNA, Poster Brief, three-direction fusion planning, figure-edit approval, design locks, explainable rationale, and approval-bound Palette DNA rendering are runnable. The Bioinformatics Pipeline family remains the production-renderable family while the remaining template families are developed.
+> Status: `0.3.0a1`. The built-in palette catalog, source-art cards, rights audit, Palette DNA, Poster Brief, fusion planning, figure-edit approval, design locks, and approval-bound rendering are runnable. The Bioinformatics Pipeline family remains the production-renderable family while the remaining template families are developed.
+
+## Built-in palette library
+
+PostEx 0.3 includes 104 source-grounded cards: 19 Chinese city landmarks, the ShanghaiRanking 2026 Top50 university emblems, and 35 Genshin characters grouped by Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Nod-Krai. Each card combines transparent source art with a six-role, poster-ready palette and machine-readable provenance.
+
+[![All 104 built-in PostEx palette cards](assets/palettes/previews/all-palettes.webp)](assets/palettes/previews/all-palettes.webp)
+
+See the [built-in palette documentation](docs/built-in-palettes.md) or audit a checkout with:
+
+```bash
+postex palette-catalog --root . --show-blockers
+```
 
 ## See PostEx in action
 

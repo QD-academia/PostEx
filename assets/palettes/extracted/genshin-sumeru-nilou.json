@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-sumeru-nilou",
+  "name": "妮露",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-sumeru-nilou.png",
+  "source_sha256": "5500f086c057e7491a3c77c8dce9d930524e87986d4f19f6ce55fa23a6976310",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#C35840",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#2C4B66",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#9F2B1C",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#1B2335",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

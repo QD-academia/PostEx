@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "city-nanjing-sun-yat-sen-mausoleum",
+  "name": "南京·中山陵",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/city-nanjing-sun-yat-sen-mausoleum.png",
+  "source_sha256": "475684ca2b2251e562dd5bb1232771b65826355611b7e4da3a8ed312c27e99db",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#BFB1A7",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#202720",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#62615B",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#413937",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

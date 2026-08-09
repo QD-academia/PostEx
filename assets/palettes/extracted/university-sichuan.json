@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-sichuan",
+  "name": "四川大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-sichuan.png",
+  "source_sha256": "3d390c75229aeb54ee4a5e18f975813d31937fe3053cc637d4ba391f81edd7d6",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#B43024",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#A44347",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#993E24",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#B71959",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

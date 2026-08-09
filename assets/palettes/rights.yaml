@@ -1,0 +1,781 @@
+schema_version: '0.3'
+default_status: pending
+status_definitions:
+  pending: Source has not been cleared for redistribution.
+  internal-only: Asset may be used for local evaluation but cannot ship.
+  permission-granted: Written redistribution permission is recorded.
+  project-owned: PostEx owns the asset or commissioned it with transferable rights.
+  public-domain: Source is documented as public domain.
+  cc0: Source is released under CC0-1.0.
+  cc-by: Source is released under a compatible CC BY license and attribution is recorded.
+  cc-by-sa: Source is released under a compatible CC BY-SA license and attribution is recorded.
+assets:
+  city-beijing-temple-of-heaven:
+    status: public-domain
+    source_url: https://commons.wikimedia.org/wiki/File:Hall_of_Prayer_for_Good_Harvest.JPG
+    license: Public domain
+    attribution: Hall of Prayer for Good Harvest.JPG — Fong Chen
+    modified: true
+  city-shanghai-oriental-pearl:
+    status: cc-by
+    source_url: https://commons.wikimedia.org/wiki/File:%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_(15).jpg
+    license: CC BY 3.0
+    attribution: ·˙·ChinaUli2010·.· Shanghai - Oriental Pearl TV Tower - panoramio (15).jpg — ·˙·ChinaUli2010·.·
+    modified: true
+  city-guangzhou-canton-tower:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg
+    license: CC BY-SA 2.0
+    attribution: Canton tower in asian games opening ceremony.jpg — Colin Zhu from Guangzhou, China
+    modified: true
+  city-shenzhen-civic-center:
+    status: cc-by
+    source_url: https://commons.wikimedia.org/wiki/File:Shenzhen_Civic_Center_01.jpg
+    license: CC BY 2.0
+    attribution: Shenzhen Civic Center 01.jpg — Ged Carroll from London mostly, UK
+    modified: true
+  city-hangzhou-leifeng-pagoda:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda,_Hangzhou.JPG
+    license: CC BY-SA 3.0
+    attribution: Leifeng Pagoda, Hangzhou.JPG — 螺钉
+    modified: true
+  city-wuhan-yellow-crane-tower:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg
+    license: CC BY-SA 3.0
+    attribution: CN - Hubei - Wuhan - Kranichpagode.jpg — MonsieurRoi
+    modified: true
+  city-nanjing-sun-yat-sen-mausoleum:
+    status: cc-by
+    source_url: https://commons.wikimedia.org/wiki/File:Sun_Yat-sen_Mausoleum,_Nanjing_(2789677299).jpg
+    license: CC BY 2.0
+    attribution: Sun Yat-sen Mausoleum, Nanjing (2789677299).jpg — Peter Dowley from Dubai, United Arab Emirates
+    modified: true
+  city-suzhou-humble-administrators-garden:
+    status: public-domain
+    source_url: https://commons.wikimedia.org/wiki/File:Pavilions_in_Humble_Administrator%27s_Garden.JPG
+    license: Public domain
+    attribution: Pavilions in Humble Administrator's Garden.JPG — 韩笃一
+    modified: true
+  city-chongqing-hongya-cave:
+    status: cc-by
+    source_url: https://commons.wikimedia.org/wiki/File:Hongya_Cave_Centre_at_night_-_panoramio.jpg
+    license: CC BY 3.0
+    attribution: Hongya Cave Centre at night - panoramio.jpg — Raki_Man
+    modified: true
+  city-chengdu-anshun-bridge:
+    status: cc-by
+    source_url: https://commons.wikimedia.org/wiki/File:Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg
+    license: CC BY 3.0
+    attribution: Restaurant sobre el pont - panoramio - danferman.jpg — danferman
+    modified: true
+  city-xian-bell-tower:
+    status: public-domain
+    source_url: https://commons.wikimedia.org/wiki/File:Xi%27an_bell_tower.jpg
+    license: Public domain
+    attribution: Xi'an bell tower.jpg — This image was produced by me, David Castor (user:dcastor). The pictures I submit
+      to the Wikipedia Project are released to the public domain. This gives you the right to use them in any way you like,
+      without any kind of notification. This said, I would still appreciate to be mentioned as the originator whenever you
+      think it complies well with your use of the picture. A message to me about how it has been used would also be welcome.
+      You are obviously not required to respond to these wishes of mine, just in a friendly manner encouraged to. (All my
+      photos are placed in Category:Images by David Castor or a subcategory thereof.)
+    modified: true
+  city-nantong-museum:
+    status: cc-by
+    source_url: https://commons.wikimedia.org/wiki/File:Nantong_Museum_1.jpg
+    license: CC BY 3.0
+    attribution: 'Nantong Museum 1.jpg — This illustration was made by Peter Potrowl. Please credit this with : © Peter Potrowl
+      in the immediate vicinity of the image. A link to my website sitemai.eu would be much appreciated but isn''t mandatory.
+      An email to Peter Potrowl would be appreciated too. Do not copy this image illegally by ignoring the terms of the license
+      below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image
+      please contact me Peter Potrowl to negotiate terms. More free pictures in my website. Donations are accepted here and
+      here.'
+    modified: true
+  city-wuxi-changchun-bridge:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Yuantouzhu,Lake_Tai,Wuxi.JPG
+    license: CC BY-SA 3.0
+    attribution: Yuantouzhu,Lake Tai,Wuxi.JPG — 螺钉
+    modified: true
+  city-ningbo-tianyi-pavilion:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Ningbo_-_Tianyi_Pavilion_Museum_02.jpg
+    license: CC BY-SA 3.0
+    attribution: Ningbo - Tianyi Pavilion Museum 02.jpg — Nablazzz
+    modified: true
+  city-lanzhou-zhongshan-bridge:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Zhongshan-Br%C3%BCcke-05.JPG
+    license: CC BY-SA 3.0
+    attribution: Zhongshan-Brücke-05.JPG — Sigismund von Dobschütz
+    modified: true
+  city-harbin-saint-sophia:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral_Harbin.JPG
+    license: CC BY-SA 3.0
+    attribution: Saint Sophia Cathedral Harbin.JPG — Tlrmq
+    modified: true
+  city-shenyang-imperial-palace:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg
+    license: CC BY-SA 4.0
+    attribution: 沈阳故宫大政殿2019.jpg — ScareCriterion12
+    modified: true
+  city-fuzhou-three-lanes:
+    status: public-domain
+    source_url: https://commons.wikimedia.org/wiki/File:Foochow_house.JPG
+    license: Public domain
+    attribution: Foochow house.JPG — GnuDoyng
+    modified: true
+  city-xiamen-twin-towers:
+    status: cc-by-sa
+    source_url: https://commons.wikimedia.org/wiki/File:Xiamen_MO_Sky_Mansion.jpg
+    license: CC BY-SA 3.0
+    attribution: Xiamen MO Sky Mansion.jpg — James Yu
+    modified: true
+  university-tsinghua:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/tsinghua-university/240w/tsinghua-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 清华大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-peking:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/peking-university/240w/peking-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-zhejiang:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/zhejiang-university/240w/zhejiang-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 浙江大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-shanghai-jiao-tong:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/shanghai-jiao-tong-university/240w/shanghai-jiao-tong-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 上海交通大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-fudan:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/fudan-university/240w/fudan-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 复旦大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-nanjing:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/nanjing-university/240w/nanjing-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 南京大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-ustc:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/university-of-science-and-technology-of-china/240w/university-of-science-and-technology-of-china-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 中国科学技术大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-wuhan:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/wuhan-university/240w/wuhan-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 武汉大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-hust:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/huazhong-university-of-science-and-technology/240w/huazhong-university-of-science-and-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 华中科技大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-xian-jiao-tong:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/xian-jiaotong-university/240w/xian-jiaotong-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 西安交通大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-beihang:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/beihang-university/240w/beihang-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京航空航天大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-hit:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/harbin-institute-of-technology/240w/harbin-institute-of-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 哈尔滨工业大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-sun-yat-sen:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/sun-yat-sen-university/240w/sun-yat-sen-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 中山大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-bit:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/beijing-institute-of-technology/240w/beijing-institute-of-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京理工大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-southeast:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/southeast-university/240w/southeast-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 东南大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-sichuan:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/sichuan-university/240w/sichuan-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 四川大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-renmin:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/renmin-university-of-china/240w/renmin-university-of-china-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 中国人民大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-tongji:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/tongji-university/240w/tongji-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 同济大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-bnu:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/beijing-normal-university/240w/beijing-normal-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京师范大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-tianjin:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/tianjin-university/240w/tianjin-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 天津大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-nankai:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/nankai-university/240w/nankai-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 南开大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-shandong:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/shandong-university/240w/shandong-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 山东大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-nwpu:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/northwestern-polytechnical-university/240w/northwestern-polytechnical-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 西北工业大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-cau:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/china-agricultural-university/240w/china-agricultural-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 中国农业大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-xiamen:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/xiamen-university/240w/xiamen-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 厦门大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-jilin:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/jilin-university/240w/jilin-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 吉林大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-central-south:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/central-south-university/240w/central-south-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 中南大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-dalian-technology:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/dalian-university-of-technology/240w/dalian-university-of-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 大连理工大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-ecnu:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/east-china-normal-university/240w/east-china-normal-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 华东师范大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-sustech:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/southern-university-of-science-and-technology/240w/southern-university-of-science-and-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 南方科技大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-hunan:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/hunan-university/240w/hunan-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 湖南大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-scut:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/south-china-university-of-technology/240w/south-china-university-of-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 华南理工大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-uestc:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/university-of-electronic-science-and-technology-of-china/240w/university-of-electronic-science-and-technology-of-china-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 电子科技大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-chongqing:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/chongqing-university/240w/chongqing-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 重庆大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-ustb:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/university-of-science--technology-beijing/240w/university-of-science--technology-beijing-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京科技大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-njust:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/nanjing-university-of-science--technology/240w/nanjing-university-of-science--technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 南京理工大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-nuaa:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/nanjing-university-of-aeronautics-and-astronautics/240w/nanjing-university-of-aeronautics-and-astronautics-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 南京航空航天大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-northeastern:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/northeastern-university/240w/northeastern-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 东北大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-xidian:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/xidian-university/240w/xidian-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 西安电子科技大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-lanzhou:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/lanzhou-university/240w/lanzhou-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 兰州大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-bjtu:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/beijing-jiaotong-university/240w/beijing-jiaotong-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京交通大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-ecust:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/east-china-university-of-science-and-technology/240w/east-china-university-of-science-and-technology-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 华东理工大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-harbin-engineering:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/harbin-engineering-university/240w/harbin-engineering-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 哈尔滨工程大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-zhengzhou:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/zhengzhou-university/240w/zhengzhou-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 郑州大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-huazhong-agricultural:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/huazhong-agricultural-university/240w/huazhong-agricultural-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 华中农业大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-soochow:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/soochow-university/240w/soochow-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 苏州大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-shanghaitech:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/shanghaitech-university/240w/shanghaitech-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 上海科技大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-northeast-normal:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/northeast-normal-university/240w/northeast-normal-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 东北师范大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-southwest-jiaotong:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/southwest-jiaotong-university/240w/southwest-jiaotong-university-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 西南交通大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  university-bupt:
+    status: permission-granted
+    source_url: https://cdn.urongda.com/images/schools/beijing-university-of-posts-and-telecommunications/240w/beijing-university-of-posts-and-telecommunications-240w.webp
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © 北京邮电大学
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+    retrieval_page: https://urongda.com/logos
+  genshin-mondstadt-venti:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/965e940e6caafe8fbd4bf0e17653000b_7797376782783229067.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-mondstadt-jean:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/b51565c6f1298e534e90b6e63332e9c1_6618231443033589469.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-mondstadt-diluc:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/f5ae62eff2cf426e98626c882dd0cf0d_3491810425996357724.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-mondstadt-albedo:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/f95b03a7d7370aa4f5de3ac9a5f161bc_96708841112282504.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-mondstadt-eula:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/4c4b8babc68ffedce9bd5766b60e1ae5_8781849729625946129.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-liyue-zhongli:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/e699d7e2413ed5dfb384ee48c2b872d3_5181262111088024686.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-liyue-ningguang:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/d35a0a1d13f821fd55a6951210c672ac_8868204139408761896.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-liyue-xiao:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/930f3ce55517e3c711a962c82e4639c0_8788966481995409698.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-liyue-ganyu:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/1ae0d0aaad9ee9b55652ea7ec67f0465_624394286022075834.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-liyue-hu-tao:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/300df2aed5060579f08d7db601d8710d_118206614584398576.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-inazuma-raiden-shogun:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/fdcbc9ef8859b7077d92ae38d925e15e_7767077963502328666.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-inazuma-yae-miko:
+    status: permission-granted
+    source_url: https://uploadstatic.mihoyo.com/contentweb/20220208/2022020814003845991.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-inazuma-kamisato-ayaka:
+    status: permission-granted
+    source_url: https://uploadstatic.mihoyo.com/contentweb/20210720/2021072011090118454.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-inazuma-yoimiya:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/06/30/593e6a6d5d8836ca2ab5c27a98593e58_7195951238560837785.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-inazuma-kaedehara-kazuha:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/07/04/44e2d916d9c13bca863d56423004fd98_5259521148631074871.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-sumeru-nahida:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/10/24/fe684624008db25ac4b44ea4704f9ba0_4542359697614905341.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-sumeru-alhaitham:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2023/01/10/1f3bc8199884ff93a04e713809e4aef3_66257121119188218.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-sumeru-cyno:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/09/21/c4f05fb0c04afac045171c27c7d03cdc_7123941963780824423.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-sumeru-nilou:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2022/09/27/d978cf1ce85e372971bdcf6add639e8f_5385395843160526652.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-sumeru-dehya:
+    status: permission-granted
+    source_url: https://webstatic.mihoyo.com/upload/contentweb/2023/02/03/28d4e40c6f27105a444d7477229f8ced_6061104866077771332.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-fontaine-furina:
+    status: permission-granted
+    source_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/e8d153da1a2dca7a07fd76397cd60612_7641410511196198159.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-fontaine-neuvillette:
+    status: permission-granted
+    source_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/43a4c54c7bf0689f5bd3d7b23798f9e9_6680261336665197454.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-fontaine-wriothesley:
+    status: permission-granted
+    source_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/dc378808e6f7d2109a95186b0f312773_3179733661324062252.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-fontaine-navia:
+    status: permission-granted
+    source_url: https://act-webstatic.mihoyo.com/upload/contentweb/hk4e/c765b3ba5e3b25ce6e8afd3e758251a8_741046217554426529.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-fontaine-clorinde:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/123893/c3f7661378c0cfa11ab2cc2a9bd09c5e_4714225803080593226.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-natlan-mavuika:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/127622/e03b719f827eba22de2b3e4de1778f19_443214802071996334.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-natlan-xilonen:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/126200/0dca02ec950a9713e811f2aee6169ba6_4674205181278794291.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-natlan-kinich:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/125706/e0cfc13a904c1fc542924ae1e4d61da5_8583956813350043278.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-natlan-mualani:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/125367/15252d1fb7f5cb3b5f6441f507abfefd_6969627761777064385.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-natlan-citlali:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/127616/fe1da72a75427bb2fcc15c9d25ab1a55_5884844607579486920.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-nod-krai-lauma:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/159322/16068549dffb811a7b3e1787c220c945_6864954280188492103.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-nod-krai-flins:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/159856/df998d945d99d423b3b5139e1dfdcfc3_5743294209352973794.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-nod-krai-aino:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/159985/4451e31063007d81075e8743f873337a_7341622504943727164.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-nod-krai-ineffa:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/157824/0939d9b343340db5f0d2c3cf4e18e83b_531980484149140309.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08
+  genshin-nod-krai-columbina:
+    status: permission-granted
+    source_url: https://fastcdn.mihoyo.com/content-v2/hk4e/162064/57aec6a3774c7fcbf9bd70abeed9be84_7992530274035884759.png
+    license: Written redistribution permission / authorized asset (user-attested)
+    attribution: © miHoYo / HoYoverse
+    modified: true
+    permission_record: user-attestation://postex-thread/2026-08-08

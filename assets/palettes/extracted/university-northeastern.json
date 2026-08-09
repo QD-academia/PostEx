@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-northeastern",
+  "name": "东北大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-northeastern.png",
+  "source_sha256": "92629936edeb434eaa24c26c7e50ff57ad464cc48719c0f99e2c364992b44d7d",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#28448A",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#1F3068",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#E2ECF7",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#C6D0E6",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-zhejiang",
+  "name": "浙江大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-zhejiang.png",
+  "source_sha256": "8524b1baa104fbc1d4afc9c8e2c8812e94b2bc2f6a5fa2d70b4d966b37fed650",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#004DA3",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355982",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B2C74",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#127287",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

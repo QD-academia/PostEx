@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-inazuma-kamisato-ayaka",
+  "name": "神里绫华",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-inazuma-kamisato-ayaka.png",
+  "source_sha256": "bfb45c5362fb6ca7847c08bf85466d50d76d0cd5e09b40f3d1964f9d8960f519",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#14152E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#B9C6D2",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#403B51",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#6B6277",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

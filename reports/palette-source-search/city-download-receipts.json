@@ -1,0 +1,366 @@
+{
+  "schema_version": "0.3",
+  "assets": [
+    {
+      "id": "city-beijing-temple-of-heaven",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hall_of_Prayer_for_Good_Harvest.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hall_of_Prayer_for_Good_Harvest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "4e365b83d59941d9dd0f70d8c4bfad986c4ea68f3f162e03daa0399292cd4e38",
+      "source_dimensions": [
+        3000,
+        2000
+      ],
+      "cutout_dimensions": [
+        571,
+        668
+      ],
+      "cutout": "assets/palettes/cutouts/city-beijing-temple-of-heaven.png",
+      "palette": "assets/palettes/extracted/city-beijing-temple-of-heaven.json",
+      "license": "Public domain",
+      "artist": "Fong Chen"
+    },
+    {
+      "id": "city-shanghai-oriental-pearl",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_(15).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/%C2%B7%CB%99%C2%B7ChinaUli2010%C2%B7.%C2%B7_Shanghai_-_Oriental_Pearl_TV_Tower_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "dcf657157d62d4b93a79df4b1a56f91da6ff2706b4bf4c64487725f2c0e759c2",
+      "source_dimensions": [
+        1536,
+        2048
+      ],
+      "cutout_dimensions": [
+        1050,
+        1600
+      ],
+      "cutout": "assets/palettes/cutouts/city-shanghai-oriental-pearl.png",
+      "palette": "assets/palettes/extracted/city-shanghai-oriental-pearl.json",
+      "license": "CC BY 3.0",
+      "artist": "·˙·ChinaUli2010·.·"
+    },
+    {
+      "id": "city-guangzhou-canton-tower",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Canton_tower_in_asian_games_opening_ceremony.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Canton_tower_in_asian_games_opening_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "552fc785dd392906eea761f615f90c98533b900f37e756f2afb8ef6b5cf5dec9",
+      "source_dimensions": [
+        1350,
+        2048
+      ],
+      "cutout_dimensions": [
+        693,
+        1586
+      ],
+      "cutout": "assets/palettes/cutouts/city-guangzhou-canton-tower.png",
+      "palette": "assets/palettes/extracted/city-guangzhou-canton-tower.json",
+      "license": "CC BY-SA 2.0",
+      "artist": "Colin Zhu from Guangzhou, China"
+    },
+    {
+      "id": "city-shenzhen-civic-center",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shenzhen_Civic_Center_01.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Shenzhen_Civic_Center_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "9a9ecc6c86bbbdffbcc19eda900abd9d133af9940986f612251612ef3829c9a8",
+      "source_dimensions": [
+        3872,
+        2592
+      ],
+      "cutout_dimensions": [
+        1600,
+        1048
+      ],
+      "cutout": "assets/palettes/cutouts/city-shenzhen-civic-center.png",
+      "palette": "assets/palettes/extracted/city-shenzhen-civic-center.json",
+      "license": "CC BY 2.0",
+      "artist": "Ged Carroll from London mostly, UK"
+    },
+    {
+      "id": "city-hangzhou-leifeng-pagoda",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda,_Hangzhou.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Leifeng_Pagoda%2C_Hangzhou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "347a679307abaf6bb0b5112cc1fb359e6d2e6ad15d9d4fbcd7e5b8023a07e169",
+      "source_dimensions": [
+        2032,
+        1524
+      ],
+      "cutout_dimensions": [
+        1495,
+        1198
+      ],
+      "cutout": "assets/palettes/cutouts/city-hangzhou-leifeng-pagoda.png",
+      "palette": "assets/palettes/extracted/city-hangzhou-leifeng-pagoda.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "螺钉"
+    },
+    {
+      "id": "city-wuhan-yellow-crane-tower",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "39722a5bcf2a1a0129431493a93a2ac075c0979d54be13b260bc7b4d0bb58fb0",
+      "source_dimensions": [
+        3000,
+        4000
+      ],
+      "cutout_dimensions": [
+        1072,
+        1600
+      ],
+      "cutout": "assets/palettes/cutouts/city-wuhan-yellow-crane-tower.png",
+      "palette": "assets/palettes/extracted/city-wuhan-yellow-crane-tower.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "MonsieurRoi"
+    },
+    {
+      "id": "city-nanjing-sun-yat-sen-mausoleum",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sun_Yat-sen_Mausoleum,_Nanjing_(2789677299).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sun_Yat-sen_Mausoleum%2C_Nanjing_%282789677299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "547a8ffcb6b37d8f5d079ee71744f57fed9023065ab97c0aa2c7bd618fda828a",
+      "source_dimensions": [
+        3264,
+        2448
+      ],
+      "cutout_dimensions": [
+        1600,
+        807
+      ],
+      "cutout": "assets/palettes/cutouts/city-nanjing-sun-yat-sen-mausoleum.png",
+      "palette": "assets/palettes/extracted/city-nanjing-sun-yat-sen-mausoleum.json",
+      "license": "CC BY 2.0",
+      "artist": "Peter Dowley from Dubai, United Arab Emirates"
+    },
+    {
+      "id": "city-suzhou-humble-administrators-garden",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pavilions_in_Humble_Administrator%27s_Garden.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Pavilions_in_Humble_Administrator%27s_Garden.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "f28f3cd66e140727b595f5b959911da6c6310d017d34f6c66fde29cf7e3d6384",
+      "source_dimensions": [
+        2304,
+        3072
+      ],
+      "cutout_dimensions": [
+        1008,
+        512
+      ],
+      "cutout": "assets/palettes/cutouts/city-suzhou-humble-administrators-garden.png",
+      "palette": "assets/palettes/extracted/city-suzhou-humble-administrators-garden.json",
+      "license": "Public domain",
+      "artist": "韩笃一"
+    },
+    {
+      "id": "city-chongqing-hongya-cave",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hongya_Cave_Centre_at_night_-_panoramio.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Hongya_Cave_Centre_at_night_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "4c4b4f4223bce1333a7f4784ee45b2b5d88c42123b8a16804e155383309cd337",
+      "source_dimensions": [
+        1704,
+        2272
+      ],
+      "cutout_dimensions": [
+        1110,
+        1097
+      ],
+      "cutout": "assets/palettes/cutouts/city-chongqing-hongya-cave.png",
+      "palette": "assets/palettes/extracted/city-chongqing-hongya-cave.json",
+      "license": "CC BY 3.0",
+      "artist": "Raki_Man"
+    },
+    {
+      "id": "city-chengdu-anshun-bridge",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Restaurant_sobre_el_pont_-_panoramio_-_danferman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "88fc88dfdbc6a85c3361dc18fd409d3efa938f7e5675a0de32091049656e6ab4",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "cutout_dimensions": [
+        1600,
+        764
+      ],
+      "cutout": "assets/palettes/cutouts/city-chengdu-anshun-bridge.png",
+      "palette": "assets/palettes/extracted/city-chengdu-anshun-bridge.json",
+      "license": "CC BY 3.0",
+      "artist": "danferman"
+    },
+    {
+      "id": "city-xian-bell-tower",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xi%27an_bell_tower.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Xi%27an_bell_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "39e01ba8a67dc45357b3dbc3f32c4f38b5d873708a6546add19079c0b73b5b9a",
+      "source_dimensions": [
+        3575,
+        2383
+      ],
+      "cutout_dimensions": [
+        929,
+        690
+      ],
+      "cutout": "assets/palettes/cutouts/city-xian-bell-tower.png",
+      "palette": "assets/palettes/extracted/city-xian-bell-tower.json",
+      "license": "Public domain",
+      "artist": "This image was produced by me, David Castor (user:dcastor). The pictures I submit to the Wikipedia Project are released to the public domain. This gives you the right to use them in any way you like, without any kind of notification. This said, I would still appreciate to be mentioned as the originator whenever you think it complies well with your use of the picture. A message to me about how it has been used would also be welcome. You are obviously not required to respond to these wishes of mine, just in a friendly manner encouraged to. (All my photos are placed in Category:Images by David Castor or a subcategory thereof.)"
+    },
+    {
+      "id": "city-nantong-museum",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nantong_Museum_1.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nantong_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "c5f86f5e9c5bd1fb381038917fec99f765b9d3c392a3834919a20b49fea1eac6",
+      "source_dimensions": [
+        1824,
+        1368
+      ],
+      "cutout_dimensions": [
+        1379,
+        689
+      ],
+      "cutout": "assets/palettes/cutouts/city-nantong-museum.png",
+      "palette": "assets/palettes/extracted/city-nantong-museum.json",
+      "license": "CC BY 3.0",
+      "artist": "This illustration was made by Peter Potrowl. Please credit this with : © Peter Potrowl in the immediate vicinity of the image. A link to my website sitemai.eu would be much appreciated but isn't mandatory. An email to Peter Potrowl would be appreciated too. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me Peter Potrowl to negotiate terms. More free pictures in my website. Donations are accepted here and here."
+    },
+    {
+      "id": "city-wuxi-changchun-bridge",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yuantouzhu,Lake_Tai,Wuxi.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yuantouzhu%2CLake_Tai%2CWuxi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "9cbfb27eb35b6f79b19649d6fd47eeed7bc529fe98971c4ee0cb0995b9347af4",
+      "source_dimensions": [
+        2032,
+        1524
+      ],
+      "cutout_dimensions": [
+        781,
+        512
+      ],
+      "cutout": "assets/palettes/cutouts/city-wuxi-changchun-bridge.png",
+      "palette": "assets/palettes/extracted/city-wuxi-changchun-bridge.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "螺钉"
+    },
+    {
+      "id": "city-ningbo-tianyi-pavilion",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ningbo_-_Tianyi_Pavilion_Museum_02.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ningbo_-_Tianyi_Pavilion_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "ecdd7cb216b0cd15b048c5527b99329712cfcaee8e6962c6a2c52c5c8aa43315",
+      "source_dimensions": [
+        3888,
+        2592
+      ],
+      "cutout_dimensions": [
+        895,
+        615
+      ],
+      "cutout": "assets/palettes/cutouts/city-ningbo-tianyi-pavilion.png",
+      "palette": "assets/palettes/extracted/city-ningbo-tianyi-pavilion.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "Nablazzz"
+    },
+    {
+      "id": "city-lanzhou-zhongshan-bridge",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zhongshan-Br%C3%BCcke-05.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Zhongshan-Br%C3%BCcke-05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "9668f97c009b9675f8dcfa4041501044e69f3117a2a909a6b2289c598223d348",
+      "source_dimensions": [
+        3008,
+        2000
+      ],
+      "cutout_dimensions": [
+        1266,
+        827
+      ],
+      "cutout": "assets/palettes/cutouts/city-lanzhou-zhongshan-bridge.png",
+      "palette": "assets/palettes/extracted/city-lanzhou-zhongshan-bridge.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "Sigismund von Dobschütz"
+    },
+    {
+      "id": "city-harbin-saint-sophia",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral_Harbin.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Saint_Sophia_Cathedral_Harbin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "59cf4ba853389d2d1cbe66caf3a2d731e7d21ca250a832faeb19d5a6294fca62",
+      "source_dimensions": [
+        2736,
+        3648
+      ],
+      "cutout_dimensions": [
+        1222,
+        1600
+      ],
+      "cutout": "assets/palettes/cutouts/city-harbin-saint-sophia.png",
+      "palette": "assets/palettes/extracted/city-harbin-saint-sophia.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "Tlrmq"
+    },
+    {
+      "id": "city-shenyang-imperial-palace",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E5%A4%A7%E6%94%BF%E6%AE%BF2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "2d254523f18fc25524f91a3e1e4e83cb343e5ceb132acdd990e74851c7de63cd",
+      "source_dimensions": [
+        6000,
+        4000
+      ],
+      "cutout_dimensions": [
+        1435,
+        728
+      ],
+      "cutout": "assets/palettes/cutouts/city-shenyang-imperial-palace.png",
+      "palette": "assets/palettes/extracted/city-shenyang-imperial-palace.json",
+      "license": "CC BY-SA 4.0",
+      "artist": "ScareCriterion12"
+    },
+    {
+      "id": "city-fuzhou-three-lanes",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Foochow_house.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Foochow_house.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "33dcfe7803102ee1ecb9bbe45ac9b339c90ae030a62b7f982ae8f710b5883537",
+      "source_dimensions": [
+        2304,
+        3072
+      ],
+      "cutout_dimensions": [
+        942,
+        1600
+      ],
+      "cutout": "assets/palettes/cutouts/city-fuzhou-three-lanes.png",
+      "palette": "assets/palettes/extracted/city-fuzhou-three-lanes.json",
+      "license": "Public domain",
+      "artist": "GnuDoyng"
+    },
+    {
+      "id": "city-xiamen-twin-towers",
+      "status": "processed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiamen_MO_Sky_Mansion.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Xiamen_MO_Sky_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "source_sha256": "c400dec6f199682ee5908033a592f57a2643c95fe1096da38542d931aa6862de",
+      "source_dimensions": [
+        4000,
+        3000
+      ],
+      "cutout_dimensions": [
+        520,
+        1026
+      ],
+      "cutout": "assets/palettes/cutouts/city-xiamen-twin-towers.png",
+      "palette": "assets/palettes/extracted/city-xiamen-twin-towers.json",
+      "license": "CC BY-SA 3.0",
+      "artist": "James Yu"
+    }
+  ]
+}

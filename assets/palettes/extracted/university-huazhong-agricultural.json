@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-huazhong-agricultural",
+  "name": "华中农业大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-huazhong-agricultural.png",
+  "source_sha256": "d7d1ae8f4eed906d7f8e66508a99d6ea5536bf16ec73acb2cfb81f9e78fb6bdc",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#00803E",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#358266",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B746B",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#952D53",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-hust",
+  "name": "华中科技大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-hust.png",
+  "source_sha256": "464be54835c38d86c9706b9444e72ca24ac6de730f6191dbc6d982f956183a5e",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#046DA7",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#D82D34",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#489AC4",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#355E82",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

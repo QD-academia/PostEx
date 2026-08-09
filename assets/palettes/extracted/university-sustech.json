@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-sustech",
+  "name": "南方科技大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-sustech.png",
+  "source_sha256": "283508e7f9e433dc115fdbdec818b396ecf555b955659889730e57f466c0a430",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#EC6C01",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#356382",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3774",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#128187",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

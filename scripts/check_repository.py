@@ -26,6 +26,8 @@ REQUIRED = (
     "schemas",
     "src/postex",
     "assets/templates",
+    "assets/palettes/catalog.yaml",
+    "assets/palettes/rights.yaml",
     "examples",
     "tests",
     "evals",

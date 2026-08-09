@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-mondstadt-venti",
+  "name": "温迪",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-mondstadt-venti.png",
+  "source_sha256": "0f5052a93b915107bf8ef14dfe17ce4bd7b860e46a68de293443d1d827043eeb",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#EADBBF",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#222125",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#3F3C36",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#7C7466",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

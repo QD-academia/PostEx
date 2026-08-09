@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "city-wuhan-yellow-crane-tower",
+  "name": "武汉·黄鹤楼",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/city-wuhan-yellow-crane-tower.png",
+  "source_sha256": "7c7727b9ed5a1957750cd15a2fec66b0a97e970ed78af3459b9dce1334e08042",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#674D43",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#342B2C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#DDA67C",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#8E6249",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

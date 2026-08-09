@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-fontaine-navia",
+  "name": "娜维娅",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-fontaine-navia.png",
+  "source_sha256": "211bfcd5c447addb809cc5fa3b01c053045714f4a7d03507df9a5477eabc51bb",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#DDB173",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#F2D8A4",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#302F3A",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#9B7B5E",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "city-wuxi-changchun-bridge",
+  "name": "无锡·长春桥",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/city-wuxi-changchun-bridge.png",
+  "source_sha256": "bb3e87f98ff6fc71d14fe53bdd6f495d0e0da5a1ec738c3d0487c8438c5a3cdb",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#2E242A",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#98615C",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#AE827A",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#DEA897",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

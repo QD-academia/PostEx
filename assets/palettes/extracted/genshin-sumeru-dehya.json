@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-sumeru-dehya",
+  "name": "迪希雅",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-sumeru-dehya.png",
+  "source_sha256": "20c834b2db29fc2523aec05d7b4355e913f255ef266904ee7aedb72793783bf2",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#35262A",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#5F4541",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#280C0C",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#7F070B",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

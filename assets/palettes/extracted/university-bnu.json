@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-bnu",
+  "name": "北京师范大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-bnu.png",
+  "source_sha256": "cefc6d02159e5c5d08f1d7e240db444f147cb580f3294c2a0ea3eda4013f014b",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#02539B",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#356282",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1B3674",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#127F87",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

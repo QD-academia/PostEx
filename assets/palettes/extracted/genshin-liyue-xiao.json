@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-liyue-xiao",
+  "name": "魈",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-liyue-xiao.png",
+  "source_sha256": "4d452dfff6cec686c62629901da2397001f673d21864551f6bcfc5f8ea5b853f",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#528881",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#232534",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#A69493",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#F8ECE0",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-sumeru-nahida",
+  "name": "纳西妲",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-sumeru-nahida.png",
+  "source_sha256": "49002659af1ebda05277e2835a73c845b36622489628418c6d19def41b349fb9",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#6F9274",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#3E3623",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#9C9381",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#96AF8C",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

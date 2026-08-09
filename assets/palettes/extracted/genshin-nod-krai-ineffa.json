@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "genshin-nod-krai-ineffa",
+  "name": "伊涅芙",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/genshin-nod-krai-ineffa.png",
+  "source_sha256": "5947332b7b7f131cb4fae4bd30ea73bb459438d0f9c4b08f1bc0e2c098d85ce9",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#7D2A20",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#33608F",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#4C1A18",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#A1412C",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

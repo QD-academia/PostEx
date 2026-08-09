@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "city-harbin-saint-sophia",
+  "name": "哈尔滨·圣索菲亚教堂",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/city-harbin-saint-sophia.png",
+  "source_sha256": "614bdfee98d15253a8d2ce2bdd542f9f04db835bcd5b8d703f0499442602646b",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#3A2A2B",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#5B4F4D",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#1C161B",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#858A85",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

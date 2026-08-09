@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-nankai",
+  "name": "南开大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-nankai.png",
+  "source_sha256": "3ca00286631cd0c9d43aedf08b24d5b7217eed48b7c41a01ded8adb3367cbc5a",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#731961",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#6C3582",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#3E138C",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#4B952D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}

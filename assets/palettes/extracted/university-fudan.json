@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.3",
+  "palette_id": "university-fudan",
+  "name": "复旦大学",
+  "source_type": "image",
+  "source_reference": "assets/palettes/cutouts/university-fudan.png",
+  "source_sha256": "6722c8db54cc416f8bddb43a958d418811ac1e1890b579f8440cdbcae2a79574",
+  "extraction": "alpha-aware-median-cut-v1",
+  "colors": [
+    {
+      "role": "canvas",
+      "hex": "#F7F4EF",
+      "ratio": 0.48
+    },
+    {
+      "role": "primary",
+      "hex": "#253880",
+      "ratio": 0.18
+    },
+    {
+      "role": "secondary",
+      "hex": "#355282",
+      "ratio": 0.11
+    },
+    {
+      "role": "highlight",
+      "hex": "#126887",
+      "ratio": 0.08
+    },
+    {
+      "role": "accent",
+      "hex": "#956E2D",
+      "ratio": 0.07
+    },
+    {
+      "role": "text",
+      "hex": "#17202A",
+      "ratio": 0.08,
+      "locked": true
+    }
+  ],
+  "simulations": [
+    "poster",
+    "deuteranopia",
+    "protanopia",
+    "grayscale",
+    "print"
+  ]
+}
