@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" role="img" aria-labelledby="title desc">
-  <title id="title">PostEx primary logo</title>
-  <desc id="desc">The PostEx Frame mark beside the PostEx wordmark and its visual identity tagline.</desc>
+  <title id="title">PostEx trademark primary logo</title>
+  <desc id="desc">The PostEx Frame mark beside the PostEx wordmark, trademark symbol, and visual identity tagline.</desc>
   <g transform="translate(18 10) scale(.86)">
     <rect x="20" y="14" width="216" height="228" rx="42" fill="#293F55"/>
     <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
@@ -10,5 +10,6 @@
   </g>
   <text x="270" y="139" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="116" font-weight="800" letter-spacing="-5">Post</text>
   <text x="510" y="139" fill="#487AA1" font-family="Inter, Arial, sans-serif" font-size="116" font-weight="800" letter-spacing="-5">Ex</text>
+  <text x="650" y="70" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">™</text>
   <text x="278" y="188" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600">Let every study have its own visual identity.</text>
 </svg>

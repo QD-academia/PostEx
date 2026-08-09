@@ -3,7 +3,7 @@
   <desc id="desc">The approved Poster Frame logo, its variants, clear-space rule, minimum-size guidance, and brand colors.</desc>
   <rect width="1600" height="1000" fill="#F6F2EE"/>
   <rect width="1600" height="210" fill="#293F55"/>
-  <text x="84" y="82" fill="#E5BC6C" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">POSTEX BRAND SYSTEM · 01</text>
+  <text x="84" y="82" fill="#E5BC6C" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5">POSTEX™ BRAND SYSTEM · 01</text>
   <text x="84" y="154" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Poster Frame</text>
   <text x="488" y="151" fill="#C9D8E3" font-family="Inter, Arial, sans-serif" font-size="27">P monogram · poster boundary · Palette DNA roles</text>
 
@@ -18,6 +18,7 @@
   </g>
   <text x="318" y="467" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-4">Post</text>
   <text x="532" y="467" fill="#487AA1" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-4">Ex</text>
+  <text x="662" y="402" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">™</text>
   <text x="325" y="511" fill="#697386" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">Let every study have its own visual identity.</text>
 
   <rect x="1038" y="258" width="494" height="310" rx="34" fill="#293F55"/>

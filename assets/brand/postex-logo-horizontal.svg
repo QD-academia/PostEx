@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="210" viewBox="0 0 760 210" role="img" aria-labelledby="title desc">
-  <title id="title">PostEx horizontal logo</title>
-  <desc id="desc">The PostEx Frame mark beside the PostEx wordmark.</desc>
+  <title id="title">PostEx trademark horizontal logo</title>
+  <desc id="desc">The PostEx Frame mark beside the PostEx wordmark and trademark symbol.</desc>
   <g transform="translate(12 6) scale(.76)">
     <rect x="20" y="14" width="216" height="228" rx="42" fill="#293F55"/>
     <path d="M72 190V68h72c33 0 54 17 54 44 0 28-21 45-54 45H74" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
@@ -10,4 +10,5 @@
   </g>
   <text x="220" y="140" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="110" font-weight="800" letter-spacing="-4.5">Post</text>
   <text x="448" y="140" fill="#487AA1" font-family="Inter, Arial, sans-serif" font-size="110" font-weight="800" letter-spacing="-4.5">Ex</text>
+  <text x="578" y="75" fill="#293F55" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">™</text>
 </svg>

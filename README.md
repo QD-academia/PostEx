@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/brand/postex-logo-primary.svg" alt="PostEx — Let every study have its own visual identity." width="720">
+  <img src="assets/brand/postex-logo-primary.svg" alt="PostEx™ — Let every study have its own visual identity." width="720">
 </p>
 
 <p align="center"><strong>Evidence-linked academic posters with a visual identity of their own.</strong></p>
 
-PostEx is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.3 adds a curated **Built-in Palette Library** while retaining Palette Fusion: evidence-linked scientific content can now start from 154 ready-to-browse visual identities as well as natural-language inspiration, reference images, named themes, brand systems, or manual colors.
+PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.3 adds a curated **Built-in Palette Library** while retaining Palette Fusion: evidence-linked scientific content can now start from 154 ready-to-browse visual identities as well as natural-language inspiration, reference images, named themes, brand systems, or manual colors.
 
 The approved **Poster Frame** identity is available as an editable SVG brand kit with primary, horizontal, monochrome, reverse, favicon, and social-avatar variants. See the [PostEx brand system](docs/brand.md).
 

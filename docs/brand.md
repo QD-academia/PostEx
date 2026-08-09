@@ -1,6 +1,6 @@
-# PostEx brand system
+# PostEx™ brand system
 
-The official PostEx identity is the **Poster Frame**: a geometric `P` inside a poster-shaped boundary, followed by three small Palette DNA swatches. The mark connects the product name, the academic-poster canvas, and role-based visual identity in one compact shape.
+The official PostEx™ identity is the **Poster Frame**: a geometric `P` inside a poster-shaped boundary, followed by three small Palette DNA swatches. The mark connects the product name, the academic-poster canvas, and role-based visual identity in one compact shape.
 
 ![PostEx brand system](images/postex-brand-system.svg)
 
@@ -52,6 +52,10 @@ Keep clear space equal to at least one palette-swatch width around every side of
 
 The editable wordmark lockups use **Inter ExtraBold** with Arial as the compatibility fallback. Product copy should use Inter where available. If Inter cannot be embedded, use Arial or another neutral sans-serif without altering the Frame mark.
 
-## Naming and accessibility
+## Naming, trademark notice, and accessibility
 
-Write the product name as `PostEx`, with capital `P` and `E`. Use the full name in alt text: “PostEx — Let every study have its own visual identity.” The icon's accessible description is: “A geometric P inside a poster frame with three Palette DNA swatches.”
+Write the product name as `PostEx`, with capital `P` and `E`. Use `PostEx™` on the first prominent brand occurrence in repository pages, launch graphics, marketing pages, and other public-facing material; subsequent prose may use `PostEx`. Do not append `™` to commands, package names, filenames, URLs, metadata keys, or ordinary repeated mentions.
+
+The `™` symbol indicates a trademark claim and does not state that the mark is registered. Never use `®` unless and until the relevant trademark office has issued a registration. The `™` symbol is not part of the underlying name or any future application specimen.
+
+Use the full name in alt text: “PostEx™ — Let every study have its own visual identity.” The icon's accessible description is: “A geometric P inside a poster frame with three Palette DNA swatches.”
