@@ -2,13 +2,37 @@
   <img src="assets/brand/postex-logo-primary.svg" alt="PostEx™ — Let every study have its own visual identity." width="720">
 </p>
 
-<p align="center"><strong>Evidence-linked academic posters with a visual identity of their own.</strong></p>
+<p align="center"><strong>Give every study its own visual identity.</strong></p>
 
-PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.5 alpha introduces **Conference Intelligence** foundations on top of v0.4 Trusted Export: year-specific Conference Packs can supply verified requirements, independent PostEx recommendations, Palette DNA, canvas tokens, and machine-readable preflight rules without conference-specific renderer branches.
+<p align="center">
+  Turn a paper, an inspiration palette, and a target conference into an editable,<br>
+  evidence-linked academic poster.
+</p>
 
-The approved **Poster Frame** identity is available as an editable SVG brand kit with primary, horizontal, monochrome, reverse, favicon, and social-avatar variants. See the [PostEx brand system](docs/brand.md).
+<p align="center"><strong>Paper × Inspiration × Conference → Editable, traceable poster</strong></p>
 
-> Status: `0.5.0a1` foundation. The registry contains seven schema-validated Conference Packs: CVPR, AACR, ASCO, ESMO, RSNA, AHA Scientific Sessions, and ESC Congress 2026. The existing three template families remain production-renderable in A0, A1, and 36×48 landscape; arbitrary conference-native PPTX geometry is tracked as the next Canvas Engine milestone.
+<p align="center">
+  <a href="#see-postex-in-action">See it in action</a> ·
+  <a href="#built-in-palette-library">Explore 154 palettes</a> ·
+  <a href="#conference-intelligence">Conference Intelligence</a> ·
+  <a href="#quick-start">Quick start</a>
+</p>
+
+![One paper expressed through three evidence-linked PostEx visual identities](docs/images/aurora-three-palettes.png)
+
+PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. It combines three layers that are usually separated:
+
+| Layer | What PostEx contributes |
+|---|---|
+| **Inspiration** | Images, named themes, institutions, cities, and built-in cards become role-based Palette DNA—not a simple color swap. |
+| **Conference** | Year-specific packs keep official requirements separate from independent PostEx layout, canvas, and storytelling recommendations. |
+| **Trust** | Evidence links, approvals, asset rights, preflight findings, and output hashes remain inspectable through Trusted Export. |
+
+Version 0.5 alpha introduces **Conference Intelligence** foundations on top of v0.4 Trusted Export. Conference Packs supply verified requirements, independent PostEx recommendations, Palette DNA, canvas tokens, and machine-readable preflight rules without conference-specific renderer branches.
+
+> Status: `0.5.0a1` foundation. Seven schema-validated Conference Packs are included: CVPR, AACR, ASCO, ESMO, RSNA, AHA Scientific Sessions, and ESC Congress 2026. The existing three template families remain production-renderable in A0, A1, and 36×48 landscape; arbitrary conference-native PPTX geometry is tracked as the next Canvas Engine milestone.
+
+The approved **Poster Frame** identity is available as an editable SVG brand kit. See the [PostEx brand system](docs/brand.md), the [30-day promotion plan](docs/promotion-plan.md), and the [Genshin Study Identity campaign](docs/marketing/genshin-study-identity.md).
 
 ## Trusted Export
 
@@ -46,6 +70,16 @@ See [Conference Intelligence architecture](docs/conference-intelligence.md) and 
 PostEx 0.3 includes 154 source-grounded cards, displayed as: 50 ShanghaiRanking 2026 Chinese university emblems, 50 foreign university emblems selected from the 2026–2027 U.S. News Best Global Universities ranking, 35 Genshin characters grouped by Mondstadt, Liyue, Inazuma, Sumeru, Fontaine, Natlan, and Nod-Krai, then 19 Chinese city photographic cards. Each card combines source art with a six-role, poster-ready palette and machine-readable provenance.
 
 [![All 154 built-in PostEx palette cards](assets/palettes/previews/all-palettes.webp)](assets/palettes/previews/all-palettes.webp)
+
+### Genshin Study Identity
+
+The 35-card Genshin collection supports a launch series built around a simple question: how can the same scientific evidence acquire seven distinct visual identities without placing character art inside the poster?
+
+[![Thirty-five Genshin-inspired PostEx palette cards across seven regions](assets/palettes/previews/genshin-characters.webp)](assets/palettes/previews/genshin-characters.webp)
+
+The first editorial sequence pairs the existing Paimon and Varka showcases with one planned identity from each catalog region: Albedo, Zhongli, Raiden Shogun, Nahida, Furina, Mavuika, and Columbina. Each study must be rendered and audited before its campaign status changes from `planned` to `ready`; the content registry is maintained in [`docs/marketing/genshin-study-identities.yaml`](docs/marketing/genshin-study-identities.yaml).
+
+Genshin-inspired Palette DNA is an unofficial visual interpretation. Generated scientific posters do not embed character artwork by default, and no affiliation or endorsement is implied. Source art, rendered cards, named-theme provenance, and generated poster outputs retain separate rights records. See the [campaign playbook](docs/marketing/genshin-study-identity.md) and [asset licensing policy](docs/licensing.md).
 
 Two enlarged examples show how the emblem and semantic palette work together:
 
