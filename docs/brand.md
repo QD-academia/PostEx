@@ -15,8 +15,11 @@ The official PostEx™ identity is the **Poster Frame**: a geometric `P` inside 
 | [`postex-mark-reverse.svg`](../assets/brand/postex-mark-reverse.svg) | Dark backgrounds where the full-color mark loses contrast |
 | [`favicon.svg`](../assets/brand/favicon.svg) | Browser favicon and very small digital placements |
 | [`postex-social-avatar.svg`](../assets/brand/postex-social-avatar.svg) | Social profile image and repository organization avatar |
+| [`postex-social-preview-1280x640.png`](../assets/brand/exports/postex-social-preview-1280x640.png) | GitHub social preview and static share card; generated at 1280×640 |
 
 SVG is the master format. PNG exports are derivatives and should be regenerated from these source files rather than edited directly.
+
+The share card and animated launch demo are generated deterministically with `python scripts/build_launch_media.py`. They may use only original PostEx artwork and rights-cleared example outputs.
 
 ## Color roles
 

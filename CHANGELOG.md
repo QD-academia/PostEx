@@ -6,6 +6,7 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ### Added
 
+- Rights-safe 1280×640 GitHub Social Preview and reusable launch animation, with a deterministic Pillow builder.
 - Thirty-day organic promotion plan with launch-readiness gates, channel roles, operating targets, conversion metrics, and a weekly decision loop.
 - Genshin Study Identity campaign playbook and machine-readable nine-identity editorial registry with explicit `planned`, `review`, `ready`, and `published` boundaries.
 - Reusable English/Chinese launch copy, channel hooks, rights language, and a product-truth release checklist.
