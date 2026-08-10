@@ -24,6 +24,7 @@ REQUIRED = (
     "CHANGELOG.md",
     "configs",
     "schemas",
+    "schemas/postex-manifest.schema.json",
     "src/postex",
     "assets/templates",
     "assets/palettes/catalog.yaml",
@@ -38,6 +39,8 @@ REQUIRED = (
     "examples/palette-fusion/project.yaml",
     "examples/palette-fusion/poster-brief.yaml",
     "examples/palette-fusion/palette-dna.yaml",
+    "docs/releases/v0.4.0a1.md",
+    "evals/goldens/trusted-export",
 )
 
 
@@ -108,8 +111,39 @@ def main() -> int:
         for size in sizes:
             placeholder = metadata.parent / size / "PLACEHOLDER.md"
             asset = metadata.parent / data["variants"][size]["asset"]
-            if not placeholder.exists() and not asset.exists():
-                errors.append(f"missing template asset or placeholder: {family}/{size}")
+            if placeholder.exists():
+                errors.append(f"unfinished template placeholder: {family}/{size}")
+            for filename in (
+                asset.name,
+                "template.png",
+                "template-spec.json",
+                "template.layout.json",
+                "template.inspect.ndjson",
+            ):
+                if not (metadata.parent / size / filename).is_file():
+                    errors.append(f"missing template asset: {family}/{size}/{filename}")
+
+    manifest_validator = Draft202012Validator(schemas["postex-manifest.schema.json"])
+    preflight_validator = Draft202012Validator(schemas["preflight-report.schema.json"])
+    golden_root = ROOT / "evals" / "goldens" / "trusted-export"
+    golden_count = 0
+    for family in families:
+        for size in sizes:
+            directory = golden_root / family / size
+            manifest_path = directory / "postex-manifest.json"
+            preflight_path = directory / "preflight-report.json"
+            if not manifest_path.is_file() or not preflight_path.is_file():
+                errors.append(f"missing Trusted Export golden: {family}/{size}")
+                continue
+            golden_count += 1
+            manifest = load_json(manifest_path)
+            preflight = load_json(preflight_path)
+            for issue in manifest_validator.iter_errors(manifest):
+                errors.append(f"{manifest_path.relative_to(ROOT)}: {issue.message}")
+            for issue in preflight_validator.iter_errors(preflight):
+                errors.append(f"{preflight_path.relative_to(ROOT)}: {issue.message}")
+            if not preflight.get("release_ready"):
+                errors.append(f"golden is not release-ready: {family}/{size}")
 
     for path in (
         ROOT / "skills" / "codex" / "postex" / "SKILL.md",
@@ -127,7 +161,8 @@ def main() -> int:
     print(
         f"Repository check passed: required files, {len(schemas)} schemas, "
         f"{len(project_examples)} project examples, 3 template families, "
-        "9 size assets/placeholders, Palette Fusion contracts, and 2 skill drafts."
+        f"9 production template assets, {golden_count} Trusted Export goldens, "
+        "Palette Fusion contracts, and 2 skill drafts."
     )
     return 0
 

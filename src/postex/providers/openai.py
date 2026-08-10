@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from typing import Any
 
 from postex.approvals import ApprovalRecord
 from postex.errors import ConfigurationError
@@ -32,7 +33,8 @@ class OpenAIProvider:
             except ImportError as exc:
                 raise ConfigurationError("Install PostEx with the 'openai' extra") from exc
             client = AsyncOpenAI()
-        response = await client.responses.create(  # type: ignore[attr-defined]
+        dynamic_client: Any = client
+        response = await dynamic_client.responses.create(
             model=request.model,
             instructions=request.system,
             input=request.prompt + "\n\n" + json.dumps(payload.content, ensure_ascii=False),

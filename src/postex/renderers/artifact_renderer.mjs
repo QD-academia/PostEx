@@ -274,10 +274,43 @@ async function figureBlock(h, theme, item, x, y, width, height, name) {
   evidence(h, theme, item.source, x + 24, y + height - 38, width - 48, `${name}-source`);
 }
 
+function contentForFamily(source, family) {
+  const content = { ...source };
+  if (family === "observational-cohort") {
+    return {
+      ...content,
+      question_heading: "Clinical question",
+      pipeline_heading: "Cohort construction",
+      dataset_kicker: "COHORT ACCOUNTING",
+      figure_one_heading: "Eligibility and follow-up",
+      figure_two_heading: "Adjusted primary outcome",
+      validation_heading: "Bias and sensitivity checks",
+      biology_heading: "Effect estimates",
+      validation_visual_heading: "Subgroups and robustness",
+      conclusion_heading: "Interpretation and limitations",
+    };
+  }
+  if (family === "visual-results") {
+    return {
+      ...content,
+      question_heading: "One-sentence question",
+      pipeline_heading: "Methods at a glance",
+      dataset_kicker: "ESSENTIAL CONTEXT",
+      figure_one_heading: "How the result was produced",
+      figure_two_heading: "Hero result",
+      validation_heading: "What changes the conclusion",
+      biology_heading: "Three result anchors",
+      validation_visual_heading: "Supporting result",
+      conclusion_heading: "Why this result matters",
+    };
+  }
+  return content;
+}
+
 async function build(spec, outputPath) {
   const canvas = spec.canvas;
   const theme = spec.theme;
-  const content = spec.content;
+  const content = contentForFamily(spec.content, spec.template?.family);
   const deck = Presentation.create({ slideSize: canvas });
   const slide = deck.slides.add();
   slide.background.fill = theme.canvas;
@@ -391,8 +424,26 @@ async function build(spec, outputPath) {
   evidence(h, theme, content.conclusion_evidence, x3 + 34, 2992, w3 - 68, "conclusion-evidence");
 
   h.rect(0, 3080, BASE_WIDTH, 99, theme.ink, "footer-band", "none", 0, "rounded-none");
-  h.text(content.footer_source, 140, 3107, 2960, 42, { fontSize: 26, minimumFontSize: 22, color: "#FFFFFF" }, "footer-source");
-  h.text(content.footer_status, 3120, 3107, 1230, 42, { fontSize: 25, minimumFontSize: 21, bold: true, color: theme.accent, alignment: "right" }, "footer-status");
+  h.text(content.footer_source, 140, 3107, 2010, 42, { fontSize: 26, minimumFontSize: 22, color: "#FFFFFF" }, "footer-source");
+  h.text(content.footer_status, 2180, 3107, 910, 42, { fontSize: 24, minimumFontSize: 21, bold: true, color: theme.accent, alignment: "right" }, "footer-status");
+  const provenance = spec.provenance ?? { enabled: true };
+  if (provenance.enabled !== false) {
+    h.text(
+      provenance.mark_text,
+      3180,
+      3107,
+      1170,
+      42,
+      {
+        fontSize: 24,
+        minimumFontSize: 20,
+        bold: true,
+        color: "rgba(255,255,255,0.38)",
+        alignment: "right",
+      },
+      "POSTEX_PROVENANCE_MARK",
+    );
+  }
 
   slide.speakerNotes.textFrame.setText(
     ["[Sources]", ...(spec.sources ?? []).map((item) => `- ${item}`), "[/Sources]"].join("\n"),

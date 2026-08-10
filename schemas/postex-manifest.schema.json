@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.4/postex-manifest.schema.json",
+  "title": "PostEx Trusted Export Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "postex_version", "project_id", "source_id", "input",
+    "template", "palette", "assets", "approvals", "provenance", "preflight", "outputs"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.4"},
+    "postex_version": {"type": "string", "minLength": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "source_id": {"type": "string", "pattern": "^PX-[A-F0-9]{8}$"},
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "template": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family", "size", "width_in", "height_in"],
+      "properties": {
+        "family": {"type": "string"},
+        "size": {"type": "string"},
+        "width_in": {"type": "number"},
+        "height_in": {"type": "number"},
+        "asset_sha256": {"type": ["string", "null"]}
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["palette_id", "source"],
+      "properties": {
+        "palette_id": {"type": "string"},
+        "source": {"type": "string"}
+      }
+    },
+    "assets": {"type": "array", "items": {"type": "object"}},
+    "approvals": {"type": "array", "items": {"type": "object"}},
+    "provenance": {
+      "type": "object",
+      "required": ["enabled", "source_id", "mark_text", "object_name", "omission_approved"],
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "source_id": {"type": "string"},
+        "mark_text": {"type": "string"},
+        "object_name": {"const": "POSTEX_PROVENANCE_MARK"},
+        "omission_proposal_id": {"type": "string"},
+        "omission_digest": {"type": "string"},
+        "omission_approved": {"type": "boolean"}
+      }
+    },
+    "preflight": {"type": "object"},
+    "outputs": {
+      "type": "object",
+      "propertyNames": {"not": {"const": "postex-manifest.json"}},
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256", "bytes"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "bytes": {"type": "integer", "minimum": 1}
+        }
+      }
+    }
+  }
+}

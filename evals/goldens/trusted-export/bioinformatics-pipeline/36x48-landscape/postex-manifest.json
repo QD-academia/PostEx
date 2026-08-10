@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.4",
+  "postex_version": "0.4.0a1",
+  "project_id": "trusted-bio-36x48",
+  "source_id": "PX-5486FBE1",
+  "input": {
+    "path": "AURORA-12-synthetic-manuscript.pdf",
+    "sha256": "ddd3aad8b3ed4ba3a82beabf6172b6830d22b2ced40345cfd4cf743ca400e2a5"
+  },
+  "template": {
+    "family": "bioinformatics-pipeline",
+    "size": "36x48-landscape",
+    "width_in": 48.0,
+    "height_in": 36.0,
+    "asset_sha256": "8b30957e6b94f5cb658818ed9fc25a760f600a17fac5ef4e8a13619efb45a146"
+  },
+  "palette": {
+    "palette_id": "default-academic-safe",
+    "source": "PostEx default biomedical design system; original project colors"
+  },
+  "assets": [
+    {
+      "id": "aurora-12-fixture",
+      "kind": "source-manuscript",
+      "license_ref": "CC0-1.0"
+    },
+    {
+      "id": "figure-1-synthetic-pipeline",
+      "kind": "scientific_figure",
+      "path": "assets/figures/figure-1-synthetic-pipeline.svg",
+      "sha256": "f1b93c292584826892f225d2333a3e4ba407d7b956f7a0e0946662f0f97effc2",
+      "license_ref": "source-manuscript",
+      "pixel_locked": true
+    },
+    {
+      "id": "figure-2-performance",
+      "kind": "scientific_figure",
+      "path": "assets/figures/figure-2-performance.svg",
+      "sha256": "f4d63fabade7dccadbcac1770f3353a7393c511f507d7f88281769bc9fef8bb8",
+      "license_ref": "source-manuscript",
+      "pixel_locked": true
+    },
+    {
+      "id": "figure-3-calibration",
+      "kind": "scientific_figure",
+      "path": "assets/figures/figure-3-calibration.svg",
+      "sha256": "211a65fb8b0067ecb38a931e3d50db8a3f5e267df4ee1ed2e1a57d50eb6e0070",
+      "license_ref": "source-manuscript",
+      "pixel_locked": true
+    },
+    {
+      "id": "figure-4-stress-test",
+      "kind": "scientific_figure",
+      "path": "assets/figures/figure-4-stress-test.svg",
+      "sha256": "fca2d76252753b94112ea1f9c88d99c6b488f5f33ccab7dd5977166eaab430f9",
+      "license_ref": "source-manuscript",
+      "pixel_locked": true
+    }
+  ],
+  "approvals": [
+    {
+      "subject": "hero_result",
+      "proposal_id": "aurora-hero-v1",
+      "digest": "sha256:608415cb928b623aae323ee86f83f8fc055e668ee7dd3e82359983b3cb444540",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "content_deletion",
+      "proposal_id": "aurora-poster-content-v1",
+      "digest": "sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "palette_application",
+      "proposal_id": "default-academic-safe",
+      "digest": "sha256:1415dde4c40a1a1652421d6bc9752898c97e4d046e43bf53cdaf31b3423f096d",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "palette_application",
+      "proposal_id": "gate-image-balanced-fusion",
+      "digest": "sha256:f3960633b4ea4f9a139d021c7437f8fa2b8a078f64b1b4c07d950d39e1d4be9d",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "palette_application",
+      "proposal_id": "paimon-cape-gradient-visual-signature",
+      "digest": "sha256:c9834f95586be531d5d8667465b8d0525469d9de17a3f361d76c34ad4677c4ca",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "structure_selection",
+      "proposal_id": "visual-journey",
+      "digest": "sha256:0b56088a8e9db9a0c43b30980553a7303035a06300714e22f7231ace6d15d3ed",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "scientific_color_unlock",
+      "proposal_id": "paimon-no-green-figures-v1",
+      "digest": "sha256:3f39322830d64035ab1c02216a1d307e9a8fed9b535a88e2a92b6fef4fb91f0a",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "final_release",
+      "proposal_id": "release-trusted-bio-36x48-bioinformatics-pipeline-36x48-landscape",
+      "digest": "sha256:e7e2f0c8f9c91d6bd219c8fec897959df9014cd902894b5b0bdf4682bbc7efc1",
+      "decision": "approved",
+      "actor": "PostEx golden-fixture maintainer",
+      "decided_at": "2026-08-10T12:00:00-04:00"
+    }
+  ],
+  "provenance": {
+    "enabled": true,
+    "source_id": "PX-5486FBE1",
+    "mark_text": "Made with PostEx™ · PX-5486FBE1",
+    "object_name": "POSTEX_PROVENANCE_MARK",
+    "omission_proposal_id": "omit-px-5486fbe1",
+    "omission_digest": "sha256:038d9856b72b174d0b56fea3cc70a995ea69b73a1b32808b8c69e8cca56fa4c6",
+    "omission_approved": false
+  },
+  "preflight": {
+    "status": "release-ready",
+    "passed": true,
+    "release_ready": true,
+    "report": "preflight-report.json"
+  },
+  "outputs": {
+    "evidence_report": {
+      "path": "evidence-report.json",
+      "sha256": "7efed92226736062d619a7fb99c4ca6ef215e296dd18c63772e889f507dab6e6",
+      "bytes": 2968
+    },
+    "extracted_document": {
+      "path": "extracted-document.json",
+      "sha256": "6bb2ec147eed64e1ead8493b56a27e1e7748823378d1046b4dab90ab6bf92590",
+      "bytes": 10219
+    },
+    "inspect": {
+      "path": "trusted-bio-36x48-default-academic-safe.inspect.ndjson",
+      "sha256": "b405b0146539d3b92bb975f25edcaeec1c677abcfbfb93f3c5d0972f47ced3b6",
+      "bytes": 19116
+    },
+    "layout": {
+      "path": "trusted-bio-36x48-default-academic-safe.layout.json",
+      "sha256": "2f0dcc59a2a4ed230f8ffce34513c0c7c9e779025cc398eb9dd2c646269f69ff",
+      "bytes": 105158
+    },
+    "pdf": {
+      "path": "trusted-bio-36x48-default-academic-safe.pdf",
+      "sha256": "8a9aaa0dbb4980ec2aeb57c4760bdc2b33cc5183a370655291724af23b9805dc",
+      "bytes": 281405
+    },
+    "png": {
+      "path": "trusted-bio-36x48-default-academic-safe.png",
+      "sha256": "7e1ae30e75bf35f7f6bf41f3670a34a01011b60af4f0159f348fb33b84f4094d",
+      "bytes": 1405813
+    },
+    "pptx": {
+      "path": "trusted-bio-36x48-default-academic-safe.pptx",
+      "sha256": "cbace4f59e69692bd35e60c498690b21ec459b4f799cbd19f7f2ecbe906d10b3",
+      "bytes": 24828
+    },
+    "preflight_report": {
+      "path": "preflight-report.json",
+      "sha256": "4085d23101df1d29c6c1091b286e75ddbbb7f6ac518c94b78ffb03f11e1f9e99",
+      "bytes": 4688
+    },
+    "render_spec": {
+      "path": "render-spec.json",
+      "sha256": "f72086206564bb0ead72e1e48909833cf3fc0a17393a206986c78e22c26204f5",
+      "bytes": 6991
+    }
+  }
+}

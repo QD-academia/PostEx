@@ -1,0 +1,97 @@
+{"kind":"deck","id":"pr/62tyjy","name":"Deck"}
+{"kind":"layout","layoutId":"37337087-b2e2-44e6-86aa-467f1859f201","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6477c678-ff4f-4e92-8de3-a24ee2430cf7","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/1chfqp","slide":1,"title":"Result-first visual research poster title","textShapes":62}
+{"kind":"shape","id":"sh/rmhoja1k","slide":1,"name":"header-band","bbox":[0,0,4494,520]}
+{"kind":"shape","id":"sh/snq5cf25","slide":1,"name":"top-accent","bbox":[0,0,4494,30]}
+{"kind":"textbox","id":"sh/doz6lkjq","slide":1,"name":"poster-title","text":"Result-first visual research poster title","textPreview":"Result-first visual research poster title","textChars":41,"textLines":1,"bbox":[140,62,3120,230]}
+{"kind":"textbox","id":"sh/ihon65k3","slide":1,"name":"authors","text":"Author names","textPreview":"Author names","textChars":12,"textLines":1,"bbox":[145,306,3090,66]}
+{"kind":"textbox","id":"sh/3ixofa1o","slide":1,"name":"affiliations","text":"Institutions and collaborating centers","textPreview":"Institutions and collaborating centers","textChars":38,"textLines":1,"bbox":[145,382,3090,52]}
+{"kind":"textbox","id":"sh/4jq58f29","slide":1,"name":"citation","text":"Journal or conference · DOI","textPreview":"Journal or conference · DOI","textChars":27,"textLines":1,"bbox":[145,445,2550,42]}
+{"kind":"shape","id":"sh/5kz6hkje","slide":1,"name":"logo-slot-institution-logo","bbox":[3370,58,980,130]}
+{"kind":"textbox","id":"sh/2dsnipk7","slide":1,"name":"logo-placeholder-institution-logo","text":"Institution logo","textPreview":"Institution logo","textChars":16,"textLines":1,"bbox":[3382,96,956,52]}
+{"kind":"shape","id":"sh/ne1oru1s","slide":1,"name":"header-summary","bbox":[3370,210,980,240]}
+{"kind":"textbox","id":"sh/zm9wfiho","slide":1,"name":"header-metric-1-value","text":"N","textPreview":"N","textChars":1,"textLines":1,"bbox":[3440,240,260,78]}
+{"kind":"textbox","id":"sh/el0f6d03","slide":1,"name":"header-metric-1-label","text":"primary observations","textPreview":"primary observations","textChars":20,"textLines":1,"bbox":[3440,318,260,88]}
+{"kind":"textbox","id":"sh/1oreh8ze","slide":1,"name":"header-metric-2-value","text":"N","textPreview":"N","textChars":1,"textLines":1,"bbox":[3740,240,260,78]}
+{"kind":"textbox","id":"sh/0nix83i9","slide":1,"name":"header-metric-2-label","text":"analysis samples","textPreview":"analysis samples","textChars":16,"textLines":1,"bbox":[3740,318,260,88]}
+{"kind":"textbox","id":"sh/nq9wjihk","slide":1,"name":"header-metric-3-value","text":"N","textPreview":"N","textChars":1,"textLines":1,"bbox":[4040,240,260,78]}
+{"kind":"textbox","id":"sh/mp0fad0z","slide":1,"name":"header-metric-3-label","text":"validation units","textPreview":"validation units","textChars":16,"textLines":1,"bbox":[4040,318,260,88]}
+{"kind":"textbox","id":"sh/9sbylszq","slide":1,"name":"question-title","text":"One-sentence question","textPreview":"One-sentence question","textChars":21,"textLines":1,"bbox":[140,590,1220,58]}
+{"kind":"shape","id":"sh/orixcny5","slide":1,"name":"question-rule","bbox":[140,657,330,10]}
+{"kind":"textbox","id":"sh/butgn2hw","slide":1,"name":"research-question","text":"State the scientific question in two concise sentences.","textPreview":"State the scientific question in two concise sentences.","textChars":55,"textLines":1,"bbox":[140,682,1220,220]}
+{"kind":"textbox","id":"sh/atkfexgb","slide":1,"name":"question-evidence","text":"Evidence: source page or section","textPreview":"Evidence: source page or section","textChars":32,"textLines":1,"bbox":[140,912,1220,38]}
+{"kind":"textbox","id":"sh/6p4z610j","slide":1,"name":"pipeline-title","text":"Methods at a glance","textPreview":"Methods at a glance","textChars":19,"textLines":1,"bbox":[140,970,1220,58]}
+{"kind":"shape","id":"sh/7qd0fm14","slide":1,"name":"pipeline-rule","bbox":[140,1037,330,10]}
+{"kind":"shape","id":"sh/8b6h8rip","slide":1,"name":"pipeline-1-number-bg","bbox":[140,1064,62,62]}
+{"kind":"textbox","id":"sh/tcfihwju","slide":1,"name":"pipeline-1-number","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[140,1071,62,46]}
+{"kind":"textbox","id":"sh/yl4z2hk7","slide":1,"name":"pipeline-1-text","text":"Study design","textPreview":"Study design","textChars":12,"textLines":1,"bbox":[222,1068,1138,58]}
+{"kind":"shape","id":"sh/jmd0bm1s","slide":1,"name":"pipeline-2-number-bg","bbox":[140,1144,62,62]}
+{"kind":"textbox","id":"sh/knmh4r2d","slide":1,"name":"pipeline-2-number","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[140,1151,62,46]}
+{"kind":"textbox","id":"sh/lovidwjy","slide":1,"name":"pipeline-2-text","text":"Primary measurement","textPreview":"Primary measurement","textChars":19,"textLines":1,"bbox":[222,1148,1138,58]}
+{"kind":"shape","id":"sh/ihojel0r","slide":1,"name":"pipeline-3-number-bg","bbox":[140,1224,62,62]}
+{"kind":"textbox","id":"sh/3ix0n61c","slide":1,"name":"pipeline-3-number","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[140,1231,62,46]}
+{"kind":"textbox","id":"sh/dcj2dk3e","slide":1,"name":"pipeline-3-text","text":"Analysis strategy","textPreview":"Analysis strategy","textChars":17,"textLines":1,"bbox":[222,1228,1138,58]}
+{"kind":"shape","id":"sh/sbalkf2t","slide":1,"name":"pipeline-4-number-bg","bbox":[140,1304,62,62]}
+{"kind":"textbox","id":"sh/ra1kbal8","slide":1,"name":"pipeline-4-number","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[140,1311,62,46]}
+{"kind":"textbox","id":"sh/q983i5kn","slide":1,"name":"pipeline-4-text","text":"Validation boundary","textPreview":"Validation boundary","textChars":19,"textLines":1,"bbox":[222,1308,1138,58]}
+{"kind":"shape","id":"sh/58z29032","slide":1,"name":"dataset-panel","bbox":[140,1410,1220,360]}
+{"kind":"textbox","id":"sh/47qlgv2x","slide":1,"name":"dataset-kicker","text":"ESSENTIAL CONTEXT","textPreview":"ESSENTIAL CONTEXT","textChars":17,"textLines":1,"bbox":[168,1440,460,40]}
+{"kind":"textbox","id":"sh/36hk7qlc","slide":1,"name":"datasets","text":"Discovery set\nPrimary analysis\nValidation set\nSensitivity analysis","textPreview":"Discovery set | Primary analysis | Validation set | Sensitivity analysis","textChars":66,"textLines":4,"bbox":[168,1495,1164,216]}
+{"kind":"textbox","id":"sh/i583el4r","slide":1,"name":"dataset-evidence","text":"Evidence: methods and dataset table","textPreview":"Evidence: methods and dataset table","textChars":35,"textLines":1,"bbox":[168,1723,1164,38]}
+{"kind":"textbox","id":"sh/943ml43m","slide":1,"name":"figure-one-heading-title","text":"How the result was produced","textPreview":"How the result was produced","textChars":27,"textLines":1,"bbox":[140,1825,1220,58]}
+{"kind":"shape","id":"sh/o3ulsz21","slide":1,"name":"figure-one-heading-rule","bbox":[140,1892,330,10]}
+{"kind":"shape","id":"sh/wnitcz2h","slide":1,"name":"figure-one-frame","bbox":[140,1915,1220,1040]}
+{"kind":"shape","id":"sh/h8rul432","slide":1,"name":"figure-one-placeholder","bbox":[160,1935,1180,942]}
+{"kind":"textbox","id":"sh/ulgbapkr","slide":1,"name":"figure-one-placeholder-label","text":"methods summary","textPreview":"methods summary","textChars":15,"textLines":1,"bbox":[200,2375,1100,90]}
+{"kind":"textbox","id":"sh/vm9sjulc","slide":1,"name":"figure-one-caption","text":"Methods Summary caption","textPreview":"Methods Summary caption","textChars":23,"textLines":1,"bbox":[164,2883,1172,33]}
+{"kind":"textbox","id":"sh/4bitgz2t","slide":1,"name":"figure-one-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[164,2917,1172,38]}
+{"kind":"shape","id":"sh/5crup43e","slide":1,"name":"central-takeaway","bbox":[1420,590,1435,265]}
+{"kind":"textbox","id":"sh/i90be9kn","slide":1,"name":"central-takeaway-title","text":"Lead with the decisive visual result","textPreview":"Lead with the decisive visual result","textChars":36,"textLines":1,"bbox":[1464,625,1347,100]}
+{"kind":"textbox","id":"sh/ja9cnul8","slide":1,"name":"central-takeaway-subtitle","text":"Keep the interpretation adjacent to its evidence","textPreview":"Keep the interpretation adjacent to its evidence","textChars":48,"textLines":1,"bbox":[1490,754,1295,48]}
+{"kind":"textbox","id":"sh/sf2tkj2p","slide":1,"name":"takeaway-evidence","text":"Evidence: result section and figure","textPreview":"Evidence: result section and figure","textChars":35,"textLines":1,"bbox":[1466,810,1343,38]}
+{"kind":"textbox","id":"sh/dgbuto3a","slide":1,"name":"figure-two-heading-title","text":"Hero result","textPreview":"Hero result","textChars":11,"textLines":1,"bbox":[1420,905,1435,58]}
+{"kind":"shape","id":"sh/nadwji5c","slide":1,"name":"figure-two-heading-rule","bbox":[1420,972,330,10]}
+{"kind":"shape","id":"sh/294vad47","slide":1,"name":"figure-two-frame","bbox":[1420,995,1435,1335]}
+{"kind":"shape","id":"sh/pcvelsni","slide":1,"name":"figure-two-placeholder","bbox":[1440,1015,1395,1237]}
+{"kind":"textbox","id":"sh/obmxcnmx","slide":1,"name":"figure-two-placeholder-label","text":"hero result","textPreview":"hero result","textChars":11,"textLines":1,"bbox":[1480,1602.5,1315,90]}
+{"kind":"textbox","id":"sh/f6dwfy5g","slide":1,"name":"figure-two-caption","text":"Hero Result caption","textPreview":"Hero Result caption","textChars":19,"textLines":1,"bbox":[1444,2258,1387,33]}
+{"kind":"textbox","id":"sh/e54v6t4v","slide":1,"name":"figure-two-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[1444,2292,1387,38]}
+{"kind":"textbox","id":"sh/18veh8nm","slide":1,"name":"validation-heading-title","text":"What changes the conclusion","textPreview":"What changes the conclusion","textChars":27,"textLines":1,"bbox":[1420,2380,1435,58]}
+{"kind":"shape","id":"sh/07md83m1","slide":1,"name":"validation-heading-rule","bbox":[1420,2447,330,10]}
+{"kind":"shape","id":"sh/z2xwr25k","slide":1,"name":"validation-panel","bbox":[1420,2470,1435,425]}
+{"kind":"textbox","id":"sh/y1ofix4z","slide":1,"name":"validation","text":"• Primary adjusted result\n• External validation\n• Negative findings\n• Interpretation boundary","textPreview":"• Primary adjusted result | • External validation | • Negative findings | • Interpretation boundary","textChars":93,"textLines":4,"bbox":[1456,2503,1363,310]}
+{"kind":"textbox","id":"sh/uxsza1o7","slide":1,"name":"validation-evidence","text":"Evidence: result pages","textPreview":"Evidence: result pages","textChars":22,"textLines":1,"bbox":[1456,2847,1363,38]}
+{"kind":"shape","id":"sh/vy1gj6ps","slide":1,"name":"performance-strip","bbox":[1420,2930,1435,115]}
+{"kind":"textbox","id":"sh/wzahcb6d","slide":1,"name":"performance-strip-text","text":"Primary estimate · uncertainty · validation","textPreview":"Primary estimate · uncertainty · validation","textChars":43,"textLines":1,"bbox":[1454,2960,1367,52]}
+{"kind":"textbox","id":"sh/h0jilg7y","slide":1,"name":"biology-heading-title","text":"Three result anchors","textPreview":"Three result anchors","textChars":20,"textLines":1,"bbox":[2915,590,1439,58]}
+{"kind":"shape","id":"sh/i1sze1oj","slide":1,"name":"biology-heading-rule","bbox":[2915,657,330,10]}
+{"kind":"textbox","id":"sh/j210n6p4","slide":1,"name":"biology-1-value","text":"Effect","textPreview":"Effect","textChars":6,"textLines":1,"bbox":[2915,690,420,78]}
+{"kind":"textbox","id":"sh/4nuhgb6p","slide":1,"name":"biology-1-label","text":"primary estimate","textPreview":"primary estimate","textChars":16,"textLines":1,"bbox":[2915,768,420,88]}
+{"kind":"textbox","id":"sh/5o3ipg7u","slide":1,"name":"biology-2-value","text":"95% CI","textPreview":"95% CI","textChars":6,"textLines":1,"bbox":[3390,690,420,78]}
+{"kind":"textbox","id":"sh/y58z2hof","slide":1,"name":"biology-2-label","text":"uncertainty","textPreview":"uncertainty","textChars":11,"textLines":1,"bbox":[3390,768,420,88]}
+{"kind":"textbox","id":"sh/z6hgbmpk","slide":1,"name":"biology-3-value","text":"P","textPreview":"P","textChars":1,"textLines":1,"bbox":[3865,690,420,78]}
+{"kind":"textbox","id":"sh/1w7axove","slide":1,"name":"biology-3-label","text":"robustness","textPreview":"robustness","textChars":10,"textLines":1,"bbox":[3865,768,420,88]}
+{"kind":"textbox","id":"sh/0vyt4jut","slide":1,"name":"biology-evidence","text":"Evidence: supporting analysis","textPreview":"Evidence: supporting analysis","textChars":29,"textLines":1,"bbox":[2915,890,1439,38]}
+{"kind":"shape","id":"sh/zupsvedo","slide":1,"name":"figure-three-frame","bbox":[2915,965,1439,720]}
+{"kind":"shape","id":"sh/etgb29c3","slide":1,"name":"figure-three-placeholder","bbox":[2935,985,1399,622]}
+{"kind":"textbox","id":"sh/90ru1ovq","slide":1,"name":"figure-three-placeholder-label","text":"supporting result","textPreview":"supporting result","textChars":17,"textLines":1,"bbox":[2975,1265,1319,90]}
+{"kind":"textbox","id":"sh/ozyt8ju5","slide":1,"name":"figure-three-caption","text":"Supporting Result caption","textPreview":"Supporting Result caption","textChars":25,"textLines":1,"bbox":[2939,1613,1391,33]}
+{"kind":"textbox","id":"sh/nypczedk","slide":1,"name":"figure-three-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[2939,1647,1391,38]}
+{"kind":"textbox","id":"sh/mxgb69cz","slide":1,"name":"validation-visual-heading-title","text":"Supporting result","textPreview":"Supporting result","textChars":17,"textLines":1,"bbox":[2915,1735,1439,58]}
+{"kind":"shape","id":"sh/54napkv6","slide":1,"name":"validation-visual-heading-rule","bbox":[2915,1802,330,10]}
+{"kind":"shape","id":"sh/43etwzul","slide":1,"name":"figure-four-frame","bbox":[2915,1825,1439,750]}
+{"kind":"shape","id":"sh/wrapgji5","slide":1,"name":"figure-four-placeholder","bbox":[2935,1845,1399,652]}
+{"kind":"textbox","id":"sh/xsj69ozq","slide":1,"name":"figure-four-placeholder-label","text":"validation result","textPreview":"validation result","textChars":17,"textLines":1,"bbox":[2975,2140,1319,90]}
+{"kind":"textbox","id":"sh/aps7et0z","slide":1,"name":"figure-four-caption","text":"Validation Result caption","textPreview":"Validation Result caption","textChars":25,"textLines":1,"bbox":[2939,2503,1391,33]}
+{"kind":"textbox","id":"sh/vq1o7ehk","slide":1,"name":"figure-four-source","text":"Evidence/source locator","textPreview":"Evidence/source locator","textChars":23,"textLines":1,"bbox":[2939,2537,1391,38]}
+{"kind":"textbox","id":"sh/8nq5cji9","slide":1,"name":"conclusion-heading-title","text":"Why this result matters","textPreview":"Why this result matters","textChars":23,"textLines":1,"bbox":[2915,2625,1439,58]}
+{"kind":"shape","id":"sh/9oz65ozu","slide":1,"name":"conclusion-heading-rule","bbox":[2915,2692,330,10]}
+{"kind":"shape","id":"sh/ml8na903","slide":1,"name":"conclusion-panel","bbox":[2915,2715,1439,330]}
+{"kind":"textbox","id":"sh/nmho3eho","slide":1,"name":"conclusion","text":"State the supported conclusion and retain the most important limitation.","textPreview":"State the supported conclusion and retain the most important limitation.","textChars":72,"textLines":1,"bbox":[2949,2748,1371,230]}
+{"kind":"textbox","id":"sh/sjupo3yd","slide":1,"name":"conclusion-evidence","text":"Evidence: discussion and conclusion","textPreview":"Evidence: discussion and conclusion","textChars":35,"textLines":1,"bbox":[2949,2992,1371,38]}
+{"kind":"shape","id":"sh/tk36h8zy","slide":1,"name":"footer-band","bbox":[0,3080,4494,99]}
+{"kind":"textbox","id":"sh/3qp0365c","slide":1,"name":"footer-source","text":"Source citation · content mode · asset license","textPreview":"Source citation · content mode · asset license","textChars":46,"textLines":1,"bbox":[140,3107,2010,42]}
+{"kind":"textbox","id":"sh/2pgju1or","slide":1,"name":"footer-status","text":"Approvals current · scientific colors locked","textPreview":"Approvals current · scientific colors locked","textChars":44,"textLines":1,"bbox":[2180,3107,910,42]}
+{"kind":"textbox","id":"sh/ps7i5gni","slide":1,"name":"POSTEX_PROVENANCE_MARK","text":"Made with PostEx™ · PX-00000000","textPreview":"Made with PostEx™ · PX-00000000","textChars":31,"textLines":1,"bbox":[3180,3107,1170,42]}
+{"kind":"notes","id":"nt/1chfqp","slide":1,"text":"[Sources]\n- PostEx official template asset; CC BY 4.0\n- No third-party logo or scientific figure is embedded\n[/Sources]"}

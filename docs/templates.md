@@ -1,6 +1,6 @@
-# Official template contract
+# PostEx™ official template contract
 
-v0.2 continues to accept only official pre-annotated templates while Palette Fusion rendering stabilizes. Each family contains `template.yaml` and three independently reviewed variants:
+v0.4 accepts official pre-annotated templates through the shared renderer. Each family contains `template.yaml` and three independently rendered and reviewed variants:
 
 | Variant | Width | Height |
 |---|---:|---:|
@@ -8,7 +8,9 @@ v0.2 continues to accept only official pre-annotated templates while Palette Fus
 | A1 landscape | 33.110 in | 23.386 in |
 | 36×48 landscape | 48 in | 36 in |
 
-The three families are Bioinformatics Pipeline, Observational Cohort, and Visual Results. A production `.pptx` must declare role-tagged content and logo placeholders, minimum font sizes, asset license, checksums, bundled-font policy, and renderer fixtures.
+The three production families are Bioinformatics Pipeline, Observational Cohort, and Visual Results. Every size includes an actual `.pptx`, `.png`, render spec, layout inspection, and object inspection. A production `.pptx` declares role-tagged content and logo placeholders, minimum font sizes, asset license, checksum, and renderer fixtures.
+
+Every generated poster uses an independent `POSTEX_PROVENANCE_MARK` object unless an exact omission approval is current. Template fixtures use `PX-00000000`; project exports replace it with a deterministic source ID.
 
 Do not create one master file and scale it blindly. Review font sizes, margins, captions, chart detail, geometry, and print output for each size. Reject macro-enabled or unlicensed files.
 

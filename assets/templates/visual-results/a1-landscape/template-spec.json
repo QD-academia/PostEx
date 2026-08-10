@@ -1,0 +1,136 @@
+{
+  "schema_version": "0.4",
+  "canvas": {
+    "width": 3179,
+    "height": 2245
+  },
+  "template": {
+    "family": "visual-results",
+    "size": "a1-landscape"
+  },
+  "theme": {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC"
+  },
+  "typography": {
+    "language": "en",
+    "latin_font_family": "Arial",
+    "cjk_font_family": "Noto Sans CJK SC"
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "provenance": {
+    "enabled": true,
+    "source_id": "PX-00000000",
+    "mark_text": "Made with PostEx™ · PX-00000000",
+    "object_name": "POSTEX_PROVENANCE_MARK"
+  },
+  "content": {
+    "title": "Result-first visual research poster title",
+    "authors": "Author names",
+    "affiliations": "Institutions and collaborating centers",
+    "citation": "Journal or conference · DOI",
+    "header_metrics": [
+      {
+        "value": "N",
+        "label": "primary observations"
+      },
+      {
+        "value": "N",
+        "label": "analysis samples"
+      },
+      {
+        "value": "N",
+        "label": "validation units"
+      }
+    ],
+    "question_heading": "One-sentence question",
+    "question": "State the scientific question in two concise sentences.",
+    "question_evidence": "Evidence: source page or section",
+    "pipeline_heading": "Methods at a glance",
+    "pipeline_steps": [
+      "Study design",
+      "Primary measurement",
+      "Analysis strategy",
+      "Validation boundary"
+    ],
+    "dataset_kicker": "ESSENTIAL CONTEXT",
+    "datasets": "Discovery set\nPrimary analysis\nValidation set\nSensitivity analysis",
+    "dataset_evidence": "Evidence: methods and dataset table",
+    "figure_one_heading": "How the result was produced",
+    "takeaway": "Lead with the decisive visual result",
+    "takeaway_subtitle": "Keep the interpretation adjacent to its evidence",
+    "takeaway_evidence": "Evidence: result section and figure",
+    "figure_two_heading": "Hero result",
+    "validation_heading": "What changes the conclusion",
+    "validation": "• Primary adjusted result\n• External validation\n• Negative findings\n• Interpretation boundary",
+    "validation_evidence": "Evidence: result pages",
+    "performance_summary": "Primary estimate · uncertainty · validation",
+    "biology_heading": "Three result anchors",
+    "biology_metrics": [
+      {
+        "value": "Effect",
+        "label": "primary estimate"
+      },
+      {
+        "value": "95% CI",
+        "label": "uncertainty"
+      },
+      {
+        "value": "P",
+        "label": "robustness"
+      }
+    ],
+    "biology_evidence": "Evidence: supporting analysis",
+    "validation_visual_heading": "Supporting result",
+    "conclusion_heading": "Why this result matters",
+    "conclusion": "State the supported conclusion and retain the most important limitation.",
+    "conclusion_evidence": "Evidence: discussion and conclusion",
+    "footer_source": "Source citation · content mode · asset license",
+    "footer_status": "Approvals current · scientific colors locked",
+    "figures": [
+      {
+        "placeholder": "methods summary",
+        "alt": "Editable methods summary placeholder",
+        "caption": "Methods Summary caption",
+        "source": "Evidence/source locator"
+      },
+      {
+        "placeholder": "hero result",
+        "alt": "Editable hero result placeholder",
+        "caption": "Hero Result caption",
+        "source": "Evidence/source locator"
+      },
+      {
+        "placeholder": "supporting result",
+        "alt": "Editable supporting result placeholder",
+        "caption": "Supporting Result caption",
+        "source": "Evidence/source locator"
+      },
+      {
+        "placeholder": "validation result",
+        "alt": "Editable validation result placeholder",
+        "caption": "Validation Result caption",
+        "source": "Evidence/source locator"
+      }
+    ]
+  },
+  "sources": [
+    "PostEx official template asset; CC BY 4.0",
+    "No third-party logo or scientific figure is embedded"
+  ]
+}

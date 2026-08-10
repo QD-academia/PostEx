@@ -1,0 +1,136 @@
+{
+  "schema_version": "0.4",
+  "canvas": {
+    "width": 4608,
+    "height": 3456
+  },
+  "template": {
+    "family": "observational-cohort",
+    "size": "36x48-landscape"
+  },
+  "theme": {
+    "ink": "#102A43",
+    "primary": "#0F5F73",
+    "secondary": "#2C8C99",
+    "accent": "#E8B44C",
+    "canvas": "#F6F8FA",
+    "panel": "#FFFFFF",
+    "neutral": "#D9E2EC"
+  },
+  "typography": {
+    "language": "en",
+    "latin_font_family": "Arial",
+    "cjk_font_family": "Noto Sans CJK SC"
+  },
+  "branding": {
+    "logo_mode": "placeholder",
+    "placeholders": [
+      {
+        "id": "institution-logo",
+        "role": "institution",
+        "placement": "header-right",
+        "label": "Institution logo"
+      }
+    ]
+  },
+  "provenance": {
+    "enabled": true,
+    "source_id": "PX-00000000",
+    "mark_text": "Made with PostEx™ · PX-00000000",
+    "object_name": "POSTEX_PROVENANCE_MARK"
+  },
+  "content": {
+    "title": "Transparent observational cohort poster title",
+    "authors": "Author names",
+    "affiliations": "Institutions and collaborating centers",
+    "citation": "Journal or conference · DOI",
+    "header_metrics": [
+      {
+        "value": "N",
+        "label": "eligible participants"
+      },
+      {
+        "value": "N",
+        "label": "outcome events"
+      },
+      {
+        "value": "N",
+        "label": "sensitivity models"
+      }
+    ],
+    "question_heading": "Clinical question",
+    "question": "State the scientific question in two concise sentences.",
+    "question_evidence": "Evidence: source page or section",
+    "pipeline_heading": "Cohort construction",
+    "pipeline_steps": [
+      "Define source population",
+      "Apply eligibility criteria",
+      "Specify exposure and outcome",
+      "Fit adjusted models"
+    ],
+    "dataset_kicker": "COHORT ACCOUNTING",
+    "datasets": "Discovery set\nPrimary analysis\nValidation set\nSensitivity analysis",
+    "dataset_evidence": "Evidence: methods and dataset table",
+    "figure_one_heading": "Eligibility and follow-up",
+    "takeaway": "Place the single most important result here",
+    "takeaway_subtitle": "Explain what the result means for the audience",
+    "takeaway_evidence": "Evidence: result section and figure",
+    "figure_two_heading": "Adjusted primary outcome",
+    "validation_heading": "Bias and sensitivity checks",
+    "validation": "• Primary adjusted result\n• External validation\n• Negative findings\n• Interpretation boundary",
+    "validation_evidence": "Evidence: result pages",
+    "performance_summary": "Primary estimate · uncertainty · validation",
+    "biology_heading": "Effect estimates",
+    "biology_metrics": [
+      {
+        "value": "Effect",
+        "label": "primary estimate"
+      },
+      {
+        "value": "95% CI",
+        "label": "uncertainty"
+      },
+      {
+        "value": "P",
+        "label": "robustness"
+      }
+    ],
+    "biology_evidence": "Evidence: supporting analysis",
+    "validation_visual_heading": "Subgroups and robustness",
+    "conclusion_heading": "Interpretation and limitations",
+    "conclusion": "State the supported conclusion and retain the most important limitation.",
+    "conclusion_evidence": "Evidence: discussion and conclusion",
+    "footer_source": "Source citation · content mode · asset license",
+    "footer_status": "Approvals current · scientific colors locked",
+    "figures": [
+      {
+        "placeholder": "cohort flow diagram",
+        "alt": "Editable cohort flow diagram placeholder",
+        "caption": "Cohort Flow Diagram caption",
+        "source": "Evidence/source locator"
+      },
+      {
+        "placeholder": "adjusted outcome plot",
+        "alt": "Editable adjusted outcome plot placeholder",
+        "caption": "Adjusted Outcome Plot caption",
+        "source": "Evidence/source locator"
+      },
+      {
+        "placeholder": "baseline characteristics visual",
+        "alt": "Editable baseline characteristics visual placeholder",
+        "caption": "Baseline Characteristics Visual caption",
+        "source": "Evidence/source locator"
+      },
+      {
+        "placeholder": "sensitivity analysis plot",
+        "alt": "Editable sensitivity analysis plot placeholder",
+        "caption": "Sensitivity Analysis Plot caption",
+        "source": "Evidence/source locator"
+      }
+    ]
+  },
+  "sources": [
+    "PostEx official template asset; CC BY 4.0",
+    "No third-party logo or scientific figure is embedded"
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://postex.dev/schemas/v0.1/preflight-report.schema.json",
+  "$id": "https://postex.dev/schemas/v0.4/preflight-report.schema.json",
   "title": "PostEx Preflight Report",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "project_id", "passed", "findings"],
+  "required": ["schema_version", "project_id", "passed", "release_ready", "output_status", "findings"],
   "properties": {
-    "schema_version": {"const": "0.1"},
+    "schema_version": {"const": "0.4"},
     "project_id": {"type": "string"},
     "poster_size": {"enum": ["a0-landscape", "a1-landscape", "36x48-landscape"]},
     "expected_inches": {
@@ -16,6 +16,8 @@
       "maxItems": 2
     },
     "passed": {"type": "boolean"},
+    "release_ready": {"type": "boolean"},
+    "output_status": {"enum": ["draft", "release-ready"]},
     "findings": {
       "type": "array",
       "items": {

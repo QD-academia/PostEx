@@ -4,6 +4,22 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.4.0a1] - 2026-08-10
+
+### Added
+
+- Trusted Export provenance label with stable `PX-XXXXXXXX` source IDs and the independent PPTX object `POSTEX_PROVENANCE_MARK`.
+- `postex-manifest.json`, JSON Schema, file metadata, input/output SHA-256 records, asset/license references, approvals, and Preflight state.
+- Release checks for provenance, omission approval, dimensions, fonts, overflow, effective DPI, contrast, safety margins, mark overlap, integrity, and hashes.
+- Approval-gated `postex create <source>` scaffolding.
+- Production assets and release-ready goldens for three template families across A0, A1, and 36×48 landscape.
+
+### Changed
+
+- WARNING findings now force draft status; ERROR findings block release-ready output.
+- Missing provenance fields in v0.3 and earlier projects default to the visual source mark being enabled.
+- Codex and Claude Code Skills now delegate Trusted Export rules to the shared `postex` core.
+
 ## [0.3.0a1] - 2026-08-08
 
 ### Added

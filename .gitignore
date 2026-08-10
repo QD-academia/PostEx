@@ -26,6 +26,9 @@ output/
 !examples/aurora-synthetic/output/**/*.png
 !evals/previews/**/*.pptx
 !evals/previews/**/*.png
+!evals/goldens/**/*.pptx
+!evals/goldens/**/*.pdf
+!evals/goldens/**/*.png
 !docs/images/*.png
 !docs/images/palettes/*.png
 .env

@@ -17,9 +17,12 @@ template:
   size: 36x48-landscape
 branding:
   logo_mode: none
+provenance:
+  enabled: true
 privacy:
   require_cloud_upload_approval: true
   allow_network_palette_sources: false
 output:
   directory: output/fictional-cohort
-  formats: [pptx, pdf, png, evidence, preflight]
+  formats: [pptx, pdf, png, evidence, preflight, manifest]
+  release_ready: false

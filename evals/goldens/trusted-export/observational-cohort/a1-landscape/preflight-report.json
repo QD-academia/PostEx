@@ -1,0 +1,176 @@
+{
+  "schema_version": "0.4",
+  "project_id": "trusted-cohort-a1",
+  "poster_size": "a1-landscape",
+  "passed": true,
+  "release_ready": true,
+  "output_status": "release-ready",
+  "expected_inches": [
+    33.11,
+    23.386
+  ],
+  "findings": [
+    {
+      "code": "artifacts",
+      "severity": "error",
+      "passed": true,
+      "message": "PPTX, PDF, PNG and layout JSON are present and non-empty."
+    },
+    {
+      "code": "dimensions.layout",
+      "severity": "error",
+      "passed": true,
+      "message": "Layout is (3179, 2245); expected (3179, 2245) px."
+    },
+    {
+      "code": "minimum_font_size",
+      "severity": "error",
+      "passed": true,
+      "message": "Minimum primary text is 26.8 px; required >=26.7 px (20 pt) for a1-landscape."
+    },
+    {
+      "code": "text_line_limits",
+      "severity": "error",
+      "passed": true,
+      "message": "Text line limits are respected."
+    },
+    {
+      "code": "text_capacity",
+      "severity": "error",
+      "passed": true,
+      "message": "Rendered line count fits every text box."
+    },
+    {
+      "code": "text_collisions",
+      "severity": "error",
+      "passed": true,
+      "message": "Text boxes do not overlap."
+    },
+    {
+      "code": "orphan_lines",
+      "severity": "warning",
+      "passed": true,
+      "message": "No short orphan lines were detected."
+    },
+    {
+      "code": "text_line_length",
+      "severity": "warning",
+      "passed": true,
+      "message": "Text lines stay within scan-friendly length targets."
+    },
+    {
+      "code": "cjk_line_breaks",
+      "severity": "warning",
+      "passed": true,
+      "message": "CJK punctuation line breaks are valid."
+    },
+    {
+      "code": "overflow",
+      "severity": "error",
+      "passed": true,
+      "message": "Text capacity, line limits and collision checks pass."
+    },
+    {
+      "code": "fonts",
+      "severity": "error",
+      "passed": true,
+      "message": "Every text object resolves to an explicit or theme typeface."
+    },
+    {
+      "code": "dimensions.png",
+      "severity": "error",
+      "passed": true,
+      "message": "PNG is (3179, 2245); expected (3179, 2245) px."
+    },
+    {
+      "code": "provenance_mark",
+      "severity": "error",
+      "passed": true,
+      "message": "The named provenance mark survives PPTX, PDF and PNG rendering."
+    },
+    {
+      "code": "provenance_approval",
+      "severity": "error",
+      "passed": true,
+      "message": "Visual provenance is enabled or its exact omission digest is approved."
+    },
+    {
+      "code": "safe_margin",
+      "severity": "error",
+      "passed": true,
+      "message": "All text stays inside the 0.25-inch export safety margin."
+    },
+    {
+      "code": "provenance_overlap",
+      "severity": "error",
+      "passed": true,
+      "message": "The provenance mark does not overlap poster content."
+    },
+    {
+      "code": "contrast",
+      "severity": "error",
+      "passed": true,
+      "message": "Primary text pairs meet WCAG 4.5:1."
+    },
+    {
+      "code": "effective_dpi",
+      "severity": "warning",
+      "passed": true,
+      "message": "All scientific figures are vector assets."
+    },
+    {
+      "code": "dimensions.pdf",
+      "severity": "error",
+      "passed": true,
+      "message": "PDF has 1 page at 2384.25x1683.75 pt."
+    },
+    {
+      "code": "manifest",
+      "severity": "error",
+      "passed": true,
+      "message": "postex-manifest.json is present, valid and does not hash itself."
+    },
+    {
+      "code": "scientific_color_locks",
+      "severity": "error",
+      "passed": true,
+      "message": "Scientific figure source hashes remain pixel-locked."
+    },
+    {
+      "code": "output_hashes",
+      "severity": "error",
+      "passed": true,
+      "message": "Current output SHA-256 values match the manifest draft."
+    },
+    {
+      "code": "final_release_approval",
+      "severity": "error",
+      "passed": true,
+      "message": "The current Trusted Export release payload has final approval."
+    },
+    {
+      "code": "dimensions.pptx",
+      "severity": "error",
+      "passed": true,
+      "message": "PPTX is (30279975, 21383625); expected (30279975, 21383625) EMU."
+    },
+    {
+      "code": "evidence_coverage",
+      "severity": "error",
+      "passed": true,
+      "message": "Evidence coverage is 1.000."
+    },
+    {
+      "code": "approvals",
+      "severity": "error",
+      "passed": true,
+      "message": "Deletion and palette approvals match current proposal digests."
+    },
+    {
+      "code": "branding",
+      "severity": "error",
+      "passed": true,
+      "message": "Logo mode is valid and all supplied logo files exist."
+    }
+  ]
+}

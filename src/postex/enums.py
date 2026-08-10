@@ -3,7 +3,7 @@ from enum import Enum
 
 class StrEnum(str, Enum):
     def __str__(self) -> str:
-        return self.value
+        return str(self.value)
 
 
 class ResearchType(StrEnum):
@@ -37,6 +37,7 @@ class ApprovalSubject(StrEnum):
     FIGURE_EDIT = "figure_edit"
     POSTER_STRUCTURE = "poster_structure"
     FINAL_RELEASE = "final_release"
+    OMIT_PROVENANCE_MARK = "omit_provenance_mark"
 
 
 class ApprovalDecision(StrEnum):

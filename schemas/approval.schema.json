@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://postex.dev/schemas/v0.2/approval.schema.json",
+  "$id": "https://postex.dev/schemas/v0.4/approval.schema.json",
   "title": "PostEx Approval Record",
   "type": "object",
   "additionalProperties": false,
@@ -10,7 +10,8 @@
       "enum": [
         "cloud_upload", "content_deletion", "palette_application",
         "scientific_color_unlock", "hero_result", "figure_edit",
-        "poster_structure", "final_release"
+        "poster_structure", "structure_selection", "final_release",
+        "omit_provenance_mark"
       ]
     },
     "proposal_id": {"type": "string", "minLength": 1},

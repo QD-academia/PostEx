@@ -1,4 +1,23 @@
-# PostEx v0.2 Architecture
+# PostEx™ v0.4 Architecture
+
+## 0. Trusted Export boundary
+
+Trusted Export is enforced in the shared core, not in Skill prose. `provenance` resolves legacy defaults and omission approvals; `manifest` records inputs, licensed materials, approvals, Preflight state, and output hashes; `generation` coordinates metadata and finalization; `artifact_renderer.mjs` creates the editable `POSTEX_PROVENANCE_MARK`; and `preflight` decides draft versus release-ready.
+
+```mermaid
+flowchart LR
+  A["Approved evidence + Palette Fusion + structure"] --> R["Artifact Tool PPTX"]
+  R --> M["Independent provenance object"]
+  M --> X["PDF + PNG exports"]
+  X --> D["PPTX/PDF/PNG metadata"]
+  D --> F["Draft Manifest + output hashes"]
+  F --> P["Trusted Export Preflight"]
+  P -->|"ERROR"| B["Blocked"]
+  P -->|"WARNING"| W["Draft only"]
+  P -->|"All pass + final approval"| Z["Release-ready Manifest"]
+```
+
+The Manifest never includes its own hash. Scientific source assets are read and hashed; visual provenance is composed as a separate poster object and never burned into source figure pixels.
 
 ## 1. Principles
 
@@ -55,7 +74,9 @@ Cloud providers sit behind the local privacy gate and receive only `ApprovedClou
 | `research` | Bioinformatics and observational planning profiles |
 | `templates` | Official family and size resolution |
 | `renderers` | Editable PPTX authoring and PDF export boundaries |
-| `preflight` | Release-blocking diagnostics |
+| `provenance` | Stable source ID, visual-mark policy, omission approval, and file metadata |
+| `manifest` | Trusted Export inventory, license/approval references, and SHA-256 records |
+| `preflight` | Draft/release diagnostics, integrity verification, and publication gate |
 | `workflow` | v0.1 compatibility flow and v0.2 Palette Fusion flow |
 | `cli` | Thin user-facing command surface |
 
@@ -104,7 +125,7 @@ The engine does not mutate figures, recolor raster science, or approve its own r
 
 ## 7. Rendering and compatibility
 
-The v0.1 Bioinformatics Pipeline renderer remains the production path. v0.2 adds an upstream design-intelligence layer without removing legacy `Palette`, `PosterWorkflow`, project files, or golden examples. Palette-aware renderer integration must map semantic roles rather than array positions before it becomes release-ready.
+Bioinformatics Pipeline, Observational Cohort, and Visual Results share the production renderer in A0, A1, and 36×48 landscape. v0.1–v0.3 `Palette`, `PosterWorkflow`, project files, approvals, evidence, and rendering inputs remain loadable. A project without `provenance` is interpreted as `enabled: true`.
 
 PowerPoint is the preferred PDF exporter; LibreOffice is the declared fallback. Rasterized PNG is preview-only.
 

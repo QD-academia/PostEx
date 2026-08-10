@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/troiao",
-    "id": "troiao",
+    "aid": "sl/7k7y70",
+    "id": "7k7y70",
     "slide": 1,
-    "layoutId": "32ee2edb-d6e4-4c69-8d37-0a168fe97ee1",
+    "layoutId": "5bff2c87-152c-419d-9895-fa0c3096dc82",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "ee389014-4a65-4684-9ed9-e7a7fc2ecb04",
+    "masterLayoutId": "5398710f-e7d1-4f00-b6a4-e58c8b259bba",
     "masterLayoutName": "Master",
     "backgroundColor": "#F6F8FA",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "32ee2edb-d6e4-4c69-8d37-0a168fe97ee1",
+      "id": "5bff2c87-152c-419d-9895-fa0c3096dc82",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "ee389014-4a65-4684-9ed9-e7a7fc2ecb04",
+      "parentLayoutId": "5398710f-e7d1-4f00-b6a4-e58c8b259bba",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "ee389014-4a65-4684-9ed9-e7a7fc2ecb04",
+      "id": "5398710f-e7d1-4f00-b6a4-e58c8b259bba",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ori9gvqh",
+      "aid": "sh/98jixcja",
       "id": "1",
       "name": "header-band",
       "bbox": [
@@ -81,7 +81,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3q98nq9w",
+      "aid": "sh/ml8j2xkz",
       "id": "2",
       "name": "top-accent",
       "bbox": [
@@ -98,7 +98,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2p0rel8b",
+      "aid": "sh/7mh0v21k",
       "id": "3",
       "name": "poster-title",
       "bbox": [
@@ -110,9 +110,9 @@
       "geometry": "rect",
       "text": "Evidence-traceable bioinformatics poster title",
       "textPreview": "Evidence-traceable bioinformatics poster title",
-      "resolvedFontSize": 72,
+      "resolvedFontSize": 69.21,
       "resolvedTextStyle": {
-        "fontSize": 72,
+        "fontSize": 69.21,
         "typeface": "+mn-lt",
         "color": "#FFFFFF",
         "bold": true,
@@ -138,7 +138,7 @@
           "index": 1,
           "text": "Evidence-traceable bioinformatics poster title",
           "resolvedTextStyle": {
-            "fontSize": 72,
+            "fontSize": 69.21,
             "color": "#FFFFFF",
             "bold": true
           },
@@ -146,7 +146,7 @@
             {
               "index": 1,
               "text": "Evidence-traceable bioinformatics poster title",
-              "fontSize": 72,
+              "fontSize": 69.21,
               "color": "#FFFFFF",
               "bold": true
             }
@@ -160,7 +160,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1o7qlgrq",
+      "aid": "sh/wba18ri1",
       "id": "4",
       "name": "authors",
       "bbox": [
@@ -172,9 +172,9 @@
       "geometry": "rect",
       "text": "Author names",
       "textPreview": "Author names",
-      "resolvedFontSize": 30,
+      "resolvedFontSize": 26.13,
       "resolvedTextStyle": {
-        "fontSize": 30,
+        "fontSize": 26.13,
         "typeface": "+mn-lt",
         "color": "#FFFFFF",
         "bold": true,
@@ -200,7 +200,7 @@
           "index": 1,
           "text": "Author names",
           "resolvedTextStyle": {
-            "fontSize": 30,
+            "fontSize": 26.13,
             "color": "#FFFFFF",
             "bold": true
           },
@@ -208,7 +208,7 @@
             {
               "index": 1,
               "text": "Author names",
-              "fontSize": 30,
+              "fontSize": 26.13,
               "color": "#FFFFFF",
               "bold": true
             }
@@ -222,7 +222,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gnypcbql",
+      "aid": "sh/hcji1wjm",
       "id": "5",
       "name": "affiliations",
       "bbox": [
@@ -234,9 +234,9 @@
       "geometry": "rect",
       "text": "Institutions and collaborating centers",
       "textPreview": "Institutions and collaborating centers",
-      "resolvedFontSize": 24,
+      "resolvedFontSize": 20.48,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 20.48,
         "typeface": "+mn-lt",
         "color": "#F6F8FA",
         "alignment": "left",
@@ -261,14 +261,14 @@
           "index": 1,
           "text": "Institutions and collaborating centers",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 20.48,
             "color": "#F6F8FA"
           },
           "runs": [
             {
               "index": 1,
               "text": "Institutions and collaborating centers",
-              "fontSize": 24,
+              "fontSize": 20.48,
               "color": "#F6F8FA"
             }
           ],
@@ -281,7 +281,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fmp8j690",
+      "aid": "sh/u9sj6h0v",
       "id": "6",
       "name": "citation",
       "bbox": [
@@ -293,9 +293,9 @@
       "geometry": "rect",
       "text": "Journal or conference · DOI",
       "textPreview": "Journal or conference · DOI",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 18.36,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 18.36,
         "typeface": "+mn-lt",
         "color": "#E8B44C",
         "bold": true,
@@ -321,7 +321,7 @@
           "index": 1,
           "text": "Journal or conference · DOI",
           "resolvedTextStyle": {
-            "fontSize": 22,
+            "fontSize": 18.36,
             "color": "#E8B44C",
             "bold": true
           },
@@ -329,7 +329,7 @@
             {
               "index": 1,
               "text": "Journal or conference · DOI",
-              "fontSize": 22,
+              "fontSize": 18.36,
               "color": "#E8B44C",
               "bold": true
             }
@@ -343,7 +343,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/elg7a18f",
+      "aid": "sh/va10zm1g",
       "id": "7",
       "name": "logo-slot-institution-logo",
       "bbox": [
@@ -361,7 +361,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkbqxkra",
+      "aid": "sh/cf6hwn2x",
       "id": "8",
       "name": "logo-placeholder-institution-logo",
       "bbox": [
@@ -373,9 +373,9 @@
       "geometry": "rect",
       "text": "Institution logo",
       "textPreview": "Institution logo",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 19.07,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 19.07,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -401,7 +401,7 @@
           "index": 1,
           "text": "Institution logo",
           "resolvedTextStyle": {
-            "fontSize": 22,
+            "fontSize": 19.07,
             "color": "#0F5F73",
             "bold": true,
             "alignment": "center"
@@ -410,7 +410,7 @@
             {
               "index": 1,
               "text": "Institution logo",
-              "fontSize": 22,
+              "fontSize": 19.07,
               "color": "#0F5F73",
               "bold": true,
               "alignment": "center"
@@ -425,7 +425,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0j29ofqp",
+      "aid": "sh/xgzipsj2",
       "id": "9",
       "name": "header-summary",
       "bbox": [
@@ -442,7 +442,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e5onqx8b",
+      "aid": "sh/5cv6lorq",
       "id": "10",
       "name": "header-metric-1-value",
       "bbox": [
@@ -504,21 +504,21 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/f6hoj2pw",
+      "aid": "sh/4b25sjq5",
       "id": "11",
       "name": "header-metric-1-label",
       "bbox": [
         2433.41,
-        227.4,
+        224.57,
         183.92,
         62.15
       ],
       "geometry": "rect",
-      "text": "signature features",
-      "textPreview": "signature features",
-      "resolvedFontSize": 24,
+      "text": "primary observations",
+      "textPreview": "primary observations",
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -535,28 +535,28 @@
         "lines": [
           {
             "index": 1,
-            "text": "signature"
+            "text": "primary"
           },
           {
             "index": 2,
-            "text": "features"
+            "text": "observations"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "signature features",
+          "text": "primary observations",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "signature features",
-              "fontSize": 24,
+              "text": "primary observations",
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true
             }
@@ -570,7 +570,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g7q5s7qh",
+      "aid": "sh/jatoje9k",
       "id": "12",
       "name": "header-metric-2-value",
       "bbox": [
@@ -632,21 +632,21 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/18z6lc72",
+      "aid": "sh/i9knq9sz",
       "id": "13",
       "name": "header-metric-2-label",
       "bbox": [
         2645.63,
-        227.4,
+        224.57,
         183.92,
         62.15
       ],
       "geometry": "rect",
-      "text": "discovery samples",
-      "textPreview": "discovery samples",
-      "resolvedFontSize": 24,
+      "text": "analysis samples",
+      "textPreview": "analysis samples",
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -663,7 +663,7 @@
         "lines": [
           {
             "index": 1,
-            "text": "discovery"
+            "text": "analysis"
           },
           {
             "index": 2,
@@ -674,17 +674,17 @@
       "paragraphs": [
         {
           "index": 1,
-          "text": "discovery samples",
+          "text": "analysis samples",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "discovery samples",
-              "fontSize": 24,
+              "text": "analysis samples",
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true
             }
@@ -698,7 +698,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6honmx8f",
+      "aid": "sh/tgv6porm",
       "id": "14",
       "name": "header-metric-3-value",
       "bbox": [
@@ -760,21 +760,21 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rixof2p0",
+      "aid": "sh/sfm5wjq1",
       "id": "15",
       "name": "header-metric-3-label",
       "bbox": [
         2857.85,
-        227.4,
+        224.57,
         183.92,
         62.15
       ],
       "geometry": "rect",
-      "text": "validation cohorts",
-      "textPreview": "validation cohorts",
-      "resolvedFontSize": 24,
+      "text": "validation units",
+      "textPreview": "validation units",
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -787,32 +787,28 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "validation"
-          },
-          {
-            "index": 2,
-            "text": "cohorts"
+            "text": "validation units"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "validation cohorts",
+          "text": "validation units",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "validation cohorts",
-              "fontSize": 24,
+              "text": "validation units",
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true
             }
@@ -826,7 +822,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sj65o7q5",
+      "aid": "sh/redone9g",
       "id": "16",
       "name": "question-title",
       "bbox": [
@@ -836,11 +832,11 @@
         40.96
       ],
       "geometry": "rect",
-      "text": "Research question",
-      "textPreview": "Research question",
-      "resolvedFontSize": 38,
+      "text": "Biological question",
+      "textPreview": "Biological question",
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -857,24 +853,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Research question"
+            "text": "Biological question"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Research question",
+          "text": "Biological question",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Research question",
-              "fontSize": 38,
+              "text": "Biological question",
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -888,7 +884,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t4f6hs7q",
+      "aid": "sh/6d4nu98v",
       "id": "17",
       "name": "question-rule",
       "bbox": [
@@ -905,21 +901,21 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qd87yh8j",
+      "aid": "sh/14f6t8ri",
       "id": "18",
       "name": "research-question",
       "bbox": [
         99.03,
         481.63,
         863.01,
-        165.96
+        155.36
       ],
       "geometry": "rect",
-      "text": "State the biological or clinical question in two concise sentences.",
-      "textPreview": "State the biological or clinical question in two concise sentences.",
-      "resolvedFontSize": 37.4,
+      "text": "State the scientific question in two concise sentences.",
+      "textPreview": "State the scientific question in two concise sentences.",
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "alignment": "left",
@@ -931,31 +927,27 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "State the biological or clinical question in two"
-          },
-          {
-            "index": 2,
-            "text": "concise sentences."
+            "text": "State the scientific question in two concise sentences."
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "State the biological or clinical question in two concise sentences.",
+          "text": "State the scientific question in two concise sentences.",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
-              "text": "State the biological or clinical question in two concise sentences.",
-              "fontSize": 37.4,
+              "text": "State the scientific question in two concise sentences.",
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -968,7 +960,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/be1ormp4",
+      "aid": "sh/g3m503qd",
       "id": "19",
       "name": "question-evidence",
       "bbox": [
@@ -980,12 +972,11 @@
       "geometry": "rect",
       "text": "Evidence: source page or section",
       "textPreview": "Evidence: source page or section",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -1008,17 +999,15 @@
           "index": 1,
           "text": "Evidence: source page or section",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: source page or section",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -1030,7 +1019,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7itkje5g",
+      "aid": "sh/0zehcr2l",
       "id": "20",
       "name": "pipeline-title",
       "bbox": [
@@ -1042,9 +1031,9 @@
       "geometry": "rect",
       "text": "Analysis pipeline",
       "textPreview": "Analysis pipeline",
-      "resolvedFontSize": 38,
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -1070,7 +1059,7 @@
           "index": 1,
           "text": "Analysis pipeline",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
@@ -1078,7 +1067,7 @@
             {
               "index": 1,
               "text": "Analysis pipeline",
-              "fontSize": 38,
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -1092,7 +1081,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mhk3q9ov",
+      "aid": "sh/lknylw36",
       "id": "21",
       "name": "pipeline-rule",
       "bbox": [
@@ -1109,7 +1098,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9kb2lonm",
+      "aid": "sh/yxwza1kf",
       "id": "22",
       "name": "pipeline-1-number-bg",
       "bbox": [
@@ -1126,7 +1115,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8j2lsj61",
+      "aid": "sh/zy5gj6l0",
       "id": "23",
       "name": "pipeline-1-number",
       "bbox": [
@@ -1138,9 +1127,9 @@
       "geometry": "rect",
       "text": "1",
       "textPreview": "1",
-      "resolvedFontSize": 24,
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -1166,7 +1155,7 @@
           "index": 1,
           "text": "1",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true,
             "alignment": "center"
@@ -1175,7 +1164,7 @@
             {
               "index": 1,
               "text": "1",
-              "fontSize": 24,
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true,
               "alignment": "center"
@@ -1190,7 +1179,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vmtkny5s",
+      "aid": "sh/8nyhgb2h",
       "id": "24",
       "name": "pipeline-1-text",
       "bbox": [
@@ -1202,12 +1191,11 @@
       "geometry": "rect",
       "text": "Input biomarkers or features",
       "textPreview": "Input biomarkers or features",
-      "resolvedFontSize": 37.4,
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -1230,17 +1218,15 @@
           "index": 1,
           "text": "Input biomarkers or features",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
-            "color": "#102A43",
-            "bold": true
+            "fontSize": 26.84,
+            "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "Input biomarkers or features",
-              "fontSize": 37.4,
-              "color": "#102A43",
-              "bold": true
+              "fontSize": 26.84,
+              "color": "#102A43"
             }
           ],
           "marginLeft": 0
@@ -1252,7 +1238,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ulk3uto7",
+      "aid": "sh/9o7ypg32",
       "id": "25",
       "name": "pipeline-2-number-bg",
       "bbox": [
@@ -1269,7 +1255,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hov2p8ni",
+      "aid": "sh/mlgze1kr",
       "id": "26",
       "name": "pipeline-2-number",
       "bbox": [
@@ -1281,9 +1267,9 @@
       "geometry": "rect",
       "text": "2",
       "textPreview": "2",
-      "resolvedFontSize": 24,
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -1309,7 +1295,7 @@
           "index": 1,
           "text": "2",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true,
             "alignment": "center"
@@ -1318,7 +1304,7 @@
             {
               "index": 1,
               "text": "2",
-              "fontSize": 24,
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true,
               "alignment": "center"
@@ -1333,7 +1319,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wnmlw36x",
+      "aid": "sh/nmpgn6lc",
       "id": "27",
       "name": "pipeline-2-text",
       "bbox": [
@@ -1345,12 +1331,11 @@
       "geometry": "rect",
       "text": "Feature selection",
       "textPreview": "Feature selection",
-      "resolvedFontSize": 37.4,
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -1373,17 +1358,15 @@
           "index": 1,
           "text": "Feature selection",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
-            "color": "#102A43",
-            "bold": true
+            "fontSize": 26.84,
+            "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "Feature selection",
-              "fontSize": 37.4,
-              "color": "#102A43",
-              "bold": true
+              "fontSize": 26.84,
+              "color": "#102A43"
             }
           ],
           "marginLeft": 0
@@ -1395,7 +1378,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/jad4ry5o",
+      "aid": "sh/oruh472d",
       "id": "28",
       "name": "pipeline-3-number-bg",
       "bbox": [
@@ -1412,7 +1395,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ip43yto3",
+      "aid": "sh/ps3ydc3y",
       "id": "29",
       "name": "pipeline-3-number",
       "bbox": [
@@ -1424,9 +1407,9 @@
       "geometry": "rect",
       "text": "3",
       "textPreview": "3",
-      "resolvedFontSize": 24,
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -1452,7 +1435,7 @@
           "index": 1,
           "text": "3",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true,
             "alignment": "center"
@@ -1461,7 +1444,7 @@
             {
               "index": 1,
               "text": "3",
-              "fontSize": 24,
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true,
               "alignment": "center"
@@ -1476,7 +1459,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gf61832h",
+      "aid": "sh/rmtkju5g",
       "id": "30",
       "name": "pipeline-3-text",
       "bbox": [
@@ -1488,12 +1471,11 @@
       "geometry": "rect",
       "text": "Model construction",
       "textPreview": "Model construction",
-      "resolvedFontSize": 37.4,
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -1516,17 +1498,15 @@
           "index": 1,
           "text": "Model construction",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
-            "color": "#102A43",
-            "bold": true
+            "fontSize": 26.84,
+            "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "Model construction",
-              "fontSize": 37.4,
-              "color": "#102A43",
-              "bold": true
+              "fontSize": 26.84,
+              "color": "#102A43"
             }
           ],
           "marginLeft": 0
@@ -1538,7 +1518,7 @@
       "order": 31,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1gf2h83m",
+      "aid": "sh/6lkjqp4v",
       "id": "31",
       "name": "pipeline-4-number-bg",
       "bbox": [
@@ -1555,7 +1535,7 @@
       "order": 32,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ed4j6d4b",
+      "aid": "sh/tob2lknm",
       "id": "32",
       "name": "pipeline-4-number",
       "bbox": [
@@ -1567,9 +1547,9 @@
       "geometry": "rect",
       "text": "4",
       "textPreview": "4",
-      "resolvedFontSize": 24,
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -1595,7 +1575,7 @@
           "index": 1,
           "text": "4",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true,
             "alignment": "center"
@@ -1604,7 +1584,7 @@
             {
               "index": 1,
               "text": "4",
-              "fontSize": 24,
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true,
               "alignment": "center"
@@ -1619,7 +1599,7 @@
       "order": 33,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fexkfylw",
+      "aid": "sh/sn21sfm1",
       "id": "33",
       "name": "pipeline-4-text",
       "bbox": [
@@ -1631,12 +1611,11 @@
       "geometry": "rect",
       "text": "Independent validation",
       "textPreview": "Independent validation",
-      "resolvedFontSize": 37.4,
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
-        "bold": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -1659,17 +1638,15 @@
           "index": 1,
           "text": "Independent validation",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
-            "color": "#102A43",
-            "bold": true
+            "fontSize": 26.84,
+            "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "Independent validation",
-              "fontSize": 37.4,
-              "color": "#102A43",
-              "bold": true
+              "fontSize": 26.84,
+              "color": "#102A43"
             }
           ],
           "marginLeft": 0
@@ -1681,7 +1658,7 @@
       "order": 34,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/srm143m5",
+      "aid": "sh/ji9kfa5k",
       "id": "34",
       "name": "dataset-panel",
       "bbox": [
@@ -1699,7 +1676,7 @@
       "order": 35,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tcv2d83q",
+      "aid": "sh/ih0jm54z",
       "id": "35",
       "name": "dataset-kicker",
       "bbox": [
@@ -1711,9 +1688,9 @@
       "geometry": "rect",
       "text": "DATA FOUNDATION",
       "textPreview": "DATA FOUNDATION",
-      "resolvedFontSize": 24,
+      "resolvedFontSize": 20.48,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 20.48,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -1739,7 +1716,7 @@
           "index": 1,
           "text": "DATA FOUNDATION",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 20.48,
             "color": "#0F5F73",
             "bold": true
           },
@@ -1747,7 +1724,7 @@
             {
               "index": 1,
               "text": "DATA FOUNDATION",
-              "fontSize": 24,
+              "fontSize": 20.48,
               "color": "#0F5F73",
               "bold": true
             }
@@ -1761,21 +1738,21 @@
       "order": 36,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6p4j2t4z",
+      "aid": "sh/5kb2hkna",
       "id": "36",
       "name": "datasets",
       "bbox": [
         118.84,
         1055.76,
         823.4,
-        162.43
+        152.54
       ],
       "geometry": "rect",
-      "text": "Discovery cohort\nTraining and test split\nExternal validation\nOrthogonal validation",
-      "textPreview": "Discovery cohort | Training and test split | External validation | Orthogonal validation",
-      "resolvedFontSize": 37.4,
+      "text": "Discovery set\nPrimary analysis\nValidation set\nSensitivity analysis",
+      "textPreview": "Discovery set | Primary analysis | Validation set | Sensitivity analysis",
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "alignment": "left",
@@ -1791,35 +1768,35 @@
         "lines": [
           {
             "index": 1,
-            "text": "Discovery cohort"
+            "text": "Discovery set"
           },
           {
             "index": 2,
-            "text": "Training and test split"
+            "text": "Primary analysis"
           },
           {
             "index": 3,
-            "text": "External validation"
+            "text": "Validation set"
           },
           {
             "index": 4,
-            "text": "Orthogonal validation"
+            "text": "Sensitivity analysis"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Discovery cohort",
+          "text": "Discovery set",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
-              "text": "Discovery cohort",
-              "fontSize": 37.4,
+              "text": "Discovery set",
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -1827,16 +1804,16 @@
         },
         {
           "index": 2,
-          "text": "Training and test split",
+          "text": "Primary analysis",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
-              "text": "Training and test split",
-              "fontSize": 37.4,
+              "text": "Primary analysis",
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -1844,16 +1821,16 @@
         },
         {
           "index": 3,
-          "text": "External validation",
+          "text": "Validation set",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
-              "text": "External validation",
-              "fontSize": 37.4,
+              "text": "Validation set",
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -1861,16 +1838,16 @@
         },
         {
           "index": 4,
-          "text": "Orthogonal validation",
+          "text": "Sensitivity analysis",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
-              "text": "Orthogonal validation",
-              "fontSize": 37.4,
+              "text": "Sensitivity analysis",
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -1883,7 +1860,7 @@
       "order": 37,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rqdkbylk",
+      "aid": "sh/kji1ofmp",
       "id": "37",
       "name": "dataset-evidence",
       "bbox": [
@@ -1895,12 +1872,11 @@
       "geometry": "rect",
       "text": "Evidence: methods and dataset table",
       "textPreview": "Evidence: methods and dataset table",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -1923,17 +1899,15 @@
           "index": 1,
           "text": "Evidence: methods and dataset table",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: methods and dataset table",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -1945,7 +1919,7 @@
       "order": 38,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4nm10jm9",
+      "aid": "sh/ve9kbq58",
       "id": "38",
       "name": "figure-one-heading-title",
       "bbox": [
@@ -1957,9 +1931,9 @@
       "geometry": "rect",
       "text": "From features to signature",
       "textPreview": "From features to signature",
-      "resolvedFontSize": 38,
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -1985,7 +1959,7 @@
           "index": 1,
           "text": "From features to signature",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
@@ -1993,7 +1967,7 @@
             {
               "index": 1,
               "text": "From features to signature",
-              "fontSize": 38,
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -2007,7 +1981,7 @@
       "order": 39,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5ov29o3u",
+      "aid": "sh/at0ji54n",
       "id": "39",
       "name": "figure-one-heading-rule",
       "bbox": [
@@ -2024,7 +1998,7 @@
       "order": 40,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9sryhkjm",
+      "aid": "sh/a1knmt07",
       "id": "40",
       "name": "figure-one-frame",
       "bbox": [
@@ -2042,7 +2016,7 @@
       "order": 41,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8rih8f21",
+      "aid": "sh/b2tofy1s",
       "id": "41",
       "name": "figure-one-placeholder",
       "bbox": [
@@ -2060,7 +2034,7 @@
       "order": 42,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/nq9gfu1g",
+      "aid": "sh/cn25o3id",
       "id": "42",
       "name": "figure-one-placeholder-label",
       "bbox": [
@@ -2070,11 +2044,11 @@
         63.56
       ],
       "geometry": "rect",
-      "text": "SCIENTIFIC FIGURE",
-      "textPreview": "SCIENTIFIC FIGURE",
-      "resolvedFontSize": 28,
+      "text": "scientific figure",
+      "textPreview": "scientific figure",
+      "resolvedFontSize": 25.43,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 25.43,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
         "bold": true,
@@ -2091,16 +2065,16 @@
         "lines": [
           {
             "index": 1,
-            "text": "SCIENTIFIC FIGURE"
+            "text": "scientific figure"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "SCIENTIFIC FIGURE",
+          "text": "scientific figure",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 25.43,
             "color": "#2C8C99",
             "bold": true,
             "alignment": "center"
@@ -2108,8 +2082,8 @@
           "runs": [
             {
               "index": 1,
-              "text": "SCIENTIFIC FIGURE",
-              "fontSize": 28,
+              "text": "scientific figure",
+              "fontSize": 25.43,
               "color": "#2C8C99",
               "bold": true,
               "alignment": "center"
@@ -2124,21 +2098,21 @@
       "order": 43,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mp0z6pkv",
+      "aid": "sh/xob6h8jy",
       "id": "43",
       "name": "figure-one-caption",
       "bbox": [
         116.01,
         2035.97,
         829.06,
-        29.66
+        23.3
       ],
       "geometry": "rect",
-      "text": "Figure caption",
-      "textPreview": "Figure caption",
-      "resolvedFontSize": 29.4,
+      "text": "Scientific Figure caption",
+      "textPreview": "Scientific Figure caption",
+      "resolvedFontSize": 21.19,
       "resolvedTextStyle": {
-        "fontSize": 29.4,
+        "fontSize": 21.19,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -2155,24 +2129,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Figure caption"
+            "text": "Scientific Figure caption"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Figure caption",
+          "text": "Scientific Figure caption",
           "resolvedTextStyle": {
-            "fontSize": 29.4,
+            "fontSize": 21.19,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Figure caption",
-              "fontSize": 29.4,
+              "text": "Scientific Figure caption",
+              "fontSize": 21.19,
               "color": "#102A43",
               "bold": true
             }
@@ -2186,24 +2160,23 @@
       "order": 44,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hwbil4ji",
+      "aid": "sh/2x0nit0b",
       "id": "44",
       "name": "figure-one-source",
       "bbox": [
         116.01,
-        2059.27,
+        2059.98,
         829.06,
         26.84
       ],
       "geometry": "rect",
       "text": "Evidence/source locator",
       "textPreview": "Evidence/source locator",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2226,17 +2199,15 @@
           "index": 1,
           "text": "Evidence/source locator",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence/source locator",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -2248,7 +2219,7 @@
       "order": 45,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wv2hcz2x",
+      "aid": "sh/ny9oby1w",
       "id": "45",
       "name": "central-takeaway",
       "bbox": [
@@ -2265,7 +2236,7 @@
       "order": 46,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vu9gju1c",
+      "aid": "sh/oz25kjih",
       "id": "46",
       "name": "central-takeaway-title",
       "bbox": [
@@ -2277,9 +2248,9 @@
       "geometry": "rect",
       "text": "Place the single most important result here",
       "textPreview": "Place the single most important result here",
-      "resolvedFontSize": 42,
+      "resolvedFontSize": 38.84,
       "resolvedTextStyle": {
-        "fontSize": 42,
+        "fontSize": 38.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -2305,7 +2276,7 @@
           "index": 1,
           "text": "Place the single most important result here",
           "resolvedTextStyle": {
-            "fontSize": 42,
+            "fontSize": 38.84,
             "color": "#102A43",
             "bold": true,
             "alignment": "center"
@@ -2314,7 +2285,7 @@
             {
               "index": 1,
               "text": "Place the single most important result here",
-              "fontSize": 42,
+              "fontSize": 38.84,
               "color": "#102A43",
               "bold": true,
               "alignment": "center"
@@ -2329,7 +2300,7 @@
       "order": 47,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/at0zapkr",
+      "aid": "sh/p0b6doj2",
       "id": "47",
       "name": "central-takeaway-subtitle",
       "bbox": [
@@ -2341,9 +2312,9 @@
       "geometry": "rect",
       "text": "Explain what the result means for the audience",
       "textPreview": "Explain what the result means for the audience",
-      "resolvedFontSize": 26,
+      "resolvedFontSize": 22.6,
       "resolvedTextStyle": {
-        "fontSize": 26,
+        "fontSize": 22.6,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -2369,7 +2340,7 @@
           "index": 1,
           "text": "Explain what the result means for the audience",
           "resolvedTextStyle": {
-            "fontSize": 26,
+            "fontSize": 22.6,
             "color": "#102A43",
             "bold": true,
             "alignment": "center"
@@ -2378,7 +2349,7 @@
             {
               "index": 1,
               "text": "Explain what the result means for the audience",
-              "fontSize": 26,
+              "fontSize": 22.6,
               "color": "#102A43",
               "bold": true,
               "alignment": "center"
@@ -2393,7 +2364,7 @@
       "order": 48,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d07y90je",
+      "aid": "sh/et0ne90f",
       "id": "48",
       "name": "takeaway-evidence",
       "bbox": [
@@ -2405,12 +2376,11 @@
       "geometry": "rect",
       "text": "Evidence: result section and figure",
       "textPreview": "Evidence: result section and figure",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2433,17 +2403,15 @@
           "index": 1,
           "text": "Evidence: result section and figure",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: result section and figure",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -2455,7 +2423,7 @@
       "order": 49,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/czyh0v2t",
+      "aid": "sh/fu947e1k",
       "id": "49",
       "name": "figure-two-heading-title",
       "bbox": [
@@ -2465,11 +2433,11 @@
         40.96
       ],
       "geometry": "rect",
-      "text": "Primary performance",
-      "textPreview": "Primary performance",
-      "resolvedFontSize": 38,
+      "text": "Primary result",
+      "textPreview": "Primary result",
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -2486,24 +2454,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Primary performance"
+            "text": "Primary result"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Primary performance",
+          "text": "Primary result",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Primary performance",
-              "fontSize": 38,
+              "text": "Primary result",
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -2517,7 +2485,7 @@
       "order": 50,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/25wva10r",
+      "aid": "sh/hofqdc32",
       "id": "50",
       "name": "figure-two-heading-rule",
       "bbox": [
@@ -2534,7 +2502,7 @@
       "order": 51,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/365wj6hw",
+      "aid": "sh/wn69k72x",
       "id": "51",
       "name": "figure-two-frame",
       "bbox": [
@@ -2552,7 +2520,7 @@
       "order": 52,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/o7edcbih",
+      "aid": "sh/vmx8bmlc",
       "id": "52",
       "name": "figure-two-placeholder",
       "bbox": [
@@ -2570,7 +2538,7 @@
       "order": 53,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/psne5gz2",
+      "aid": "sh/ulorihkr",
       "id": "53",
       "name": "figure-two-placeholder-label",
       "bbox": [
@@ -2580,11 +2548,11 @@
         63.56
       ],
       "geometry": "rect",
-      "text": "SCIENTIFIC FIGURE",
-      "textPreview": "SCIENTIFIC FIGURE",
-      "resolvedFontSize": 28,
+      "text": "scientific figure",
+      "textPreview": "scientific figure",
+      "resolvedFontSize": 25.43,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 25.43,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
         "bold": true,
@@ -2601,16 +2569,16 @@
         "lines": [
           {
             "index": 1,
-            "text": "SCIENTIFIC FIGURE"
+            "text": "scientific figure"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "SCIENTIFIC FIGURE",
+          "text": "scientific figure",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 25.43,
             "color": "#2C8C99",
             "bold": true,
             "alignment": "center"
@@ -2618,8 +2586,8 @@
           "runs": [
             {
               "index": 1,
-              "text": "SCIENTIFIC FIGURE",
-              "fontSize": 28,
+              "text": "scientific figure",
+              "fontSize": 25.43,
               "color": "#2C8C99",
               "bold": true,
               "alignment": "center"
@@ -2634,21 +2602,21 @@
       "order": 54,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qtwfel0n",
+      "aid": "sh/9kfq9c36",
       "id": "54",
       "name": "figure-two-caption",
       "bbox": [
         1021.47,
         1594.59,
         981.15,
-        29.66
+        23.3
       ],
       "geometry": "rect",
-      "text": "Figure caption",
-      "textPreview": "Figure caption",
-      "resolvedFontSize": 29.4,
+      "text": "Scientific Figure caption",
+      "textPreview": "Scientific Figure caption",
+      "resolvedFontSize": 21.19,
       "resolvedTextStyle": {
-        "fontSize": 29.4,
+        "fontSize": 21.19,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -2665,24 +2633,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Figure caption"
+            "text": "Scientific Figure caption"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Figure caption",
+          "text": "Scientific Figure caption",
           "resolvedTextStyle": {
-            "fontSize": 29.4,
+            "fontSize": 21.19,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Figure caption",
-              "fontSize": 29.4,
+              "text": "Scientific Figure caption",
+              "fontSize": 21.19,
               "color": "#102A43",
               "bold": true
             }
@@ -2696,24 +2664,23 @@
       "order": 55,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bu5w7qh8",
+      "aid": "sh/8j6pg72l",
       "id": "55",
       "name": "figure-two-source",
       "bbox": [
         1021.47,
-        1617.9,
+        1618.6,
         981.15,
         26.84
       ],
       "geometry": "rect",
       "text": "Evidence/source locator",
       "textPreview": "Evidence/source locator",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -2736,17 +2703,15 @@
           "index": 1,
           "text": "Evidence/source locator",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence/source locator",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -2758,7 +2723,7 @@
       "order": 56,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cvexgvit",
+      "aid": "sh/7ix872l0",
       "id": "56",
       "name": "validation-heading-title",
       "bbox": [
@@ -2768,11 +2733,11 @@
         40.96
       ],
       "geometry": "rect",
-      "text": "Independent and external validation",
-      "textPreview": "Independent and external validation",
-      "resolvedFontSize": 38,
+      "text": "Robustness and validation",
+      "textPreview": "Robustness and validation",
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -2789,24 +2754,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Independent and external validation"
+            "text": "Robustness and validation"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Independent and external validation",
+          "text": "Robustness and validation",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Independent and external validation",
-              "fontSize": 38,
+              "text": "Robustness and validation",
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -2820,7 +2785,7 @@
       "order": 57,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dw7e9gze",
+      "aid": "sh/mh47exkf",
       "id": "57",
       "name": "validation-heading-rule",
       "bbox": [
@@ -2837,7 +2802,7 @@
       "order": 58,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6xcv2h0j",
+      "aid": "sh/lwvq5s3a",
       "id": "58",
       "name": "validation-panel",
       "bbox": [
@@ -2855,7 +2820,7 @@
       "order": 59,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rylwbmh4",
+      "aid": "sh/kvmpcn2p",
       "id": "59",
       "name": "validation",
       "bbox": [
@@ -2865,11 +2830,11 @@
         218.92
       ],
       "geometry": "rect",
-      "text": "• Primary adjusted result\n• External validation\n• Negative or inconsistent findings\n• Interpretation boundary",
-      "textPreview": "• Primary adjusted result | • External validation | • Negative or inconsistent findings | • Interpretation boundary",
-      "resolvedFontSize": 37.4,
+      "text": "• Primary adjusted result\n• External validation\n• Negative findings\n• Interpretation boundary",
+      "textPreview": "• Primary adjusted result | • External validation | • Negative findings | • Interpretation boundary",
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "alignment": "left",
@@ -2893,7 +2858,7 @@
           },
           {
             "index": 3,
-            "text": "• Negative or inconsistent findings"
+            "text": "• Negative findings"
           },
           {
             "index": 4,
@@ -2906,14 +2871,14 @@
           "index": 1,
           "text": "• Primary adjusted result",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "• Primary adjusted result",
-              "fontSize": 37.4,
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -2923,14 +2888,14 @@
           "index": 2,
           "text": "• External validation",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "• External validation",
-              "fontSize": 37.4,
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -2938,16 +2903,16 @@
         },
         {
           "index": 3,
-          "text": "• Negative or inconsistent findings",
+          "text": "• Negative findings",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
-              "text": "• Negative or inconsistent findings",
-              "fontSize": 37.4,
+              "text": "• Negative findings",
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -2957,14 +2922,14 @@
           "index": 4,
           "text": "• Interpretation boundary",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "• Interpretation boundary",
-              "fontSize": 37.4,
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -2977,7 +2942,7 @@
       "order": 60,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/v6xknytk",
+      "aid": "sh/czq9s7al",
       "id": "60",
       "name": "validation-evidence",
       "bbox": [
@@ -2989,12 +2954,11 @@
       "geometry": "rect",
       "text": "Evidence: result pages",
       "textPreview": "Evidence: result pages",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -3017,17 +2981,15 @@
           "index": 1,
           "text": "Evidence: result pages",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: result pages",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -3039,7 +3001,7 @@
       "order": 61,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a5ojutcz",
+      "aid": "sh/d0zq1sbq",
       "id": "61",
       "name": "performance-strip",
       "bbox": [
@@ -3056,7 +3018,7 @@
       "order": 62,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xsz2poba",
+      "aid": "sh/qx8rqxsf",
       "id": "62",
       "name": "performance-strip-text",
       "bbox": [
@@ -3066,11 +3028,11 @@
         36.72
       ],
       "geometry": "rect",
-      "text": "Primary performance statistic or calibrated model comparison",
-      "textPreview": "Primary performance statistic or calibrated model comparison",
-      "resolvedFontSize": 28,
+      "text": "Primary estimate · uncertainty · validation",
+      "textPreview": "Primary estimate · uncertainty · validation",
+      "resolvedFontSize": 24.01,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 24.01,
         "typeface": "+mn-lt",
         "color": "#FFFFFF",
         "bold": true,
@@ -3087,16 +3049,16 @@
         "lines": [
           {
             "index": 1,
-            "text": "Primary performance statistic or calibrated model comparison"
+            "text": "Primary estimate · uncertainty · validation"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Primary performance statistic or calibrated model comparison",
+          "text": "Primary estimate · uncertainty · validation",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 24.01,
             "color": "#FFFFFF",
             "bold": true,
             "alignment": "center"
@@ -3104,8 +3066,8 @@
           "runs": [
             {
               "index": 1,
-              "text": "Primary performance statistic or calibrated model comparison",
-              "fontSize": 28,
+              "text": "Primary estimate · uncertainty · validation",
+              "fontSize": 24.01,
               "color": "#FFFFFF",
               "bold": true,
               "alignment": "center"
@@ -3120,7 +3082,7 @@
       "order": 63,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wr61w3u5",
+      "aid": "sh/byh8z2t0",
       "id": "63",
       "name": "biology-heading-title",
       "bbox": [
@@ -3132,9 +3094,9 @@
       "geometry": "rect",
       "text": "Biological interpretation",
       "textPreview": "Biological interpretation",
-      "resolvedFontSize": 38,
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -3160,7 +3122,7 @@
           "index": 1,
           "text": "Biological interpretation",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
@@ -3168,7 +3130,7 @@
             {
               "index": 1,
               "text": "Biological interpretation",
-              "fontSize": 38,
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -3182,7 +3144,7 @@
       "order": 64,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/n2xkjet8",
+      "aid": "sh/ob69ona9",
       "id": "64",
       "name": "biology-heading-rule",
       "bbox": [
@@ -3199,7 +3161,7 @@
       "order": 65,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m1ojq9cn",
+      "aid": "sh/pwzqxsbu",
       "id": "65",
       "name": "biology-1-value",
       "bbox": [
@@ -3261,21 +3223,21 @@
       "order": 66,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/94f2lobe",
+      "aid": "sh/29o7mdc3",
       "id": "66",
       "name": "biology-1-label",
       "bbox": [
         2062.03,
-        545.18,
+        542.36,
         297.1,
         62.15
       ],
       "geometry": "rect",
-      "text": "program or pathway",
-      "textPreview": "program or pathway",
-      "resolvedFontSize": 24,
+      "text": "primary estimate",
+      "textPreview": "primary estimate",
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -3292,24 +3254,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "program or pathway"
+            "text": "primary estimate"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "program or pathway",
+          "text": "primary estimate",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "program or pathway",
-              "fontSize": 24,
+              "text": "primary estimate",
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true
             }
@@ -3323,7 +3285,7 @@
       "order": 67,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/o361sjut",
+      "aid": "sh/3ax8vito",
       "id": "67",
       "name": "biology-2-value",
       "bbox": [
@@ -3333,8 +3295,8 @@
         55.08
       ],
       "geometry": "rect",
-      "text": "Effect",
-      "textPreview": "Effect",
+      "text": "95% CI",
+      "textPreview": "95% CI",
       "resolvedFontSize": 48.03,
       "resolvedTextStyle": {
         "fontSize": 48.03,
@@ -3354,14 +3316,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "Effect"
+            "text": "95% CI"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Effect",
+          "text": "95% CI",
           "resolvedTextStyle": {
             "fontSize": 48.03,
             "color": "#2C8C99",
@@ -3370,7 +3332,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Effect",
+              "text": "95% CI",
               "fontSize": 48.03,
               "color": "#2C8C99",
               "bold": true
@@ -3385,21 +3347,21 @@
       "order": 68,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7yhkvits",
+      "aid": "sh/87a90rad",
       "id": "68",
       "name": "biology-2-label",
       "bbox": [
         2398.04,
-        545.18,
+        542.36,
         297.1,
         62.15
       ],
       "geometry": "rect",
-      "text": "program or pathway",
-      "textPreview": "program or pathway",
-      "resolvedFontSize": 24,
+      "text": "uncertainty",
+      "textPreview": "uncertainty",
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -3416,24 +3378,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "program or pathway"
+            "text": "uncertainty"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "program or pathway",
+          "text": "uncertainty",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "program or pathway",
-              "fontSize": 24,
+              "text": "uncertainty",
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true
             }
@@ -3447,7 +3409,7 @@
       "order": 69,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6x832dc7",
+      "aid": "sh/9sjq9cby",
       "id": "69",
       "name": "biology-3-value",
       "bbox": [
@@ -3457,8 +3419,8 @@
         55.08
       ],
       "geometry": "rect",
-      "text": "Effect",
-      "textPreview": "Effect",
+      "text": "P",
+      "textPreview": "P",
       "resolvedFontSize": 48.03,
       "resolvedTextStyle": {
         "fontSize": 48.03,
@@ -3478,14 +3440,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "Effect"
+            "text": "P"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Effect",
+          "text": "P",
           "resolvedTextStyle": {
             "fontSize": 48.03,
             "color": "#E8B44C",
@@ -3494,7 +3456,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Effect",
+              "text": "P",
               "fontSize": 48.03,
               "color": "#E8B44C",
               "bold": true
@@ -3509,21 +3471,21 @@
       "order": 70,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/432hgfap",
+      "aid": "sh/jy5kfahc",
       "id": "70",
       "name": "biology-3-label",
       "bbox": [
         2734.05,
-        545.18,
+        542.36,
         297.1,
         62.15
       ],
       "geometry": "rect",
-      "text": "program or pathway",
-      "textPreview": "program or pathway",
-      "resolvedFontSize": 24,
+      "text": "robustness",
+      "textPreview": "robustness",
+      "resolvedFontSize": 21.89,
       "resolvedTextStyle": {
-        "fontSize": 24,
+        "fontSize": 21.89,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -3540,24 +3502,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "program or pathway"
+            "text": "robustness"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "program or pathway",
+          "text": "robustness",
           "resolvedTextStyle": {
-            "fontSize": 24,
+            "fontSize": 21.89,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "program or pathway",
-              "fontSize": 24,
+              "text": "robustness",
+              "fontSize": 21.89,
               "color": "#102A43",
               "bold": true
             }
@@ -3571,7 +3533,7 @@
       "order": 71,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p4byp0ra",
+      "aid": "sh/ixw3m5g7",
       "id": "71",
       "name": "biology-evidence",
       "bbox": [
@@ -3581,14 +3543,13 @@
         26.84
       ],
       "geometry": "rect",
-      "text": "Evidence: biological analysis",
-      "textPreview": "Evidence: biological analysis",
-      "resolvedFontSize": 22,
+      "text": "Evidence: supporting analysis",
+      "textPreview": "Evidence: supporting analysis",
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -3602,26 +3563,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Evidence: biological analysis"
+            "text": "Evidence: supporting analysis"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Evidence: biological analysis",
+          "text": "Evidence: supporting analysis",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
-              "text": "Evidence: biological analysis",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "text": "Evidence: supporting analysis",
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -3633,7 +3592,7 @@
       "order": 72,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2hkze5sj",
+      "aid": "sh/5072hkzi",
       "id": "72",
       "name": "figure-three-frame",
       "bbox": [
@@ -3651,7 +3610,7 @@
       "order": 73,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/32tgna94",
+      "aid": "sh/4zelofyx",
       "id": "73",
       "name": "figure-three-placeholder",
       "bbox": [
@@ -3669,7 +3628,7 @@
       "order": 74,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/c72hkfal",
+      "aid": "sh/r2pkjuho",
       "id": "74",
       "name": "figure-three-placeholder-label",
       "bbox": [
@@ -3679,11 +3638,11 @@
         63.56
       ],
       "geometry": "rect",
-      "text": "SCIENTIFIC FIGURE",
-      "textPreview": "SCIENTIFIC FIGURE",
-      "resolvedFontSize": 28,
+      "text": "scientific figure",
+      "textPreview": "scientific figure",
+      "resolvedFontSize": 25.43,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 25.43,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
         "bold": true,
@@ -3700,16 +3659,16 @@
         "lines": [
           {
             "index": 1,
-            "text": "SCIENTIFIC FIGURE"
+            "text": "scientific figure"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "SCIENTIFIC FIGURE",
+          "text": "scientific figure",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 25.43,
             "color": "#2C8C99",
             "bold": true,
             "alignment": "center"
@@ -3717,8 +3676,8 @@
           "runs": [
             {
               "index": 1,
-              "text": "SCIENTIFIC FIGURE",
-              "fontSize": 28,
+              "text": "scientific figure",
+              "fontSize": 25.43,
               "color": "#2C8C99",
               "bold": true,
               "alignment": "center"
@@ -3733,21 +3692,21 @@
       "order": 75,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d8bitkr6",
+      "aid": "sh/q1g3qpg3",
       "id": "75",
       "name": "figure-three-caption",
       "bbox": [
         2079.01,
         1139.1,
         983.98,
-        29.66
+        23.3
       ],
       "geometry": "rect",
-      "text": "Figure caption",
-      "textPreview": "Figure caption",
-      "resolvedFontSize": 29.4,
+      "text": "Scientific Figure caption",
+      "textPreview": "Scientific Figure caption",
+      "resolvedFontSize": 21.19,
       "resolvedTextStyle": {
-        "fontSize": 29.4,
+        "fontSize": 21.19,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -3764,24 +3723,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Figure caption"
+            "text": "Scientific Figure caption"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Figure caption",
+          "text": "Scientific Figure caption",
           "resolvedTextStyle": {
-            "fontSize": 29.4,
+            "fontSize": 21.19,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Figure caption",
-              "fontSize": 29.4,
+              "text": "Scientific Figure caption",
+              "fontSize": 21.19,
               "color": "#102A43",
               "bold": true
             }
@@ -3795,24 +3754,23 @@
       "order": 76,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q5kzi5sf",
+      "aid": "sh/d472lkzu",
       "id": "76",
       "name": "figure-three-source",
       "bbox": [
         2079.01,
-        1162.4,
+        1163.11,
         983.98,
         26.84
       ],
       "geometry": "rect",
       "text": "Evidence/source locator",
       "textPreview": "Evidence/source locator",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -3835,17 +3793,15 @@
           "index": 1,
           "text": "Evidence/source locator",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence/source locator",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -3857,7 +3813,7 @@
       "order": 77,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r6t0ra90",
+      "aid": "sh/s3ylszy9",
       "id": "77",
       "name": "validation-visual-heading-title",
       "bbox": [
@@ -3869,9 +3825,9 @@
       "geometry": "rect",
       "text": "Orthogonal validation",
       "textPreview": "Orthogonal validation",
-      "resolvedFontSize": 38,
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -3897,7 +3853,7 @@
           "index": 1,
           "text": "Orthogonal validation",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
@@ -3905,7 +3861,7 @@
             {
               "index": 1,
               "text": "Orthogonal validation",
-              "fontSize": 38,
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -3919,7 +3875,7 @@
       "order": 78,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0bmhozax",
+      "aid": "sh/76lk7qh4",
       "id": "78",
       "name": "validation-visual-heading-rule",
       "bbox": [
@@ -3936,7 +3892,7 @@
       "order": 79,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1cvixkr2",
+      "aid": "sh/m5cjel0z",
       "id": "79",
       "name": "figure-four-frame",
       "bbox": [
@@ -3954,7 +3910,7 @@
       "order": 80,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9wju5ofu",
+      "aid": "sh/al8j250n",
       "id": "80",
       "name": "figure-four-placeholder",
       "bbox": [
@@ -3972,7 +3928,7 @@
       "order": 81,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ovadcjyp",
+      "aid": "sh/bmhkva18",
       "id": "81",
       "name": "figure-four-placeholder-label",
       "bbox": [
@@ -3982,11 +3938,11 @@
         63.56
       ],
       "geometry": "rect",
-      "text": "SCIENTIFIC FIGURE",
-      "textPreview": "SCIENTIFIC FIGURE",
-      "resolvedFontSize": 28,
+      "text": "scientific figure",
+      "textPreview": "scientific figure",
+      "resolvedFontSize": 25.43,
       "resolvedTextStyle": {
-        "fontSize": 28,
+        "fontSize": 25.43,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
         "bold": true,
@@ -4003,16 +3959,16 @@
         "lines": [
           {
             "index": 1,
-            "text": "SCIENTIFIC FIGURE"
+            "text": "scientific figure"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "SCIENTIFIC FIGURE",
+          "text": "scientific figure",
           "resolvedTextStyle": {
-            "fontSize": 28,
+            "fontSize": 25.43,
             "color": "#2C8C99",
             "bold": true,
             "alignment": "center"
@@ -4020,8 +3976,8 @@
           "runs": [
             {
               "index": 1,
-              "text": "SCIENTIFIC FIGURE",
-              "fontSize": 28,
+              "text": "scientific figure",
+              "fontSize": 25.43,
               "color": "#2C8C99",
               "bold": true,
               "alignment": "center"
@@ -4036,21 +3992,21 @@
       "order": 82,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/nu1c3ex4",
+      "aid": "sh/c7q14fit",
       "id": "82",
       "name": "figure-four-caption",
       "bbox": [
         2079.01,
         1767.61,
         983.98,
-        29.66
+        23.3
       ],
       "geometry": "rect",
-      "text": "Figure caption",
-      "textPreview": "Figure caption",
-      "resolvedFontSize": 29.4,
+      "text": "Scientific Figure caption",
+      "textPreview": "Scientific Figure caption",
+      "resolvedFontSize": 21.19,
       "resolvedTextStyle": {
-        "fontSize": 29.4,
+        "fontSize": 21.19,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "bold": true,
@@ -4067,24 +4023,24 @@
         "lines": [
           {
             "index": 1,
-            "text": "Figure caption"
+            "text": "Scientific Figure caption"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Figure caption",
+          "text": "Scientific Figure caption",
           "resolvedTextStyle": {
-            "fontSize": 29.4,
+            "fontSize": 21.19,
             "color": "#102A43",
             "bold": true
           },
           "runs": [
             {
               "index": 1,
-              "text": "Figure caption",
-              "fontSize": 29.4,
+              "text": "Scientific Figure caption",
+              "fontSize": 21.19,
               "color": "#102A43",
               "bold": true
             }
@@ -4098,24 +4054,23 @@
       "order": 83,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mtsba9gj",
+      "aid": "sh/x8z2xkjy",
       "id": "83",
       "name": "figure-four-source",
       "bbox": [
         2079.01,
-        1790.92,
+        1791.62,
         983.98,
         26.84
       ],
       "geometry": "rect",
       "text": "Evidence/source locator",
       "textPreview": "Evidence/source locator",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -4138,17 +4093,15 @@
           "index": 1,
           "text": "Evidence/source locator",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence/source locator",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -4160,7 +4113,7 @@
       "order": 84,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1sju14fy",
+      "aid": "sh/y98j6p0j",
       "id": "84",
       "name": "conclusion-heading-title",
       "bbox": [
@@ -4172,9 +4125,9 @@
       "geometry": "rect",
       "text": "Conclusion",
       "textPreview": "Conclusion",
-      "resolvedFontSize": 38,
+      "resolvedFontSize": 33.89,
       "resolvedTextStyle": {
-        "fontSize": 38,
+        "fontSize": 33.89,
         "typeface": "+mn-lt",
         "color": "#0F5F73",
         "bold": true,
@@ -4200,7 +4153,7 @@
           "index": 1,
           "text": "Conclusion",
           "resolvedTextStyle": {
-            "fontSize": 38,
+            "fontSize": 33.89,
             "color": "#0F5F73",
             "bold": true
           },
@@ -4208,7 +4161,7 @@
             {
               "index": 1,
               "text": "Conclusion",
-              "fontSize": 38,
+              "fontSize": 33.89,
               "color": "#0F5F73",
               "bold": true
             }
@@ -4222,7 +4175,7 @@
       "order": 85,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0rat8zyd",
+      "aid": "sh/za1kzuh4",
       "id": "85",
       "name": "conclusion-heading-rule",
       "bbox": [
@@ -4239,7 +4192,7 @@
       "order": 86,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z61czexs",
+      "aid": "sh/kba18fip",
       "id": "86",
       "name": "conclusion-panel",
       "bbox": [
@@ -4257,7 +4210,7 @@
       "order": 87,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e58b69g7",
+      "aid": "sh/lcj21kza",
       "id": "87",
       "name": "conclusion",
       "bbox": [
@@ -4269,9 +4222,9 @@
       "geometry": "rect",
       "text": "State the supported conclusion and retain the most important limitation.",
       "textPreview": "State the supported conclusion and retain the most important limitation.",
-      "resolvedFontSize": 37.4,
+      "resolvedFontSize": 26.84,
       "resolvedTextStyle": {
-        "fontSize": 37.4,
+        "fontSize": 26.84,
         "typeface": "+mn-lt",
         "color": "#102A43",
         "alignment": "left",
@@ -4283,15 +4236,11 @@
         }
       },
       "textLayout": {
-        "lineCount": 2,
+        "lineCount": 1,
         "lines": [
           {
             "index": 1,
-            "text": "State the supported conclusion and retain the most"
-          },
-          {
-            "index": 2,
-            "text": "important limitation."
+            "text": "State the supported conclusion and retain the most important limitation."
           }
         ]
       },
@@ -4300,14 +4249,14 @@
           "index": 1,
           "text": "State the supported conclusion and retain the most important limitation.",
           "resolvedTextStyle": {
-            "fontSize": 37.4,
+            "fontSize": 26.84,
             "color": "#102A43"
           },
           "runs": [
             {
               "index": 1,
               "text": "State the supported conclusion and retain the most important limitation.",
-              "fontSize": 37.4,
+              "fontSize": 26.84,
               "color": "#102A43"
             }
           ],
@@ -4320,7 +4269,7 @@
       "order": 88,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d4zux4f2",
+      "aid": "sh/edojul0f",
       "id": "88",
       "name": "conclusion-evidence",
       "bbox": [
@@ -4332,12 +4281,11 @@
       "geometry": "rect",
       "text": "Evidence: discussion and conclusion",
       "textPreview": "Evidence: discussion and conclusion",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 17.65,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 17.65,
         "typeface": "+mn-lt",
         "color": "#2C8C99",
-        "italic": true,
         "alignment": "left",
         "insets": {
           "top": 4.8,
@@ -4360,17 +4308,15 @@
           "index": 1,
           "text": "Evidence: discussion and conclusion",
           "resolvedTextStyle": {
-            "fontSize": 22,
-            "color": "#2C8C99",
-            "italic": true
+            "fontSize": 17.65,
+            "color": "#2C8C99"
           },
           "runs": [
             {
               "index": 1,
               "text": "Evidence: discussion and conclusion",
-              "fontSize": 22,
-              "color": "#2C8C99",
-              "italic": true
+              "fontSize": 17.65,
+              "color": "#2C8C99"
             }
           ],
           "marginLeft": 0
@@ -4382,7 +4328,7 @@
       "order": 89,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/c3qt4zyh",
+      "aid": "sh/fex0nq10",
       "id": "89",
       "name": "footer-band",
       "bbox": [
@@ -4399,21 +4345,21 @@
       "order": 90,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i9ore5wz",
+      "aid": "sh/hknups7u",
       "id": "90",
       "name": "footer-source",
       "bbox": [
         99.03,
         2194.15,
-        2122.16,
+        1421.85,
         29.66
       ],
       "geometry": "rect",
       "text": "Source citation · content mode · asset license",
       "textPreview": "Source citation · content mode · asset license",
-      "resolvedFontSize": 22,
+      "resolvedFontSize": 18.36,
       "resolvedTextStyle": {
-        "fontSize": 22,
+        "fontSize": 18.36,
         "typeface": "+mn-lt",
         "color": "#FFFFFF",
         "alignment": "left",
@@ -4438,14 +4384,14 @@
           "index": 1,
           "text": "Source citation · content mode · asset license",
           "resolvedTextStyle": {
-            "fontSize": 22,
+            "fontSize": 18.36,
             "color": "#FFFFFF"
           },
           "runs": [
             {
               "index": 1,
               "text": "Source citation · content mode · asset license",
-              "fontSize": 22,
+              "fontSize": 18.36,
               "color": "#FFFFFF"
             }
           ],
@@ -4458,21 +4404,21 @@
       "order": 91,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3axs7adk",
+      "aid": "sh/gjedgn69",
       "id": "91",
       "name": "footer-status",
       "bbox": [
-        2207.05,
+        1542.1,
         2194.15,
-        870.09,
+        643.72,
         29.66
       ],
       "geometry": "rect",
-      "text": "Approval status · scientific colors locked",
-      "textPreview": "Approval status · scientific colors locked",
-      "resolvedFontSize": 21,
+      "text": "Approvals current · scientific colors locked",
+      "textPreview": "Approvals current · scientific colors locked",
+      "resolvedFontSize": 16.95,
       "resolvedTextStyle": {
-        "fontSize": 21,
+        "fontSize": 16.95,
         "typeface": "+mn-lt",
         "color": "#E8B44C",
         "bold": true,
@@ -4489,16 +4435,16 @@
         "lines": [
           {
             "index": 1,
-            "text": "Approval status · scientific colors locked"
+            "text": "Approvals current · scientific colors locked"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Approval status · scientific colors locked",
+          "text": "Approvals current · scientific colors locked",
           "resolvedTextStyle": {
-            "fontSize": 21,
+            "fontSize": 16.95,
             "color": "#E8B44C",
             "bold": true,
             "alignment": "right"
@@ -4506,9 +4452,73 @@
           "runs": [
             {
               "index": 1,
-              "text": "Approval status · scientific colors locked",
-              "fontSize": 21,
+              "text": "Approvals current · scientific colors locked",
+              "fontSize": 16.95,
               "color": "#E8B44C",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 92,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fi5cnipo",
+      "id": "92",
+      "name": "POSTEX_PROVENANCE_MARK",
+      "bbox": [
+        2249.49,
+        2194.15,
+        827.64,
+        29.66
+      ],
+      "geometry": "rect",
+      "text": "Made with PostEx™ · PX-00000000",
+      "textPreview": "Made with PostEx™ · PX-00000000",
+      "resolvedFontSize": 16.95,
+      "resolvedTextStyle": {
+        "fontSize": 16.95,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.38)",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Made with PostEx™ · PX-00000000"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Made with PostEx™ · PX-00000000",
+          "resolvedTextStyle": {
+            "fontSize": 16.95,
+            "color": "rgba(255, 255, 255, 0.38)",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Made with PostEx™ · PX-00000000",
+              "fontSize": 16.95,
+              "color": "rgba(255, 255, 255, 0.38)",
               "bold": true,
               "alignment": "right"
             }

@@ -1,27 +1,36 @@
-schema_version: "0.1"
+schema_version: '0.1'
 family: observational-cohort
-research_types: [observational]
+research_types:
+- observational
 license: CC-BY-4.0
-minimum_font_pt: {title: 72, body: 28, caption: 22}
+minimum_font_pt:
+  title: 72
+  body: 28
+  caption: 22
 roles:
-  - background
-  - cohort_construction
-  - baseline_characteristics
-  - statistical_model
-  - primary_outcome
-  - sensitivity_analysis
-  - limitations
+- background
+- cohort_construction
+- baseline_characteristics
+- statistical_model
+- primary_outcome
+- sensitivity_analysis
+- limitations
 variants:
   a0-landscape:
     width_in: 46.811
-    height_in: 33.110
+    height_in: 33.11
     asset: a0-landscape/template.pptx
+    layout_spec: a0-landscape/template-spec.json
+    sha256: a986a4ba92416ad3139cf2b76962fdf4773e419bc33f0c6c426ca2cc9bbd67a1
   a1-landscape:
-    width_in: 33.110
+    width_in: 33.11
     height_in: 23.386
     asset: a1-landscape/template.pptx
+    layout_spec: a1-landscape/template-spec.json
+    sha256: ade9937d0dd694a1a801a23cc560a1cbee49b01903a21deb20d9642c1093af6b
   36x48-landscape:
     width_in: 48
     height_in: 36
     asset: 36x48-landscape/template.pptx
-
+    layout_spec: 36x48-landscape/template-spec.json
+    sha256: 9d462b5ad8a4d0caf27ce26c5d12e8f7e823d86b5922e020b563ad4ddc46a7f0

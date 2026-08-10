@@ -4,11 +4,17 @@
 
 <p align="center"><strong>Evidence-linked academic posters with a visual identity of their own.</strong></p>
 
-PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.3 adds a curated **Built-in Palette Library** while retaining Palette Fusion: evidence-linked scientific content can now start from 154 ready-to-browse visual identities as well as natural-language inspiration, reference images, named themes, brand systems, or manual colors.
+PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.4 adds **Trusted Export**: every generated poster is source-signed, manifest-backed, approval-aware, and preflighted without changing scientific image pixels. The curated 154-card palette library and Palette Fusion remain fully available.
 
 The approved **Poster Frame** identity is available as an editable SVG brand kit with primary, horizontal, monochrome, reverse, favicon, and social-avatar variants. See the [PostEx brand system](docs/brand.md).
 
-> Status: `0.3.0a2`. The built-in palette catalog, source-art cards, rights audit, Palette DNA, Poster Brief, fusion planning, figure-edit approval, design locks, and approval-bound rendering are runnable. The Bioinformatics Pipeline family remains the production-renderable family while the remaining template families are developed.
+> Status: `0.4.0a1`. Bioinformatics Pipeline, Observational Cohort, and Visual Results are production-renderable in A0, A1, and 36×48 landscape. Trusted Export emits PPTX, PDF, PNG, Preflight, evidence, and `postex-manifest.json` artifacts with digest-bound release controls.
+
+## Trusted Export
+
+PostEx-generated posters carry `Made with PostEx™ · PX-XXXXXXXX` by default. In PPTX the label is an independent editable object named `POSTEX_PROVENANCE_MARK`; PDF and PNG retain the rendered mark. Turning it off requires an exact `omit_provenance_mark` approval, while Manifest and file metadata remain mandatory.
+
+`postex-manifest.json` records the PostEx version, project and source IDs, input hash, template and dimensions, Palette ID, asset/license references, approvals, Preflight result, and output hashes. The Manifest never hashes itself. Any ERROR blocks release; any WARNING keeps output draft-only.
 
 ## Built-in palette library
 
@@ -107,7 +113,7 @@ Give PostEx a paper and a visual idea—a mood, a place, an image, a brand, or a
 
 **If you want academic software to be both trustworthy and visually ambitious, [star PostEx on GitHub](https://github.com/QD-academia/PostEx).**
 
-> **Alpha boundary:** the full-size AURORA-12 posters use one approved Visual Journey structure in the production-renderable Bioinformatics Pipeline family. Palette Fusion also generates three structural candidates and rationale; rendering every structural direction and every template family is still in development.
+> **Alpha boundary:** all three template families and sizes now render through the shared production backend. Palette Fusion still requires explicit selection and approval of a structural direction; `postex create` scaffolds these gates but never decides them for the user.
 
 ## What makes PostEx different
 
@@ -117,8 +123,9 @@ Give PostEx a paper and a visual idea—a mood, a place, an image, a brand, or a
 - **User-owned decisions:** cloud upload, deletion, figure editing, palette application, poster structure, and semantic-color unlock are digest-bound approvals.
 - **Evidence first:** claim IDs and numerical evidence survive rewriting, translation, and visual redesign.
 - **Editable and print-aware:** PPTX is canonical; PDF, PNG, preflight, evidence, and rationale reports accompany delivery.
+- **Trusted by construction:** provenance, file metadata, Manifest hashes, and final-release approval are enforced by the shared core and renderer.
 
-PostEx v0.2 still prioritizes bioinformatics and observational biomedical research, Chinese/English input and output, and A0, A1, and 36×48-inch landscape posters.
+PostEx v0.4 prioritizes bioinformatics and observational biomedical research, Chinese/English input and output, and A0, A1, and 36×48-inch landscape posters.
 
 ## Quick start
 
@@ -128,6 +135,7 @@ source .venv/bin/activate
 pip install -e ".[dev]"
 
 postex brief-questions
+postex create path/to/paper.pdf --project-directory my-poster
 postex validate examples/aurora-synthetic/project-paimon.yaml
 postex palette-plan examples/palette-fusion/project.yaml
 postex fusion-plan examples/palette-fusion/project.yaml
@@ -167,8 +175,10 @@ local inspect
 → three structural fusion directions
 → structure approval
 → PPTX/PDF/PNG render
-→ distance, accessibility, print, and evidence preflight
-→ evidence, approval, diff, and design-rationale reports
+→ provenance mark + file metadata
+→ dimensions, fonts, overflow, DPI, contrast, margin, overlap, integrity, and evidence preflight
+→ final release approval
+→ Manifest, evidence, approval, diff, and design-rationale reports
 ```
 
 Changing an approved proposal changes its digest and invalidates the approval. Locked copy, figures, regions, colors, layouts, or logos cannot be silently changed in later iterations.
@@ -177,21 +187,21 @@ Changing an approved proposal changes its digest and invalidates the approval. L
 
 ```text
 src/postex/              shared Python core
-schemas/                 v0.1-compatible and v0.2 JSON contracts
+schemas/                 v0.1–v0.4 compatible JSON contracts
 configs/                 defaults and provider examples
 skills/                  Codex and Claude Code skill drafts
 assets/templates/        three families × three print sizes
 examples/palette-fusion/ runnable design-intelligence example
 examples/aurora-synthetic/ CC0 fictional golden example and three poster variants
 tests/                   unit and contract tests
-evals/                   quality cases and rubric
+evals/                   quality cases plus 3-family × 3-size Trusted Export goldens
 docs/                    workflows, privacy, rendering, and design contracts
 docker/                  container packaging
 ```
 
 ## Compatibility and limits
 
-v0.1 project files remain loadable. The v0.2 alpha generates fusion plans and rationale through the shared Python core; it does not yet promise that all three fusion directions can be rendered by every template family. Raster scientific figures are never recolored automatically. Editable SVG figure variants require a separate scientific-color unlock. Core runnable examples remain independent of proprietary character artwork; the clearly attributed homepage showcase assets are governed separately and are not covered by the repository's Apache-2.0 license.
+v0.1–v0.3 project files remain loadable; a missing `provenance` field defaults to the visual mark being enabled. All three template families render through the shared core, but a structure candidate still requires approval before use. Raster scientific figures are never recolored automatically. Editable SVG figure variants require a separate scientific-color unlock. Core runnable examples remain independent of proprietary character artwork; the clearly attributed homepage showcase assets are governed separately and are not covered by the repository's Apache-2.0 license.
 
 ## Licensing
 

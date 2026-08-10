@@ -6,6 +6,8 @@ defaults:
   provider: local-only
   branding:
     logo_mode: none
+  provenance:
+    enabled: true
   privacy:
     require_cloud_upload_approval: true
     allow_network_palette_sources: false
@@ -21,10 +23,11 @@ defaults:
     require_structure_approval: true
   deletion:
     require_approval: true
-  outputs: [pptx, pdf, png, evidence, preflight, fusion-candidates, design-rationale]
+  outputs: [pptx, pdf, png, evidence, preflight, manifest, fusion-candidates, design-rationale]
 rendering:
   canonical: pptx
   pdf_export_preference: [powerpoint, libreoffice]
 preflight:
   block_on_error: true
-  acknowledge_warnings: true
+  warnings_are_draft_only: true
+  require_final_release_approval: true

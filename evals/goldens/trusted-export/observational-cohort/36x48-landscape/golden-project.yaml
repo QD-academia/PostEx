@@ -1,0 +1,56 @@
+schema_version: '0.4'
+project_id: trusted-cohort-36x48
+title: AURORA-12 Trusted Export · observational-cohort · 36x48-landscape
+research_type: observational
+input_language: en
+output_language: en
+content_mode: traceable
+source:
+  type: pdf
+  path: ../../../../../examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf
+  published: false
+  sha256: ddd3aad8b3ed4ba3a82beabf6172b6830d22b2ced40345cfd4cf743ca400e2a5
+provider:
+  name: local-only
+  model: none
+template:
+  family: observational-cohort
+  size: 36x48-landscape
+branding:
+  logo_mode: placeholder
+  placeholders:
+  - id: fictional-lab-logo
+    role: institution
+    placement: header-right
+    label: Fictional lab logo
+privacy:
+  require_cloud_upload_approval: true
+  allow_network_palette_sources: false
+palette:
+  selected: default-academic-safe
+  require_approval: true
+  lock_scientific_figure_colors: true
+artifacts:
+  content_plan: ../../../../../examples/aurora-synthetic/content-plan.json
+  evidence: ../../../../../examples/aurora-synthetic/evidence.json
+  deletion_proposal: ../../../../../examples/aurora-synthetic/deletion-proposal.json
+  palette_proposals: ../../../../../examples/aurora-synthetic/palette-proposals.json
+  approval_log: approval-log.json
+  render_content: ../../../../../examples/aurora-synthetic/render-content.json
+  figure_color_proposal: ../../../../../examples/aurora-synthetic/figure-color-proposal.json
+output:
+  directory: .
+  formats:
+  - pptx
+  - pdf
+  - png
+  - evidence
+  - preflight
+  - manifest
+  release_ready: true
+provenance:
+  enabled: true
+materials:
+- id: aurora-12-fixture
+  kind: source-manuscript
+  license_ref: CC0-1.0

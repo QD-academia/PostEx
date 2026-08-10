@@ -66,6 +66,8 @@ class ProjectConfig:
     palette: dict[str, Any] = field(default_factory=dict)
     fusion: dict[str, Any] = field(default_factory=dict)
     artifacts: dict[str, Any] = field(default_factory=dict)
+    provenance: dict[str, Any] = field(default_factory=lambda: {"enabled": True})
+    materials: tuple[dict[str, Any], ...] = ()
 
     def as_dict(self) -> dict[str, Any]:
         return asdict(self)

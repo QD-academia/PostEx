@@ -1,8 +1,22 @@
-# PostEx v0.2 Product Requirements
+# PostEx™ v0.4 Product Requirements
+
+## 0. Release objective
+
+v0.4.0a1 makes every export attributable and independently auditable. A user should be able to verify who/what produced a poster, which inputs and approvals were used, whether all release checks passed, and whether any visible source mark was intentionally omitted.
+
+Trusted Export requirements:
+
+- show `Made with PostEx™ · PX-XXXXXXXX` by default as the editable PPTX object `POSTEX_PROVENANCE_MARK`;
+- retain the render in PDF and PNG without modifying scientific source-image pixels;
+- require an exact `omit_provenance_mark` approval to suppress the visual object, while always retaining Manifest and file metadata;
+- emit a schema-valid `postex-manifest.json` with PostEx version, project/source IDs, input and output SHA-256, template/size, Palette ID, material/license references, approvals, and Preflight state;
+- block release-ready on ERROR and limit any failed WARNING to draft output;
+- require final-release approval for the exact export payload;
+- production-render all three template families in all three supported sizes.
 
 ## 1. Product definition
 
-PostEx v0.2 is an evidence-linked visual-storytelling system for academic conference posters. It turns PDF, LaTeX/Overleaf, YAML, or JSON research material plus a visual inspiration into an editable PPTX, print PDF, PNG preview, evidence report, preflight report, approval log, and explainable design rationale.
+PostEx v0.4 is an evidence-linked visual-storytelling and Trusted Export system for academic conference posters. It turns PDF, LaTeX/Overleaf, YAML, or JSON research material plus a visual inspiration into an editable PPTX, print PDF, PNG preview, evidence report, approval log, Preflight report, Manifest, and explainable design rationale.
 
 The defining capability is **Palette Fusion**: a role-based visual system and the scientific story jointly influence layout, hierarchy, components, figure treatment, and emphasis. The result must look like a distinct visual identity, not a template with substituted colors.
 
@@ -85,9 +99,17 @@ Ask whether to omit logos, keep labeled editable placeholders, or use supplied a
 
 ### FR-11 Rendering and preflight
 
-Render editable PPTX first. Prefer PowerPoint PDF export and document LibreOffice fallback. Check dimensions, typography, overflow, contrast, image resolution, evidence coverage, approvals, branding, semantic locks, and exporter consistency. Add 3 m, 2 m, 1 m, color-vision-deficiency, grayscale, and print simulations as the preflight implementation matures.
+Render editable PPTX first. Prefer PowerPoint PDF export and document LibreOffice fallback. Check provenance, approved omission, dimensions, typography, overflow, contrast, effective DPI, evidence coverage, approvals, branding, semantic locks, safety margins, mark overlap, completeness, and SHA-256 integrity. A WARNING is draft-only; final release binds project, template, size, Palette ID, source ID, and provenance setting.
 
-## 5. Non-goals for v0.2
+### FR-12 Trusted Export Manifest
+
+Write a draft Manifest before Preflight and a final Manifest after the report is hashed. Do not include the Manifest's own hash. Embed a compact project/source/Manifest reference into PPTX, PDF, and PNG metadata even when the visual mark is approved for omission.
+
+### FR-13 Create shortcut
+
+`postex create <source>` creates a local project scaffold and computes the source hash. It must leave content deletion, Palette Fusion, structure, scientific figure/color operations, and final release behind the same digest-bound approvals used by the full workflow.
+
+## 5. Non-goals for v0.4
 
 - Arbitrary unannotated PPTX import.
 - Full desktop WYSIWYG editing or real-time collaboration.
@@ -105,7 +127,8 @@ Render editable PPTX first. Prefer PowerPoint PDF export and document LibreOffic
 - Hero, deletion, figure-edit, palette, and structure approvals are digest-bound.
 - Locked elements cannot be mutated silently.
 - The HTML rationale is self-contained and includes palette, structure, and scientific guardrails.
-- v0.1 configuration and golden rendering remain operational.
+- v0.1–v0.3 configuration and rendering remain operational, with visual provenance enabled by default when the field is absent.
+- Nine Trusted Export goldens cover three template families by three sizes and verify PPTX, PDF, PNG, Preflight, and Manifest.
 - Unit, repository, Skill, and evaluation checks pass.
 
 ## 7. Quality targets
@@ -123,3 +146,4 @@ Render editable PPTX first. Prefer PowerPoint PDF export and document LibreOffic
 2. `0.2.0a2`: visual Palette Studio previews and role-aware renderer integration.
 3. `0.2.0b1`: figure panel detection, revision diffs, and distance simulations.
 4. `0.2.0`: two complete research families, cross-platform export checks, print samples, privacy review, and Skill forward tests.
+5. `0.4.0a1`: Trusted Export, three production families, Manifest, provenance metadata, release Preflight, and approval-gated create shortcut.

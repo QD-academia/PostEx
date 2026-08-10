@@ -3,7 +3,9 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+from typing import Any
 
+from postex import __version__
 from postex.brief import BRIEF_QUESTIONS, poster_brief_from_mapping
 from postex.config import load_mapping, load_project
 from postex.fusion import ContentSignals, FusionEngine
@@ -17,6 +19,7 @@ from postex.palette import (
 from postex.palette_catalog import load_palette_catalog
 from postex.rationale import build_design_rationale, render_design_rationale_html
 from postex.research import PROFILES
+from postex.scaffold import create_project_scaffold
 from postex.templates import TemplateRegistry
 from postex.workflow import PosterWorkflow
 
@@ -56,7 +59,7 @@ def command_brief_questions() -> int:
     return 0
 
 
-def _project_artifact(path: Path, raw: dict, key: str) -> Path:
+def _project_artifact(path: Path, raw: dict[str, Any], key: str) -> Path:
     try:
         relative = raw["artifacts"][key]
     except KeyError as exc:
@@ -203,6 +206,46 @@ def command_generate(
                 "evidence_report": str(result.evidence_report),
                 "preflight_report": str(result.preflight_report),
                 "extracted_document": str(result.extracted_document),
+                "manifest": str(result.manifest),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    return 0
+
+
+def command_create(
+    source: str,
+    *,
+    project_directory: str | None,
+    project_id: str | None,
+    title: str | None,
+    research_type: str,
+    template_family: str,
+    poster_size: str,
+) -> int:
+    project = create_project_scaffold(
+        source,
+        project_directory=project_directory,
+        project_id=project_id,
+        title=title,
+        research_type=research_type,
+        template_family=template_family,
+        poster_size=poster_size,
+    )
+    print(
+        json.dumps(
+            {
+                "project": str(project),
+                "status": "awaiting_poster_brief_and_approvals",
+                "gates": [
+                    "content_deletion",
+                    "palette_application",
+                    "poster_structure",
+                    "scientific_color_unlock_or_figure_edit_when_applicable",
+                    "final_release",
+                ],
             },
             ensure_ascii=False,
             indent=2,
@@ -213,14 +256,32 @@ def command_generate(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="postex")
-    parser.add_argument("--version", action="version", version="postex 0.3.0a2")
+    parser.add_argument("--version", action="version", version=f"postex {__version__}")
     sub = parser.add_subparsers(dest="command", required=True)
+    create = sub.add_parser("create", help="Create an approval-gated project from a source")
+    create.add_argument("source")
+    create.add_argument("--project-directory")
+    create.add_argument("--project-id")
+    create.add_argument("--title")
+    create.add_argument(
+        "--research-type", choices=("bioinformatics", "observational"), default="bioinformatics"
+    )
+    create.add_argument(
+        "--template-family",
+        choices=("bioinformatics-pipeline", "observational-cohort", "visual-results"),
+        default="bioinformatics-pipeline",
+    )
+    create.add_argument(
+        "--poster-size",
+        choices=("a0-landscape", "a1-landscape", "36x48-landscape"),
+        default="a0-landscape",
+    )
     validate = sub.add_parser("validate", help="Load and validate project configuration")
     validate.add_argument("project")
     plan = sub.add_parser("plan", help="Show the domain-aware poster plan")
     plan.add_argument("project")
     sub.add_parser("workflow-demo", help="Run a local approval-state demonstration")
-    sub.add_parser("brief-questions", help="Print the v0.2 pre-generation interview")
+    sub.add_parser("brief-questions", help="Print the PostEx pre-generation interview")
     fusion = sub.add_parser("fusion-plan", help="Create three Palette Fusion structure candidates")
     fusion.add_argument("project")
     fusion.add_argument("--output")
@@ -254,6 +315,16 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.command == "create":
+        return command_create(
+            args.source,
+            project_directory=args.project_directory,
+            project_id=args.project_id,
+            title=args.title,
+            research_type=args.research_type,
+            template_family=args.template_family,
+            poster_size=args.poster_size,
+        )
     if args.command == "validate":
         return command_validate(args.project)
     if args.command == "plan":

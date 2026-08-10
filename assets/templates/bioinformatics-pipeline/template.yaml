@@ -1,31 +1,35 @@
-schema_version: "0.1"
+schema_version: '0.1'
 family: bioinformatics-pipeline
-research_types: [bioinformatics]
+research_types:
+- bioinformatics
 license: CC-BY-4.0
-minimum_font_pt: {title: 72, body: 28, caption: 22}
+minimum_font_pt:
+  title: 72
+  body: 28
+  caption: 22
 roles:
-  - research_question
-  - datasets
-  - analysis_pipeline
-  - key_results
-  - external_validation
-  - conclusion
+- research_question
+- datasets
+- analysis_pipeline
+- key_results
+- external_validation
+- conclusion
 variants:
   a0-landscape:
     width_in: 46.811
-    height_in: 33.110
+    height_in: 33.11
     asset: a0-landscape/template.pptx
     layout_spec: a0-landscape/template-spec.json
-    sha256: 25956897a11c129796a5184aa68d854472e44cdbf36d9beab462bd916ce54aa4
+    sha256: d1ad1b632b0f10b367db07ccf8e157755149649873c9be8f0b1569f63ae34fc5
   a1-landscape:
-    width_in: 33.110
+    width_in: 33.11
     height_in: 23.386
     asset: a1-landscape/template.pptx
     layout_spec: a1-landscape/template-spec.json
-    sha256: 63cc2050c681f4877621e689639eab4a83b2b224fb0bc5278c58ee67903a02d1
+    sha256: fc76461cfda7d639e39268165766ed10145c927239327f40e00dfc9d3f0a9d57
   36x48-landscape:
     width_in: 48
     height_in: 36
     asset: 36x48-landscape/template.pptx
     layout_spec: 36x48-landscape/template-spec.json
-    sha256: e55ff7e5899362a8bd3fd873f96807fdc7c85913bae0bb05bd4d59330c73d882
+    sha256: 8b30957e6b94f5cb658818ed9fc25a760f600a17fac5ef4e8a13619efb45a146

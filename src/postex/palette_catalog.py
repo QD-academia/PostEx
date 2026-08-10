@@ -5,7 +5,7 @@ import re
 from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import yaml
 
@@ -201,7 +201,7 @@ def load_palette_catalog(root: str | Path) -> PaletteCatalog:
 
 def load_extracted_palette(catalog: PaletteCatalog, entry: PaletteCatalogEntry) -> dict[str, Any]:
     path = catalog.root / entry.artwork.palette_path
-    return json.loads(path.read_text(encoding="utf-8"))
+    return cast(dict[str, Any], json.loads(path.read_text(encoding="utf-8")))
 
 
 def _optional_text(value: Any) -> str | None:

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from typing import Any
 
 from postex.approvals import ApprovalRecord
 from postex.errors import ConfigurationError
@@ -32,7 +33,8 @@ class AnthropicProvider:
             except ImportError as exc:
                 raise ConfigurationError("Install PostEx with the 'anthropic' extra") from exc
             client = AsyncAnthropic()
-        response = await client.messages.create(  # type: ignore[attr-defined]
+        dynamic_client: Any = client
+        response = await dynamic_client.messages.create(
             model=request.model,
             system=request.system,
             max_tokens=request.max_output_tokens,

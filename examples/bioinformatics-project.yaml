@@ -22,9 +22,12 @@ branding:
       role: institution
       placement: header-left
       label: "Institution logo"
+provenance:
+  enabled: true
 privacy:
   require_cloud_upload_approval: true
   allow_network_palette_sources: false
 output:
   directory: output/fictional-rnaseq
-  formats: [pptx, pdf, png, evidence, preflight]
+  formats: [pptx, pdf, png, evidence, preflight, manifest]
+  release_ready: false

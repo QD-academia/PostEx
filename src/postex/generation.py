@@ -3,14 +3,28 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from postex.approvals import canonical_digest
 from postex.config import load_mapping, load_project
 from postex.evidence import EvidenceRegistry
 from postex.extractors import PdfExtractor
+from postex.manifest import (
+    MANIFEST_FILENAME,
+    asset_references,
+    build_manifest,
+    output_hashes,
+    write_manifest,
+)
 from postex.models import EvidenceRecord, PosterBlock, PosterModel, SourceLocator
 from postex.preflight import run_artifact_preflight
+from postex.provenance import (
+    embed_pdf_metadata,
+    embed_png_metadata,
+    embed_pptx_metadata,
+    provenance_metadata,
+    resolve_provenance_policy,
+)
 from postex.renderers.pdf import LibreOfficePdfExporter, PowerPointPdfExporter
 from postex.renderers.pptx import PptxRenderer
 from postex.templates import TemplateRegistry
@@ -24,6 +38,7 @@ class GenerationResult:
     evidence_report: Path
     preflight_report: Path
     extracted_document: Path
+    manifest: Path
 
 
 def _resolve(base: Path, value: str) -> Path:
@@ -119,7 +134,7 @@ def _portable_render_spec(
 ) -> dict[str, Any]:
     """Remove machine-specific absolute paths from the persisted render report."""
 
-    portable = json.loads(json.dumps(render_spec))
+    portable = cast(dict[str, Any], json.loads(json.dumps(render_spec)))
     portable["template"]["asset"] = _relative_path(
         str(portable["template"]["asset"]), repository_root
     )
@@ -168,6 +183,7 @@ def generate_project(
     palettes = _load_json(palettes_path)
     approval_log = _load_json(approvals_path)
     render_content = _load_json(render_content_path)
+    provenance = resolve_provenance_policy(raw, extracted.sha256, approval_log)
 
     selected_palette = str(raw.get("palette", {}).get("selected", "default"))
     palette = next(
@@ -211,6 +227,39 @@ def generate_project(
         subject="content_deletion",
         proposal_id=str(deletion["proposal_id"]),
         digest=str(deletion["digest"]),
+    )
+    fusion = raw.get("fusion", {})
+    if isinstance(fusion, dict) and fusion.get("require_structure_approval"):
+        selected_structure = str(fusion.get("selected_candidate", "")).strip()
+        structure_records = [
+            record
+            for record in approval_log.get("records", [])
+            if isinstance(record, dict)
+            and record.get("subject") in {"poster_structure", "structure_selection"}
+            and record.get("decision") == "approved"
+            and (not selected_structure or record.get("proposal_id") == selected_structure)
+        ]
+        if not selected_structure or not structure_records:
+            raise RuntimeError("Missing current Palette Fusion structure approval")
+    release_payload = {
+        "project_id": config.project_id,
+        "template_family": config.template_family,
+        "poster_size": config.poster_size.value,
+        "palette_id": selected_palette,
+        "provenance_enabled": provenance.enabled,
+        "source_id": provenance.source_id,
+    }
+    release_digest = canonical_digest(release_payload)
+    release_proposal_id = (
+        f"release-{config.project_id}-{config.template_family}-{config.poster_size.value}"
+    )
+    final_release_approved = any(
+        record.get("subject") == "final_release"
+        and record.get("proposal_id") == release_proposal_id
+        and record.get("digest") == release_digest
+        and record.get("decision") == "approved"
+        for record in approval_log.get("records", [])
+        if isinstance(record, dict)
     )
 
     figure_variant_root = raw.get("palette", {}).get("figure_variant_root")
@@ -301,6 +350,7 @@ def generate_project(
             "cjk_font_family": "Noto Sans CJK SC",
         },
         "branding": branding,
+        "provenance": provenance.as_dict(),
         "content": content,
         "sources": source_records,
     }
@@ -323,6 +373,13 @@ def generate_project(
     pptx_path = output / f"{stem}.pptx"
     renderer = PptxRenderer(workspace=artifact_workspace)
     renderer.render_pptx(poster, variant.asset, pptx_path)
+    metadata = provenance_metadata(
+        project_id=config.project_id,
+        source_id=provenance.source_id,
+        enabled=provenance.enabled,
+        manifest_name=MANIFEST_FILENAME,
+    )
+    embed_pptx_metadata(pptx_path, metadata)
     repository_root = Path(templates_root).resolve().parents[1]
     render_spec_path.write_text(
         json.dumps(
@@ -345,8 +402,10 @@ def generate_project(
         LibreOfficePdfExporter(office_executable).export_pdf(pptx_path, pdf_path)
     else:
         raise ValueError(f"Unknown PDF exporter: {pdf_exporter}")
+    embed_pdf_metadata(pdf_path, metadata)
 
     png_path = output / f"{stem}.png"
+    embed_png_metadata(png_path, metadata)
     layout_path = output / f"{stem}.layout.json"
     extracted_path = output / "extracted-document.json"
     extracted_data = extracted.as_dict()
@@ -371,6 +430,43 @@ def generate_project(
         encoding="utf-8",
     )
 
+    manifest_path = output / MANIFEST_FILENAME
+    artifact_paths = {
+        "pptx": pptx_path,
+        "pdf": pdf_path,
+        "png": png_path,
+        "layout": layout_path,
+        "render_spec": render_spec_path,
+        "evidence_report": evidence_report,
+        "extracted_document": extracted_path,
+    }
+    inspect_path = output / f"{stem}.inspect.ndjson"
+    if inspect_path.is_file():
+        artifact_paths["inspect"] = inspect_path
+    hashes = output_hashes(artifact_paths)
+    manifest_assets = asset_references(project=raw, render_content=render_content, base=base)
+    manifest_template = {
+        "family": variant.family,
+        "size": variant.size.value,
+        "width_in": variant.width_in,
+        "height_in": variant.height_in,
+        "asset_sha256": variant.sha256,
+    }
+    draft_manifest = build_manifest(
+        project_id=config.project_id,
+        input_path=source_path,
+        input_sha256=extracted.sha256,
+        template=manifest_template,
+        palette_id=selected_palette,
+        palette_source=str(palette["source"]),
+        assets=manifest_assets,
+        approval_log=approval_log,
+        provenance=provenance,
+        outputs=hashes,
+        preflight={"status": "pending", "report": "preflight-report.json"},
+    )
+    write_manifest(manifest_path, draft_manifest)
+
     report = run_artifact_preflight(
         project_id=config.project_id,
         poster_size=config.poster_size,
@@ -382,12 +478,40 @@ def generate_project(
         evidence_coverage=coverage,
         approvals_current=True,
         branding=branding,
+        provenance=provenance.as_dict(),
+        approval_log=approval_log,
+        manifest=manifest_path,
+        render_spec=render_spec,
+        expected_hashes=hashes,
+        output_files=artifact_paths,
+        final_release_approved=final_release_approved,
+        release_requested=bool(raw.get("output", {}).get("release_ready", False)),
     )
     preflight_path = output / "preflight-report.json"
     preflight_path.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    artifact_paths["preflight_report"] = preflight_path
+    final_manifest = build_manifest(
+        project_id=config.project_id,
+        input_path=source_path,
+        input_sha256=extracted.sha256,
+        template=manifest_template,
+        palette_id=selected_palette,
+        palette_source=str(palette["source"]),
+        assets=manifest_assets,
+        approval_log=approval_log,
+        provenance=provenance,
+        outputs=output_hashes(artifact_paths),
+        preflight={
+            "status": report["output_status"],
+            "passed": report["passed"],
+            "release_ready": report["release_ready"],
+            "report": preflight_path.name,
+        },
+    )
+    write_manifest(manifest_path, final_manifest)
     if not report["passed"]:
         failed = [
             item["code"]
@@ -402,4 +526,5 @@ def generate_project(
         evidence_report=evidence_report,
         preflight_report=preflight_path,
         extracted_document=extracted_path,
+        manifest=manifest_path,
     )

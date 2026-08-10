@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.4",
+  "cloud_upload": "not_requested_local_only",
+  "records": [
+    {
+      "subject": "hero_result",
+      "proposal_id": "aurora-hero-v1",
+      "digest": "sha256:608415cb928b623aae323ee86f83f8fc055e668ee7dd3e82359983b3cb444540",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "content_deletion",
+      "proposal_id": "aurora-poster-content-v1",
+      "digest": "sha256:b3bcfd87b6cd4cd79a8feca304aa0ef7040590c30a9ab8a7e1c04c935414a02b",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "palette_application",
+      "proposal_id": "default-academic-safe",
+      "digest": "sha256:1415dde4c40a1a1652421d6bc9752898c97e4d046e43bf53cdaf31b3423f096d",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "palette_application",
+      "proposal_id": "gate-image-balanced-fusion",
+      "digest": "sha256:f3960633b4ea4f9a139d021c7437f8fa2b8a078f64b1b4c07d950d39e1d4be9d",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "palette_application",
+      "proposal_id": "paimon-cape-gradient-visual-signature",
+      "digest": "sha256:c9834f95586be531d5d8667465b8d0525469d9de17a3f361d76c34ad4677c4ca",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "structure_selection",
+      "proposal_id": "visual-journey",
+      "digest": "sha256:0b56088a8e9db9a0c43b30980553a7303035a06300714e22f7231ace6d15d3ed",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "scientific_color_unlock",
+      "proposal_id": "paimon-no-green-figures-v1",
+      "digest": "sha256:3f39322830d64035ab1c02216a1d307e9a8fed9b535a88e2a92b6fef4fb91f0a",
+      "decision": "approved",
+      "actor": "user",
+      "decided_at": "2026-08-08T03:48:20-04:00"
+    },
+    {
+      "subject": "final_release",
+      "proposal_id": "release-trusted-visual-a1-visual-results-a1-landscape",
+      "digest": "sha256:0e9f134b3d5d778ac2fefe5f2048d480688b58f1740eeb1b7900525e7e9e461d",
+      "decision": "approved",
+      "actor": "PostEx golden-fixture maintainer",
+      "decided_at": "2026-08-10T12:00:00-04:00"
+    }
+  ],
+  "locks": {
+    "copy": [
+      "synthetic-boundary",
+      "external-discrimination",
+      "cohort-counts"
+    ],
+    "structure": "visual-journey",
+    "logo": "editable-fictional-lab-placeholder",
+    "scientific_figures": "locked except approved Paimon no-green mapping"
+  }
+}

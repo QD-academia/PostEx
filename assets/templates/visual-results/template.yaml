@@ -1,26 +1,36 @@
-schema_version: "0.1"
+schema_version: '0.1'
 family: visual-results
-research_types: [bioinformatics, observational]
+research_types:
+- bioinformatics
+- observational
 license: CC-BY-4.0
-minimum_font_pt: {title: 72, body: 28, caption: 22}
+minimum_font_pt:
+  title: 72
+  body: 28
+  caption: 22
 roles:
-  - one_sentence_question
-  - hero_result
-  - supporting_results
-  - methods_summary
-  - conclusion
-  - significance
+- one_sentence_question
+- hero_result
+- supporting_results
+- methods_summary
+- conclusion
+- significance
 variants:
   a0-landscape:
     width_in: 46.811
-    height_in: 33.110
+    height_in: 33.11
     asset: a0-landscape/template.pptx
+    layout_spec: a0-landscape/template-spec.json
+    sha256: d29efbe8f6ebdc4264bad9229778616af2c3d94fcf84318bfdc52f59d98565ab
   a1-landscape:
-    width_in: 33.110
+    width_in: 33.11
     height_in: 23.386
     asset: a1-landscape/template.pptx
+    layout_spec: a1-landscape/template-spec.json
+    sha256: 7d1598b073cd0d321c19b23e70403d992e639a769f50491d9089151e8eb9d334
   36x48-landscape:
     width_in: 48
     height_in: 36
     asset: 36x48-landscape/template.pptx
-
+    layout_spec: 36x48-landscape/template-spec.json
+    sha256: 6666fff9f2171bce30e41bdadb2fb5b5cfb27715828f722be075302893f1d51f

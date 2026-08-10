@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.4",
   "canvas": {
     "width": 4608,
     "height": 3456
@@ -17,6 +17,11 @@
     "panel": "#FFFFFF",
     "neutral": "#D9E2EC"
   },
+  "typography": {
+    "language": "en",
+    "latin_font_family": "Arial",
+    "cjk_font_family": "Noto Sans CJK SC"
+  },
   "branding": {
     "logo_mode": "placeholder",
     "placeholders": [
@@ -28,6 +33,12 @@
       }
     ]
   },
+  "provenance": {
+    "enabled": true,
+    "source_id": "PX-00000000",
+    "mark_text": "Made with PostEx™ · PX-00000000",
+    "object_name": "POSTEX_PROVENANCE_MARK"
+  },
   "content": {
     "title": "Evidence-traceable bioinformatics poster title",
     "authors": "Author names",
@@ -36,19 +47,19 @@
     "header_metrics": [
       {
         "value": "N",
-        "label": "signature features"
+        "label": "primary observations"
       },
       {
         "value": "N",
-        "label": "discovery samples"
+        "label": "analysis samples"
       },
       {
         "value": "N",
-        "label": "validation cohorts"
+        "label": "validation units"
       }
     ],
-    "question_heading": "Research question",
-    "question": "State the biological or clinical question in two concise sentences.",
+    "question_heading": "Biological question",
+    "question": "State the scientific question in two concise sentences.",
     "question_evidence": "Evidence: source page or section",
     "pipeline_heading": "Analysis pipeline",
     "pipeline_steps": [
@@ -58,62 +69,62 @@
       "Independent validation"
     ],
     "dataset_kicker": "DATA FOUNDATION",
-    "datasets": "Discovery cohort\nTraining and test split\nExternal validation\nOrthogonal validation",
+    "datasets": "Discovery set\nPrimary analysis\nValidation set\nSensitivity analysis",
     "dataset_evidence": "Evidence: methods and dataset table",
     "figure_one_heading": "From features to signature",
     "takeaway": "Place the single most important result here",
     "takeaway_subtitle": "Explain what the result means for the audience",
     "takeaway_evidence": "Evidence: result section and figure",
-    "figure_two_heading": "Primary performance",
-    "validation_heading": "Independent and external validation",
-    "validation": "• Primary adjusted result\n• External validation\n• Negative or inconsistent findings\n• Interpretation boundary",
+    "figure_two_heading": "Primary result",
+    "validation_heading": "Robustness and validation",
+    "validation": "• Primary adjusted result\n• External validation\n• Negative findings\n• Interpretation boundary",
     "validation_evidence": "Evidence: result pages",
-    "performance_strip": "Primary performance statistic or calibrated model comparison",
+    "performance_summary": "Primary estimate · uncertainty · validation",
     "biology_heading": "Biological interpretation",
     "biology_metrics": [
       {
         "value": "Effect",
-        "label": "program or pathway"
+        "label": "primary estimate"
       },
       {
-        "value": "Effect",
-        "label": "program or pathway"
+        "value": "95% CI",
+        "label": "uncertainty"
       },
       {
-        "value": "Effect",
-        "label": "program or pathway"
+        "value": "P",
+        "label": "robustness"
       }
     ],
-    "biology_evidence": "Evidence: biological analysis",
+    "biology_evidence": "Evidence: supporting analysis",
     "validation_visual_heading": "Orthogonal validation",
     "conclusion_heading": "Conclusion",
     "conclusion": "State the supported conclusion and retain the most important limitation.",
     "conclusion_evidence": "Evidence: discussion and conclusion",
     "footer_source": "Source citation · content mode · asset license",
-    "footer_status": "Approval status · scientific colors locked",
+    "footer_status": "Approvals current · scientific colors locked",
     "figures": [
       {
-        "placeholder": "SCIENTIFIC FIGURE",
+        "placeholder": "scientific figure",
         "alt": "Editable scientific figure placeholder",
-        "caption": "Figure caption",
+        "caption": "Scientific Figure caption",
         "source": "Evidence/source locator"
       },
       {
-        "placeholder": "SCIENTIFIC FIGURE",
+        "placeholder": "scientific figure",
         "alt": "Editable scientific figure placeholder",
-        "caption": "Figure caption",
+        "caption": "Scientific Figure caption",
         "source": "Evidence/source locator"
       },
       {
-        "placeholder": "SCIENTIFIC FIGURE",
+        "placeholder": "scientific figure",
         "alt": "Editable scientific figure placeholder",
-        "caption": "Figure caption",
+        "caption": "Scientific Figure caption",
         "source": "Evidence/source locator"
       },
       {
-        "placeholder": "SCIENTIFIC FIGURE",
+        "placeholder": "scientific figure",
         "alt": "Editable scientific figure placeholder",
-        "caption": "Figure caption",
+        "caption": "Scientific Figure caption",
         "source": "Evidence/source locator"
       }
     ]
