@@ -4,7 +4,7 @@
 
 <p align="center"><strong>Evidence-linked academic posters with a visual identity of their own.</strong></p>
 
-PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.4 adds **Trusted Export**: every generated poster is source-signed, manifest-backed, approval-aware, and preflighted without changing scientific image pixels. The curated 154-card palette library and Palette Fusion remain fully available.
+PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.4 adds **Trusted Export**: every generated poster is manifest-backed, approval-aware, integrity-checked, and preflighted without changing scientific image pixels. The curated 154-card palette library and Palette Fusion remain fully available.
 
 The approved **Poster Frame** identity is available as an editable SVG brand kit with primary, horizontal, monochrome, reverse, favicon, and social-avatar variants. See the [PostEx brand system](docs/brand.md).
 
@@ -12,9 +12,7 @@ The approved **Poster Frame** identity is available as an editable SVG brand kit
 
 ## Trusted Export
 
-PostEx-generated posters carry `Made with PostEx™ · PX-XXXXXXXX` by default. In PPTX the label is an independent editable object named `POSTEX_PROVENANCE_MARK`; PDF and PNG retain the rendered mark. Turning it off requires an exact `omit_provenance_mark` approval, while Manifest and file metadata remain mandatory.
-
-`postex-manifest.json` records the PostEx version, project and source IDs, input hash, template and dimensions, Palette ID, asset/license references, approvals, Preflight result, and output hashes. The Manifest never hashes itself. Any ERROR blocks release; any WARNING keeps output draft-only.
+Trusted Export binds inputs, templates, palettes, licensed assets, approvals, and output hashes in `postex-manifest.json`. It records the PostEx version, project and source IDs, input hash, template and dimensions, Palette ID, asset/license references, approvals, Preflight result, and output hashes. The Manifest never hashes itself. Any ERROR blocks release; any WARNING keeps output draft-only.
 
 ## Built-in palette library
 
@@ -123,7 +121,7 @@ Give PostEx a paper and a visual idea—a mood, a place, an image, a brand, or a
 - **User-owned decisions:** cloud upload, deletion, figure editing, palette application, poster structure, and semantic-color unlock are digest-bound approvals.
 - **Evidence first:** claim IDs and numerical evidence survive rewriting, translation, and visual redesign.
 - **Editable and print-aware:** PPTX is canonical; PDF, PNG, preflight, evidence, and rationale reports accompany delivery.
-- **Trusted by construction:** provenance, file metadata, Manifest hashes, and final-release approval are enforced by the shared core and renderer.
+- **Trusted by construction:** file metadata, Manifest hashes, integrity checks, and final-release approval are enforced by the shared core and renderer.
 
 PostEx v0.4 prioritizes bioinformatics and observational biomedical research, Chinese/English input and output, and A0, A1, and 36×48-inch landscape posters.
 
@@ -175,7 +173,7 @@ local inspect
 → three structural fusion directions
 → structure approval
 → PPTX/PDF/PNG render
-→ provenance mark + file metadata
+→ file metadata + integrity hashes
 → dimensions, fonts, overflow, DPI, contrast, margin, overlap, integrity, and evidence preflight
 → final release approval
 → Manifest, evidence, approval, diff, and design-rationale reports
@@ -201,7 +199,7 @@ docker/                  container packaging
 
 ## Compatibility and limits
 
-v0.1–v0.3 project files remain loadable; a missing `provenance` field defaults to the visual mark being enabled. All three template families render through the shared core, but a structure candidate still requires approval before use. Raster scientific figures are never recolored automatically. Editable SVG figure variants require a separate scientific-color unlock. Core runnable examples remain independent of proprietary character artwork; the clearly attributed homepage showcase assets are governed separately and are not covered by the repository's Apache-2.0 license.
+v0.1–v0.3 project files remain loadable. All three template families render through the shared core, but a structure candidate still requires approval before use. Raster scientific figures are never recolored automatically. Editable SVG figure variants require a separate scientific-color unlock. Core runnable examples remain independent of proprietary character artwork; the clearly attributed homepage showcase assets are governed separately and are not covered by the repository's Apache-2.0 license.
 
 ## Licensing
 
