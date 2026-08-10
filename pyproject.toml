@@ -27,7 +27,15 @@ openai = ["openai>=1.50"]
 anthropic = ["anthropic>=0.40"]
 render = ["Pillow>=10.4", "PyMuPDF>=1.24", "pypdf>=5.0"]
 palette-assets = ["Pillow>=12.1", "certifi>=2025.0", "cairosvg>=2.8", "rembg[cpu]>=2.0.70"]
-dev = ["pytest>=8.2", "pytest-cov>=5.0", "ruff>=0.6", "mypy>=1.11", "types-PyYAML>=6.0"]
+dev = [
+  "pytest>=8.2",
+  "pytest-cov>=5.0",
+  "ruff>=0.6",
+  "mypy>=1.11",
+  "types-PyYAML>=6.0",
+  "Pillow>=10.4",
+  "pypdf>=5.0",
+]
 
 [project.scripts]
 postex = "postex.cli:main"
