@@ -1,0 +1,15 @@
+schema_version: '0.5'
+conference_id: asco
+name: ASCO Annual Meeting
+acronym: ASCO
+organizer: American Society of Clinical Oncology
+recurrence: annual
+domains: [medicine, biology]
+topics: [clinical-oncology, cancer-care, translational-research]
+official_url: https://www.asco.org/annual-meeting
+rights:
+  identity_reference: metadata-only
+  logos_bundled: false
+  official_templates_bundled: false
+  endorsement_implied: false
+  notice: ASCO names are used only to identify the target event; this pack is not an official ASCO template or endorsement.

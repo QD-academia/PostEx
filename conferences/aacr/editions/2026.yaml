@@ -1,0 +1,150 @@
+schema_version: '0.5'
+conference_id: aacr
+year: 2026
+edition_id: aacr-2026
+verification:
+  state: partially-verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Companion e-poster requirement and the PDF e-poster submission path.
+  unverified_fields:
+    - physical-poster.canvas
+    - physical-poster.print-file-specification
+presentations:
+  - presentation_id: e-poster-pdf
+    kind: e-poster-pdf
+    official_canvas:
+      status: range
+      min_width_in: 24
+      max_width_in: 36
+      orientation: unspecified
+    postex_canvas:
+      width_in: 36
+      height_in: 24
+      orientation: landscape
+      basis: PostEx-selected 3:2 landscape canvas within AACR's official 24-36 inch e-poster width guidance; height and aspect ratio are not official requirements.
+provenance:
+  - provenance_id: aacr-2026-call-for-abstracts
+    authority: organizer
+    source_type: official-guidelines
+    title: AACR Annual Meeting 2026 Call for Abstracts
+    url: https://www.aacr.org/AACR26CFA/
+    accessed_at: '2026-08-10'
+    locator: Presentation of E-posters, page 24
+    evidence_summary: Requires in-person poster presenters to submit a companion e-poster in video or PDF format.
+  - provenance_id: aacr-2026-eposter-instructions
+    authority: organizer
+    source_type: official-guidelines
+    title: AACR Annual Meeting Instructions for Creating E-Posters
+    url: https://www.aacr.org/wp-content/uploads/2026/01/AACR_Instructions_CreatingEPosters.pdf
+    accessed_at: '2026-08-10'
+    locator: Guidelines for Creating E-Poster Presentations, pages 3-5
+    evidence_summary: Defines PDF and video options, the 24-36 inch PDF width guidance, 50 MB limit, cropping instruction, optional audio formats, and conditional DO NOT POST labeling.
+rules:
+  - rule_id: aacr.submission.companion-eposter
+    label: Companion e-poster submitted
+    origin: official
+    level: required
+    applies_to: e-poster-pdf
+    path: submission.eposter_submitted
+    operator: equals
+    expected: true
+    provenance_ref: aacr-2026-call-for-abstracts
+    message: Every in-person poster presenter must also submit a companion e-poster.
+  - rule_id: aacr.export.pdf-format
+    label: PDF e-poster format
+    origin: official
+    level: required
+    applies_to: e-poster-pdf
+    path: export.format
+    operator: equals
+    expected: pdf
+    provenance_ref: aacr-2026-eposter-instructions
+    message: The PDF e-poster path requires a PDF file.
+  - rule_id: aacr.canvas.width-range
+    label: Recommended e-poster width range
+    origin: official
+    level: recommended
+    applies_to: e-poster-pdf
+    path: canvas.width_in
+    operator: between
+    expected: [24, 36]
+    provenance_ref: aacr-2026-eposter-instructions
+    message: AACR recommends an e-poster width of approximately 24 to 36 inches.
+  - rule_id: aacr.export.file-size
+    label: Maximum PDF file size
+    origin: official
+    level: required
+    applies_to: e-poster-pdf
+    path: export.file_size_mb
+    operator: maximum
+    expected: 50
+    provenance_ref: aacr-2026-eposter-instructions
+    message: The e-poster PDF must not exceed 50 MB.
+  - rule_id: aacr.export.cropping
+    label: No extraneous margins
+    origin: official
+    level: required
+    applies_to: e-poster-pdf
+    path: export.has_extraneous_margin
+    operator: equals
+    expected: false
+    provenance_ref: aacr-2026-eposter-instructions
+    message: Crop blank space around the poster so the viewer can zoom to the usable area.
+  - rule_id: aacr.privacy.do-not-post
+    label: Social-media opt-out marker
+    origin: official
+    level: required
+    applies_to: e-poster-pdf
+    path: privacy.do_not_post_tag
+    operator: present_if
+    expected: true
+    condition:
+      path: privacy.social_media_opt_out
+      equals: true
+    provenance_ref: aacr-2026-eposter-instructions
+    message: Add a DO NOT POST tag when opting out of social-media sharing.
+  - rule_id: aacr.postex.canvas-width
+    label: PostEx e-poster width
+    origin: postex
+    level: postex
+    applies_to: e-poster-pdf
+    path: canvas.width_in
+    operator: equals
+    expected: 36
+    tolerance: 0.05
+    message: PostEx recommends the upper end of AACR's width range for readable visual detail.
+  - rule_id: aacr.postex.canvas-height
+    label: PostEx e-poster height
+    origin: postex
+    level: postex
+    applies_to: e-poster-pdf
+    path: canvas.height_in
+    operator: equals
+    expected: 24
+    tolerance: 0.05
+    message: PostEx recommends a 36 by 24 inch 3:2 landscape e-poster; AACR does not prescribe this height or aspect ratio.
+  - rule_id: aacr.postex.body-font
+    label: PostEx screen-readable body type
+    origin: postex
+    level: postex
+    applies_to: e-poster-pdf
+    path: typography.minimum_body_font_pt
+    operator: minimum
+    expected: 24
+    message: PostEx recommends at least 24 point body type for the selected 36 by 24 inch e-poster canvas.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures:
+    - hero-result
+    - editorial-story
+  discouraged_structures:
+    - method-dominant
+  figure_density: high
+  text_density: medium
+  research_emphasis:
+    primary-finding: very-high
+    cohort-or-model: high
+    biomarker: high
+    translational-implication: high
+    methods: medium

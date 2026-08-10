@@ -8,7 +8,7 @@
   "properties": {
     "palette_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
     "name": {"type": "string", "minLength": 1},
-    "source_type": {"enum": ["default", "image", "theme", "brand", "manual"]},
+    "source_type": {"enum": ["default", "image", "theme", "brand", "manual", "conference-inspired"]},
     "source_reference": {"type": "string", "minLength": 1},
     "colors": {
       "type": "array", "minItems": 6, "maxItems": 10,

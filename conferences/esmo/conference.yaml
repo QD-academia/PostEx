@@ -1,0 +1,15 @@
+schema_version: '0.5'
+conference_id: esmo
+name: ESMO Congress
+acronym: ESMO
+organizer: European Society for Medical Oncology
+recurrence: annual
+domains: [medicine, biology]
+topics: [medical-oncology, cancer-care, translational-research]
+official_url: https://www.esmo.org/meeting-calendar/esmo-congress-2026
+rights:
+  identity_reference: metadata-only
+  logos_bundled: false
+  official_templates_bundled: false
+  endorsement_implied: false
+  notice: ESMO names are used only to identify the target event; this pack is not an official ESMO template or endorsement.

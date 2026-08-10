@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.5/conference-registry.schema.json",
+  "title": "PostEx Conference Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "packs"],
+  "properties": {
+    "schema_version": {"const": "0.5"},
+    "packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pack_id", "conference_id", "year", "status", "conference", "edition", "palette"],
+        "properties": {
+          "pack_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+          "conference_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+          "year": {"type": "integer", "minimum": 2020, "maximum": 2100},
+          "status": {"enum": ["golden", "verified", "partial", "community", "outdated"]},
+          "conference": {"type": "string", "pattern": "^[a-z0-9/_-]+\\.ya?ml$"},
+          "edition": {"type": "string", "pattern": "^[a-z0-9/_-]+\\.ya?ml$"},
+          "palette": {"type": "string", "pattern": "^[a-z0-9/_-]+\\.ya?ml$"}
+        }
+      }
+    }
+  }
+}

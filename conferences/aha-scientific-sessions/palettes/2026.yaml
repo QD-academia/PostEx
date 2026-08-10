@@ -1,0 +1,66 @@
+schema_version: '0.5'
+conference_id: aha-scientific-sessions
+year: 2026
+design_status: conference-inspired
+rights:
+  owner: PostEx
+  license: Apache-2.0
+  conference_logo_used: false
+  official_template_used: false
+  official_endorsement: false
+  notice: Independent PostEx palette system; no AHA artwork, logo, or template is bundled.
+palettes:
+  - mode: conference-safe
+    recommended: false
+    dna:
+      palette_id: aha-scientific-sessions-2026-conference-safe
+      name: AHA Scientific Sessions 2026 · Conference Safe
+      source_type: conference-inspired
+      source_reference: Independent PostEx cardiovascular interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FBF8F8', ratio: 0.34}
+        - {role: primary, hex: '#5B1F2A', ratio: 0.18}
+        - {role: secondary, hex: '#7D4A52', ratio: 0.14}
+        - {role: highlight, hex: '#B54747', ratio: 0.10}
+        - {role: accent, hex: '#E6CDD1', ratio: 0.12}
+        - {role: text, hex: '#241719', ratio: 0.12, locked: true}
+      moods: [cardiovascular, restrained, clinical]
+      component_style: {cards: anchored, connectors: evidence-led, corners: structured, ornament_density: minimal}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: balanced-fusion
+    recommended: true
+    dna:
+      palette_id: aha-scientific-sessions-2026-balanced-fusion
+      name: AHA Scientific Sessions 2026 · Balanced Fusion
+      source_type: conference-inspired
+      source_reference: Independent PostEx cardiovascular interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FBF6F6', ratio: 0.30}
+        - {role: primary, hex: '#7A1F2D', ratio: 0.20}
+        - {role: secondary, hex: '#B33A48', ratio: 0.14}
+        - {role: highlight, hex: '#E07B39', ratio: 0.10}
+        - {role: accent, hex: '#E8AAB1', ratio: 0.12}
+        - {role: text, hex: '#28161A', ratio: 0.14, locked: true}
+      moods: [cardiovascular, energetic, outcome-led]
+      component_style: {cards: layered, connectors: outcome-led, corners: soft, ornament_density: restrained}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: visual-signature
+    recommended: false
+    dna:
+      palette_id: aha-scientific-sessions-2026-visual-signature
+      name: AHA Scientific Sessions 2026 · Visual Signature
+      source_type: conference-inspired
+      source_reference: Independent PostEx cardiovascular interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FFF1F1', ratio: 0.24}
+        - {role: primary, hex: '#86152C', ratio: 0.22}
+        - {role: secondary, hex: '#C81E46', ratio: 0.16}
+        - {role: highlight, hex: '#F15A3A', ratio: 0.12}
+        - {role: accent, hex: '#F28E9D', ratio: 0.13}
+        - {role: text, hex: '#2B1016', ratio: 0.13, locked: true}
+      moods: [cardiovascular, urgent, result-forward]
+      component_style: {cards: layered, connectors: kinetic, corners: soft, ornament_density: expressive}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]

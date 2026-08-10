@@ -1,0 +1,180 @@
+schema_version: '0.5'
+conference_id: asco
+year: 2026
+edition_id: asco-2026
+verification:
+  state: verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Regular and Trials in Progress physical-poster dimensions, required e-poster submission, poster identifiers, contact information, and commercial-content restrictions.
+  unverified_fields: []
+presentations:
+  - presentation_id: regular-poster
+    kind: physical-poster
+    official_canvas:
+      status: range
+      max_width_in: 77
+      max_height_in: 48
+      orientation: landscape
+    postex_canvas:
+      width_in: 72
+      height_in: 42
+      orientation: landscape
+      basis: PostEx-selected canvas within the official maximum of 77 inches wide by 48 inches high.
+  - presentation_id: trials-in-progress-poster
+    kind: physical-poster
+    official_canvas:
+      status: exact
+      width_in: 36
+      height_in: 42
+      orientation: portrait
+    postex_canvas:
+      width_in: 36
+      height_in: 42
+      orientation: portrait
+      basis: Exact official Trials in Progress dimensions.
+provenance:
+  - provenance_id: asco-2026-poster-guidelines
+    authority: organizer
+    source_type: official-guidelines
+    title: ASCO 2026 Poster Presenter Guidelines
+    url: https://www.asco.org/annual-meeting/abstracts-presentations/poster-presenter-guidelines
+    accessed_at: '2026-08-10'
+    locator: Poster Presentation Format and Presentation Guidelines and Resources
+    evidence_summary: Requires an electronic poster, defines regular and Trials in Progress board limits, requires title, abstract number and contact email, and prohibits commercial logos, company names and proprietary drug names.
+rules:
+  - rule_id: asco.regular.width
+    label: Regular poster maximum width
+    origin: official
+    level: required
+    applies_to: regular-poster
+    path: canvas.width_in
+    operator: maximum
+    expected: 77
+    provenance_ref: asco-2026-poster-guidelines
+    message: A regular poster must not exceed 77 inches in width.
+  - rule_id: asco.regular.height
+    label: Regular poster maximum height
+    origin: official
+    level: required
+    applies_to: regular-poster
+    path: canvas.height_in
+    operator: maximum
+    expected: 48
+    provenance_ref: asco-2026-poster-guidelines
+    message: A regular poster must not exceed 48 inches in height.
+  - rule_id: asco.regular.orientation
+    label: Regular poster landscape orientation
+    origin: official
+    level: required
+    applies_to: regular-poster
+    path: canvas.orientation
+    operator: equals
+    expected: landscape
+    provenance_ref: asco-2026-poster-guidelines
+    message: Regular posters use landscape orientation.
+  - rule_id: asco.tip.width
+    label: Trials in Progress width
+    origin: official
+    level: required
+    applies_to: trials-in-progress-poster
+    path: canvas.width_in
+    operator: equals
+    expected: 36
+    tolerance: 0.05
+    provenance_ref: asco-2026-poster-guidelines
+    message: Trials in Progress posters are 36 inches wide.
+  - rule_id: asco.tip.height
+    label: Trials in Progress height
+    origin: official
+    level: required
+    applies_to: trials-in-progress-poster
+    path: canvas.height_in
+    operator: equals
+    expected: 42
+    tolerance: 0.05
+    provenance_ref: asco-2026-poster-guidelines
+    message: Trials in Progress posters are 42 inches high.
+  - rule_id: asco.tip.orientation
+    label: Trials in Progress portrait orientation
+    origin: official
+    level: required
+    applies_to: trials-in-progress-poster
+    path: canvas.orientation
+    operator: equals
+    expected: portrait
+    provenance_ref: asco-2026-poster-guidelines
+    message: Trials in Progress posters use portrait orientation.
+  - rule_id: asco.submission.eposter
+    label: Electronic poster submitted
+    origin: official
+    level: required
+    path: submission.eposter_submitted
+    operator: equals
+    expected: true
+    provenance_ref: asco-2026-poster-guidelines
+    message: Every physical-poster presenter must also submit an electronic poster.
+  - rule_id: asco.content.title
+    label: Poster title present
+    origin: official
+    level: required
+    path: content.title
+    operator: present
+    expected: true
+    provenance_ref: asco-2026-poster-guidelines
+    message: Include the title exactly as listed in the final online program.
+  - rule_id: asco.content.abstract-number
+    label: Abstract number present
+    origin: official
+    level: required
+    path: content.abstract_number
+    operator: present
+    expected: true
+    provenance_ref: asco-2026-poster-guidelines
+    message: Include the abstract number on the poster.
+  - rule_id: asco.content.contact-email
+    label: Contact email present
+    origin: official
+    level: required
+    path: content.contact_email
+    operator: present
+    expected: true
+    provenance_ref: asco-2026-poster-guidelines
+    message: Print one contact email address clearly on the poster.
+  - rule_id: asco.content.commercial-logo
+    label: No commercial logo
+    origin: official
+    level: required
+    path: content.has_commercial_logo
+    operator: equals
+    expected: false
+    provenance_ref: asco-2026-poster-guidelines
+    message: Commercial logos are not permitted.
+  - rule_id: asco.content.proprietary-drug-name
+    label: No proprietary drug names
+    origin: official
+    level: required
+    path: content.has_proprietary_drug_name
+    operator: equals
+    expected: false
+    provenance_ref: asco-2026-poster-guidelines
+    message: Use generic rather than brand or proprietary drug names.
+  - rule_id: asco.postex.body-font
+    label: PostEx distance-readable body type
+    origin: postex
+    level: postex
+    path: typography.minimum_body_font_pt
+    operator: minimum
+    expected: 28
+    message: PostEx recommends at least 28 point body type for the selected physical canvas.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures: [hero-result, editorial-story]
+  discouraged_structures: [text-heavy]
+  figure_density: high
+  text_density: low
+  research_emphasis:
+    primary-endpoint: very-high
+    patient-flow: high
+    safety: high
+    clinical-implication: very-high

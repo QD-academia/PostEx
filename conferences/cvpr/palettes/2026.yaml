@@ -1,0 +1,66 @@
+schema_version: '0.5'
+conference_id: cvpr
+year: 2026
+design_status: conference-inspired
+rights:
+  owner: PostEx
+  license: Apache-2.0
+  conference_logo_used: false
+  official_template_used: false
+  official_endorsement: false
+  notice: Independent PostEx palette system for conference-compatible use; no CVPR artwork, logo, or template is bundled.
+palettes:
+  - mode: conference-safe
+    recommended: false
+    dna:
+      palette_id: cvpr-2026-conference-safe
+      name: CVPR 2026 · Conference Safe
+      source_type: conference-inspired
+      source_reference: Independent PostEx interpretation for CVPR 2026; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F7F9FC', ratio: 0.34}
+        - {role: primary, hex: '#17324D', ratio: 0.18}
+        - {role: secondary, hex: '#3D617C', ratio: 0.14}
+        - {role: highlight, hex: '#2F80ED', ratio: 0.10}
+        - {role: accent, hex: '#C8D9E8', ratio: 0.12}
+        - {role: text, hex: '#111827', ratio: 0.12, locked: true}
+      moods: [technical, restrained, high-contrast]
+      component_style: {cards: anchored, connectors: precise, corners: structured, ornament_density: minimal}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: balanced-fusion
+    recommended: true
+    dna:
+      palette_id: cvpr-2026-balanced-fusion
+      name: CVPR 2026 · Balanced Fusion
+      source_type: conference-inspired
+      source_reference: Independent PostEx interpretation for CVPR 2026; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F4F8FB', ratio: 0.30}
+        - {role: primary, hex: '#123B5D', ratio: 0.20}
+        - {role: secondary, hex: '#327C9B', ratio: 0.14}
+        - {role: highlight, hex: '#F2B544', ratio: 0.10}
+        - {role: accent, hex: '#8FD3E8', ratio: 0.12}
+        - {role: text, hex: '#14212B', ratio: 0.14, locked: true}
+      moods: [technical, visual, modern]
+      component_style: {cards: layered, connectors: directional, corners: soft, ornament_density: restrained}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: visual-signature
+    recommended: false
+    dna:
+      palette_id: cvpr-2026-visual-signature
+      name: CVPR 2026 · Visual Signature
+      source_type: conference-inspired
+      source_reference: Independent PostEx interpretation for CVPR 2026; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#EDF7FA', ratio: 0.24}
+        - {role: primary, hex: '#082F49', ratio: 0.22}
+        - {role: secondary, hex: '#007C91', ratio: 0.16}
+        - {role: highlight, hex: '#FFB000', ratio: 0.12}
+        - {role: accent, hex: '#56C7E1', ratio: 0.13}
+        - {role: text, hex: '#0B1720', ratio: 0.13, locked: true}
+      moods: [computational, energetic, visual-first]
+      component_style: {cards: layered, connectors: kinetic, corners: soft, ornament_density: expressive}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]

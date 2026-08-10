@@ -1,0 +1,66 @@
+schema_version: '0.5'
+conference_id: asco
+year: 2026
+design_status: conference-inspired
+rights:
+  owner: PostEx
+  license: Apache-2.0
+  conference_logo_used: false
+  official_template_used: false
+  official_endorsement: false
+  notice: Independent PostEx palette system; no ASCO artwork, logo, or template is bundled.
+palettes:
+  - mode: conference-safe
+    recommended: false
+    dna:
+      palette_id: asco-2026-conference-safe
+      name: ASCO 2026 · Conference Safe
+      source_type: conference-inspired
+      source_reference: Independent PostEx clinical-oncology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F7FAFC', ratio: 0.34}
+        - {role: primary, hex: '#123B5D', ratio: 0.18}
+        - {role: secondary, hex: '#2B6F77', ratio: 0.14}
+        - {role: highlight, hex: '#4CA6A8', ratio: 0.10}
+        - {role: accent, hex: '#C9E3E2', ratio: 0.12}
+        - {role: text, hex: '#15212A', ratio: 0.12, locked: true}
+      moods: [clinical, restrained, trustworthy]
+      component_style: {cards: anchored, connectors: evidence-led, corners: structured, ornament_density: minimal}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: balanced-fusion
+    recommended: true
+    dna:
+      palette_id: asco-2026-balanced-fusion
+      name: ASCO 2026 · Balanced Fusion
+      source_type: conference-inspired
+      source_reference: Independent PostEx clinical-oncology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F4FAFA', ratio: 0.30}
+        - {role: primary, hex: '#123D57', ratio: 0.20}
+        - {role: secondary, hex: '#177E89', ratio: 0.14}
+        - {role: highlight, hex: '#E9A23B', ratio: 0.10}
+        - {role: accent, hex: '#8FD0C9', ratio: 0.12}
+        - {role: text, hex: '#15252D', ratio: 0.14, locked: true}
+      moods: [clinical, translational, clear]
+      component_style: {cards: layered, connectors: outcome-led, corners: soft, ornament_density: restrained}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: visual-signature
+    recommended: false
+    dna:
+      palette_id: asco-2026-visual-signature
+      name: ASCO 2026 · Visual Signature
+      source_type: conference-inspired
+      source_reference: Independent PostEx clinical-oncology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#EEF9F8', ratio: 0.24}
+        - {role: primary, hex: '#082F49', ratio: 0.22}
+        - {role: secondary, hex: '#007C83', ratio: 0.16}
+        - {role: highlight, hex: '#F4A11A', ratio: 0.12}
+        - {role: accent, hex: '#4FC3B5', ratio: 0.13}
+        - {role: text, hex: '#0F1E25', ratio: 0.13, locked: true}
+      moods: [oncology, decisive, result-forward]
+      component_style: {cards: layered, connectors: translational, corners: soft, ornament_density: expressive}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]

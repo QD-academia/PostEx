@@ -1,0 +1,19 @@
+schema_version: '0.5'
+conference_id: cvpr
+name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+acronym: CVPR
+organizer: IEEE Computer Society and Computer Vision Foundation
+recurrence: annual
+domains:
+  - computer-science
+  - artificial-intelligence
+topics:
+  - computer-vision
+  - machine-learning
+official_url: https://cvpr.thecvf.com/
+rights:
+  identity_reference: metadata-only
+  logos_bundled: false
+  official_templates_bundled: false
+  endorsement_implied: false
+  notice: CVPR names are used only to identify the target event; this pack is not an official CVPR template or endorsement.

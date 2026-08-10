@@ -1,0 +1,138 @@
+schema_version: '0.5'
+conference_id: cvpr
+year: 2026
+edition_id: cvpr-2026
+verification:
+  state: verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Main-conference physical poster canvas, print-file guidance, layout guidance, and presentation guidance.
+  unverified_fields: []
+presentations:
+  - presentation_id: main-poster
+    kind: physical-poster
+    official_canvas:
+      status: exact
+      width_in: 84
+      height_in: 42
+      orientation: landscape
+    postex_canvas:
+      width_in: 84
+      height_in: 42
+      orientation: landscape
+      basis: Exact official main-conference dimensions.
+provenance:
+  - provenance_id: cvpr-2026-poster-printing
+    authority: conference
+    source_type: official-guidelines
+    title: CVPR 2026 Poster Printing Information
+    url: https://cvpr.thecvf.com/Conferences/2026/PosterPrinting
+    accessed_at: '2026-08-10'
+    locator: General Poster Information and Main Conference Posters
+    evidence_summary: Defines the 84 by 42 inch landscape canvas and provides PDF, resolution, bleed, column-count, figure-density, and talk-duration guidance.
+rules:
+  - rule_id: cvpr.canvas.width
+    label: Official poster width
+    origin: official
+    level: required
+    applies_to: main-poster
+    path: canvas.width_in
+    operator: equals
+    expected: 84
+    tolerance: 0.05
+    provenance_ref: cvpr-2026-poster-printing
+    message: Main-conference posters must be 84 inches wide.
+  - rule_id: cvpr.canvas.height
+    label: Official poster height
+    origin: official
+    level: required
+    applies_to: main-poster
+    path: canvas.height_in
+    operator: equals
+    expected: 42
+    tolerance: 0.05
+    provenance_ref: cvpr-2026-poster-printing
+    message: Main-conference posters must be 42 inches high.
+  - rule_id: cvpr.canvas.orientation
+    label: Official landscape orientation
+    origin: official
+    level: required
+    applies_to: main-poster
+    path: canvas.orientation
+    operator: equals
+    expected: landscape
+    provenance_ref: cvpr-2026-poster-printing
+    message: Use landscape orientation.
+  - rule_id: cvpr.export.format
+    label: Preferred print format
+    origin: official
+    level: recommended
+    applies_to: main-poster
+    path: export.format
+    operator: one_of
+    expected: [pdf]
+    provenance_ref: cvpr-2026-poster-printing
+    message: PDF is the preferred print-service format.
+  - rule_id: cvpr.export.dpi
+    label: Recommended raster resolution
+    origin: official
+    level: recommended
+    applies_to: main-poster
+    path: export.effective_dpi
+    operator: minimum
+    expected: 100
+    provenance_ref: cvpr-2026-poster-printing
+    message: Use at least 100 DPI at full size or vector artwork.
+  - rule_id: cvpr.export.bleed
+    label: No print bleed
+    origin: official
+    level: required
+    applies_to: main-poster
+    path: export.has_bleed
+    operator: equals
+    expected: false
+    provenance_ref: cvpr-2026-poster-printing
+    message: Do not include bleed in the print file.
+  - rule_id: cvpr.layout.columns
+    label: Recommended column count
+    origin: official
+    level: recommended
+    applies_to: main-poster
+    path: layout.column_count
+    operator: between
+    expected: [3, 4]
+    provenance_ref: cvpr-2026-poster-printing
+    message: A three- or four-column layout is recommended.
+  - rule_id: cvpr.presentation.duration
+    label: Poster talk duration
+    origin: official
+    level: recommended
+    applies_to: main-poster
+    path: presentation.duration_minutes
+    operator: between
+    expected: [5, 10]
+    provenance_ref: cvpr-2026-poster-printing
+    message: Design the poster to support a five- to ten-minute explanation.
+  - rule_id: cvpr.postex.body-font
+    label: PostEx distance-readable body type
+    origin: postex
+    level: postex
+    applies_to: main-poster
+    path: typography.minimum_body_font_pt
+    operator: minimum
+    expected: 28
+    message: PostEx recommends at least 28 point body type for this large-format canvas.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures:
+    - visual-journey
+    - hero-result
+  discouraged_structures:
+    - text-heavy
+  figure_density: very-high
+  text_density: low
+  research_emphasis:
+    method: high
+    qualitative-results: very-high
+    benchmark: high
+    ablation: medium

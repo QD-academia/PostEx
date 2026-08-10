@@ -4,6 +4,29 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.5.0a1] - 2026-08-10
+
+### Added
+
+- Conference Intelligence schemas for stable conference identity, annual editions, preflight rules, Conference Palette DNA, and registry discovery.
+- Schema-validated 2026 Conference Packs for CVPR, AACR, ASCO, ESMO, RSNA, AHA Scientific Sessions, and ESC Congress.
+- Explicit Official Requirement, Official Recommendation, and PostEx Recommendation origins with source-bound provenance and verification gaps.
+- Declarative conference preflight operators for equality, membership, numeric limits, ranges, presence, absence, and conditional presence.
+- Generic Conference Pack to Palette DNA/renderer context adapter with no conference-specific renderer branches.
+- GitHub-style Epic/Issue backlog for the 30-pack catalog, Research Archetypes, Conference Canvas Engine, integrated Preflight, and regression testing.
+
+### Changed
+
+- Project schema and package version now accept the v0.5 Conference Intelligence selection contract while retaining v0.1-v0.4 compatibility.
+- Palette DNA accepts rights-safe `conference-inspired` sources.
+- Conference canvas contracts distinguish exact, bounded, and unspecified official geometry from temporary PostEx canvas recommendations.
+
+### Verification
+
+- ASCO and ESC Congress have verified public 2026 poster/ePoster technical scopes.
+- AACR, ESMO, RSNA, and AHA preserve named unverified fields rather than importing prior-year or third-party dimensions.
+- 48 tests and 18 subtests pass together with Ruff, strict mypy, repository audit, and diff checks.
+
 ## [0.4.0a1] - 2026-08-10
 
 ### Added

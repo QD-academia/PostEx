@@ -41,6 +41,7 @@ def load_project(path: str | Path) -> ProjectConfig:
         fusion=dict(data.get("fusion", {})),
         artifacts=dict(data.get("artifacts", {})),
         provenance=dict(data.get("provenance", {"enabled": True})),
+        conference=dict(data.get("conference", {})),
         materials=tuple(
             dict(item) for item in data.get("materials", []) if isinstance(item, dict)
         ),

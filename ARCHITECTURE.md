@@ -1,4 +1,21 @@
-# PostEx™ v0.4 Architecture
+# PostEx™ v0.5 Architecture
+
+## Conference Intelligence boundary
+
+The v0.5 P0/P1 layer is data-first. `ConferenceRegistry` validates and joins stable conference identity, annual edition requirements, Conference Palette DNA, provenance, rights, and verification. `ConferencePreflightValidator` evaluates declarative rules against a normalized artifact snapshot. `ConferenceRenderContext` maps only generic canvas, theme, and layout tokens into the existing renderer contract; conference IDs never select renderer code paths.
+
+```mermaid
+flowchart LR
+  I["Conference identity"] --> G["Conference registry"]
+  E["Year-specific edition + provenance"] --> G
+  P["PostEx-owned Palette DNA"] --> G
+  G --> C["Generic render context"]
+  C --> R["Existing renderer"]
+  G --> V["Conference preflight rules"]
+  A["Normalized artifact snapshot"] --> V
+```
+
+Official requirements and organizer recommendations use `origin: official`, an explicit `required` or `recommended` level, and a valid `provenance_ref`. Design guidance uses `origin: postex` and `level: postex`. A partially verified edition lists every known gap rather than filling it from prior-year or third-party material.
 
 ## 0. Trusted Export boundary
 
@@ -77,6 +94,8 @@ Cloud providers sit behind the local privacy gate and receive only `ApprovedClou
 | `provenance` | Stable source ID, visual-mark policy, omission approval, and file metadata |
 | `manifest` | Trusted Export inventory, license/approval references, and SHA-256 records |
 | `preflight` | Draft/release diagnostics, integrity verification, and publication gate |
+| `conference` | Conference registry, schema composition, Palette DNA, and renderer tokens |
+| `conference_preflight` | Declarative edition-rule evaluation against normalized artifact facts |
 | `workflow` | v0.1 compatibility flow and v0.2 Palette Fusion flow |
 | `cli` | Thin user-facing command surface |
 

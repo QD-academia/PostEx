@@ -16,6 +16,10 @@ Render all three structural directions, automatic composite-panel detection, vis
 
 At least twelve licensed real-paper evaluations, both launch profiles end-to-end, cross-platform PowerPoint/LibreOffice checks, print samples, privacy review, and Codex/Claude Skill forward tests.
 
+## v0.5 alpha — Conference Intelligence foundations
+
+Editioned Conference Pack schemas and registry, CVPR 2026 and AACR 2026 goldens, declarative conference preflight, generic Palette DNA/renderer context, verification, provenance, rights, and the staged 30-pack backlog.
+
 ## Later
 
-Visual Results family, conference packs, `.postex` reproducible project bundles, custom annotated templates, web review/collaboration, and ecosystem integrations.
+Conference-native Canvas Engine, Research Archetypes, the reviewed 30-pack catalog, `.postex` reproducible project bundles, custom annotated templates, web review/collaboration, and ecosystem integrations.

@@ -1,0 +1,73 @@
+schema_version: '0.5'
+conference_id: esmo
+year: 2026
+edition_id: esmo-2026
+verification:
+  state: partially-verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Conference identity and public meeting page availability; detailed 2026 poster preparation instructions were not publicly verifiable in the reviewed sources.
+  unverified_fields:
+    - physical-poster.canvas
+    - physical-poster.content-requirements
+    - e-poster.technical-requirements
+presentations:
+  - presentation_id: physical-poster
+    kind: physical-poster
+    official_canvas:
+      status: unspecified
+      orientation: unspecified
+    postex_canvas:
+      width_in: 48
+      height_in: 36
+      orientation: landscape
+      basis: Temporary PostEx canvas pending public ESMO 2026 presenter instructions; not an official dimension.
+provenance:
+  - provenance_id: esmo-2026-meeting-page
+    authority: organizer
+    source_type: official-meeting-page
+    title: ESMO Congress 2026
+    url: https://www.esmo.org/meeting-calendar/esmo-congress-2026
+    accessed_at: '2026-08-10'
+    locator: Official ESMO Meeting Calendar entry
+    evidence_summary: Establishes the 2026 congress identity; detailed public poster technical requirements were not available in the reviewed page set.
+rules:
+  - rule_id: esmo.postex.canvas-width
+    label: Temporary PostEx canvas width
+    origin: postex
+    level: postex
+    applies_to: physical-poster
+    path: canvas.width_in
+    operator: equals
+    expected: 48
+    tolerance: 0.05
+    message: PostEx temporarily recommends 48 inches pending the official ESMO 2026 presenter specification.
+  - rule_id: esmo.postex.canvas-height
+    label: Temporary PostEx canvas height
+    origin: postex
+    level: postex
+    applies_to: physical-poster
+    path: canvas.height_in
+    operator: equals
+    expected: 36
+    tolerance: 0.05
+    message: PostEx temporarily recommends 36 inches pending the official ESMO 2026 presenter specification.
+  - rule_id: esmo.postex.body-font
+    label: PostEx distance-readable body type
+    origin: postex
+    level: postex
+    path: typography.minimum_body_font_pt
+    operator: minimum
+    expected: 28
+    message: PostEx recommends at least 28 point body type for the temporary physical canvas.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures: [hero-result, editorial-story]
+  discouraged_structures: [text-heavy]
+  figure_density: high
+  text_density: low
+  research_emphasis:
+    clinical-benefit: very-high
+    patient-population: high
+    safety: high
+    practice-implication: very-high

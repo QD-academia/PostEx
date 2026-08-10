@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.5/conference.schema.json",
+  "title": "PostEx Conference Identity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "conference_id", "name", "acronym", "organizer", "domains", "topics", "official_url", "rights"],
+  "properties": {
+    "schema_version": {"const": "0.5"},
+    "conference_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+    "name": {"type": "string", "minLength": 1},
+    "acronym": {"type": "string", "minLength": 1, "maxLength": 32},
+    "organizer": {"type": "string", "minLength": 1},
+    "recurrence": {"enum": ["annual", "biennial", "irregular"]},
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"enum": ["medicine", "biology", "environment", "computer-science", "artificial-intelligence"]}
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"}
+    },
+    "official_url": {"type": "string", "format": "uri"},
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["identity_reference", "logos_bundled", "official_templates_bundled", "endorsement_implied"],
+      "properties": {
+        "identity_reference": {"const": "metadata-only"},
+        "logos_bundled": {"const": false},
+        "official_templates_bundled": {"const": false},
+        "endorsement_implied": {"const": false},
+        "notice": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+schema_version: '0.5'
+conference_id: rsna
+year: 2026
+design_status: conference-inspired
+rights:
+  owner: PostEx
+  license: Apache-2.0
+  conference_logo_used: false
+  official_template_used: false
+  official_endorsement: false
+  notice: Independent PostEx palette system; no RSNA artwork, logo, or template is bundled.
+palettes:
+  - mode: conference-safe
+    recommended: false
+    dna:
+      palette_id: rsna-2026-conference-safe
+      name: RSNA 2026 · Conference Safe
+      source_type: conference-inspired
+      source_reference: Independent PostEx radiology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F7FAFD', ratio: 0.34}
+        - {role: primary, hex: '#173A5E', ratio: 0.18}
+        - {role: secondary, hex: '#4B6F8F', ratio: 0.14}
+        - {role: highlight, hex: '#3E8FC2', ratio: 0.10}
+        - {role: accent, hex: '#C9DEEC', ratio: 0.12}
+        - {role: text, hex: '#111D29', ratio: 0.12, locked: true}
+      moods: [diagnostic, restrained, precise]
+      component_style: {cards: anchored, connectors: precise, corners: structured, ornament_density: minimal}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: balanced-fusion
+    recommended: true
+    dna:
+      palette_id: rsna-2026-balanced-fusion
+      name: RSNA 2026 · Balanced Fusion
+      source_type: conference-inspired
+      source_reference: Independent PostEx radiology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F4F9FC', ratio: 0.30}
+        - {role: primary, hex: '#123B61', ratio: 0.20}
+        - {role: secondary, hex: '#387DA3', ratio: 0.14}
+        - {role: highlight, hex: '#6A5ACD', ratio: 0.10}
+        - {role: accent, hex: '#8CCDE8', ratio: 0.12}
+        - {role: text, hex: '#14212C', ratio: 0.14, locked: true}
+      moods: [diagnostic, technical, visual]
+      component_style: {cards: layered, connectors: image-led, corners: soft, ornament_density: restrained}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: visual-signature
+    recommended: false
+    dna:
+      palette_id: rsna-2026-visual-signature
+      name: RSNA 2026 · Visual Signature
+      source_type: conference-inspired
+      source_reference: Independent PostEx radiology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#EDF8FC', ratio: 0.24}
+        - {role: primary, hex: '#082E52', ratio: 0.22}
+        - {role: secondary, hex: '#007AA3', ratio: 0.16}
+        - {role: highlight, hex: '#7257D9', ratio: 0.12}
+        - {role: accent, hex: '#51C4E8', ratio: 0.13}
+        - {role: text, hex: '#0B1722', ratio: 0.13, locked: true}
+      moods: [imaging, computational, visual-first]
+      component_style: {cards: layered, connectors: diagnostic, corners: soft, ornament_density: expressive}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]

@@ -1,0 +1,74 @@
+schema_version: '0.5'
+conference_id: rsna
+year: 2026
+edition_id: rsna-2026
+verification:
+  state: partially-verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Official 2026 presenter-resource availability; public page states that detailed 2026 instructions will be released later.
+  unverified_fields:
+    - hardcopy-poster.canvas
+    - hardcopy-poster.print-specification
+    - digital-presentation.technical-requirements
+presentations:
+  - presentation_id: hardcopy-poster
+    kind: physical-poster
+    official_canvas:
+      status: unspecified
+      orientation: unspecified
+    postex_canvas:
+      width_in: 72
+      height_in: 42
+      orientation: landscape
+      basis: Temporary PostEx canvas pending publication of the RSNA 2026 hardcopy guidelines; not an official 2026 dimension.
+provenance:
+  - provenance_id: rsna-2026-presenter-resources
+    authority: organizer
+    source_type: official-meeting-page
+    title: RSNA Resources for Scientific Paper Presenters
+    url: https://www.rsna.org/annual-meeting/attendee-resources/faculty-and-presenter-resources/resources-for-scientific-paper-presenters
+    accessed_at: '2026-08-10'
+    locator: Additional resources
+    evidence_summary: The official 2026 resource page indicates that detailed presenter and upload instructions will be made available later; it does not verify current poster geometry.
+rules:
+  - rule_id: rsna.postex.canvas-width
+    label: Temporary PostEx canvas width
+    origin: postex
+    level: postex
+    applies_to: hardcopy-poster
+    path: canvas.width_in
+    operator: equals
+    expected: 72
+    tolerance: 0.05
+    message: PostEx temporarily recommends 72 inches pending the official RSNA 2026 hardcopy specification.
+  - rule_id: rsna.postex.canvas-height
+    label: Temporary PostEx canvas height
+    origin: postex
+    level: postex
+    applies_to: hardcopy-poster
+    path: canvas.height_in
+    operator: equals
+    expected: 42
+    tolerance: 0.05
+    message: PostEx temporarily recommends 42 inches pending the official RSNA 2026 hardcopy specification.
+  - rule_id: rsna.postex.image-dpi
+    label: PostEx diagnostic-image resolution
+    origin: postex
+    level: postex
+    applies_to: hardcopy-poster
+    path: export.effective_dpi
+    operator: minimum
+    expected: 200
+    message: PostEx recommends at least 200 effective DPI for diagnostic imagery unless vector content is used.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures: [visual-journey, hero-result]
+  discouraged_structures: [text-heavy]
+  figure_density: very-high
+  text_density: low
+  research_emphasis:
+    imaging-finding: very-high
+    diagnostic-performance: high
+    qualitative-comparison: very-high
+    clinical-relevance: high

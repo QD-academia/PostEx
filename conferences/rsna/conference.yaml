@@ -1,0 +1,15 @@
+schema_version: '0.5'
+conference_id: rsna
+name: RSNA Annual Meeting
+acronym: RSNA
+organizer: Radiological Society of North America
+recurrence: annual
+domains: [medicine, computer-science, artificial-intelligence]
+topics: [radiology, medical-imaging, imaging-informatics]
+official_url: https://www.rsna.org/annual-meeting
+rights:
+  identity_reference: metadata-only
+  logos_bundled: false
+  official_templates_bundled: false
+  endorsement_implied: false
+  notice: RSNA names are used only to identify the target event; this pack is not an official RSNA template or endorsement.

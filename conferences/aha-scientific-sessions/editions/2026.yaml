@@ -1,0 +1,84 @@
+schema_version: '0.5'
+conference_id: aha-scientific-sessions
+year: 2026
+edition_id: aha-scientific-sessions-2026
+verification:
+  state: partially-verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Presentation formats, mandatory companion online e-poster, and presentation language; detailed poster-board specifications remain pending.
+  unverified_fields:
+    - poster-board.canvas
+    - online-eposter.technical-requirements
+presentations:
+  - presentation_id: poster-board
+    kind: physical-poster
+    official_canvas:
+      status: unspecified
+      orientation: unspecified
+    postex_canvas:
+      width_in: 72
+      height_in: 42
+      orientation: landscape
+      basis: Temporary PostEx canvas pending AHA 2026 acceptance instructions; not an official dimension.
+provenance:
+  - provenance_id: aha-2026-submit-science
+    authority: organizer
+    source_type: official-guidelines
+    title: AHA Scientific Sessions 2026 Submit Science
+    url: https://professional.heart.org/en/meetings/scientific-sessions/submit-science
+    accessed_at: '2026-08-10'
+    locator: Presentation formats and online e-poster notice
+    evidence_summary: States that accepted abstracts may be poster-board or moderated digital poster presentations, requires all poster presentation types to submit an online e-poster, and specifies English presentations.
+rules:
+  - rule_id: aha.submission.eposter
+    label: Online e-poster submitted
+    origin: official
+    level: required
+    applies_to: poster-board
+    path: submission.eposter_submitted
+    operator: equals
+    expected: true
+    provenance_ref: aha-2026-submit-science
+    message: Every poster presentation type must also be submitted as an online e-poster.
+  - rule_id: aha.content.language
+    label: Presentation language
+    origin: official
+    level: required
+    applies_to: poster-board
+    path: content.language
+    operator: equals
+    expected: en
+    provenance_ref: aha-2026-submit-science
+    message: Presentations and question-and-answer sessions are conducted in English.
+  - rule_id: aha.postex.canvas-width
+    label: Temporary PostEx canvas width
+    origin: postex
+    level: postex
+    applies_to: poster-board
+    path: canvas.width_in
+    operator: equals
+    expected: 72
+    tolerance: 0.05
+    message: PostEx temporarily recommends 72 inches pending the official AHA 2026 board specification.
+  - rule_id: aha.postex.canvas-height
+    label: Temporary PostEx canvas height
+    origin: postex
+    level: postex
+    applies_to: poster-board
+    path: canvas.height_in
+    operator: equals
+    expected: 42
+    tolerance: 0.05
+    message: PostEx temporarily recommends 42 inches pending the official AHA 2026 board specification.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures: [hero-result, editorial-story]
+  discouraged_structures: [text-heavy]
+  figure_density: high
+  text_density: low
+  research_emphasis:
+    primary-outcome: very-high
+    population: high
+    cardiovascular-risk: high
+    clinical-implication: very-high

@@ -1,0 +1,66 @@
+schema_version: '0.5'
+conference_id: aacr
+year: 2026
+design_status: conference-inspired
+rights:
+  owner: PostEx
+  license: Apache-2.0
+  conference_logo_used: false
+  official_template_used: false
+  official_endorsement: false
+  notice: Independent PostEx palette system for conference-compatible use; no AACR artwork, logo, or template is bundled.
+palettes:
+  - mode: conference-safe
+    recommended: false
+    dna:
+      palette_id: aacr-2026-conference-safe
+      name: AACR 2026 · Conference Safe
+      source_type: conference-inspired
+      source_reference: Independent PostEx interpretation for AACR 2026; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FAF8F9', ratio: 0.34}
+        - {role: primary, hex: '#5A2038', ratio: 0.18}
+        - {role: secondary, hex: '#7D5364', ratio: 0.14}
+        - {role: highlight, hex: '#B35C44', ratio: 0.10}
+        - {role: accent, hex: '#E5D5DB', ratio: 0.12}
+        - {role: text, hex: '#211A1D', ratio: 0.12, locked: true}
+      moods: [clinical, restrained, authoritative]
+      component_style: {cards: anchored, connectors: restrained, corners: structured, ornament_density: minimal}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: balanced-fusion
+    recommended: true
+    dna:
+      palette_id: aacr-2026-balanced-fusion
+      name: AACR 2026 · Balanced Fusion
+      source_type: conference-inspired
+      source_reference: Independent PostEx interpretation for AACR 2026; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FBF7F8', ratio: 0.30}
+        - {role: primary, hex: '#6A1F3B', ratio: 0.20}
+        - {role: secondary, hex: '#9B4A64', ratio: 0.14}
+        - {role: highlight, hex: '#D67A3A', ratio: 0.10}
+        - {role: accent, hex: '#E8B7C5', ratio: 0.12}
+        - {role: text, hex: '#25181D', ratio: 0.14, locked: true}
+      moods: [translational, precise, warm]
+      component_style: {cards: layered, connectors: evidence-led, corners: soft, ornament_density: restrained}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: visual-signature
+    recommended: false
+    dna:
+      palette_id: aacr-2026-visual-signature
+      name: AACR 2026 · Visual Signature
+      source_type: conference-inspired
+      source_reference: Independent PostEx interpretation for AACR 2026; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FFF4F4', ratio: 0.24}
+        - {role: primary, hex: '#6B1236', ratio: 0.22}
+        - {role: secondary, hex: '#B02E5D', ratio: 0.16}
+        - {role: highlight, hex: '#F08A24', ratio: 0.12}
+        - {role: accent, hex: '#F2A7B9', ratio: 0.13}
+        - {role: text, hex: '#28131B', ratio: 0.13, locked: true}
+      moods: [biomedical, energetic, result-forward]
+      component_style: {cards: layered, connectors: translational, corners: soft, ornament_density: expressive}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]

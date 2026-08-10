@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.5/conference-palette.schema.json",
+  "title": "PostEx Conference Palette Set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "conference_id", "year", "design_status", "rights", "palettes"],
+  "properties": {
+    "schema_version": {"const": "0.5"},
+    "conference_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+    "year": {"type": "integer", "minimum": 2020, "maximum": 2100},
+    "design_status": {"const": "conference-inspired"},
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["owner", "license", "conference_logo_used", "official_template_used", "official_endorsement", "notice"],
+      "properties": {
+        "owner": {"const": "PostEx"},
+        "license": {"type": "string", "minLength": 1},
+        "conference_logo_used": {"const": false},
+        "official_template_used": {"const": false},
+        "official_endorsement": {"const": false},
+        "notice": {"type": "string", "minLength": 1}
+      }
+    },
+    "palettes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["mode", "recommended", "dna"],
+        "properties": {
+          "mode": {"enum": ["conference-safe", "balanced-fusion", "visual-signature"]},
+          "recommended": {"type": "boolean"},
+          "dna": {"$ref": "https://postex.dev/schemas/v0.2/palette-dna.schema.json"}
+        }
+      }
+    }
+  }
+}

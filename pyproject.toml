@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "postex"
-version = "0.4.0a1"
+version = "0.5.0a1"
 description = "Evidence-linked Palette Fusion for distinctive academic posters"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -43,6 +43,7 @@ packages = ["src/postex"]
 [tool.hatch.build.targets.wheel.force-include]
 "assets/templates" = "postex/assets/templates"
 "assets/palettes" = "postex/assets/palettes"
+"conferences" = "postex/conferences"
 "schemas" = "postex/schemas"
 
 [tool.hatch.build.targets.sdist]
@@ -52,6 +53,7 @@ include = [
   "/assets/palettes",
   "/schemas",
   "/configs",
+  "/conferences",
   "/skills",
   "/examples",
   "/tests",
@@ -79,7 +81,7 @@ python_version = "3.10"
 strict = true
 
 [[tool.mypy.overrides]]
-module = ["openai", "anthropic", "fitz"]
+module = ["openai", "anthropic", "fitz", "jsonschema"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]

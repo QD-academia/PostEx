@@ -1,0 +1,15 @@
+schema_version: '0.5'
+conference_id: aha-scientific-sessions
+name: American Heart Association Scientific Sessions
+acronym: AHA Scientific Sessions
+organizer: American Heart Association
+recurrence: annual
+domains: [medicine, biology]
+topics: [cardiovascular-medicine, clinical-cardiology, cardiovascular-science]
+official_url: https://professional.heart.org/en/meetings/scientific-sessions
+rights:
+  identity_reference: metadata-only
+  logos_bundled: false
+  official_templates_bundled: false
+  endorsement_implied: false
+  notice: AHA names are used only to identify the target event; this pack is not an official AHA template or endorsement.

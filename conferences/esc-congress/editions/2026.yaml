@@ -1,0 +1,163 @@
+schema_version: '0.5'
+conference_id: esc-congress
+year: 2026
+edition_id: esc-congress-2026
+verification:
+  state: verified
+  checked_at: '2026-08-10'
+  checked_by: PostEx maintainers
+  scope: Moderated ePoster and ePoster Round one-page PDF format, landscape 16:9 canvas, commentary, typography, imagery, logo, QR, video, and zoom-zone requirements.
+  unverified_fields: []
+presentations:
+  - presentation_id: moderated-eposter
+    kind: e-poster-pdf
+    official_canvas:
+      status: unspecified
+      orientation: landscape
+    postex_canvas:
+      width_in: 13.333
+      height_in: 7.5
+      orientation: landscape
+      basis: PostEx PowerPoint widescreen canvas implementing the official 16:9 landscape requirement; physical inches are not prescribed by ESC.
+provenance:
+  - provenance_id: esc-2026-presenter-guidelines
+    authority: organizer
+    source_type: official-guidelines
+    title: ESC Congress 2026 Presenter Guidelines
+    url: https://www.escardio.org/events/congresses/esc-congress/scientific-programme/faculty-presenters/abstract-presentation-guidelines/
+    accessed_at: '2026-08-10'
+    locator: Moderated ePoster or ePoster Round session and ePosters technical requirements
+    evidence_summary: Defines a single-page landscape 16:9 PDF, 3-minute commentary, prohibited ESC logos and QR codes, minimum 14-point type, 200 DPI images, no embedded video, and at least three zoom zones.
+rules:
+  - rule_id: esc.export.format
+    label: ePoster file format
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: export.format
+    operator: equals
+    expected: pdf
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Save the ePoster as a PDF file.
+  - rule_id: esc.export.page-count
+    label: Single-page ePoster
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: export.page_count
+    operator: equals
+    expected: 1
+    provenance_ref: esc-2026-presenter-guidelines
+    message: The ePoster must contain one page.
+  - rule_id: esc.canvas.orientation
+    label: Landscape orientation
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: canvas.orientation
+    operator: equals
+    expected: landscape
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Use landscape orientation.
+  - rule_id: esc.canvas.aspect-ratio
+    label: Widescreen aspect ratio
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: canvas.aspect_ratio
+    operator: equals
+    expected: 1.777778
+    tolerance: 0.002
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Use a 16:9 layout.
+  - rule_id: esc.typography.minimum-font
+    label: Minimum font size
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: typography.minimum_body_font_pt
+    operator: minimum
+    expected: 14
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Font size must be 14 points or larger.
+  - rule_id: esc.images.minimum-dpi
+    label: Minimum image resolution
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: export.effective_dpi
+    operator: minimum
+    expected: 200
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Images and tables must be at least 200 DPI.
+  - rule_id: esc.content.qr-code
+    label: No QR codes
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: content.has_qr_code
+    operator: equals
+    expected: false
+    provenance_ref: esc-2026-presenter-guidelines
+    message: QR codes are not allowed on ESC ePosters.
+  - rule_id: esc.content.official-logo
+    label: No ESC logo
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: content.has_organizer_logo
+    operator: equals
+    expected: false
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Do not use ESC, Association, Working Group, or Council logos.
+  - rule_id: esc.content.embedded-video
+    label: No embedded video
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: content.has_embedded_video
+    operator: equals
+    expected: false
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Do not insert or embed video in the ePoster file.
+  - rule_id: esc.presentation.commentary
+    label: Recorded commentary duration
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: presentation.commentary_minutes
+    operator: equals
+    expected: 3
+    tolerance: 0.1
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Record the required three-minute commentary.
+  - rule_id: esc.presentation.zoom-zones
+    label: Minimum zoom zones
+    origin: official
+    level: required
+    applies_to: moderated-eposter
+    path: presentation.zoom_zone_count
+    operator: minimum
+    expected: 3
+    provenance_ref: esc-2026-presenter-guidelines
+    message: Select at least three interactive zoom zones.
+  - rule_id: esc.postex.body-font
+    label: PostEx screen-readable body type
+    origin: postex
+    level: postex
+    applies_to: moderated-eposter
+    path: typography.minimum_body_font_pt
+    operator: minimum
+    expected: 20
+    message: PostEx recommends at least 20 point body type for screen reading, above the official 14-point minimum.
+recommendations:
+  label: PostEx Recommendation
+  preferred_structures: [hero-result, visual-journey]
+  discouraged_structures: [text-heavy]
+  figure_density: high
+  text_density: low
+  research_emphasis:
+    primary-outcome: very-high
+    methods: medium
+    risk-stratification: high
+    clinical-implication: very-high

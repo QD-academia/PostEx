@@ -1,4 +1,30 @@
-# PostEx™ v0.4 Product Requirements
+# PostEx™ v0.5 Product Requirements
+
+## v0.5 alpha objective — Conference Intelligence
+
+The first v0.5 milestone establishes a trustworthy conference-aware data and validation layer before catalog expansion. It includes:
+
+- separate schemas for conference identity, edition, rule, palette set, and registry;
+- year-specific packs with explicit verification state, source provenance, and rights posture;
+- CVPR 2026 and AACR 2026 golden packs;
+- a generic conference preflight rule model and validator interface;
+- a Palette DNA and renderer-context adapter with no conference-specific renderer branches;
+- an optional project-level `conference` selection contract;
+- a staged issue plan for 30 packs, Research Archetypes, Canvas Engine, integrated Preflight, and regression testing.
+
+The alpha must never infer an official rule from visual convention, prior years, third-party blogs, or PostEx design judgment. Every organizer claim is source-bound. Every PostEx-selected exact canvas, palette, density, structure, or typography value is labeled as a PostEx recommendation.
+
+### v0.5 alpha acceptance criteria
+
+- The full registry and both golden packs validate against Draft 2020-12 schemas.
+- Official rules cannot load without a provenance record in the same edition.
+- Exactly one of three Conference Palette DNA modes is recommended per pack.
+- The conference validator reports required failures separately from organizer and PostEx recommendations.
+- AACR's unverified physical-poster dimensions remain explicitly unverified.
+- Applying a Conference Pack changes generic canvas/theme/layout tokens and requires no CVPR/AACR branch in renderer code.
+- Existing v0.4 tests, Trusted Export goldens, lint, and strict type checking continue to pass.
+
+The remainder of this document retains the v0.4 production requirements that v0.5 builds upon.
 
 ## 0. Release objective
 

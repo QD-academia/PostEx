@@ -4,15 +4,42 @@
 
 <p align="center"><strong>Evidence-linked academic posters with a visual identity of their own.</strong></p>
 
-PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.4 adds **Trusted Export**: every generated poster is manifest-backed, approval-aware, integrity-checked, and preflighted without changing scientific image pixels. The curated 154-card palette library and Palette Fusion remain fully available.
+PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. Version 0.5 alpha introduces **Conference Intelligence** foundations on top of v0.4 Trusted Export: year-specific Conference Packs can supply verified requirements, independent PostEx recommendations, Palette DNA, canvas tokens, and machine-readable preflight rules without conference-specific renderer branches.
 
 The approved **Poster Frame** identity is available as an editable SVG brand kit with primary, horizontal, monochrome, reverse, favicon, and social-avatar variants. See the [PostEx brand system](docs/brand.md).
 
-> Status: `0.4.0a1`. Bioinformatics Pipeline, Observational Cohort, and Visual Results are production-renderable in A0, A1, and 36×48 landscape. Trusted Export emits PPTX, PDF, PNG, Preflight, evidence, and `postex-manifest.json` artifacts with digest-bound release controls.
+> Status: `0.5.0a1` foundation. The registry contains seven schema-validated Conference Packs: CVPR, AACR, ASCO, ESMO, RSNA, AHA Scientific Sessions, and ESC Congress 2026. The existing three template families remain production-renderable in A0, A1, and 36×48 landscape; arbitrary conference-native PPTX geometry is tracked as the next Canvas Engine milestone.
 
 ## Trusted Export
 
 Trusted Export binds inputs, templates, palettes, licensed assets, approvals, and output hashes in `postex-manifest.json`. It records the PostEx version, project and source IDs, input hash, template and dimensions, Palette ID, asset/license references, approvals, Preflight result, and output hashes. The Manifest never hashes itself. Any ERROR blocks release; any WARNING keeps output draft-only.
+
+## Conference Intelligence
+
+A Conference Pack separates what the event publishes from what PostEx designs:
+
+- **Official Requirement / Recommendation** records are edition-specific, source-bound, dated, and evaluated by the conference preflight validator.
+- **PostEx Recommendation** records describe layout, storytelling, exact fallback canvas choices, and visual treatment. They are never represented as organizer policy.
+- **Conference Palette DNA** is an independent PostEx interpretation. Golden packs bundle no conference logos or official templates and imply no endorsement.
+- **Verification** is explicit. Unknown public requirements remain unknown; for example, AACR 2026's public e-poster rules are modeled while its unverified physical-board dimensions are not invented.
+
+The registry contains the two original goldens plus a controlled medical batch:
+
+```text
+conferences/
+├── registry.yaml
+├── cvpr/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+├── aacr/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+├── asco/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+├── esmo/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+├── rsna/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+├── aha-scientific-sessions/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+└── esc-congress/{conference.yaml,editions/2026.yaml,palettes/2026.yaml}
+```
+
+ASCO and ESC have verified 2026 technical scopes. ESMO, RSNA, and AHA remain partially verified where public 2026 poster dimensions or upload details are pending; their exact PostEx canvases are visibly labeled as temporary recommendations.
+
+See [Conference Intelligence architecture](docs/conference-intelligence.md) and the executable [v0.5 Epic/Issue plan](TASKS.md).
 
 ## Built-in palette library
 
@@ -123,7 +150,7 @@ Give PostEx a paper and a visual idea—a mood, a place, an image, a brand, or a
 - **Editable and print-aware:** PPTX is canonical; PDF, PNG, preflight, evidence, and rationale reports accompany delivery.
 - **Trusted by construction:** file metadata, Manifest hashes, integrity checks, and final-release approval are enforced by the shared core and renderer.
 
-PostEx v0.4 prioritizes bioinformatics and observational biomedical research, Chinese/English input and output, and A0, A1, and 36×48-inch landscape posters.
+PostEx v0.5 alpha retains the v0.4 production boundary while adding conference schemas, packs, palette/render tokens, and a standalone conference validator. Conference-native template geometry and the full 30-pack catalog are not yet production-complete.
 
 ## Quick start
 
@@ -185,7 +212,8 @@ Changing an approved proposal changes its digest and invalidates the approval. L
 
 ```text
 src/postex/              shared Python core
-schemas/                 v0.1–v0.4 compatible JSON contracts
+schemas/                 v0.1–v0.5 compatible JSON contracts
+conferences/             registry plus year-specific Conference Packs
 configs/                 defaults and provider examples
 skills/                  Codex and Claude Code skill drafts
 assets/templates/        three families × three print sizes
@@ -194,6 +222,7 @@ examples/aurora-synthetic/ CC0 fictional golden example and three poster variant
 tests/                   unit and contract tests
 evals/                   quality cases plus 3-family × 3-size Trusted Export goldens
 docs/                    workflows, privacy, rendering, and design contracts
+TASKS.md                 executable v0.5 GitHub-style Epic/Issue backlog
 docker/                  container packaging
 ```
 

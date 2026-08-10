@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.5/conference-rule.schema.json",
+  "title": "PostEx Conference Preflight Rule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["rule_id", "label", "origin", "level", "path", "operator", "expected", "message"],
+  "properties": {
+    "rule_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9.-]{2,95}$"},
+    "label": {"type": "string", "minLength": 1},
+    "origin": {"enum": ["official", "postex"]},
+    "level": {"enum": ["required", "recommended", "postex"]},
+    "applies_to": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+    "path": {"type": "string", "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*$"},
+    "operator": {"enum": ["equals", "one_of", "minimum", "maximum", "between", "present", "absent", "present_if"]},
+    "expected": {},
+    "tolerance": {"type": "number", "minimum": 0},
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "equals"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*$"},
+        "equals": {}
+      }
+    },
+    "provenance_ref": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "message": {"type": "string", "minLength": 1}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"origin": {"const": "official"}}, "required": ["origin"]},
+      "then": {"required": ["provenance_ref"], "properties": {"level": {"enum": ["required", "recommended"]}}}
+    },
+    {
+      "if": {"properties": {"origin": {"const": "postex"}}, "required": ["origin"]},
+      "then": {"properties": {"level": {"const": "postex"}}}
+    },
+    {
+      "if": {"properties": {"operator": {"const": "present_if"}}, "required": ["operator"]},
+      "then": {"required": ["condition"]}
+    },
+    {
+      "if": {"properties": {"operator": {"const": "one_of"}}, "required": ["operator"]},
+      "then": {"properties": {"expected": {"type": "array", "minItems": 1, "uniqueItems": true}}}
+    },
+    {
+      "if": {"properties": {"operator": {"enum": ["minimum", "maximum"]}}, "required": ["operator"]},
+      "then": {"properties": {"expected": {"type": "number"}}}
+    },
+    {
+      "if": {"properties": {"operator": {"const": "between"}}, "required": ["operator"]},
+      "then": {
+        "properties": {
+          "expected": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {"type": "number"}
+          }
+        }
+      }
+    }
+  ]
+}

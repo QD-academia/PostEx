@@ -1,0 +1,20 @@
+schema_version: '0.5'
+conference_id: aacr
+name: AACR Annual Meeting
+acronym: AACR
+organizer: American Association for Cancer Research
+recurrence: annual
+domains:
+  - medicine
+  - biology
+topics:
+  - oncology
+  - cancer-biology
+  - translational-research
+official_url: https://www.aacr.org/meeting/aacr-annual-meeting-2026/
+rights:
+  identity_reference: metadata-only
+  logos_bundled: false
+  official_templates_bundled: false
+  endorsement_implied: false
+  notice: AACR names are used only to identify the target event; this pack is not an official AACR template or endorsement.

@@ -1,0 +1,66 @@
+schema_version: '0.5'
+conference_id: esmo
+year: 2026
+design_status: conference-inspired
+rights:
+  owner: PostEx
+  license: Apache-2.0
+  conference_logo_used: false
+  official_template_used: false
+  official_endorsement: false
+  notice: Independent PostEx palette system; no ESMO artwork, logo, or template is bundled.
+palettes:
+  - mode: conference-safe
+    recommended: false
+    dna:
+      palette_id: esmo-2026-conference-safe
+      name: ESMO 2026 · Conference Safe
+      source_type: conference-inspired
+      source_reference: Independent PostEx medical-oncology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#FAFAFC', ratio: 0.34}
+        - {role: primary, hex: '#27314A', ratio: 0.18}
+        - {role: secondary, hex: '#59627C', ratio: 0.14}
+        - {role: highlight, hex: '#A04F76', ratio: 0.10}
+        - {role: accent, hex: '#E1D6DF', ratio: 0.12}
+        - {role: text, hex: '#1A1D26', ratio: 0.12, locked: true}
+      moods: [clinical, restrained, European]
+      component_style: {cards: anchored, connectors: evidence-led, corners: structured, ornament_density: minimal}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: balanced-fusion
+    recommended: true
+    dna:
+      palette_id: esmo-2026-balanced-fusion
+      name: ESMO 2026 · Balanced Fusion
+      source_type: conference-inspired
+      source_reference: Independent PostEx medical-oncology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F9F7FA', ratio: 0.30}
+        - {role: primary, hex: '#2D264A', ratio: 0.20}
+        - {role: secondary, hex: '#6E4A80', ratio: 0.14}
+        - {role: highlight, hex: '#C95779', ratio: 0.10}
+        - {role: accent, hex: '#E6A7B8', ratio: 0.12}
+        - {role: text, hex: '#211A2B', ratio: 0.14, locked: true}
+      moods: [clinical, editorial, translational]
+      component_style: {cards: layered, connectors: outcome-led, corners: soft, ornament_density: restrained}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]
+  - mode: visual-signature
+    recommended: false
+    dna:
+      palette_id: esmo-2026-visual-signature
+      name: ESMO 2026 · Visual Signature
+      source_type: conference-inspired
+      source_reference: Independent PostEx medical-oncology interpretation; no official artwork used.
+      colors:
+        - {role: canvas, hex: '#F7F1FA', ratio: 0.24}
+        - {role: primary, hex: '#24133F', ratio: 0.22}
+        - {role: secondary, hex: '#6C2A85', ratio: 0.16}
+        - {role: highlight, hex: '#E34570', ratio: 0.12}
+        - {role: accent, hex: '#C894DC', ratio: 0.13}
+        - {role: text, hex: '#1C1028', ratio: 0.13, locked: true}
+      moods: [oncology, distinctive, result-forward]
+      component_style: {cards: layered, connectors: translational, corners: soft, ornament_density: expressive}
+      semantic_locks: [effect_direction, risk_level, significance]
+      simulations: [poster, deuteranopia, protanopia, grayscale, print]

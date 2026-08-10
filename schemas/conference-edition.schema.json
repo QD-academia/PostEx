@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://postex.dev/schemas/v0.5/conference-edition.schema.json",
+  "title": "PostEx Conference Edition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "conference_id", "year", "edition_id", "verification", "presentations", "provenance", "rules", "recommendations"],
+  "properties": {
+    "schema_version": {"const": "0.5"},
+    "conference_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+    "year": {"type": "integer", "minimum": 2020, "maximum": 2100},
+    "edition_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "checked_at", "checked_by", "scope", "unverified_fields"],
+      "properties": {
+        "state": {"enum": ["verified", "partially-verified", "community", "outdated"]},
+        "checked_at": {"type": "string", "format": "date"},
+        "checked_by": {"type": "string", "minLength": 1},
+        "scope": {"type": "string", "minLength": 1},
+        "unverified_fields": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "presentations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["presentation_id", "kind", "official_canvas"],
+        "properties": {
+          "presentation_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$"},
+          "kind": {"enum": ["physical-poster", "e-poster-pdf", "e-poster-video"]},
+          "official_canvas": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["status"],
+            "properties": {
+              "status": {"enum": ["exact", "range", "unspecified"]},
+              "width_in": {"type": "number", "exclusiveMinimum": 0},
+              "height_in": {"type": "number", "exclusiveMinimum": 0},
+              "min_width_in": {"type": "number", "exclusiveMinimum": 0},
+              "max_width_in": {"type": "number", "exclusiveMinimum": 0},
+              "min_height_in": {"type": "number", "exclusiveMinimum": 0},
+              "max_height_in": {"type": "number", "exclusiveMinimum": 0},
+              "orientation": {"enum": ["landscape", "portrait", "unspecified"]}
+            },
+            "allOf": [
+              {
+                "if": {"properties": {"status": {"const": "exact"}}, "required": ["status"]},
+                "then": {"required": ["width_in", "height_in", "orientation"]}
+              },
+              {
+                "if": {"properties": {"status": {"const": "range"}}, "required": ["status"]},
+                "then": {
+                  "anyOf": [
+                    {"required": ["min_width_in"]},
+                    {"required": ["max_width_in"]},
+                    {"required": ["min_height_in"]},
+                    {"required": ["max_height_in"]}
+                  ]
+                }
+              }
+            ]
+          },
+          "postex_canvas": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["width_in", "height_in", "orientation", "basis"],
+            "properties": {
+              "width_in": {"type": "number", "exclusiveMinimum": 0},
+              "height_in": {"type": "number", "exclusiveMinimum": 0},
+              "orientation": {"enum": ["landscape", "portrait"]},
+              "basis": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["provenance_id", "authority", "source_type", "title", "url", "accessed_at", "evidence_summary"],
+        "properties": {
+          "provenance_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+          "authority": {"enum": ["conference", "organizer"]},
+          "source_type": {"enum": ["official-guidelines", "official-meeting-page", "official-template-license"]},
+          "title": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "format": "uri"},
+          "accessed_at": {"type": "string", "format": "date"},
+          "locator": {"type": "string", "minLength": 1},
+          "evidence_summary": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "conference-rule.schema.json"}
+    },
+    "recommendations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "preferred_structures", "figure_density", "text_density", "research_emphasis"],
+      "properties": {
+        "label": {"const": "PostEx Recommendation"},
+        "preferred_structures": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["hero-result", "visual-journey", "editorial-story"]}},
+        "discouraged_structures": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "figure_density": {"enum": ["low", "medium", "high", "very-high"]},
+        "text_density": {"enum": ["low", "medium", "high"]},
+        "research_emphasis": {
+          "type": "object",
+          "additionalProperties": {"enum": ["low", "medium", "high", "very-high"]}
+        }
+      }
+    }
+  }
+}

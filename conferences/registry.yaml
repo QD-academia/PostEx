@@ -1,0 +1,51 @@
+schema_version: '0.5'
+packs:
+  - pack_id: cvpr-2026
+    conference_id: cvpr
+    year: 2026
+    status: golden
+    conference: cvpr/conference.yaml
+    edition: cvpr/editions/2026.yaml
+    palette: cvpr/palettes/2026.yaml
+  - pack_id: aacr-2026
+    conference_id: aacr
+    year: 2026
+    status: golden
+    conference: aacr/conference.yaml
+    edition: aacr/editions/2026.yaml
+    palette: aacr/palettes/2026.yaml
+  - pack_id: asco-2026
+    conference_id: asco
+    year: 2026
+    status: verified
+    conference: asco/conference.yaml
+    edition: asco/editions/2026.yaml
+    palette: asco/palettes/2026.yaml
+  - pack_id: esmo-2026
+    conference_id: esmo
+    year: 2026
+    status: partial
+    conference: esmo/conference.yaml
+    edition: esmo/editions/2026.yaml
+    palette: esmo/palettes/2026.yaml
+  - pack_id: rsna-2026
+    conference_id: rsna
+    year: 2026
+    status: partial
+    conference: rsna/conference.yaml
+    edition: rsna/editions/2026.yaml
+    palette: rsna/palettes/2026.yaml
+  - pack_id: aha-scientific-sessions-2026
+    conference_id: aha-scientific-sessions
+    year: 2026
+    status: partial
+    conference: aha-scientific-sessions/conference.yaml
+    edition: aha-scientific-sessions/editions/2026.yaml
+    palette: aha-scientific-sessions/palettes/2026.yaml
+  - pack_id: esc-congress-2026
+    conference_id: esc-congress
+    year: 2026
+    status: verified
+    conference: esc-congress/conference.yaml
+    edition: esc-congress/editions/2026.yaml
+    palette: esc-congress/palettes/2026.yaml
