@@ -1,0 +1,200 @@
+campaign:
+  id: genshin-study-identity
+  name: Genshin Study Identity
+  product_line: Give every study its own visual identity.
+  editorial_line: One paper. Seven regions. Seven visual identities.
+  registry_version: 1
+  updated_at: 2026-08-10
+
+status_contract:
+  allowed:
+    - planned
+    - rendering
+    - review
+    - ready
+    - published
+  ready_requires:
+    - poster_png
+    - editable_pptx
+    - palette_reference
+    - evidence_record
+    - preflight_report
+    - rights_review
+    - human_visual_review
+  published_requires:
+    - channel_copy_review
+    - links_verified
+    - rights_notice_present
+
+rights_boundary:
+  unofficial: true
+  affiliation_or_endorsement_implied: false
+  character_art_in_generated_poster_default: false
+  character_name_or_art_required_for_palette_use: false
+  rule: >-
+    Palette DNA may preserve named-theme provenance and original role-based color
+    values. Character artwork, game logos, screenshots, fonts, and other protected
+    media remain separate assets and may appear in promotional documentation only
+    when the applicable rights record permits that exact use.
+  public_notice: >-
+    Genshin-inspired Palette DNA is an unofficial visual interpretation. Generated
+    scientific posters do not embed character artwork by default, and no affiliation
+    or endorsement is implied.
+  references:
+    - ../../assets/palettes/rights.yaml
+    - ../licensing.md
+    - ../images/showcase/README.md
+
+identities:
+  - identity_id: study-identity-001-paimon
+    display_name: Paimon / Celestial Starlight
+    region: cross-region
+    status: ready
+    route: named-theme-interpretation
+    catalog_palette_id: null
+    campaign_angle: A friendly celestial identity with a strong evidence hierarchy.
+    suggested_domains:
+      - bioinformatics
+      - artificial-intelligence
+      - general-science
+    artifacts:
+      poster_png: ../../examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.png
+      editable_pptx: ../../examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.pptx
+      palette_reference: ../../examples/palette-fusion/outputs/palette/palette-candidates.json
+      evidence_record: ../../examples/aurora-synthetic/evidence.json
+      preflight_report: ../../examples/aurora-synthetic/output/paimon/preflight-report.json
+      rights_review: ../../examples/aurora-synthetic/ASSET_LICENSES.md
+
+  - identity_id: study-identity-002-varka
+    display_name: Varka / Wolf Teal
+    region: mondstadt-special
+    status: review
+    route: named-theme-and-image-sampling
+    catalog_palette_id: null
+    campaign_angle: A decisive, kinetic results axis with restrained high-energy accents.
+    suggested_domains:
+      - immunology
+      - engineering
+      - artificial-intelligence
+    artifacts:
+      poster_png: ../images/showcase/varka-poster.png
+      editable_pptx: null
+      palette_reference: ../images/showcase/README.md
+      evidence_record: ../images/showcase/README.md
+      preflight_report: ../images/showcase/README.md
+      rights_review: ../images/showcase/README.md
+    notes:
+      - The current showcase poster is approved for its existing documentation use.
+      - An editable campaign PPTX must be added before a downloadable campaign release.
+
+  - identity_id: study-identity-003-albedo
+    display_name: Albedo / Chalk Mineral
+    region: mondstadt
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-mondstadt-albedo
+    campaign_angle: Quiet mineral neutrals for precise methods and material evidence.
+    suggested_domains:
+      - chemistry
+      - materials-science
+      - fundamental-research
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-mondstadt-albedo.webp
+      palette: ../../assets/palettes/extracted/genshin-mondstadt-albedo.json
+      rights: ../../assets/palettes/rights.yaml
+
+  - identity_id: study-identity-004-zhongli
+    display_name: Zhongli / Geo Archive
+    region: liyue
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-liyue-zhongli
+    campaign_angle: Archival earth tones for stable, longitudinal scientific narratives.
+    suggested_domains:
+      - earth-science
+      - environmental-science
+      - longitudinal-studies
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-liyue-zhongli.webp
+      palette: ../../assets/palettes/extracted/genshin-liyue-zhongli.json
+      rights: ../../assets/palettes/rights.yaml
+
+  - identity_id: study-identity-005-raiden
+    display_name: Raiden Shogun / Electro Violet
+    region: inazuma
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-inazuma-raiden-shogun
+    campaign_angle: Controlled electric contrast for systems, computation, and performance.
+    suggested_domains:
+      - artificial-intelligence
+      - computer-science
+      - engineering
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-inazuma-raiden-shogun.webp
+      palette: ../../assets/palettes/extracted/genshin-inazuma-raiden-shogun.json
+      rights: ../../assets/palettes/rights.yaml
+
+  - identity_id: study-identity-006-nahida
+    display_name: Nahida / Verdant Wisdom
+    region: sumeru
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-sumeru-nahida
+    campaign_angle: Soft botanical structure for connected biological and ecological evidence.
+    suggested_domains:
+      - biology
+      - medicine
+      - environmental-science
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-sumeru-nahida.webp
+      palette: ../../assets/palettes/extracted/genshin-sumeru-nahida.json
+      rights: ../../assets/palettes/rights.yaml
+
+  - identity_id: study-identity-007-furina
+    display_name: Furina / Cerulean Theatre
+    region: fontaine
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-fontaine-furina
+    campaign_angle: Layered blue staging for visual results and multi-panel comparisons.
+    suggested_domains:
+      - computer-vision
+      - medical-imaging
+      - scientific-communication
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-fontaine-furina.webp
+      palette: ../../assets/palettes/extracted/genshin-fontaine-furina.json
+      rights: ../../assets/palettes/rights.yaml
+
+  - identity_id: study-identity-008-mavuika
+    display_name: Mavuika / Solar Ember
+    region: natlan
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-natlan-mavuika
+    campaign_angle: Warm momentum and decisive highlights for intervention and energy stories.
+    suggested_domains:
+      - energy
+      - intervention-studies
+      - engineering
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-natlan-mavuika.webp
+      palette: ../../assets/palettes/extracted/genshin-natlan-mavuika.json
+      rights: ../../assets/palettes/rights.yaml
+
+  - identity_id: study-identity-009-columbina
+    display_name: Columbina / Lunar Nocturne
+    region: nod-krai
+    status: planned
+    route: built-in-card
+    catalog_palette_id: genshin-nod-krai-columbina
+    campaign_angle: Cool nocturne layers for complex signals and high-dimensional evidence.
+    suggested_domains:
+      - genomics
+      - neuroscience
+      - high-dimensional-data
+    references:
+      card: ../../assets/palettes/cards/genshin-characters/genshin-nod-krai-columbina.webp
+      palette: ../../assets/palettes/extracted/genshin-nod-krai-columbina.json
+      rights: ../../assets/palettes/rights.yaml

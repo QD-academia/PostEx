@@ -4,6 +4,16 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+
+- Thirty-day organic promotion plan with launch-readiness gates, channel roles, operating targets, conversion metrics, and a weekly decision loop.
+- Genshin Study Identity campaign playbook and machine-readable nine-identity editorial registry with explicit `planned`, `review`, `ready`, and `published` boundaries.
+- Reusable English/Chinese launch copy, channel hooks, rights language, and a product-truth release checklist.
+
+### Changed
+
+- Repository first screen now leads with `Paper × Inspiration × Conference` and presents Inspiration, Conference Intelligence, and Trusted Export as one product system.
+
 ## [0.5.0a1] - 2026-08-10
 
 ### Added
