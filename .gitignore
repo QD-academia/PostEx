@@ -20,6 +20,7 @@ output/
 !assets/palettes/cutouts/*.png
 !assets/palettes/cards/**/*.png
 !assets/palettes/previews/*.png
+!assets/brand/exports/*.png
 !examples/aurora-synthetic/AURORA-12-synthetic-manuscript.pdf
 !examples/aurora-synthetic/output/**/*.pptx
 !examples/aurora-synthetic/output/**/*.pdf

@@ -18,7 +18,7 @@
   <a href="#quick-start">Quick start</a>
 </p>
 
-![One paper expressed through three evidence-linked PostEx visual identities](docs/images/aurora-three-palettes.png)
+[![PostEx 0.5 launch demo: visual identity, Palette DNA, Conference Intelligence, and Trusted Export](docs/media/postex-launch-demo.gif)](#see-postex-in-action)
 
 PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. It combines three layers that are usually separated:
 
@@ -29,6 +29,8 @@ PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, C
 | **Trust** | Evidence links, approvals, asset rights, preflight findings, and output hashes remain inspectable through Trusted Export. |
 
 Version 0.5 alpha introduces **Conference Intelligence** foundations on top of v0.4 Trusted Export. Conference Packs supply verified requirements, independent PostEx recommendations, Palette DNA, canvas tokens, and machine-readable preflight rules without conference-specific renderer branches.
+
+The reusable [launch animation](docs/media/postex-launch-demo.gif) and [1280×640 social preview](assets/brand/exports/postex-social-preview-1280x640.png) are generated from original PostEx branding and the CC0 AURORA-12 fixture; neither asset contains conference logos or third-party character art.
 
 > Status: `0.5.0a1` foundation. Seven schema-validated Conference Packs are included: CVPR, AACR, ASCO, ESMO, RSNA, AHA Scientific Sessions, and ESC Congress 2026. The existing three template families remain production-renderable in A0, A1, and 36×48 landscape; arbitrary conference-native PPTX geometry is tracked as the next Canvas Engine milestone.
 
