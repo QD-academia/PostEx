@@ -1,0 +1,40 @@
+name: Conference requirement changed
+description: Report a new or corrected official conference rule
+title: "[Requirement change]: "
+labels: ["conference-pack", "requirement-change", "needs-verification"]
+body:
+  - type: input
+    id: pack
+    attributes:
+      label: Conference Pack
+      placeholder: cvpr-2026
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL
+      placeholder: https://conference.example.org/presenter-instructions
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed?
+      description: State the old value, new value, and the page section or heading where it appears.
+    validations:
+      required: true
+  - type: input
+    id: observed
+    attributes:
+      label: Date observed
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is an organizer-controlled source, or I clearly identified why it is not.
+          required: true

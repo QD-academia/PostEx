@@ -50,15 +50,29 @@ packages = ["src/postex"]
 
 [tool.hatch.build.targets.wheel.force-include]
 "assets/templates" = "postex/assets/templates"
-"assets/palettes" = "postex/assets/palettes"
+"assets/palettes/catalog.yaml" = "postex/assets/palettes/catalog.yaml"
+"assets/palettes/rights.yaml" = "postex/assets/palettes/rights.yaml"
+"assets/palettes/cards.json" = "postex/assets/palettes/cards.json"
+"assets/palettes/extracted" = "postex/assets/palettes/extracted"
+"assets/palettes/README.md" = "postex/assets/palettes/README.md"
+"assets/palettes/ATTRIBUTION.md" = "postex/assets/palettes/ATTRIBUTION.md"
 "conferences" = "postex/conferences"
 "schemas" = "postex/schemas"
+"examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.pptx" = "postex/assets/demo/aurora-synthetic-paimon-cape-gradient-visual-signature.pptx"
+"examples/aurora-synthetic/output/paimon/aurora-synthetic-paimon-cape-gradient-visual-signature.png" = "postex/assets/demo/aurora-synthetic-paimon-cape-gradient-visual-signature.png"
+"examples/aurora-synthetic/output/paimon/evidence-report.json" = "postex/assets/demo/evidence-report.json"
+"examples/aurora-synthetic/output/paimon/preflight-report.json" = "postex/assets/demo/preflight-report.json"
 
 [tool.hatch.build.targets.sdist]
 include = [
   "/src",
   "/assets/templates",
-  "/assets/palettes",
+  "/assets/palettes/catalog.yaml",
+  "/assets/palettes/rights.yaml",
+  "/assets/palettes/cards.json",
+  "/assets/palettes/extracted",
+  "/assets/palettes/README.md",
+  "/assets/palettes/ATTRIBUTION.md",
   "/schemas",
   "/configs",
   "/conferences",

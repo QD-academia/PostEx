@@ -1,0 +1,48 @@
+name: Palette inspiration request
+description: Propose a visual source or theme for a new rights-aware Palette DNA study
+title: "[Palette inspiration]: "
+labels: ["palette", "inspiration", "needs-rights-review"]
+body:
+  - type: dropdown
+    id: route
+    attributes:
+      label: Inspiration route
+      options:
+        - Natural-language mood or concept
+        - User-owned image
+        - Public-domain or openly licensed image
+        - Institutional identity with permission
+        - Named-theme interpretation
+        - Manual colors
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Proposed identity name
+      placeholder: Clinical Emerald
+    validations:
+      required: true
+  - type: textarea
+    id: visual_language
+    attributes:
+      label: Visual language
+      description: Describe mood, hierarchy, rhythm, contrast, and the scientific context it should support.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source and rights
+      description: Add URLs, license, ownership, permission status, and required attribution. Do not upload media you cannot redistribute.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have described the source and rights honestly and have not assumed that public visibility means redistribution permission.
+          required: true
+        - label: I understand that named inspiration does not imply affiliation or endorsement.
+          required: true

@@ -1,0 +1,58 @@
+name: Conference Pack request
+description: Request a year-specific Conference Intelligence pack
+title: "[Conference Pack]: "
+labels: ["conference-pack", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping PostEx expand Conference Intelligence. Official organizer sources are required; PostEx never invents missing requirements.
+  - type: input
+    id: conference
+    attributes:
+      label: Conference and edition
+      description: Full name, acronym, and year.
+      placeholder: AACR Annual Meeting 2027
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Primary field
+      options:
+        - Medicine / clinical research
+        - Biology / life sciences
+        - Computer science / AI
+        - Environment / earth science
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official organizer sources
+      description: Link the poster guidelines, presenter instructions, or official conference page. One URL per line.
+      placeholder: https://conference.example.org/official-poster-guidelines
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Known requirements
+      description: Summarize canvas, orientation, export, typography, privacy, or content constraints. Mark uncertain facts as unknown.
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Why this pack matters
+      description: Who needs it and when is their poster deadline?
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Source and rights confirmation
+      options:
+        - label: I linked organizer-controlled sources rather than third-party summaries.
+          required: true
+        - label: I understand that conference logos and official templates will not be bundled without explicit rights.
+          required: true

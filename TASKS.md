@@ -70,3 +70,13 @@ Catalog completion means 30 unique conference objects, not 30 hard-coded templat
 - [ ] **CI-063 — Add cross-platform export matrix.** PowerPoint and LibreOffice on supported operating systems.
 - [ ] **CI-064 — Add accessibility checks.** Contrast, grayscale, CVD simulations, minimum type, reading distance, and alt-text expectations.
 - [ ] **CI-065 — Add release gate.** Full tests, repository audit, Ruff, strict mypy, schema audit, source freshness, rights review, and visual regression must pass.
+
+## Epic GROWTH-A — Trial and community conversion
+
+- [x] **GROWTH-001 — Add a no-key golden demo.** `postex demo` emits editable, preview, evidence, preflight, HTML, and hash-manifest artifacts without a network request.
+- [x] **GROWTH-002 — Split runtime from curation media.** The wheel carries palette metadata and extracted Palette DNA but excludes source images, cutouts, rendered cards, and contact sheets.
+- [x] **GROWTH-003 — Add community intake.** Structured forms cover Conference Pack requests, changed requirements, palette inspiration, ideas, and showcases with source, rights, and privacy guardrails.
+- [x] **GROWTH-004 — Build a lightweight gallery.** Feature audited visual-identity cases and point every card to an inspectable output or architecture page.
+- [ ] **GROWTH-005 — Enable GitHub Discussions and Pages.** Verify all category forms and gallery links in a logged-out browser.
+- [ ] **GROWTH-006 — Automate weekly traffic snapshots.** Preserve the rolling GitHub Traffic view and compute visitor-to-star, visitor-to-clone, and request conversion.
+- [ ] **GROWTH-007 — Add opt-in demo completion measurement.** Default to no telemetry; document any future anonymous event and consent boundary before implementation.

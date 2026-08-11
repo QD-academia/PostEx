@@ -13,12 +13,24 @@
 
 <p align="center">
   <a href="#see-postex-in-action">See it in action</a> ·
+  <a href="docs/gallery/index.html">Gallery</a> ·
   <a href="#built-in-palette-library">Explore 154 palettes</a> ·
   <a href="#conference-intelligence">Conference Intelligence</a> ·
   <a href="#quick-start">Quick start</a>
 </p>
 
 [![PostEx 0.5 launch demo: visual identity, Palette DNA, Conference Intelligence, and Trusted Export](docs/media/postex-launch-demo.gif)](#see-postex-in-action)
+
+**Try the complete, no-API-key golden demo:**
+
+```bash
+git clone https://github.com/QD-academia/PostEx.git
+cd PostEx
+python -m pip install .
+postex demo --output postex-demo
+```
+
+Open `postex-demo/index.html` to inspect the editable PPTX, poster preview, evidence report, preflight result, and artifact hashes. The command runs locally and makes no network request after installation.
 
 PostEx™ is an open-source, agent-friendly academic-poster toolkit for Codex, Claude Code, and the command line. It combines three layers that are usually separated:
 
@@ -34,7 +46,7 @@ The reusable [launch animation](docs/media/postex-launch-demo.gif) and [1280×64
 
 > Status: `0.5.0a1` foundation. Seven schema-validated Conference Packs are included: CVPR, AACR, ASCO, ESMO, RSNA, AHA Scientific Sessions, and ESC Congress 2026. The existing three template families remain production-renderable in A0, A1, and 36×48 landscape; arbitrary conference-native PPTX geometry is tracked as the next Canvas Engine milestone.
 
-The approved **Poster Frame** identity is available as an editable SVG brand kit. See the [PostEx brand system](docs/brand.md), the [30-day promotion plan](docs/promotion-plan.md), and the [Genshin Study Identity campaign](docs/marketing/genshin-study-identity.md).
+The approved **Poster Frame** identity is available as an editable SVG brand kit. See the [PostEx gallery](docs/gallery/index.html), [brand system](docs/brand.md), [30-day promotion plan](docs/promotion-plan.md), and [Genshin Study Identity campaign](docs/marketing/genshin-study-identity.md).
 
 ## Trusted Export
 
@@ -193,6 +205,15 @@ PostEx v0.5 alpha retains the v0.4 production boundary while adding conference s
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+pip install .
+
+# No API key, cloud account, or office application required:
+postex demo --output postex-demo
+```
+
+For development and your own projects:
+
+```bash
 pip install -e ".[dev]"
 
 postex brief-questions
@@ -203,6 +224,8 @@ postex fusion-plan examples/palette-fusion/project.yaml
 python -m unittest discover -s tests -v
 python scripts/check_repository.py
 ```
+
+See [packaging and media assets](docs/packaging.md) for the slim-wheel boundary and the full palette curation library.
 
 The two design commands create:
 

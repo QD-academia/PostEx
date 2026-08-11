@@ -1,0 +1,38 @@
+title: "[Showcase] "
+labels: ["showcase"]
+body:
+  - type: markdown
+    attributes:
+      value: Show what you made with PostEx. Remove private or unpublished scientific content before uploading.
+  - type: textarea
+    id: result
+    attributes:
+      label: Poster or workflow
+      description: Add an image, public link, or short screen recording.
+    validations:
+      required: true
+  - type: input
+    id: palette
+    attributes:
+      label: Palette DNA or inspiration
+      placeholder: Paimon-inspired Visual Signature
+  - type: input
+    id: conference
+    attributes:
+      label: Conference Pack
+      placeholder: aacr-2026
+  - type: textarea
+    id: learnings
+    attributes:
+      label: What worked, and what should improve?
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Sharing confirmation
+      options:
+        - label: I have permission to share the poster and all visible source material.
+          required: true
+        - label: I removed confidential, patient-identifiable, embargoed, or unpublished content.
+          required: true
