@@ -63,14 +63,14 @@ Do not begin the broad launch until the following items are complete or explicit
 - [x] Genshin Study Identity campaign registry and rights language
 - [x] Seven Conference Packs with explicit verification state
 - [x] Golden paper, editable PPTX, PDF, PNG, evidence, and approval records
-- [ ] 20–30 second product demonstration
-- [ ] 1280×640 repository social preview
-- [ ] Published `v0.5.0a1` GitHub Release
-- [ ] One-command, no-API-key golden demo
-- [ ] Lightweight public gallery or GitHub Pages site
+- [x] 20–30 second product demonstration
+- [x] 1280×640 repository social preview
+- [x] Published `v0.5.0a1` GitHub Release
+- [x] One-command, no-API-key golden demo
+- [x] Lightweight gallery implementation (GitHub Pages activation pending)
 - [ ] GitHub Discussions with Showcase, Q&A, and Conference Requests
-- [ ] `Request a Conference Pack` issue form
-- [ ] Core installation separated from optional large palette media
+- [x] Conference Pack, requirement-change, and palette-inspiration issue forms
+- [x] Core installation separated from optional large palette media
 
 The unchecked items are conversion work, not optional polish.
 
@@ -207,8 +207,23 @@ Every new palette identity, verified conference, and user case should create a u
 
 ## 11. Execution files
 
+- [Public gallery](gallery/index.html)
+- [No-key demo and media packaging boundary](packaging.md)
 - [Genshin Study Identity playbook](marketing/genshin-study-identity.md)
 - [Genshin identity status registry](marketing/genshin-study-identities.yaml)
 - [Reusable launch copy and release checklist](marketing/launch-kit.md)
 - [PostEx brand system](brand.md)
 - [Conference Intelligence architecture](conference-intelligence.md)
+
+## 12. Immediate launch sequence
+
+After the conversion-foundation branch is merged:
+
+1. Enable GitHub Discussions, using **Ideas**, **Q&A**, and **Show and tell**; the repository already contains matching forms.
+2. Enable GitHub Pages from the `main` branch `/docs` directory and verify the gallery logged out.
+3. Capture the GitHub Traffic baseline before publishing any link.
+4. Send the no-key demo to 10 hand-picked researchers; repair any repeated installation or comprehension problem.
+5. Publish **One Paper, Three Identities** on LinkedIn and X with one CTA: run the demo.
+6. Publish the Chinese case study on Zhihu or Xiaohongshu with one CTA: choose an inspiration identity.
+7. Post Show HN only after the public gallery and demo links work in a logged-out browser.
+8. At 24 hours and 7 days, record visitors, referrers, clones, stars, issue requests, and demo feedback; choose the next Conference Pack from requests.

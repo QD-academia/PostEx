@@ -6,6 +6,8 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ### Added
 
+- No-API-key `postex demo` command that unpacks the editable AURORA-12 golden poster, preview, evidence, preflight, HTML index, and artifact hashes without network access.
+- Lightweight visual-identity gallery plus structured Conference Pack, requirement-change, palette-inspiration, Q&A, idea, and showcase community forms.
 - Rights-safe 1280×640 GitHub Social Preview and reusable launch animation, with a deterministic Pillow builder.
 - Thirty-day organic promotion plan with launch-readiness gates, channel roles, operating targets, conversion metrics, and a weekly decision loop.
 - Genshin Study Identity campaign playbook and machine-readable nine-identity editorial registry with explicit `planned`, `review`, `ready`, and `published` boundaries.
@@ -13,6 +15,7 @@ All notable changes follow Keep a Changelog. Versions use Semantic Versioning.
 
 ### Changed
 
+- Installable wheel now carries runtime palette metadata and extracted Palette DNA while excluding roughly 200 MB of source, cutout, card, and contact-sheet curation media.
 - Repository first screen now leads with `Paper × Inspiration × Conference` and presents Inspiration, Conference Intelligence, and Trusted Export as one product system.
 
 ## [0.5.0a1] - 2026-08-10

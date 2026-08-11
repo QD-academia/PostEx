@@ -8,6 +8,7 @@ from typing import Any
 from postex import __version__
 from postex.brief import BRIEF_QUESTIONS, poster_brief_from_mapping
 from postex.config import load_mapping, load_project
+from postex.demo import create_golden_demo
 from postex.fusion import ContentSignals, FusionEngine
 from postex.generation import generate_project
 from postex.palette import (
@@ -165,6 +166,12 @@ def command_workflow_demo() -> int:
     return 0
 
 
+def command_demo(output: str) -> int:
+    result = create_golden_demo(output)
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    return 0
+
+
 def command_templates(root: str) -> int:
     registry = TemplateRegistry(root)
     print(json.dumps({"families": registry.families()}, indent=2))
@@ -281,6 +288,10 @@ def build_parser() -> argparse.ArgumentParser:
     plan = sub.add_parser("plan", help="Show the domain-aware poster plan")
     plan.add_argument("project")
     sub.add_parser("workflow-demo", help="Run a local approval-state demonstration")
+    demo = sub.add_parser(
+        "demo", help="Unpack the editable AURORA-12 golden demo without an API key"
+    )
+    demo.add_argument("--output", default="postex-demo")
     sub.add_parser("brief-questions", help="Print the PostEx pre-generation interview")
     fusion = sub.add_parser("fusion-plan", help="Create three Palette Fusion structure candidates")
     fusion.add_argument("project")
@@ -331,6 +342,8 @@ def main() -> int:
         return command_plan(args.project)
     if args.command == "workflow-demo":
         return command_workflow_demo()
+    if args.command == "demo":
+        return command_demo(args.output)
     if args.command == "brief-questions":
         return command_brief_questions()
     if args.command == "fusion-plan":
